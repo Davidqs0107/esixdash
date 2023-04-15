@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>components / image / small icon / activity / id added</title>
+    <g id="components-/-image-/-small-icon-/-activity-/-id-added" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon" transform="translate(1.500000, 6.500000)">
+            <path d="M24.9999374,13.748768 C24.9999374,15.5440369 23.4768188,17 21.5973456,17 L3.40196552,17 C1.52311859,17 0,15.5440369 0,13.748768 L0,3.25123205 C0,1.45596311 1.52311859,0 3.40196552,0 L21.5973456,0 C23.4768188,0 24.9999374,1.45596311 24.9999374,3.25123205 C24.9999374,5.50529194 24.9999374,7.42303811 24.9999374,9.00447057 C24.9999374,10.585903 24.9999374,12.1673355 24.9999374,13.748768 Z" id="Stroke-1" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"></path>
+            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="1.5" x="3.25" y="3.25" width="8.5" height="8.5" rx="2"></rect>
+            <circle id="Oval" fill="#FFFFFF" cx="7.5" cy="7" r="2"></circle>
+            <rect id="Rectangle" fill="#FFFFFF" x="5" y="9.5" width="5" height="3" rx="1"></rect>
+            <line x1="14.8" y1="8" x2="22.2" y2="8" id="Path-10" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"></line>
+            <line x1="14.8" y1="5" x2="22.2" y2="5" id="Path-10" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"></line>
+        </g>
+        <g id="components-/-image-/-med-icon-/-error" transform="translate(20.833333, 1.833333)">
+            <path d="M4.16666667,4.4408921e-16 C1.8766276,4.4408921e-16 0,1.8766276 0,4.16666667 C0,6.45670573 1.8766276,8.33333333 4.16666667,8.33333333 C6.45670573,8.33333333 8.33333333,6.45670573 8.33333333,4.16666667 C8.33333333,1.8766276 6.45670573,4.4408921e-16 4.16666667,4.4408921e-16 Z" id="Path" fill="#433AA8"></path>
+            <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" transform="translate(4.166667, 4.166667) rotate(45.000000) translate(-4.166667, -4.166667) " points="4.85512695 4.16666667 6.23697917 5.54851888 5.54851888 6.23697917 4.16666667 4.85512695 2.78481445 6.23697917 2.09635417 5.54851888 3.47820638 4.16666667 2.09635417 2.78481445 2.78481445 2.09635417 4.16666667 3.47820638 5.54851888 2.09635417 6.23697917 2.78481445"></polygon>
+            <path d="M8.33333333,4.16666667 C8.33333333,6.45670573 6.45670573,8.33333333 4.16666667,8.33333333 L4.16666667,4.4408921e-16 C6.45670573,4.4408921e-16 8.33333333,1.8766276 8.33333333,4.16666667 Z" id="Path" fill-opacity="0.1" fill="#000000"></path>
+        </g>
+    </g>
+</svg>

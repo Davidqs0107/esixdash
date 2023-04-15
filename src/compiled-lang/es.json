@@ -1,0 +1,7886 @@
+{
+  "I": [
+    {
+      "type": 0,
+      "value": "I"
+    }
+  ],
+  "IDIssuerCountry": [
+    {
+      "type": 0,
+      "value": "Emisor de ID (País)"
+    }
+  ],
+  "IDIssuerState": [
+    {
+      "type": 0,
+      "value": "Emisor de ID (Estado)"
+    }
+  ],
+  "IDNumber": [
+    {
+      "type": 0,
+      "value": "Número de identificación"
+    }
+  ],
+  "IDType": [
+    {
+      "type": 0,
+      "value": "Tipo de identificación"
+    }
+  ],
+  "II": [
+    {
+      "type": 0,
+      "value": "Ii"
+    }
+  ],
+  "III": [
+    {
+      "type": 0,
+      "value": "Iii"
+    }
+  ],
+  "IINSegment": [
+    {
+      "type": 0,
+      "value": "Segmento IIN"
+    }
+  ],
+  "IINs": [
+    {
+      "type": 0,
+      "value": "IINs"
+    }
+  ],
+  "MCC": [
+    {
+      "type": 0,
+      "value": "Mcc"
+    }
+  ],
+  "MTI": [
+    {
+      "type": 0,
+      "value": "Mti"
+    }
+  ],
+  "P2P": [
+    {
+      "type": 0,
+      "value": "P2P"
+    }
+  ],
+  "PAN": [
+    {
+      "type": 0,
+      "value": "Cacerola"
+    }
+  ],
+  "PANLength": [
+    {
+      "type": 0,
+      "value": "Longitud del PAN"
+    }
+  ],
+  "PINLength": [
+    {
+      "type": 0,
+      "value": "Longitud del PIN"
+    }
+  ],
+  "POSCondition": [
+    {
+      "type": 0,
+      "value": "Condición POS"
+    }
+  ],
+  "POSEntryMode": [
+    {
+      "type": 0,
+      "value": "Modo de entrada POS"
+    }
+  ],
+  "accordion.button.hide": [
+    {
+      "type": 0,
+      "value": "Ocultar "
+    },
+    {
+      "type": 1,
+      "value": "hideNumber"
+    }
+  ],
+  "accordion.button.view": [
+    {
+      "type": 0,
+      "value": "Ver todo "
+    },
+    {
+      "type": 1,
+      "value": "showNumber"
+    }
+  ],
+  "accountblocks": [
+    {
+      "type": 0,
+      "value": "bloqueos de cuenta"
+    }
+  ],
+  "acquirer": [
+    {
+      "type": 0,
+      "value": "Adquirente"
+    }
+  ],
+  "acquirer.table.data.POS.condition": [
+    {
+      "type": 0,
+      "value": "POS Condition"
+    }
+  ],
+  "acquirer.table.data.POS.entryMode": [
+    {
+      "type": 0,
+      "value": "POS Entry Mode"
+    }
+  ],
+  "acquirer.table.data.acceptor.city": [
+    {
+      "type": 0,
+      "value": "Ciudad del Aceptador de Tarjetas"
+    }
+  ],
+  "acquirer.table.data.acceptor.countryCode": [
+    {
+      "type": 0,
+      "value": "Card Acceptor Country Code"
+    }
+  ],
+  "acquirer.table.data.acceptor.terminalID": [
+    {
+      "type": 0,
+      "value": "Card Acceptor Terminal ID"
+    }
+  ],
+  "acquirer.table.data.acceptorID": [
+    {
+      "type": 0,
+      "value": "ID de aceptador de tarjeta"
+    }
+  ],
+  "acquirer.table.data.acceptorName": [
+    {
+      "type": 0,
+      "value": "Nombre del Aceptador de Tarjetas"
+    }
+  ],
+  "acquirer.table.data.auth.code": [
+    {
+      "type": 0,
+      "value": "Auth Code"
+    }
+  ],
+  "acquirer.table.data.institutionID": [
+    {
+      "type": 0,
+      "value": "ID de Institución Adquiriente"
+    }
+  ],
+  "acquirer.table.data.mcc": [
+    {
+      "type": 0,
+      "value": "MCC"
+    }
+  ],
+  "acquirer.table.data.mti": [
+    {
+      "type": 0,
+      "value": "MTI"
+    }
+  ],
+  "acquirerInfo": [
+    {
+      "type": 0,
+      "value": "Información del adquirente"
+    }
+  ],
+  "acquiringInstitutionID": [
+    {
+      "type": 0,
+      "value": "Identificación de la institución adquirente"
+    }
+  ],
+  "action": [
+    {
+      "type": 0,
+      "value": "Acción"
+    }
+  ],
+  "activateOn": [
+    {
+      "type": 0,
+      "value": "Activar en"
+    }
+  ],
+  "activatedRule": [
+    {
+      "type": 0,
+      "value": "Regla activada"
+    }
+  ],
+  "activation": [
+    {
+      "type": 0,
+      "value": "Activación"
+    }
+  ],
+  "activationMethod": [
+    {
+      "type": 0,
+      "value": "Método de activación"
+    }
+  ],
+  "activationMethods": [
+    {
+      "type": 0,
+      "value": "Métodos de activación"
+    }
+  ],
+  "active": [
+    {
+      "type": 0,
+      "value": "Activo"
+    }
+  ],
+  "activeBlocks": [
+    {
+      "type": 0,
+      "value": "Bloques activos"
+    }
+  ],
+  "activityLog": [
+    {
+      "type": 0,
+      "value": "Registro de actividad"
+    }
+  ],
+  "addAdditionalCurrencyPair": [
+    {
+      "type": 0,
+      "value": "Añadir par de divisas adicional"
+    }
+  ],
+  "addAdditionalPartner": [
+    {
+      "type": 0,
+      "value": "AÑADIR SOCIO ADICIONAL"
+    }
+  ],
+  "addAdditionalProgram": [
+    {
+      "type": 0,
+      "value": "AÑADIR PROGRAMA ADICIONAL"
+    }
+  ],
+  "addAddress": [
+    {
+      "type": 0,
+      "value": "Agregar dirección"
+    }
+  ],
+  "addAttributeAttribute": [
+    {
+      "type": 0,
+      "value": "Agregar atributo adicional"
+    }
+  ],
+  "addCurrency": [
+    {
+      "type": 0,
+      "value": "Agregar moneda"
+    }
+  ],
+  "addCurrencyMarginPair": [
+    {
+      "type": 0,
+      "value": "Añadir par de margen de divisas"
+    }
+  ],
+  "addEmail": [
+    {
+      "type": 0,
+      "value": "Agregar correo electrónico"
+    }
+  ],
+  "addExchange": [
+    {
+      "type": 0,
+      "value": "Agregar intercambio"
+    }
+  ],
+  "addExternalAccount": [
+    {
+      "type": 0,
+      "value": "Agregar cuenta externa"
+    }
+  ],
+  "addFee": [
+    {
+      "type": 0,
+      "value": "Añadir tarifa"
+    }
+  ],
+  "addFees": [
+    {
+      "type": 0,
+      "value": "Añadir tarifas"
+    }
+  ],
+  "addFeestoPlan": [
+    {
+      "type": 0,
+      "value": "Agregar tarifas al plan"
+    }
+  ],
+  "addIIN": [
+    {
+      "type": 0,
+      "value": "Agregar IIN"
+    }
+  ],
+  "addIdentification": [
+    {
+      "type": 0,
+      "value": "Agregar identificación"
+    }
+  ],
+  "addIndividualCurrencyMargin": [
+    {
+      "type": 0,
+      "value": "Agregar margen de moneda individual"
+    }
+  ],
+  "addInterchange": [
+    {
+      "type": 0,
+      "value": "Agregar intercambio"
+    }
+  ],
+  "addMemo": [
+    {
+      "type": 0,
+      "value": "Añadir memo"
+    }
+  ],
+  "addNewBank": [
+    {
+      "type": 0,
+      "value": "Agregar nuevo banco"
+    }
+  ],
+  "addNewBlock": [
+    {
+      "type": 0,
+      "value": "Agregar nuevo bloque"
+    }
+  ],
+  "addNewCardProfile": [
+    {
+      "type": 0,
+      "value": "Agregar nuevo perfil de tarjeta"
+    }
+  ],
+  "addNewChargeoff": [
+    {
+      "type": 0,
+      "value": "Agregar nuevo Chargeoff"
+    }
+  ],
+  "addNewCurrency": [
+    {
+      "type": 0,
+      "value": "Añadir nueva moneda"
+    }
+  ],
+  "addNewFeePlan": [
+    {
+      "type": 0,
+      "value": "Agregar nuevo plan de tarifas"
+    }
+  ],
+  "addNewIIN": [
+    {
+      "type": 0,
+      "value": "Agregar nuevo IIN"
+    }
+  ],
+  "addNewMailTemplate": [
+    {
+      "type": 0,
+      "value": "Agregar nueva plantilla de correo"
+    }
+  ],
+  "addNewMemo": [
+    {
+      "type": 0,
+      "value": "Añadir nueva nota"
+    }
+  ],
+  "addNewPartner": [
+    {
+      "type": 0,
+      "value": "Agregar nuevo socio"
+    }
+  ],
+  "addNewProgram": [
+    {
+      "type": 0,
+      "value": "Agregar nuevo programa"
+    }
+  ],
+  "addNewRiskProfile": [
+    {
+      "type": 0,
+      "value": "Agregar nuevo perfil de riesgo"
+    }
+  ],
+  "addNewTransactionMemoTemplate": [
+    {
+      "type": 0,
+      "value": "Agregar nueva plantilla de nota de transacción"
+    }
+  ],
+  "addNewUser": [
+    {
+      "type": 0,
+      "value": "Agregar Nuevo Usuario"
+    }
+  ],
+  "addPhone": [
+    {
+      "type": 0,
+      "value": "Agregar teléfono"
+    }
+  ],
+  "addProgram": [
+    {
+      "type": 0,
+      "value": "Agregar programa"
+    }
+  ],
+  "addRiskException": [
+    {
+      "type": 0,
+      "value": "Agregar excepción de riesgo"
+    }
+  ],
+  "addRiskRules": [
+    {
+      "type": 0,
+      "value": "Agregar reglas de riesgo"
+    }
+  ],
+  "addRulesToRiskLevel": [
+    {
+      "type": 0,
+      "value": "Agregar reglas al nivel de riesgo"
+    }
+  ],
+  "addTransactionMemoTemplate": [
+    {
+      "type": 0,
+      "value": "Agregar plantilla de nota de transacción"
+    }
+  ],
+  "added": [
+    {
+      "type": 0,
+      "value": "Añadido"
+    }
+  ],
+  "additional.info.table.data.activatedRule": [
+    {
+      "type": 0,
+      "value": "Regla de Activación"
+    }
+  ],
+  "additional.info.table.data.authorization": [
+    {
+      "type": 0,
+      "value": "Authorization"
+    }
+  ],
+  "additional.info.table.data.cardPresent": [
+    {
+      "type": 0,
+      "value": "Tarjeta Presente"
+    }
+  ],
+  "additional.info.table.data.debit": [
+    {
+      "type": 0,
+      "value": "Debit"
+    }
+  ],
+  "additional.info.table.data.errorMessage": [
+    {
+      "type": 0,
+      "value": "Error Message"
+    }
+  ],
+  "additional.info.table.data.failParameter": [
+    {
+      "type": 0,
+      "value": "Parámetro fallido"
+    }
+  ],
+  "additional.info.table.data.forcePost": [
+    {
+      "type": 0,
+      "value": "Force Post"
+    }
+  ],
+  "additional.info.table.data.inbound": [
+    {
+      "type": 0,
+      "value": "Inbound"
+    }
+  ],
+  "additional.info.table.data.reversal": [
+    {
+      "type": 0,
+      "value": "Reverso"
+    }
+  ],
+  "additional.info.table.data.success": [
+    {
+      "type": 0,
+      "value": "Éxito"
+    }
+  ],
+  "additionalAttributes": [
+    {
+      "type": 0,
+      "value": "Atributos adicionales"
+    }
+  ],
+  "additionalCurrencies": [
+    {
+      "type": 0,
+      "value": "Monedas adicionales"
+    }
+  ],
+  "additionalInfo": [
+    {
+      "type": 0,
+      "value": "Información adicional"
+    }
+  ],
+  "address": [
+    {
+      "type": 0,
+      "value": "Dirección"
+    }
+  ],
+  "address.type.business": [
+    {
+      "type": 0,
+      "value": "Negocio"
+    }
+  ],
+  "address.type.shipping": [
+    {
+      "type": 0,
+      "value": "Envío"
+    }
+  ],
+  "addressLine1": [
+    {
+      "type": 0,
+      "value": "Dirección line 1"
+    }
+  ],
+  "addressLine2": [
+    {
+      "type": 0,
+      "value": "Dirección Línea 2"
+    }
+  ],
+  "addressLine3": [
+    {
+      "type": 0,
+      "value": "Dirección línea 3"
+    }
+  ],
+  "addressType": [
+    {
+      "type": 0,
+      "value": "Tipo de dirección"
+    }
+  ],
+  "addressType.home": [
+    {
+      "type": 0,
+      "value": "Hogar"
+    }
+  ],
+  "addresses": [
+    {
+      "type": 0,
+      "value": "Direcciones"
+    }
+  ],
+  "addressing": [
+    {
+      "type": 0,
+      "value": "Direccionamiento"
+    }
+  ],
+  "adjustments": [
+    {
+      "type": 0,
+      "value": "Ajustes"
+    }
+  ],
+  "allTransactionSources": [
+    {
+      "type": 0,
+      "value": "Todas las fuentes de transacciones"
+    }
+  ],
+  "allTransactionTypes": [
+    {
+      "type": 0,
+      "value": "Todos los tipos de transacciones"
+    }
+  ],
+  "amount": [
+    {
+      "type": 0,
+      "value": "Cantidad"
+    }
+  ],
+  "amounts": [
+    {
+      "type": 0,
+      "value": "Cantidades"
+    }
+  ],
+  "amounts.table.data.acquirer": [
+    {
+      "type": 0,
+      "value": "Acquirer"
+    }
+  ],
+  "amounts.table.data.billing": [
+    {
+      "type": 0,
+      "value": "Billing"
+    }
+  ],
+  "amounts.table.data.compliance": [
+    {
+      "type": 0,
+      "value": "Cumplimiento Regulatorio"
+    }
+  ],
+  "amounts.table.data.partial": [
+    {
+      "type": 0,
+      "value": "Parcial"
+    }
+  ],
+  "amounts.table.data.replacement": [
+    {
+      "type": 0,
+      "value": "Replacement"
+    }
+  ],
+  "amounts.table.data.settlement": [
+    {
+      "type": 0,
+      "value": "Settlement"
+    }
+  ],
+  "approval": [
+    {
+      "type": 0,
+      "value": "Aprobación"
+    }
+  ],
+  "approvalMemo": [
+    {
+      "type": 0,
+      "value": "Memorándum de aprobación"
+    }
+  ],
+  "approve": [
+    {
+      "type": 0,
+      "value": "Aprobar"
+    }
+  ],
+  "approveChangeOrder": [
+    {
+      "type": 0,
+      "value": "Aprobar orden de cambio"
+    }
+  ],
+  "approved": [
+    {
+      "type": 0,
+      "value": "Aprobado"
+    }
+  ],
+  "approvedBy": [
+    {
+      "type": 0,
+      "value": "Aprobados por"
+    }
+  ],
+  "april": [
+    {
+      "type": 0,
+      "value": "Abril"
+    }
+  ],
+  "assignToAChangeOrder": [
+    {
+      "type": 0,
+      "value": "Asignar a un orden de cambio"
+    }
+  ],
+  "assignToExistingChangeOrder": [
+    {
+      "type": 0,
+      "value": "Asignar al orden de cambio existente"
+    }
+  ],
+  "attributes": [
+    {
+      "type": 0,
+      "value": "Atributos"
+    }
+  ],
+  "audit": [
+    {
+      "type": 0,
+      "value": "Auditoría"
+    }
+  ],
+  "audit.details.api": [
+    {
+      "type": 0,
+      "value": "API"
+    }
+  ],
+  "audit.details.customerNumber": [
+    {
+      "type": 0,
+      "value": "Número de cliente"
+    }
+  ],
+  "audit.details.partner": [
+    {
+      "type": 0,
+      "value": "Socio"
+    }
+  ],
+  "audit.details.remoteaddress": [
+    {
+      "type": 0,
+      "value": "Dirección remota"
+    }
+  ],
+  "audit.details.title": [
+    {
+      "type": 0,
+      "value": "Detalles de la auditoría"
+    }
+  ],
+  "audit.details.username": [
+    {
+      "type": 0,
+      "value": "Nombre de usuario"
+    }
+  ],
+  "audits.search.submit.button": [
+    {
+      "type": 0,
+      "value": "Search"
+    }
+  ],
+  "august": [
+    {
+      "type": 0,
+      "value": "Agosto"
+    }
+  ],
+  "authCode": [
+    {
+      "type": 0,
+      "value": "Código de autenticación"
+    }
+  ],
+  "authReleased": [
+    {
+      "type": 0,
+      "value": "Auth Liberado"
+    }
+  ],
+  "authholds.amount": [
+    {
+      "type": 0,
+      "value": "Monto"
+    }
+  ],
+  "authholds.creationTime": [
+    {
+      "type": 0,
+      "value": "Fecha de Creación"
+    }
+  ],
+  "authorization": [
+    {
+      "type": 0,
+      "value": "Autorización"
+    }
+  ],
+  "authorizedHoldDetails": [
+    {
+      "type": 0,
+      "value": "Detalles de la retención autorizada"
+    }
+  ],
+  "automaticLoadRule": [
+    {
+      "type": 0,
+      "value": "Regra de Carregamento Automático"
+    }
+  ],
+  "availableBalance": [
+    {
+      "type": 0,
+      "value": "Saldo disponible"
+    }
+  ],
+  "balanceInquiry": [
+    {
+      "type": 0,
+      "value": "Consulta de saldo"
+    }
+  ],
+  "bank": [
+    {
+      "type": 0,
+      "value": "Banco"
+    }
+  ],
+  "bankIIN": [
+    {
+      "type": 0,
+      "value": "Banco IIN"
+    }
+  ],
+  "bankName": [
+    {
+      "type": 0,
+      "value": "Nombre del banco"
+    }
+  ],
+  "banks": [
+    {
+      "type": 0,
+      "value": "Bancos"
+    }
+  ],
+  "billing": [
+    {
+      "type": 0,
+      "value": "Facturación"
+    }
+  ],
+  "block": [
+    {
+      "type": 0,
+      "value": "Bloque"
+    }
+  ],
+  "block.type.card": [
+    {
+      "type": 0,
+      "value": "Tarjeta"
+    }
+  ],
+  "block.type.customer": [
+    {
+      "type": 0,
+      "value": "Cliente"
+    }
+  ],
+  "blockMemo": [
+    {
+      "type": 0,
+      "value": "Bloquear nota"
+    }
+  ],
+  "blocks": [
+    {
+      "type": 0,
+      "value": "Bloques"
+    }
+  ],
+  "button.HIDE": [
+    {
+      "type": 0,
+      "value": "ESCONDER"
+    }
+  ],
+  "button.VIEW": [
+    {
+      "type": 0,
+      "value": "Vista"
+    }
+  ],
+  "button.addAdditionalCurrency": [
+    {
+      "type": 0,
+      "value": "AÑADIR MONEDA ADICIONAL"
+    }
+  ],
+  "button.addAdditionalFee": [
+    {
+      "type": 0,
+      "value": "AÑADIR CARGO ADICIONAL"
+    }
+  ],
+  "button.addAdditionalIIN": [
+    {
+      "type": 0,
+      "value": "AGREGAR IIN ADICIONAL"
+    }
+  ],
+  "button.addAdditionalRiskRule": [
+    {
+      "type": 0,
+      "value": "AGREGAR REGLA DE RIESGO ADICIONAL"
+    }
+  ],
+  "button.addFee": [
+    {
+      "type": 0,
+      "value": "AÑADIR TARIFA"
+    }
+  ],
+  "button.addFeeEntry": [
+    {
+      "type": 0,
+      "value": "AÑADIR ENTRADA DE CUOTA"
+    }
+  ],
+  "button.addNewAddress": [
+    {
+      "type": 0,
+      "value": "AGREGAR NUEVA DIRECCIÓN"
+    }
+  ],
+  "button.addNewAdjustment": [
+    {
+      "type": 0,
+      "value": "AÑADIR NUEVO AJUSTE"
+    }
+  ],
+  "button.addNewBlock": [
+    {
+      "type": 0,
+      "value": "AÑADIR NUEVO BLOQUE"
+    }
+  ],
+  "button.addNewChargeoff": [
+    {
+      "type": 0,
+      "value": "AÑADIR NUEVO CHARGEOFF"
+    }
+  ],
+  "button.addNewEmail": [
+    {
+      "type": 0,
+      "value": "AGREGAR NUEVO CORREO ELECTRÓNICO"
+    }
+  ],
+  "button.addNewExternalAccount": [
+    {
+      "type": 0,
+      "value": "AGREGAR NUEVA CUENTA EXTERNA"
+    }
+  ],
+  "button.addNewFeePlan": [
+    {
+      "type": 0,
+      "value": "AGREGAR NUEVO PLAN DE TARIFAS"
+    }
+  ],
+  "button.addNewIdentification": [
+    {
+      "type": 0,
+      "value": "AGREGAR NUEVA IDENTIFICACIÓN"
+    }
+  ],
+  "button.addNewMethod": [
+    {
+      "type": 0,
+      "value": "AGREGAR NUEVO MÉTODO"
+    }
+  ],
+  "button.addNewNotification": [
+    {
+      "type": 0,
+      "value": "AGREGAR NUEVA NOTIFICACIÓN"
+    }
+  ],
+  "button.addNewPhone": [
+    {
+      "type": 0,
+      "value": "AÑADIR NUEVO TELÉFONO"
+    }
+  ],
+  "button.addNewRiskLevel": [
+    {
+      "type": 0,
+      "value": "AGREGAR NUEVO NIVEL DE RIESGO"
+    }
+  ],
+  "button.addRiskRule": [
+    {
+      "type": 0,
+      "value": "REGLA AGREGAR RIESGO"
+    }
+  ],
+  "button.approve": [
+    {
+      "type": 0,
+      "value": "APROBAR"
+    }
+  ],
+  "button.approved": [
+    {
+      "type": 0,
+      "value": "Aprobado"
+    }
+  ],
+  "button.createChangeOrder": [
+    {
+      "type": 0,
+      "value": "CREAR ORDEN DE CAMBIO"
+    }
+  ],
+  "button.discard": [
+    {
+      "type": 0,
+      "value": "Deseche"
+    }
+  ],
+  "button.edit": [
+    {
+      "type": 0,
+      "value": "Editar"
+    }
+  ],
+  "button.exchange": [
+    {
+      "type": 0,
+      "value": "Intercambio"
+    }
+  ],
+  "button.exchangeCurrency": [
+    {
+      "type": 0,
+      "value": "CAMBIO DE MONEDA"
+    }
+  ],
+  "button.getQuote": [
+    {
+      "type": 0,
+      "value": "OBTENER PRESUPUESTO"
+    }
+  ],
+  "button.hide": [
+    {
+      "type": 0,
+      "value": "Ocultar "
+    },
+    {
+      "type": 1,
+      "value": "hideNumber"
+    }
+  ],
+  "button.home": [
+    {
+      "type": 0,
+      "value": "Casa"
+    }
+  ],
+  "button.orderNewCard": [
+    {
+      "type": 0,
+      "value": "PEDIR NUEVA TARJETA"
+    }
+  ],
+  "button.refreshQuote": [
+    {
+      "type": 0,
+      "value": "ACTUALIZAR COTIZACIÓN"
+    }
+  ],
+  "button.release": [
+    {
+      "type": 0,
+      "value": "LANZAMIENTO"
+    }
+  ],
+  "button.released": [
+    {
+      "type": 0,
+      "value": "LIBERADO"
+    }
+  ],
+  "button.view": [
+    {
+      "type": 0,
+      "value": "Ver todo "
+    },
+    {
+      "type": 1,
+      "value": "showNumber"
+    }
+  ],
+  "button.viewChangeHistory": [
+    {
+      "type": 0,
+      "value": "VER HISTORIAL DE CAMBIOS"
+    }
+  ],
+  "buyCurrency": [
+    {
+      "type": 0,
+      "value": "Comprar moneda"
+    }
+  ],
+  "buyCurrencyAmount": [
+    {
+      "type": 0,
+      "value": "Comprar cantidad de moneda"
+    }
+  ],
+  "buyMargin": [
+    {
+      "type": 0,
+      "value": "Margen de compra"
+    }
+  ],
+  "buyMarginPercentage": [
+    {
+      "type": 0,
+      "value": "Porcentaje de margen de compra"
+    }
+  ],
+  "calculation.method.flatAmount": [
+    {
+      "type": 0,
+      "value": "Cantidad plana"
+    }
+  ],
+  "calculation.method.flatPlusPercentage": [
+    {
+      "type": 0,
+      "value": "Piso + Porcentaje"
+    }
+  ],
+  "calculation.method.greaterOf": [
+    {
+      "type": 0,
+      "value": "Mayor de"
+    }
+  ],
+  "calculation.method.lesserOf": [
+    {
+      "type": 0,
+      "value": "Menor de"
+    }
+  ],
+  "calculation.method.percentage": [
+    {
+      "type": 0,
+      "value": "Porcentaje"
+    }
+  ],
+  "calculationMethod": [
+    {
+      "type": 0,
+      "value": "Método de cálculo"
+    }
+  ],
+  "cancel": [
+    {
+      "type": 0,
+      "value": "Cancelar"
+    }
+  ],
+  "cancelCard": [
+    {
+      "type": 0,
+      "value": "Cancelar tarjeta"
+    }
+  ],
+  "card": [
+    {
+      "type": 0,
+      "value": "Tarjeta"
+    }
+  ],
+  "card.block.activation": [
+    {
+      "type": 0,
+      "value": "Activación"
+    }
+  ],
+  "card.block.deactivation": [
+    {
+      "type": 0,
+      "value": "Desactivación"
+    }
+  ],
+  "card.block.fraud": [
+    {
+      "type": 0,
+      "value": "Fraude"
+    }
+  ],
+  "card.block.loststolen": [
+    {
+      "type": 0,
+      "value": "Perdido o robado"
+    }
+  ],
+  "card.block.suspended": [
+    {
+      "type": 0,
+      "value": "Suspendido"
+    }
+  ],
+  "card.block.system": [
+    {
+      "type": 0,
+      "value": "sistema"
+    }
+  ],
+  "card.type.oneTimeUse": [
+    {
+      "type": 0,
+      "value": "Uso único"
+    }
+  ],
+  "card.type.personalized": [
+    {
+      "type": 0,
+      "value": "Personalizada"
+    }
+  ],
+  "card.type.router": [
+    {
+      "type": 0,
+      "value": "Router"
+    }
+  ],
+  "card.type.temporary": [
+    {
+      "type": 0,
+      "value": "Temporal"
+    }
+  ],
+  "card.type.virtual": [
+    {
+      "type": 0,
+      "value": "Virtual"
+    }
+  ],
+  "cardAcceptorCity": [
+    {
+      "type": 0,
+      "value": "Ciudad Aceptora de Tarjetas"
+    }
+  ],
+  "cardAcceptorCountryCode": [
+    {
+      "type": 0,
+      "value": "Código de país del aceptador de la tarjeta"
+    }
+  ],
+  "cardAcceptorID": [
+    {
+      "type": 0,
+      "value": "Id. de aceptante de tarjeta"
+    }
+  ],
+  "cardAcceptorName": [
+    {
+      "type": 0,
+      "value": "Nombre del aceptador de la tarjeta"
+    }
+  ],
+  "cardAcceptorTerminalID": [
+    {
+      "type": 0,
+      "value": "ID de terminal del aceptor de tarjetas"
+    }
+  ],
+  "cardDetails": [
+    {
+      "type": 0,
+      "value": "Detalles de la tarjeta"
+    }
+  ],
+  "cardIssuance": [
+    {
+      "type": 0,
+      "value": "Emisión de tarjetas"
+    }
+  ],
+  "cardNumber": [
+    {
+      "type": 0,
+      "value": "Número de tarjeta"
+    }
+  ],
+  "cardPresent": [
+    {
+      "type": 0,
+      "value": "Tarjeta presente"
+    }
+  ],
+  "cardProfile.success.save": [
+    {
+      "type": 0,
+      "value": "El perfil de la tarjeta se ha guardado correctamente"
+    }
+  ],
+  "cardProfile.success.update": [
+    {
+      "type": 0,
+      "value": "El perfil de la tarjeta se ha actualizado correctamente"
+    }
+  ],
+  "cardProfileName": [
+    {
+      "type": 0,
+      "value": "Nombre del perfil de la tarjeta"
+    }
+  ],
+  "cardProfiles": [
+    {
+      "type": 0,
+      "value": "Perfiles de tarjetas"
+    }
+  ],
+  "cardSale": [
+    {
+      "type": 0,
+      "value": "Venta de tarjetas"
+    }
+  ],
+  "cardType": [
+    {
+      "type": 0,
+      "value": "Tipo de tarjeta"
+    }
+  ],
+  "cardblocks": [
+    {
+      "type": 0,
+      "value": "bloques de tarjetas"
+    }
+  ],
+  "cards": [
+    {
+      "type": 0,
+      "value": "Tarjetas"
+    }
+  ],
+  "cashback": [
+    {
+      "type": 0,
+      "value": "Reembolso"
+    }
+  ],
+  "change.order.adjust": [
+    {
+      "type": 0,
+      "value": "Ajuste"
+    }
+  ],
+  "change.order.chargeoff": [
+    {
+      "type": 0,
+      "value": "Cargo"
+    }
+  ],
+  "change.order.exchangeMargin": [
+    {
+      "type": 0,
+      "value": "Margen de cambio"
+    }
+  ],
+  "change.order.feeEntry": [
+    {
+      "type": 0,
+      "value": "Cuota de entrada"
+    }
+  ],
+  "change.order.feePlan": [
+    {
+      "type": 0,
+      "value": "Plan de tarifas"
+    }
+  ],
+  "change.order.programAdjustment": [
+    {
+      "type": 0,
+      "value": "Ajuste del programa"
+    }
+  ],
+  "change.order.riskConfiguration": [
+    {
+      "type": 0,
+      "value": "Configuración de riesgos"
+    }
+  ],
+  "change.order.riskLevel": [
+    {
+      "type": 0,
+      "value": "Nivel de riesgo"
+    }
+  ],
+  "change.order.withholdingl": [
+    {
+      "type": 0,
+      "value": "Retención"
+    }
+  ],
+  "changeHistory": [
+    {
+      "type": 0,
+      "value": "Cambiar historial"
+    }
+  ],
+  "changeOrder": [
+    {
+      "type": 0,
+      "value": "Cambiar orden"
+    }
+  ],
+  "changeOrder.create.success": [
+    {
+      "type": 0,
+      "value": "Su orden de cambio se creó correctamente"
+    }
+  ],
+  "changeOrderDetails": [
+    {
+      "type": 0,
+      "value": "Cambiar detalles del pedido"
+    }
+  ],
+  "changeOrders": [
+    {
+      "type": 0,
+      "value": "Cambiar órdenes"
+    }
+  ],
+  "changePassword": [
+    {
+      "type": 0,
+      "value": "Cambia la contraseña"
+    }
+  ],
+  "changeRequest": [
+    {
+      "type": 0,
+      "value": "Solicitud de cambio"
+    }
+  ],
+  "changeRequest.create.success": [
+    {
+      "type": 0,
+      "value": "La solicitud de cambio se ha creado correctamente"
+    }
+  ],
+  "changeRequests": [
+    {
+      "type": 0,
+      "value": "Solicitudes de cambio"
+    }
+  ],
+  "changeRiskLevel": [
+    {
+      "type": 0,
+      "value": "Cambiar el nivel de riesgo"
+    }
+  ],
+  "changeState": [
+    {
+      "type": 0,
+      "value": "Cambiar estado"
+    }
+  ],
+  "chargeBack": [
+    {
+      "type": 0,
+      "value": "Contracargo"
+    }
+  ],
+  "chargeOff.activateOn.input.placeholder": [
+    {
+      "type": 0,
+      "value": "Activar en:"
+    }
+  ],
+  "chargeOff.error.activateOn.required": [
+    {
+      "type": 0,
+      "value": "Se requiere una opción de radio"
+    }
+  ],
+  "chargeOff.memo.input.placeholder": [
+    {
+      "type": 0,
+      "value": "Memo (255 caracteres máx.)"
+    }
+  ],
+  "chargeReceiver": [
+    {
+      "type": 0,
+      "value": "Receptor de carga"
+    }
+  ],
+  "chargeoff": [
+    {
+      "type": 0,
+      "value": "Cargo"
+    }
+  ],
+  "chargeoffChangeOrder.success.create": [
+    {
+      "type": 0,
+      "value": "El orden de cambio de Chargeoff se ha creado correctamente"
+    }
+  ],
+  "chargeoffs": [
+    {
+      "type": 0,
+      "value": "Cargos"
+    }
+  ],
+  "chooseChangeOrder": [
+    {
+      "type": 0,
+      "value": "Elegir cambiar orden"
+    }
+  ],
+  "chooseDate": [
+    {
+      "type": 0,
+      "value": "Elegir fecha"
+    }
+  ],
+  "chooseFeePlanOptional": [
+    {
+      "type": 0,
+      "value": "Elija el plan de tarifas (Opcional)"
+    }
+  ],
+  "chooseFeePlanToCopy": [
+    {
+      "type": 0,
+      "value": "Elija el plan de tarifas para copiar"
+    }
+  ],
+  "chooseOne": [
+    {
+      "type": 0,
+      "value": "Elija uno"
+    }
+  ],
+  "chooseParameter": [
+    {
+      "type": 0,
+      "value": "Elija el parámetro"
+    }
+  ],
+  "chooseProgram": [
+    {
+      "type": 0,
+      "value": "Elija el programa"
+    }
+  ],
+  "chooseRiskLevelPlanToCopy": [
+    {
+      "type": 0,
+      "value": "Elija el nivel de riesgo para copiar"
+    }
+  ],
+  "city": [
+    {
+      "type": 0,
+      "value": "Ciudad"
+    }
+  ],
+  "clearFilters": [
+    {
+      "type": 0,
+      "value": "Borrar filtros"
+    }
+  ],
+  "closeAccount": [
+    {
+      "type": 0,
+      "value": "Cerrar cuenta"
+    }
+  ],
+  "closed": [
+    {
+      "type": 0,
+      "value": "Cerrado"
+    }
+  ],
+  "compliance": [
+    {
+      "type": 0,
+      "value": "conformidad"
+    }
+  ],
+  "complianceCurrency": [
+    {
+      "type": 0,
+      "value": "Moneda de cumplimiento"
+    }
+  ],
+  "configurations": [
+    {
+      "type": 0,
+      "value": "Configuraciones"
+    }
+  ],
+  "configureFeePlanManually": [
+    {
+      "type": 0,
+      "value": "Configurar el plan de tarifas manualmente"
+    }
+  ],
+  "configureRiskLevelManually": [
+    {
+      "type": 0,
+      "value": "Configurar el nivel de riesgo manualmente"
+    }
+  ],
+  "confirm": [
+    {
+      "type": 0,
+      "value": "Confirmar"
+    }
+  ],
+  "confirmExchange": [
+    {
+      "type": 0,
+      "value": "Confirmar intercambio"
+    }
+  ],
+  "consolidated": [
+    {
+      "type": 0,
+      "value": "Fusionado"
+    }
+  ],
+  "contact": [
+    {
+      "type": 0,
+      "value": "Contacto"
+    }
+  ],
+  "contact.method.email": [
+    {
+      "type": 0,
+      "value": "Correo electrónico"
+    }
+  ],
+  "contact.method.phone": [
+    {
+      "type": 0,
+      "value": "contact.method.phon"
+    }
+  ],
+  "contactChannel.input.placeholder": [
+    {
+      "type": 0,
+      "value": "Canal de contacto*"
+    }
+  ],
+  "contactInfo": [
+    {
+      "type": 0,
+      "value": "Información de contacto"
+    }
+  ],
+  "contactMethod": [
+    {
+      "type": 0,
+      "value": "Método de contacto"
+    }
+  ],
+  "contactNumber": [
+    {
+      "type": 0,
+      "value": "Contacto #"
+    }
+  ],
+  "continue": [
+    {
+      "type": 0,
+      "value": "Continuar"
+    }
+  ],
+  "controls": [
+    {
+      "type": 0,
+      "value": "Controles"
+    }
+  ],
+  "country": [
+    {
+      "type": 0,
+      "value": "País"
+    }
+  ],
+  "countryCode": [
+    {
+      "type": 0,
+      "value": "Código País"
+    }
+  ],
+  "createChangeOrder": [
+    {
+      "type": 0,
+      "value": "Crear orden de cambio"
+    }
+  ],
+  "createCopyOfExistingFeePlan": [
+    {
+      "type": 0,
+      "value": "Crear una copia de un plan de tarifas existente"
+    }
+  ],
+  "createCopyOfExistingRiskLevel": [
+    {
+      "type": 0,
+      "value": "Crear una copia de un nivel de riesgo existente"
+    }
+  ],
+  "createNewChangeOrder": [
+    {
+      "type": 0,
+      "value": "Crear nuevo orden de cambio"
+    }
+  ],
+  "createNewCurrencyMarginPair": [
+    {
+      "type": 0,
+      "value": "Crear nuevo par de margen de divisas"
+    }
+  ],
+  "createNewFeePlan": [
+    {
+      "type": 0,
+      "value": "Crear un nuevo plan de tarifas"
+    }
+  ],
+  "createNewIndividualCurrencyMargin": [
+    {
+      "type": 0,
+      "value": "Crear nuevo margen de moneda individual"
+    }
+  ],
+  "createNewRiskLevel": [
+    {
+      "type": 0,
+      "value": "Crear un nuevo nivel de riesgo"
+    }
+  ],
+  "createRiskException": [
+    {
+      "type": 0,
+      "value": "Crear excepción de riesgo"
+    }
+  ],
+  "created": [
+    {
+      "type": 0,
+      "value": "Creado"
+    }
+  ],
+  "createdBy": [
+    {
+      "type": 0,
+      "value": "Creado por"
+    }
+  ],
+  "createdDate": [
+    {
+      "type": 0,
+      "value": "Fecha de creación"
+    }
+  ],
+  "creation": [
+    {
+      "type": 0,
+      "value": "Creación"
+    }
+  ],
+  "creationDate": [
+    {
+      "type": 0,
+      "value": "Fecha de creación"
+    }
+  ],
+  "crossTradeCurrency": [
+    {
+      "type": 0,
+      "value": "Moneda de comercio cruzado"
+    }
+  ],
+  "currencies": [
+    {
+      "type": 0,
+      "value": "Monedas"
+    }
+  ],
+  "currency": [
+    {
+      "type": 0,
+      "value": "Moneda"
+    }
+  ],
+  "currencyMarginPairs": [
+    {
+      "type": 0,
+      "value": "Pares de margen de divisas"
+    }
+  ],
+  "currencyPairMarginOptional": [
+    {
+      "type": 0,
+      "value": "Margen de par de divisas (opcional)"
+    }
+  ],
+  "currentBilledInterest": [
+    {
+      "type": 0,
+      "value": "Interés facturado actual"
+    }
+  ],
+  "currentPeriodReturnToGraceForgiveness": [
+    {
+      "type": 0,
+      "value": "Período actual Volver al perdón de gracia"
+    }
+  ],
+  "custom": [
+    {
+      "type": 0,
+      "value": "Personalizado"
+    }
+  ],
+  "customer": [
+    {
+      "type": 0,
+      "value": "Cliente"
+    }
+  ],
+  "customer.recent.cardblockcreated": [
+    {
+      "type": 0,
+      "value": "Tarjeta bloqueada"
+    }
+  ],
+  "customer.recent.cardblockreleased": [
+    {
+      "type": 0,
+      "value": "Bloqueo de tarjeta liberado"
+    }
+  ],
+  "customer.recent.cardordered": [
+    {
+      "type": 0,
+      "value": "Tarjeta solicitada"
+    }
+  ],
+  "customer.recent.customerblockcreated": [
+    {
+      "type": 0,
+      "value": "Cliente bloqueado"
+    }
+  ],
+  "customer.recent.customerblockreleased": [
+    {
+      "type": 0,
+      "value": "Bloqueo de cliente liberado"
+    }
+  ],
+  "customer.recent.memocreated": [
+    {
+      "type": 0,
+      "value": "Memo de Cliente Nuevo"
+    }
+  ],
+  "customer.recent.orderapproved": [
+    {
+      "type": 0,
+      "value": "Orden de cambio aprobada"
+    }
+  ],
+  "customer.recent.ordercreated": [
+    {
+      "type": 0,
+      "value": "Orden de Cambio enviada"
+    }
+  ],
+  "customer.success.updated": [
+    {
+      "type": 0,
+      "value": "O cliente foi atualizado com êxito"
+    }
+  ],
+  "customerAccountID": [
+    {
+      "type": 0,
+      "value": "ID de cuenta de cliente"
+    }
+  ],
+  "customerAdjustment": [
+    {
+      "type": 0,
+      "value": "Ajuste del cliente"
+    }
+  ],
+  "customerDetail": [
+    {
+      "type": 0,
+      "value": "Detalle del cliente"
+    }
+  ],
+  "customerDetails": [
+    {
+      "type": 0,
+      "value": "Detalles del cliente"
+    }
+  ],
+  "customerDetails.viewRiskLevelDetails": [
+    {
+      "type": 0,
+      "value": "VER DETALLES DEL NIVEL DE RIESGO"
+    }
+  ],
+  "customerFeePlans": [
+    {
+      "type": 0,
+      "value": "Planes de tarifas para clientes"
+    }
+  ],
+  "customerMemos": [
+    {
+      "type": 0,
+      "value": "Notas del cliente"
+    }
+  ],
+  "customerName": [
+    {
+      "type": 0,
+      "value": "Nombre del cliente"
+    }
+  ],
+  "customerNumber": [
+    {
+      "type": 0,
+      "value": "Número de cliente"
+    }
+  ],
+  "customerSearch": [
+    {
+      "type": 0,
+      "value": "Búsqueda de clientes"
+    }
+  ],
+  "customerSearchForm.error.firstNameMinChars": [
+    {
+      "type": 0,
+      "value": "El nombre debe contener al menos 1 caracteres."
+    }
+  ],
+  "customerSearchForm.error.lastNameMinChars": [
+    {
+      "type": 0,
+      "value": "El apellido debe contener al menos 1 caracteres."
+    }
+  ],
+  "customerSearchForm.error.nameRequired": [
+    {
+      "type": 0,
+      "value": "Se requiere nombre y apellido"
+    }
+  ],
+  "customerSearchForm.input.placeholder.text": [
+    {
+      "type": 0,
+      "value": "Número de cliente o nombre completo del cliente"
+    }
+  ],
+  "customerblocks": [
+    {
+      "type": 0,
+      "value": "bloques de clientes"
+    }
+  ],
+  "customers": [
+    {
+      "type": 0,
+      "value": "Clientes"
+    }
+  ],
+  "dashboard": [
+    {
+      "type": 0,
+      "value": "Tablero de instrumentos"
+    }
+  ],
+  "date": [
+    {
+      "type": 0,
+      "value": "Fecha"
+    }
+  ],
+  "dateApproved": [
+    {
+      "type": 0,
+      "value": "Fecha de aprobación"
+    }
+  ],
+  "dateCreated": [
+    {
+      "type": 0,
+      "value": "Fecha de creación"
+    }
+  ],
+  "dateOfBirth": [
+    {
+      "type": 0,
+      "value": "Fecha de nacimiento"
+    }
+  ],
+  "dateReleased": [
+    {
+      "type": 0,
+      "value": "Fecha de lanzamiento"
+    }
+  ],
+  "day": [
+    {
+      "type": 0,
+      "value": "Día"
+    }
+  ],
+  "dayOfPeriod": [
+    {
+      "type": 0,
+      "value": "DDia Do Período"
+    }
+  ],
+  "days": [
+    {
+      "type": 0,
+      "value": "Dias"
+    }
+  ],
+  "debit": [
+    {
+      "type": 0,
+      "value": "Débito"
+    }
+  ],
+  "december": [
+    {
+      "type": 0,
+      "value": "Diciembre"
+    }
+  ],
+  "declinedActivity": [
+    {
+      "type": 0,
+      "value": "Actividad rechazada"
+    }
+  ],
+  "delete": [
+    {
+      "type": 0,
+      "value": "Eliminar"
+    }
+  ],
+  "deleteTokens": [
+    {
+      "type": 0,
+      "value": "Eliminar tokens"
+    }
+  ],
+  "deleted": [
+    {
+      "type": 0,
+      "value": "Borrado"
+    }
+  ],
+  "description": [
+    {
+      "type": 0,
+      "value": "Descripción"
+    }
+  ],
+  "details": [
+    {
+      "type": 0,
+      "value": "Detalles"
+    }
+  ],
+  "disabled": [
+    {
+      "type": 0,
+      "value": "Discapacitados"
+    }
+  ],
+  "drawdownOrder": [
+    {
+      "type": 0,
+      "value": "Orden de reducción"
+    }
+  ],
+  "drawer.card.profile.button.edit": [
+    {
+      "type": 0,
+      "value": "Editar"
+    }
+  ],
+  "drawer.card.profile.button.saveChanges": [
+    {
+      "type": 0,
+      "value": "Guardar cambios"
+    }
+  ],
+  "drawer.card.tokens.label.select": [
+    {
+      "type": 0,
+      "value": "Seleccione los tokens sobre los que tomar medidas:"
+    }
+  ],
+  "drawer.cardProfile.label.IINs": [
+    {
+      "type": 0,
+      "value": "IIN*"
+    }
+  ],
+  "drawer.delete.changeOrder": [
+    {
+      "type": 0,
+      "value": "¿Está seguro que desea eliminar el cambio de orden?"
+    }
+  ],
+  "drawer.fee.wizard.button.step2of3": [
+    {
+      "type": 0,
+      "value": "Paso 2 de 3"
+    }
+  ],
+  "drawer.fee.wizard.newFeePlan": [
+    {
+      "type": 0,
+      "value": "Nuevo plan de tarifas*"
+    }
+  ],
+  "drawer.fees.table.header.calculation.method": [
+    {
+      "type": 0,
+      "value": "Método de cálculo"
+    }
+  ],
+  "drawer.header.addCardProfile": [
+    {
+      "type": 0,
+      "value": "Agregar nuevo perfil de tarjeta"
+    }
+  ],
+  "drawer.header.addMailTemplate": [
+    {
+      "type": 0,
+      "value": "Agregar plantilla de correo"
+    }
+  ],
+  "drawer.header.editCardProfile": [
+    {
+      "type": 0,
+      "value": "Editar perfil de tarjeta"
+    }
+  ],
+  "drawer.header.fee.wizard.label.feePlan": [
+    {
+      "type": 0,
+      "value": "Plan de tarifas*"
+    }
+  ],
+  "drawer.header.viewCardProfile": [
+    {
+      "type": 0,
+      "value": "Ver perfil de la tarjeta"
+    }
+  ],
+  "drawer.program.edit.button.addNewFeeButton": [
+    {
+      "type": 0,
+      "value": "Agregar nuevo plan de tarifas"
+    }
+  ],
+  "drawer.program.edit.button.addNewRiskProfileButton": [
+    {
+      "type": 0,
+      "value": "Agregar nuevo perfil de riesgo >>"
+    }
+  ],
+  "drawer.programs.edit.label.Bank": [
+    {
+      "type": 0,
+      "value": "Banco"
+    }
+  ],
+  "drawer.programs.edit.label.Exchanges": [
+    {
+      "type": 0,
+      "value": "Intercambios"
+    }
+  ],
+  "drawer.programs.edit.label.cardProfileName": [
+    {
+      "type": 0,
+      "value": "Nombre del perfil de la tarjeta"
+    }
+  ],
+  "drawer.programs.edit.label.currency": [
+    {
+      "type": 0,
+      "value": "Moneda local"
+    }
+  ],
+  "drawer.programs.edit.label.feePlans": [
+    {
+      "type": 0,
+      "value": "Planes de tarifas"
+    }
+  ],
+  "drawer.programs.edit.label.language": [
+    {
+      "type": 0,
+      "value": "Idioma"
+    }
+  ],
+  "drawer.programs.edit.label.location": [
+    {
+      "type": 0,
+      "value": "Ubicación"
+    }
+  ],
+  "drawer.programs.edit.label.pansIssued": [
+    {
+      "type": 0,
+      "value": "PAN emitidos"
+    }
+  ],
+  "drawer.programs.edit.label.partner": [
+    {
+      "type": 0,
+      "value": "Socio"
+    }
+  ],
+  "drawer.programs.edit.label.riskProfiles": [
+    {
+      "type": 0,
+      "value": "Perfiles de riesgo"
+    }
+  ],
+  "drawer.programs.edit.label.timeZone": [
+    {
+      "type": 0,
+      "value": "Zona horaria"
+    }
+  ],
+  "edit": [
+    {
+      "type": 0,
+      "value": "Editar"
+    }
+  ],
+  "editAddress": [
+    {
+      "type": 0,
+      "value": "Editar dirección"
+    }
+  ],
+  "editAutomaticLoad": [
+    {
+      "type": 0,
+      "value": "Editar carregamento automático"
+    }
+  ],
+  "editBank": [
+    {
+      "type": 0,
+      "value": "Editar banco"
+    }
+  ],
+  "editCardProfile": [
+    {
+      "type": 0,
+      "value": "Editar perfil de tarjeta"
+    }
+  ],
+  "editCurrencyMarginPair": [
+    {
+      "type": 0,
+      "value": "Editar par de margen de divisas"
+    }
+  ],
+  "editCustomer": [
+    {
+      "type": 0,
+      "value": "Editar cliente"
+    }
+  ],
+  "editEmail": [
+    {
+      "type": 0,
+      "value": "Editar correo electrónico"
+    }
+  ],
+  "editExternalAccount": [
+    {
+      "type": 0,
+      "value": "Editar cuenta externa"
+    }
+  ],
+  "editFee": [
+    {
+      "type": 0,
+      "value": "Tarifa de edición"
+    }
+  ],
+  "editIdentification": [
+    {
+      "type": 0,
+      "value": "Editar identificación"
+    }
+  ],
+  "editIndividualCurrencyMargin": [
+    {
+      "type": 0,
+      "value": "Editar margen de moneda individual"
+    }
+  ],
+  "editInterchange": [
+    {
+      "type": 0,
+      "value": "Editar intercambio"
+    }
+  ],
+  "editMailTemplate": [
+    {
+      "type": 0,
+      "value": "Editar plantilla de correo"
+    }
+  ],
+  "editMemo": [
+    {
+      "type": 0,
+      "value": "Editar nota"
+    }
+  ],
+  "editNotification": [
+    {
+      "type": 0,
+      "value": "Editar notificación"
+    }
+  ],
+  "editPartner": [
+    {
+      "type": 0,
+      "value": "Editar socio"
+    }
+  ],
+  "editPhone": [
+    {
+      "type": 0,
+      "value": "Editar teléfono"
+    }
+  ],
+  "editRiskLevel": [
+    {
+      "type": 0,
+      "value": "Editar nivel de riesgo"
+    }
+  ],
+  "editTransactionMemoTemplate": [
+    {
+      "type": 0,
+      "value": "Editar plantilla de nota de transacción"
+    }
+  ],
+  "editUser": [
+    {
+      "type": 0,
+      "value": "Editar Usuario"
+    }
+  ],
+  "email": [
+    {
+      "type": 0,
+      "value": "Correo electrónico"
+    }
+  ],
+  "email.input.placeholder": [
+    {
+      "type": 0,
+      "value": "Correo"
+    }
+  ],
+  "email.state.unverified": [
+    {
+      "type": 0,
+      "value": "Inconfirmado"
+    }
+  ],
+  "email.state.verified": [
+    {
+      "type": 0,
+      "value": "Verificado"
+    }
+  ],
+  "emailAddress": [
+    {
+      "type": 0,
+      "value": "Dirección de correo electrónico"
+    }
+  ],
+  "emailState": [
+    {
+      "type": 0,
+      "value": "Estado del correo electrónico"
+    }
+  ],
+  "emailStatus": [
+    {
+      "type": 0,
+      "value": "Estado de Email"
+    }
+  ],
+  "emailType": [
+    {
+      "type": 0,
+      "value": "Tipo de correo electrónico"
+    }
+  ],
+  "emails": [
+    {
+      "type": 0,
+      "value": "Correos electrónicos"
+    }
+  ],
+  "embossedName": [
+    {
+      "type": 0,
+      "value": "Nombre en relieve"
+    }
+  ],
+  "emptyLabel": [
+  ],
+  "enabled": [
+    {
+      "type": 0,
+      "value": "Habilitado"
+    }
+  ],
+  "error.10digitNumber.5digitFraction": [
+    {
+      "type": 0,
+      "value": "Número entero de 10 dígitos y fracción de 5 dígitos solamente"
+    }
+  ],
+  "error.FromDate.lessThan.toDate": [
+    {
+      "type": 0,
+      "value": "A partir de la fecha debe ser inferior a \"Hasta la fecha\""
+    }
+  ],
+  "error.IDIssuerCountry.required": [
+    {
+      "type": 0,
+      "value": "ID emisor (país) es un campo obligatorio."
+    }
+  ],
+  "error.IDType.required": [
+    {
+      "type": 0,
+      "value": "El tipo de ID es un campo obligatorio."
+    }
+  ],
+  "error.IIN.min6Digits": [
+    {
+      "type": 0,
+      "value": "IIN debe contener 6 dígitos"
+    }
+  ],
+  "error.IINSegment.numberType": [
+    {
+      "type": 0,
+      "value": "El segmento IIN debe ser un número"
+    }
+  ],
+  "error.IINSegment.required": [
+    {
+      "type": 0,
+      "value": "Se requiere el segmento IIN."
+    }
+  ],
+  "error.IINs.required": [
+    {
+      "type": 0,
+      "value": "Se requiere IIN."
+    }
+  ],
+  "error.PANLength.required": [
+    {
+      "type": 0,
+      "value": "Se requiere longitud pan."
+    }
+  ],
+  "error.PINLength.required": [
+    {
+      "type": 0,
+      "value": "Se requiere longitud de PIN."
+    }
+  ],
+  "error.activateOn.required": [
+    {
+      "type": 0,
+      "value": "Activar activado es un campo obligatorio"
+    }
+  ],
+  "error.activationDate.required": [
+    {
+      "type": 0,
+      "value": "Fecha de activación es un campo obligatorio"
+    }
+  ],
+  "error.active.required": [
+    {
+      "type": 0,
+      "value": "Activo es un campo obligatorio."
+    }
+  ],
+  "error.addressLine1.required": [
+    {
+      "type": 0,
+      "value": "La línea de dirección 1 es un campo obligatorio."
+    }
+  ],
+  "error.addressType.required": [
+    {
+      "type": 0,
+      "value": "El tipo de dirección es un campo obligatorio."
+    }
+  ],
+  "error.amount.mustBeA.number": [
+    {
+      "type": 0,
+      "value": "La cantidad debe ser un número"
+    }
+  ],
+  "error.amount.mustBeA.positiveValue": [
+    {
+      "type": 0,
+      "value": "La cantidad debe ser un valor positivo"
+    }
+  ],
+  "error.amount.required": [
+    {
+      "type": 0,
+      "value": "Cantidad es un campo obligatorio."
+    }
+  ],
+  "error.bankIIN.required": [
+    {
+      "type": 0,
+      "value": "Se requiere IIN bancario."
+    }
+  ],
+  "error.buyCurrency.required": [
+    {
+      "type": 0,
+      "value": "Comprar moneda es un campo obligatorio."
+    }
+  ],
+  "error.cardLast4.required": [
+    {
+      "type": 0,
+      "value": "La tarjeta de los últimos 4 es un campo obligatorio."
+    }
+  ],
+  "error.cardToken.required": [
+    {
+      "type": 0,
+      "value": "Seleccione al menos un token de tarjeta"
+    }
+  ],
+  "error.cardType.required": [
+    {
+      "type": 0,
+      "value": "Se requiere tipo de tarjeta."
+    }
+  ],
+  "error.city.required": [
+    {
+      "type": 0,
+      "value": "La ciudad es un campo obligatorio."
+    }
+  ],
+  "error.complianceCurrency.required": [
+    {
+      "type": 0,
+      "value": "La moneda de cumplimiento es un campo obligatorio"
+    }
+  ],
+  "error.contactChannel.required": [
+    {
+      "type": 0,
+      "value": "El canal de contacto es un campo obligatorio"
+    }
+  ],
+  "error.contactInfo.required": [
+    {
+      "type": 0,
+      "value": "La información de contacto es un campo obligatorio."
+    }
+  ],
+  "error.country.required": [
+    {
+      "type": 0,
+      "value": "País es un campo obligatorio."
+    }
+  ],
+  "error.currency.15integers5decimals.format": [
+    {
+      "type": 0,
+      "value": "El valor no debe tener más de 15 enteros y 5 decimales"
+    }
+  ],
+  "error.currency.minRequired": [
+    {
+      "type": 0,
+      "value": "Se requiere al menos una moneda"
+    }
+  ],
+  "error.currency.required": [
+    {
+      "type": 0,
+      "value": "La moneda es un campo obligatorio."
+    }
+  ],
+  "error.dateOfBirth.required": [
+    {
+      "type": 0,
+      "value": "La fecha de nacimiento es un campo obligatorio."
+    }
+  ],
+  "error.description.required": [
+    {
+      "type": 0,
+      "value": "Se requiere descripción."
+    }
+  ],
+  "error.email.required": [
+    {
+      "type": 0,
+      "value": "El correo electrónico es un campo obligatorio."
+    }
+  ],
+  "error.email.valid": [
+    {
+      "type": 0,
+      "value": "Debe ser un correo electrónico válido."
+    }
+  ],
+  "error.emailAddress.required": [
+    {
+      "type": 0,
+      "value": "La dirección de correo electrónico es un campo obligatorio."
+    }
+  ],
+  "error.emailFormat.invalid": [
+    {
+      "type": 0,
+      "value": "Formato de correo electrónico no válido."
+    }
+  ],
+  "error.emailState.required": [
+    {
+      "type": 0,
+      "value": "El estado del correo electrónico es un campo obligatorio"
+    }
+  ],
+  "error.emailType.required": [
+    {
+      "type": 0,
+      "value": "El tipo de correo electrónico es un campo obligatorio."
+    }
+  ],
+  "error.expiryMonths.required": [
+    {
+      "type": 0,
+      "value": "Se requiere tiempo de vencimiento en meses"
+    }
+  ],
+  "error.familyName.required": [
+    {
+      "type": 0,
+      "value": "El apellido es un campo obligatorio"
+    }
+  ],
+  "error.feeAmount.required": [
+    {
+      "type": 0,
+      "value": "El monto de la tarifa (%) es un campo obligatorio"
+    }
+  ],
+  "error.feeAmount.shouldBeA.number": [
+    {
+      "type": 0,
+      "value": "El monto de la tarifa (%) debe ser un número"
+    }
+  ],
+  "error.feePlan.required": [
+    {
+      "type": 0,
+      "value": "El plan de tarifas es un campo obligatorio"
+    }
+  ],
+  "error.feePlanToCopy.required": [
+    {
+      "type": 0,
+      "value": "Plan de tarifas para copiar es un campo obligatorio"
+    }
+  ],
+  "error.feeType.required": [
+    {
+      "type": 0,
+      "value": "El tipo de tarifa es un campo obligatorio"
+    }
+  ],
+  "error.field.lessThan300": [
+    {
+      "type": 0,
+      "value": "Debe tener menos de 300 caracteres"
+    }
+  ],
+  "error.field.number0and100": [
+    {
+      "type": 1,
+      "value": "fieldName"
+    },
+    {
+      "type": 0,
+      "value": " debe ser un número entre 0 y 100"
+    }
+  ],
+  "error.field.numberType": [
+    {
+      "type": 1,
+      "value": "fieldName"
+    },
+    {
+      "type": 0,
+      "value": " tiene que ser un número"
+    }
+  ],
+  "error.field.required": [
+    {
+      "type": 1,
+      "value": "fieldName"
+    },
+    {
+      "type": 0,
+      "value": " es un campo obligatorio"
+    }
+  ],
+  "error.field.unique": [
+    {
+      "type": 1,
+      "value": "fieldName"
+    },
+    {
+      "type": 0,
+      "value": " debe ser único"
+    }
+  ],
+  "error.field.validEmail": [
+    {
+      "type": 0,
+      "value": "Se requiere una dirección de correo electrónico válida"
+    }
+  ],
+  "error.firstName.required": [
+    {
+      "type": 0,
+      "value": "El nombre es un campo obligatorio"
+    }
+  ],
+  "error.fixedAmount.required": [
+    {
+      "type": 0,
+      "value": "Cantidad fija es un campo obligatorio"
+    }
+  ],
+  "error.fixedAmount.shouldBeA.number": [
+    {
+      "type": 0,
+      "value": "La cantidad fija debe ser un número"
+    }
+  ],
+  "error.fromDateLessThanToDate": [
+    {
+      "type": 0,
+      "value": "A partir de la fecha debe ser inferior a \"Hasta la fecha\""
+    }
+  ],
+  "error.givenName.required": [
+    {
+      "type": 0,
+      "value": "El nombre dado es un campo obligatorio"
+    }
+  ],
+  "error.greaterThan0": [
+    {
+      "type": 0,
+      "value": "Debe ser un número mayor que 0.0"
+    }
+  ],
+  "error.homeCurrency.required": [
+    {
+      "type": 0,
+      "value": "Moneda de origen es un campo obligatorio"
+    }
+  ],
+  "error.iin.minRequired": [
+    {
+      "type": 0,
+      "value": "Se requiere al menos un IIN"
+    }
+  ],
+  "error.input.required": [
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " es un campo obligatorio."
+    }
+  ],
+  "error.language.required": [
+    {
+      "type": 0,
+      "value": "El idioma es un campo obligatorio."
+    }
+  ],
+  "error.lastName.required": [
+    {
+      "type": 0,
+      "value": "El apellido es un campo obligatorio"
+    }
+  ],
+  "error.location.required": [
+    {
+      "type": 0,
+      "value": "La ubicación es un campo obligatorio"
+    }
+  ],
+  "error.login.201012": [
+    {
+      "type": 0,
+      "value": "Socio no encontrado. Inténtelo de nuevo."
+    }
+  ],
+  "error.login.205000": [
+    {
+      "type": 0,
+      "value": "Nombre de usuario o contraseña incorrectos. Inténtelo de nuevo."
+    }
+  ],
+  "error.mailKey.required": [
+    {
+      "type": 0,
+      "value": "Clave de correo es un campo obligatorio."
+    }
+  ],
+  "error.majorCode.100": [
+    {
+      "type": 0,
+      "value": "Parámetro inválido"
+    }
+  ],
+  "error.majorCode.101": [
+    {
+      "type": 0,
+      "value": "Excepción de puntero nulo"
+    }
+  ],
+  "error.majorCode.102": [
+    {
+      "type": 0,
+      "value": "Excepción de E/Remoto"
+    }
+  ],
+  "error.majorCode.103": [
+    {
+      "type": 0,
+      "value": "Operación no soportada"
+    }
+  ],
+  "error.majorCode.104": [
+    {
+      "type": 0,
+      "value": "Estado ilegal"
+    }
+  ],
+  "error.majorCode.200": [
+    {
+      "type": 0,
+      "value": "No disponible"
+    }
+  ],
+  "error.majorCode.201": [
+    {
+      "type": 0,
+      "value": "No encontrada"
+    }
+  ],
+  "error.majorCode.202": [
+    {
+      "type": 0,
+      "value": "Divisa inválida"
+    }
+  ],
+  "error.majorCode.203": [
+    {
+      "type": 0,
+      "value": "Conversión de Divisa"
+    }
+  ],
+  "error.majorCode.204": [
+    {
+      "type": 0,
+      "value": "Sin Tipo de Cambio"
+    }
+  ],
+  "error.majorCode.205": [
+    {
+      "type": 0,
+      "value": "Seguridad general"
+    }
+  ],
+  "error.majorCode.206": [
+    {
+      "type": 0,
+      "value": "Desajuste monetario"
+    }
+  ],
+  "error.majorCode.207": [
+    {
+      "type": 0,
+      "value": "Reverso"
+    }
+  ],
+  "error.majorCode.208": [
+    {
+      "type": 0,
+      "value": "Validación"
+    }
+  ],
+  "error.majorCode.209": [
+    {
+      "type": 0,
+      "value": "Duplicado"
+    }
+  ],
+  "error.majorCode.210": [
+    {
+      "type": 0,
+      "value": "Cantidad de cambio demasiado pequeña"
+    }
+  ],
+  "error.majorCode.211": [
+    {
+      "type": 0,
+      "value": "Transacción"
+    }
+  ],
+  "error.majorCode.212": [
+    {
+      "type": 0,
+      "value": "Formato del Mensaje"
+    }
+  ],
+  "error.majorCode.213": [
+    {
+      "type": 0,
+      "value": "Cafis"
+    }
+  ],
+  "error.majorCode.214": [
+    {
+      "type": 0,
+      "value": "Error"
+    }
+  ],
+  "error.majorCode.300": [
+    {
+      "type": 0,
+      "value": "Fondos insuficientes"
+    }
+  ],
+  "error.majorCode.400": [
+    {
+      "type": 0,
+      "value": "Regla de riesgo"
+    }
+  ],
+  "error.majorCode.500": [
+    {
+      "type": 0,
+      "value": "Cambiar orden"
+    }
+  ],
+  "error.majorCode.600": [
+    {
+      "type": 0,
+      "value": "Error de llamada externa"
+    }
+  ],
+  "error.majorCode.900": [
+    {
+      "type": 0,
+      "value": "HTTP"
+    }
+  ],
+  "error.majorCode.unknown": [
+    {
+      "type": 0,
+      "value": "Desconocido"
+    }
+  ],
+  "error.maxLengt16": [
+    {
+      "type": 0,
+      "value": "La longitud máxima es de 16"
+    }
+  ],
+  "error.maxLength10": [
+    {
+      "type": 0,
+      "value": "La longitud máxima es de 10"
+    }
+  ],
+  "error.maxLength16": [
+    {
+      "type": 0,
+      "value": "La longitud máxima es de 16"
+    }
+  ],
+  "error.maxLength26": [
+    {
+      "type": 0,
+      "value": "La longitud máxima es de 26"
+    }
+  ],
+  "error.maxLength4": [
+    {
+      "type": 0,
+      "value": "La longitud máxima es de 4"
+    }
+  ],
+  "error.maxLength64": [
+    {
+      "type": 0,
+      "value": "La longitud máxima es de 64"
+    }
+  ],
+  "error.memo.max255Chars": [
+    {
+      "type": 0,
+      "value": "La nota debe tener 255 caracteres o menos."
+    }
+  ],
+  "error.memo.mustBe128Chars": [
+    {
+      "type": 0,
+      "value": "La nota debe tener 128 caracteres o menos."
+    }
+  ],
+  "error.memo.mustBe300Chars": [
+    {
+      "type": 0,
+      "value": "La nota debe tener 300 caracteres o menos."
+    }
+  ],
+  "error.memo.required": [
+    {
+      "type": 0,
+      "value": "Memo es un campo obligatorio."
+    }
+  ],
+  "error.memoKey.required": [
+    {
+      "type": 0,
+      "value": "Se requiere clave de nota."
+    }
+  ],
+  "error.merchantControl.ruleConflict": [
+    {
+      "type": 0,
+      "value": "Esta regla entra en conflicto con Merchant Control "
+    },
+    {
+      "type": 1,
+      "value": "id"
+    },
+    {
+      "type": 0,
+      "value": ". Introduce un importe de destino/destino válido y un ID de comerciante."
+    }
+  ],
+  "error.minCurrency.required": [
+    {
+      "type": 0,
+      "value": "Se requiere al menos una moneda"
+    }
+  ],
+  "error.minorCode.000": [
+    {
+      "type": 0,
+      "value": "No aplicable"
+    }
+  ],
+  "error.minorCode.001": [
+    {
+      "type": 0,
+      "value": "Número de cliente"
+    }
+  ],
+  "error.minorCode.002": [
+    {
+      "type": 0,
+      "value": "Referencia Externa del Cliente"
+    }
+  ],
+  "error.minorCode.003": [
+    {
+      "type": 0,
+      "value": "Nombre del Programa"
+    }
+  ],
+  "error.minorCode.004": [
+    {
+      "type": 0,
+      "value": "Número de Cuenta"
+    }
+  ],
+  "error.minorCode.005": [
+    {
+      "type": 0,
+      "value": "Número de tienda"
+    }
+  ],
+  "error.minorCode.006": [
+    {
+      "type": 0,
+      "value": "Moneda de la billetera"
+    }
+  ],
+  "error.minorCode.007": [
+    {
+      "type": 0,
+      "value": "Número de Cuenta"
+    }
+  ],
+  "error.minorCode.008": [
+    {
+      "type": 0,
+      "value": "PAN"
+    }
+  ],
+  "error.minorCode.009": [
+    {
+      "type": 0,
+      "value": "ID de Tarjeta"
+    }
+  ],
+  "error.minorCode.010": [
+    {
+      "type": 0,
+      "value": "Nombre del banco"
+    }
+  ],
+  "error.minorCode.011": [
+    {
+      "type": 0,
+      "value": "Nombre del intercambio"
+    }
+  ],
+  "error.minorCode.012": [
+    {
+      "type": 0,
+      "value": "Nombre del socio"
+    }
+  ],
+  "error.minorCode.013": [
+    {
+      "type": 0,
+      "value": "Nombre del proveedor de Exchange"
+    }
+  ],
+  "error.minorCode.014": [
+    {
+      "type": 0,
+      "value": "Nombre de exchange"
+    }
+  ],
+  "error.minorCode.015": [
+    {
+      "type": 0,
+      "value": "Nombre de Plan de Comisiones"
+    }
+  ],
+  "error.minorCode.016": [
+    {
+      "type": 0,
+      "value": "Nivel de Seguridad"
+    }
+  ],
+  "error.minorCode.017": [
+    {
+      "type": 0,
+      "value": "Expirada"
+    }
+  ],
+  "error.minorCode.018": [
+    {
+      "type": 0,
+      "value": "Número de Aprobación"
+    }
+  ],
+  "error.minorCode.019": [
+    {
+      "type": 0,
+      "value": "Identificación de persona"
+    }
+  ],
+  "error.minorCode.020": [
+    {
+      "type": 0,
+      "value": "Regla de riesgo"
+    }
+  ],
+  "error.minorCode.021": [
+    {
+      "type": 0,
+      "value": "Código de Autorización"
+    }
+  ],
+  "error.minorCode.022": [
+    {
+      "type": 0,
+      "value": "Transacción"
+    }
+  ],
+  "error.minorCode.030": [
+    {
+      "type": 0,
+      "value": "ID de dirección"
+    }
+  ],
+  "error.minorCode.031": [
+    {
+      "type": 0,
+      "value": "ID de correo electrónico"
+    }
+  ],
+  "error.minorCode.032": [
+    {
+      "type": 0,
+      "value": "Identificación oficial"
+    }
+  ],
+  "error.minorCode.033": [
+    {
+      "type": 0,
+      "value": "ID de teléfono"
+    }
+  ],
+  "error.minorCode.034": [
+    {
+      "type": 0,
+      "value": "Nombre de perfil de tarjeta"
+    }
+  ],
+  "error.minorCode.035": [
+    {
+      "type": 0,
+      "value": "Identificación de entrada de tarifa"
+    }
+  ],
+  "error.minorCode.036": [
+    {
+      "type": 0,
+      "value": "ID de plantilla de correo"
+    }
+  ],
+  "error.minorCode.037": [
+    {
+      "type": 0,
+      "value": "Divisa"
+    }
+  ],
+  "error.minorCode.038": [
+    {
+      "type": 0,
+      "value": "Tipo de cambio del par"
+    }
+  ],
+  "error.minorCode.039": [
+    {
+      "type": 0,
+      "value": "Tipo de cambio del par"
+    }
+  ],
+  "error.minorCode.040": [
+    {
+      "type": 0,
+      "value": "Modificación del resumen de la factura"
+    }
+  ],
+  "error.minorCode.041": [
+    {
+      "type": 0,
+      "value": "ID de excepción de Riesgos"
+    }
+  ],
+  "error.minorCode.042": [
+    {
+      "type": 0,
+      "value": "Parámetro"
+    }
+  ],
+  "error.minorCode.043": [
+    {
+      "type": 0,
+      "value": "Valor de la cantidad"
+    }
+  ],
+  "error.minorCode.044": [
+    {
+      "type": 0,
+      "value": "認証トークン ID"
+    }
+  ],
+  "error.minorCode.045": [
+    {
+      "type": 0,
+      "value": "ID de memo de Cliente"
+    }
+  ],
+  "error.minorCode.046": [
+    {
+      "type": 0,
+      "value": "Número de envío"
+    }
+  ],
+  "error.minorCode.047": [
+    {
+      "type": 0,
+      "value": "Nombre de atributo"
+    }
+  ],
+  "error.minorCode.048": [
+    {
+      "type": 0,
+      "value": "Cuenta bloqueada"
+    }
+  ],
+  "error.minorCode.049": [
+    {
+      "type": 0,
+      "value": "Fecha de Nacimiento"
+    }
+  ],
+  "error.minorCode.050": [
+    {
+      "type": 0,
+      "value": "Fecha de Nacimiento"
+    }
+  ],
+  "error.minorCode.051": [
+    {
+      "type": 0,
+      "value": "Código de seguridad"
+    }
+  ],
+  "error.minorCode.052": [
+    {
+      "type": 0,
+      "value": "Cliente infantil"
+    }
+  ],
+  "error.minorCode.053": [
+    {
+      "type": 0,
+      "value": "Transacción pendiente"
+    }
+  ],
+  "error.minorCode.054": [
+    {
+      "type": 0,
+      "value": "Pedido de tarjetas"
+    }
+  ],
+  "error.minorCode.055": [
+    {
+      "type": 0,
+      "value": "Estatus de tarjeta"
+    }
+  ],
+  "error.minorCode.056": [
+    {
+      "type": 0,
+      "value": "NIP"
+    }
+  ],
+  "error.minorCode.057": [
+    {
+      "type": 0,
+      "value": "Cliente bloqueado"
+    }
+  ],
+  "error.minorCode.058": [
+    {
+      "type": 0,
+      "value": "Contraseña"
+    }
+  ],
+  "error.minorCode.059": [
+    {
+      "type": 0,
+      "value": "Contraseña"
+    }
+  ],
+  "error.minorCode.060": [
+    {
+      "type": 0,
+      "value": "Complemento"
+    }
+  ],
+  "error.minorCode.061": [
+    {
+      "type": 0,
+      "value": "ID de atributo de nota del cliente"
+    }
+  ],
+  "error.minorCode.062": [
+    {
+      "type": 0,
+      "value": "Token de sesión"
+    }
+  ],
+  "error.minorCode.063": [
+    {
+      "type": 0,
+      "value": "ID de usuario de socio"
+    }
+  ],
+  "error.minorCode.064": [
+    {
+      "type": 0,
+      "value": "Nombre de usuario del socio"
+    }
+  ],
+  "error.minorCode.065": [
+    {
+      "type": 0,
+      "value": "Nueva contraseña"
+    }
+  ],
+  "error.minorCode.066": [
+    {
+      "type": 0,
+      "value": "Margen de cambio"
+    }
+  ],
+  "error.minorCode.067": [
+    {
+      "type": 0,
+      "value": "Cliente principal"
+    }
+  ],
+  "error.minorCode.068": [
+    {
+      "type": 0,
+      "value": "Asunto"
+    }
+  ],
+  "error.minorCode.069": [
+    {
+      "type": 0,
+      "value": "Nivel de Riesgo"
+    }
+  ],
+  "error.minorCode.070": [
+    {
+      "type": 0,
+      "value": "ID de mensaje ISO8583"
+    }
+  ],
+  "error.minorCode.071": [
+    {
+      "type": 0,
+      "value": "ID de Contracargo"
+    }
+  ],
+  "error.minorCode.072": [
+    {
+      "type": 0,
+      "value": "ID de mensaje de contracargo"
+    }
+  ],
+  "error.minorCode.090": [
+    {
+      "type": 0,
+      "value": "ID de orden de cambio"
+    }
+  ],
+  "error.minorCode.091": [
+    {
+      "type": 0,
+      "value": "Cambiar estado de orden"
+    }
+  ],
+  "error.minorCode.092": [
+    {
+      "type": 0,
+      "value": "Acción por cambio de orden"
+    }
+  ],
+  "error.minorCode.093": [
+    {
+      "type": 0,
+      "value": "Cambiar tipo de orden"
+    }
+  ],
+  "error.minorCode.094": [
+    {
+      "type": 0,
+      "value": "Solicitador de orden de cambio"
+    }
+  ],
+  "error.minorCode.095": [
+    {
+      "type": 0,
+      "value": "Control de comerciantes duplicados"
+    }
+  ],
+  "error.minorCode.200": [
+    {
+      "type": 0,
+      "value": "Verificación de NIP"
+    }
+  ],
+  "error.minorCode.201": [
+    {
+      "type": 0,
+      "value": "Recuento de errores de pines"
+    }
+  ],
+  "error.minorCode.202": [
+    {
+      "type": 0,
+      "value": "Tarjeta caducada"
+    }
+  ],
+  "error.minorCode.203": [
+    {
+      "type": 0,
+      "value": "Bloqueo temporal de recuento de errores de pines"
+    }
+  ],
+  "error.minorCode.300": [
+    {
+      "type": 0,
+      "value": "ID de incidencia del cliente"
+    }
+  ],
+  "error.minorCode.600": [
+    {
+      "type": 0,
+      "value": "Known error code"
+    }
+  ],
+  "error.minorCode.unknown": [
+    {
+      "type": 0,
+      "value": "Error desconocido"
+    }
+  ],
+  "error.mustBeANumber": [
+    {
+      "type": 0,
+      "value": "Debe ser un número"
+    }
+  ],
+  "error.name.required": [
+    {
+      "type": 0,
+      "value": "Se requiere nombre."
+    }
+  ],
+  "error.noAccess": [
+    {
+      "type": 0,
+      "value": "Sin acceso"
+    }
+  ],
+  "error.noMatch": [
+    {
+      "type": 0,
+      "value": "Vaya, esta página no existe."
+    }
+  ],
+  "error.number.15integers5decimals.format": [
+    {
+      "type": 0,
+      "value": "El valor no debe tener más de 7 enteros y 3 decimales"
+    }
+  ],
+  "error.number.7integers3decimals.format": [
+    {
+      "type": 0,
+      "value": "Value should have no more than 7 integers and 3 decimals"
+    }
+  ],
+  "error.oopsSomethingWentWrong": [
+    {
+      "type": 0,
+      "value": "Vaya, algo salió mal."
+    }
+  ],
+  "error.parameterAndValue.required": [
+    {
+      "type": 0,
+      "value": "El parámetro y el valor no pueden estar en blanco"
+    }
+  ],
+  "error.parameterValue.required": [
+    {
+      "type": 0,
+      "value": "Valor de parámetro requerido."
+    }
+  ],
+  "error.partner.required": [
+    {
+      "type": 0,
+      "value": "Socio es un campo obligatorio"
+    }
+  ],
+  "error.partnerName.required": [
+    {
+      "type": 0,
+      "value": "Nombre del socio es un campo obligatorio."
+    }
+  ],
+  "error.password.digit": [
+    {
+      "type": 0,
+      "value": "La contraseña debe incluir al menos un dígito"
+    }
+  ],
+  "error.password.lowercase": [
+    {
+      "type": 0,
+      "value": "La contraseña debe incluir al menos una letra minúscula"
+    }
+  ],
+  "error.password.maxChar": [
+    {
+      "type": 0,
+      "value": "La contraseña no debe contener más de 32 caracteres"
+    }
+  ],
+  "error.password.minChar": [
+    {
+      "type": 0,
+      "value": "La contraseña debe contener al menos 8 caracteres"
+    }
+  ],
+  "error.password.required": [
+    {
+      "type": 0,
+      "value": "Contraseña es un campo obligatorio."
+    }
+  ],
+  "error.password.specialChar": [
+    {
+      "type": 0,
+      "value": "La contraseña debe contener al menos un carácter especial"
+    }
+  ],
+  "error.password.uppercase": [
+    {
+      "type": 0,
+      "value": "La contraseña debe incluir al menos una letra mayúscula"
+    }
+  ],
+  "error.phone.invalidFormat": [
+    {
+      "type": 0,
+      "value": "Formato de teléfono no válido"
+    }
+  ],
+  "error.phone.required": [
+    {
+      "type": 0,
+      "value": "Teléfono es un campo obligatorio."
+    }
+  ],
+  "error.phoneFormat.invalid": [
+    {
+      "type": 0,
+      "value": "Formato de teléfono no válido"
+    }
+  ],
+  "error.phoneNumber.required": [
+    {
+      "type": 0,
+      "value": "Número de teléfono es un campo obligatorio."
+    }
+  ],
+  "error.phoneType.required": [
+    {
+      "type": 0,
+      "value": "El tipo de teléfono es un campo obligatorio"
+    }
+  ],
+  "error.postalCode.required": [
+    {
+      "type": 0,
+      "value": "El código postal es un campo obligatorio."
+    }
+  ],
+  "error.primaryNumber.required": [
+    {
+      "type": 0,
+      "value": "El número principal es un campo obligatorio."
+    }
+  ],
+  "error.program.feeAmount.numberType": [
+    {
+      "type": 0,
+      "value": "El monto de la tarifa ($) debe ser un número"
+    }
+  ],
+  "error.program.feeAmount.percentage.numberType": [
+    {
+      "type": 0,
+      "value": "El monto de la tarifa (%) debe ser un número"
+    }
+  ],
+  "error.program.feeAmount.percentage.required": [
+    {
+      "type": 0,
+      "value": "Importe de la tarifa (%) es un campo obligatorio"
+    }
+  ],
+  "error.program.feeAmount.required": [
+    {
+      "type": 0,
+      "value": "Monto de la tarifa ($) es un campo obligatorio"
+    }
+  ],
+  "error.program.fixFee.currency.format": [
+    {
+      "type": 0,
+      "value": "Número entero de 15 dígitos y fracción de 5 dígitos solamente"
+    }
+  ],
+  "error.program.fixFee.percentage.format": [
+    {
+      "type": 0,
+      "value": "Número entero de 7 dígitos y fracción de 3 dígitos solamente"
+    }
+  ],
+  "error.program.receiver.numberType": [
+    {
+      "type": 0,
+      "value": "El monto de la tarifa del receptor ($) debe ser un número"
+    }
+  ],
+  "error.program.receiver.percentage.format": [
+    {
+      "type": 0,
+      "value": "Número entero de 15 dígitos y fracción de 5 dígitos solamente"
+    }
+  ],
+  "error.program.receiver.percentage.numberType": [
+    {
+      "type": 0,
+      "value": "El monto de la tarifa del receptor (%) debe ser un número"
+    }
+  ],
+  "error.program.receiver.percentage.required": [
+    {
+      "type": 0,
+      "value": "Monto de la tarifa del receptor (%) es un campo obligatorio"
+    }
+  ],
+  "error.program.receiver.required": [
+    {
+      "type": 0,
+      "value": "El monto de la tarifa del receptor ($) es un campo obligatorio"
+    }
+  ],
+  "error.reason.required": [
+    {
+      "type": 0,
+      "value": "La razón es un campo obligatorio."
+    }
+  ],
+  "error.receiverFee.required": [
+    {
+      "type": 0,
+      "value": "El monto de la tarifa del receptor ($) es un campo obligatorio"
+    }
+  ],
+  "error.receiverFee.shouldBeA.number": [
+    {
+      "type": 0,
+      "value": "Tarifa del receptor El monto ($) debe ser un número"
+    }
+  ],
+  "error.receiverFeeAmount.shouldBeA.number": [
+    {
+      "type": 0,
+      "value": "El monto de la tarifa del receptor (%) debe ser un número"
+    }
+  ],
+  "error.referenceNumber.required": [
+    {
+      "type": 0,
+      "value": "El número de referencia es un campo obligatorio."
+    }
+  ],
+  "error.releaseDate.required": [
+    {
+      "type": 0,
+      "value": "Se requiere fecha de lanzamiento."
+    }
+  ],
+  "error.requiredField": [
+    {
+      "type": 0,
+      "value": "Campo requerido"
+    }
+  ],
+  "error.riskLevel.numberType": [
+    {
+      "type": 0,
+      "value": "El nivel de riesgo debe ser un número"
+    }
+  ],
+  "error.riskLevel.required": [
+    {
+      "type": 0,
+      "value": "Nivel de riesgo es un campo obligatorio"
+    }
+  ],
+  "error.riskLevelToCopy.required": [
+    {
+      "type": 0,
+      "value": "Nivel de riesgo para copiar es un campo obligatorio"
+    }
+  ],
+  "error.riskParameter.required": [
+    {
+      "type": 0,
+      "value": "Parámetro de riesgo es un campo obligatorio"
+    }
+  ],
+  "error.role.minSelection": [
+    {
+      "type": 0,
+      "value": "Se debe seleccionar al menos un rol"
+    }
+  ],
+  "error.securityLevel.required": [
+    {
+      "type": 0,
+      "value": "El nivel de seguridad es un campo obligatorio"
+    }
+  ],
+  "error.sellCurrency.required": [
+    {
+      "type": 0,
+      "value": "El campo Vender moneda es obligatorio."
+    }
+  ],
+  "error.sender.required": [
+    {
+      "type": 0,
+      "value": "Remitente es un campo obligatorio."
+    }
+  ],
+  "error.serviceCode.required": [
+    {
+      "type": 0,
+      "value": "Se requiere código de servicio."
+    }
+  ],
+  "error.somethingWentWrong": [
+    {
+      "type": 0,
+      "value": "Algo salió mal"
+    }
+  ],
+  "error.state.required": [
+    {
+      "type": 0,
+      "value": "Estado es un campo obligatorio."
+    }
+  ],
+  "error.subject.required": [
+    {
+      "type": 0,
+      "value": "El asunto es un campo obligatorio."
+    }
+  ],
+  "error.template.required": [
+    {
+      "type": 0,
+      "value": "La plantilla es un campo obligatorio."
+    }
+  ],
+  "error.timeZone.required": [
+    {
+      "type": 0,
+      "value": "Zona horaria es un campo obligatorio"
+    }
+  ],
+  "error.toDate.greaterThan.FromDate": [
+    {
+      "type": 0,
+      "value": "Hasta la fecha debe ser mayor \"que desde la fecha\""
+    }
+  ],
+  "error.toDateGreaterThanFromDate": [
+    {
+      "type": 0,
+      "value": "Hasta la fecha debe ser mayor que \"A partir de la fecha\""
+    }
+  ],
+  "error.type.required": [
+    {
+      "type": 0,
+      "value": "Tipo es un campo obligatorio."
+    }
+  ],
+  "error.username.maxChar": [
+    {
+      "type": 0,
+      "value": "El nombre de usuario no debe contener más de 32 caracteres"
+    }
+  ],
+  "error.username.minChar": [
+    {
+      "type": 0,
+      "value": "El nombre de usuario debe contener al menos 8 caracteres"
+    }
+  ],
+  "error.username.required": [
+    {
+      "type": 0,
+      "value": "Nombre de usuario es un campo obligatorio."
+    }
+  ],
+  "error.username.specialChar": [
+    {
+      "type": 0,
+      "value": "El nombre de usuario solo debe contener caracteres en minúsculas, números y .-_"
+    }
+  ],
+  "error.value.required": [
+    {
+      "type": 0,
+      "value": "El valor es un campo obligatorio"
+    }
+  ],
+  "errorMessage": [
+    {
+      "type": 0,
+      "value": "Mensaje de error"
+    }
+  ],
+  "exchange": [
+    {
+      "type": 0,
+      "value": "intercambiar"
+    }
+  ],
+  "exchangeAdjustment": [
+    {
+      "type": 0,
+      "value": "Ajuste cambiario"
+    }
+  ],
+  "exchangeCurrency": [
+    {
+      "type": 0,
+      "value": "Cambio de moneda"
+    }
+  ],
+  "exchangeMargin": [
+    {
+      "type": 0,
+      "value": "Margen de cambio"
+    }
+  ],
+  "exchangeName": [
+    {
+      "type": 0,
+      "value": "Nombre de intercambio"
+    }
+  ],
+  "exchangeProvider": [
+    {
+      "type": 0,
+      "value": "Proveedor de intercambio"
+    }
+  ],
+  "exchangeQuoteExpiresIn": [
+    {
+      "type": 0,
+      "value": "La cotización de cambio expira en"
+    }
+  ],
+  "exchanges": [
+    {
+      "type": 0,
+      "value": "Intercambios"
+    }
+  ],
+  "expeditedShipping": [
+    {
+      "type": 0,
+      "value": "Envío acelerado"
+    }
+  ],
+  "expirationDate": [
+    {
+      "type": 0,
+      "value": "Fecha de caducidad"
+    }
+  ],
+  "expirationTime": [
+    {
+      "type": 0,
+      "value": "Tiempo de caducidad"
+    }
+  ],
+  "expiry": [
+    {
+      "type": 0,
+      "value": "Caducidad"
+    }
+  ],
+  "expiryMonths": [
+    {
+      "type": 0,
+      "value": "Caducidad (número de meses)"
+    }
+  ],
+  "expiryOverride": [
+    {
+      "type": 0,
+      "value": "Anulación de caducidad (YYYYMM)"
+    }
+  ],
+  "external": [
+    {
+      "type": 0,
+      "value": "Externos"
+    }
+  ],
+  "externalAccounts": [
+    {
+      "type": 0,
+      "value": "Cuentas Externas"
+    }
+  ],
+  "externalIdCode": [
+    {
+      "type": 0,
+      "value": "Código de ID externo"
+    }
+  ],
+  "externalReference": [
+    {
+      "type": 0,
+      "value": "Referencia externa"
+    }
+  ],
+  "failedParameter": [
+    {
+      "type": 0,
+      "value": "Parámetro failed"
+    }
+  ],
+  "familyName": [
+    {
+      "type": 0,
+      "value": "Apellido"
+    }
+  ],
+  "fax": [
+    {
+      "type": 0,
+      "value": "Fax"
+    }
+  ],
+  "february": [
+    {
+      "type": 0,
+      "value": "Febrero"
+    }
+  ],
+  "fee": [
+    {
+      "type": 0,
+      "value": "Tarifa"
+    }
+  ],
+  "fee.wizard.newFees.feeAmount": [
+    {
+      "type": 0,
+      "value": "Monto de la tarifa ($)"
+    }
+  ],
+  "fee.wizard.newFees.feeAmountPercent": [
+    {
+      "type": 0,
+      "value": "Importe de la tarifa (%)"
+    }
+  ],
+  "fee.wizard.newFees.receiverFeeAmount": [
+    {
+      "type": 0,
+      "value": "Monto de la tarifa del receptor ($)"
+    }
+  ],
+  "fee.wizard.newFees.receiverFeeAmountPercent": [
+    {
+      "type": 0,
+      "value": "Monto de la tarifa del receptor (%)"
+    }
+  ],
+  "feePercentage": [
+    {
+      "type": 0,
+      "value": "Porcentaje de tarifa"
+    }
+  ],
+  "feePlan": [
+    {
+      "type": 0,
+      "value": "Plan de tarifas"
+    }
+  ],
+  "feePlanDetails": [
+    {
+      "type": 0,
+      "value": "Detalles del plan de tarifas"
+    }
+  ],
+  "feePlans": [
+    {
+      "type": 0,
+      "value": "Planes de tarifas"
+    }
+  ],
+  "fees": [
+    {
+      "type": 0,
+      "value": "Honorarios"
+    }
+  ],
+  "filterByCustomer": [
+    {
+      "type": 0,
+      "value": "Filtrar por cliente"
+    }
+  ],
+  "filterByDate": [
+    {
+      "type": 0,
+      "value": "Filtrar por fecha"
+    }
+  ],
+  "filterByUser": [
+    {
+      "type": 0,
+      "value": "Filtrar por usuario"
+    }
+  ],
+  "filterResults": [
+    {
+      "type": 0,
+      "value": "Filtrar resultados"
+    }
+  ],
+  "firstName": [
+    {
+      "type": 0,
+      "value": "Primer nombre"
+    }
+  ],
+  "fixedAmount": [
+    {
+      "type": 0,
+      "value": "Monto fijo"
+    }
+  ],
+  "fixedFee": [
+    {
+      "type": 0,
+      "value": "Cuota fija"
+    }
+  ],
+  "fixedFeePercentage": [
+    {
+      "type": 0,
+      "value": "Tarifa fija/porcentaje"
+    }
+  ],
+  "forcePost": [
+    {
+      "type": 0,
+      "value": "Puesto de fuerza"
+    }
+  ],
+  "forgot.button.backToLoginScreen": [
+    {
+      "type": 0,
+      "value": "Volver a la pantalla de inicio de sesión"
+    }
+  ],
+  "forgot.button.sendMyResetLink": [
+    {
+      "type": 0,
+      "value": "Enviar mi enlace de restablecimiento"
+    }
+  ],
+  "forgot.field.emailAddressOrUsername": [
+    {
+      "type": 0,
+      "value": "Dirección de correo electrónico / nombre de usuario"
+    }
+  ],
+  "forgot.fill.fields": [
+    {
+      "type": 0,
+      "value": "Por favor complete los datos a continuación."
+    }
+  ],
+  "forgot.reset.link.sent": [
+    {
+      "type": 0,
+      "value": "Su enlace de restablecimiento de contraseña está en camino a la dirección de correo electrónico asociada con"
+    }
+  ],
+  "forgot.reset.success": [
+    {
+      "type": 0,
+      "value": "¡Éxito!"
+    }
+  ],
+  "forgot.will.send.link": [
+    {
+      "type": 0,
+      "value": "Le enviaremos un correo electrónico con una liga segura para restablecer su contraseña."
+    }
+  ],
+  "fraud": [
+    {
+      "type": 0,
+      "value": "Fraude"
+    }
+  ],
+  "frequency": [
+    {
+      "type": 0,
+      "value": "Freqüência"
+    }
+  ],
+  "fromDate": [
+    {
+      "type": 0,
+      "value": "Desde la fecha"
+    }
+  ],
+  "gender": [
+    {
+      "type": 0,
+      "value": "Género"
+    }
+  ],
+  "gender.female": [
+    {
+      "type": 0,
+      "value": "Mujer"
+    }
+  ],
+  "gender.male": [
+    {
+      "type": 0,
+      "value": "Hombre"
+    }
+  ],
+  "genders": [
+    {
+      "type": 0,
+      "value": "Géneros"
+    }
+  ],
+  "general": [
+    {
+      "type": 0,
+      "value": "General"
+    }
+  ],
+  "givenName": [
+    {
+      "type": 0,
+      "value": "Nombre de pila"
+    }
+  ],
+  "hideReleasedHolds": [
+    {
+      "type": 0,
+      "value": "Ocultar retenciones liberadas"
+    }
+  ],
+  "holdMemo": [
+    {
+      "type": 0,
+      "value": "Retención de memo"
+    }
+  ],
+  "holds": [
+    {
+      "type": 0,
+      "value": "Tiene"
+    }
+  ],
+  "home": [
+    {
+      "type": 0,
+      "value": "Casa"
+    }
+  ],
+  "homeCurrency": [
+    {
+      "type": 0,
+      "value": "Moneda local"
+    }
+  ],
+  "hostAddress": [
+    {
+      "type": 0,
+      "value": "Dirección del servidor"
+    }
+  ],
+  "hour": [
+    {
+      "type": 0,
+      "value": "Hora"
+    }
+  ],
+  "id": [
+    {
+      "type": 0,
+      "value": "ID"
+    }
+  ],
+  "id.type.alternate": [
+    {
+      "type": 0,
+      "value": "Alternativo"
+    }
+  ],
+  "id.type.driversLicense": [
+    {
+      "type": 0,
+      "value": "Licencia de conducir"
+    }
+  ],
+  "id.type.national": [
+    {
+      "type": 0,
+      "value": "Nacional"
+    }
+  ],
+  "id.type.other": [
+    {
+      "type": 0,
+      "value": "Otro"
+    }
+  ],
+  "id.type.passport": [
+    {
+      "type": 0,
+      "value": "Pasaporte"
+    }
+  ],
+  "id.type.supplementary": [
+    {
+      "type": 0,
+      "value": "Suplementario"
+    }
+  ],
+  "id.type.tax": [
+    {
+      "type": 0,
+      "value": "Impuestos"
+    }
+  ],
+  "identification": [
+    {
+      "type": 0,
+      "value": "Identificación"
+    }
+  ],
+  "identifierCode": [
+    {
+      "type": 0,
+      "value": "Código identificador"
+    }
+  ],
+  "iin": [
+    {
+      "type": 0,
+      "value": "IIN"
+    }
+  ],
+  "inProgressTransactions": [
+    {
+      "type": 0,
+      "value": "Transacciones en curso"
+    }
+  ],
+  "inWalletATM": [
+    {
+      "type": 0,
+      "value": "En el cajero automático de la billetera"
+    }
+  ],
+  "inWalletPOS": [
+    {
+      "type": 0,
+      "value": "En Wallet POS"
+    }
+  ],
+  "inbound": [
+    {
+      "type": 0,
+      "value": "Entrantes"
+    }
+  ],
+  "individualCurrencyMargin": [
+    {
+      "type": 0,
+      "value": "Margen de moneda individual"
+    }
+  ],
+  "individualCurrencyMarginOptional": [
+    {
+      "type": 0,
+      "value": "Margen de moneda individual (Opcional)"
+    }
+  ],
+  "individualCurrencyMargins": [
+    {
+      "type": 0,
+      "value": "Margen de moneda individual"
+    }
+  ],
+  "input.memo.placeholder": [
+    {
+      "type": 0,
+      "value": "Nota (300 caracteres máx.)"
+    }
+  ],
+  "inputLabel": [
+    {
+      "type": 0,
+      "value": "Etiqueta de entrada"
+    }
+  ],
+  "interchangeName": [
+    {
+      "type": 0,
+      "value": "Nombre de intercambio"
+    }
+  ],
+  "interchanges": [
+    {
+      "type": 0,
+      "value": "Intercambios"
+    }
+  ],
+  "interest": [
+    {
+      "type": 0,
+      "value": "Interés"
+    }
+  ],
+  "intermediateCurrency": [
+    {
+      "type": 0,
+      "value": "Moneda intermedia"
+    }
+  ],
+  "internal": [
+    {
+      "type": 0,
+      "value": "Interna"
+    }
+  ],
+  "issuedDate": [
+    {
+      "type": 0,
+      "value": "Fecha de emisión"
+    }
+  ],
+  "issuerIdentifier": [
+    {
+      "type": 0,
+      "value": "Identificador del emisor"
+    }
+  ],
+  "january": [
+    {
+      "type": 0,
+      "value": "Enero"
+    }
+  ],
+  "jr": [
+    {
+      "type": 0,
+      "value": "Jr"
+    }
+  ],
+  "july": [
+    {
+      "type": 0,
+      "value": "Julio"
+    }
+  ],
+  "june": [
+    {
+      "type": 0,
+      "value": "Junio"
+    }
+  ],
+  "label.editCustomer": [
+    {
+      "type": 0,
+      "value": "Editar cliente"
+    }
+  ],
+  "label.language.english": [
+    {
+      "type": 0,
+      "value": "U.S. - Español"
+    }
+  ],
+  "label.language.japanese": [
+    {
+      "type": 0,
+      "value": "Japonés"
+    }
+  ],
+  "label.language.portuguese": [
+    {
+      "type": 0,
+      "value": "Portugués"
+    }
+  ],
+  "label.language.spanish": [
+    {
+      "type": 0,
+      "value": "Español"
+    }
+  ],
+  "language": [
+    {
+      "type": 0,
+      "value": "Idioma"
+    }
+  ],
+  "lastFourPAN": [
+    {
+      "type": 0,
+      "value": "Últimos cuatro PAN"
+    }
+  ],
+  "lastLogin": [
+    {
+      "type": 0,
+      "value": "Ultimo inicio de sesión"
+    }
+  ],
+  "lastModified": [
+    {
+      "type": 0,
+      "value": "Ultima modificación"
+    }
+  ],
+  "lastName": [
+    {
+      "type": 0,
+      "value": "Apellido"
+    }
+  ],
+  "limitResultsTo": [
+    {
+      "type": 0,
+      "value": "Limitar los resultados a"
+    }
+  ],
+  "linkedPartners": [
+    {
+      "type": 0,
+      "value": "Socios vinculados"
+    }
+  ],
+  "linkedPrograms": [
+    {
+      "type": 0,
+      "value": "Programas Vinculados"
+    }
+  ],
+  "load": [
+    {
+      "type": 0,
+      "value": "Carga"
+    }
+  ],
+  "location": [
+    {
+      "type": 0,
+      "value": "Ubicación"
+    }
+  ],
+  "locked": [
+    {
+      "type": 0,
+      "value": "Bloqueado"
+    }
+  ],
+  "login": [
+    {
+      "type": 0,
+      "value": "Inicio de sesión"
+    }
+  ],
+  "login.button.login": [
+    {
+      "type": 0,
+      "value": "Inicia sesión"
+    }
+  ],
+  "login.label.rememberMe": [
+    {
+      "type": 0,
+      "value": "Recordarme"
+    }
+  ],
+  "login.link.forgotPassword": [
+    {
+      "type": 0,
+      "value": "Olvidó la contraseña"
+    }
+  ],
+  "logout": [
+    {
+      "type": 0,
+      "value": "Cierre de sesión"
+    }
+  ],
+  "mail.state.unverified": [
+    {
+      "type": 0,
+      "value": "Verificar"
+    }
+  ],
+  "mail.template.type.accountBalanceChange": [
+    {
+      "type": 0,
+      "value": "Cambio en el saldo de la cuenta"
+    }
+  ],
+  "mail.template.type.accountBalanceChangePurchase": [
+    {
+      "type": 0,
+      "value": "Saldo de la cuenta Cambiar Compra"
+    }
+  ],
+  "mail.template.type.accountBalanceChangeWithdraw": [
+    {
+      "type": 0,
+      "value": "Cambio de saldo de cuenta Retirar"
+    }
+  ],
+  "mail.template.type.accountBlock": [
+    {
+      "type": 0,
+      "value": "Bloqueo de cuenta"
+    }
+  ],
+  "mail.template.type.accountOpeningAcceptance": [
+    {
+      "type": 0,
+      "value": "Aceptación de apertura de cuenta"
+    }
+  ],
+  "mail.template.type.accountSetupComplete": [
+    {
+      "type": 0,
+      "value": "Configuración de la cuenta completada"
+    }
+  ],
+  "mail.template.type.addressChanged": [
+    {
+      "type": 0,
+      "value": "Dirección cambiada"
+    }
+  ],
+  "mail.template.type.authorization": [
+    {
+      "type": 0,
+      "value": "Autorización"
+    }
+  ],
+  "mail.template.type.authorizationError": [
+    {
+      "type": 0,
+      "value": "Error de autorización"
+    }
+  ],
+  "mail.template.type.autoTopUp": [
+    {
+      "type": 0,
+      "value": "Recarga automática"
+    }
+  ],
+  "mail.template.type.autoTopUpRemoved": [
+    {
+      "type": 0,
+      "value": "Recarga automática eliminada"
+    }
+  ],
+  "mail.template.type.autoTopUpSet": [
+    {
+      "type": 0,
+      "value": "Juego de recarga automática"
+    }
+  ],
+  "mail.template.type.availableBalance": [
+    {
+      "type": 0,
+      "value": "Saldo disponible"
+    }
+  ],
+  "mail.template.type.background": [
+    {
+      "type": 0,
+      "value": "Fondo"
+    }
+  ],
+  "mail.template.type.cardActivation": [
+    {
+      "type": 0,
+      "value": "Activación de tarjeta"
+    }
+  ],
+  "mail.template.type.cardBlock": [
+    {
+      "type": 0,
+      "value": "Bloqueo de tarjetas"
+    }
+  ],
+  "mail.template.type.cardBlockRelease": [
+    {
+      "type": 0,
+      "value": "Liberación de bloqueo de tarjeta"
+    }
+  ],
+  "mail.template.type.cardExternalTokenActivated": [
+    {
+      "type": 0,
+      "value": "Token externo de tarjeta activado"
+    }
+  ],
+  "mail.template.type.cardExternalTokenUpdated": [
+    {
+      "type": 0,
+      "value": "Token externo de tarjeta actualizado"
+    }
+  ],
+  "mail.template.type.cashWithdraw": [
+    {
+      "type": 0,
+      "value": "Retiro de efectivo"
+    }
+  ],
+  "mail.template.type.closeCustomerAccount": [
+    {
+      "type": 0,
+      "value": "Cerrar cuenta de cliente"
+    }
+  ],
+  "mail.template.type.creditLimit": [
+    {
+      "type": 0,
+      "value": "Límite de crédito"
+    }
+  ],
+  "mail.template.type.customerActivation": [
+    {
+      "type": 0,
+      "value": "Activación del cliente"
+    }
+  ],
+  "mail.template.type.customerBlock": [
+    {
+      "type": 0,
+      "value": "Bloqueo de clientes"
+    }
+  ],
+  "mail.template.type.customerPasscodeReset": [
+    {
+      "type": 0,
+      "value": "Restablecimiento del código de acceso del cliente"
+    }
+  ],
+  "mail.template.type.customerPasscodeResetCompleted": [
+    {
+      "type": 0,
+      "value": "Restablecimiento del código de acceso del cliente completado"
+    }
+  ],
+  "mail.template.type.customerRisk": [
+    {
+      "type": 0,
+      "value": "Riesgo del cliente"
+    }
+  ],
+  "mail.template.type.customerRiskChangeFailed": [
+    {
+      "type": 0,
+      "value": "Error en el cambio de riesgo del cliente"
+    }
+  ],
+  "mail.template.type.customerRiskChangeOK": [
+    {
+      "type": 0,
+      "value": "Cambio de riesgo del cliente OK"
+    }
+  ],
+  "mail.template.type.debitLimit": [
+    {
+      "type": 0,
+      "value": "Límite de débito"
+    }
+  ],
+  "mail.template.type.deliverTokenActivationCode": [
+    {
+      "type": 0,
+      "value": "Entregar código de activación de token"
+    }
+  ],
+  "mail.template.type.emailChangeRequest": [
+    {
+      "type": 0,
+      "value": "Solicitud de cambio por correo electrónico"
+    }
+  ],
+  "mail.template.type.emailChanged": [
+    {
+      "type": 0,
+      "value": "Correo electrónico cambiado"
+    }
+  ],
+  "mail.template.type.foreignTransaction": [
+    {
+      "type": 0,
+      "value": "Transacciones Extranjeras"
+    }
+  ],
+  "mail.template.type.loadComplete": [
+    {
+      "type": 0,
+      "value": "Load Complete"
+    }
+  ],
+  "mail.template.type.loginLocked": [
+    {
+      "type": 0,
+      "value": "Inicio de sesión bloqueado"
+    }
+  ],
+  "mail.template.type.lowBalance": [
+    {
+      "type": 0,
+      "value": "Saldo bajo"
+    }
+  ],
+  "mail.template.type.negativeBalance": [
+    {
+      "type": 0,
+      "value": "Saldo negativo"
+    }
+  ],
+  "mail.template.type.newAccount": [
+    {
+      "type": 0,
+      "value": "Nueva cuenta"
+    }
+  ],
+  "mail.template.type.passwordReset": [
+    {
+      "type": 0,
+      "value": "Restablecimiento de contraseña"
+    }
+  ],
+  "mail.template.type.passwordResetCompleted": [
+    {
+      "type": 0,
+      "value": "Restablecimiento de contraseña completado"
+    }
+  ],
+  "mail.template.type.phoneChanged": [
+    {
+      "type": 0,
+      "value": "Teléfono cambiado"
+    }
+  ],
+  "mail.template.type.pinChanged": [
+    {
+      "type": 0,
+      "value": "Pin cambiado"
+    }
+  ],
+  "mail.template.type.transaction": [
+    {
+      "type": 0,
+      "value": "Transacción"
+    }
+  ],
+  "mail.template.type.transactionComplete": [
+    {
+      "type": 0,
+      "value": "Transacción completada"
+    }
+  ],
+  "mail.template.type.transactionFailure": [
+    {
+      "type": 0,
+      "value": "Error de transacción"
+    }
+  ],
+  "mail.template.type.verifyEmail": [
+    {
+      "type": 0,
+      "value": "Verificar correo electrónico"
+    }
+  ],
+  "mail.template.type.verifyEmailCompleted": [
+    {
+      "type": 0,
+      "value": "Verificar correo electrónico completado"
+    }
+  ],
+  "mail.template.type.walletTransfer": [
+    {
+      "type": 0,
+      "value": "Transferencia de billetera"
+    }
+  ],
+  "mail.template.type.withdrawal": [
+    {
+      "type": 0,
+      "value": "Retiro"
+    }
+  ],
+  "mailKey": [
+    {
+      "type": 0,
+      "value": "Clave de correo"
+    }
+  ],
+  "mailTemplates": [
+    {
+      "type": 0,
+      "value": "Plantillas de correo"
+    }
+  ],
+  "maintenance": [
+    {
+      "type": 0,
+      "value": "Mantenimiento"
+    }
+  ],
+  "march": [
+    {
+      "type": 0,
+      "value": "Marzo"
+    }
+  ],
+  "may": [
+    {
+      "type": 0,
+      "value": "Puede"
+    }
+  ],
+  "memo": [
+    {
+      "type": 0,
+      "value": "memorándum"
+    }
+  ],
+  "memo.button.addNewMemo": [
+    {
+      "type": 0,
+      "value": "AÑADIR NUEVA NOTA"
+    }
+  ],
+  "memo.input.max255Chars.placeholder": [
+    {
+      "type": 0,
+      "value": "Memo (255 caracteres máx.)"
+    }
+  ],
+  "memo.input.placeholder": [
+    {
+      "type": 0,
+      "value": "Nota (300 caracteres máx.) *"
+    }
+  ],
+  "memo.input.placeholder.max128Chars": [
+    {
+      "type": 0,
+      "value": "Memo (128 caracteres máx.)"
+    }
+  ],
+  "memoKey": [
+    {
+      "type": 0,
+      "value": "Clave de memo"
+    }
+  ],
+  "memos": [
+    {
+      "type": 0,
+      "value": "Notas"
+    }
+  ],
+  "merchant": [
+    {
+      "type": 0,
+      "value": "Comerciante"
+    }
+  ],
+  "merchantControls": [
+    {
+      "type": 0,
+      "value": "Controles comerciales"
+    }
+  ],
+  "merchantLocation": [
+    {
+      "type": 0,
+      "value": "Ubicación del comerciante"
+    }
+  ],
+  "messageType": [
+    {
+      "type": 0,
+      "value": "Tipo de mensaje"
+    }
+  ],
+  "messaging": [
+    {
+      "type": 0,
+      "value": "Mensajería"
+    }
+  ],
+  "middleName": [
+    {
+      "type": 0,
+      "value": "Segundo Nombre"
+    }
+  ],
+  "minimum.paymentOwed": [
+    {
+      "type": 0,
+      "value": "Pagamento Mínimo Devido"
+    }
+  ],
+  "minimumDue": [
+    {
+      "type": 0,
+      "value": "Mínimo adeudado"
+    }
+  ],
+  "minute": [
+    {
+      "type": 0,
+      "value": "Minuto"
+    }
+  ],
+  "mobile": [
+    {
+      "type": 0,
+      "value": "Móvil"
+    }
+  ],
+  "mobileCommerce": [
+    {
+      "type": 0,
+      "value": "Comercio móvil"
+    }
+  ],
+  "modified": [
+    {
+      "type": 0,
+      "value": "Modificado"
+    }
+  ],
+  "modifiedDate": [
+    {
+      "type": 0,
+      "value": "Fecha de modificación"
+    }
+  ],
+  "modifiedOrCreated": [
+    {
+      "type": 0,
+      "value": "modificado o creado"
+    }
+  ],
+  "monthly": [
+    {
+      "type": 0,
+      "value": "Mensal"
+    }
+  ],
+  "mr": [
+    {
+      "type": 0,
+      "value": "Sr"
+    }
+  ],
+  "mrs": [
+    {
+      "type": 0,
+      "value": "Señora"
+    }
+  ],
+  "ms": [
+    {
+      "type": 0,
+      "value": "Sra"
+    }
+  ],
+  "name": [
+    {
+      "type": 0,
+      "value": "Nombre"
+    }
+  ],
+  "networkMessages": [
+    {
+      "type": 0,
+      "value": "Mensajes de red"
+    }
+  ],
+  "newAccount": [
+    {
+      "type": 0,
+      "value": "Nueva cuenta"
+    }
+  ],
+  "newCurrency": [
+    {
+      "type": 0,
+      "value": "Nueva moneda"
+    }
+  ],
+  "newFeePlan": [
+    {
+      "type": 0,
+      "value": "Nuevo plan de tarifas"
+    }
+  ],
+  "newIIN": [
+    {
+      "type": 0,
+      "value": "Crear IIN"
+    }
+  ],
+  "newRiskLevelNumber": [
+    {
+      "type": 0,
+      "value": "Nuevo número de nivel de riesgo"
+    }
+  ],
+  "nickName": [
+    {
+      "type": 0,
+      "value": "Apodo"
+    }
+  ],
+  "nickname": [
+    {
+      "type": 0,
+      "value": "Apodo"
+    }
+  ],
+  "no": [
+    {
+      "type": 0,
+      "value": "No"
+    }
+  ],
+  "none": [
+    {
+      "type": 0,
+      "value": "Ninguno"
+    }
+  ],
+  "notifications": [
+    {
+      "type": 0,
+      "value": "Notificaciones"
+    }
+  ],
+  "notify": [
+    {
+      "type": 0,
+      "value": "Notificar"
+    }
+  ],
+  "november": [
+    {
+      "type": 0,
+      "value": "Noviembre"
+    }
+  ],
+  "october": [
+    {
+      "type": 0,
+      "value": "Octubre"
+    }
+  ],
+  "officialId": [
+    {
+      "type": 0,
+      "value": "Identificación oficial"
+    }
+  ],
+  "online": [
+    {
+      "type": 0,
+      "value": "Online"
+    }
+  ],
+  "orderDetails": [
+    {
+      "type": 0,
+      "value": "Detalles del pedido"
+    }
+  ],
+  "orderNewCard": [
+    {
+      "type": 0,
+      "value": "Pedir nueva tarjeta"
+    }
+  ],
+  "originalDataElements": [
+    {
+      "type": 0,
+      "value": "Elementos de datos originales"
+    }
+  ],
+  "originalReferenceNumber": [
+    {
+      "type": 0,
+      "value": "Número de referencia original"
+    }
+  ],
+  "outOfWalletATM": [
+    {
+      "type": 0,
+      "value": "Cajero automático fuera de la billetera"
+    }
+  ],
+  "outOfWalletPOS": [
+    {
+      "type": 0,
+      "value": "Fuera de Wallet POS"
+    }
+  ],
+  "owedBilledInterest": [
+    {
+      "type": 0,
+      "value": "Intereses facturados adeudados"
+    }
+  ],
+  "page.title.editProgram": [
+    {
+      "type": 0,
+      "value": "Editar programa"
+    }
+  ],
+  "partial": [
+    {
+      "type": 0,
+      "value": "Parcial"
+    }
+  ],
+  "partner": [
+    {
+      "type": 0,
+      "value": "Socio"
+    }
+  ],
+  "partnerManagerDetails": [
+    {
+      "type": 0,
+      "value": "Detalles del administrador de socios"
+    }
+  ],
+  "partnerName": [
+    {
+      "type": 0,
+      "value": "Nombre del socio"
+    }
+  ],
+  "partnerUserState": [
+    {
+      "type": 0,
+      "value": "Estado del usuario asociado"
+    }
+  ],
+  "partners": [
+    {
+      "type": 0,
+      "value": "Socios"
+    }
+  ],
+  "password": [
+    {
+      "type": 0,
+      "value": "Contraseña"
+    }
+  ],
+  "paymentNetworkMessageDetails": [
+    {
+      "type": 0,
+      "value": "Detalles del mensaje de la red de pago"
+    }
+  ],
+  "paymentNetworkMessages": [
+    {
+      "type": 0,
+      "value": "Mensajes de red de pago"
+    }
+  ],
+  "pendingAmount": [
+    {
+      "type": 0,
+      "value": "Importe pendiente"
+    }
+  ],
+  "pendingChange": [
+    {
+      "type": 0,
+      "value": "Cambio pendiente"
+    }
+  ],
+  "percentage": [
+    {
+      "type": 0,
+      "value": "Porcentaje"
+    }
+  ],
+  "person": [
+    {
+      "type": 0,
+      "value": "Persona"
+    }
+  ],
+  "personChangeHistory": [
+    {
+      "type": 0,
+      "value": "Historial de cambios de persona"
+    }
+  ],
+  "personal": [
+    {
+      "type": 0,
+      "value": "Personal"
+    }
+  ],
+  "personalInformation": [
+    {
+      "type": 0,
+      "value": "Información personal"
+    }
+  ],
+  "phoneNumber": [
+    {
+      "type": 0,
+      "value": "Número de teléfono"
+    }
+  ],
+  "phoneNumber.input.placeholder": [
+    {
+      "type": 0,
+      "value": "Número de teléfono*"
+    }
+  ],
+  "phoneType": [
+    {
+      "type": 0,
+      "value": "Tipo de teléfono"
+    }
+  ],
+  "phones": [
+    {
+      "type": 0,
+      "value": "Teléfonos"
+    }
+  ],
+  "placeOrder": [
+    {
+      "type": 0,
+      "value": "Realizar pedido"
+    }
+  ],
+  "pleaseChooseOne": [
+    {
+      "type": 0,
+      "value": "Por favor, elija uno."
+    }
+  ],
+  "postalCode": [
+    {
+      "type": 0,
+      "value": "Código postal"
+    }
+  ],
+  "preferredLanguage": [
+    {
+      "type": 0,
+      "value": "Idioma preferido"
+    }
+  ],
+  "previousBilledInterest": [
+    {
+      "type": 0,
+      "value": "Intereses facturados anteriores"
+    }
+  ],
+  "primaryNumber": [
+    {
+      "type": 0,
+      "value": "Número principal"
+    }
+  ],
+  "processingCode": [
+    {
+      "type": 0,
+      "value": "Código de procesamiento"
+    }
+  ],
+  "product": [
+    {
+      "type": 0,
+      "value": "Producto"
+    }
+  ],
+  "program": [
+    {
+      "type": 0,
+      "value": "Programa"
+    }
+  ],
+  "program.hideFeePlans": [
+    {
+      "type": 0,
+      "value": "Ocultar todas las tarifas asignadas a este plan de tarifas"
+    }
+  ],
+  "program.riskLevels.deleteRiskRule": [
+    {
+      "type": 0,
+      "value": "Orden de cambio creado para eliminar la regla de riesgo"
+    }
+  ],
+  "program.showFeePlans": [
+    {
+      "type": 0,
+      "value": "Mostrar todas las tarifas asignadas a este plan de tarifas"
+    }
+  ],
+  "programs": [
+    {
+      "type": 0,
+      "value": "Programas"
+    }
+  ],
+  "programs.button.addNewProgram": [
+    {
+      "type": 0,
+      "value": "Agregar nuevo programa"
+    }
+  ],
+  "programs.cardProfiles.button.view": [
+    {
+      "type": 0,
+      "value": "Vista"
+    }
+  ],
+  "programs.edit.label.pansIssued": [
+    {
+      "type": 0,
+      "value": "PAN emitidos"
+    }
+  ],
+  "programs.riskLevel.label.riskLevel": [
+    {
+      "type": 0,
+      "value": "Nivel de Riesgo - "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "programs.table.primaryContact": [
+    {
+      "type": 0,
+      "value": "Contacto principal"
+    }
+  ],
+  "purchase": [
+    {
+      "type": 0,
+      "value": "Compra"
+    }
+  ],
+  "quickSpend": [
+    {
+      "type": 0,
+      "value": "Gasto rápido"
+    }
+  ],
+  "rawMessage": [
+    {
+      "type": 0,
+      "value": "Mensaje sin procesar"
+    }
+  ],
+  "realTime": [
+    {
+      "type": 0,
+      "value": "Tiempo real"
+    }
+  ],
+  "reason": [
+    {
+      "type": 0,
+      "value": "Razón"
+    }
+  ],
+  "recFixedFeePercentage": [
+    {
+      "type": 0,
+      "value": "Rec. Tarifa Fija/Porcentaje"
+    }
+  ],
+  "receiverFixFee": [
+    {
+      "type": 0,
+      "value": "Tarifa fija del receptor"
+    }
+  ],
+  "receiverFixedAmount": [
+    {
+      "type": 0,
+      "value": "Cantidad fija del receptor"
+    }
+  ],
+  "receiverPercent": [
+    {
+      "type": 0,
+      "value": "Porcentaje de receptor"
+    }
+  ],
+  "receiverPercentage": [
+    {
+      "type": 0,
+      "value": "Porcentaje de receptor"
+    }
+  ],
+  "recentActivity": [
+    {
+      "type": 0,
+      "value": "Actividad reciente"
+    }
+  ],
+  "referenceNumber": [
+    {
+      "type": 0,
+      "value": "Número de referencia"
+    }
+  ],
+  "refund": [
+    {
+      "type": 0,
+      "value": "Reembolso"
+    }
+  ],
+  "reissue": [
+    {
+      "type": 0,
+      "value": "Reeditar"
+    }
+  ],
+  "releasableDate": [
+    {
+      "type": 0,
+      "value": "Fecha de publicación"
+    }
+  ],
+  "release": [
+    {
+      "type": 0,
+      "value": "Liberación"
+    }
+  ],
+  "releaseBlock": [
+    {
+      "type": 0,
+      "value": "Bloque de lanzamiento"
+    }
+  ],
+  "releaseHold": [
+    {
+      "type": 0,
+      "value": "Hold de liberación"
+    }
+  ],
+  "releaseMemo": [
+    {
+      "type": 0,
+      "value": "Nota de lanzamiento"
+    }
+  ],
+  "released": [
+    {
+      "type": 0,
+      "value": "Liberado"
+    }
+  ],
+  "releasedBy": [
+    {
+      "type": 0,
+      "value": "Liberado por"
+    }
+  ],
+  "releasedDate": [
+    {
+      "type": 0,
+      "value": "Fecha de lanzamiento"
+    }
+  ],
+  "remove": [
+    {
+      "type": 0,
+      "value": "Quitar"
+    }
+  ],
+  "repaymentAmountRequirement": [
+    {
+      "type": 0,
+      "value": "Requisito de monto de reembolso"
+    }
+  ],
+  "replacement": [
+    {
+      "type": 0,
+      "value": "reemplazo"
+    }
+  ],
+  "request.type.amountChangeRequest": [
+    {
+      "type": 0,
+      "value": "Solicitud de cambio de importe"
+    }
+  ],
+  "request.type.customerAdjustmentRequest": [
+    {
+      "type": 0,
+      "value": "Solicitud de ajuste del cliente"
+    }
+  ],
+  "request.type.exchangeMarginRequest": [
+    {
+      "type": 0,
+      "value": "Solicitud de margen de intercambio"
+    }
+  ],
+  "request.type.feeEntryRequest": [
+    {
+      "type": 0,
+      "value": "Solicitud de entrada de tarifa"
+    }
+  ],
+  "request.type.feePlanRequest": [
+    {
+      "type": 0,
+      "value": "Solicitud de plan de tarifas"
+    }
+  ],
+  "request.type.programAdjustmentRequest": [
+    {
+      "type": 0,
+      "value": "Solicitud de ajuste del programa"
+    }
+  ],
+  "request.type.riskConfigRequest": [
+    {
+      "type": 0,
+      "value": "Solicitud de configuración de riesgo"
+    }
+  ],
+  "request.type.riskLevelRequest": [
+    {
+      "type": 0,
+      "value": "Solicitud de nivel de riesgo"
+    }
+  ],
+  "requestMemo": [
+    {
+      "type": 0,
+      "value": "Solicitar Memo"
+    }
+  ],
+  "requestedBy": [
+    {
+      "type": 0,
+      "value": "Solicitado por"
+    }
+  ],
+  "requestedDate": [
+    {
+      "type": 0,
+      "value": "Fecha solicitada"
+    }
+  ],
+  "reset": [
+    {
+      "type": 0,
+      "value": "Restablecer"
+    }
+  ],
+  "resetPartnerUserPassword": [
+    {
+      "type": 0,
+      "value": "RESTABLECER CONTRASEÑA DE USUARIO DE SOCIO"
+    }
+  ],
+  "resetPassword": [
+    {
+      "type": 0,
+      "value": "Restablecer la contraseña"
+    }
+  ],
+  "responseCode": [
+    {
+      "type": 0,
+      "value": "Código de respuesta"
+    }
+  ],
+  "retrievalReferenceNumber": [
+    {
+      "type": 0,
+      "value": "Número de referencia de recuperación"
+    }
+  ],
+  "reversal": [
+    {
+      "type": 0,
+      "value": "Inversión"
+    }
+  ],
+  "reward": [
+    {
+      "type": 0,
+      "value": "Recompensa"
+    }
+  ],
+  "risk": [
+    {
+      "type": 0,
+      "value": "Riesgo"
+    }
+  ],
+  "risk.param.accumulated_purchase_limit": [
+    {
+      "type": 0,
+      "value": "Límite de compra acumulado"
+    }
+  ],
+  "risk.param.activation_time_limit": [
+    {
+      "type": 0,
+      "value": "Límite de tiempo de activación"
+    }
+  ],
+  "risk.param.adjustment_1d": [
+    {
+      "type": 0,
+      "value": "Límite de ajuste por 1 día"
+    }
+  ],
+  "risk.param.adjustment_30d": [
+    {
+      "type": 0,
+      "value": "Ajuste 30 días"
+    }
+  ],
+  "risk.param.adjustment_7d": [
+    {
+      "type": 0,
+      "value": "Límite de ajuste por 7 días"
+    }
+  ],
+  "risk.param.adjustment_limit": [
+    {
+      "type": 0,
+      "value": "Límite de ajuste"
+    }
+  ],
+  "risk.param.age_limit": [
+    {
+      "type": 0,
+      "value": "Límite de edad"
+    }
+  ],
+  "risk.param.allowed_mcc": [
+    {
+      "type": 0,
+      "value": "MCC permitido"
+    }
+  ],
+  "risk.param.atm_1d": [
+    {
+      "type": 0,
+      "value": "Límite de retiro en cajeros automáticos durante 1 día"
+    }
+  ],
+  "risk.param.atm_30d": [
+    {
+      "type": 0,
+      "value": "Límite de retiro en cajeros automáticos durante 30 días"
+    }
+  ],
+  "risk.param.atm_7d": [
+    {
+      "type": 0,
+      "value": "Límite de retiro en cajeros automáticos durante 7 días"
+    }
+  ],
+  "risk.param.atm_count_1d": [
+    {
+      "type": 0,
+      "value": "Límite de recuento de cajeros automáticos durante 1 día"
+    }
+  ],
+  "risk.param.atm_count_30d": [
+    {
+      "type": 0,
+      "value": "Límite de recuento de cajeros automáticos durante 30 días"
+    }
+  ],
+  "risk.param.atm_count_7d": [
+    {
+      "type": 0,
+      "value": "Recuento de cajeros automáticos durante 7 días"
+    }
+  ],
+  "risk.param.atm_domestic_1d": [
+    {
+      "type": 0,
+      "value": "Límite de tarjeta de débito de cajero automático nacional por 1 día"
+    }
+  ],
+  "risk.param.atm_international_1d": [
+    {
+      "type": 0,
+      "value": "Límite de cajeros automáticos internacionales durante 1 día"
+    }
+  ],
+  "risk.param.atm_limit": [
+    {
+      "type": 0,
+      "value": "Límite de retiro en cajeros automáticos"
+    }
+  ],
+  "risk.param.atm_reversal_count_1d": [
+    {
+      "type": 0,
+      "value": "Recuento de reversión de cajeros automáticos 1 día"
+    }
+  ],
+  "risk.param.auto_top_up_count_1d": [
+    {
+      "type": 0,
+      "value": "Conteo automático de recargas durante 1 día"
+    }
+  ],
+  "risk.param.auto_top_up_limit": [
+    {
+      "type": 0,
+      "value": "Límite de recarga automática"
+    }
+  ],
+  "risk.param.auto_top_up_limit_1d": [
+    {
+      "type": 0,
+      "value": "Límite de recarga automática 1 día"
+    }
+  ],
+  "risk.param.balance_floor": [
+    {
+      "type": 0,
+      "value": "Piso de equilibrio"
+    }
+  ],
+  "risk.param.balance_limit": [
+    {
+      "type": 0,
+      "value": "Límite de saldo"
+    }
+  ],
+  "risk.param.blocked_countries": [
+    {
+      "type": 0,
+      "value": "Países bloqueados"
+    }
+  ],
+  "risk.param.blocked_mcc": [
+    {
+      "type": 0,
+      "value": "Códigos MCC bloqueados"
+    }
+  ],
+  "risk.param.disable_card_not_present": [
+    {
+      "type": 0,
+      "value": "Desactivar tarjeta no presente"
+    }
+  ],
+  "risk.param.disable_mag_stripe": [
+    {
+      "type": 0,
+      "value": "Desactivar banda magnética"
+    }
+  ],
+  "risk.param.exchange_quote_duration": [
+    {
+      "type": 0,
+      "value": "Duración de la cotización de intercambio"
+    }
+  ],
+  "risk.param.hierarchy_max_level": [
+    {
+      "type": 0,
+      "value": "Nivel máximo de jerarquía"
+    }
+  ],
+  "risk.param.international_limit": [
+    {
+      "type": 0,
+      "value": "Límite internacional"
+    }
+  ],
+  "risk.param.limit_card_not_present": [
+    {
+      "type": 0,
+      "value": "Límite de tarjeta no presente"
+    }
+  ],
+  "risk.param.limit_mag_stripe": [
+    {
+      "type": 0,
+      "value": "Limitar la banda magnética"
+    }
+  ],
+  "risk.param.load_limit": [
+    {
+      "type": 0,
+      "value": "Límite de carga"
+    }
+  ],
+  "risk.param.load_limit_1d": [
+    {
+      "type": 0,
+      "value": "Límite de carga durante 1 día"
+    }
+  ],
+  "risk.param.load_limit_1y": [
+    {
+      "type": 0,
+      "value": "Límite de carga durante 1 año"
+    }
+  ],
+  "risk.param.load_limit_30d": [
+    {
+      "type": 0,
+      "value": "Límite de carga durante 30 días"
+    }
+  ],
+  "risk.param.low_balance_threshold": [
+    {
+      "type": 0,
+      "value": "Umbral de saldo bajo"
+    }
+  ],
+  "risk.param.max_cards_allowed": [
+    {
+      "type": 0,
+      "value": "Número máximo de tarjetas permitidas"
+    }
+  ],
+  "risk.param.max_num_cards": [
+    {
+      "type": 0,
+      "value": "Número máximo de tarjetas por cuenta de cliente"
+    }
+  ],
+  "risk.param.max_num_persons": [
+    {
+      "type": 0,
+      "value": "Número máximo de personas por cuenta de cliente"
+    }
+  ],
+  "risk.param.max_num_tokens_per_card": [
+    {
+      "type": 0,
+      "value": "Número máximo de fichas por tarjeta"
+    }
+  ],
+  "risk.param.minimum_load": [
+    {
+      "type": 0,
+      "value": "Carga mínima"
+    }
+  ],
+  "risk.param.nomatch_merchant_control_response": [
+    {
+      "type": 0,
+      "value": "Respuesta de control de comerciante sin coincidencia"
+    }
+  ],
+  "risk.param.not_allowed_first_transaction_types": [
+    {
+      "type": 0,
+      "value": "No se permiten los primeros tipos de transacción"
+    }
+  ],
+  "risk.param.online_purchase_1d": [
+    {
+      "type": 0,
+      "value": "Límite de compra en línea durante 1 día"
+    }
+  ],
+  "risk.param.online_purchase_30d": [
+    {
+      "type": 0,
+      "value": "Límite de compra en línea durante 1 día"
+    }
+  ],
+  "risk.param.online_purchase_7d": [
+    {
+      "type": 0,
+      "value": "Límite de compra en línea durante 7 días"
+    }
+  ],
+  "risk.param.online_purchase_count_1d": [
+    {
+      "type": 0,
+      "value": "Límite de recuento de compras en línea durante 1 día"
+    }
+  ],
+  "risk.param.online_purchase_count_30d": [
+    {
+      "type": 0,
+      "value": "Límite de recuento de compras en línea durante 30 días"
+    }
+  ],
+  "risk.param.online_purchase_count_7d": [
+    {
+      "type": 0,
+      "value": "Límite de recuento de compras en línea durante 7 días"
+    }
+  ],
+  "risk.param.online_purchase_limit": [
+    {
+      "type": 0,
+      "value": "Límite de compra en línea"
+    }
+  ],
+  "risk.param.online_purchase_mcc_limit": [
+    {
+      "type": 0,
+      "value": "Límite de MCC de compra en línea"
+    }
+  ],
+  "risk.param.p2p_1d": [
+    {
+      "type": 0,
+      "value": "Límite de transferencia P2P durante 1 día"
+    }
+  ],
+  "risk.param.p2p_1y": [
+    {
+      "type": 0,
+      "value": "Límite de transferencia P2P por 1 año"
+    }
+  ],
+  "risk.param.p2p_30d": [
+    {
+      "type": 0,
+      "value": "Límite de transferencia P2P durante 30 días"
+    }
+  ],
+  "risk.param.p2p_7d": [
+    {
+      "type": 0,
+      "value": "Límite de transferencia P2P durante 7 días"
+    }
+  ],
+  "risk.param.p2p_limit": [
+    {
+      "type": 0,
+      "value": "Límite de transferencia P2P"
+    }
+  ],
+  "risk.param.p2p_limit_recv": [
+    {
+      "type": 0,
+      "value": "Límite P2P recibido"
+    }
+  ],
+  "risk.param.p2p_recv_1d": [
+    {
+      "type": 0,
+      "value": "Límite de recepción P2P durante 1 día"
+    }
+  ],
+  "risk.param.p2p_recv_1y": [
+    {
+      "type": 0,
+      "value": "Límite de recepción P2P por 1 año"
+    }
+  ],
+  "risk.param.p2p_recv_30d": [
+    {
+      "type": 0,
+      "value": "Límite de recepción P2P durante 30 días"
+    }
+  ],
+  "risk.param.passcode_reset_time_limit": [
+    {
+      "type": 0,
+      "value": "Límite de tiempo de restablecimiento de código de acceso"
+    }
+  ],
+  "risk.param.password_history_count": [
+    {
+      "type": 0,
+      "value": "Recuento del historial de contraseñas"
+    }
+  ],
+  "risk.param.password_reset_time_limit": [
+    {
+      "type": 0,
+      "value": "Límite de tiempo de restablecimiento de contraseña del cliente"
+    }
+  ],
+  "risk.param.pin_fail_count": [
+    {
+      "type": 0,
+      "value": "Límite de recuento de PIN fallido"
+    }
+  ],
+  "risk.param.pin_fail_count_temporary_lock": [
+    {
+      "type": 0,
+      "value": "Bloqueo temporal de recuento de errores de PIN"
+    }
+  ],
+  "risk.param.pos_purchase_1d": [
+    {
+      "type": 0,
+      "value": "Límite de compra de POS por 1 día"
+    }
+  ],
+  "risk.param.pos_purchase_30d": [
+    {
+      "type": 0,
+      "value": "Límite de compra de POS por 30 días"
+    }
+  ],
+  "risk.param.pos_purchase_7d": [
+    {
+      "type": 0,
+      "value": "Límite de compra de POS por 7 días"
+    }
+  ],
+  "risk.param.pos_purchase_count_1d": [
+    {
+      "type": 0,
+      "value": "Límite de recuento de compras en POS durante 1 día"
+    }
+  ],
+  "risk.param.pos_purchase_count_30d": [
+    {
+      "type": 0,
+      "value": "Límite de recuento de compras en POS durante 30 días"
+    }
+  ],
+  "risk.param.pos_purchase_count_7d": [
+    {
+      "type": 0,
+      "value": "Límite de recuento de compras en POS durante 7 días"
+    }
+  ],
+  "risk.param.pos_purchase_limit": [
+    {
+      "type": 0,
+      "value": "Límite de compra de POS"
+    }
+  ],
+  "risk.param.pre_approval_interval_begin": [
+    {
+      "type": 0,
+      "value": "Comienza el intervalo de aprobación previa"
+    }
+  ],
+  "risk.param.pre_approval_interval_end": [
+    {
+      "type": 0,
+      "value": "Fin del intervalo de aprobación previa"
+    }
+  ],
+  "risk.param.purchase_1d": [
+    {
+      "type": 0,
+      "value": "Límite de compra por 1 día"
+    }
+  ],
+  "risk.param.purchase_1y": [
+    {
+      "type": 0,
+      "value": "Límite de compra por 1 año"
+    }
+  ],
+  "risk.param.purchase_30d": [
+    {
+      "type": 0,
+      "value": "Límite de compra por 30 días"
+    }
+  ],
+  "risk.param.purchase_7d": [
+    {
+      "type": 0,
+      "value": "Límite de compra por 7 días"
+    }
+  ],
+  "risk.param.purchase_count_1d": [
+    {
+      "type": 0,
+      "value": "Cuenta de compras para 1 día"
+    }
+  ],
+  "risk.param.purchase_count_30d": [
+    {
+      "type": 0,
+      "value": "Recuento de compras durante 30 días"
+    }
+  ],
+  "risk.param.purchase_count_7d": [
+    {
+      "type": 0,
+      "value": "Recuento de compras durante 7 días"
+    }
+  ],
+  "risk.param.purchase_count_same_merchant_1d": [
+    {
+      "type": 0,
+      "value": "Comprar el mismo comerciante 1 día (Contar)"
+    }
+  ],
+  "risk.param.purchase_count_same_merchant_30d": [
+    {
+      "type": 0,
+      "value": "Comprar el mismo comerciante 30 días (Count)"
+    }
+  ],
+  "risk.param.purchase_count_same_merchant_3d": [
+    {
+      "type": 0,
+      "value": "Comprar el mismo comerciante 3 días (Count)"
+    }
+  ],
+  "risk.param.purchase_count_same_merchant_7d": [
+    {
+      "type": 0,
+      "value": "Comprar el mismo comerciante 7 días (Contar)"
+    }
+  ],
+  "risk.param.purchase_limit": [
+    {
+      "type": 0,
+      "value": "Límite de compra"
+    }
+  ],
+  "risk.param.purchase_limit_recv": [
+    {
+      "type": 0,
+      "value": "Límite de compra recibido"
+    }
+  ],
+  "risk.param.purchase_no_cvm_1d": [
+    {
+      "type": 0,
+      "value": "Compra sin CVM 1 día"
+    }
+  ],
+  "risk.param.purchase_no_cvm_count_1d": [
+    {
+      "type": 0,
+      "value": "Comprar sin CVM Count 1 día"
+    }
+  ],
+  "risk.param.purchase_no_cvm_limit": [
+    {
+      "type": 0,
+      "value": "Comprar sin límite de CVM"
+    }
+  ],
+  "risk.param.purchase_same_merchant_1d": [
+    {
+      "type": 0,
+      "value": "Comprar el mismo comerciante 1 día (Cantidad)"
+    }
+  ],
+  "risk.param.purchase_same_merchant_30d": [
+    {
+      "type": 0,
+      "value": "Comprar el mismo comerciante 30 días (Cantidad)"
+    }
+  ],
+  "risk.param.purchase_same_merchant_3d": [
+    {
+      "type": 0,
+      "value": "Comprar el mismo comerciante 3 días (Cantidad)"
+    }
+  ],
+  "risk.param.purchase_same_merchant_7d": [
+    {
+      "type": 0,
+      "value": "Comprar el mismo comerciante 7 días (Cantidad)"
+    }
+  ],
+  "risk.param.refund_1d": [
+    {
+      "type": 0,
+      "value": "Límite de reembolso por 1 día"
+    }
+  ],
+  "risk.param.refund_1y": [
+    {
+      "type": 0,
+      "value": "Límite de reembolso por 1 año"
+    }
+  ],
+  "risk.param.refund_30d": [
+    {
+      "type": 0,
+      "value": "Límite de reembolso por 30 días"
+    }
+  ],
+  "risk.param.refund_7d": [
+    {
+      "type": 0,
+      "value": "Límite de reembolso por 7 días"
+    }
+  ],
+  "risk.param.refund_count_1d": [
+    {
+      "type": 0,
+      "value": "Límite de recuento de reembolso durante 1 día"
+    }
+  ],
+  "risk.param.refund_count_7d": [
+    {
+      "type": 0,
+      "value": "Límite de recuento de reembolso durante 7 días"
+    }
+  ],
+  "risk.param.refund_limit": [
+    {
+      "type": 0,
+      "value": "Límite de reembolso"
+    }
+  ],
+  "risk.param.refund_limit_recv": [
+    {
+      "type": 0,
+      "value": "Límite de reembolso recibido"
+    }
+  ],
+  "risk.param.refund_purchase_period": [
+    {
+      "type": 0,
+      "value": "Plazo de reembolso"
+    }
+  ],
+  "risk.param.rejected_count_5d": [
+    {
+      "type": 0,
+      "value": "Recuento rechazado 5 días"
+    }
+  ],
+  "risk.param.sg_withdraw": [
+    {
+      "type": 0,
+      "value": "Retiros en cajeros automáticos de Singapur"
+    }
+  ],
+  "risk.param.verify_email_time_limit": [
+    {
+      "type": 0,
+      "value": "Verificar el límite de tiempo de correo electrónico"
+    }
+  ],
+  "risk.param.withdraw_1d": [
+    {
+      "type": 0,
+      "value": "Límite de retiro por 1 día"
+    }
+  ],
+  "risk.param.withdraw_1y": [
+    {
+      "type": 0,
+      "value": "Límite de retiro por 1 año"
+    }
+  ],
+  "risk.param.withdraw_30d": [
+    {
+      "type": 0,
+      "value": "Límite de retiro por 30 días"
+    }
+  ],
+  "risk.param.withdraw_7d": [
+    {
+      "type": 0,
+      "value": "Límite de retiro por 7 días"
+    }
+  ],
+  "risk.param.withdraw_limit": [
+    {
+      "type": 0,
+      "value": "Límite de retiro"
+    }
+  ],
+  "risk.param.withdraw_percentage_limit": [
+    {
+      "type": 0,
+      "value": "Límite porcentual de retiro"
+    }
+  ],
+  "riskDetails": [
+    {
+      "type": 0,
+      "value": "Detalles del riesgo"
+    }
+  ],
+  "riskLevel": [
+    {
+      "type": 0,
+      "value": "Nivel de riesgo"
+    }
+  ],
+  "riskLevel.hideRules": [
+    {
+      "type": 0,
+      "value": "Ocultar todas las reglas asignadas a este nivel de riesgo >>"
+    }
+  ],
+  "riskLevel.showRules": [
+    {
+      "type": 0,
+      "value": "Mostrar todas las reglas asignadas a este nivel de riesgo <<"
+    }
+  ],
+  "riskLevel.viewRules": [
+    {
+      "type": 0,
+      "value": "Ver todas las reglas asignadas a este nivel de riesgo <<"
+    }
+  ],
+  "riskLevelAccess": [
+    {
+      "type": 0,
+      "value": "Acceso al nivel de riesgo"
+    }
+  ],
+  "riskLevelDetail": [
+    {
+      "type": 0,
+      "value": "Detalle del nivel de riesgo"
+    }
+  ],
+  "riskLevelNumber": [
+    {
+      "type": 0,
+      "value": "Número de nivel de riesgo"
+    }
+  ],
+  "riskLevelParameters": [
+    {
+      "type": 0,
+      "value": "Parámetros de nivel de riesgo"
+    }
+  ],
+  "riskLevels": [
+    {
+      "type": 0,
+      "value": "Niveles de riesgo"
+    }
+  ],
+  "riskLevelwhenTriggered": [
+    {
+      "type": 0,
+      "value": "Nivel de riesgo cuando se activa"
+    }
+  ],
+  "riskParameter": [
+    {
+      "type": 0,
+      "value": "Parámetro de riesgo"
+    }
+  ],
+  "roles": [
+    {
+      "type": 0,
+      "value": "Papeles"
+    }
+  ],
+  "roles.approver": [
+    {
+      "type": 0,
+      "value": "Aprobador"
+    }
+  ],
+  "roles.auditor": [
+    {
+      "type": 0,
+      "value": "Auditor"
+    }
+  ],
+  "roles.customerAgent": [
+    {
+      "type": 0,
+      "value": "Agente de clientes"
+    }
+  ],
+  "roles.customerManager": [
+    {
+      "type": 0,
+      "value": "Gerente de Clientes"
+    }
+  ],
+  "roles.financialManager": [
+    {
+      "type": 0,
+      "value": "Gerente financeiro"
+    }
+  ],
+  "roles.platformManager": [
+    {
+      "type": 0,
+      "value": "Gestor de Plataforma"
+    }
+  ],
+  "roles.programManager": [
+    {
+      "type": 0,
+      "value": "Gerente de Programa"
+    }
+  ],
+  "roles.readOnly": [
+    {
+      "type": 0,
+      "value": "Sólo lectura"
+    }
+  ],
+  "roles.retailManager": [
+    {
+      "type": 0,
+      "value": "Gerente de Retail"
+    }
+  ],
+  "roles.riskAgent": [
+    {
+      "type": 0,
+      "value": "Agente de riesgo"
+    }
+  ],
+  "roles.riskManager": [
+    {
+      "type": 0,
+      "value": "Gerente de Riesgos"
+    }
+  ],
+  "roles.storeAgent": [
+    {
+      "type": 0,
+      "value": "Agente de tienda"
+    }
+  ],
+  "roles.storeManager": [
+    {
+      "type": 0,
+      "value": "Gerente de tienda"
+    }
+  ],
+  "roles.system": [
+    {
+      "type": 0,
+      "value": "Sistema"
+    }
+  ],
+  "safeCurrency": [
+    {
+      "type": 0,
+      "value": "Moneda segura"
+    }
+  ],
+  "safeDraft": [
+    {
+      "type": 0,
+      "value": "Borrador seguro"
+    }
+  ],
+  "save": [
+    {
+      "type": 0,
+      "value": "Salvar"
+    }
+  ],
+  "saveChanges": [
+    {
+      "type": 0,
+      "value": "Guardar cambios"
+    }
+  ],
+  "saveMemo": [
+    {
+      "type": 0,
+      "value": "Guardar nota"
+    }
+  ],
+  "schedule": [
+    {
+      "type": 0,
+      "value": "Horario"
+    }
+  ],
+  "search": [
+    {
+      "type": 0,
+      "value": "Búsqueda de"
+    }
+  ],
+  "search.results.showingMessage": [
+    {
+      "type": 0,
+      "value": "Mostrando "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "no results"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " results"
+            }
+          ]
+        },
+        "un": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " result"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "totalCount"
+    },
+    {
+      "type": 0,
+      "value": " para \""
+    },
+    {
+      "type": 1,
+      "value": "searchTerm"
+    },
+    {
+      "type": 0,
+      "value": "\""
+    }
+  ],
+  "searchTransactions": [
+    {
+      "type": 0,
+      "value": "Transacciones de búsqueda"
+    }
+  ],
+  "secondFamilyName": [
+    {
+      "type": 0,
+      "value": "Segundo apellido"
+    }
+  ],
+  "secondLastName": [
+    {
+      "type": 0,
+      "value": "Segundo apellido"
+    }
+  ],
+  "secondPresentment": [
+    {
+      "type": 0,
+      "value": "Segunda presentación"
+    }
+  ],
+  "secondaryNumber": [
+    {
+      "type": 0,
+      "value": "Número secundario"
+    }
+  ],
+  "securityLevel": [
+    {
+      "type": 0,
+      "value": "Nivel de seguridad"
+    }
+  ],
+  "segments": [
+    {
+      "type": 0,
+      "value": "Segmentos"
+    }
+  ],
+  "selectedFee": [
+    {
+      "type": 0,
+      "value": "Tarifa seleccionada"
+    }
+  ],
+  "sellCurrency": [
+    {
+      "type": 0,
+      "value": "Vender moneda"
+    }
+  ],
+  "sellCurrencyAmount": [
+    {
+      "type": 0,
+      "value": "Vender cantidad de moneda"
+    }
+  ],
+  "sellMargin": [
+    {
+      "type": 0,
+      "value": "Margen de venta"
+    }
+  ],
+  "sellMarginPercentage": [
+    {
+      "type": 0,
+      "value": "Porcentaje de margen de venta"
+    }
+  ],
+  "sender": [
+    {
+      "type": 0,
+      "value": "Remitente"
+    }
+  ],
+  "september": [
+    {
+      "type": 0,
+      "value": "Septiembre"
+    }
+  ],
+  "sequenceNumber": [
+    {
+      "type": 0,
+      "value": "Número de secuencia"
+    }
+  ],
+  "serviceCode": [
+    {
+      "type": 0,
+      "value": "Código de servicio"
+    }
+  ],
+  "settlement": [
+    {
+      "type": 0,
+      "value": "Establecimiento"
+    }
+  ],
+  "settlementTime": [
+    {
+      "type": 0,
+      "value": "Tiempo de liquidación"
+    }
+  ],
+  "setupAutomaticLoad": [
+    {
+      "type": 0,
+      "value": "Configuração de Carga Automática"
+    }
+  ],
+  "shipping": [
+    {
+      "type": 0,
+      "value": "Envío"
+    }
+  ],
+  "showApprovedChangeOrders": [
+    {
+      "type": 0,
+      "value": "Mostrar órdenes de cambio aprobadas"
+    }
+  ],
+  "showDeactivatedCards": [
+    {
+      "type": 0,
+      "value": "Mostrar tarjetas desactivadas"
+    }
+  ],
+  "showInactiveCards": [
+    {
+      "type": 0,
+      "value": "Mostrar tarjetas inactivas"
+    }
+  ],
+  "showReleasedHolds": [
+    {
+      "type": 0,
+      "value": "Mostrar retenciones liberadas"
+    }
+  ],
+  "showreleasedBlocks": [
+    {
+      "type": 0,
+      "value": "Mostrar bloques liberados"
+    }
+  ],
+  "showsingleuseCards": [
+    {
+      "type": 0,
+      "value": "Mostrar tarjetas de un solo uso"
+    }
+  ],
+  "source": [
+    {
+      "type": 0,
+      "value": "Fuente"
+    }
+  ],
+  "source.address": [
+    {
+      "type": 0,
+      "value": "dirección"
+    }
+  ],
+  "source.email": [
+    {
+      "type": 0,
+      "value": "correo electrónico"
+    }
+  ],
+  "source.identification": [
+    {
+      "type": 0,
+      "value": "identificación"
+    }
+  ],
+  "source.name": [
+    {
+      "type": 0,
+      "value": "nombre"
+    }
+  ],
+  "source.phone": [
+    {
+      "type": 0,
+      "value": "teléfono"
+    }
+  ],
+  "sr": [
+    {
+      "type": 0,
+      "value": "Sr."
+    }
+  ],
+  "standIn": [
+    {
+      "type": 0,
+      "value": "Estar en"
+    }
+  ],
+  "standardtable.emptyrow": [
+    {
+      "type": 0,
+      "value": "No hay resultados que mostrar."
+    }
+  ],
+  "state": [
+    {
+      "type": 0,
+      "value": "Estado"
+    }
+  ],
+  "state_province": [
+    {
+      "type": 0,
+      "value": "Estado/Providencia"
+    }
+  ],
+  "statementBalance": [
+    {
+      "type": 0,
+      "value": "Saldo do Extrato"
+    }
+  ],
+  "static": [
+    {
+      "type": 0,
+      "value": "Estática"
+    }
+  ],
+  "status": [
+    {
+      "type": 0,
+      "value": "Estado"
+    }
+  ],
+  "step1of2": [
+    {
+      "type": 0,
+      "value": "Paso 1 de 2"
+    }
+  ],
+  "step1of3": [
+    {
+      "type": 0,
+      "value": "Paso 1 de 3"
+    }
+  ],
+  "step2of2": [
+    {
+      "type": 0,
+      "value": "Paso 2 de 2"
+    }
+  ],
+  "step2of3": [
+    {
+      "type": 0,
+      "value": "Paso 2 de 3"
+    }
+  ],
+  "step3of3": [
+    {
+      "type": 0,
+      "value": "Paso 3 de 3"
+    }
+  ],
+  "strategy": [
+    {
+      "type": 0,
+      "value": "Estratégia"
+    }
+  ],
+  "subject": [
+    {
+      "type": 0,
+      "value": "Asunto"
+    }
+  ],
+  "success": [
+    {
+      "type": 0,
+      "value": "Éxito"
+    }
+  ],
+  "success.changes.saved": [
+    {
+      "type": 0,
+      "value": "Los cambios se han guardado correctamente"
+    }
+  ],
+  "success.majorCode.200": [
+    {
+      "type": 0,
+      "value": "Solicitud completada"
+    }
+  ],
+  "success.majorCode.unknown": [
+    {
+      "type": 0,
+      "value": "Desconocido"
+    }
+  ],
+  "success.minorCode.000": [
+    {
+      "type": 0,
+      "value": "Éxito"
+    }
+  ],
+  "success.minorCode.unknown": [
+    {
+      "type": 0,
+      "value": "Desconocido"
+    }
+  ],
+  "suffix": [
+    {
+      "type": 0,
+      "value": "Sufijo"
+    }
+  ],
+  "suspend": [
+    {
+      "type": 0,
+      "value": "Suspender"
+    }
+  ],
+  "suspendTokens": [
+    {
+      "type": 0,
+      "value": "Suspender tokens"
+    }
+  ],
+  "system": [
+    {
+      "type": 0,
+      "value": "Sistema"
+    }
+  ],
+  "systemTraceAuditNumber": [
+    {
+      "type": 0,
+      "value": "Número de auditoría de seguimiento del sistema"
+    }
+  ],
+  "table.pagination.results": [
+    {
+      "type": 0,
+      "value": "Mostrando "
+    },
+    {
+      "type": 1,
+      "value": "rangeStart"
+    },
+    {
+      "type": 0,
+      "value": "-"
+    },
+    {
+      "type": 1,
+      "value": "rangeEnd"
+    },
+    {
+      "type": 0,
+      "value": " de los resultados de "
+    },
+    {
+      "type": 1,
+      "value": "totalCount"
+    }
+  ],
+  "takeMeBack": [
+    {
+      "type": 0,
+      "value": "Lléme de vuelta"
+    }
+  ],
+  "takeMeHome": [
+    {
+      "type": 0,
+      "value": "Llévame a casa"
+    }
+  ],
+  "template": [
+    {
+      "type": 0,
+      "value": "Plantilla"
+    }
+  ],
+  "termination": [
+    {
+      "type": 0,
+      "value": "Terminación"
+    }
+  ],
+  "text.deleted": [
+    {
+      "type": 0,
+      "value": "eliminado"
+    }
+  ],
+  "thisMonth": [
+    {
+      "type": 0,
+      "value": "Este mes"
+    }
+  ],
+  "thisWeek": [
+    {
+      "type": 0,
+      "value": "Esta semana"
+    }
+  ],
+  "timeZone": [
+    {
+      "type": 0,
+      "value": "Zona horaria"
+    }
+  ],
+  "timestamps": [
+    {
+      "type": 0,
+      "value": "Marcas"
+    }
+  ],
+  "title": [
+    {
+      "type": 0,
+      "value": "Título"
+    }
+  ],
+  "toDate": [
+    {
+      "type": 0,
+      "value": "Hasta la fecha"
+    }
+  ],
+  "today": [
+    {
+      "type": 0,
+      "value": "Hoy"
+    }
+  ],
+  "token.status.active": [
+    {
+      "type": 0,
+      "value": "Activo"
+    }
+  ],
+  "token.status.inactive": [
+    {
+      "type": 0,
+      "value": "Inactivo"
+    }
+  ],
+  "token.status.suspended": [
+    {
+      "type": 0,
+      "value": "Suspendido"
+    }
+  ],
+  "tokenActivationMethod.CALL_CENTER": [
+    {
+      "type": 0,
+      "value": "Centro de llamadas"
+    }
+  ],
+  "tokenActivationMethod.EMAIL": [
+    {
+      "type": 0,
+      "value": "Correo electrónico"
+    }
+  ],
+  "tokenActivationMethod.MOBILE_APP": [
+    {
+      "type": 0,
+      "value": "Aplicación móvil"
+    }
+  ],
+  "tokenActivationMethod.SMS": [
+    {
+      "type": 0,
+      "value": "SMS"
+    }
+  ],
+  "tokenActivationMethod.WEBSITE": [
+    {
+      "type": 0,
+      "value": "Sitio web"
+    }
+  ],
+  "tokens": [
+    {
+      "type": 0,
+      "value": "Fichas"
+    }
+  ],
+  "totalBalance": [
+    {
+      "type": 0,
+      "value": "Saldo total"
+    }
+  ],
+  "totalDue": [
+    {
+      "type": 0,
+      "value": "Total Debido"
+    }
+  ],
+  "transaction.source.customer": [
+    {
+      "type": 0,
+      "value": "Cliente"
+    }
+  ],
+  "transaction.source.internal": [
+    {
+      "type": 0,
+      "value": "Interno"
+    }
+  ],
+  "transaction.source.inwalletATM": [
+    {
+      "type": 0,
+      "value": "En el cajero automático de la billetera"
+    }
+  ],
+  "transaction.source.inwalletPOS": [
+    {
+      "type": 0,
+      "value": "En Wallet POS"
+    }
+  ],
+  "transaction.source.mobilecommerce": [
+    {
+      "type": 0,
+      "value": "Comercio móvil"
+    }
+  ],
+  "transaction.source.online": [
+    {
+      "type": 0,
+      "value": "Online"
+    }
+  ],
+  "transaction.source.outofwalletATM": [
+    {
+      "type": 0,
+      "value": "Cajero automático fuera de la billetera"
+    }
+  ],
+  "transaction.source.outofwalletPOS": [
+    {
+      "type": 0,
+      "value": "Fuera de Wallet POS"
+    }
+  ],
+  "transaction.source.partner": [
+    {
+      "type": 0,
+      "value": "Socio"
+    }
+  ],
+  "transaction.source.static": [
+    {
+      "type": 0,
+      "value": "Estática"
+    }
+  ],
+  "transaction.source.unknown": [
+    {
+      "type": 0,
+      "value": "Desconocido"
+    }
+  ],
+  "transaction.type.addressing": [
+    {
+      "type": 0,
+      "value": "Direccionamiento"
+    }
+  ],
+  "transaction.type.balanceInquiry": [
+    {
+      "type": 0,
+      "value": "Consulta de saldo"
+    }
+  ],
+  "transaction.type.cardSale": [
+    {
+      "type": 0,
+      "value": "Venta de tarjetas"
+    }
+  ],
+  "transaction.type.cashback": [
+    {
+      "type": 0,
+      "value": "Reembolso"
+    }
+  ],
+  "transaction.type.chargeBack": [
+    {
+      "type": 0,
+      "value": "Contracargo"
+    }
+  ],
+  "transaction.type.chargeoff": [
+    {
+      "type": 0,
+      "value": "Cargo"
+    }
+  ],
+  "transaction.type.closeAccount": [
+    {
+      "type": 0,
+      "value": "Cerrar cuenta"
+    }
+  ],
+  "transaction.type.consolidated": [
+    {
+      "type": 0,
+      "value": "Fusionado"
+    }
+  ],
+  "transaction.type.customerAdjustment": [
+    {
+      "type": 0,
+      "value": "Ajuste del cliente"
+    }
+  ],
+  "transaction.type.exchange": [
+    {
+      "type": 0,
+      "value": "intercambiar"
+    }
+  ],
+  "transaction.type.exchangeAdjustment": [
+    {
+      "type": 0,
+      "value": "Ajuste cambiario"
+    }
+  ],
+  "transaction.type.exchangeMargin": [
+    {
+      "type": 0,
+      "value": "Margen de cambio"
+    }
+  ],
+  "transaction.type.expeditedShipping": [
+    {
+      "type": 0,
+      "value": "Envío acelerado"
+    }
+  ],
+  "transaction.type.fastFund": [
+    {
+      "type": 0,
+      "value": "Fondo rápido"
+    }
+  ],
+  "transaction.type.fee": [
+    {
+      "type": 0,
+      "value": "Honorario"
+    }
+  ],
+  "transaction.type.fee.annual": [
+    {
+      "type": 0,
+      "value": "Cuota Anual"
+    }
+  ],
+  "transaction.type.fee.expiry": [
+    {
+      "type": 0,
+      "value": "Caducidad"
+    }
+  ],
+  "transaction.type.fee.latePaymentFee": [
+    {
+      "type": 0,
+      "value": "Cargo por pago atrasado"
+    }
+  ],
+  "transaction.type.fee.loadReversal": [
+    {
+      "type": 0,
+      "value": "Reversión de pago"
+    }
+  ],
+  "transaction.type.fee.moneySend": [
+    {
+      "type": 0,
+      "value": "Envío de dinero"
+    }
+  ],
+  "transaction.type.fee.monthly": [
+    {
+      "type": 0,
+      "value": "Cuota mensual"
+    }
+  ],
+  "transaction.type.interest": [
+    {
+      "type": 0,
+      "value": "Interés"
+    }
+  ],
+  "transaction.type.load": [
+    {
+      "type": 0,
+      "value": "Carga"
+    }
+  ],
+  "transaction.type.maintenance": [
+    {
+      "type": 0,
+      "value": "Mantenimiento"
+    }
+  ],
+  "transaction.type.newAccount": [
+    {
+      "type": 0,
+      "value": "Nueva cuenta"
+    }
+  ],
+  "transaction.type.p2p": [
+    {
+      "type": 0,
+      "value": "P2P"
+    }
+  ],
+  "transaction.type.purchase": [
+    {
+      "type": 0,
+      "value": "Compra"
+    }
+  ],
+  "transaction.type.refund": [
+    {
+      "type": 0,
+      "value": "Reembolso"
+    }
+  ],
+  "transaction.type.reward": [
+    {
+      "type": 0,
+      "value": "Recompensa"
+    }
+  ],
+  "transaction.type.secondPresentment": [
+    {
+      "type": 0,
+      "value": "Segunda presentación"
+    }
+  ],
+  "transaction.type.settlement": [
+    {
+      "type": 0,
+      "value": "Establecimiento"
+    }
+  ],
+  "transaction.type.shipping": [
+    {
+      "type": 0,
+      "value": "Envío"
+    }
+  ],
+  "transaction.type.unknown": [
+    {
+      "type": 0,
+      "value": "Desconocido"
+    }
+  ],
+  "transaction.type.walletTransfer": [
+    {
+      "type": 0,
+      "value": "Transferencia de billetera"
+    }
+  ],
+  "transaction.type.withdraw": [
+    {
+      "type": 0,
+      "value": "Retirar"
+    }
+  ],
+  "transaction.type.withholding": [
+    {
+      "type": 0,
+      "value": "Retención"
+    }
+  ],
+  "transactionAmount": [
+    {
+      "type": 0,
+      "value": "Importe de transacción"
+    }
+  ],
+  "transactionID": [
+    {
+      "type": 0,
+      "value": "ID de transacción"
+    }
+  ],
+  "transactionMemoTemplates": [
+    {
+      "type": 0,
+      "value": "Plantillas de notas de transacción"
+    }
+  ],
+  "transactionSource": [
+    {
+      "type": 0,
+      "value": "Origen de la transacción"
+    }
+  ],
+  "transactionType": [
+    {
+      "type": 0,
+      "value": "Tipo de transacción"
+    }
+  ],
+  "transactions": [
+    {
+      "type": 0,
+      "value": "Transacciones"
+    }
+  ],
+  "transmission": [
+    {
+      "type": 0,
+      "value": "Transmisión"
+    }
+  ],
+  "type": [
+    {
+      "type": 0,
+      "value": "Tipo"
+    }
+  ],
+  "unblock": [
+    {
+      "type": 0,
+      "value": "Desbloquear"
+    }
+  ],
+  "unknown": [
+    {
+      "type": 0,
+      "value": "Desconocido"
+    }
+  ],
+  "unsuspend": [
+    {
+      "type": 0,
+      "value": "Sin suspender"
+    }
+  ],
+  "unsuspendTokens": [
+    {
+      "type": 0,
+      "value": "Anular suspensión de tokens"
+    }
+  ],
+  "updated": [
+    {
+      "type": 0,
+      "value": "Actualizado"
+    }
+  ],
+  "user": [
+    {
+      "type": 0,
+      "value": "Usuario"
+    }
+  ],
+  "userName": [
+    {
+      "type": 0,
+      "value": "Nombre de usuario"
+    }
+  ],
+  "username": [
+    {
+      "type": 0,
+      "value": "Username"
+    }
+  ],
+  "users": [
+    {
+      "type": 0,
+      "value": "Usuarios"
+    }
+  ],
+  "value": [
+    {
+      "type": 0,
+      "value": "Valor"
+    }
+  ],
+  "view": [
+    {
+      "type": 0,
+      "value": "Vista"
+    }
+  ],
+  "viewAllDetails": [
+    {
+      "type": 0,
+      "value": "Ver todos los detalles"
+    }
+  ],
+  "viewDetails": [
+    {
+      "type": 0,
+      "value": "Ver detalles"
+    }
+  ],
+  "walletTransfer": [
+    {
+      "type": 0,
+      "value": "Transferencia de billetera"
+    }
+  ],
+  "wallets": [
+    {
+      "type": 0,
+      "value": "Carteras"
+    }
+  ],
+  "wallets.success.activated": [
+    {
+      "type": 0,
+      "value": "ID de tarjeta: "
+    },
+    {
+      "type": 1,
+      "value": "removedBlocId"
+    },
+    {
+      "type": 0,
+      "value": " se activó correctamente"
+    }
+  ],
+  "wallets.success.cardReissued": [
+    {
+      "type": 0,
+      "value": "Tarjeta reemitida con éxito"
+    }
+  ],
+  "wallets.success.released": [
+    {
+      "type": 0,
+      "value": "Card Block ID: "
+    },
+    {
+      "type": 1,
+      "value": "respId"
+    },
+    {
+      "type": 0,
+      "value": " was released successfully"
+    }
+  ],
+  "warning.confirmation.delete": [
+    {
+      "type": 0,
+      "value": "¿Está seguro de que desea eliminar este "
+    },
+    {
+      "type": 1,
+      "value": "fieldName"
+    },
+    {
+      "type": 0,
+      "value": "?"
+    }
+  ],
+  "weekdaysMin.friday": [
+    {
+      "type": 0,
+      "value": "V"
+    }
+  ],
+  "weekdaysMin.monday": [
+    {
+      "type": 0,
+      "value": "L"
+    }
+  ],
+  "weekdaysMin.saturday": [
+    {
+      "type": 0,
+      "value": "SA"
+    }
+  ],
+  "weekdaysMin.sunday": [
+    {
+      "type": 0,
+      "value": "DO"
+    }
+  ],
+  "weekdaysMin.thursday": [
+    {
+      "type": 0,
+      "value": "JU"
+    }
+  ],
+  "weekdaysMin.tuesday": [
+    {
+      "type": 0,
+      "value": "MA"
+    }
+  ],
+  "weekdaysMin.wednesday": [
+    {
+      "type": 0,
+      "value": "M"
+    }
+  ],
+  "weekly": [
+    {
+      "type": 0,
+      "value": "Semanalmente"
+    }
+  ],
+  "welcome": [
+    {
+      "type": 0,
+      "value": "¡Bienvenido"
+    }
+  ],
+  "withdraw": [
+    {
+      "type": 0,
+      "value": "Retirar"
+    }
+  ],
+  "withholding": [
+    {
+      "type": 0,
+      "value": "Retención"
+    }
+  ],
+  "work": [
+    {
+      "type": 0,
+      "value": "Trabajo"
+    }
+  ],
+  "yes": [
+    {
+      "type": 0,
+      "value": "Sí"
+    }
+  ],
+  "yesterday": [
+    {
+      "type": 0,
+      "value": "Ayer"
+    }
+  ]
+}

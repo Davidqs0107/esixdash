@@ -1,0 +1,6132 @@
+{
+  "login": {
+    "defaultMessage": "ログイン"
+  },
+  "partnerName": {
+    "defaultMessage": "パートナー名"
+  },
+  "error.partnerName.required": {
+    "defaultMessage": "パートナー名は必須入力フィールドです。"
+  },
+  "username": {
+    "defaultMessage": "ユーザー名"
+  },
+  "error.username.required": {
+    "defaultMessage": "ユーザー名は必須入力フィールドです。"
+  },
+  "password": {
+    "defaultMessage": "パスワード"
+  },
+  "login.label.rememberMe": {
+    "defaultMessage": "ログイン情報を保存"
+  },
+  "login.link.forgotPassword": {
+    "defaultMessage": "パスワードを忘れた場合"
+  },
+  "login.button.login": {
+    "defaultMessage": "ログイン"
+  },
+  "error.password.required": {
+    "defaultMessage": "パスワードは必須入力フィールドです。"
+  },
+  "dashboard": {
+    "defaultMessage": "ダッシュボード"
+  },
+  "error.login.205000": {
+    "defaultMessage": "ユーザー名またはパスワードが正しくありません。もう一度お試しください。"
+  },
+  "error.login.201012": {
+    "defaultMessage": "パートナーが見つかりません。もう一度お試しください。"
+  },
+  "error.somethingWentWrong": {
+    "defaultMessage": "エラーが発生しました。"
+  },
+  "forgot.button.backToLoginScreen": {
+    "defaultMessage": "ログイン画面に戻る"
+  },
+  "forgot.button.sendMyResetLink": {
+    "defaultMessage": "リセットリンクを送信する"
+  },
+  "forgot.field.emailAddressOrUsername": {
+    "defaultMessage": "メールアドレス/ユーザー名"
+  },
+  "forgot.fill.fields": {
+    "defaultMessage": "下記フォームに必要事項を入力してください",
+    "description": "Please fill out fields"
+  },
+  "forgot.reset.link.sent": {
+    "defaultMessage": "パスワードをリセットするためのリンクを、記載されたメールアドレスに送信しています。",
+    "description": "Reset link sent"
+  },
+  "forgot.reset.success": {
+    "defaultMessage": "成功!",
+    "description": "Success"
+  },
+  "forgot.will.send.link": {
+    "defaultMessage": "パスワードをリセットするためのリンクが、記載のメールアドレスに送信されます。",
+    "description": "Will send email with link"
+  },
+  "button.hide": {
+    "defaultMessage": "表示しない {hideNumber}"
+  },
+  "button.view": {
+    "defaultMessage": "すべて表示 {showNumber}"
+  },
+  "genders": {
+    "defaultMessage": "性別"
+  },
+  "gender.female": {
+    "defaultMessage": "女性",
+    "description": "female gender"
+  },
+  "gender.male": {
+    "defaultMessage": "男性",
+    "description": "male gender"
+  },
+  "customerSearch.filter.assigned": {
+    "defaultMessage": "アサイン済"
+  },
+  "customerSearch.filter.new": {
+    "defaultMessage": "新規"
+  },
+  "customerSearch.filter.onHold": {
+    "defaultMessage": "保留"
+  },
+  "customerSearch.filter.resolved": {
+    "defaultMessage": "解決済"
+  },
+  "sidenav.label.audit": {
+    "defaultMessage": "監査",
+    "description": "sidenav label"
+  },
+  "sidenav.label.banks": {
+    "defaultMessage": "バンク",
+    "description": "sidenav label"
+  },
+  "sidenav.label.changeRequests": {
+    "defaultMessage": "変更要求",
+    "description": "sidenav label"
+  },
+  "sidenav.label.customer": {
+    "defaultMessage": "顧客",
+    "description": "sidenav label"
+  },
+  "sidenav.label.partners": {
+    "defaultMessage": "パートナー",
+    "description": "sidenav label"
+  },
+  "sidenav.label.programs": {
+    "defaultMessage": "プログラム",
+    "description": "sidenav label"
+  },
+  "sidenav.label.users": {
+    "defaultMessage": "ユーザー",
+    "description": "sidenav label"
+  },
+  "topnav.label.language.english": {
+    "defaultMessage": "英語",
+    "description": "topnav label"
+  },
+  "topnav.label.language.japanese": {
+    "defaultMessage": "日本語",
+    "description": "topnav label"
+  },
+  "topnav.label.logout": {
+    "defaultMessage": "ログアウト",
+    "description": "topnav label"
+  },
+  "topnav.label.welcome": {
+    "defaultMessage": "ようこそ ",
+    "description": "topnav label"
+  },
+  "language.reset.button": {
+    "defaultMessage": "リセット"
+  },
+  "logout": {
+    "defaultMessage": "ログアウト"
+  },
+  "welcome": {
+    "defaultMessage": "ようこそ"
+  },
+  "reset": {
+    "defaultMessage": "リセット"
+  },
+  "customers": {
+    "defaultMessage": "顧客"
+  },
+  "banks": {
+    "defaultMessage": "バンク"
+  },
+  "programs": {
+    "defaultMessage": "プログラム"
+  },
+  "partners": {
+    "defaultMessage": "パートナー"
+  },
+  "changeOrders": {
+    "defaultMessage": "変更オーダー"
+  },
+  "users": {
+    "defaultMessage": "ユーザー"
+  },
+  "audit": {
+    "defaultMessage": "監査"
+  },
+  "customer": {
+    "defaultMessage": "顧客"
+  },
+  "customerSearch": {
+    "defaultMessage": "顧客検索"
+  },
+  "externalReference": {
+    "defaultMessage": "外部参照"
+  },
+  "card": {
+    "defaultMessage": "カード"
+  },
+  "search": {
+    "defaultMessage": "検索"
+  },
+  "customerSearchForm.input.placeholder.text": {
+    "defaultMessage": "顧客番号または顧客名"
+  },
+  "error.requiredField": {
+    "defaultMessage": "必須フィールド"
+  },
+  "customerSearchForm.error.nameRequired": {
+    "defaultMessage": "名と姓は必須です"
+  },
+  "customerSearchForm.error.firstNameMinChars": {
+    "defaultMessage": "名は1文字以上でなければなりません。"
+  },
+  "customerSearchForm.error.lastNameMinChars": {
+    "defaultMessage": "姓は1文字以上でなければなりません。"
+  },
+  "familyName": {
+    "defaultMessage": "姓"
+  },
+  "givenName": {
+    "defaultMessage": "名"
+  },
+  "firstName": {
+    "defaultMessage": "名前"
+  },
+  "middleName": {
+    "defaultMessage": "ミドルネーム"
+  },
+  "lastName": {
+    "defaultMessage": "姓"
+  },
+  "secondLastName": {
+    "defaultMessage": "姓(2)"
+  },
+  "suffix": {
+    "defaultMessage": "サフィックス"
+  },
+  "nickName": {
+    "defaultMessage": "ニックネーム"
+  },
+  "program": {
+    "defaultMessage": "プログラム"
+  },
+  "contactNumber": {
+    "defaultMessage": "連絡先"
+  },
+  "emailAddress": {
+    "defaultMessage": "メールアドレス"
+  },
+  "city": {
+    "defaultMessage": "市町村"
+  },
+  "country": {
+    "defaultMessage": "国"
+  },
+  "postalCode": {
+    "defaultMessage": "郵便番号"
+  },
+  "standardtable.emptyrow": {
+    "defaultMessage": "表示する結果がありません。"
+  },
+  "partner": {
+    "defaultMessage": "パートナー"
+  },
+  "error.mustBeANumber": {
+    "defaultMessage": "数値である必要があります"
+  },
+  "cardNumber": {
+    "defaultMessage": "カード番号"
+  },
+  "table.pagination.results": {
+    "defaultMessage": "{totalCount} 件中 {rangeStart}-{rangeEnd} 件を表示"
+  },
+  "showApprovedChangeOrders": {
+    "defaultMessage": "承認済みの変更オーダーの表示"
+  },
+  "pendingChange": {
+    "defaultMessage": "保留中の変更"
+  },
+  "details": {
+    "defaultMessage": "詳細"
+  },
+  "date": {
+    "defaultMessage": "日付"
+  },
+  "button.approve": {
+    "defaultMessage": "承認する"
+  },
+  "changeOrder": {
+    "defaultMessage": "変更オーダー"
+  },
+  "changeRequest": {
+    "defaultMessage": "変更要求"
+  },
+  "approved": {
+    "defaultMessage": "承認"
+  },
+  "changeOrderDetails": {
+    "defaultMessage": "変更オーダー詳細"
+  },
+  "saveChanges": {
+    "defaultMessage": "保存"
+  },
+  "delete": {
+    "defaultMessage": "削除"
+  },
+  "drawer.delete.changeOrder": {
+    "defaultMessage": "変更オーダーを削除しますか?",
+    "description": "drawer header"
+  },
+  "approveChangeOrder": {
+    "defaultMessage": "変更オーダーの承認"
+  },
+  "approve": {
+    "defaultMessage": "承認"
+  },
+  "input.memo.placeholder": {
+    "defaultMessage": "メモ (最大300文字)"
+  },
+  "changeRequests": {
+    "defaultMessage": "変更要求"
+  },
+  "label.language.english": {
+    "defaultMessage": "英語 (US)"
+  },
+  "label.language.japanese": {
+    "defaultMessage": "日本語"
+  },
+  "label.language.portuguese": {
+    "defaultMessage": "ポルトガル語"
+  },
+  "label.language.spanish": {
+    "defaultMessage": "スペイン語"
+  },
+  "bank": {
+    "defaultMessage": "バンク"
+  },
+  "source": {
+    "defaultMessage": "ソース"
+  },
+  "reason": {
+    "defaultMessage": "理由"
+  },
+  "activityLog": {
+    "defaultMessage": "アクティビティログ"
+  },
+  "action": {
+    "defaultMessage": "アクション"
+  },
+  "user": {
+    "defaultMessage": "ユーザー"
+  },
+  "filterByDate": {
+    "defaultMessage": "日付によるフィルタ"
+  },
+  "today": {
+    "defaultMessage": "今日"
+  },
+  "thisWeek": {
+    "defaultMessage": "今週"
+  },
+  "thisMonth": {
+    "defaultMessage": "今月"
+  },
+  "custom": {
+    "defaultMessage": "カスタム"
+  },
+  "fromDate": {
+    "defaultMessage": "開始日"
+  },
+  "toDate": {
+    "defaultMessage": "終了日"
+  },
+  "filterByUser": {
+    "defaultMessage": "ユーザーによるフィルター"
+  },
+  "filterByCustomer": {
+    "defaultMessage": "顧客によるフィルター"
+  },
+  "clearFilters": {
+    "defaultMessage": "フィルターのクリア"
+  },
+  "userName": {
+    "defaultMessage": "ユーザー名"
+  },
+  "customerNumber": {
+    "defaultMessage": "顧客番号"
+  },
+  "filterResults": {
+    "defaultMessage": "フィルター結果"
+  },
+  "error.fromDateLessThanToDate": {
+    "defaultMessage": "開始日は「終了日」以前でなければなりません"
+  },
+  "error.toDateGreaterThanFromDate": {
+    "defaultMessage": "終了日は「開始日」以降でなければなりません"
+  },
+  "january": {
+    "defaultMessage": "1月"
+  },
+  "february": {
+    "defaultMessage": "2月"
+  },
+  "march": {
+    "defaultMessage": "3月"
+  },
+  "april": {
+    "defaultMessage": "4月"
+  },
+  "may": {
+    "defaultMessage": "5月"
+  },
+  "june": {
+    "defaultMessage": "6月"
+  },
+  "july": {
+    "defaultMessage": "7月"
+  },
+  "august": {
+    "defaultMessage": "8月"
+  },
+  "september": {
+    "defaultMessage": "9月"
+  },
+  "october": {
+    "defaultMessage": "10月"
+  },
+  "november": {
+    "defaultMessage": "11月"
+  },
+  "december": {
+    "defaultMessage": "12月"
+  },
+  "weekdaysMin.sunday": {
+    "defaultMessage": "日"
+  },
+  "weekdaysMin.monday": {
+    "defaultMessage": "月"
+  },
+  "weekdaysMin.tuesday": {
+    "defaultMessage": "火"
+  },
+  "weekdaysMin.wednesday": {
+    "defaultMessage": "水"
+  },
+  "weekdaysMin.thursday": {
+    "defaultMessage": "木"
+  },
+  "weekdaysMin.friday": {
+    "defaultMessage": "金"
+  },
+  "weekdaysMin.saturday": {
+    "defaultMessage": "土"
+  },
+  "addNewUser": {
+    "defaultMessage": "新しいユーザーを追加"
+  },
+  "segments": {
+    "defaultMessage": "セグメント"
+  },
+  "cardIssuance": {
+    "defaultMessage": "カード発行"
+  },
+  "messaging": {
+    "defaultMessage": "メッセージング"
+  },
+  "button.edit": {
+    "defaultMessage": "編集"
+  },
+  "addNewMailTemplate": {
+    "defaultMessage": "新しいメールテンプレートを追加"
+  },
+  "addNewTransactionMemoTemplate": {
+    "defaultMessage": "新しいトランザクションメモテンプレートを追加"
+  },
+  "mailTemplates": {
+    "defaultMessage": "メールテンプレート"
+  },
+  "transactionMemoTemplates": {
+    "defaultMessage": "トランザクションメモテンプレート"
+  },
+  "editMailTemplate": {
+    "defaultMessage": "メールテンプレートの編集"
+  },
+  "language": {
+    "defaultMessage": "言語"
+  },
+  "mailKey": {
+    "defaultMessage": "メールキー"
+  },
+  "sender": {
+    "defaultMessage": "送信者"
+  },
+  "subject": {
+    "defaultMessage": "件名"
+  },
+  "error.mailKey.required": {
+    "defaultMessage": "メールキーは必須入力フィールドです。"
+  },
+  "error.language.required": {
+    "defaultMessage": "言語は必須入力フィールドです。"
+  },
+  "error.sender.required": {
+    "defaultMessage": "送信者は必須入力フィールドです。"
+  },
+  "error.subject.required": {
+    "defaultMessage": "件名は必須入力フィールドです。"
+  },
+  "error.template.required": {
+    "defaultMessage": "テンプレートは必須入力フィールドです。"
+  },
+  "addNewCardProfile": {
+    "defaultMessage": "新しいカードプロファイルを追加"
+  },
+  "cardProfiles": {
+    "defaultMessage": "カードプロファイル"
+  },
+  "editCardProfile": {
+    "defaultMessage": "カードプロファイルの編集"
+  },
+  "cardProfileName": {
+    "defaultMessage": "カードプロファイル名"
+  },
+  "description": {
+    "defaultMessage": "説明"
+  },
+  "cardType": {
+    "defaultMessage": "カードタイプ"
+  },
+  "bankIIN": {
+    "defaultMessage": "バンクIIN"
+  },
+  "serviceCode": {
+    "defaultMessage": "サービスコード"
+  },
+  "IINSegment": {
+    "defaultMessage": "IINセグメント"
+  },
+  "expiryMonths": {
+    "defaultMessage": "有効期限(月数)"
+  },
+  "embossedName": {
+    "defaultMessage": "エンボス加工された名前"
+  },
+  "PINLength": {
+    "defaultMessage": "PINの長さ"
+  },
+  "issuerIdentifier": {
+    "defaultMessage": "イシュアーID"
+  },
+  "feePlans": {
+    "defaultMessage": "手数料プラン"
+  },
+  "riskLevels": {
+    "defaultMessage": "リスクレベル"
+  },
+  "addNewFeePlan": {
+    "defaultMessage": "新しい手数料プランを追加"
+  },
+  "continue": {
+    "defaultMessage": "続行"
+  },
+  "location": {
+    "defaultMessage": "ロケーション"
+  },
+  "timeZone": {
+    "defaultMessage": "タイムゾーン"
+  },
+  "homeCurrency": {
+    "defaultMessage": "自国通貨"
+  },
+  "exchanges": {
+    "defaultMessage": "エクスチェンジ"
+  },
+  "cardProfile.success.update": {
+    "defaultMessage": "カードプロファイルは正常に更新されました"
+  },
+  "cardProfile.success.save": {
+    "defaultMessage": "カードプロファイルは正常に保存されました"
+  },
+  "error.maxLength64": {
+    "defaultMessage": "最大長は64です。"
+  },
+  "error.maxLength4": {
+    "defaultMessage": "最大長は4です。"
+  },
+  "error.maxLength26": {
+    "defaultMessage": "最大長は26です。"
+  },
+  "error.maxLengt16": {
+    "defaultMessage": "最大長は16です。"
+  },
+  "error.maxLength10": {
+    "defaultMessage": "最大長は10です。"
+  },
+  "error.name.required": {
+    "defaultMessage": "名前は必須です。"
+  },
+  "error.description.required": {
+    "defaultMessage": "説明は必須です。"
+  },
+  "error.serviceCode.required": {
+    "defaultMessage": "サービスコードは必須です。"
+  },
+  "error.IINSegment.required": {
+    "defaultMessage": "IINセグメントは必須です。"
+  },
+  "error.expiryMonths.required": {
+    "defaultMessage": "有効期限は必須です。"
+  },
+  "error.cardType.required": {
+    "defaultMessage": "カードタイプは必須です。"
+  },
+  "error.bankIIN.required": {
+    "defaultMessage": "バンクIINは必須です。"
+  },
+  "error.PANLength.required": {
+    "defaultMessage": "PANの長さは必須です。"
+  },
+  "error.PINLength.required": {
+    "defaultMessage": "PINの長さは必須です。"
+  },
+  "createNewFeePlan": {
+    "defaultMessage": "新しい手数料プランを作成"
+  },
+  "feePlanDetails": {
+    "defaultMessage": "手数料プランの編集"
+  },
+  "feePlan": {
+    "defaultMessage": "手数料プラン"
+  },
+  "program.hideFeePlans": {
+    "defaultMessage": "この手数料プランに含まれるすべての手数料を非表示にする"
+  },
+  "program.showFeePlans": {
+    "defaultMessage": "この手数料プランに含まれるすべての手数料を表示する"
+  },
+  "button.addFeeEntry": {
+    "defaultMessage": "手数料エントリの追加"
+  },
+  "error.feePlan.required": {
+    "defaultMessage": "手数料プランは必須入力フィールドです。"
+  },
+  "error.currency.required": {
+    "defaultMessage": "通貨は必須入力フィールドです。"
+  },
+  "error.program.feeAmount.required": {
+    "defaultMessage": "手数料金額は必須入力フィールドです。"
+  },
+  "error.program.feeAmount.percentage.required": {
+    "defaultMessage": "手数料金額(%)は必須入力フィールドです。"
+  },
+  "error.program.feeAmount.numberType": {
+    "defaultMessage": "手数料の金額は数字でなければなりません。"
+  },
+  "error.program.feeAmount.percentage.numberType": {
+    "defaultMessage": "手数料金額(%)は数字にする必要があります。"
+  },
+  "error.program.fixFee.currency.format": {
+    "defaultMessage": "15桁の整数と5桁の小数部のみである必要があります。"
+  },
+  "error.program.fixFee.percentage.format": {
+    "defaultMessage": "7桁の整数と3桁の小数部のみである必要があります。"
+  },
+  "error.program.receiver.required": {
+    "defaultMessage": "受取手数料の金額は必須入力フィールドです。"
+  },
+  "error.program.receiver.numberType": {
+    "defaultMessage": "受取手数料の金額は数値でなければなりません"
+  },
+  "error.program.receiver.percentage.required": {
+    "defaultMessage": "受取手数料の金額(%)は必須入力フィールドです。"
+  },
+  "error.program.receiver.percentage.numberType": {
+    "defaultMessage": "受取手数料の金額(%)は数値にする必要があります"
+  },
+  "error.program.receiver.percentage.format": {
+    "defaultMessage": "15桁の整数と5桁の小数部のみである必要があります。"
+  },
+  "step2of3": {
+    "defaultMessage": "ステップ 2/3"
+  },
+  "step1of2": {
+    "defaultMessage": "ステップ 1/2"
+  },
+  "error.greaterThan0": {
+    "defaultMessage": "0.0より大きい数値にする必要があります。"
+  },
+  "addFeestoPlan": {
+    "defaultMessage": "プランに手数料エントリを追加する"
+  },
+  "newFeePlan": {
+    "defaultMessage": "新規手数料プラン"
+  },
+  "addFees": {
+    "defaultMessage": "手数料を追加"
+  },
+  "chooseParameter": {
+    "defaultMessage": "パラメータの選択"
+  },
+  "currency": {
+    "defaultMessage": "通貨"
+  },
+  "amount": {
+    "defaultMessage": "金額"
+  },
+  "customerDetail": {
+    "defaultMessage": "顧客詳細情報"
+  },
+  "lastModified": {
+    "defaultMessage": "最終更新日"
+  },
+  "createChangeOrder": {
+    "defaultMessage": "変更オーダーを作成"
+  },
+  "viewAllDetails": {
+    "defaultMessage": "すべての詳細を見る"
+  },
+  "declinedActivity": {
+    "defaultMessage": "拒否されたアクティビティ"
+  },
+  "recentActivity": {
+    "defaultMessage": "最近のアクティビティ"
+  },
+  "preferredLanguage": {
+    "defaultMessage": "言語設定"
+  },
+  "activeBlocks": {
+    "defaultMessage": "アクティブなブロック"
+  },
+  "cardblocks": {
+    "defaultMessage": "カードブロック"
+  },
+  "customerblocks": {
+    "defaultMessage": "顧客ブロック"
+  },
+  "accountblocks": {
+    "defaultMessage": "アカウントブロック"
+  },
+  "customerDetails.viewRiskLevelDetails": {
+    "defaultMessage": "リスクレベル詳細を表示"
+  },
+  "dateCreated": {
+    "defaultMessage": "作成日時"
+  },
+  "contactMethod": {
+    "defaultMessage": "連絡方法"
+  },
+  "contactInfo": {
+    "defaultMessage": "連絡先"
+  },
+  "customerMemos": {
+    "defaultMessage": "顧客メモ"
+  },
+  "memo.button.addNewMemo": {
+    "defaultMessage": "新しいメモを追加"
+  },
+  "addMemo": {
+    "defaultMessage": "メモを追加"
+  },
+  "editMemo": {
+    "defaultMessage": "メモの編集"
+  },
+  "addNewMemo": {
+    "defaultMessage": "新しいメモを追加"
+  },
+  "saveMemo": {
+    "defaultMessage": "保存"
+  },
+  "error.memo.mustBe300Chars": {
+    "defaultMessage": "メモは300文字以下にする必要があります。"
+  },
+  "error.memo.required": {
+    "defaultMessage": "メモは必須入力フィールドです。"
+  },
+  "error.contactChannel.required": {
+    "defaultMessage": "問い合わせチャネルは必須入力フィールドです"
+  },
+  "error.email.valid": {
+    "defaultMessage": "有効な電子メールである必要があります。"
+  },
+  "error.email.required": {
+    "defaultMessage": "電子メールは必須入力フィールドです。"
+  },
+  "error.phone.invalidFormat": {
+    "defaultMessage": "有効な電話番号である必要があります。"
+  },
+  "error.phone.required": {
+    "defaultMessage": "電話番号は必須入力フィールドです。"
+  },
+  "error.contactInfo.required": {
+    "defaultMessage": "連絡先情報は必須入力フィールドです。"
+  },
+  "memo.input.placeholder": {
+    "defaultMessage": "メモ (最大300文字)"
+  },
+  "contactChannel.input.placeholder": {
+    "defaultMessage": "コンタクトチャネル*"
+  },
+  "phoneNumber.input.placeholder": {
+    "defaultMessage": "電話番号*"
+  },
+  "email.input.placeholder": {
+    "defaultMessage": "メールアドレス*"
+  },
+  "cancel": {
+    "defaultMessage": "キャンセル"
+  },
+  "merchant": {
+    "defaultMessage": "加盟店"
+  },
+  "transactionAmount": {
+    "defaultMessage": "取引金額"
+  },
+  "riskLevelwhenTriggered": {
+    "defaultMessage": "発生時のリスクレベル"
+  },
+  "status": {
+    "defaultMessage": "ステータス"
+  },
+  "blockMemo": {
+    "defaultMessage": "ブロックメモ"
+  },
+  "dateReleased": {
+    "defaultMessage": "リリース日"
+  },
+  "releasedBy": {
+    "defaultMessage": "リリース元"
+  },
+  "release": {
+    "defaultMessage": "リリース"
+  },
+  "released": {
+    "defaultMessage": "リリース済"
+  },
+  "requestedDate": {
+    "defaultMessage": "要求日"
+  },
+  "releaseMemo": {
+    "defaultMessage": "リリースメモ"
+  },
+  "requestMemo": {
+    "defaultMessage": "リクエストメモ"
+  },
+  "dateApproved": {
+    "defaultMessage": "承認日"
+  },
+  "approvedBy": {
+    "defaultMessage": "承認者"
+  },
+  "approvalMemo": {
+    "defaultMessage": "承認メモ"
+  },
+  "button.approved": {
+    "defaultMessage": "承認"
+  },
+  "button.discard": {
+    "defaultMessage": "破棄"
+  },
+  "blocks": {
+    "defaultMessage": "ブロック"
+  },
+  "showreleasedBlocks": {
+    "defaultMessage": "リリースされたブロックを表示"
+  },
+  "showsingleuseCards": {
+    "defaultMessage": "使い捨てカードを表示"
+  },
+  "adjustments": {
+    "defaultMessage": "アジャストメント"
+  },
+  "button.addNewChargeoff": {
+    "defaultMessage": "新しいチャージオフを追加"
+  },
+  "button.createChangeOrder": {
+    "defaultMessage": "変更オーダーを作成"
+  },
+  "button.addNewBlock": {
+    "defaultMessage": "新しいブロックを追加"
+  },
+  "fee.wizard.newFees.feeAmount": {
+    "defaultMessage": "手数料金額"
+  },
+  "fee.wizard.newFees.feeAmountPercent": {
+    "defaultMessage": "手数料金額(%)"
+  },
+  "fee.wizard.newFees.receiverFeeAmount": {
+    "defaultMessage": "受取手数料金額"
+  },
+  "fee.wizard.newFees.receiverFeeAmountPercent": {
+    "defaultMessage": "受取手数料金額(%)"
+  },
+  "button.addAdditionalFee": {
+    "defaultMessage": "手数料の追加"
+  },
+  "step1of3": {
+    "defaultMessage": "ステップ 1/3"
+  },
+  "pleaseChooseOne": {
+    "defaultMessage": "いずれかお選びください。"
+  },
+  "error.feePlanToCopy.required": {
+    "defaultMessage": "コピーする手数料プランは必須入力フィールドです。"
+  },
+  "chooseOne": {
+    "defaultMessage": "いずれかを選択"
+  },
+  "configureFeePlanManually": {
+    "defaultMessage": "手数料プランを手動で構成する"
+  },
+  "createCopyOfExistingFeePlan": {
+    "defaultMessage": "既存の手数料プランをコピーする"
+  },
+  "changeOrder.create.success": {
+    "defaultMessage": "変更オーダーは正常に作成されました"
+  },
+  "changeRequest.create.success": {
+    "defaultMessage": "変更要求は正常に作成されました"
+  },
+  "step3of3": {
+    "defaultMessage": "ステップ　3/3"
+  },
+  "chooseFeePlanToCopy": {
+    "defaultMessage": "コピーする手数料プランを選択"
+  },
+  "error.activateOn.required": {
+    "defaultMessage": "アクティベートオンは必須入力フィールドです。"
+  },
+  "error.activationDate.required": {
+    "defaultMessage": "アクティベーション日は必須入力フィールドです。"
+  },
+  "assignToAChangeOrder": {
+    "defaultMessage": "変更オーダーへのアサイン"
+  },
+  "createNewChangeOrder": {
+    "defaultMessage": "新しい変更オーダーを作成"
+  },
+  "chargeOff.memo.input.placeholder": {
+    "defaultMessage": "メモ (最大255文字)"
+  },
+  "chargeOff.activateOn.input.placeholder": {
+    "defaultMessage": "アクティベートオン:"
+  },
+  "assignToExistingChangeOrder": {
+    "defaultMessage": "既存の変更オーダーへのアサイン"
+  },
+  "chooseChangeOrder": {
+    "defaultMessage": "変更オーダーの選択"
+  },
+  "activateOn": {
+    "defaultMessage": "アクティベートオン"
+  },
+  "approval": {
+    "defaultMessage": "承認"
+  },
+  "schedule": {
+    "defaultMessage": "スケジュール"
+  },
+  "addNewChargeoff": {
+    "defaultMessage": "新しいチャージオフを追加"
+  },
+  "error.amount.required": {
+    "defaultMessage": "金額は必須入力フィールドです。"
+  },
+  "chargeOff.error.activateOn.required": {
+    "defaultMessage": "無線オプションが必要です"
+  },
+  "error.memo.max255Chars": {
+    "defaultMessage": "メモは255文字以下にする必要があります。"
+  },
+  "programs.riskLevel.label.riskLevel": {
+    "defaultMessage": "リスクレベル - {name}",
+    "description": "topnav label"
+  },
+  "addNewRiskProfile": {
+    "defaultMessage": "新しいリスクプロファイルを追加"
+  },
+  "error.riskLevelToCopy.required": {
+    "defaultMessage": "コピーするリスクレベルは必須入力フィールドです。"
+  },
+  "createNewRiskLevel": {
+    "defaultMessage": "新しいリスクレベルを作成"
+  },
+  "configureRiskLevelManually": {
+    "defaultMessage": "リスクレベルを手動で構成する"
+  },
+  "createCopyOfExistingRiskLevel": {
+    "defaultMessage": "既存のリスクレベルをコピーする"
+  },
+  "chooseRiskLevelPlanToCopy": {
+    "defaultMessage": "コピーするリスクレベルを選択"
+  },
+  "error.riskLevel.numberType": {
+    "defaultMessage": "リスクレベルは数値である必要があります。"
+  },
+  "error.riskLevel.required": {
+    "defaultMessage": "リスクレベルは必須入力フィールドです。"
+  },
+  "error.riskParameter.required": {
+    "defaultMessage": "リスクパラメータは必須入力フィールドです。"
+  },
+  "error.value.required": {
+    "defaultMessage": "値は必須入力フィールドです"
+  },
+  "error.field.numberType": {
+    "defaultMessage": "{fieldName} 数字でなければなりません"
+  },
+  "error.field.number0and100": {
+    "defaultMessage": "{fieldName} 0から100までの数値でなければなりません"
+  },
+  "addRulesToRiskLevel": {
+    "defaultMessage": "リスクレベルへのルールの追加"
+  },
+  "riskLevelNumber": {
+    "defaultMessage": "リスクレベル"
+  },
+  "newRiskLevelNumber": {
+    "defaultMessage": "新規リスクレベル"
+  },
+  "addRiskRules": {
+    "defaultMessage": "リスクルールの追加"
+  },
+  "value": {
+    "defaultMessage": "値"
+  },
+  "block": {
+    "defaultMessage": "ブロック"
+  },
+  "notify": {
+    "defaultMessage": "通知"
+  },
+  "disabled": {
+    "defaultMessage": "無効"
+  },
+  "button.addAdditionalRiskRule": {
+    "defaultMessage": "リスクルールの追加"
+  },
+  "error.noMatch": {
+    "defaultMessage": "このページは存在しません。"
+  },
+  "error.noAccess": {
+    "defaultMessage": "アクセス不可"
+  },
+  "error.oopsSomethingWentWrong": {
+    "defaultMessage": "エラーが発生しました。"
+  },
+  "takeMeBack": {
+    "defaultMessage": "戻る"
+  },
+  "takeMeHome": {
+    "defaultMessage": "ホーム画面に戻る"
+  },
+  "editTransactionMemoTemplate": {
+    "defaultMessage": "トランザクションメモテンプレートの編集"
+  },
+  "addTransactionMemoTemplate": {
+    "defaultMessage": "新しいトランザクションメモテンプレートを作成"
+  },
+  "memoKey": {
+    "defaultMessage": "メモキー"
+  },
+  "template": {
+    "defaultMessage": "テンプレート"
+  },
+  "PANLength": {
+    "defaultMessage": "PANの長さ"
+  },
+  "addNewPartner": {
+    "defaultMessage": "新しいパートナーを追加"
+  },
+  "editPartner": {
+    "defaultMessage": "パートナーの編集"
+  },
+  "locale": {
+    "defaultMessage": "ロケール"
+  },
+  "linkedPrograms": {
+    "defaultMessage": "リンクされたプログラム"
+  },
+  "linkedProgram": {
+    "defaultMessage": "リンクされたプログラム"
+  },
+  "linkedPartners": {
+    "defaultMessage": "リンクされたパートナー"
+  },
+  "linkedPartner": {
+    "defaultMessage": "リンクされたパートナー"
+  },
+  "roles": {
+    "defaultMessage": "役割"
+  },
+  "lastLogin": {
+    "defaultMessage": "最終ログイン"
+  },
+  "edit": {
+    "defaultMessage": "編集"
+  },
+  "editUser": {
+    "defaultMessage": "ユーザーの編集"
+  },
+  "title": {
+    "defaultMessage": "敬称"
+  },
+  "countryCode": {
+    "defaultMessage": "国番号"
+  },
+  "phoneNumber": {
+    "defaultMessage": "電話番号"
+  },
+  "addNewProgram": {
+    "defaultMessage": "新しいプログラムを追加"
+  },
+  "error.homeCurrency.required": {
+    "defaultMessage": "自国通貨は必須入力フィールドです。"
+  },
+  "error.minCurrency.required": {
+    "defaultMessage": "少なくとも1つの通貨が必要です"
+  },
+  "error.partner.required": {
+    "defaultMessage": "パートナーは必須入力フィールドです。"
+  },
+  "error.timeZone.required": {
+    "defaultMessage": "タイムゾーンは必須入力フィールドです。"
+  },
+  "error.location.required": {
+    "defaultMessage": "ロケーションは必須入力フィールドです"
+  },
+  "addProgram": {
+    "defaultMessage": "プログラムの追加"
+  },
+  "name": {
+    "defaultMessage": "名前"
+  },
+  "exchange": {
+    "defaultMessage": "エクスチェンジ"
+  },
+  "additionalCurrencies": {
+    "defaultMessage": "追加の通貨"
+  },
+  "addNewCurrency": {
+    "defaultMessage": "追加の通貨"
+  },
+  "inputLabel": {
+    "defaultMessage": "入力ラベル"
+  },
+  "settlementTime": {
+    "defaultMessage": "決済時間"
+  },
+  "day": {
+    "defaultMessage": "日"
+  },
+  "hour": {
+    "defaultMessage": "時間"
+  },
+  "minute": {
+    "defaultMessage": "分"
+  },
+  "type": {
+    "defaultMessage": "タイプ"
+  },
+  "fax": {
+    "defaultMessage": "ファックス"
+  },
+  "home": {
+    "defaultMessage": "ホーム"
+  },
+  "work": {
+    "defaultMessage": "仕事"
+  },
+  "mobile": {
+    "defaultMessage": "携帯"
+  },
+  "contact": {
+    "defaultMessage": "連絡先",
+    "description": "contact phone type"
+  },
+  "personal": {
+    "defaultMessage": "個人"
+  },
+  "emailStatus": {
+    "defaultMessage": "メールのステータス"
+  },
+  "roles.financialManager": {
+    "defaultMessage": "財務管理者"
+  },
+  "roles.platformManager": {
+    "defaultMessage": "プラットフォーム マネージャー"
+  },
+  "roles.riskManager": {
+    "defaultMessage": "リスクマネージャー"
+  },
+  "roles.customerAgent": {
+    "defaultMessage": "カスタマーエージェント"
+  },
+  "roles.system": {
+    "defaultMessage": "システム"
+  },
+  "roles.storeManager": {
+    "defaultMessage": "店長"
+  },
+  "roles.customerManager": {
+    "defaultMessage": "カスタマーマネージャー"
+  },
+  "roles.riskAgent": {
+    "defaultMessage": "リスクエージェント"
+  },
+  "roles.auditor": {
+    "defaultMessage": "審査員"
+  },
+  "roles.approver": {
+    "defaultMessage": "承認者"
+  },
+  "roles.storeAgent": {
+    "defaultMessage": "ストアエージェント"
+  },
+  "error.password.lowercase": {
+    "defaultMessage": "パスワードには少なくとも1つの小文字を含める必要があります"
+  },
+  "error.password.uppercase": {
+    "defaultMessage": "パスワードには少なくとも1つの大文字を含める必要があります"
+  },
+  "error.password.digit": {
+    "defaultMessage": "パスワードには少なくとも1つの数字が含まれている必要があります"
+  },
+  "error.password.specialChar": {
+    "defaultMessage": "パスワードには少なくとも1つの特殊文字が含まれている必要があります"
+  },
+  "error.password.minChar": {
+    "defaultMessage": "パスワードは8文字以上である必要があります"
+  },
+  "error.password.maxChar": {
+    "defaultMessage": "パスワードは32文字以内にする必要があります"
+  },
+  "error.field.required": {
+    "defaultMessage": "{fieldName} は必須フィールドです"
+  },
+  "error.field.validEmail": {
+    "defaultMessage": "有効なメールアドレスが必要です"
+  },
+  "error.role.minSelection": {
+    "defaultMessage": "少なくとも1つのロールを選択する必要があります"
+  },
+  "error.complianceCurrency.required": {
+    "defaultMessage": "コンプライアンス通貨は必須入力フィールドです。"
+  },
+  "error.IIN.min6Digits": {
+    "defaultMessage": "IINには6桁の数字を含める必要があります。"
+  },
+  "editBank": {
+    "defaultMessage": "バンクの編集"
+  },
+  "addNewBank": {
+    "defaultMessage": "新しいバンクを追加"
+  },
+  "complianceCurrency": {
+    "defaultMessage": "コンプライアンス通貨"
+  },
+  "button.addAdditionalCurrency": {
+    "defaultMessage": "通貨を追加"
+  },
+  "IINs": {
+    "defaultMessage": "IINs"
+  },
+  "addNewIIN": {
+    "defaultMessage": "IINs"
+  },
+  "button.addAdditionalIIN": {
+    "defaultMessage": "IINを追加"
+  },
+  "button.home": {
+    "defaultMessage": "ホーム"
+  },
+  "product": {
+    "defaultMessage": "プロダクト"
+  },
+  "riskLevel": {
+    "defaultMessage": "リスクレベル"
+  },
+  "riskLevelDetail": {
+    "defaultMessage": "リスクレベルの編集"
+  },
+  "riskLevel.hideRules": {
+    "defaultMessage": "このリスクレベルに割り当てられたすべてのルールを非表示にする >>"
+  },
+  "riskLevel.showRules": {
+    "defaultMessage": "このリスクレベルに割り当てられたすべてのルールを表示する <<"
+  },
+  "riskLevel.viewRules": {
+    "defaultMessage": "このリスクレベルに割り当てられたすべてのルールを表示する <<"
+  },
+  "button.addRiskRule": {
+    "defaultMessage": "リスクルールの追加"
+  },
+  "createRiskException": {
+    "defaultMessage": "リスク例外を作成"
+  },
+  "releasableDate": {
+    "defaultMessage": "リリース可能日"
+  },
+  "riskParameter": {
+    "defaultMessage": "リスクパラメータ"
+  },
+  "error.parameterValue.required": {
+    "defaultMessage": "パラメーター値が必要です。"
+  },
+  "error.releaseDate.required": {
+    "defaultMessage": "リリース日は必須です。"
+  },
+  "created": {
+    "defaultMessage": "作成日時"
+  },
+  "riskLevelParameters": {
+    "defaultMessage": "リスクレベルパラメータ"
+  },
+  "program.riskLevels.deleteRiskRule": {
+    "defaultMessage": "リスクルールを削除するために作成された順序の変更"
+  },
+  "fixedFeePercentage": {
+    "defaultMessage": "固定金額/割合"
+  },
+  "recFixedFeePercentage": {
+    "defaultMessage": "記録 固定金額/割合"
+  },
+  "accordion.button.hide": {
+    "defaultMessage": "表示しない {hideNumber}"
+  },
+  "accordion.button.view": {
+    "defaultMessage": "すべて表示 {showNumber}"
+  },
+  "addAdditionalPartner": {
+    "defaultMessage": "新しいパートナーを追加"
+  },
+  "addAdditionalProgram": {
+    "defaultMessage": "プログラムを追加"
+  },
+  "emptyLabel": {
+    "defaultMessage": ""
+  },
+  "hostAddress": {
+    "defaultMessage": "ホストアドレス"
+  },
+  "standIn": {
+    "defaultMessage": "スタンドイン"
+  },
+  "partnerManagerDetails": {
+    "defaultMessage": "パートナー マネージャーの詳細"
+  },
+  "error.field.unique": {
+    "defaultMessage": "{fieldName} ユニークである必要があります"
+  },
+  "error.username.specialChar": {
+    "defaultMessage": "ユーザー名には、小文字、数字、および .-_ のみ使用可能です"
+  },
+  "error.username.minChar": {
+    "defaultMessage": "ユーザー名は8文字以上である必要があります"
+  },
+  "error.username.maxChar": {
+    "defaultMessage": "ユーザー名は32文字以内にする必要があります"
+  },
+  "currencies": {
+    "defaultMessage": "通貨"
+  },
+  "exchangeProvider": {
+    "defaultMessage": "エクスチェンジプロバイダー"
+  },
+  "intermediateCurrency": {
+    "defaultMessage": "中間通貨"
+  },
+  "realTime": {
+    "defaultMessage": "リアルタイム"
+  },
+  "externalIdCode": {
+    "defaultMessage": "外部IDコード"
+  },
+  "crossTradeCurrency": {
+    "defaultMessage": "クロストレード通貨"
+  },
+  "creationDate": {
+    "defaultMessage": "作成日"
+  },
+  "addExchange": {
+    "defaultMessage": "新しいエクスチェンジを追加"
+  },
+  "addInterchange": {
+    "defaultMessage": "インターチェンジを追加"
+  },
+  "editInterchange": {
+    "defaultMessage": "インターチェンジを編集"
+  },
+  "interchanges": {
+    "defaultMessage": "インターチェンジ"
+  },
+  "exchangeName": {
+    "defaultMessage": "エクスチェンジ名"
+  },
+  "individualCurrencyMargin": {
+    "defaultMessage": "個別通貨証拠金"
+  },
+  "individualCurrencyMargins": {
+    "defaultMessage": "個別通貨証拠金"
+  },
+  "individualCurrencyMarginOptional": {
+    "defaultMessage": "個別通貨証拠金 (オプション)"
+  },
+  "buyMargin": {
+    "defaultMessage": "購入マージン"
+  },
+  "buyMarginPercentage": {
+    "defaultMessage": "購入マージン%"
+  },
+  "sellMargin": {
+    "defaultMessage": "売却マージン"
+  },
+  "sellMarginPercentage": {
+    "defaultMessage": "売却マージン率"
+  },
+  "addAdditionalCurrencyPair": {
+    "defaultMessage": "通貨ペアを追加"
+  },
+  "drawdownOrder": {
+    "defaultMessage": "ドローダウンオーダー"
+  },
+  "totalBalance": {
+    "defaultMessage": "合計残高"
+  },
+  "pendingAmount": {
+    "defaultMessage": "ホールド中の金額"
+  },
+  "availableBalance": {
+    "defaultMessage": "利用可能な残高"
+  },
+  "safeDraft": {
+    "defaultMessage": "セーフドラフト"
+  },
+  "safeCurrency": {
+    "defaultMessage": "安全な通貨"
+  },
+  "quickSpend": {
+    "defaultMessage": "クイック支出"
+  },
+  "selectedFee": {
+    "defaultMessage": "選択された手数料"
+  },
+  "fixedFee": {
+    "defaultMessage": "固定金額"
+  },
+  "percentage": {
+    "defaultMessage": "割合"
+  },
+  "chargeReceiver": {
+    "defaultMessage": "受取人手数料"
+  },
+  "receiverFixFee": {
+    "defaultMessage": "受取人固定金額"
+  },
+  "receiverPercent": {
+    "defaultMessage": "受取人手数料の割合"
+  },
+  "wallets": {
+    "defaultMessage": "ウォレット"
+  },
+  "cards": {
+    "defaultMessage": "カード"
+  },
+  "button.orderNewCard": {
+    "defaultMessage": "新しいカードを注文する"
+  },
+  "fees": {
+    "defaultMessage": "手数料"
+  },
+  "button.addFee": {
+    "defaultMessage": "手数料を追加"
+  },
+  "lastFourPAN": {
+    "defaultMessage": "PANの下4桁"
+  },
+  "expiry": {
+    "defaultMessage": "有効期限"
+  },
+  "tokens": {
+    "defaultMessage": "トークン"
+  },
+  "view": {
+    "defaultMessage": "ビュー"
+  },
+  "button.exchangeCurrency": {
+    "defaultMessage": "両替通貨"
+  },
+  "wallets.success.cardReissued": {
+    "defaultMessage": "カードの再発行に成功しました"
+  },
+  "wallets.success.released": {
+    "defaultMessage": "カードブロックID: {respId} がリリースされました"
+  },
+  "wallets.success.activated": {
+    "defaultMessage": "カードID: {removedBlocId} が正常に有効化されました"
+  },
+  "showInactiveCards": {
+    "defaultMessage": "非アクティブなカードを表示する"
+  },
+  "orderDetails": {
+    "defaultMessage": "オーダーの詳細"
+  },
+  "address": {
+    "defaultMessage": "アドレス"
+  },
+  "state_province": {
+    "defaultMessage": "都道府県"
+  },
+  "error.cardToken.required": {
+    "defaultMessage": "少なくとも1つのカードトークンを選択してください"
+  },
+  "error.memo.mustBe128Chars": {
+    "defaultMessage": "メモは128文字以下にする必要があります。"
+  },
+  "drawer.card.tokens.label.select": {
+    "defaultMessage": "アクションを実行するトークンを選択します。"
+  },
+  "memo.input.placeholder.max128Chars": {
+    "defaultMessage": "メモ(最大128文字)"
+  },
+  "suspend": {
+    "defaultMessage": "中断"
+  },
+  "unsuspend": {
+    "defaultMessage": "中断解除"
+  },
+  "cardDetails": {
+    "defaultMessage": "カードの詳細"
+  },
+  "PAN": {
+    "defaultMessage": "PAN"
+  },
+  "sequenceNumber": {
+    "defaultMessage": "シーケンス番号"
+  },
+  "unblock": {
+    "defaultMessage": "解除"
+  },
+  "reissue": {
+    "defaultMessage": "再発行"
+  },
+  "exchangeQuoteExpiresIn": {
+    "defaultMessage": "両替見積もりの有効期限"
+  },
+  "sellCurrencyAmount": {
+    "defaultMessage": "売却通貨金額"
+  },
+  "buyCurrencyAmount": {
+    "defaultMessage": "購入通貨金額"
+  },
+  "error.sellCurrency.required": {
+    "defaultMessage": "売却通貨は必須入力フィールドです。"
+  },
+  "error.amount.mustBeA.number": {
+    "defaultMessage": "金額は数値でなければなりません"
+  },
+  "error.amount.mustBeA.positiveValue": {
+    "defaultMessage": "金額は正の値でなければなりません"
+  },
+  "error.buyCurrency.required": {
+    "defaultMessage": "購入通貨は必須入力フィールドです。"
+  },
+  "exchangeCurrency": {
+    "defaultMessage": "両替通貨"
+  },
+  "sellCurrency": {
+    "defaultMessage": "売却通貨"
+  },
+  "currencyPairMarginOptional": {
+    "defaultMessage": "通貨ペアの証拠金 (オプション)"
+  },
+  "buyCurrency": {
+    "defaultMessage": "購入通貨"
+  },
+  "createNewIndividualCurrencyMargin": {
+    "defaultMessage": "新しい個別通貨証拠金を作成"
+  },
+  "currencyMarginPairs": {
+    "defaultMessage": "通貨証拠金ペア"
+  },
+  "createNewCurrencyMarginPair": {
+    "defaultMessage": "新しい通貨証拠金ペアを作成"
+  },
+  "addIndividualCurrencyMargin": {
+    "defaultMessage": "個別通貨証拠金を追加"
+  },
+  "editIndividualCurrencyMargin": {
+    "defaultMessage": "個別通貨証拠金の編集"
+  },
+  "chooseFeePlanOptional": {
+    "defaultMessage": "手数料プランの選択（オプション）"
+  },
+  "chooseProgram": {
+    "defaultMessage": "プログラムを選択"
+  },
+  "memo": {
+    "defaultMessage": "メモ"
+  },
+  "error.field.lessThan300": {
+    "defaultMessage": "300 文字未満である必要があります"
+  },
+  "addCurrencyMarginPair": {
+    "defaultMessage": "新しい通貨証拠金ペアを追加"
+  },
+  "editCurrencyMarginPair": {
+    "defaultMessage": "通貨証拠金ペアの編集"
+  },
+  "interchangeName": {
+    "defaultMessage": "インターチェンジ名"
+  },
+  "bankName": {
+    "defaultMessage": "バンク名"
+  },
+  "newCurrency": {
+    "defaultMessage": "新規通貨"
+  },
+  "addCurrency": {
+    "defaultMessage": "通貨を追加"
+  },
+  "addIIN": {
+    "defaultMessage": "追加IIN"
+  },
+  "newIIN": {
+    "defaultMessage": "新規IIN"
+  },
+  "error.iin.minRequired": {
+    "defaultMessage": "少なくとも1つのIINが必要です"
+  },
+  "error.currency.minRequired": {
+    "defaultMessage": "少なくとも1つの通貨が必要です"
+  },
+  "button.refreshQuote": {
+    "defaultMessage": "見積もりの更新"
+  },
+  "button.getQuote": {
+    "defaultMessage": "見積もりを取得"
+  },
+  "confirmExchange": {
+    "defaultMessage": "両替の確認"
+  },
+  "error.fixedAmount.required": {
+    "defaultMessage": "固定金額は必須入力フィールドです。"
+  },
+  "error.fixedAmount.shouldBeA.number": {
+    "defaultMessage": "固定金額は数値でなければなりません"
+  },
+  "error.feeAmount.required": {
+    "defaultMessage": "手数料金額(%)は必須入力フィールドです。"
+  },
+  "error.feeAmount.shouldBeA.number": {
+    "defaultMessage": "手数料金額(%)は数字にする必要があります"
+  },
+  "error.10digitNumber.5digitFraction": {
+    "defaultMessage": "10桁の整数と5桁の小数部のみ"
+  },
+  "error.receiverFee.required": {
+    "defaultMessage": "受取手数料の金額は必須入力フィールドです。"
+  },
+  "error.receiverFee.shouldBeA.number": {
+    "defaultMessage": "受取手数料の金額は数字でなければなりません"
+  },
+  "error.receiverFeeAmount.shouldBeA.number": {
+    "defaultMessage": "受取手数料の金額(%)は数値にする必要があります"
+  },
+  "addFee": {
+    "defaultMessage": "手数料を追加"
+  },
+  "editFee": {
+    "defaultMessage": "手数料の編集"
+  },
+  "fixedAmount": {
+    "defaultMessage": "固定金額"
+  },
+  "feePercentage": {
+    "defaultMessage": "手数料の割合"
+  },
+  "receiverFixedAmount": {
+    "defaultMessage": "受取人固定金額"
+  },
+  "receiverPercentage": {
+    "defaultMessage": "受取人パーセンテージ"
+  },
+  "remove": {
+    "defaultMessage": "削除"
+  },
+  "orderNewCard": {
+    "defaultMessage": "新しいカードの注文"
+  },
+  "customerName": {
+    "defaultMessage": "顧客名"
+  },
+  "placeOrder": {
+    "defaultMessage": "注文を送信"
+  },
+  "memos": {
+    "defaultMessage": "メモ"
+  },
+  "risk": {
+    "defaultMessage": "リスク"
+  },
+  "holds": {
+    "defaultMessage": "ホールド"
+  },
+  "transactions": {
+    "defaultMessage": "トランザクション"
+  },
+  "inProgressTransactions": {
+    "defaultMessage": "進行中のトランザクション"
+  },
+  "paymentNetworkMessages": {
+    "defaultMessage": "ペイメントネットワークメッセージ"
+  },
+  "external": {
+    "defaultMessage": "外部"
+  },
+  "relationships": {
+    "defaultMessage": "リレーションシップ"
+  },
+  "releaseHold": {
+    "defaultMessage": "ホールド解除"
+  },
+  "hideReleasedHolds": {
+    "defaultMessage": "解除されたホールドを非表示にする"
+  },
+  "showReleasedHolds": {
+    "defaultMessage": "解除されたホールドを表示"
+  },
+  "merchantLocation": {
+    "defaultMessage": "加盟店ロケーション"
+  },
+  "holdMemo": {
+    "defaultMessage": "ホールドメモ"
+  },
+  "allTransactionSources": {
+    "defaultMessage": "すべてのトランザクションソース"
+  },
+  "allTransactionTypes": {
+    "defaultMessage": "すべてのトランザクションタイプ"
+  },
+  "error.toDate.greaterThan.FromDate": {
+    "defaultMessage": "終了日は開始日以降とする必要があります"
+  },
+  "error.FromDate.lessThan.toDate": {
+    "defaultMessage": "開始日は終了日以前とする必要があります"
+  },
+  "limitResultsTo": {
+    "defaultMessage": "最大表示件数"
+  },
+  "fee": {
+    "defaultMessage": "手数料"
+  },
+  "searchTransactions": {
+    "defaultMessage": "トランザクションを検索"
+  },
+  "unknown": {
+    "defaultMessage": "未知"
+  },
+  "inWalletPOS": {
+    "defaultMessage": "インウォレットPOS"
+  },
+  "outOfWalletPOS": {
+    "defaultMessage": "アウトウォレットPOS"
+  },
+  "inWalletATM": {
+    "defaultMessage": "インウォレットATM"
+  },
+  "outOfWalletATM": {
+    "defaultMessage": "アウトウォレットATM"
+  },
+  "online": {
+    "defaultMessage": "オンライン"
+  },
+  "internal": {
+    "defaultMessage": "内部"
+  },
+  "static": {
+    "defaultMessage": "静的"
+  },
+  "mobileCommerce": {
+    "defaultMessage": "モバイルコマース"
+  },
+  "newAccount": {
+    "defaultMessage": "新規アカウント"
+  },
+  "cardSale": {
+    "defaultMessage": "カード販売"
+  },
+  "purchase": {
+    "defaultMessage": "購入"
+  },
+  "refund": {
+    "defaultMessage": "返金"
+  },
+  "load": {
+    "defaultMessage": "入金"
+  },
+  "withdraw": {
+    "defaultMessage": "出金"
+  },
+  "balanceInquiry": {
+    "defaultMessage": "残高照会"
+  },
+  "P2P": {
+    "defaultMessage": "P2P"
+  },
+  "walletTransfer": {
+    "defaultMessage": "ウォレット転送"
+  },
+  "exchangeMargin": {
+    "defaultMessage": "両替差益"
+  },
+  "secondPresentment": {
+    "defaultMessage": "2回目のプレゼンテーション"
+  },
+  "chargeBack": {
+    "defaultMessage": "チャージバック"
+  },
+  "customerAdjustment": {
+    "defaultMessage": "カスタマーアジャストメント"
+  },
+  "exchangeAdjustment": {
+    "defaultMessage": "両替調整"
+  },
+  "maintenance": {
+    "defaultMessage": "メンテナンス"
+  },
+  "chargeoff": {
+    "defaultMessage": "チャージオフ"
+  },
+  "withholding": {
+    "defaultMessage": "保留"
+  },
+  "closeAccount": {
+    "defaultMessage": "アカウントのクローズ"
+  },
+  "reward": {
+    "defaultMessage": "リワード"
+  },
+  "shipping": {
+    "defaultMessage": "配送"
+  },
+  "expeditedShipping": {
+    "defaultMessage": "お急ぎ便"
+  },
+  "addressing": {
+    "defaultMessage": "アドレッシング"
+  },
+  "settlement": {
+    "defaultMessage": "決済"
+  },
+  "consolidated": {
+    "defaultMessage": "連結"
+  },
+  "interest": {
+    "defaultMessage": "利子"
+  },
+  "cashback": {
+    "defaultMessage": "キャッシュバック"
+  },
+  "error.majorCode.100": {
+    "defaultMessage": "無効なパラメータ",
+    "description": "無効なパラメータ"
+  },
+  "error.majorCode.101": {
+    "defaultMessage": "ヌルポインタ例外",
+    "description": "ヌルポインタ例外"
+  },
+  "error.majorCode.102": {
+    "defaultMessage": "IO/リモート例外",
+    "description": "IO/リモート例外"
+  },
+  "error.majorCode.103": {
+    "defaultMessage": "サポートされていない操作",
+    "description": "サポートされていない操作"
+  },
+  "error.majorCode.104": {
+    "defaultMessage": "不正な状態",
+    "description": "不正な状態"
+  },
+  "error.majorCode.200": {
+    "defaultMessage": "使用できません",
+    "description": "使用できません"
+  },
+  "error.majorCode.201": {
+    "defaultMessage": "見つかりません",
+    "description": "見つかりません"
+  },
+  "error.majorCode.202": {
+    "defaultMessage": "無効な通貨",
+    "description": "無効な通貨"
+  },
+  "error.majorCode.203": {
+    "defaultMessage": "通貨換算",
+    "description": "通貨換算"
+  },
+  "error.majorCode.204": {
+    "defaultMessage": "為替レートなし",
+    "description": "為替レートなし"
+  },
+  "error.majorCode.205": {
+    "defaultMessage": "一般的なセキュリティ",
+    "description": "一般的なセキュリティ"
+  },
+  "error.majorCode.206": {
+    "defaultMessage": "通貨の不一致",
+    "description": "通貨の不一致"
+  },
+  "error.majorCode.207": {
+    "defaultMessage": "取消",
+    "description": "取消"
+  },
+  "error.majorCode.208": {
+    "defaultMessage": "検証",
+    "description": "検証"
+  },
+  "error.majorCode.209": {
+    "defaultMessage": "重複",
+    "description": "重複"
+  },
+  "error.majorCode.210": {
+    "defaultMessage": "交換金額が小さすぎる",
+    "description": "交換金額が小さすぎる"
+  },
+  "error.majorCode.211": {
+    "defaultMessage": "トランザクション",
+    "description": "トランザクション"
+  },
+  "error.majorCode.212": {
+    "defaultMessage": "メッセージ形式",
+    "description": "メッセージ形式"
+  },
+  "error.majorCode.213": {
+    "defaultMessage": "カフィス",
+    "description": "カフィス"
+  },
+  "error.majorCode.214": {
+    "defaultMessage": "エラー",
+    "description": "エラー"
+  },
+  "error.majorCode.300": {
+    "defaultMessage": "資金不足",
+    "description": "資金不足"
+  },
+  "error.majorCode.400": {
+    "defaultMessage": "リスクルール",
+    "description": "リスクルール"
+  },
+  "error.majorCode.500": {
+    "defaultMessage": "順序の変更",
+    "description": "順序の変更"
+  },
+  "error.majorCode.600": {
+    "defaultMessage": "外部コールアウトが失敗しました",
+    "description": "外部コールアウトが失敗しました"
+  },
+  "error.majorCode.900": {
+    "defaultMessage": "ティッカー",
+    "description": "ティッカー"
+  },
+  "error.majorCode.unknown": {
+    "defaultMessage": "未知",
+    "description": "未知"
+  },
+  "error.minorCode.000": {
+    "defaultMessage": "該当なし",
+    "description": "Minor Code"
+  },
+  "error.minorCode.001": {
+    "defaultMessage": "顧客番号",
+    "description": "Minor Code"
+  },
+  "error.minorCode.002": {
+    "defaultMessage": "顧客外部参照",
+    "description": "Minor Code"
+  },
+  "error.minorCode.003": {
+    "defaultMessage": "プログラム名",
+    "description": "Minor Code"
+  },
+  "error.minorCode.004": {
+    "defaultMessage": "口座番号",
+    "description": "Minor Code"
+  },
+  "error.minorCode.005": {
+    "defaultMessage": "店舗番号",
+    "description": "Minor Code"
+  },
+  "error.minorCode.006": {
+    "defaultMessage": "ウォレット通貨",
+    "description": "Minor Code"
+  },
+  "error.minorCode.007": {
+    "defaultMessage": "カード番号",
+    "description": "Minor Code"
+  },
+  "error.minorCode.008": {
+    "defaultMessage": "PAN",
+    "description": "Minor Code"
+  },
+  "error.minorCode.009": {
+    "defaultMessage": "カードID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.010": {
+    "defaultMessage": "バンク名",
+    "description": "Minor Code"
+  },
+  "error.minorCode.011": {
+    "defaultMessage": "インターチェンジ名",
+    "description": "Minor Code"
+  },
+  "error.minorCode.012": {
+    "defaultMessage": "パートナー名",
+    "description": "Minor Code"
+  },
+  "error.minorCode.013": {
+    "defaultMessage": "交換プロバイダー名",
+    "description": "Minor Code"
+  },
+  "error.minorCode.014": {
+    "defaultMessage": "交換名",
+    "description": "Minor Code"
+  },
+  "error.minorCode.015": {
+    "defaultMessage": "料金プラン名",
+    "description": "Minor Code"
+  },
+  "error.minorCode.016": {
+    "defaultMessage": "セキュリティレベル",
+    "description": "Minor Code"
+  },
+  "error.minorCode.017": {
+    "defaultMessage": "期限切れ",
+    "description": "Minor Code"
+  },
+  "error.minorCode.018": {
+    "defaultMessage": "承認番号",
+    "description": "Minor Code"
+  },
+  "error.minorCode.019": {
+    "defaultMessage": "個人ID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.020": {
+    "defaultMessage": "リスクルール",
+    "description": "Minor Code"
+  },
+  "error.minorCode.021": {
+    "defaultMessage": "認証コード",
+    "description": "Minor Code"
+  },
+  "error.minorCode.022": {
+    "defaultMessage": "トランザクション",
+    "description": "Minor Code"
+  },
+  "error.minorCode.030": {
+    "defaultMessage": "住所ID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.031": {
+    "defaultMessage": "電子メールID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.032": {
+    "defaultMessage": "公式身分証明書",
+    "description": "Minor Code"
+  },
+  "error.minorCode.033": {
+    "defaultMessage": "電話番号ID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.034": {
+    "defaultMessage": "カードプロファイル名",
+    "description": "Minor Code"
+  },
+  "error.minorCode.035": {
+    "defaultMessage": "料金入力ID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.036": {
+    "defaultMessage": "メールテンプレートID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.037": {
+    "defaultMessage": "通貨",
+    "description": "Minor Code"
+  },
+  "error.minorCode.038": {
+    "defaultMessage": "為替ペアレート",
+    "description": "Minor Code"
+  },
+  "error.minorCode.039": {
+    "defaultMessage": "為替ペアレート",
+    "description": "Minor Code"
+  },
+  "error.minorCode.040": {
+    "defaultMessage": "請求書の概要の変更",
+    "description": "Minor Code"
+  },
+  "error.minorCode.041": {
+    "defaultMessage": "リスク例外ID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.042": {
+    "defaultMessage": "パラメーター",
+    "description": "Minor Code"
+  },
+  "error.minorCode.043": {
+    "defaultMessage": "金額の値",
+    "description": "Minor Code"
+  },
+  "error.minorCode.044": {
+    "defaultMessage": "認証トークンID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.045": {
+    "defaultMessage": "顧客メモID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.046": {
+    "defaultMessage": "配送番号",
+    "description": "Minor Code"
+  },
+  "error.minorCode.047": {
+    "defaultMessage": "属性名",
+    "description": "Minor Code"
+  },
+  "error.minorCode.048": {
+    "defaultMessage": "アカウントがロックされました",
+    "description": "Minor Code"
+  },
+  "error.minorCode.049": {
+    "defaultMessage": "生年月日",
+    "description": "Minor Code"
+  },
+  "error.minorCode.050": {
+    "defaultMessage": "生年月日",
+    "description": "Minor Code"
+  },
+  "error.minorCode.051": {
+    "defaultMessage": "セキュリティコード",
+    "description": "Minor Code"
+  },
+  "error.minorCode.052": {
+    "defaultMessage": "子顧客",
+    "description": "Minor Code"
+  },
+  "error.minorCode.053": {
+    "defaultMessage": "保留中のトランザクション",
+    "description": "Minor Code"
+  },
+  "error.minorCode.054": {
+    "defaultMessage": "カードの注文",
+    "description": "Minor Code"
+  },
+  "error.minorCode.055": {
+    "defaultMessage": "カードの状態",
+    "description": "Minor Code"
+  },
+  "error.minorCode.056": {
+    "defaultMessage": "PIN",
+    "description": "Minor Code"
+  },
+  "error.minorCode.057": {
+    "defaultMessage": "顧客がブロックされた",
+    "description": "Minor Code"
+  },
+  "error.minorCode.058": {
+    "defaultMessage": "パスコード",
+    "description": "Minor Code"
+  },
+  "error.minorCode.059": {
+    "defaultMessage": "パスワード",
+    "description": "Minor Code"
+  },
+  "error.minorCode.060": {
+    "defaultMessage": "プラグイン",
+    "description": "Minor Code"
+  },
+  "error.minorCode.061": {
+    "defaultMessage": "顧客メモ属性ID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.062": {
+    "defaultMessage": "セッショントークン",
+    "description": "Minor Code"
+  },
+  "error.minorCode.063": {
+    "defaultMessage": "パートナーユーザーID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.064": {
+    "defaultMessage": "パートナーユーザー名",
+    "description": "Minor Code"
+  },
+  "error.minorCode.065": {
+    "defaultMessage": "新規パスワード",
+    "description": "Minor Code"
+  },
+  "error.minorCode.066": {
+    "defaultMessage": "為替証拠金",
+    "description": "Minor Code"
+  },
+  "error.minorCode.067": {
+    "defaultMessage": "親顧客",
+    "description": "Minor Code"
+  },
+  "error.minorCode.068": {
+    "defaultMessage": "件名",
+    "description": "Minor Code"
+  },
+  "error.minorCode.069": {
+    "defaultMessage": "リスクレベル",
+    "description": "Minor Code"
+  },
+  "error.minorCode.070": {
+    "defaultMessage": "ISO8583メッセージID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.071": {
+    "defaultMessage": "チャージバックID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.072": {
+    "defaultMessage": "チャージバックメッセージID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.090": {
+    "defaultMessage": "注文IDの変更",
+    "description": "Minor Code"
+  },
+  "error.minorCode.091": {
+    "defaultMessage": "注文状態の変更",
+    "description": "Minor Code"
+  },
+  "error.minorCode.092": {
+    "defaultMessage": "注文変更アクション",
+    "description": "Minor Code"
+  },
+  "error.minorCode.093": {
+    "defaultMessage": "注文タイプの変更",
+    "description": "Minor Code"
+  },
+  "error.minorCode.094": {
+    "defaultMessage": "変更オーダー要求者",
+    "description": "Minor Code"
+  },
+  "error.minorCode.095": {
+    "defaultMessage": "加盟店管理の重複",
+    "description": "Minor Code"
+  },
+  "error.minorCode.200": {
+    "defaultMessage": "PINの検証",
+    "description": "Minor Code"
+  },
+  "error.minorCode.201": {
+    "defaultMessage": "PINの失敗回数",
+    "description": "Minor Code"
+  },
+  "error.minorCode.202": {
+    "defaultMessage": "カードの有効期限切れ",
+    "description": "Minor Code"
+  },
+  "error.minorCode.203": {
+    "defaultMessage": "PIN失敗カウント一時ロック",
+    "description": "Minor Code"
+  },
+  "error.minorCode.300": {
+    "defaultMessage": "顧客インシデントID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.600": {
+    "defaultMessage": "既知のエラーコード",
+    "description": "Minor Code"
+  },
+  "customer.recent.customerblockcreated": {
+    "defaultMessage": "ユーザーがブロックされました",
+    "description": "Customer Block was created"
+  },
+  "customer.recent.customerblockreleased": {
+    "defaultMessage": "ユーザーブロックがリリースされました",
+    "description": "Customer Block was released"
+  },
+  "customer.recent.memocreated": {
+    "defaultMessage": "顧客メモが作成されました",
+    "description": "Created memo"
+  },
+  "customer.recent.orderapproved": {
+    "defaultMessage": "変更オーダーが承認されました",
+    "description": "Change order was approved"
+  },
+  "customer.recent.ordercreated": {
+    "defaultMessage": "送信された変更オーダー",
+    "description": "Change order was submitted"
+  },
+  "customer.recent.cardblockcreated": {
+    "defaultMessage": "カードがブロックされました",
+    "description": "Card Block was created"
+  },
+  "customer.recent.cardblockreleased": {
+    "defaultMessage": "カードブロックがリリースされました",
+    "description": "Card Block was released"
+  },
+  "customer.recent.cardordered": {
+    "defaultMessage": "カードが注文されました",
+    "description": "Card ordered"
+  },
+  "yes": {
+    "defaultMessage": "はい"
+  },
+  "no": {
+    "defaultMessage": "いいえ"
+  },
+  "state": {
+    "defaultMessage": "状態"
+  },
+  "MTI": {
+    "defaultMessage": "MTI"
+  },
+  "success": {
+    "defaultMessage": "成功"
+  },
+  "reversal": {
+    "defaultMessage": "取消"
+  },
+  "button.VIEW": {
+    "defaultMessage": "表示"
+  },
+  "general": {
+    "defaultMessage": "一般"
+  },
+  "messageType": {
+    "defaultMessage": "メッセージタイプ"
+  },
+  "transactionType": {
+    "defaultMessage": "トランザクションタイプ"
+  },
+  "transactionSource": {
+    "defaultMessage": "トランザクションソース"
+  },
+  "processingCode": {
+    "defaultMessage": "プロセシングコード"
+  },
+  "responseCode": {
+    "defaultMessage": "レスポンスコード"
+  },
+  "originalDataElements": {
+    "defaultMessage": "オリジナルデータエレメント"
+  },
+  "systemTraceAuditNumber": {
+    "defaultMessage": "システムトレースオーディットナンバー"
+  },
+  "referenceNumber": {
+    "defaultMessage": "リファレンスナンバー"
+  },
+  "retrievalReferenceNumber": {
+    "defaultMessage": "リトリーバルリファレンスナンバー"
+  },
+  "originalReferenceNumber": {
+    "defaultMessage": "オリジナルリファレンスナンバー"
+  },
+  "acquirerInfo": {
+    "defaultMessage": "アクワイアラー情報"
+  },
+  "cardAcceptorName": {
+    "defaultMessage": "カード利用店舗名"
+  },
+  "cardAcceptorID": {
+    "defaultMessage": "カード利用識別コード"
+  },
+  "cardAcceptorTerminalID": {
+    "defaultMessage": "カード利用端末識別"
+  },
+  "cardAcceptorCity": {
+    "defaultMessage": "カード利用店舗の都市"
+  },
+  "cardAcceptorCountryCode": {
+    "defaultMessage": "カード利用店舗の国番号"
+  },
+  "MCC": {
+    "defaultMessage": "MCC"
+  },
+  "POSEntryMode": {
+    "defaultMessage": "POS入力モード"
+  },
+  "POSCondition": {
+    "defaultMessage": "POS状態"
+  },
+  "acquiringInstitutionID": {
+    "defaultMessage": "アクワイアラ識別コード"
+  },
+  "authCode": {
+    "defaultMessage": "認証コード"
+  },
+  "additionalInfo": {
+    "defaultMessage": "追加情報"
+  },
+  "cardPresent": {
+    "defaultMessage": "カード提示"
+  },
+  "inbound": {
+    "defaultMessage": "インバウンド"
+  },
+  "authorization": {
+    "defaultMessage": "オーソリ"
+  },
+  "debit": {
+    "defaultMessage": "デビット"
+  },
+  "forcePost": {
+    "defaultMessage": "フォースポスト"
+  },
+  "failedParameter": {
+    "defaultMessage": "失敗したパラメータ"
+  },
+  "activatedRule": {
+    "defaultMessage": "アクティブなルール"
+  },
+  "errorMessage": {
+    "defaultMessage": "エラーメッセージ"
+  },
+  "timestamps": {
+    "defaultMessage": "タイムスタンプ"
+  },
+  "creation": {
+    "defaultMessage": "作成"
+  },
+  "modified": {
+    "defaultMessage": "変更"
+  },
+  "transmission": {
+    "defaultMessage": "送信"
+  },
+  "authReleased": {
+    "defaultMessage": "認証リリース"
+  },
+  "amounts": {
+    "defaultMessage": "金額"
+  },
+  "acquirer": {
+    "defaultMessage": "アクワイアラー"
+  },
+  "billing": {
+    "defaultMessage": "請求"
+  },
+  "compliance": {
+    "defaultMessage": "コンプライアンス"
+  },
+  "replacement": {
+    "defaultMessage": "両替"
+  },
+  "partial": {
+    "defaultMessage": "部分"
+  },
+  "paymentNetworkMessageDetails": {
+    "defaultMessage": "ペイメントネットワークメッセージの詳細"
+  },
+  "identifierCode": {
+    "defaultMessage": "識別子コード"
+  },
+  "externalAccounts": {
+    "defaultMessage": "外部アカウント"
+  },
+  "button.addNewExternalAccount": {
+    "defaultMessage": "新しい外部アカウントを追加"
+  },
+  "error.referenceNumber.required": {
+    "defaultMessage": "リファレンスナンバーは必須入力フィールドです。"
+  },
+  "editExternalAccount": {
+    "defaultMessage": "外部アカウントの編集"
+  },
+  "addExternalAccount": {
+    "defaultMessage": "外部アカウントを追加"
+  },
+  "expirationDate": {
+    "defaultMessage": "有効期限"
+  },
+  "attributes": {
+    "defaultMessage": "アトリビュート"
+  },
+  "addAttributeAttribute": {
+    "defaultMessage": "アトリビュートの追加"
+  },
+  "expirationTime": {
+    "defaultMessage": "有効期限"
+  },
+  "search.results.showingMessage": {
+    "defaultMessage": "\"{searchTerm}\" に対して {totalCount, plural, =0 {no results} one {# result} other {# results}} を表示"
+  },
+  "createdDate": {
+    "defaultMessage": "作成日"
+  },
+  "customerDetails": {
+    "defaultMessage": "顧客情報"
+  },
+  "error.type.required": {
+    "defaultMessage": "タイプは必須入力フィールドです。"
+  },
+  "error.reason.required": {
+    "defaultMessage": "理由は必須入力フィールドです。"
+  },
+  "error.cardLast4.required": {
+    "defaultMessage": "PANの下4桁は必須入力フィールドです。"
+  },
+  "addNewBlock": {
+    "defaultMessage": "新しいブロックを追加"
+  },
+  "chargeoffChangeOrder.success.create": {
+    "defaultMessage": "チャージオフ変更オーダーが正常に登録されました"
+  },
+  "memo.input.max255Chars.placeholder": {
+    "defaultMessage": "メモ (最大255文字)"
+  },
+  "chooseDate": {
+    "defaultMessage": "日付を選択"
+  },
+  "closed": {
+    "defaultMessage": "クローズ"
+  },
+  "fraud": {
+    "defaultMessage": "不正利用"
+  },
+  "system": {
+    "defaultMessage": "システム"
+  },
+  "activation": {
+    "defaultMessage": "アクティベーション"
+  },
+  "requestedBy": {
+    "defaultMessage": "要求元"
+  },
+  "cancelCard": {
+    "defaultMessage": "キャンセルカード"
+  },
+  "termination": {
+    "defaultMessage": "ターミネーション"
+  },
+  "releaseBlock": {
+    "defaultMessage": "リリースブロック"
+  },
+  "confirm": {
+    "defaultMessage": "確認"
+  },
+  "mr": {
+    "defaultMessage": "さん"
+  },
+  "ms": {
+    "defaultMessage": "さん"
+  },
+  "mrs": {
+    "defaultMessage": "さん"
+  },
+  "jr": {
+    "defaultMessage": "ジュニア"
+  },
+  "sr": {
+    "defaultMessage": "シニア"
+  },
+  "I": {
+    "defaultMessage": "I"
+  },
+  "II": {
+    "defaultMessage": "II"
+  },
+  "III": {
+    "defaultMessage": "III"
+  },
+  "addressType": {
+    "defaultMessage": "住所タイプ"
+  },
+  "addressLine1": {
+    "defaultMessage": "住所1"
+  },
+  "addressLine2": {
+    "defaultMessage": "住所2"
+  },
+  "phoneType": {
+    "defaultMessage": "電話番号タイプ"
+  },
+  "emailType": {
+    "defaultMessage": "メールタイプ"
+  },
+  "email": {
+    "defaultMessage": "電子メール"
+  },
+  "IDType": {
+    "defaultMessage": "IDタイプ"
+  },
+  "IDNumber": {
+    "defaultMessage": "ID番号"
+  },
+  "issuedDate": {
+    "defaultMessage": "発行日"
+  },
+  "configurations": {
+    "defaultMessage": "構成"
+  },
+  "success.changes.saved": {
+    "defaultMessage": "変更内容は正常に保存されました"
+  },
+  "error.givenName.required": {
+    "defaultMessage": "指定された名前は必須フィールドです"
+  },
+  "error.familyName.required": {
+    "defaultMessage": "姓は必須入力フィールドです"
+  },
+  "error.dateOfBirth.required": {
+    "defaultMessage": "生年月日は必須入力フィールドです。"
+  },
+  "editCustomer": {
+    "defaultMessage": "顧客の編集"
+  },
+  "label.editCustomer": {
+    "defaultMessage": "顧客の編集"
+  },
+  "personalInformation": {
+    "defaultMessage": "個人情報"
+  },
+  "secondFamilyName": {
+    "defaultMessage": "セカンドファミリーネーム"
+  },
+  "nickname": {
+    "defaultMessage": "ニックネーム"
+  },
+  "gender": {
+    "defaultMessage": "性別"
+  },
+  "dateOfBirth": {
+    "defaultMessage": "生年月日"
+  },
+  "addresses": {
+    "defaultMessage": "アドレス"
+  },
+  "button.addNewAddress": {
+    "defaultMessage": "新しいアドレスを追加"
+  },
+  "phones": {
+    "defaultMessage": "携帯電話"
+  },
+  "button.addNewPhone": {
+    "defaultMessage": "新しい電話を追加"
+  },
+  "emails": {
+    "defaultMessage": "メール"
+  },
+  "button.addNewEmail": {
+    "defaultMessage": "新しいメールを追加"
+  },
+  "identification": {
+    "defaultMessage": "識別"
+  },
+  "button.addNewIdentification": {
+    "defaultMessage": "新しいIDを追加"
+  },
+  "notifications": {
+    "defaultMessage": "通知"
+  },
+  "button.addNewNotification": {
+    "defaultMessage": "新しい通知を追加"
+  },
+  "error.input.required": {
+    "defaultMessage": "{name} は必須入力フィールドです。"
+  },
+  "editNotification": {
+    "defaultMessage": "通知の編集"
+  },
+  "error.IDType.required": {
+    "defaultMessage": "IDタイプは必須入力フィールドです。"
+  },
+  "error.primaryNumber.required": {
+    "defaultMessage": "プライマリ番号は必須入力フィールドです。"
+  },
+  "error.IDIssuerCountry.required": {
+    "defaultMessage": "ID発行者(国)は必須入力フィールドです。"
+  },
+  "error.active.required": {
+    "defaultMessage": "アクティブは必須入力フィールドです。"
+  },
+  "editIdentification": {
+    "defaultMessage": "識別情報の編集"
+  },
+  "addIdentification": {
+    "defaultMessage": "IDを追加"
+  },
+  "primaryNumber": {
+    "defaultMessage": "プライマリ番号"
+  },
+  "secondaryNumber": {
+    "defaultMessage": "セカンダリ番号"
+  },
+  "IDIssuerState": {
+    "defaultMessage": "ID発行者(都道府県)"
+  },
+  "IDIssuerCountry": {
+    "defaultMessage": "ID発行者(国)"
+  },
+  "error.emailType.required": {
+    "defaultMessage": "メールタイプは必須入力フィールドです。"
+  },
+  "error.emailFormat.invalid": {
+    "defaultMessage": "無効な電子メール形式です。"
+  },
+  "error.emailAddress.required": {
+    "defaultMessage": "メールアドレスは必須入力フィールドです。"
+  },
+  "error.state.required": {
+    "defaultMessage": "状態は必須入力フィールドです。"
+  },
+  "editEmail": {
+    "defaultMessage": "メールの編集"
+  },
+  "addEmail": {
+    "defaultMessage": "メールを追加"
+  },
+  "emailState": {
+    "defaultMessage": "メールの状態"
+  },
+  "error.phoneType.required": {
+    "defaultMessage": "電話番号タイプは必須入力フィールドです"
+  },
+  "error.phoneFormat.invalid": {
+    "defaultMessage": "無効な電話形式"
+  },
+  "error.phoneNumber.required": {
+    "defaultMessage": "電話番号は必須入力フィールドです。"
+  },
+  "editPhone": {
+    "defaultMessage": "電話番号の編集"
+  },
+  "addPhone": {
+    "defaultMessage": "電話番号を追加"
+  },
+  "error.addressType.required": {
+    "defaultMessage": "住所タイプは必須入力フィールドです。"
+  },
+  "error.addressLine1.required": {
+    "defaultMessage": "住所行1は必須入力フィールドです。"
+  },
+  "error.postalCode.required": {
+    "defaultMessage": "郵便番号は必須入力フィールドです。"
+  },
+  "error.city.required": {
+    "defaultMessage": "市区町村は必須入力フィールドです。"
+  },
+  "error.country.required": {
+    "defaultMessage": "国は必須入力フィールドです。"
+  },
+  "editAddress": {
+    "defaultMessage": "住所の編集"
+  },
+  "addAddress": {
+    "defaultMessage": "住所を追加"
+  },
+  "addressLine3": {
+    "defaultMessage": "住所3"
+  },
+  "yesterday": {
+    "defaultMessage": "昨日"
+  },
+  "createdBy": {
+    "defaultMessage": "作成者"
+  },
+  "button.release": {
+    "defaultMessage": "リリース"
+  },
+  "chargeoffs": {
+    "defaultMessage": "チャージオフ"
+  },
+  "button.addNewAdjustment": {
+    "defaultMessage": "新しいアジャストメントを追加"
+  },
+  "button.exchange": {
+    "defaultMessage": "両替"
+  },
+  "button.released": {
+    "defaultMessage": "リリース済"
+  },
+  "resetPassword": {
+    "defaultMessage": "パスワードを再設定する"
+  },
+  "changePassword": {
+    "defaultMessage": "パスワードを変更する"
+  },
+  "resetPartnerUserPassword": {
+    "defaultMessage": "パートナーユーザーのパスワードをリセット"
+  },
+  "locked": {
+    "defaultMessage": "ロック"
+  },
+  "showDeactivatedCards": {
+    "defaultMessage": "非アクティブ化されたカードを表示"
+  },
+  "cardOrderAttributes": {
+    "defaultMessage": "カードオーダーアトリビュート"
+  },
+  "accountHolder": {
+    "defaultMessage": "アカウントホルダー*"
+  },
+  "accountHolders.card.title.persons": {
+    "defaultMessage": "アカウントホルダー"
+  },
+  "customer.account.link.account.holders": {
+    "defaultMessage": "アカウントホルダー一覧"
+  },
+  "customer.search.result.address": {
+    "defaultMessage": "住所"
+  },
+  "customer.search.result.customerNumber": {
+    "defaultMessage": "顧客番号"
+  },
+  "customer.search.result.name": {
+    "defaultMessage": "顧客名"
+  },
+  "drawer.ext.acct.add.attribute": {
+    "defaultMessage": "アトリビュートを追加"
+  },
+  "drawer.orderNewCard.button.cancel": {
+    "defaultMessage": "キャンセル"
+  },
+  "drawer.orderNewCard.button.placeOrder": {
+    "defaultMessage": "注文する"
+  },
+  "drawer.orderNewCard.label.cardProfile": {
+    "defaultMessage": "カードプロファイル名*"
+  },
+  "re.issue.card.cancel.button": {
+    "defaultMessage": "キャンセル"
+  },
+  "viewCustomerDetails": {
+    "defaultMessage": "顧客情報詳細を表示"
+  },
+  "customer.edit.header.title": {
+    "defaultMessage": "顧客情報詳細"
+  },
+  "customer.edit.address.addressType": {
+    "defaultMessage": "タイプ"
+  },
+  "customer.edit.phone.addressLine1": {
+    "defaultMessage": "住所"
+  },
+  "cityStatePostalCode": {
+    "defaultMessage": "都市, 郵便番号"
+  },
+  "customer.edit.phone.country": {
+    "defaultMessage": "国"
+  },
+  "customer.edit.button.address": {
+    "defaultMessage": "編集"
+  },
+  "customer.delete.button.address": {
+    "defaultMessage": "削除"
+  },
+  "customer.edit.phone.phoneType": {
+    "defaultMessage": "タイプ"
+  },
+  "customer.edit.phone.phoneNumber": {
+    "defaultMessage": "電話番号"
+  },
+  "customer.edit.button.phone": {
+    "defaultMessage": "編集"
+  },
+  "customer.edit.email.emailType": {
+    "defaultMessage": "タイプ"
+  },
+  "customer.edit.email.email": {
+    "defaultMessage": "メールアドレス"
+  },
+  "customer.edit.email.verified": {
+    "defaultMessage": "認証済?"
+  },
+  "customer.edit.button.email": {
+    "defaultMessage": "編集"
+  },
+  "customer.edit.identification.idtype": {
+    "defaultMessage": "タイプ"
+  },
+  "customer.edit.identification.idNumber": {
+    "defaultMessage": "プライマリ番号"
+  },
+  "customer.edit.identification.idNumberSecondary": {
+    "defaultMessage": "セカンダリ番号"
+  },
+  "customer.edit.identification.issueDate": {
+    "defaultMessage": "発行日時"
+  },
+  "customer.edit.identification.expirationDate": {
+    "defaultMessage": "有効期限"
+  },
+  "customer.edit.identification.issuerCountry": {
+    "defaultMessage": "ID発行者(国)"
+  },
+  "customer.edit.identification.issuerState": {
+    "defaultMessage": "ID発行者(都道府県)"
+  },
+  "customer.edit.identification.active": {
+    "defaultMessage": "アクティブ"
+  },
+  "customer.edit.personalInformation": {
+    "defaultMessage": "個人情報"
+  },
+  "customer.edit.button.editPersonalInfo": {
+    "defaultMessage": "編集"
+  },
+  "customer.edit.label.title": {
+    "defaultMessage": "敬称"
+  },
+  "customer.edit.label.firstName": {
+    "defaultMessage": "名"
+  },
+  "customer.edit.label.middleName": {
+    "defaultMessage": "ミドルネーム"
+  },
+  "customer.edit.label.lastName": {
+    "defaultMessage": "姓"
+  },
+  "customer.edit.label.secondFamilyName": {
+    "defaultMessage": "姓(2)"
+  },
+  "customer.edit.label.suffix": {
+    "defaultMessage": "サフィックス"
+  },
+  "customer.edit.label.nickname": {
+    "defaultMessage": "ニックネーム"
+  },
+  "customer.edit.label.gender": {
+    "defaultMessage": "性別"
+  },
+  "customer.edit.label.dob": {
+    "defaultMessage": "誕生日"
+  },
+  "customer.edit.addresses": {
+    "defaultMessage": "住所"
+  },
+  "customer.edit.button.addNewAddress": {
+    "defaultMessage": "住所を追加"
+  },
+  "customer.edit.emails": {
+    "defaultMessage": "メールアドレス"
+  },
+  "customer.edit.button.addNewEmail": {
+    "defaultMessage": "メールを追加"
+  },
+  "customer.edit.phones": {
+    "defaultMessage": "電話番号"
+  },
+  "customer.edit.button.addNewPhone": {
+    "defaultMessage": "電話番号を追加"
+  },
+  "customer.edit.identification": {
+    "defaultMessage": "ID"
+  },
+  "customer.edit.button.addNewIdentification": {
+    "defaultMessage": "IDを追加"
+  },
+  "customerEdit.drawer.personalInfo.header": {
+    "defaultMessage": "個人情報の編集"
+  },
+  "customerEdit.drawer.personalInfo.firstName": {
+    "defaultMessage": "名*"
+  },
+  "customerEdit.drawer.personalInfo.MiddleName": {
+    "defaultMessage": "ミドルネーム"
+  },
+  "customerEdit.drawer.personalInfo.FamilyName": {
+    "defaultMessage": "姓*"
+  },
+  "drawer.personalInfo.button.cancel": {
+    "defaultMessage": "キャンセル"
+  },
+  "drawer.personalInfo.button.saveChanges": {
+    "defaultMessage": "保存"
+  },
+  "customerDetail.drawer.feePlan.header": {
+    "defaultMessage": "手数料プラン詳細"
+  },
+  "customerDetail.drawer.feePlans.saveChanges": {
+    "defaultMessage": "保存"
+  },
+  "customerDetail.drawer.feePlans.cancel": {
+    "defaultMessage": "キャンセル"
+  },
+  "customerDetail.drawer.feePlans.viewAllFees": {
+    "defaultMessage": "手数料プランに含まれる手数料を全て表示する <<"
+  },
+  "customerDetail.drawer.feePlan.hideAllFees": {
+    "defaultMessage": "手数料プランに含まれる手数料を表示しない >>"
+  },
+  "customer.account.holders.list": {
+    "defaultMessage": "アカウントホルダー"
+  },
+  "customer.account.holders.name": {
+    "defaultMessage": "名前"
+  },
+  "customer.account.holders.givenName": {
+    "defaultMessage": "名"
+  },
+  "customer.account.holders.primary-secondary": {
+    "defaultMessage": "プライマリ / セカンダリ"
+  },
+  "customer.account.holders.emailAddress": {
+    "defaultMessage": "メールアドレス"
+  },
+  "customer.account.holders.phoneNumber": {
+    "defaultMessage": "電話番号"
+  },
+  "customer.edit.account.holder.header.title": {
+    "defaultMessage": "アカウントホルダーの編集"
+  },
+  "audit.details.partner": {
+    "defaultMessage": "パートナー:"
+  },
+  "audit.details.username": {
+    "defaultMessage": "ユーザー名:"
+  },
+  "audit.details.customerNumber": {
+    "defaultMessage": "顧客番号:"
+  },
+  "audit.details.remoteaddress": {
+    "defaultMessage": "リモートアドレス"
+  },
+  "audit.details.api": {
+    "defaultMessage": "API"
+  },
+  "audit.details.created": {
+    "defaultMessage": "作成日時"
+  },
+  "audit.details.success": {
+    "defaultMessage": "成功"
+  },
+  "audit.details.responseCode": {
+    "defaultMessage": "応答コード"
+  },
+  "audit.row.details.path": {
+    "defaultMessage": "パス"
+  },
+  "audit.details.button.message": {
+    "defaultMessage": "結果に戻る"
+  },
+  "audit.details.title": {
+    "defaultMessage": "監査詳細"
+  },
+  "audit.details.parameters": {
+    "defaultMessage": "パラメータ"
+  },
+  "drawer.editUser.label.phoneNumber": {
+    "defaultMessage": "電話番号*"
+  },
+  "drawer.editUser.label.State": {
+    "defaultMessage": "状態変更"
+  },
+  "changeOrder.table.for": {
+    "defaultMessage": "対象"
+  },
+  "changeOrder.table.status": {
+    "defaultMessage": "ステータス"
+  },
+  "drawer.delete.delete": {
+    "defaultMessage": "削除"
+  },
+  "drawer.addMemo.button.cancel": {
+    "defaultMessage": "キャンセル"
+  },
+  "partner.add.additional.inns.button": {
+    "defaultMessage": "IINを追加"
+  },
+  "drawer.programs.edit.label.language": {
+    "defaultMessage": "言語"
+  },
+  "drawer.programs.edit.label.location": {
+    "defaultMessage": "ロケーション"
+  },
+  "drawer.programs.edit.label.timeZone": {
+    "defaultMessage": "タイムゾーン"
+  },
+  "drawer.programs.edit.label.currency": {
+    "defaultMessage": "通貨"
+  },
+  "drawer.programs.edit.label.partner": {
+    "defaultMessage": "パートナー"
+  },
+  "drawer.programs.edit.label.Bank": {
+    "defaultMessage": "バンク"
+  },
+  "drawer.programs.edit.label.Exchanges": {
+    "defaultMessage": "エクスチェンジ"
+  },
+  "fees.calculation.method": {
+    "defaultMessage": "計算方式"
+  },
+  "drawer.fee.calculationMethod": {
+    "defaultMessage": "計算方式"
+  },
+  "drawer.fees.table.header.calculation.method": {
+    "defaultMessage": "計算方式"
+  },
+  "drawer.fee.wizard.label.newFees.calculationMethodDescription": {
+    "defaultMessage": "計算方式"
+  },
+  "drawer.header.viewCardProfile": {
+    "defaultMessage": "カードプロファイルを表示"
+  },
+  "drawer.header.editCardProfile": {
+    "defaultMessage": "カードプロファイルの編集"
+  },
+  "drawer.header.addCardProfile": {
+    "defaultMessage": "新しいカードプロファイルを作成"
+  },
+  "drawer.programs.edit.label.cardProfileName": {
+    "defaultMessage": "カードプロファイル名"
+  },
+  "drawer.programs.edit.label.pansIssued": {
+    "defaultMessage": "発行されたPAN"
+  },
+  "drawer.card.profile.button.saveChanges": {
+    "defaultMessage": "保存"
+  },
+  "addMailTemplate": {
+    "defaultMessage": "新しいメールテンプレートを作成"
+  },
+  "card.table.button.details.tokens": {
+    "defaultMessage": "オーダー詳細"
+  },
+  "card.table.button.view.tokens": {
+    "defaultMessage": "トークン"
+  },
+  "cards.table.View.button": {
+    "defaultMessage": "カード詳細"
+  },
+  "programs.header.program.add": {
+    "defaultMessage": "セットアップオプションの選択"
+  },
+  "programs.section.add.products": {
+    "defaultMessage": "テンプレートを使用、または既存のプログラムをコピーしてセットアップすることができます。"
+  },
+  "programs.add.button": {
+    "defaultMessage": "選択して進む"
+  },
+  "programs.header.configure.product": {
+    "defaultMessage": "プロダクトを構成する"
+  },
+  "programs.section.configure.product": {
+    "defaultMessage": "ベースプログラムをセットアップし、プロダクトの振る舞いをカスタマイズします。"
+  },
+  "drawer.addProgram.label.homeCurrency": {
+    "defaultMessage": "自国通貨"
+  },
+  "configure.form.base.label.timeZone": {
+    "defaultMessage": "タイムゾーン"
+  },
+  "drawer.addProgram.label.location": {
+    "defaultMessage": "ロケーション*"
+  },
+  "configure.form.base.label.language": {
+    "defaultMessage": "言語"
+  },
+  "configure.form.base.label.partner": {
+    "defaultMessage": "パートナー"
+  },
+  "configure.form.base.label.productName": {
+    "defaultMessage": "プロダクト名"
+  },
+  "configure.form.button.setPlugins": {
+    "defaultMessage": "保存"
+  },
+  "customer.account.holders.relatedAccounts": {
+    "defaultMessage": "名"
+  },
+  "customer.account.holders.lastActivity": {
+    "defaultMessage": "プライマリ / セカンダリ"
+  },
+  "customer.account.holders.view": {
+    "defaultMessage": "表示する"
+  },
+  "customer.edit.label.created": {
+    "defaultMessage": "作成日時"
+  },
+  "customer.edit.label.modified": {
+    "defaultMessage": "変更日時"
+  },
+  "drawer.label.address.neighborhood": {
+    "defaultMessage": "地域"
+  },
+  "viewRiskLevelDetails": {
+    "defaultMessage": "リスクレベル詳細を表示 >>"
+  },
+  "customerDetail.drawer.riskRules.header": {
+    "defaultMessage": "リスクルール"
+  },
+  "customerDetail.drawer.riskMeasurements.header": {
+    "defaultMessage": "リスク計測値"
+  },
+  "customerDetail.drawer.riskExceptions.header": {
+    "defaultMessage": "リスク例外"
+  },
+  "drawer.riskLevel.table.header.name": {
+    "defaultMessage": "名前"
+  },
+  "drawer.riskLevel.table.header.value": {
+    "defaultMessage": "値"
+  },
+  "drawer.riskLevel.table.header.block": {
+    "defaultMessage": "ブロック"
+  },
+  "drawer.riskLevel.table.header.disabled": {
+    "defaultMessage": "無効"
+  },
+  "drawer.riskLevel.table.header.notify": {
+    "defaultMessage": "通知"
+  },
+  "drawer.riskLevel.table.header.created": {
+    "defaultMessage": "作成日時"
+  },
+  "risk.measurement.name": {
+    "defaultMessage": "名前"
+  },
+  "risk.measurement.maxValue": {
+    "defaultMessage": "最大値"
+  },
+  "risk.measurement.currentValue": {
+    "defaultMessage": "現在値"
+  },
+  "risk.measurement.block": {
+    "defaultMessage": "ブロック"
+  },
+  "risk.measurement.disabled": {
+    "defaultMessage": "無効"
+  },
+  "risk.measurement.notify": {
+    "defaultMessage": "通知"
+  },
+  "risk.measurement.creationTime": {
+    "defaultMessage": "作成日時"
+  },
+  "risk.exception.name": {
+    "defaultMessage": "名前"
+  },
+  "risk.exception.value": {
+    "defaultMessage": "値"
+  },
+  "risk.exception.created": {
+    "defaultMessage": "作成日時"
+  },
+  "risk.exception.releaseDate": {
+    "defaultMessage": "リリース日時"
+  },
+  "risk.exception.modified": {
+    "defaultMessage": "変更日時"
+  },
+  "risk.exception.deleteButton": {
+    "defaultMessage": ""
+  },
+  "risk-level-two-delete-button": {
+    "defaultMessage": "削除"
+  },
+  "modifiedDate": {
+    "defaultMessage": "変更日時"
+  },
+  "childAccounts": {
+    "defaultMessage": "チャイルドアカウント"
+  },
+  "customer.subAccounts.customerNumber": {
+    "defaultMessage": "顧客番号"
+  },
+  "primaryPerson": {
+    "defaultMessage": "プライマリパーソン"
+  },
+  "wallets.section.header.wallets": {
+    "defaultMessage": "ウォレット"
+  },
+  "drawer.card.details.status": {
+    "defaultMessage": "ステータス"
+  },
+  "drawer.card.details.created": {
+    "defaultMessage": "作成日時"
+  },
+  "drawer.card.details.modified": {
+    "defaultMessage": "変更日時"
+  },
+  "drawer.card.details.address": {
+    "defaultMessage": "住所"
+  },
+  "drawer.card.detail.PIN.failCount": {
+    "defaultMessage": "PIN失敗回数"
+  },
+  "profile": {
+    "defaultMessage": "プロファイル"
+  },
+  "wallet.card.activate.button": {
+    "defaultMessage": "アクティベート"
+  },
+  "drawer.orderNewCard.label.chargeFee": {
+    "defaultMessage": "手数料請求"
+  },
+  "attributeMergeStrategy": {
+    "defaultMessage": "アトリビュートマージストラテジー"
+  },
+  "drawer.ext.acct.label.value": {
+    "defaultMessage": "値*"
+  },
+  "drawer.ext.acct.label.name": {
+    "defaultMessage": "名前*"
+  },
+  "drawer.addfee.fixedAmount": {
+    "defaultMessage": "固定金額*"
+  },
+  "drawer.addfee.percentage": {
+    "defaultMessage": "手数料の割合*"
+  },
+  "drawer.addfee.receiver.fixedamount": {
+    "defaultMessage": "受取人固定金額*"
+  },
+  "drawer.addfee.receiver.percentage": {
+    "defaultMessage": "受取人手数料の割合*"
+  },
+  "drawer.header.createChangeOrder": {
+    "defaultMessage": "新しい変更オーダーを作成"
+  },
+  "drawer.createchangeorder.memo": {
+    "defaultMessage": "メモ (最大255文字)"
+  },
+  "drawer.createchangeorder.activateOn": {
+    "defaultMessage": "アクティベートオン:"
+  },
+  "drawer.createchangeorder.approval": {
+    "defaultMessage": "承認"
+  },
+  "drawer.createchangeorder.schedule": {
+    "defaultMessage": "スケジュール"
+  },
+  "drawer.createchangeorder.addNewAdjustment": {
+    "defaultMessage": "新しいアジャストメントの追加"
+  },
+  "drawer.createchangeorder.currency": {
+    "defaultMessage": "通貨*"
+  },
+  "drawer.createchangeorder.amount": {
+    "defaultMessage": "金額*"
+  },
+  "drawer.addblock.button.cancel": {
+    "defaultMessage": "キャンセル"
+  },
+  "drawer.addblock.button.saveChanges": {
+    "defaultMessage": "保存"
+  },
+  "change.password.first.time.message": {
+    "defaultMessage": "現在のパスワード、及び新しいパスワードを入力してください。"
+  },
+  "password-reset-save-password-button": {
+    "defaultMessage": "パスワードをリセット"
+  },
+  "error.field.PAN.between.16and19": {
+    "defaultMessage": "PANは16から19桁の数字である必要があります"
+  },
+  "error.personName.required": {
+    "defaultMessage": "アカウントホルダーは必須入力フィールドです。"
+  },
+  "error.cardProfile.required": {
+    "defaultMessage": "カードプロファイル名は必須入力フィールドです。"
+  },
+  "error.attributeMergeStrategy.required": {
+    "defaultMessage": "アトリビュートマージストラテジーは必須入力フィールドです。"
+  },
+  "reissue.cards.title": {
+    "defaultMessage": "カードの再発行"
+  },
+  "reissue.cards.reissue.button": {
+    "defaultMessage": "再発行"
+  },
+  "reissue.cards.chargeFee": {
+    "defaultMessage": "手数料請求"
+  },
+  "reissue.cards.samePan": {
+    "defaultMessage": "同じPAN"
+  },
+  "reissue.cards.deactivateCurrent": {
+    "defaultMessage": "現在のカードを無効化"
+  },
+  "reissue.cards.expeditedShipping": {
+    "defaultMessage": "お急ぎ便"
+  },
+  "success.majorCode.200": {
+    "defaultMessage": "リクエストは正常に処理されました"
+  },
+  "card.block.loststolen": {
+    "defaultMessage": "紛失盗難"
+  },
+  "card.block.suspended": {
+    "defaultMessage": "一時停止"
+  },
+  "card.block.fraud": {
+    "defaultMessage": "不正利用"
+  },
+  "card.block.system": {
+    "defaultMessage": "システム"
+  },
+  "card.block.activation": {
+    "defaultMessage": "アクティベーション"
+  },
+  "card.block.deactivation": {
+    "defaultMessage": "ディアクティベーション"
+  },
+  "brandType": {
+    "defaultMessage": "ブランドタイプ"
+  },
+  "transaction.source.unknown": {
+    "defaultMessage": "不明"
+  },
+  "transaction.source.inwalletPOS": {
+    "defaultMessage": "インウォレットPOS"
+  },
+  "transaction.source.outofwalletPOS": {
+    "defaultMessage": "アウトオブウォレットPOS"
+  },
+  "transaction.source.inwalletATM": {
+    "defaultMessage": "インウォレットATM"
+  },
+  "transaction.source.outofwalletATM": {
+    "defaultMessage": "アウトオブウォレットATM"
+  },
+  "transaction.source.online": {
+    "defaultMessage": "オンライン"
+  },
+  "transaction.source.partner": {
+    "defaultMessage": "パートナー"
+  },
+  "transaction.source.customer": {
+    "defaultMessage": "カスタマー"
+  },
+  "transaction.source.internal": {
+    "defaultMessage": "インターナル"
+  },
+  "transaction.source.static": {
+    "defaultMessage": "スタティック"
+  },
+
+  "transaction.type.unknown": {
+    "defaultMessage": "不明"
+  },
+  "transaction.type.newAccount": {
+    "defaultMessage": "新規アカウント"
+  },
+  "transaction.type.cardSale": {
+    "defaultMessage": "カード販売"
+  },
+  "transaction.type.purchase": {
+    "defaultMessage": "購入"
+  },
+  "transaction.type.refund": {
+    "defaultMessage": "返金"
+  },
+  "transaction.type.load": {
+    "defaultMessage": "入金"
+  },
+  "transaction.type.withdraw": {
+    "defaultMessage": "出金"
+  },
+  "transaction.type.balanceInquiry": {
+    "defaultMessage": "残高照会"
+  },
+  "transaction.type.p2p": {
+    "defaultMessage": "P2P"
+  },
+  "transaction.type.walletTransfer": {
+    "defaultMessage": "ウォレット転送"
+  },
+  "transaction.type.exchange": {
+    "defaultMessage": "両替"
+  },
+  "transaction.type.exchangeMargin": {
+    "defaultMessage": "両替差益"
+  },
+  "transaction.type.secondPresentment": {
+    "defaultMessage": "セカンドプレゼントメント"
+  },
+  "transaction.type.chargeBack": {
+    "defaultMessage": "チャージバック"
+  },
+  "transaction.type.customerAdjustment": {
+    "defaultMessage": "カスタマーアジャストメント"
+  },
+  "transaction.type.exchangeAdjustment": {
+    "defaultMessage": "両替調整"
+  },
+  "transaction.type.maintenance": {
+    "defaultMessage": "メンテナンス"
+  },
+  "transaction.type.chargeoff": {
+    "defaultMessage": "チャージオフ"
+  },
+  "transaction.type.withholding": {
+    "defaultMessage": "保留"
+  },
+  "transaction.type.closeAccount": {
+    "defaultMessage": "アカウント閉鎖"
+  },
+  "transaction.type.reward": {
+    "defaultMessage": "リワード"
+  },
+  "transaction.type.shipping": {
+    "defaultMessage": "配送"
+  },
+  "transaction.type.expeditedShipping": {
+    "defaultMessage": "お急ぎ便"
+  },
+  "transaction.type.addressing": {
+    "defaultMessage": "アドレッシング"
+  },
+  "transaction.type.settlement": {
+    "defaultMessage": "決済"
+  },
+  "transaction.type.consolidated": {
+    "defaultMessage": "連結"
+  },
+  "transaction.type.interest": {
+    "defaultMessage": "利子"
+  },
+  "transaction.type.cashback": {
+    "defaultMessage": "キャッシュバック"
+  },
+  "transaction.type.fee": {
+    "defaultMessage": "手数料"
+  },
+  "transaction.type.fee.monthly": {
+    "defaultMessage": "月間手数料"
+  },
+  "transaction.type.fee.annual": {
+    "defaultMessage": "年間手数料"
+  },
+  "transaction.type.fastFund": {
+    "defaultMessage": "ファストファンド"
+  },
+  "transaction.type.fee.loadReversal": {
+    "defaultMessage": "ロード取消"
+  },
+  "transaction.type.fee.expiry": {
+    "defaultMessage": "期限切れ"
+  },
+  "transaction.type.fee.moneySend": {
+    "defaultMessage": "送金"
+  },
+  "transaction.type.fee.latePaymentFee": {
+    "defaultMessage": "支払い遅延手数料"
+  },
+  "block.type.card": {
+    "defaultMessage": "カード"
+  },
+  "block.type.customer": {
+    "defaultMessage": "顧客"
+  },
+  "usePrevious": {
+    "defaultMessage": "旧設定を使用"
+  },
+  "useNew": {
+    "defaultMessage": "新設定を使用"
+  },
+  "risk.param.activation_time_limit": {
+    "defaultMessage": "アクティベーションタイムリミット"
+  },
+  "risk.param.adjustment_30d": {
+    "defaultMessage": "アジャストメントリミット 30日"
+  },
+  "risk.param.atm_limit": {
+    "defaultMessage": "ATM出金リミット"
+  },
+  "risk.param.atm_1d": {
+    "defaultMessage": "ATM出金リミット 1日"
+  },
+  "risk.param.atm_7d": {
+    "defaultMessage": "ATM出金リミット 7日"
+  },
+  "risk.param.atm_30d": {
+    "defaultMessage": "ATM出金リミット 30日"
+  },
+  "risk.param.auto_top_up_count_1d": {
+    "defaultMessage": "オートトップアップ回数 1日"
+  },
+  "risk.param.auto_top_up_limit": {
+    "defaultMessage": "オートトップアップリミット"
+  },
+  "risk.param.auto_top_up_limit_1d": {
+    "defaultMessage": "オートトップアップリミット 1日"
+  },
+  "risk.param.balance_floor": {
+    "defaultMessage": "バランスフロア"
+  },
+  "risk.param.exchange_quote_duration": {
+    "defaultMessage": "両替見積もりの期間"
+  },
+  "risk.param.hierarchy_max_level": {
+    "defaultMessage": "ハイエラルキー最大レベル"
+  },
+  "risk.param.online_purchase_limit": {
+    "defaultMessage": "オンライン購入リミット"
+  },
+  "risk.param.online_purchase_1d": {
+    "defaultMessage": "オンライン購入リミット 1日"
+  },
+  "risk.param.online_purchase_7d": {
+    "defaultMessage": "オンライン購入リミット 7日"
+  },
+  "risk.param.p2p_limit": {
+    "defaultMessage": "P2P送金リミット"
+  },
+  "risk.param.p2p_1d": {
+    "defaultMessage": "P2P送金リミット 1日"
+  },
+  "risk.param.p2p_7d": {
+    "defaultMessage": "P2P送金リミット 7日"
+  },
+  "risk.param.p2p_30d": {
+    "defaultMessage": "P2P送金リミット 30日"
+  },
+  "risk.param.p2p_1y": {
+    "defaultMessage": "P2P送金リミット 1年"
+  },
+  "risk.param.pos_purchase_limit": {
+    "defaultMessage": "POS購入リミット"
+  },
+  "risk.param.pos_purchase_1d": {
+    "defaultMessage": "POS購入リミット 1日"
+  },
+  "risk.param.pos_purchase_7d": {
+    "defaultMessage": "POS購入リミット 7日"
+  },
+  "risk.param.passcode_reset_time_limit": {
+    "defaultMessage": "パスコードリセットタイムリミット"
+  },
+  "risk.param.password_history_count": {
+    "defaultMessage": "パスワード履歴カウント"
+  },
+  "risk.param.pre_approval_interval_begin": {
+    "defaultMessage": "事前承認インターバル開始"
+  },
+  "risk.param.pre_approval_interval_end": {
+    "defaultMessage": "事前承認インターバル終了"
+  },
+  "risk.param.p2p_limit_recv": {
+    "defaultMessage": "P2P受取リミット"
+  },
+  "risk.param.p2p_recv_1y": {
+    "defaultMessage": "P2P受取リミット 1年"
+  },
+  "risk.param.p2p_recv_30d": {
+    "defaultMessage": "P2P受取リミット 30日"
+  },
+  "risk.param.p2p_recv_1d": {
+    "defaultMessage": "P2P受取リミット 1日"
+  },
+  "risk.param.purchase_1d": {
+    "defaultMessage": "購入リミット 1日"
+  },
+  "risk.param.purchase_7d": {
+    "defaultMessage": "購入リミット 7日"
+  },
+  "risk.param.purchase_30d": {
+    "defaultMessage": "購入リミット 30日"
+  },
+  "risk.param.purchase_1y": {
+    "defaultMessage": "購入リミット 1年"
+  },
+  "risk.param.purchase_limit": {
+    "defaultMessage": "購入リミット"
+  },
+  "risk.param.combined_purchase_1d": {
+    "defaultMessage": "オンラインとPOS購入合計リミット 1日"
+  },
+  "risk.param.purchase_limit_recv": {
+    "defaultMessage": "購入受取リミット"
+  },
+  "risk.param.withdraw_limit": {
+    "defaultMessage": "出金リミット"
+  },
+  "risk.param.withdraw_1d": {
+    "defaultMessage": "出金リミット 1日"
+  },
+  "risk.param.withdraw_7d": {
+    "defaultMessage": "出金リミット 7日"
+  },
+  "risk.param.adjustment_limit": {
+    "defaultMessage": "アジャストメントリミット"
+  },
+  "risk.param.adjustment_1d": {
+    "defaultMessage": "アジャストメントリミット 1日"
+  },
+  "risk.param.adjustment_7d": {
+    "defaultMessage": "アジャストメントリミット 7日"
+  },
+  "risk.param.refund_purchase_period": {
+    "defaultMessage": "返金期間"
+  },
+  "risk.param.refund_count_1d": {
+    "defaultMessage": "返金回数リミット 1日"
+  },
+  "risk.param.refund_count_7d": {
+    "defaultMessage": "返金回数リミット 7日"
+  },
+  "risk.param.refund_1d": {
+    "defaultMessage": "返金リミット 1日"
+  },
+  "risk.param.refund_7d": {
+    "defaultMessage": "返金リミット 7日"
+  },
+  "risk.param.refund_30d": {
+    "defaultMessage": "返金リミット 30日"
+  },
+  "risk.param.refund_1y": {
+    "defaultMessage": "返金リミット 1年"
+  },
+  "risk.param.refund_limit": {
+    "defaultMessage": "返金リミット"
+  },
+  "risk.param.refund_limit_recv": {
+    "defaultMessage": "返金受取リミット"
+  },
+  "risk.param.minimum_load": {
+    "defaultMessage": "最小ロード"
+  },
+  "risk.param.balance_limit": {
+    "defaultMessage": "バランスリミット"
+  },
+  "risk.param.load_limit": {
+    "defaultMessage": "ロードリミット"
+  },
+  "risk.param.load_limit_1d": {
+    "defaultMessage": "ロードリミット 1日"
+  },
+  "risk.param.load_limit_30d": {
+    "defaultMessage": "ロードリミット 30日"
+  },
+  "risk.param.load_limit_1y": {
+    "defaultMessage": "ロードリミット 1年"
+  },
+  "risk.param.blocked_countries": {
+    "defaultMessage": "使用禁止国"
+  },
+  "risk.param.blocked_mcc": {
+    "defaultMessage": "使用禁止MCCコード"
+  },
+  "risk.param.pin_fail_count": {
+    "defaultMessage": "PIN失敗回数リミット"
+  },
+  "risk.param.max_num_cards": {
+    "defaultMessage": "顧客アカウントごとの最大カード枚数"
+  },
+  "risk.param.max_num_persons": {
+    "defaultMessage": "顧客アカウントごとの最大アカウントホルダー数"
+  },
+  "risk.param.low_balance_threshold": {
+    "defaultMessage": "ローバランスしきい値"
+  },
+  "risk.param.max_cards_allowed": {
+    "defaultMessage": "最大カード枚数"
+  },
+  "risk.param.password_reset_time_limit": {
+    "defaultMessage": "顧客パスワードのリセットタイムリミット"
+  },
+  "risk.param.verify_email_time_limit": {
+    "defaultMessage": "メール認証タイムリミット"
+  },
+  "risk.param.withdraw_1y": {
+    "defaultMessage": "出金リミット 1年"
+  },
+  "risk.param.withdraw_30d": {
+    "defaultMessage": "出金リミット 30日"
+  },
+  "risk.param.atm_reversal_count_1d": {
+    "defaultMessage": "ATM取消回数 1日"
+  },
+  "risk.param.purchase_same_merchant_3d": {
+    "defaultMessage": "同じ加盟店での購入 3日 (金額)"
+  },
+  "risk.param.atm_count_7d": {
+    "defaultMessage": "ATM回数 7日"
+  },
+  "risk.param.not_allowed_first_transaction_types": {
+    "defaultMessage": "初回トランザクションにおける禁止タイプ"
+  },
+  "risk.param.allowed_mcc": {
+    "defaultMessage": "使用可能MCC"
+  },
+  "risk.param.purchase_count_same_merchant_3d": {
+    "defaultMessage": "同じ加盟店での購入 3日 (回数)"
+  },
+  "risk.param.age_limit": {
+    "defaultMessage": "年齢制限"
+  },
+  "risk.param.rejected_count_5d": {
+    "defaultMessage": "拒否回数 5日"
+  },
+  "risk.param.pin_fail_count_temporary_lock": {
+    "defaultMessage": "PIN失敗回数仮ロック"
+  },
+  "risk.param.max_num_tokens_per_card": {
+    "defaultMessage": "カードごとの最大トークン数"
+  },
+  "risk.param.purchase_no_cvm_1d": {
+    "defaultMessage": "CVM無し購入 1日"
+  },
+  "risk.param.purchase_no_cvm_limit": {
+    "defaultMessage": "CVM無し購入リミット"
+  },
+  "risk.param.purchase_no_cvm_count_1d": {
+    "defaultMessage": "CVM無し購入回数 1日"
+  },
+  "risk.param.sg_withdraw": {
+    "defaultMessage": "シンガポールATMデビットカードブロック"
+  },
+  "risk.param.atm_international_limit": {
+    "defaultMessage": "海外ATMリミット"
+  },
+  "risk.param.atm_domestic_limit": {
+    "defaultMessage": "国内ATMデビットカードリミット"
+  },
+  "risk.param.disable_mag_stripe": {
+    "defaultMessage": "カードスワイプブロック"
+  },
+  "risk.param.limit_mag_stripe": {
+    "defaultMessage": "カードスワイプリミット"
+  },
+  "risk.param.disable_card_not_present": {
+    "defaultMessage": "カード提示無しブロック"
+  },
+  "risk.param.limit_card_not_present": {
+    "defaultMessage": "カード提示無しリミット"
+  },
+  "risk.param.accumulated_purchase_limit": {
+    "defaultMessage": "累積購入リミット"
+  },
+  "risk.param.reward_limit_1d": {
+    "defaultMessage": "リワードリミット 1日"
+  },
+  "risk.param.reward_limit_7d": {
+    "defaultMessage": "リワードリミット 7日"
+  },
+  "risk.param.reward_limit_30d": {
+    "defaultMessage": "リワードリミット 30日"
+  },
+  "risk.param.combined_funds_out_1y": {
+    "defaultMessage": "合計出金リミット 1年"
+  },
+  "risk.param.atm_domestic_1d": {
+    "defaultMessage": "国内ATMデビットカード1日利用限度額"
+  },
+  "risk.param.atm_international_1d": {
+    "defaultMessage": "1日の国際ATM限度額"
+  },
+  "risk.param.international_limit": {
+    "defaultMessage": "国際制限"
+  },
+  "risk.param.nomatch_merchant_control_response": {
+    "defaultMessage": "一致しない加盟店管理の応答"
+  },
+  "risk.param.online_purchase_30d": {
+    "defaultMessage": "1日のオンライン購入制限"
+  },
+  "risk.param.online_purchase_count_1d": {
+    "defaultMessage": "1日のオンライン購入回数制限"
+  },
+  "risk.param.online_purchase_count_30d": {
+    "defaultMessage": "30日間のオンライン購入回数制限"
+  },
+  "risk.param.online_purchase_count_7d": {
+    "defaultMessage": "7日間のオンライン購入回数制限"
+  },
+  "risk.param.online_purchase_mcc_limit": {
+    "defaultMessage": "オンライン購入の MCC 制限"
+  },
+  "risk.param.pos_purchase_30d": {
+    "defaultMessage": "30日間のPOS購入制限"
+  },
+  "risk.param.pos_purchase_count_1d": {
+    "defaultMessage": "1日のPOS購入回数制限"
+  },
+  "risk.param.pos_purchase_count_30d": {
+    "defaultMessage": "30日間のPOS購入回数制限"
+  },
+  "risk.param.pos_purchase_count_7d": {
+    "defaultMessage": "7日間のPOS購入回数制限"
+  },
+  "risk.param.purchase_count_1d": {
+    "defaultMessage": "1日の購入回数"
+  },
+  "risk.param.purchase_count_30d": {
+    "defaultMessage": "30日間の購入回数"
+  },
+  "risk.param.purchase_count_7d": {
+    "defaultMessage": "7日間の購入回数"
+  },
+  "risk.param.purchase_count_same_merchant_1d": {
+    "defaultMessage": "同じ商人を1日購入（カウント）"
+  },
+  "risk.param.purchase_count_same_merchant_30d": {
+    "defaultMessage": "同じ商人を購入 30 日 (カウント)"
+  },
+  "risk.param.purchase_count_same_merchant_7d": {
+    "defaultMessage": "同じ商人を購入 7 日 (カウント)"
+  },
+  "risk.param.purchase_same_merchant_1d": {
+    "defaultMessage": "同じ加盟店を 1 日購入する (金額)"
+  },
+  "risk.param.purchase_same_merchant_30d": {
+    "defaultMessage": "同じ加盟店を 30 日間購入する (金額)"
+  },
+  "risk.param.purchase_same_merchant_7d": {
+    "defaultMessage": "同じ加盟店を7日間購入（金額"
+  },
+  "risk.param.withdraw_percentage_limit": {
+    "defaultMessage": "パーセンテージ制限を引き出す"
+  },
+  "risk.param.atm_count_1d": {
+    "defaultMessage": "1日のATMカウント制限"
+  },
+  "risk.param.atm_count_30d": {
+    "defaultMessage": "30 日間の ATM カウント制限"
+  },
+  "programs.button.addNewProgram": {
+    "defaultMessage": "新しいプログラムを追加"
+  },
+  "programs.table.primaryContact": {
+    "defaultMessage": "一次連絡先"
+  },
+  "calculation.method.flatAmount": {
+    "defaultMessage": "定額"
+  },
+  "calculation.method.percentage": {
+    "defaultMessage": "パーセンテージ"
+  },
+  "calculation.method.flatPlusPercentage": {
+    "defaultMessage": "フラット + パーセンテージ"
+  },
+  "calculation.method.greaterOf": {
+    "defaultMessage": "グレーター・オブ"
+  },
+  "calculation.method.lesserOf": {
+    "defaultMessage": "レッサーオブ"
+  },
+  "transaction.source.mobilecommerce": {
+    "defaultMessage": "モバイルコマース"
+  },
+  "addressType.home": {
+    "defaultMessage": "家"
+  },
+  "address.type.business": {
+    "defaultMessage": "仕事"
+  },
+  "address.type.shipping": {
+    "defaultMessage": "運送"
+  },
+  "token.status.active": {
+    "defaultMessage": "アクティブ",
+    "description": "token status"
+  },
+  "token.status.suspended": {
+    "defaultMessage": "一時停止",
+    "description": "token status"
+  },
+  "token.status.inactive": {
+    "defaultMessage": "非活性",
+    "description": "token status"
+  },
+  "card.type.temporary": {
+    "defaultMessage": "一時的",
+    "description": "Card Type"
+  },
+  "card.type.oneTimeUse": {
+    "defaultMessage": "1 回限りの使用",
+    "description": "Card Type"
+  },
+  "card.type.personalized": {
+    "defaultMessage": "パーソナライズ",
+    "description": "Card Type"
+  },
+  "card.type.virtual": {
+    "defaultMessage": "バーチャル",
+    "description": "Card Type"
+  },
+  "card.type.router": {
+    "defaultMessage": "ルーター",
+    "description": "Card Type"
+  },
+  "change.order.adjust": {
+    "defaultMessage": "調整",
+    "description": "Adjustment change order"
+  },
+  "change.order.chargeoff": {
+    "defaultMessage": "チャージオフ",
+    "description": "Chargeoff change order"
+  },
+  "change.order.exchangeMargin": {
+    "defaultMessage": "為替証拠金",
+    "description": "Exchange Margin Request"
+  },
+  "change.order.feeEntry": {
+    "defaultMessage": "入場料",
+    "description": "Fee Entry Request"
+  },
+  "change.order.feePlan": {
+    "defaultMessage": "料金プラン",
+    "description": "Fee Plan Request"
+  },
+  "change.order.programAdjustment": {
+    "defaultMessage": "プログラム調整",
+    "description": "Program Adjustment Request"
+  },
+  "change.order.riskConfiguration": {
+    "defaultMessage": "リスク設定",
+    "description": "Risk Configuration Request"
+  },
+  "change.order.riskLevel": {
+    "defaultMessage": "リスクレベル",
+    "description": "Risk Level Request"
+  },
+  "change.order.withholdingl": {
+    "defaultMessage": "源泉徴収",
+    "description": "Withholding Request"
+  },
+  "contact.method.email": {
+    "defaultMessage": "Eメール",
+    "description": "contact method email"
+  },
+  "contact.method.phone": {
+    "defaultMessage": "電話",
+    "description": "contact method phone"
+  },
+  "email.state.verified": {
+    "defaultMessage": "検証済み",
+    "description": "email state"
+  },
+  "mail.state.unverified": {
+    "defaultMessage": "未確認",
+    "description": "email state"
+  },
+  "mail.template.type.accountBalanceChange": {
+    "defaultMessage": "口座残高の変更",
+    "description": "Mail template type"
+  },
+  "mail.template.type.accountBalanceChangePurchase": {
+    "defaultMessage": "アカウント残高変更購入",
+    "description": "Mail template type"
+  },
+  "mail.template.type.accountBalanceChangeWithdraw": {
+    "defaultMessage": "口座残高変更 出金",
+    "description": "Mail template type"
+  },
+  "mail.template.type.accountBlock": {
+    "defaultMessage": "アカウントのブロック",
+    "description": "Mail template type"
+  },
+  "mail.template.type.accountOpeningAcceptance": {
+    "defaultMessage": "口座開設受付",
+    "description": "Mail template type"
+  },
+  "mail.template.type.accountSetupComplete": {
+    "defaultMessage": "アカウント設定完了",
+    "description": "Mail template type"
+  },
+  "mail.template.type.addressChanged": {
+    "defaultMessage": "住所変更",
+    "description": "Mail template type"
+  },
+  "mail.template.type.authorization": {
+    "defaultMessage": "認可",
+    "description": "Mail template type"
+  },
+  "mail.template.type.authorizationError": {
+    "defaultMessage": "認証エラー",
+    "description": "Mail template type"
+  },
+  "mail.template.type.autoTopUp": {
+    "defaultMessage": "自動チャージ",
+    "description": "Mail template type"
+  },
+  "mail.template.type.autoTopUpRemoved": {
+    "defaultMessage": "自動トップアップが削除されました",
+    "description": "Mail template type"
+  },
+  "mail.template.type.autoTopUpSet": {
+    "defaultMessage": "オートチャージセット",
+    "description": "Mail template type"
+  },
+  "mail.template.type.availableBalance": {
+    "defaultMessage": "利用可能残高",
+    "description": "Mail template type"
+  },
+  "mail.template.type.background": {
+    "defaultMessage": "バックグラウンド",
+    "description": "Mail template type"
+  },
+  "mail.template.type.cardActivation": {
+    "defaultMessage": "カードアクティベーション",
+    "description": "Mail template type"
+  },
+  "mail.template.type.cardBlock": {
+    "defaultMessage": "カードブロック",
+    "description": "Mail template type"
+  },
+  "mail.template.type.cardBlockRelease": {
+    "defaultMessage": "カードブロック解除",
+    "description": "Mail template type"
+  },
+  "mail.template.type.cardExternalTokenActivated": {
+    "defaultMessage": "カードの外部トークンが有効化されました",
+    "description": "Mail template type"
+  },
+  "mail.template.type.cardExternalTokenUpdated": {
+    "defaultMessage": "カードの外部トークンが更新されました",
+    "description": "Mail template type"
+  },
+  "mail.template.type.cashWithdraw": {
+    "defaultMessage": "現金引き出し",
+    "description": "Mail template type"
+  },
+  "mail.template.type.closeCustomerAccount": {
+    "defaultMessage": "顧客アカウントを閉じる",
+    "description": "Mail template type"
+  },
+  "mail.template.type.creditLimit": {
+    "defaultMessage": "与信限度額",
+    "description": "Mail template type"
+  },
+  "mail.template.type.customerActivation": {
+    "defaultMessage": "顧客の活性化",
+    "description": "Mail template type"
+  },
+  "mail.template.type.customerBlock": {
+    "defaultMessage": "顧客ブロック",
+    "description": "Mail template type"
+  },
+  "mail.template.type.customerPasscodeReset": {
+    "defaultMessage": "顧客パスコードのリセット",
+    "description": "Mail template type"
+  },
+  "mail.template.type.customerPasscodeResetCompleted": {
+    "defaultMessage": "お客様のパスコードのリセットが完了しました",
+    "description": "Mail template type"
+  },
+  "mail.template.type.customerRisk": {
+    "defaultMessage": "顧客リスク",
+    "description": "Mail template type"
+  },
+  "mail.template.type.customerRiskChangeFailed": {
+    "defaultMessage": "顧客リスクの変更に失敗しました",
+    "description": "Mail template type"
+  },
+  "mail.template.type.customerRiskChangeOK": {
+    "defaultMessage": "顧客 リスク 変更 OK",
+    "description": "Mail template type"
+  },
+  "mail.template.type.debitLimit": {
+    "defaultMessage": "限度額",
+    "description": "Mail template type"
+  },
+  "mail.template.type.deliverTokenActivationCode": {
+    "defaultMessage": "トークン アクティベーション コードの配信",
+    "description": "Mail template type"
+  },
+  "mail.template.type.emailChangeRequest": {
+    "defaultMessage": "メール変更リクエスト",
+    "description": "Mail template type"
+  },
+  "mail.template.type.emailChanged": {
+    "defaultMessage": "メールが変更されました",
+    "description": "Mail template type"
+  },
+  "mail.template.type.foreignTransaction": {
+    "defaultMessage": "外国取引",
+    "description": "Mail template type"
+  },
+  "mail.template.type.loadComplete": {
+    "defaultMessage": "ロード完了",
+    "description": "Mail template type"
+  },
+  "mail.template.type.loginLocked": {
+    "defaultMessage": "ログインがロックされました",
+    "description": "Mail template type"
+  },
+  "mail.template.type.lowBalance": {
+    "defaultMessage": "ローバランス",
+    "description": "Mail template type"
+  },
+  "mail.template.type.negativeBalance": {
+    "defaultMessage": "マイナス残高",
+    "description": "Mail template type"
+  },
+  "mail.template.type.newAccount": {
+    "defaultMessage": "新しいアカウント",
+    "description": "Mail template type"
+  },
+  "mail.template.type.passwordReset": {
+    "defaultMessage": "パスワードのリセット",
+    "description": "Mail template type"
+  },
+  "mail.template.type.passwordResetCompleted": {
+    "defaultMessage": "パスワードのリセットが完了しました",
+    "description": "Mail template type"
+  },
+  "mail.template.type.phoneChanged": {
+    "defaultMessage": "電話が変更されました",
+    "description": "Mail template type"
+  },
+  "mail.template.type.pinChanged": {
+    "defaultMessage": "ピンが変更されました",
+    "description": "Mail template type"
+  },
+  "mail.template.type.transaction": {
+    "defaultMessage": "取引",
+    "description": "Mail template type"
+  },
+  "mail.template.type.transactionComplete": {
+    "defaultMessage": "取引完了",
+    "description": "Mail template type"
+  },
+  "mail.template.type.transactionFailure": {
+    "defaultMessage": "トランザクションの失敗",
+    "description": "Mail template type"
+  },
+  "mail.template.type.verifyEmail": {
+    "defaultMessage": "Eメールを確認します",
+    "description": "Mail template type"
+  },
+  "mail.template.type.verifyEmailCompleted": {
+    "defaultMessage": "メールの確認完了",
+    "description": "Mail template type"
+  },
+  "mail.template.type.walletTransfer": {
+    "defaultMessage": "ウォレット転送",
+    "description": "Mail template type"
+  },
+  "mail.template.type.withdrawal": {
+    "defaultMessage": "出金",
+    "description": "Mail template type"
+  },
+  "success.majorCode.unknown": {
+    "defaultMessage": "わからない",
+    "description": "Unknown"
+  },
+  "error.minorCode.unknown": {
+    "defaultMessage": "不明なエラー",
+    "description": "Unknown Error"
+  },
+  "success.minorCode.000": {
+    "defaultMessage": "成功",
+    "description": "Request Completed"
+  },
+  "success.minorCode.unknown": {
+    "defaultMessage": "わからない",
+    "description": "Unknown"
+  },
+  "id.type.tax": {
+    "defaultMessage": "税",
+    "description": "id type"
+  },
+  "id.type.national": {
+    "defaultMessage": "全国",
+    "description": "id type"
+  },
+  "id.type.passport": {
+    "defaultMessage": "パスポート",
+    "description": "id type"
+  },
+  "id.type.driversLicense": {
+    "defaultMessage": "運転免許証",
+    "description": "id type"
+  },
+  "id.type.supplementary": {
+    "defaultMessage": "補足",
+    "description": "id type"
+  },
+  "id.type.alternate": {
+    "defaultMessage": "代わりの",
+    "description": "id type"
+  },
+  "id.type.other": {
+    "defaultMessage": "他の",
+    "description": "id type"
+  },
+  "request.type.exchangeMarginRequest": {
+    "defaultMessage": "為替証拠金請求",
+    "description": "Change request type"
+  },
+  "request.type.amountChangeRequest": {
+    "defaultMessage": "金額変更依頼",
+    "description": "Change request type"
+  },
+  "request.type.customerAdjustmentRequest": {
+    "defaultMessage": "お客様調整依頼",
+    "description": "Change request type"
+  },
+  "request.type.feeEntryRequest": {
+    "defaultMessage": "有料エントリーリクエスト",
+    "description": "Change request type"
+  },
+  "request.type.feePlanRequest": {
+    "defaultMessage": "料金プランのリクエスト",
+    "description": "Change request type"
+  },
+  "request.type.programAdjustmentRequest": {
+    "defaultMessage": "プログラム調整依頼",
+    "description": "Change request type"
+  },
+  "request.type.riskConfigRequest": {
+    "defaultMessage": "リスク設定リクエスト",
+    "description": "Change request type"
+  },
+  "request.type.riskLevelRequest": {
+    "defaultMessage": "リスクレベルのリクエスト",
+    "description": "Change request type"
+  },
+  "roles.programManager": {
+    "defaultMessage": "プログラムマネージャー",
+    "description": "partner user role"
+  },
+  "roles.retailManager": {
+    "defaultMessage": "小売責任者",
+    "description": "partner user role"
+  },
+  "roles.readOnly": {
+    "defaultMessage": "読み取り専用",
+    "description": "partner user role"
+  },
+  "error.feeType.required": {
+    "defaultMessage": "料金タイプは必須フィールドです"
+  },
+  "error.number.15integers5decimals.format": {
+    "defaultMessage": "値は 7 個の整数と 3 個の小数以下にする必要があります"
+  },
+  "calculationMethod": {
+    "defaultMessage": "計算方法"
+  },
+  "error.parameterAndValue.required": {
+    "defaultMessage": "パラメータと値を空白にすることはできません"
+  },
+  "drawer.programs.edit.label.feePlans": {
+    "defaultMessage": "料金プラン",
+    "description": "Section Label"
+  },
+  "drawer.program.edit.button.addNewFeeButton": {
+    "defaultMessage": "新しい料金プランを追加",
+    "description": "Add Fee Plans Label"
+  },
+  "drawer.programs.edit.label.riskProfiles": {
+    "defaultMessage": "リスクプロファイル",
+    "description": "Risk Profiles Section Label"
+  },
+  "drawer.program.edit.button.addNewRiskProfileButton": {
+    "defaultMessage": "新しいリスク プロファイルを追加する >>",
+    "description": "Add Risk Profile Label"
+  },
+  "programs.cardProfiles.button.view": {
+    "defaultMessage": "見る",
+    "description": "View program card profile information"
+  },
+  "error.currency.15integers5decimals.format": {
+    "defaultMessage": "値は 15 個の整数と 5 個の小数を超えてはなりません"
+  },
+  "error.number.7integers3decimals.format": {
+    "defaultMessage": "Value should have no more than 7 integers and 3 decimals"
+  },
+  "drawer.fee.wizard.button.step2of3": {
+    "defaultMessage": "ステップ 2/3",
+    "description": "Step 2 of 3"
+  },
+  "drawer.header.fee.wizard.label.feePlan": {
+    "defaultMessage": "料金プラン*",
+    "description": "Input Label"
+  },
+  "drawer.fee.wizard.newFeePlan": {
+    "defaultMessage": "新料金プラン*",
+    "description": "Drawer form placeholder text"
+  },
+  "step2of2": {
+    "defaultMessage": "ステップ 2/2",
+    "description": "Step 2 of 2"
+  },
+  "error.memoKey.required": {
+    "defaultMessage": "メモキーが必要です。",
+    "description": "drawer header"
+  },
+  "error.IINs.required": {
+    "defaultMessage": "IIN が必要です。`"
+  },
+  "error.maxLength16": {
+    "defaultMessage": "最大長は 16 です"
+  },
+  "drawer.cardProfile.label.IINs": {
+    "defaultMessage": "IIN*",
+    "description": "Input Label"
+  },
+  "drawer.card.profile.button.edit": {
+    "defaultMessage": "編集",
+    "description": "Edit"
+  },
+  "programs.edit.label.pansIssued": {
+    "defaultMessage": "発行されたPAN"
+  },
+  "page.title.editProgram": {
+    "defaultMessage": "プログラムの編集"
+  },
+  "expiryOverride": {
+    "defaultMessage": "有効期限オーバーライド (YYYYMM)"
+  },
+  "suspendTokens": {
+    "defaultMessage": "トークンの一時停止"
+  },
+  "unsuspendTokens": {
+    "defaultMessage": "トークンの一時停止解除"
+  },
+  "deleteTokens": {
+    "defaultMessage": "トークンを削除する"
+  },
+  "active": {
+    "defaultMessage": "アクティブ"
+  },
+  "changeState": {
+    "defaultMessage": "状態を変更"
+  },
+  "partnerUserState": {
+    "defaultMessage": "パートナー ユーザーの状態"
+  },
+  "riskLevelAccess": {
+    "defaultMessage": "リスクレベル アクセス"
+  },
+  "email.state.unverified": {
+    "defaultMessage": "未確認"
+  },
+  "error.securityLevel.required": {
+    "defaultMessage": "セキュリティ レベルは必須フィールドです"
+  },
+  "securityLevel": {
+    "defaultMessage": "セキュリティレベル"
+  },
+  "error.emailState.required": {
+    "defaultMessage": "メールの状態は必須フィールドです"
+  },
+  "error.firstName.required": {
+    "defaultMessage": "名は必須フィールドです"
+  },
+  "error.lastName.required": {
+    "defaultMessage": "姓は必須フィールドです"
+  },
+  "button.viewChangeHistory": {
+    "defaultMessage": "変更履歴を表示"
+  },
+  "added": {
+    "defaultMessage": "追加した"
+  },
+  "updated": {
+    "defaultMessage": "更新しました"
+  },
+  "deleted": {
+    "defaultMessage": "削除しました"
+  },
+  "source.name": {
+    "defaultMessage": "名前"
+  },
+  "source.email": {
+    "defaultMessage": "Eメール"
+  },
+  "source.phone": {
+    "defaultMessage": "電話"
+  },
+  "source.address": {
+    "defaultMessage": "住所"
+  },
+  "source.identification": {
+    "defaultMessage": "身元"
+  },
+  "changeHistory": {
+    "defaultMessage": "変更履歴"
+  },
+  "error.IINSegment.numberType": {
+    "defaultMessage": "IIN セグメントは数値でなければなりません"
+  },
+  "viewDetails": {
+    "defaultMessage": "詳細を見る"
+  },
+  "authorizedHoldDetails": {
+    "defaultMessage": "承認された保留の詳細"
+  },
+  "id": {
+    "defaultMessage": "ID"
+  },
+  "transactionID": {
+    "defaultMessage": "取引ID"
+  },
+  "customerAccountID": {
+    "defaultMessage": "顧客アカウント ID"
+  },
+  "releasedDate": {
+    "defaultMessage": "発売日"
+  },
+  "rawMessage": {
+    "defaultMessage": "生メッセージ"
+  },
+  "networkMessages": {
+    "defaultMessage": "ネットワーク メッセージ"
+  },
+  "riskDetails": {
+    "defaultMessage": "リスクの詳細"
+  },
+  "changeRiskLevel": {
+    "defaultMessage": "リスクレベルの変更"
+  },
+  "addRiskException": {
+    "defaultMessage": "リスクの例外を追加"
+  },
+  "editRiskLevel": {
+    "defaultMessage": "リスクレベルの編集"
+  },
+  "weekly": {
+    "defaultMessage": "毎週"
+  },
+  "monthly": {
+    "defaultMessage": "毎月"
+  },
+  "label.totalBalance": {
+    "defaultMessage": "総合収支"
+  },
+  "minimum.paymentOwed": {
+    "defaultMessage": "最低支払額"
+  },
+  "automaticLoadRule": {
+    "defaultMessage": "自動ロード ルール"
+  },
+  "frequency": {
+    "defaultMessage": "周波数"
+  },
+  "dayOfPeriod": {
+    "defaultMessage": "生理日"
+  },
+  "strategy": {
+    "defaultMessage": "ストラテジー"
+  },
+  "enabled": {
+    "defaultMessage": "有効"
+  },
+  "editAutomaticLoad": {
+    "defaultMessage": "自動ロードの編集"
+  },
+  "setupAutomaticLoad": {
+    "defaultMessage": "自動ロードの設定"
+  },
+  "error.changeOrder.required": {
+    "defaultMessage": "注文変更は必須フィールドです"
+  },
+  "error.neighborhood.mustBe50Chars": {
+    "defaultMessage": "近隣は 50 文字以下である必要があります。"
+  },
+  "error.releaseDate.cannotBeOlderThanToday": {
+    "defaultMessage": "リリース日に今日より前の日付は指定できません"
+  },
+  "error.releaseDate.invalid": {
+    "defaultMessage": "有効なリリース日を入力してください"
+  },
+  "error.adjustmentAmount.cannotLeadToACreditOn": {
+    "defaultMessage": "調整はクレジットにつながることはありません"
+  },
+  "error.adjustment.mustBeANumber": {
+    "defaultMessage": "調整は数値でなければなりません"
+  },
+  "error.feeAmountOrFeePercentage.mustBeEntered": {
+    "defaultMessage": "固定額または手数料率 (%) を入力する必要があります"
+  },
+  "error.expiry.dateFormat": {
+    "defaultMessage": "有効期限はYYYYMMのフォーマットで入力してください。"
+  },
+  "error.expiry.validDate": {
+    "defaultMessage": "有効な期限を入力してください。"
+  },
+  "error.invalid.input": {
+    "defaultMessage": "無効入力"
+  },
+  "error.number.required": {
+    "defaultMessage": "番号が必要です"
+  },
+  "error.test.validPhone": {
+    "defaultMessage": "テスト有効電話"
+  },
+  "error.oldPassword.required": {
+    "defaultMessage": "古いパスワードは必須フィールドです。"
+  },
+  "error.oneLowercase.character": {
+    "defaultMessage": "小文字 1 文字"
+  },
+  "error.password.mustContain.oneUppercase.character": {
+    "defaultMessage": "パスワードには大文字を 1 文字含める必要があります"
+  },
+  "error.password.mustContain.oneSpecial.character": {
+    "defaultMessage": "パスワードには特殊文字を 1 文字含める必要があります"
+  },
+  "error.password.mustContain.oneNumber": {
+    "defaultMessage": "パスワードには数字が 1 つ含まれている必要があります"
+  },
+  "error.password.mustContain.8Chars": {
+    "defaultMessage": "パスワードには 8 文字以上を含める必要があります"
+  },
+  "error.password.mustContain.32Chars": {
+    "defaultMessage": "パスワードは 32 文字以下にする必要があります"
+  },
+  "error.confirmPassword.required": {
+    "defaultMessage": "パスワードの確認は必須フィールドです。"
+  },
+  "error.password.bothSame": {
+    "defaultMessage": "両方のパスワードは同じである必要があります"
+  },
+  "user.unlocked.successful": {
+    "defaultMessage": "ユーザーが正常にロックされました"
+  },
+  "adjustments.success.created": {
+    "defaultMessage": "調整が正常に作成されました"
+  },
+  "chargeoffChangeOrder.success.created": {
+    "defaultMessage": "チャージオフ変更注文が正常に作成されました"
+  },
+  "phoneInfo.updated.successful": {
+    "defaultMessage": "電話情報が正常に更新されました。"
+  },
+  "address.updated.successful": {
+    "defaultMessage": "アドレスが正常に更新されました。"
+  },
+  "program.success.created": {
+    "defaultMessage": "プログラムが正常に作成されました"
+  },
+  "request.success.completed": {
+    "defaultMessage": "リクエストが正常に完了しました"
+  },
+  "address.success.deleted": {
+    "defaultMessage": "アドレスが正常に削除されました"
+  },
+  "phone.success.deleted": {
+    "defaultMessage": "電話が正常に削除されました"
+  },
+  "email.success.deleted": {
+    "defaultMessage": "メールが正常に削除されました"
+  },
+  "ID.success.deleted": {
+    "defaultMessage": "ID が正常に削除されました"
+  },
+  "adjustments.changeOrder.success.created": {
+    "defaultMessage": "調整変更オーダーが正常に作成されました"
+  },
+  "changes.success.saved": {
+    "defaultMessage": "変更は正常に保存されました"
+  },
+  "password.success.message": {
+    "defaultMessage": "パスワードが正常に更新されました。新しいパスワードでログインしてください！"
+  },
+  "email.success.updated": {
+    "defaultMessage": "メールが正常に更新されました"
+  },
+  "card.success.reissued": {
+    "defaultMessage": "カードが正常に再発行されました"
+  },
+  "card.success.activated": {
+    "defaultMessage": "カードが正常に有効化されました"
+  },
+  "customer.success.updated": {
+    "defaultMessage": "顧客が正常に更新されました"
+  },
+  "change.affectAccount.nextBillingPeriodClose": {
+    "defaultMessage": "この変更は、次の請求期間終了時にアカウントに影響を与え始めます。"
+  },
+  "adjustment.success.discarded": {
+    "defaultMessage": "調整は破棄されました"
+  },
+  "changeOrder.success.created": {
+    "defaultMessage": "変更管理が正常に作成されました."
+  },
+  "program.success.updated": {
+    "defaultMessage": "プログラムは正常に更新されました"
+  },
+  "changeRequest.success.deleted": {
+    "defaultMessage": "変更リクエストが削除されました"
+  },
+  "save": {
+    "defaultMessage": "保存"
+  },
+  "additionalAttributes": {
+    "defaultMessage": "追加属性"
+  },
+  "country.AFG": {
+    "defaultMessage": "アフガニスタン"
+  },
+  "country.ALA": {
+    "defaultMessage": "オーランド諸島"
+  },
+  "country.ALB": {
+    "defaultMessage": "アルバニア"
+  },
+  "country.DZA": {
+    "defaultMessage": "アルジェリア"
+  },
+  "country.ASM": {
+    "defaultMessage": "アメリカ領サモア"
+  },
+  "country.AND": {
+    "defaultMessage": "アンドラ"
+  },
+  "country.AGO": {
+    "defaultMessage": "アンゴラ"
+  },
+  "country.AIA": {
+    "defaultMessage": "アンギラ"
+  },
+  "country.ATA": {
+    "defaultMessage": "南極大陸"
+  },
+  "country.ATG": {
+    "defaultMessage": "アンティグア・バーブーダ"
+  },
+  "country.ARG": {
+    "defaultMessage": "アルゼンチン"
+  },
+  "country.ARM": {
+    "defaultMessage": "アルメニア"
+  },
+  "country.ABW": {
+    "defaultMessage": "アルバ"
+  },
+  "country.ASC": {
+    "defaultMessage": "アセンション島"
+  },
+  "country.AUS": {
+    "defaultMessage": "オーストラリア"
+  },
+  "country.AUT": {
+    "defaultMessage": "オーストリア"
+  },
+  "country.AZE": {
+    "defaultMessage": "アゼルバイジャン"
+  },
+  "country.BHS": {
+    "defaultMessage": "バハマ"
+  },
+  "country.BHR": {
+    "defaultMessage": "バーレーン"
+  },
+  "country.BGD": {
+    "defaultMessage": "バングラデシュ"
+  },
+  "country.BRB": {
+    "defaultMessage": "バルバドス"
+  },
+  "country.BLR": {
+    "defaultMessage": "ベラルーシ"
+  },
+  "country.BEL": {
+    "defaultMessage": "ベルギー"
+  },
+  "country.BLZ": {
+    "defaultMessage": "ベリーズ"
+  },
+  "country.BEN": {
+    "defaultMessage": "ベナン"
+  },
+  "country.BMU": {
+    "defaultMessage": "バミューダ"
+  },
+  "country.BTN": {
+    "defaultMessage": "ブータン"
+  },
+  "country.BOL": {
+    "defaultMessage": "多民族国家ボリビア"
+  },
+  "country.BES": {
+    "defaultMessage": "ボネール、セント ユースタティウス、サバ"
+  },
+  "country.BIH": {
+    "defaultMessage": "ボスニア・ヘルツェゴビナ"
+  },
+  "country.BWA": {
+    "defaultMessage": "ボツワナ"
+  },
+  "country.BVT": {
+    "defaultMessage": "ブーベ島"
+  },
+  "country.BRA": {
+    "defaultMessage": "ブラジル"
+  },
+  "country.IOT": {
+    "defaultMessage": "イギリス領インド洋地域"
+  },
+  "country.BRN": {
+    "defaultMessage": "ブルネイ ダルサラーム"
+  },
+  "country.BGR": {
+    "defaultMessage": "ブルガリア"
+  },
+  "country.BFA": {
+    "defaultMessage": "ブルキナファソ"
+  },
+  "country.BUR": {
+    "defaultMessage": "ビルマ"
+  },
+  "country.BDI": {
+    "defaultMessage": "ブルンジ"
+  },
+  "country.KHM": {
+    "defaultMessage": "カンボジア"
+  },
+  "country.CMR": {
+    "defaultMessage": "カメルーン"
+  },
+  "country.CAN": {
+    "defaultMessage": "カナダ"
+  },
+  "country.CPV": {
+    "defaultMessage": "カーボベルデ"
+  },
+  "country.CYM": {
+    "defaultMessage": "ケイマン諸島"
+  },
+  "country.CAF": {
+    "defaultMessage": "中央アフリカ共和国"
+  },
+  "country.TCD": {
+    "defaultMessage": "チャド"
+  },
+  "country.CHL": {
+    "defaultMessage": "チリ"
+  },
+  "country.CHN": {
+    "defaultMessage": "中国"
+  },
+  "country.CXR": {
+    "defaultMessage": "クリスマス島"
+  },
+  "country.CPT": {
+    "defaultMessage": "クリッパートン島"
+  },
+  "country.CCK": {
+    "defaultMessage": "ココス (キーリング) 諸島"
+  },
+  "country.COL": {
+    "defaultMessage": "コロンビア"
+  },
+  "country.COM": {
+    "defaultMessage": "コモロ"
+  },
+  "country.COG": {
+    "defaultMessage": "コンゴ"
+  },
+  "country.COD": {
+    "defaultMessage": "コンゴ民主共和国"
+  },
+  "country.COK": {
+    "defaultMessage": "クック諸島"
+  },
+  "country.CRI": {
+    "defaultMessage": "コスタリカ"
+  },
+  "country.HRV": {
+    "defaultMessage": "クロアチア"
+  },
+  "country.CUB": {
+    "defaultMessage": "キューバ"
+  },
+  "country.CUW": {
+    "defaultMessage": "キュラソー"
+  },
+  "country.CYP": {
+    "defaultMessage": "キプロス"
+  },
+  "country.CZE": {
+    "defaultMessage": "チェコ共和国"
+  },
+  "country.CIV": {
+    "defaultMessage": "コートジボワール"
+  },
+  "country.DGA": {
+    "defaultMessage": "ディエゴ・ガルシア"
+  },
+  "country.DJI": {
+    "defaultMessage": "ジブチ"
+  },
+  "country.DMA": {
+    "defaultMessage": "ドミニカ"
+  },
+  "country.DOM": {
+    "defaultMessage": "ドミニカ共和国"
+  },
+  "country.TMP": {
+    "defaultMessage": "東ティモール"
+  },
+  "country.ECU": {
+    "defaultMessage": "Ecuador"
+  },
+  "country.EGY": {
+    "defaultMessage": "Egypt"
+  },
+  "country.SLV": {
+    "defaultMessage": "El Salvador"
+  },
+  "country.GNQ": {
+    "defaultMessage": "赤道ギニア"
+  },
+  "country.ERI": {
+    "defaultMessage": "エリトリア"
+  },
+  "country.EST": {
+    "defaultMessage": "エストニア"
+  },
+  "country.SWZ": {
+    "defaultMessage": "スワットで"
+  },
+  "country.ETH": {
+    "defaultMessage": "エチオピア"
+  },
+  "country.FLK": {
+    "defaultMessage": "フォークランド諸島 (マルビナス)"
+  },
+  "country.FRO": {
+    "defaultMessage": "フェロー諸島"
+  },
+  "country.FJI": {
+    "defaultMessage": "フィジー"
+  },
+  "country.FIN": {
+    "defaultMessage": "フィンランド"
+  },
+  "country.FRA": {
+    "defaultMessage": "フランス"
+  },
+  "country.FXX": {
+    "defaultMessage": "フランス、メトロポリタン"
+  },
+  "country.GUF": {
+    "defaultMessage": "フランス領ギアナ"
+  },
+  "country.PYF": {
+    "defaultMessage": "フランス領ポリネシア"
+  },
+  "country.ATF": {
+    "defaultMessage": "フランス領南方領土"
+  },
+  "country.GAB": {
+    "defaultMessage": "ガボン"
+  },
+  "country.GMB": {
+    "defaultMessage": "ガンビア"
+  },
+  "country.GEO": {
+    "defaultMessage": "グルジア"
+  },
+  "country.DEU": {
+    "defaultMessage": "ドイツ"
+  },
+  "country.GHA": {
+    "defaultMessage": "ガーナ"
+  },
+  "country.GIB": {
+    "defaultMessage": "ジブラルタル"
+  },
+  "country.GRC": {
+    "defaultMessage": "ギリシャ"
+  },
+  "country.GRL": {
+    "defaultMessage": "グリーンランド"
+  },
+  "country.GRD": {
+    "defaultMessage": "Grenada"
+  },
+  "country.GLP": {
+    "defaultMessage": "グアドループ"
+  },
+  "country.GUM": {
+    "defaultMessage": "グアム"
+  },
+  "country.GTM": {
+    "defaultMessage": "グアテマラ"
+  },
+  "country.GGY": {
+    "defaultMessage": "ガーンジー"
+  },
+  "country.GIN": {
+    "defaultMessage": "ギニア"
+  },
+  "country.GNB": {
+    "defaultMessage": "ギニアビサウ"
+  },
+  "country.GUY": {
+    "defaultMessage": "ガイアナ"
+  },
+  "country.HTI": {
+    "defaultMessage": "ハイチ"
+  },
+  "country.HMD": {
+    "defaultMessage": "ハード島とマクドナルド諸島"
+  },
+  "country.VAT": {
+    "defaultMessage": "聖座 (バチカン市国))"
+  },
+  "country.HND": {
+    "defaultMessage": "Honduras"
+  },
+  "country.HKG": {
+    "defaultMessage": "香港"
+  },
+  "country.HUN": {
+    "defaultMessage": "ハンガリー"
+  },
+  "country.ISL": {
+    "defaultMessage": "アイスランド"
+  },
+  "country.IND": {
+    "defaultMessage": "インド"
+  },
+  "country.IDN": {
+    "defaultMessage": "インドネシア"
+  },
+  "country.IRN": {
+    "defaultMessage": "イラン・イスラム共和国"
+  },
+  "country.IRQ": {
+    "defaultMessage": "イラク"
+  },
+  "country.IRL": {
+    "defaultMessage": "アイルランド"
+  },
+  "country.IMN": {
+    "defaultMessage": "マン島"
+  },
+  "country.ISR": {
+    "defaultMessage": "イスラエル"
+  },
+  "country.ITA": {
+    "defaultMessage": "イタリア"
+  },
+  "country.JAM": {
+    "defaultMessage": "ジャマイカ"
+  },
+  "country.JPN": {
+    "defaultMessage": "日本"
+  },
+  "country.JEY": {
+    "defaultMessage": "ジャージー"
+  },
+  "country.JOR": {
+    "defaultMessage": "ヨルダン"
+  },
+  "country.KAZ": {
+    "defaultMessage": "カザフスタン"
+  },
+  "country.KEN": {
+    "defaultMessage": "ケニア"
+  },
+  "country.KIR": {
+    "defaultMessage": "キリバス"
+  },
+  "country.PRK": {
+    "defaultMessage": "朝鮮民主主義人民共和国"
+  },
+  "country.KOR": {
+    "defaultMessage": "大韓民国"
+  },
+  "country.XKX": {
+    "defaultMessage": "コソボ共和国"
+  },
+  "country.KWT": {
+    "defaultMessage": "クウェート"
+  },
+  "country.KGZ": {
+    "defaultMessage": "キルギスタン"
+  },
+  "country.LAO": {
+    "defaultMessage": "ラオス人民民主共和国"
+  },
+  "country.LVA": {
+    "defaultMessage": "ラトビア"
+  },
+  "country.LBN": {
+    "defaultMessage": "レバノン"
+  },
+  "country.LSO": {
+    "defaultMessage": "レソト"
+  },
+  "country.LBR": {
+    "defaultMessage": "リベリア"
+  },
+  "country.LBY": {
+    "defaultMessage": "リビア"
+  },
+  "country.LIE": {
+    "defaultMessage": "リヒテンシュタイン"
+  },
+  "country.LTU": {
+    "defaultMessage": "リトアニア"
+  },
+  "country.LUX": {
+    "defaultMessage": "ルクセンブルク"
+  },
+  "country.MAC": {
+    "defaultMessage": "マカオ"
+  },
+  "country.MDG": {
+    "defaultMessage": "マダガスカル"
+  },
+  "country.MWI": {
+    "defaultMessage": "マラウイ"
+  },
+  "country.MYS": {
+    "defaultMessage": "マレーシア"
+  },
+  "country.MDV": {
+    "defaultMessage": "モルディブ"
+  },
+  "country.MLI": {
+    "defaultMessage": "マリ"
+  },
+  "country.MLT": {
+    "defaultMessage": "マルタ"
+  },
+  "country.MHL": {
+    "defaultMessage": "マーシャル諸島"
+  },
+  "country.MTQ": {
+    "defaultMessage": "マルティニーク"
+  },
+  "country.MRT": {
+    "defaultMessage": "モーリタニア"
+  },
+  "country.MUS": {
+    "defaultMessage": "モーリシャス"
+  },
+  "country.MYT": {
+    "defaultMessage": "マヨット"
+  },
+  "country.MEX": {
+    "defaultMessage": "メキシコ"
+  },
+  "country.FSM": {
+    "defaultMessage": "ミクロネシア連邦"
+  },
+  "country.MDA": {
+    "defaultMessage": "モルドバ共和国 of"
+  },
+  "country.MCO": {
+    "defaultMessage": "モナコ"
+  },
+  "country.MNG": {
+    "defaultMessage": "モンゴル"
+  },
+  "country.MNE": {
+    "defaultMessage": "モンテネグロ"
+  },
+  "country.MSR": {
+    "defaultMessage": "モントセラト"
+  },
+  "country.MAR": {
+    "defaultMessage": "モロッコ"
+  },
+  "country.MOZ": {
+    "defaultMessage": "モザンビーク"
+  },
+  "country.MMR": {
+    "defaultMessage": "ミャンマー"
+  },
+  "country.NAM": {
+    "defaultMessage": "ナミビア"
+  },
+  "country.NRU": {
+    "defaultMessage": "ナウル"
+  },
+  "country.NPL": {
+    "defaultMessage": "ネパール"
+  },
+  "country.NLD": {
+    "defaultMessage": "オランダ"
+  },
+  "country.ANT": {
+    "defaultMessage": "オランダ領アンティル"
+  },
+  "country.NCL": {
+    "defaultMessage": "ニューカレドニア"
+  },
+  "country.NZL": {
+    "defaultMessage": "ニュージーランド"
+  },
+  "country.NIC": {
+    "defaultMessage": "ニカラグア"
+  },
+  "country.NER": {
+    "defaultMessage": "ニジェール"
+  },
+  "country.NGA": {
+    "defaultMessage": "ナイジェリア"
+  },
+  "country.NIU": {
+    "defaultMessage": "ニウエ"
+  },
+  "country.NFK": {
+    "defaultMessage": "ノーフォーク島"
+  },
+  "country.MKD": {
+    "defaultMessage": "北マケドニア共和国"
+  },
+  "country.XXI": {
+    "defaultMessage": "北アイルランド"
+  },
+  "country.MNP": {
+    "defaultMessage": "北マリアナ諸島"
+  },
+  "country.NOR": {
+    "defaultMessage": "ノルウェー"
+  },
+  "country.OMN": {
+    "defaultMessage": "オマーン"
+  },
+  "country.PAK": {
+    "defaultMessage": "パキスタン"
+  },
+  "country.PLW": {
+    "defaultMessage": "パラオ"
+  },
+  "country.PSE": {
+    "defaultMessage": "パレスチナ"
+  },
+  "country.PAN": {
+    "defaultMessage": "パナマ"
+  },
+  "country.PNG": {
+    "defaultMessage": "パプアニューギニア"
+  },
+  "country.PRY": {
+    "defaultMessage": "パラグアイ"
+  },
+  "country.PER": {
+    "defaultMessage": "ペルー"
+  },
+  "country.PHL": {
+    "defaultMessage": "フィリピン"
+  },
+  "country.PCN": {
+    "defaultMessage": "ピトケアン"
+  },
+  "country.POL": {
+    "defaultMessage": "ポーランド"
+  },
+  "country.PRT": {
+    "defaultMessage": "ポルトガル"
+  },
+  "country.PRI": {
+    "defaultMessage": "プエルトリコ"
+  },
+  "country.QAT": {
+    "defaultMessage": "カタール"
+  },
+  "country.ROU": {
+    "defaultMessage": "ルーマニア"
+  },
+  "country.RUS": {
+    "defaultMessage": "ロシア連邦"
+  },
+  "country.RWA": {
+    "defaultMessage": "ルワンダ"
+  },
+  "country.REU": {
+    "defaultMessage": "ミーティング"
+  },
+  "country.BLM": {
+    "defaultMessage": "聖バルテルミー"
+  },
+  "country.SHN": {
+    "defaultMessage": "セントヘレナ、アセンション、トリスタン ダ クーニャ"
+  },
+  "country.KNA": {
+    "defaultMessage": "セントクリストファー・ネイビス"
+  },
+  "country.LCA": {
+    "defaultMessage": "セントルシア"
+  },
+  "country.MAF": {
+    "defaultMessage": "セント・マーチン（フランス語の部分）"
+  },
+  "country.SPM": {
+    "defaultMessage": "サンピエール島とミクロン島"
+  },
+  "country.VCT": {
+    "defaultMessage": "セントビンセントおよびグレナディーン諸島"
+  },
+  "country.WSM": {
+    "defaultMessage": "サモア"
+  },
+  "country.SMR": {
+    "defaultMessage": "サンマリノ"
+  },
+  "country.STP": {
+    "defaultMessage": "サントメ・プリンシペ"
+  },
+  "country.SAU": {
+    "defaultMessage": "サウジアラビア"
+  },
+  "country.SEN": {
+    "defaultMessage": "セネガル"
+  },
+  "country.SRB": {
+    "defaultMessage": "Serbia"
+  },
+  "country.SYC": {
+    "defaultMessage": "セルビア"
+  },
+  "country.SLE": {
+    "defaultMessage": "シエラレオネ"
+  },
+  "country.SGP": {
+    "defaultMessage": "シンガポール"
+  },
+  "country.SXM": {
+    "defaultMessage": "シント・マールテン (オランダ語)"
+  },
+  "country.SVK": {
+    "defaultMessage": "スロバキア"
+  },
+  "country.SVN": {
+    "defaultMessage": "スロベニア"
+  },
+  "country.SLB": {
+    "defaultMessage": "ソロモン諸島"
+  },
+  "country.SOM": {
+    "defaultMessage": "ソマリア"
+  },
+  "country.ZAF": {
+    "defaultMessage": "南アフリカ"
+  },
+  "country.SGS": {
+    "defaultMessage": "サウスジョージア・サウスサンドウィッチ諸島"
+  },
+  "country.SSD": {
+    "defaultMessage": "南スーダン"
+  },
+  "country.ESP": {
+    "defaultMessage": "スペイン"
+  },
+  "country.LKA": {
+    "defaultMessage": "スリランカ"
+  },
+  "country.SDN": {
+    "defaultMessage": "スーダン"
+  },
+  "country.SUR": {
+    "defaultMessage": "スリナム"
+  },
+  "country.SJM": {
+    "defaultMessage": "スヴァールバル諸島とヤンマイエン"
+  },
+  "country.SWE": {
+    "defaultMessage": "スウェーデン"
+  },
+  "country.CHE": {
+    "defaultMessage": "スイス"
+  },
+  "country.SYR": {
+    "defaultMessage": "シリア・アラブ共和国"
+  },
+  "country.TWN": {
+    "defaultMessage": "中華民国台湾"
+  },
+  "country.TJK": {
+    "defaultMessage": "タジキスタン"
+  },
+  "country.TZA": {
+    "defaultMessage": "タンザニア、連合共和国 "
+  },
+  "country.THA": {
+    "defaultMessage": "タイ"
+  },
+  "country.TLS": {
+    "defaultMessage": "ティモール・リード"
+  },
+  "country.TGO": {
+    "defaultMessage": "持ち帰り"
+  },
+  "country.TKL": {
+    "defaultMessage": "トケラウ"
+  },
+  "country.TON": {
+    "defaultMessage": "トンガ"
+  },
+  "country.TTO": {
+    "defaultMessage": "トリニダード・トバゴ"
+  },
+  "country.TAA": {
+    "defaultMessage": "トリスタン・ダ・クーニャ"
+  },
+  "country.TUN": {
+    "defaultMessage": "チュニジア"
+  },
+  "country.TUR": {
+    "defaultMessage": "七面鳥"
+  },
+  "country.TKM": {
+    "defaultMessage": "トルクメニスタン"
+  },
+  "country.TCA": {
+    "defaultMessage": "タークス・カイコス諸島"
+  },
+  "country.TUV": {
+    "defaultMessage": "ツバル"
+  },
+  "country.UGA": {
+    "defaultMessage": "ウガンダ"
+  },
+  "country.UKR": {
+    "defaultMessage": "ウクライナ"
+  },
+  "country.ARE": {
+    "defaultMessage": "アラブ首長国連邦"
+  },
+  "country.GBR": {
+    "defaultMessage": "イギリス"
+  },
+  "country.XXU": {
+    "defaultMessage": "英国（北アイルランドを除く）"
+  },
+  "country.USA": {
+    "defaultMessage": "アメリカ"
+  },
+  "country.UMI": {
+    "defaultMessage": "合衆国領有小離島"
+  },
+  "country.URY": {
+    "defaultMessage": "ウルグアイ"
+  },
+  "country.UZB": {
+    "defaultMessage": "ウズベキスタン"
+  },
+  "country.VUT": {
+    "defaultMessage": "バヌアツ"
+  },
+  "country.VEN": {
+    "defaultMessage": "ベネズエラ、ボリバル共和国"
+  },
+  "country.VNM": {
+    "defaultMessage": "Vietnam"
+  },
+  "country.VGB": {
+    "defaultMessage": "バージン諸島、イギリス"
+  },
+  "country.VIR": {
+    "defaultMessage": "バージン諸島、アメリカ"
+  },
+  "country.WLF": {
+    "defaultMessage": "ウォリス・フツナ"
+  },
+  "country.ESH": {
+    "defaultMessage": "西サハラ"
+  },
+  "country.YEM": {
+    "defaultMessage": "イエメン"
+  },
+  "country.ZMB": {
+    "defaultMessage": "Zambia"
+  },
+  "country.ZWE": {
+    "defaultMessage": "ジンバブエ"
+  },
+  "direct": {
+    "defaultMessage": "直接"
+  },
+  "tier": {
+    "defaultMessage": "ティア"
+  },
+  "summaryBalances": {
+    "defaultMessage": "要約残高"
+  },
+  "billingDetails": {
+    "defaultMessage": "支払明細"
+  },
+  "periodManagement": {
+    "defaultMessage": "期間管理"
+  },
+  "credit": {
+    "defaultMessage": "クレジット"
+  },
+  "productedit.credit.button": {
+    "defaultMessage": "編集"
+  },
+  "viewPreviousMinPaymentHistory": {
+    "defaultMessage": "前回の最小支払い履歴を表示する"
+  },
+  "automaticLoad": {
+    "defaultMessage": "自動ロード"
+  },
+  "makeAnAdjustment": {
+    "defaultMessage": "調整する"
+  },
+  "purchaseBalances": {
+    "defaultMessage": "購入残高"
+  },
+  "feeBalances": {
+    "defaultMessage": "手数料残高"
+  },
+  "cashAdvanceBalances": {
+    "defaultMessage": "Cash Advance balances"
+  },
+  "statementBalance": {
+    "defaultMessage": "ステートメント残高"
+  },
+  "lastCycleBalance": {
+    "defaultMessage": "最終サイクル残高"
+  },
+  "minimumDue": {
+    "defaultMessage": "最低支払額"
+  },
+  "lastCycleCloseDate": {
+    "defaultMessage": "最終サイクル完了日"
+  },
+  "paymentDueDate": {
+    "defaultMessage": "支払期限"
+  },
+  "nextRepaymentEndDate": {
+    "defaultMessage": "次回返済終了日"
+  },
+  "repaymentPeriodLength": {
+    "defaultMessage": "返済期間"
+  },
+  "nextBillingPeriodEndDate": {
+    "defaultMessage": "次の請求期間の終了日"
+  },
+  "billingPeriodLength": {
+    "defaultMessage": "請求期間の長さ"
+  },
+  "interestAccrual": {
+    "defaultMessage": "利息発生"
+  },
+  "rateMethod": {
+    "defaultMessage": "レート方法"
+  },
+  "interestRateTier": {
+    "defaultMessage": "金利層"
+  },
+  "purchaseRate": {
+    "defaultMessage": "買取率"
+  },
+  "cashRate": {
+    "defaultMessage": "キャッシュレート"
+  },
+  "feeRate": {
+    "defaultMessage": "手数料率"
+  },
+  "availableCredit": {
+    "defaultMessage": "利用可能なクレジット"
+  },
+  "creditLimit": {
+    "defaultMessage": "与信限度額"
+  },
+  "unpaidMinimums": {
+    "defaultMessage": "未払いの最低額"
+  },
+  "currentPrincipal": {
+    "defaultMessage": "現在の校長"
+  },
+  "currentInterest": {
+    "defaultMessage": "現在の関心"
+  },
+  "previousPrincipal": {
+    "defaultMessage": "前校長"
+  },
+  "previousInterest": {
+    "defaultMessage": "以前の興味"
+  },
+  "owedPrincipal": {
+    "defaultMessage": "未払いの元本"
+  },
+  "owedInterest": {
+    "defaultMessage": "未払いの利息"
+  },
+  "billingHistory": {
+    "defaultMessage": "請求履歴"
+  },
+  "cycleStartDate": {
+    "defaultMessage": "サイクル開始日"
+  },
+  "cycleEndDate": {
+    "defaultMessage": "サイクル終了日"
+  },
+  "cycleBalance": {
+    "defaultMessage": "サイクルバランス"
+  },
+  "previousCycleBalance": {
+    "defaultMessage": "前周期残高"
+  },
+  "payments": {
+    "defaultMessage": "支払い"
+  },
+  "credits": {
+    "defaultMessage": "クレジット"
+  },
+  "purchasesCharged": {
+    "defaultMessage": "有料の購入"
+  },
+  "cashAdvanceCharged": {
+    "defaultMessage": "キャッシングチャージあり"
+  },
+  "feeCharged": {
+    "defaultMessage": "有料"
+  },
+  "interestCharged": {
+    "defaultMessage": "利息がかかる"
+  },
+  "modifiedOrCreated": {
+    "defaultMessage": "変更または作成された"
+  },
+  "personChangeHistory": {
+    "defaultMessage": "個人変更履歴"
+  },
+  "text.deleted": {
+    "defaultMessage": "削除された"
+  },
+  "person": {
+    "defaultMessage": "人"
+  },
+  "officialId": {
+    "defaultMessage": "公的身分証明書"
+  },
+  "button.HIDE": {
+    "defaultMessage": "非表示"
+  },
+  "controls": {
+    "defaultMessage": "コントロール"
+  },
+  "merchantControls": {
+    "defaultMessage": "加盟店管理"
+  },
+  "warning.confirmation.delete": {
+    "defaultMessage": "この {fieldName} を削除してもよろしいですか?"
+  },
+  "billingCycleDate": {
+    "defaultMessage": "請求サイクルの日付"
+  },
+  "originalOwedAmount": {
+    "defaultMessage": "元の未払い額"
+  },
+  "unpaidAmount": {
+    "defaultMessage": "未払い額"
+  },
+  "minimumPaymentDueHistory": {
+    "defaultMessage": "最低支払期日履歴"
+  },
+  "adjustmentType": {
+    "defaultMessage": "Adjustment Type"
+  },
+  "addAdditionalAdjustment": {
+    "defaultMessage": "追加の調整を追加"
+  },
+  "currentTotalBalance": {
+    "defaultMessage": "現在の合計残高"
+  },
+  "totalAdjustmentAmount": {
+    "defaultMessage": "調整額合計"
+  },
+  "projected": {
+    "defaultMessage": "投影された"
+  },
+  "error.merchantControl.ruleConflict": {
+    "defaultMessage": "このルールは、マーチャント コントロール {id} と競合しています。有効な To/From 金額とマーチャント ID を入力してください。"
+  },
+  "button.addNewRiskLevel": {
+    "defaultMessage": "新しいリスクレベルを追加"
+  },
+  "button.addNewFeePlan": {
+    "defaultMessage": "新しい料金プランを追加"
+  },
+  "customerFeePlans": {
+    "defaultMessage": "顧客料金プラン"
+  },
+  "currentBilledInterest": {
+    "defaultMessage": "現在請求されている利息"
+  },
+  "owedBilledInterest": {
+    "defaultMessage": "請求済み利息の未払い"
+  },
+  "previousBilledInterest": {
+    "defaultMessage": "以前の請求済み利息"
+  },
+  "creditBalances": {
+    "defaultMessage": "クレジット残高 (少なくとも 1 つを選択してください)"
+  },
+  "cashAdvance": {
+    "defaultMessage": "キャッシング・サービス"
+  },
+  "chooseAtLeastOne": {
+    "defaultMessage": "少なくとも 1 つ選択してください"
+  },
+  "daysPerYear": {
+    "defaultMessage": "年間日数"
+  },
+  "interestAccrualType": {
+    "defaultMessage": "利息発生タイプ"
+  },
+  "interestRateTiers": {
+    "defaultMessage": "金利階層"
+  },
+  "addNewTier": {
+    "defaultMessage": "新しいティアを追加"
+  },
+  "repayment": {
+    "defaultMessage": "返済"
+  },
+  "nonProcessingDayHandling": {
+    "defaultMessage": "休業日扱い"
+  },
+  "dueDateShift": {
+    "defaultMessage": "期日シフト"
+  },
+  "autoLoadShift": {
+    "defaultMessage": "オートロードシフト"
+  },
+  "repaymentHierarchy": {
+    "defaultMessage": "返済階層"
+  },
+  "minimumRepayment": {
+    "defaultMessage": "最低返済額"
+  },
+  "purchaseRepaymentRatios": {
+    "defaultMessage": "買取率"
+  },
+  "cashAdvanceRepaymentRatios": {
+    "defaultMessage": "キャッシング返済率"
+  },
+  "feeRepaymentRatios": {
+    "defaultMessage": "手数料返済率"
+  },
+  "reissueCards": {
+    "defaultMessage": "カードの再発行"
+  },
+  "samePan": {
+    "defaultMessage": "前でも"
+  },
+  "reissue.cards.sameExpiry": {
+    "defaultMessage": "同じ有効期限"
+  },
+  "minimumAllowed": {
+    "defaultMessage": "最小許容"
+  },
+  "maximumAllowed": {
+    "defaultMessage": "最大許容"
+  },
+  "latePaymentFee": {
+    "defaultMessage": "遅延料金"
+  },
+  "loanPeriod": {
+    "defaultMessage": "貸出期間*"
+  },
+  "loanPeriodDays": {
+    "defaultMessage": "貸出期間日数*"
+  },
+  "interestApplicationDay": {
+    "defaultMessage": "利子申請日*"
+  },
+  "annualInterestRateOnLoanAmount": {
+    "defaultMessage": "ローン金額の年利率*"
+  },
+  "dayCountPerYear": {
+    "defaultMessage": "年間日数*"
+  },
+  "annualInterestRateMaxLimit": {
+    "defaultMessage": "年間利率上限*"
+  },
+  "dismiss": {
+    "defaultMessage": "解散"
+  },
+  "primaryAction": {
+    "defaultMessage": "プライマリ アクション"
+  },
+  "dontShowAgain": {
+    "defaultMessage": "今後表示しない"
+  },
+  "drawer.blocks.card.table.header.reason": {
+    "defaultMessage": "理由"
+  },
+  "drawer.blocks.card.table.header.memo": {
+    "defaultMessage": "メモ"
+  },
+  "drawer.blocks.card.table.header.created": {
+    "defaultMessage": "作成した"
+  },
+  "drawer.blocks.card.table.header.createdBy": {
+    "defaultMessage": "によって作成された"
+  },
+  "drawer.blocks.card.table.header.release": {
+    "defaultMessage": "リリース"
+  },
+  "drawer.blocks.button.release": {
+    "defaultMessage": "リリース"
+  },
+  "drawer.blocks.card.table.header.customerReleasable": {
+    "defaultMessage": "顧客がリリース可能"
+  },
+  "customer.drawer.billingHistory.header": {
+    "defaultMessage": "請求履歴"
+  },
+  "viewCycleTransaction": {
+    "defaultMessage": "サイクル取引を見る >>>"
+  },
+  "adjustmentAmount": {
+    "defaultMessage": "調整額"
+  },
+  "drawer.createchangeorder.chooseDate": {
+    "defaultMessage": "日付を選択してください*"
+  },
+  "drawer.label.identification.issuerState": {
+    "defaultMessage": "ID 発行者 (州)"
+  },
+  "phone": {
+    "defaultMessage": "電話"
+  },
+  "customer.updated.successful": {
+    "defaultMessage": "顧客が正常に更新されました"
+  },
+  "interestForgiveness": {
+    "defaultMessage": "利息の免除"
+  },
+  "change.account.startAffecting.nextBilling": {
+    "defaultMessage": "この変更は、次回の請求期間終了時にアカウントに影響を与え始めます。"
+  },
+  "filters": {
+    "defaultMessage": "フィルター"
+  },
+  "customerSearch.filter.supportStatus": {
+    "defaultMessage": "サポート状況"
+  },
+  "customerSearch.filter.accountStatus": {
+    "defaultMessage": "アカウントのステータス"
+  },
+  "customerSearch.filter.active": {
+    "defaultMessage": "アクティブ"
+  },
+  "customerSearch.filter.inactive": {
+    "defaultMessage": "非活性"
+  },
+  "customerSearch.filter.inReview": {
+    "defaultMessage": "レビュー中"
+  },
+  "customerSearch.filter.riskStatus": {
+    "defaultMessage": "リスク状況"
+  },
+  "customerSearch.filter.low": {
+    "defaultMessage": "Low"
+  },
+  "customerSearch.filter.medium": {
+    "defaultMessage": "中くらい"
+  },
+  "customerSearch.filter.high": {
+    "defaultMessage": "高い"
+  },
+  "customerSearch.filter.banks": {
+    "defaultMessage": "銀行"
+  },
+  "customerSearch.filter.partners": {
+    "defaultMessage": "パートナー"
+  },
+  "customerSearch.filter.programs": {
+    "defaultMessage": "プログラム"
+  },
+  "selectLanguage": {
+    "defaultMessage": "言語を選択する"
+  },
+  "selectALanguage": {
+    "defaultMessage": "言語を選択"
+  },
+  "drawer.addPartner.label.email": {
+    "defaultMessage": "Eメール"
+  },
+  "drawer.addPartner.label.inns": {
+    "defaultMessage": "IIN"
+  },
+  "drawer.partners.label.Inns": {
+    "defaultMessage": "IINs"
+  },
+  "configure.form.base.label.day": {
+    "defaultMessage": "日"
+  },
+  "configure.form.base.label.hour": {
+    "defaultMessage": "時間"
+  },
+  "configure.form.base.label.minute": {
+    "defaultMessage": "分"
+  },
+  "default": {
+    "defaultMessage": "デフォルト"
+  },
+  "defaultRepaymentPeriod": {
+    "defaultMessage": "デフォルト返済期間"
+  },
+  "overallBalanceRatio": {
+    "defaultMessage": "全体収支比率"
+  },
+  "minimumThreshold": {
+    "defaultMessage": "最小しきい値"
+  },
+  "owedPastDueRatio": {
+    "defaultMessage": "未払い率"
+  },
+  "currentPrincipalRatio": {
+    "defaultMessage": "現在の元本比率"
+  },
+  "owedPrincipalRatio": {
+    "defaultMessage": "未払い元本比率"
+  },
+  "currentInterestRatio": {
+    "defaultMessage": "現在の金利比率"
+  },
+  "owedInterestRatio": {
+    "defaultMessage": "未払利率"
+  },
+  "previousPrincipalRatio": {
+    "defaultMessage": "以前の元本比率"
+  },
+  "previousInterestRatio": {
+    "defaultMessage": "旧利率"
+  },
+  "error.mustLessThan.maximumAllowed": {
+    "defaultMessage": "許可されている最大値より小さくする必要があります"
+  },
+  "error.mustMoreThan.maximumAllowed": {
+    "defaultMessage": "許可されている最大値より大きくする必要があります"
+  },
+  "error.mustLessThan.default": {
+    "defaultMessage": "デフォルトより小さい必要があります"
+  },
+  "error.mustLessThan.minimum": {
+    "defaultMessage": "最小値未満である必要があります"
+  },
+  "error.mustMoreThan.maximum": {
+    "defaultMessage": "最大値以上である必要があります"
+  },
+  "error.mustMoreThan.default": {
+    "defaultMessage": "デフォルト以上である必要があります"
+  },
+  "error.mustMoreThan.minimum": {
+    "defaultMessage": "最小値以上である必要があります"
+  },
+  "error.mustLessThan.maximum": {
+    "defaultMessage": "最大値未満である必要があります"
+  },
+  "error.tierName.required": {
+    "defaultMessage": "ティア名が必要です!"
+  },
+  "error.thisField.required": {
+    "defaultMessage": "これは必要項目です"
+  },
+  "installments": {
+    "defaultMessage": "分割払い"
+  },
+  "annualRate": {
+    "defaultMessage": "年率"
+  },
+  "changeRequestDetails": {
+    "defaultMessage": "変更依頼の詳細"
+  },
+  "allow": {
+    "defaultMessage": "許可する"
+  },
+  "reject": {
+    "defaultMessage": "拒絶"
+  },
+  "merchantControl.success.updated": {
+    "defaultMessage": "マーチャント コントロールが正常に更新されました"
+  },
+  "merchantControl.success.created": {
+    "defaultMessage": "マーチャント コントロールが正常に作成されました"
+  },
+  "network": {
+    "defaultMessage": "通信網"
+  },
+  "amountCurrency": {
+    "defaultMessage": "金額 通貨"
+  },
+  "toAmount": {
+    "defaultMessage": "金額へ"
+  },
+  "fromAmount": {
+    "defaultMessage": "金額から"
+  },
+  "merchantControl.success.deleted": {
+    "defaultMessage": "マーチャント コントロールが正常に削除されました"
+  },
+  "viewMerchantControlDetails": {
+    "defaultMessage": "加盟店管理 ID"
+  },
+  "amountFrom": {
+    "defaultMessage": "金額 - から"
+  },
+  "amountTo": {
+    "defaultMessage": "匹敵する"
+  },
+  "acquirerID": {
+    "defaultMessage": "取得者 ID"
+  },
+  "merchantID": {
+    "defaultMessage": "販売者ID"
+  },
+  "terminalIDFrom": {
+    "defaultMessage": "ターミナル ID - 送信元"
+  },
+  "terminalIDTo": {
+    "defaultMessage": "ターミナル ID - 宛先"
+  },
+  "merchantCity": {
+    "defaultMessage": "商業都市"
+  },
+  "merchantCountryCode": {
+    "defaultMessage": "マーチャント国コード"
+  },
+  "editMerchantControl": {
+    "defaultMessage": "加盟店管理の編集"
+  },
+  "createMerchantControl": {
+    "defaultMessage": "マーチャント コントロールの作成"
+  },
+  "deleteMerchantControl": {
+    "defaultMessage": "マーチャント コントロールの削除"
+  },
+  "discardChanges": {
+    "defaultMessage": "変更を破棄"
+  },
+  "merchantControl": {
+    "defaultMessage": "加盟店管理"
+  },
+  "products": {
+    "defaultMessage": "製品"
+  },
+  "products.name": {
+    "defaultMessage": "製品名"
+  },
+  "label": {
+    "defaultMessage": "ラベル"
+  },
+  "card.state.created": {
+    "defaultMessage": "発行済み"
+  },
+  "card.state.shipped": {
+    "defaultMessage": "発送済み"
+  },
+  "card.state.sold": {
+    "defaultMessage": "売却"
+  },
+  "card.state.returned": {
+    "defaultMessage": "戻ってきた"
+  },
+  "card.state.resent": {
+    "defaultMessage": "憤る"
+  },
+  "card.state.activated": {
+    "defaultMessage": "有効"
+  },
+  "card.state.invalid": {
+    "defaultMessage": "無効"
+  },
+  "transaction.state.pending": {
+    "defaultMessage": "保留中"
+  },
+  "transaction.state.submitted": {
+    "defaultMessage": "提出済み"
+  },
+  "transaction.state.success": {
+    "defaultMessage": "成功"
+  },
+  "transaction.state.cancelled": {
+    "defaultMessage": "キャンセル"
+  },
+  "transaction.state.fail": {
+    "defaultMessage": "失敗"
+  },
+  "transaction.state.expired": {
+    "defaultMessage": "期限切れ"
+  },
+  "transaction.state.completed": {
+    "defaultMessage": "完了"
+  },
+  "tokenActivationMethod.SMS": {
+    "defaultMessage": "SMS"
+  },
+  "tokenActivationMethod.EMAIL": {
+    "defaultMessage": "電子メール"
+  },
+  "tokenActivationMethod.WEBSITE": {
+    "defaultMessage": "Webサイト"
+  },
+  "tokenActivationMethod.MOBILE_APP": {
+    "defaultMessage": "モバイルアプリ"
+  },
+  "tokenActivationMethod.CALL_CENTER": {
+    "defaultMessage": "コールセンター"
+  },
+  "button.addNewMethod": {
+    "defaultMessage": "新しいメソッドを追加"
+  },
+  "activationMethod": {
+    "defaultMessage": "アクティベーション方法"
+  },
+  "activationMethods": {
+    "defaultMessage": "アクティベーション方法"
+  },
+  "days": {
+    "defaultMessage": "日々"
+  },
+  "none": {
+    "defaultMessage": "なし"
+  },
+  "totalDue": {
+    "defaultMessage": "総支払額"
+  },
+  "currentPeriodReturnToGraceForgiveness": {
+    "defaultMessage": "現在の期間 恩寵への復帰 赦し"
+  },
+  "repaymentAmountRequirement": {
+    "defaultMessage": "返済額要件"
+  },
+  "reset.password.fields": {
+    "defaultMessage": "以下でパスワードをリセットします"
+  },
+  "reset.password.instructions": {
+    "defaultMessage": "以下に新しいパスワードを入力し、2 番目のフィールドで新しいパスワードを確認します"
+  },
+  "oldPassword": {
+    "defaultMessage": "以前のパスワード"
+  },
+  "newPassword": {
+    "defaultMessage": "新しいパスワード"
+  },
+  "confirmNewPassword": {
+    "defaultMessage": "新しいパスワードを確認"
+  },
+  "confirmPassword": {
+    "defaultMessage": "パスワードを認証する"
+  },
+  "error.password.mustBeTheSame": {
+    "defaultMessage": "両方のパスワードは同じである必要があります"
+  },
+  "reset.reset.success": {
+    "defaultMessage": "成功!"
+  },
+  "reset.reset.link.sent": {
+    "defaultMessage": "パスワードが正常にリセットされました"
+  },
+  "reset.password.error": {
+    "defaultMessage": "パスワード再設定エラー"
+  }
+}

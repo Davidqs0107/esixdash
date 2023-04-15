@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>components / image / small icon / activity / phone number deleted</title>
+    <g id="components-/-image-/-small-icon-/-activity-/-phone-number-deleted" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Phone-Icon" opacity="0.200000003" transform="translate(7.000000, 3.500000)" stroke="#131415" stroke-width="1.5">
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="16" height="25" rx="3"></rect>
+            <circle id="Oval" fill="#FFFFFF" cx="8" cy="21" r="1.5"></circle>
+            <line x1="6" y1="2.5" x2="10" y2="2.5" id="Path-13" stroke-linecap="round"></line>
+        </g>
+        <g id="components-/-image-/-med-icon-/-error" transform="translate(10.833333, 10.833333)">
+            <g id="cancel" transform="translate(0.000000, 0.000000)">
+                <path d="M4.16666667,0 C1.8766276,0 0,1.8766276 0,4.16666667 C0,6.45670573 1.8766276,8.33333333 4.16666667,8.33333333 C6.45670573,8.33333333 8.33333333,6.45670573 8.33333333,4.16666667 C8.33333333,1.8766276 6.45670573,0 4.16666667,0 Z" id="Path" fill="#EE0351"></path>
+                <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="4.85512695 4.16666667 6.23697917 5.54851888 5.54851888 6.23697917 4.16666667 4.85512695 2.78481445 6.23697917 2.09635417 5.54851888 3.47820638 4.16666667 2.09635417 2.78481445 2.78481445 2.09635417 4.16666667 3.47820638 5.54851888 2.09635417 6.23697917 2.78481445"></polygon>
+                <path d="M8.33333333,4.16666667 C8.33333333,6.45670573 6.45670573,8.33333333 4.16666667,8.33333333 L4.16666667,0 C6.45670573,0 8.33333333,1.8766276 8.33333333,4.16666667 Z" id="Path" fill-opacity="0.1" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

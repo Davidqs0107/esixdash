@@ -1,0 +1,6694 @@
+{
+  "login": {
+    "defaultMessage": "Login"
+  },
+  "partnerName": {
+    "defaultMessage": "Partner Name"
+  },
+  "error.partnerName.required": {
+    "defaultMessage": "Partner Name is a required field."
+  },
+  "username": {
+    "defaultMessage": "Username"
+  },
+  "error.username.required": {
+    "defaultMessage": "Username is a required field."
+  },
+  "password": {
+    "defaultMessage": "Password"
+  },
+  "login.label.rememberMe": {
+    "defaultMessage": "Remember me"
+  },
+  "login.link.forgotPassword": {
+    "defaultMessage": "Forgot Password"
+  },
+  "login.button.login": {
+    "defaultMessage": "Log In"
+  },
+  "error.password.required": {
+    "defaultMessage": "Password is a required field."
+  },
+  "dashboard": {
+    "defaultMessage": "Dashboard"
+  },
+  "error.login.205000": {
+    "defaultMessage": "Incorrect username or password. Please try again."
+  },
+  "error.login.201012": {
+    "defaultMessage": "Partner not found. Please try again."
+  },
+  "error.somethingWentWrong": {
+    "defaultMessage": "Something went wrong"
+  },
+  "partner": {
+    "defaultMessage": "Partner"
+  },
+  "forgot.button.backToLoginScreen": {
+    "defaultMessage": "Back To Login Screen"
+  },
+  "forgot.button.sendMyResetLink": {
+    "defaultMessage": "Send my reset link"
+  },
+  "forgot.field.emailAddressOrUsername": {
+    "defaultMessage": "Email address / username"
+  },
+  "welcome": {
+    "defaultMessage": "Welcome"
+  },
+  "logout": {
+    "defaultMessage": "Logout"
+  },
+  "reset": {
+    "defaultMessage": "Reset"
+  },
+  "customers": {
+    "defaultMessage": "Customers"
+  },
+  "banks": {
+    "defaultMessage": "Banks"
+  },
+  "programs": {
+    "defaultMessage": "Programs"
+  },
+  "partners": {
+    "defaultMessage": "Partners"
+  },
+  "changeOrders": {
+    "defaultMessage": "Change Orders"
+  },
+  "users": {
+    "defaultMessage": "Users"
+  },
+  "audit": {
+    "defaultMessage": "Audit"
+  },
+  "acquirer.table.data.POS.condition": {
+    "defaultMessage": "POS Condition"
+  },
+  "acquirer.table.data.POS.entryMode": {
+    "defaultMessage": "POS Entry Mode"
+  },
+  "acquirer.table.data.acceptor.city": {
+    "defaultMessage": "Card Acceptor City"
+  },
+  "acquirer.table.data.acceptor.countryCode": {
+    "defaultMessage": "Card Acceptor Country Code"
+  },
+  "acquirer.table.data.acceptor.terminalID": {
+    "defaultMessage": "Card Acceptor Terminal ID"
+  },
+  "acquirer.table.data.acceptorID": {
+    "defaultMessage": "Card Acceptor ID"
+  },
+  "acquirer.table.data.acceptorName": {
+    "defaultMessage": "Card Acceptor Name"
+  },
+  "acquirer.table.data.auth.code": {
+    "defaultMessage": "Auth Code"
+  },
+  "acquirer.table.data.institutionID": {
+    "defaultMessage": "Acquiring Institution ID"
+  },
+  "acquirer.table.data.mcc": {
+    "defaultMessage": "MCC"
+  },
+  "acquirer.table.data.mti": {
+    "defaultMessage": "MTI"
+  },
+  "additional.info.table.data.activatedRule": {
+    "defaultMessage": "Activated Rule"
+  },
+  "additional.info.table.data.authorization": {
+    "defaultMessage": "Authorization"
+  },
+  "additional.info.table.data.cardPresent": {
+    "defaultMessage": "Card Present"
+  },
+  "additional.info.table.data.debit": {
+    "defaultMessage": "Debit"
+  },
+  "additional.info.table.data.errorMessage": {
+    "defaultMessage": "Error Message"
+  },
+  "additional.info.table.data.failParameter": {
+    "defaultMessage": "Failed Parameter"
+  },
+  "additional.info.table.data.forcePost": {
+    "defaultMessage": "Force Post"
+  },
+  "additional.info.table.data.inbound": {
+    "defaultMessage": "Inbound"
+  },
+  "additional.info.table.data.reversal": {
+    "defaultMessage": "Reversal"
+  },
+  "additional.info.table.data.success": {
+    "defaultMessage": "Success"
+  },
+  "amounts.table.data.acquirer": {
+    "defaultMessage": "Acquirer"
+  },
+  "amounts.table.data.billing": {
+    "defaultMessage": "Billing"
+  },
+  "amounts.table.data.compliance": {
+    "defaultMessage": "Compliance"
+  },
+  "amounts.table.data.partial": {
+    "defaultMessage": "Partial"
+  },
+  "amounts.table.data.replacement": {
+    "defaultMessage": "Replacement"
+  },
+  "amounts.table.data.settlement": {
+    "defaultMessage": "Settlement"
+  },
+  "authholds.amount": {
+    "defaultMessage": "Amount",
+    "description": "Amount of the transaction that triggered the auth"
+  },
+  "authholds.creationTime": {
+    "defaultMessage": "Date Created",
+    "description": "The time the auth hold was created"
+  },
+  "authholds.currency": {
+    "defaultMessage": "Currency",
+    "description": "Currency the hold was placed in"
+  },
+  "authholds.list.button.release": {
+    "defaultMessage": "Release Hold",
+    "description": "Specifies that you can release this auth hold"
+  },
+  "authholds.list.button.released": {
+    "defaultMessage": "Released",
+    "description": "Specifies this auth hold has been released"
+  },
+  "authholds.memo": {
+    "defaultMessage": "Hold Memo",
+    "description": "The Memo describing this Auth Hold"
+  },
+  "authholds.merchant": {
+    "defaultMessage": "Merchant Location",
+    "description": "The address of the merchant"
+  },
+  "authholds.releaseButton": {
+    "defaultMessage": "",
+    "description": ""
+  },
+  "authholds.releaseMemo": {
+    "defaultMessage": "Release Memo",
+    "description": "Reasoning for releasing this hold"
+  },
+  "authholds.releasedBy": {
+    "defaultMessage": "Released By",
+    "description": "The user who authorized the release of this hold"
+  },
+  "authholds.releasedTime": {
+    "defaultMessage": "Date Released",
+    "description": "The time this auth hold was released"
+  },
+  "authholds.source": {
+    "defaultMessage": "Source",
+    "description": "The source of the Auth Hold"
+  },
+  "authholds.toggle.hide.released": {
+    "defaultMessage": "Hide released holds",
+    "description": "Toggle that when switched will hide the released holds"
+  },
+  "authholds.toggle.show.released": {
+    "defaultMessage": "Show released holds",
+    "description": "Toggle that when switched will show the released holds"
+  },
+  "authholds.type": {
+    "defaultMessage": "Type",
+    "description": "The type of the Auth Hold"
+  },
+  "currencies": {
+    "defaultMessage": "Currencies",
+    "description": "Currencies supported by the bank"
+  },
+  "addExchange": {
+    "defaultMessage": "Add New Exchange",
+    "description": "Add new exchange button text"
+  },
+  "addInterchange": {
+    "defaultMessage": "Add New Interchange",
+    "description": "Add new Interchange button text"
+  },
+  "banks.empty": {
+    "defaultMessage": "",
+    "description": "Empty Header"
+  },
+  "banks.exchanges.edit": {
+    "defaultMessage": "",
+    "description": "empty column header"
+  },
+  "banks.header.banks": {
+    "defaultMessage": "Banks"
+  },
+  "banks.header.banksList": {
+    "defaultMessage": "Bank List"
+  },
+  "interchanges": {
+    "defaultMessage": "Interchanges"
+  },
+  "banks.interchanges.edit": {
+    "defaultMessage": "",
+    "description": "empty column header"
+  },
+  "card.type.oneTimeUse": {
+    "defaultMessage": "One-time use",
+    "description": "Card Type"
+  },
+  "card.type.personalized": {
+    "defaultMessage": "Personalized",
+    "description": "Card Type"
+  },
+  "card.type.temporary": {
+    "defaultMessage": "Temporary",
+    "description": "Card Type"
+  },
+  "card.type.virtual": {
+    "defaultMessage": "Virtual",
+    "description": "Card Type"
+  },
+  "card.type.router": {
+    "defaultMessage": "Router",
+    "description": "Card Type"
+  },
+  "changeOrder.button.approve": {
+    "defaultMessage": "APPROVE",
+    "description": "Approve Change Order"
+  },
+  "changeOrder.button.approved": {
+    "defaultMessage": "Approved",
+    "description": "Approved Change Order"
+  },
+  "changeOrder.header.changeOrder": {
+    "defaultMessage": "Change Orders",
+    "description": "change Order header"
+  },
+  "changeOrder.nestedTable.date": {
+    "defaultMessage": "Created",
+    "description": "Date Created"
+  },
+  "changeOrder.nestedTable.empty": {
+    "defaultMessage": "",
+    "description": "Empty Header"
+  },
+  "changeOrder.nestedTable.partner": {
+    "defaultMessage": "Partner",
+    "description": "name of partner"
+  },
+  "changeOrder.nestedTable.type": {
+    "defaultMessage": "Type",
+    "description": "Type of Change Order"
+  },
+  "changeOrder.table.approveButton": {
+    "defaultMessage": "",
+    "description": "Approve Change Order Button"
+  },
+  "changeOrder.table.createdBy": {
+    "defaultMessage": "Created By",
+    "description": "Risk Levels of program/product"
+  },
+  "changeOrder.table.date": {
+    "defaultMessage": "Date",
+    "description": "Fee Plans of program/product"
+  },
+  "changeOrder.table.details": {
+    "defaultMessage": "Details",
+    "description": "Type of program/product"
+  },
+  "changeOrder.table.pendingChange": {
+    "defaultMessage": "Pending Change",
+    "description": "name of program/product"
+  },
+  "changeorder.details.cancel.button": {
+    "defaultMessage": "Cancel",
+    "description": "Input Label"
+  },
+  "changeorder.details.delete.button": {
+    "defaultMessage": "Delete",
+    "description": "Input Label"
+  },
+  "create.risk.exception.button": {
+    "defaultMessage": "Create Risk Exception",
+    "description": "Input Label"
+  },
+  "customer.detail.link.edit.customer": {
+    "defaultMessage": "Edit Customer >>"
+  },
+  "customer.detail.link.view.all.details.customer": {
+    "defaultMessage": "View all details >>"
+  },
+  "customer.iso8583.acquirer": {
+    "defaultMessage": "Acquirer Info",
+    "description": "Iso8583 Acquirer table"
+  },
+  "customer.iso8583.additionalInfo": {
+    "defaultMessage": "Additional Info",
+    "description": "Iso8583 Additional Info table"
+  },
+  "customer.iso8583.amounts": {
+    "defaultMessage": "Amounts",
+    "description": "Iso8583 Amounts table"
+  },
+  "customer.iso8583.general": {
+    "defaultMessage": "General",
+    "description": "Iso8583 General table"
+  },
+  "customer.iso8583.timestamps": {
+    "defaultMessage": "Timestamps",
+    "description": "Iso8583 Timestamp table"
+  },
+  "customer.subAccounts.accountDetailsButton": {
+    "defaultMessage": "",
+    "description": ""
+  },
+  "customer.subAccounts.customerNumber": {
+    "defaultMessage": "Customer Number",
+    "description": "Customer Number"
+  },
+  "customer.subAccounts.homeCurrency": {
+    "defaultMessage": "Home Currency",
+    "description": "Home currency"
+  },
+  "customer.subAccounts.name": {
+    "defaultMessage": "Name",
+    "description": "Primary Person name"
+  },
+  "customer.subAccounts.operatingProgram": {
+    "defaultMessage": "Operating Program",
+    "description": "Operating Program name"
+  },
+  "customer.subAccounts.riskLevel": {
+    "defaultMessage": "Risk Level",
+    "description": "Risk Level of customer"
+  },
+  "customer.subaccount.change.order.button": {
+    "defaultMessage": "Create Change Order",
+    "description": "Input Label"
+  },
+  "customerDetail.card.title.customerDetail": {
+    "defaultMessage": "Customer Details",
+    "description": "Customer Detail card title"
+  },
+  "customerDetail.card.title.declinedActivity": {
+    "defaultMessage": "Declined Activity",
+    "description": "Declined Activity card title"
+  },
+  "customerDetail.card.title.recentActivity": {
+    "defaultMessage": "Recent Activity",
+    "description": "Recent activity card title"
+  },
+  "customerDetail.declinedTxs.amount": {
+    "defaultMessage": "Amount",
+    "description": "Amount of declined tx"
+  },
+  "customerDetail.declinedTxs.currency": {
+    "defaultMessage": "Currency",
+    "description": "Currency of declined tx"
+  },
+  "customerDetail.declinedTxs.date": {
+    "defaultMessage": "Date",
+    "description": "Date of declined tx"
+  },
+  "customerDetail.declinedTxs.reason": {
+    "defaultMessage": "Reason",
+    "description": "Reason of declined tx"
+  },
+  "customerDetail.declinedTxs.source": {
+    "defaultMessage": "Source",
+    "description": "Source of declined tx"
+  },
+  "customerDetail.drawer.riskExceptions.header": {
+    "defaultMessage": "Risk Exceptions"
+  },
+  "customerDetail.drawer.riskLevelParameters.header": {
+    "defaultMessage": "Risk Level Parameters"
+  },
+  "customerDetail.drawer.riskMeasurements.header": {
+    "defaultMessage": "Risk Measurements"
+  },
+  "customerDetail.drawer.riskRules.header": {
+    "defaultMessage": "Risk Rules"
+  },
+  "customerDetail.drawer.riskStatus.createRiskException": {
+    "defaultMessage": "Create Risk Exception"
+  },
+  "customerDetail.drawer.riskStatus.header": {
+    "defaultMessage": "Risk Level Detail"
+  },
+  "customerSearch.filter.accountStatus": {
+    "defaultMessage": "Account Status"
+  },
+  "customerSearch.filter.active": {
+    "defaultMessage": "Active"
+  },
+  "customerSearch.filter.assigned": {
+    "defaultMessage": "Assigned"
+  },
+  "customerSearch.filter.banks": {
+    "defaultMessage": "Banks"
+  },
+  "customerSearch.filter.high": {
+    "defaultMessage": "High"
+  },
+  "customerSearch.filter.inReview": {
+    "defaultMessage": "In Review"
+  },
+  "customerSearch.filter.inactive": {
+    "defaultMessage": "Inactive"
+  },
+  "customerSearch.filter.low": {
+    "defaultMessage": "Low"
+  },
+  "customerSearch.filter.medium": {
+    "defaultMessage": "Medium"
+  },
+  "customerSearch.filter.new": {
+    "defaultMessage": "New"
+  },
+  "customerSearch.filter.onHold": {
+    "defaultMessage": "On Hold"
+  },
+  "customerSearch.filter.partners": {
+    "defaultMessage": "Partners"
+  },
+  "customerSearch.filter.programs": {
+    "defaultMessage": "Programs"
+  },
+  "customerSearch.filter.resolved": {
+    "defaultMessage": "Resolved"
+  },
+  "customerSearch.filter.riskStatus": {
+    "defaultMessage": "Risk Status"
+  },
+  "customerSearch.filter.supportStatus": {
+    "defaultMessage": "Support Status"
+  },
+  "drawer.addCurrency.button.cancel": {
+    "defaultMessage": "Cancel",
+    "description": "Cancel button"
+  },
+  "drawer.addCurrency.button.saveChanges": {
+    "defaultMessage": "Save & Submit Change Order",
+    "description": "Save changes button"
+  },
+  "chooseFeePlanOptional": {
+    "defaultMessage": "Choose Fee Plan (Optional)",
+    "description": "Input Label"
+  },
+  "chooseProgram": {
+    "defaultMessage": "Choose Program",
+    "description": "Input Label"
+  },
+  "drawer.addCurrency.label.currency": {
+    "defaultMessage": "Currency*",
+    "description": "Input Label"
+  },
+  "buyCurrency": {
+    "defaultMessage": "Buy Currency",
+    "description": "Input Label"
+  },
+  "sellCurrency": {
+    "defaultMessage": "Sell Currency",
+    "description": "Input Label"
+  },
+  "drawer.addMemo.button.cancel": {
+    "defaultMessage": "Cancel",
+    "description": "Cancel button"
+  },
+  "drawer.addblock.button.cancel": {
+    "defaultMessage": "Cancel",
+    "description": "Cancel button"
+  },
+  "drawer.addblock.cardEndingIn": {
+    "defaultMessage": "Card Ending In*",
+    "description": "Drawer form placeholder text"
+  },
+  "drawer.addblock.memo": {
+    "defaultMessage": "Memo (128 characters max.)*",
+    "description": "Drawer form placeholder text"
+  },
+  "drawer.addblock.reason": {
+    "defaultMessage": "Reason*",
+    "description": "Drawer form placeholder text"
+  },
+  "drawer.addblock.type": {
+    "defaultMessage": "Type*",
+    "description": "Drawer form placeholder text"
+  },
+  "drawer.addchargeoff.button.cancel": {
+    "defaultMessage": "Cancel",
+    "description": "Cancel button"
+  },
+  "drawer.addchargeoff.button.saveChanges": {
+    "defaultMessage": "Save Changes",
+    "description": "Save changes button"
+  },
+  "drawer.adjustment.amount": {
+    "defaultMessage": "Amount*",
+    "description": "Drawer form placeholder text"
+  },
+  "drawer.adjustment.chooseOrder": {
+    "defaultMessage": "Choose change order*",
+    "description": "Drawer form placeholder text"
+  },
+  "drawer.adjustment.currency": {
+    "defaultMessage": "Currency*",
+    "description": "Drawer form placeholder text"
+  },
+  "drawer.adjustment.memo": {
+    "defaultMessage": "Memo (255 characters max.)",
+    "description": "Drawer form placeholder text"
+  },
+  "drawer.approve.approve": {
+    "defaultMessage": "Approve",
+    "description": "Approve Change Order Button"
+  },
+  "drawer.approve.changeOrder": {
+    "defaultMessage": "Approve Change Order",
+    "description": "drawer header"
+  },
+  "drawer.chargeoff.amount": {
+    "defaultMessage": "Amount*",
+    "description": "Drawer form placeholder text"
+  },
+  "drawer.chargeoff.chooseOrder": {
+    "defaultMessage": "Choose change order*",
+    "description": "Drawer form placeholder text"
+  },
+  "drawer.chargeoff.currency": {
+    "defaultMessage": "Currency*",
+    "description": "Drawer form placeholder text"
+  },
+  "drawer.chargeoff.memo": {
+    "defaultMessage": "Memo (255 characters max.)",
+    "description": "Drawer form placeholder text"
+  },
+  "drawer.confirm.delete": {
+    "defaultMessage": "Delete",
+    "description": "Delete Change Order Button"
+  },
+  "drawer.customer.risk.button.cancel": {
+    "defaultMessage": "Cancel",
+    "description": "Cancel button"
+  },
+  "drawer.customer.risk.button.updateRiskLevel": {
+    "defaultMessage": "Save Changes",
+    "description": "Update risk level button"
+  },
+  "drawer.delete.changeOrder": {
+    "defaultMessage": "Are you sure you want to delete the change order?",
+    "description": "drawer header"
+  },
+  "drawer.delete.delete": {
+    "defaultMessage": "Delete",
+    "description": "Delete Change Order Button"
+  },
+  "drawer.details.changeOrder": {
+    "defaultMessage": "Change Order Details",
+    "description": "drawer header"
+  },
+  "createNewCurrencyMarginPair": {
+    "defaultMessage": "Create New Currency Margin Pair",
+    "description": "Create New Currency Margin Pair button"
+  },
+  "createNewIndividualCurrencyMargin": {
+    "defaultMessage": "Create New Individual Currency Margin",
+    "description": "create New Individual Currency Margin button"
+  },
+  "currencyMarginPairs": {
+    "defaultMessage": "Currency Margin Pairs",
+    "description": "drawer header"
+  },
+  "drawer.editUser.button.back": {
+    "defaultMessage": "Back to Programs",
+    "description": "Back button"
+  },
+  "drawer.exchange.label.newMargins.currency": {
+    "defaultMessage": "Currency*",
+    "description": "Input Label"
+  },
+  "drawer.exchanges.button.cancel": {
+    "defaultMessage": "Cancel",
+    "description": "Cancel button"
+  },
+  "drawer.exchanges.button.saveChanges": {
+    "defaultMessage": "Save Changes",
+    "description": "Save changes button"
+  },
+  "crossTradeCurrency": {
+    "defaultMessage": "Cross Trade Currency",
+    "description": "Section Label"
+  },
+  "currencyPairMarginOptional": {
+    "defaultMessage": "Currency Pair Margin (optional)",
+    "description": "Section Label"
+  },
+  "externalIdCode": {
+    "defaultMessage": "External ID Code",
+    "description": "Section Label"
+  },
+  "individualCurrencyMargin": {
+    "defaultMessage": "Individual Currency Margin",
+    "description": "Section Label"
+  },
+  "individualCurrencyMargins": {
+    "defaultMessage": "Individual Currency Margins",
+    "description": "Section Label"
+  },
+  "individualCurrencyMarginOptional": {
+    "defaultMessage": "Individual Currency Margin (optional)",
+    "description": "Section Label"
+  },
+  "intermediateCurrency": {
+    "defaultMessage": "Intermediate Currency",
+    "description": "Section Label"
+  },
+  "drawer.exchanges.label.name": {
+    "defaultMessage": "Exchange Name*",
+    "description": "Input Label"
+  },
+  "buyMargin": {
+    "defaultMessage": "Buy Margin",
+    "description": "Input Label"
+  },
+  "sellMargin": {
+    "defaultMessage": "Sell Margin",
+    "description": "Input Label"
+  },
+  "addAdditionalCurrencyPair": {
+    "defaultMessage": "Add Additional Currency Pair",
+    "description": "header"
+  },
+  "drawer.exchanges.label.timeZone": {
+    "defaultMessage": "Time Zone*",
+    "description": "Input Label"
+  },
+  "addIndividualCurrencyMargin": {
+    "defaultMessage": "Add Individual Currency Margin",
+    "description": "drawer header"
+  },
+  "editIndividualCurrencyMargin": {
+    "defaultMessage": "Edit Individual Currency Margin"
+  },
+  "drawer.header.addMailTemplate": {
+    "defaultMessage": "Add Mail Template",
+    "description": "drawer header"
+  },
+  "addCurrencyMarginPair": {
+    "defaultMessage": "Add New Currency Margin Pair",
+    "description": "drawer header"
+  },
+  "editCurrencyMarginPair": {
+    "defaultMessage": "Edit Currency Margin Pair"
+  },
+  "drawer.header.addMemoTemplate": {
+    "defaultMessage": "Add Transaction Memo Template",
+    "description": "drawer header"
+  },
+  "drawer.header.addNewAdjustment": {
+    "defaultMessage": "Create New Adjustment",
+    "description": "drawer header"
+  },
+  "drawer.header.addNewBlock": {
+    "defaultMessage": "Add New Block",
+    "description": "drawer header"
+  },
+  "drawer.header.addNewChargeoff": {
+    "defaultMessage": "Create New Chargeoff",
+    "description": "drawer header"
+  },
+  "editInterchange": {
+    "defaultMessage": "Edit Interchange",
+    "description": "drawer header"
+  },
+  "drawer.header.editMailTemplate": {
+    "defaultMessage": "Edit Mail Template",
+    "description": "drawer header"
+  },
+  "drawer.header.editMemoTemplate": {
+    "defaultMessage": "Edit Transaction Memo Template",
+    "description": "drawer header"
+  },
+  "drawer.header.orderNewCard": {
+    "defaultMessage": "Order New Card",
+    "description": "drawer header"
+  },
+  "drawer.header.payment.details": {
+    "defaultMessage": "Payment Network Message Details",
+    "description": "drawer header"
+  },
+  "drawer.interchanges.button.cancel": {
+    "defaultMessage": "Cancel",
+    "description": "Cancel button"
+  },
+  "drawer.interchanges.button.saveChanges": {
+    "defaultMessage": "Save Changes",
+    "description": "Save changes button"
+  },
+  "addCurrency": {
+    "defaultMessage": "Add Currency",
+    "description": "Input Label"
+  },
+  "addIIN": {
+    "defaultMessage": "Add IIN",
+    "description": "Input Label"
+  },
+  "bankName": {
+    "defaultMessage": "Bank Name",
+    "description": "Input Label"
+  },
+  "newIIN": {
+    "defaultMessage": "New IIN",
+    "description": "Input Label"
+  },
+  "interchangeName": {
+    "defaultMessage": "Interchange Name",
+    "description": "Input Label"
+  },
+  "newCurrency": {
+    "defaultMessage": "New Currency",
+    "description": "Input Label"
+  },
+  "drawer.mailTemplate.button.cancel": {
+    "defaultMessage": "Cancel",
+    "description": "Cancel button"
+  },
+  "drawer.mailTemplate.button.saveChanges": {
+    "defaultMessage": "Save Changes",
+    "description": "Save changes button"
+  },
+  "drawer.mailTemplate.label.mailKey": {
+    "defaultMessage": "Mail Key*",
+    "description": "Input Label"
+  },
+  "drawer.mailTemplate.label.sender": {
+    "defaultMessage": "Sender*",
+    "description": "Input Label"
+  },
+  "drawer.mailTemplate.label.subject": {
+    "defaultMessage": "Subject*",
+    "description": "Input Label"
+  },
+  "drawer.mailTemplate.label.template": {
+    "defaultMessage": "Template*",
+    "description": "Input Label"
+  },
+  "drawer.memoTemplate.button.cancel": {
+    "defaultMessage": "Cancel",
+    "description": "Cancel button"
+  },
+  "drawer.memoTemplate.button.saveChanges": {
+    "defaultMessage": "Save Changes",
+    "description": "Save changes button"
+  },
+  "drawer.memoTemplate.label.sender": {
+    "defaultMessage": "Memo Key*",
+    "description": "Input Label"
+  },
+  "drawer.memoTemplate.label.template": {
+    "defaultMessage": "Template*",
+    "description": "Input Label"
+  },
+  "drawer.orderNewCard.button.cancel": {
+    "defaultMessage": "Cancel",
+    "description": "Cancel button"
+  },
+  "drawer.orderNewCard.button.placeOrder": {
+    "defaultMessage": "Place Order",
+    "description": "Save changes button"
+  },
+  "drawer.orderNewCard.label.cardProfile": {
+    "defaultMessage": "Card Profile Name*",
+    "description": "Input Label"
+  },
+  "drawer.orderNewCard.label.customerName": {
+    "defaultMessage": "Customer Name*",
+    "description": "Input Label"
+  },
+  "drawer.program.edit.button.addFeePlan": {
+    "defaultMessage": "Add New Fee Plan >>",
+    "description": "Add New Fee Plan"
+  },
+  "drawer.program.edit.button.addNewCardProfile": {
+    "defaultMessage": "Add New Card Profile >>",
+    "description": "Add New Card Profile button"
+  },
+  "drawer.program.edit.button.addNewMailTemplate": {
+    "defaultMessage": "Add New Mail Template >>",
+    "description": "Add New Mail Template button"
+  },
+  "drawer.program.edit.button.addNewMemoTemplate": {
+    "defaultMessage": "Add New Transaction Memo Template >>",
+    "description": "Add New Transaction Memo Template button"
+  },
+  "drawer.program.edit.button.addNewRiskProfile": {
+    "defaultMessage": "Add New Risk Profile >>",
+    "description": "Add New Risk Profile"
+  },
+  "drawer.programs.edit.label.cardProfiles": {
+    "defaultMessage": "Card Profiles",
+    "description": "Section Label"
+  },
+  "drawer.programs.edit.label.feePlans": {
+    "defaultMessage": "Fee Plans",
+    "description": "Section Label"
+  },
+  "drawer.programs.edit.label.homeCurrency": {
+    "defaultMessage": "Home Currency",
+    "description": "Section Label"
+  },
+  "drawer.programs.edit.label.linkedBank": {
+    "defaultMessage": "Linked Bank",
+    "description": "Section Label"
+  },
+  "linkedPartner": {
+    "defaultMessage": "Linked Partner",
+    "description": "Section Label"
+  },
+  "drawer.programs.edit.label.mailTemplates": {
+    "defaultMessage": "Mail Templates",
+    "description": "Section Label"
+  },
+  "drawer.programs.edit.label.programName": {
+    "defaultMessage": "Program Name",
+    "description": "Section Label"
+  },
+  "drawer.programs.edit.label.riskProfile": {
+    "defaultMessage": "Risk Profiles",
+    "description": "Section Label"
+  },
+  "drawer.programs.edit.label.timeZone": {
+    "defaultMessage": "Time Zone",
+    "description": "Section Label"
+  },
+  "drawer.programs.edit.label.transactionMemoTemplates": {
+    "defaultMessage": "Transaction Memo Templates",
+    "description": "Section Label"
+  },
+  "drawer.release.button.cancel": {
+    "defaultMessage": "Cancel",
+    "description": "Cancel button"
+  },
+  "drawer.release.button.confirm": {
+    "defaultMessage": "Confirm",
+    "description": "Confirm button"
+  },
+  "drawer.riskLevel.table.header.block": {
+    "defaultMessage": "Block",
+    "description": "table header"
+  },
+  "drawer.riskLevel.table.header.created": {
+    "defaultMessage": "Created",
+    "description": "table header"
+  },
+  "drawer.riskLevel.table.header.disabled": {
+    "defaultMessage": "Disabled",
+    "description": "table header"
+  },
+  "drawer.riskLevel.table.header.empty": {
+    "defaultMessage": "",
+    "description": ""
+  },
+  "drawer.riskLevel.table.header.name": {
+    "defaultMessage": "Name",
+    "description": "table header"
+  },
+  "drawer.riskLevel.table.header.notify": {
+    "defaultMessage": "Notify",
+    "description": "table header"
+  },
+  "drawer.riskLevel.table.header.value": {
+    "defaultMessage": "Value",
+    "description": "table header"
+  },
+  "personal": {
+    "defaultMessage": "Personal",
+    "description": "personal email type"
+  },
+  "error.minorCode.unknown": {
+    "defaultMessage": "Unknown Error",
+    "description": "Unknown Error"
+  },
+  "exchange-two-buy-currency-radio-text": {
+    "defaultMessage": "",
+    "description": "Exchange Two radio placeholder text buy"
+  },
+  "exchange-two-sell-currency-radio-text": {
+    "defaultMessage": "",
+    "description": "Exchange Two radio placeholder text sell"
+  },
+  "exchange.button.edit": {
+    "defaultMessage": "EDIT",
+    "description": "Edit exchange information"
+  },
+  "buyMarginPercentage": {
+    "defaultMessage": "Buy Margin %",
+    "description": "Buy Margin %"
+  },
+  "exchange.individual.created": {
+    "defaultMessage": "Created",
+    "description": "Created Time"
+  },
+  "exchange.individual.currency": {
+    "defaultMessage": "Currency",
+    "description": "Currency Name"
+  },
+  "exchange.individual.emptyTitle": {
+    "defaultMessage": "",
+    "description": "Empty title row"
+  },
+  "exchange.individual.feePlan": {
+    "defaultMessage": "Fee Plan",
+    "description": "Fee Plan Name"
+  },
+  "exchange.individual.modified": {
+    "defaultMessage": "Modified",
+    "description": "Modified Time"
+  },
+  "exchange.individual.program": {
+    "defaultMessage": "Program",
+    "description": "Program Name"
+  },
+  "sellMarginPercentage": {
+    "defaultMessage": "Sell Margin %",
+    "description": "Sell Margin %"
+  },
+  "exchangeName": {
+    "defaultMessage": "Exchange Name",
+    "description": "Exchange name"
+  },
+  "exchangeProvider": {
+    "defaultMessage": "Exchange Provider",
+    "description": "Exchange provider name"
+  },
+  "realTime": {
+    "defaultMessage": "Real-Time",
+    "description": "Real Time toggle"
+  },
+  "forgot.fill.fields": {
+    "defaultMessage": "Please fill out the fields below.",
+    "description": "Please fill out fields"
+  },
+  "forgot.reset.link.sent": {
+    "defaultMessage": "Your password reset link is on its way to the email address associated with",
+    "description": "Reset link sent"
+  },
+  "forgot.reset.success": {
+    "defaultMessage": "Success!",
+    "description": "Success"
+  },
+  "forgot.will.send.link": {
+    "defaultMessage": "We'll send you an email with a secure link to reset your password.",
+    "description": "Will send email with link"
+  },
+  "button.hide": {
+    "defaultMessage": "Hide {hideNumber}"
+  },
+  "button.view": {
+    "defaultMessage": "View all {showNumber}"
+  },
+  "genders": {
+    "defaultMessage": "Gender"
+  },
+  "gender.female": {
+    "defaultMessage": "female",
+    "description": "female gender"
+  },
+  "gender.male": {
+    "defaultMessage": "male",
+    "description": "male gender"
+  },
+  "general.no": {
+    "defaultMessage": "No"
+  },
+  "general.table.data.brandType": {
+    "defaultMessage": "Brand Type"
+  },
+  "general.table.data.messageType": {
+    "defaultMessage": "Message Type"
+  },
+  "general.table.data.originalDataElements": {
+    "defaultMessage": "Original Data Elements"
+  },
+  "general.table.data.originalReferenceNumber": {
+    "defaultMessage": "Original Reference Number"
+  },
+  "general.table.data.processingCode": {
+    "defaultMessage": "Processing Code"
+  },
+  "general.table.data.referenceNumber": {
+    "defaultMessage": "Reference Number"
+  },
+  "general.table.data.responseCode": {
+    "defaultMessage": "Response Code"
+  },
+  "general.table.data.retrievalReferenceNumber": {
+    "defaultMessage": "Retrieval Reference Number"
+  },
+  "general.table.data.systemTraceAuditNumber": {
+    "defaultMessage": "System Trace Audit Number"
+  },
+  "general.table.data.transactionSource": {
+    "defaultMessage": "Transaction Source"
+  },
+  "general.table.data.transactionType": {
+    "defaultMessage": "Transaction Type"
+  },
+  "general.yes": {
+    "defaultMessage": "Yes"
+  },
+  "creationDate": {
+    "defaultMessage": "Creation Date",
+    "description": "Creation Date Column"
+  },
+  "mail.template.type.accountBalanceChange": {
+    "defaultMessage": "Account Balance Change",
+    "description": "Mail template type"
+  },
+  "mail.template.type.accountBalanceChangePurchase": {
+    "defaultMessage": "Account Balance Change Purchase",
+    "description": "Mail template type"
+  },
+  "mail.template.type.accountBalanceChangeWithdraw": {
+    "defaultMessage": "Account Balance Change Withdraw",
+    "description": "Mail template type"
+  },
+  "mail.template.type.accountBlock": {
+    "defaultMessage": "Account Block",
+    "description": "Mail template type"
+  },
+  "mail.template.type.accountOpeningAcceptance": {
+    "defaultMessage": "Account Opening Acceptance",
+    "description": "Mail template type"
+  },
+  "mail.template.type.accountSetupComplete": {
+    "defaultMessage": "Account Setup Complete",
+    "description": "Mail template type"
+  },
+  "mail.template.type.addressChanged": {
+    "defaultMessage": "Address Changed",
+    "description": "Mail template type"
+  },
+  "mail.template.type.authorization": {
+    "defaultMessage": "Authorization",
+    "description": "Mail template type"
+  },
+  "mail.template.type.authorizationError": {
+    "defaultMessage": "Authorization Error",
+    "description": "Mail template type"
+  },
+  "mail.template.type.autoTopUp": {
+    "defaultMessage": "Auto Top Up",
+    "description": "Mail template type"
+  },
+  "mail.template.type.autoTopUpRemoved": {
+    "defaultMessage": "Auto Top Up Removed",
+    "description": "Mail template type"
+  },
+  "mail.template.type.autoTopUpSet": {
+    "defaultMessage": "Auto Top Up Set",
+    "description": "Mail template type"
+  },
+  "mail.template.type.availableBalance": {
+    "defaultMessage": "Available Balance",
+    "description": "Mail template type"
+  },
+  "mail.template.type.background": {
+    "defaultMessage": "Background",
+    "description": "Mail template type"
+  },
+  "mail.template.type.cardActivation": {
+    "defaultMessage": "Card Activation",
+    "description": "Mail template type"
+  },
+  "mail.template.type.cardBlock": {
+    "defaultMessage": "Card Block",
+    "description": "Mail template type"
+  },
+  "mail.template.type.cardBlockRelease": {
+    "defaultMessage": "Card Block Release",
+    "description": "Mail template type"
+  },
+  "mail.template.type.cardExternalTokenActivated": {
+    "defaultMessage": "Card External Token Activated",
+    "description": "Mail template type"
+  },
+  "mail.template.type.cardExternalTokenUpdated": {
+    "defaultMessage": "Card External Token Updated",
+    "description": "Mail template type"
+  },
+  "mail.template.type.cashWithdraw": {
+    "defaultMessage": "Cash Withdraw",
+    "description": "Mail template type"
+  },
+  "mail.template.type.closeCustomerAccount": {
+    "defaultMessage": "Close Customer Account",
+    "description": "Mail template type"
+  },
+  "mail.template.type.creditLimit": {
+    "defaultMessage": "Credit Limit",
+    "description": "Mail template type"
+  },
+  "mail.template.type.customerActivation": {
+    "defaultMessage": "Customer Activation",
+    "description": "Mail template type"
+  },
+  "mail.template.type.customerBlock": {
+    "defaultMessage": "Customer Block",
+    "description": "Mail template type"
+  },
+  "mail.template.type.customerPasscodeReset": {
+    "defaultMessage": "Customer Passcode Reset",
+    "description": "Mail template type"
+  },
+  "mail.template.type.customerPasscodeResetCompleted": {
+    "defaultMessage": "Customer Passcode Reset Completed",
+    "description": "Mail template type"
+  },
+  "mail.template.type.customerRisk": {
+    "defaultMessage": "Customer Risk",
+    "description": "Mail template type"
+  },
+  "mail.template.type.customerRiskChangeFailed": {
+    "defaultMessage": "Customer Risk Change Failed",
+    "description": "Mail template type"
+  },
+  "mail.template.type.customerRiskChangeOK": {
+    "defaultMessage": "Customer Risk Change OK",
+    "description": "Mail template type"
+  },
+  "mail.template.type.debitLimit": {
+    "defaultMessage": "Debit Limit",
+    "description": "Mail template type"
+  },
+  "mail.template.type.deliverTokenActivationCode": {
+    "defaultMessage": "Deliver Token Activation Code",
+    "description": "Mail template type"
+  },
+  "mail.template.type.emailChangeRequest": {
+    "defaultMessage": "Email Change Request",
+    "description": "Mail template type"
+  },
+  "mail.template.type.emailChanged": {
+    "defaultMessage": "Email Changed",
+    "description": "Mail template type"
+  },
+  "mail.template.type.foreignTransaction": {
+    "defaultMessage": "Foreign Transaction",
+    "description": "Mail template type"
+  },
+  "mail.template.type.loadComplete": {
+    "defaultMessage": "Load Complete",
+    "description": "Mail template type"
+  },
+  "mail.template.type.loginLocked": {
+    "defaultMessage": "Login Locked",
+    "description": "Mail template type"
+  },
+  "mail.template.type.lowBalance": {
+    "defaultMessage": "Low Balance",
+    "description": "Mail template type"
+  },
+  "mail.template.type.negativeBalance": {
+    "defaultMessage": "Negative Balance",
+    "description": "Mail template type"
+  },
+  "mail.template.type.newAccount": {
+    "defaultMessage": "New Account",
+    "description": "Mail template type"
+  },
+  "mail.template.type.passwordReset": {
+    "defaultMessage": "Password Reset",
+    "description": "Mail template type"
+  },
+  "mail.template.type.passwordResetCompleted": {
+    "defaultMessage": "Password Reset Completed",
+    "description": "Mail template type"
+  },
+  "mail.template.type.phoneChanged": {
+    "defaultMessage": "Phone Changed",
+    "description": "Mail template type"
+  },
+  "mail.template.type.pinChanged": {
+    "defaultMessage": "Pin Changed",
+    "description": "Mail template type"
+  },
+  "mail.template.type.transaction": {
+    "defaultMessage": "Transaction",
+    "description": "Mail template type"
+  },
+  "mail.template.type.transactionComplete": {
+    "defaultMessage": "Transaction Complete",
+    "description": "Mail template type"
+  },
+  "mail.template.type.transactionFailure": {
+    "defaultMessage": "Transaction Failure",
+    "description": "Mail template type"
+  },
+  "mail.template.type.verifyEmail": {
+    "defaultMessage": "Verify Email",
+    "description": "Mail template type"
+  },
+  "mail.template.type.verifyEmailCompleted": {
+    "defaultMessage": "Verify Email Completed",
+    "description": "Mail template type"
+  },
+  "mail.template.type.walletTransfer": {
+    "defaultMessage": "Wallet Transfer",
+    "description": "Mail template type"
+  },
+  "mail.template.type.withdrawal": {
+    "defaultMessage": "Withdrawal",
+    "description": "Mail template type"
+  },
+  "page.title.changeOrders": {
+    "defaultMessage": "Change Orders"
+  },
+  "page.title.customerDetail": {
+    "defaultMessage": "Customer Detail"
+  },
+  "page.title.forgotPassword": {
+    "defaultMessage": "Forgot Password"
+  },
+  "page.title.resetPassword": {
+    "defaultMessage": "Reset password"
+  },
+  "partner.password.first.time.message": {
+    "defaultMessage": "Since this is your first time logging into {brandName}, you'll need to reset your password. Enter your current password below, followed by your new password.",
+    "description": "First time setup message"
+  },
+  "partner.password.reset.message": {
+    "defaultMessage": "Please reset your password",
+    "description": "Please reset password"
+  },
+  "locale": {
+    "defaultMessage": "Locale",
+    "description": "The locale for this partner"
+  },
+  "linkedPartners": {
+    "defaultMessage": "Linked Partners",
+    "description": "Linked Partners"
+  },
+  "linkedPrograms": {
+    "defaultMessage": "Linked Programs",
+    "description": "Linked Programs"
+  },
+  "linkedProgram": {
+    "defaultMessage": "Linked Program"
+  },
+  "partners.header.partnerList": {
+    "defaultMessage": "Partner List"
+  },
+  "partners.header.partners": {
+    "defaultMessage": "Partners"
+  },
+  "password-reset-save-password-button": {
+    "defaultMessage": "Save New Password",
+    "description": "Input Label"
+  },
+  "program.drawer.riskLevel.delete": {
+    "defaultMessage": "Delete"
+  },
+  "programs.cardProfiles.button.edit": {
+    "defaultMessage": "EDIT",
+    "description": "Edit program card profile information"
+  },
+  "programs.cardProfiles.button.view": {
+    "defaultMessage": "VIEW",
+    "description": "View program card profile information"
+  },
+  "programs.edit.bank.button.edit": {
+    "defaultMessage": "EDIT",
+    "description": "Edit program bank"
+  },
+  "programs.edit.partner.button.edit": {
+    "defaultMessage": "EDIT",
+    "description": "Edit program partner information"
+  },
+  "programs.mailTemplates.button.edit": {
+    "defaultMessage": "EDIT",
+    "description": "Edit program mailTemplates information"
+  },
+  "programs.memoTemplates.button.edit": {
+    "defaultMessage": "EDIT",
+    "description": "Edit program memo templates information"
+  },
+  "programs.riskLevel.button.edit": {
+    "defaultMessage": "EDIT",
+    "description": "Edit program risk information"
+  },
+  "release.block.drawer.header": {
+    "defaultMessage": "Release Block",
+    "description": "The action of releasing a block"
+  },
+  "release.hold.drawer.header": {
+    "defaultMessage": "Release Hold",
+    "description": "The action of releasing a hold"
+  },
+  "risk-level-two-delete-button": {
+    "defaultMessage": "Delete",
+    "description": "Input Label"
+  },
+  "risk.exception.created": {
+    "defaultMessage": "Created",
+    "description": "Creation Date/Time"
+  },
+  "risk.exception.deleteButton": {
+    "defaultMessage": "",
+    "description": ""
+  },
+  "risk.exception.modified": {
+    "defaultMessage": "Modified",
+    "description": "Last modified date/time of exception"
+  },
+  "risk.exception.name": {
+    "defaultMessage": "Name",
+    "description": "Name of RiskException"
+  },
+  "risk.exception.releaseDate": {
+    "defaultMessage": "Release Date",
+    "description": "The date the risk exception is to be released"
+  },
+  "risk.exception.value": {
+    "defaultMessage": "Value",
+    "description": "Max value of RiskException"
+  },
+  "risk.measurement.block": {
+    "defaultMessage": "Block",
+    "description": "Whether or not measurement triggers a block"
+  },
+  "risk.measurement.creationTime": {
+    "defaultMessage": "Created",
+    "description": "Creation date/time of Risk Measurement"
+  },
+  "risk.measurement.currentValue": {
+    "defaultMessage": "Current Value",
+    "description": "Current Value of Measurement"
+  },
+  "risk.measurement.disabled": {
+    "defaultMessage": "Disabled",
+    "description": "Whether or not measurement is disabled"
+  },
+  "risk.measurement.maxValue": {
+    "defaultMessage": "Max Value",
+    "description": "Max Value of Measurement"
+  },
+  "risk.measurement.name": {
+    "defaultMessage": "Name",
+    "description": "Name of param/measurement"
+  },
+  "risk.measurement.notify": {
+    "defaultMessage": "Notify",
+    "description": "Whether or not measurement is set to notify customer"
+  },
+  "risk.param.activation_time_limit": {
+    "defaultMessage": "Activation Time Limit",
+    "description": "Risk Param"
+  },
+  "risk.param.adjustment_1d": {
+    "defaultMessage": "Adjustment limit for 1 day",
+    "description": "Risk Param"
+  },
+  "risk.param.adjustment_30d": {
+    "defaultMessage": "Adjustment 30 day",
+    "description": "Risk Param"
+  },
+  "risk.param.adjustment_7d": {
+    "defaultMessage": "Adjustment limit for 7 days",
+    "description": "Risk Param"
+  },
+  "risk.param.adjustment_limit": {
+    "defaultMessage": "Adjustment limit",
+    "description": "Risk Param"
+  },
+  "risk.param.age_limit": {
+    "defaultMessage": "Age limit",
+    "description": "Risk Param"
+  },
+  "risk.param.allowed_mcc": {
+    "defaultMessage": "Allowed MCC",
+    "description": "Risk Param"
+  },
+  "risk.param.atm_1d": {
+    "defaultMessage": "ATM withdrawal limit for 1 day",
+    "description": "Risk Param"
+  },
+  "risk.param.atm_30d": {
+    "defaultMessage": "ATM withdrawal limit for 30 days",
+    "description": "Risk Param"
+  },
+  "risk.param.atm_7d": {
+    "defaultMessage": "ATM withdrawal limit for 7 days",
+    "description": "Risk Param"
+  },
+  "risk.param.atm_count_7d": {
+    "defaultMessage": "ATM Count for 7 days",
+    "description": "Risk Param"
+  },
+  "risk.param.atm_limit": {
+    "defaultMessage": "ATM withdrawal limit",
+    "description": "Risk Param"
+  },
+  "risk.param.atm_reversal_count_1d": {
+    "defaultMessage": "ATM Reversal Count for 1 day",
+    "description": "Risk Param"
+  },
+  "risk.param.auto_top_up_count_1d": {
+    "defaultMessage": "Auto top up count for 1 day",
+    "description": "Risk Param"
+  },
+  "risk.param.auto_top_up_limit": {
+    "defaultMessage": "Auto top up limit",
+    "description": "Risk Param"
+  },
+  "risk.param.auto_top_up_limit_1d": {
+    "defaultMessage": "Auto top up limit 1 day",
+    "description": "Risk Param"
+  },
+  "risk.param.balance_floor": {
+    "defaultMessage": "Balance floor",
+    "description": "Risk Param"
+  },
+  "risk.param.balance_limit": {
+    "defaultMessage": "Balance limit",
+    "description": "Risk Param"
+  },
+  "risk.param.blocked_countries": {
+    "defaultMessage": "Blocked countries",
+    "description": "Risk Param"
+  },
+  "risk.param.blocked_mcc": {
+    "defaultMessage": "Blocked MCC codes",
+    "description": "Risk Param"
+  },
+  "risk.param.exchange_quote_duration": {
+    "defaultMessage": "Exchange quote duration",
+    "description": "Risk Param"
+  },
+  "risk.param.hierarchy_max_level": {
+    "defaultMessage": "Heirarchy max level",
+    "description": "Risk Param"
+  },
+  "risk.param.load_limit": {
+    "defaultMessage": "Load limit",
+    "description": "Risk Param"
+  },
+  "risk.param.load_limit_1d": {
+    "defaultMessage": "Load limit for 1 day",
+    "description": "Risk Param"
+  },
+  "risk.param.load_limit_1y": {
+    "defaultMessage": "Load limit for 1 year",
+    "description": "Risk Param"
+  },
+  "risk.param.load_limit_30d": {
+    "defaultMessage": "Load limit for 30 days",
+    "description": "Risk Param"
+  },
+  "risk.param.low_balance_threshold": {
+    "defaultMessage": "Low balance threshold",
+    "description": "Risk Param"
+  },
+  "risk.param.max_cards_allowed": {
+    "defaultMessage": "Maximum number of cards allowed",
+    "description": "Risk Param"
+  },
+  "risk.param.max_num_cards": {
+    "defaultMessage": "Maximum number of cards per customer account",
+    "description": "Risk Param"
+  },
+  "risk.param.max_num_persons": {
+    "defaultMessage": "Maximum number of persons per customer account",
+    "description": "Risk Param"
+  },
+  "risk.param.max_num_tokens_per_card": {
+    "defaultMessage": "Maximum number of tokens per card",
+    "description": "Risk Param"
+  },
+  "risk.param.minimum_load": {
+    "defaultMessage": "Minimum load",
+    "description": "Risk Param"
+  },
+  "risk.param.not_allowed_first_transaction_types": {
+    "defaultMessage": "Not allowed first transaction types",
+    "description": "Risk Param"
+  },
+  "risk.param.online_purchase_1d": {
+    "defaultMessage": "Online purchase limit for 1 day",
+    "description": "Risk Param"
+  },
+  "risk.param.online_purchase_7d": {
+    "defaultMessage": "Online purchase limit for 7 days",
+    "description": "Risk Param"
+  },
+  "risk.param.online_purchase_limit": {
+    "defaultMessage": "Online purchase limit",
+    "description": "Risk Param"
+  },
+  "risk.param.p2p_1d": {
+    "defaultMessage": "P2P transfer limit for 1 day",
+    "description": "Risk Param"
+  },
+  "risk.param.p2p_1y": {
+    "defaultMessage": "P2P transfer limit for 1 year",
+    "description": "Risk Param"
+  },
+  "risk.param.p2p_30d": {
+    "defaultMessage": "P2P transfer limit for 30 days",
+    "description": "Risk Param"
+  },
+  "risk.param.p2p_7d": {
+    "defaultMessage": "P2P transfer limit for 7 days",
+    "description": "Risk Param"
+  },
+  "risk.param.p2p_limit": {
+    "defaultMessage": "P2P transfer limit",
+    "description": "Risk Param"
+  },
+  "risk.param.p2p_limit_recv": {
+    "defaultMessage": "P2P limit received",
+    "description": "Risk Param"
+  },
+  "risk.param.p2p_recv_1d": {
+    "defaultMessage": "P2P received limit for 1 day",
+    "description": "Risk Param"
+  },
+  "risk.param.p2p_recv_1y": {
+    "defaultMessage": "P2P received limit for 1 year",
+    "description": "Risk Param"
+  },
+  "risk.param.p2p_recv_30d": {
+    "defaultMessage": "P2P received limit for 30 days",
+    "description": "Risk Param"
+  },
+  "risk.param.passcode_reset_time_limit": {
+    "defaultMessage": "Passcode reset time limit",
+    "description": "Risk Param"
+  },
+  "risk.param.password_history_count": {
+    "defaultMessage": "Password history count",
+    "description": "Risk Param"
+  },
+  "risk.param.password_reset_time_limit": {
+    "defaultMessage": "Customer password reset time limit",
+    "description": "Risk Param"
+  },
+  "risk.param.pin_fail_count": {
+    "defaultMessage": "Failed PIN count limit",
+    "description": "Risk Param"
+  },
+  "risk.param.pin_fail_count_temporary_lock": {
+    "defaultMessage": "PIN fail count temporary lock",
+    "description": "Risk Param"
+  },
+  "risk.param.pos_purchase_1d": {
+    "defaultMessage": "POS purchase limit for 1 day",
+    "description": "Risk Param"
+  },
+  "risk.param.pos_purchase_7d": {
+    "defaultMessage": "POS purchase limit for 7 days",
+    "description": "Risk Param"
+  },
+  "risk.param.pos_purchase_limit": {
+    "defaultMessage": "POS purchase limit",
+    "description": "Risk Param"
+  },
+  "risk.param.pre_approval_interval_begin": {
+    "defaultMessage": "Pre-approval interval begin",
+    "description": "Risk Param"
+  },
+  "risk.param.pre_approval_interval_end": {
+    "defaultMessage": "Pre-approval interval end",
+    "description": "Risk Param"
+  },
+  "risk.param.purchase_1d": {
+    "defaultMessage": "Purchase limit for 1 day",
+    "description": "Risk Param"
+  },
+  "risk.param.purchase_1y": {
+    "defaultMessage": "Purchase limit for 1 year",
+    "description": "Risk Param"
+  },
+  "risk.param.purchase_30d": {
+    "defaultMessage": "Purchase limit for 30 days",
+    "description": "Risk Param"
+  },
+  "risk.param.purchase_7d": {
+    "defaultMessage": "Purchase limit for 7 days",
+    "description": "Risk Param"
+  },
+  "risk.param.purchase_count_same_merchant_3d": {
+    "defaultMessage": "Purchase same merchant 3 day (Count)",
+    "description": "Risk Param"
+  },
+  "risk.param.purchase_limit": {
+    "defaultMessage": "Purchase limit",
+    "description": "Risk Param"
+  },
+  "risk.param.purchase_limit_recv": {
+    "defaultMessage": "Purchase limit received",
+    "description": "Risk Param"
+  },
+  "risk.param.purchase_no_cvm_1d": {
+    "defaultMessage": "Purchase no CVM 1 day",
+    "description": "Risk Param"
+  },
+  "risk.param.purchase_no_cvm_count_1d": {
+    "defaultMessage": "Purchase no CVM Count 1 day",
+    "description": "Risk Param"
+  },
+  "risk.param.purchase_no_cvm_limit": {
+    "defaultMessage": "Purchase no CVM Limit",
+    "description": "Risk Param"
+  },
+  "risk.param.purchase_same_merchant_3d": {
+    "defaultMessage": "Purchase same merchant 3 day (Amount)",
+    "description": "Risk Param"
+  },
+  "risk.param.refund_1d": {
+    "defaultMessage": "Refund limit for 1 day",
+    "description": "Risk Param"
+  },
+  "risk.param.refund_1y": {
+    "defaultMessage": "Refund limit for 1 year",
+    "description": "Risk Param"
+  },
+  "risk.param.refund_30d": {
+    "defaultMessage": "Refund limit for 30 days",
+    "description": "Risk Param"
+  },
+  "risk.param.refund_7d": {
+    "defaultMessage": "Refund limit for 7 days",
+    "description": "Risk Param"
+  },
+  "risk.param.refund_count_1d": {
+    "defaultMessage": "Refund count limit for 1 day",
+    "description": "Risk Param"
+  },
+  "risk.param.refund_count_7d": {
+    "defaultMessage": "Refund count limit for 7 days",
+    "description": "Risk Param"
+  },
+  "risk.param.refund_limit": {
+    "defaultMessage": "Refund limit",
+    "description": "Risk Param"
+  },
+  "risk.param.refund_limit_recv": {
+    "defaultMessage": "Refund limit received",
+    "description": "Risk Param"
+  },
+  "risk.param.refund_purchase_period": {
+    "defaultMessage": "Refund period",
+    "description": "Risk Param"
+  },
+  "risk.param.rejected_count_5d": {
+    "defaultMessage": "Rejected count 5 day",
+    "description": "Risk Param"
+  },
+  "risk.param.verify_email_time_limit": {
+    "defaultMessage": "Verify email time limit",
+    "description": "Risk Param"
+  },
+  "risk.param.withdraw_1d": {
+    "defaultMessage": "Withdrawal limit for 1 day",
+    "description": "Risk Param"
+  },
+  "risk.param.withdraw_1y": {
+    "defaultMessage": "Withdraw limit for 1 year",
+    "description": "Risk Param"
+  },
+  "risk.param.withdraw_30d": {
+    "defaultMessage": "Withdraw limit for 30 days",
+    "description": "Risk Param"
+  },
+  "risk.param.withdraw_7d": {
+    "defaultMessage": "Withdrawal limit for 7 days",
+    "description": "Risk Param"
+  },
+  "risk.param.withdraw_limit": {
+    "defaultMessage": "Withdrawal limit",
+    "description": "Risk Param"
+  },
+  "risk.param.accumulated_purchase_limit": {
+    "defaultMessage": "Accumulated purchase limit",
+    "description": "Risk Param"
+  },
+  "risk.param.disable_card_not_present": {
+    "defaultMessage": "Disable card not present",
+    "description": "Risk Param"
+  },
+  "risk.param.disable_mag_stripe": {
+    "defaultMessage": "Disable magnetic stripe",
+    "description": "Risk Param"
+  },
+  "risk.param.limit_card_not_present": {
+    "defaultMessage": "Limit card not present",
+    "description": "Risk Param"
+  },
+  "risk.param.limit_mag_stripe": {
+    "defaultMessage": "Limit magnetic stripe",
+    "description": "Risk Param"
+  },
+  "risk.param.sg_withdraw": {
+    "defaultMessage": "Singapore ATM Withdrawals",
+    "description": "Risk Param"
+  },
+  "riskStatus.section.header.holds": {
+    "defaultMessage": "Holds",
+    "description": "Holds section header"
+  },
+  "standardtable.emptyrow": {
+    "defaultMessage": "There are no results to display."
+  },
+  "subaccount.button": {
+    "defaultMessage": "View Account Details",
+    "description": "Input Label"
+  },
+  "subaccount.button.2": {
+    "defaultMessage": "Add New Account",
+    "description": "Input Label"
+  },
+  "subaccounts.section.header.accounts": {
+    "defaultMessage": "Accounts",
+    "description": "Accounts section header"
+  },
+  "timestamps.table.data.authReleased": {
+    "defaultMessage": "Auth Released"
+  },
+  "timestamps.table.data.creation": {
+    "defaultMessage": "Creation"
+  },
+  "timestamps.table.data.modified": {
+    "defaultMessage": "Modified"
+  },
+  "timestamps.table.data.settlement": {
+    "defaultMessage": "Settlement"
+  },
+  "timestamps.table.data.transmission": {
+    "defaultMessage": "Transmission"
+  },
+  "transaction.source.customer": {
+    "defaultMessage": "Customer",
+    "description": "Transaction initiated by customer"
+  },
+  "transaction.source.internal": {
+    "defaultMessage": "Internal",
+    "description": "Transaction initiated by the system"
+  },
+  "transaction.source.inwalletATM": {
+    "defaultMessage": "In Wallet ATM",
+    "description": "ATM transaction made with in wallet info"
+  },
+  "transaction.source.inwalletPOS": {
+    "defaultMessage": "In Wallet POS",
+    "description": "Point of sales transaction made with in wallet info"
+  },
+  "transaction.source.mobilecommerce": {
+    "defaultMessage": "Mobile Commerce",
+    "description": "Online transaction initiated from phone"
+  },
+  "transaction.source.online": {
+    "defaultMessage": "Online",
+    "description": "Transaction performed over the internet"
+  },
+  "transaction.source.outofwalletATM": {
+    "defaultMessage": "Out of Wallet ATM",
+    "description": "ATM transaction made with  out of wallet info"
+  },
+  "transaction.source.outofwalletPOS": {
+    "defaultMessage": "Out of Wallet POS",
+    "description": "Point of sales transaction with out of wallet info"
+  },
+  "transaction.source.partner": {
+    "defaultMessage": "Partner",
+    "description": "Transaction initiated by partner"
+  },
+  "transaction.source.static": {
+    "defaultMessage": "Static",
+    "description": "QR Code printed in static format"
+  },
+  "transaction.source.unknown": {
+    "defaultMessage": "Unknown",
+    "description": "Unknown transaction source"
+  },
+  "transaction.type.addressing": {
+    "defaultMessage": "Addressing"
+  },
+  "transaction.type.balanceInquiry": {
+    "defaultMessage": "Balance Inquiry",
+    "description": "Transaction represents a Balance Inquiry"
+  },
+  "transaction.type.cardSale": {
+    "defaultMessage": "Card Sale",
+    "description": "Card purchase for order"
+  },
+  "transaction.type.cashback": {
+    "defaultMessage": "Cashback"
+  },
+  "transaction.type.chargeBack": {
+    "defaultMessage": "Chargeback",
+    "description": "Chargeback"
+  },
+  "transaction.type.chargeoff": {
+    "defaultMessage": "Chargeoff"
+  },
+  "transaction.type.closeAccount": {
+    "defaultMessage": "Close Account"
+  },
+  "transaction.type.consolidated": {
+    "defaultMessage": "Consolidated"
+  },
+  "transaction.type.customerAdjustment": {
+    "defaultMessage": "Customer Adjustment"
+  },
+  "transaction.type.exchange": {
+    "defaultMessage": "Exchange",
+    "description": "Represents an Exchange Transaction"
+  },
+  "transaction.type.exchangeAdjustment": {
+    "defaultMessage": "Exchange Adjustment"
+  },
+  "transaction.type.exchangeMargin": {
+    "defaultMessage": "Exchange Margin",
+    "description": "Exchange Margin"
+  },
+  "transaction.type.expeditedShipping": {
+    "defaultMessage": "Expedited Shipping"
+  },
+  "transaction.type.fee": {
+    "defaultMessage": "Fee"
+  },
+  "transaction.type.interest": {
+    "defaultMessage": "Interest"
+  },
+  "transaction.type.load": {
+    "defaultMessage": "Load",
+    "description": "Transaction represents a load"
+  },
+  "transaction.type.maintenance": {
+    "defaultMessage": "Maintenance"
+  },
+  "transaction.type.newAccount": {
+    "defaultMessage": "New Account",
+    "description": "Transaction represents an account being created"
+  },
+  "transaction.type.p2p": {
+    "defaultMessage": "P2P",
+    "description": "Transaction represents a P2P Transfer"
+  },
+  "transaction.type.purchase": {
+    "defaultMessage": "Purchase",
+    "description": "Transaction represents a purchase"
+  },
+  "transaction.type.refund": {
+    "defaultMessage": "Refund",
+    "description": "Transaction represents a refund"
+  },
+  "transaction.type.reward": {
+    "defaultMessage": "Reward"
+  },
+  "transaction.type.secondPresentment": {
+    "defaultMessage": "Second Presentment",
+    "description": "Second Presentment"
+  },
+  "transaction.type.settlement": {
+    "defaultMessage": "Settlement"
+  },
+  "transaction.type.shipping": {
+    "defaultMessage": "Shipping"
+  },
+  "transaction.type.unknown": {
+    "defaultMessage": "Unknown",
+    "description": "Unknown transaction type"
+  },
+  "transaction.type.walletTransfer": {
+    "defaultMessage": "Wallet Transfer",
+    "description": "Transaction represents a transfer between wallets"
+  },
+  "transaction.type.withdraw": {
+    "defaultMessage": "Withdraw",
+    "description": "Transaction represents a withdraw"
+  },
+  "transaction.type.withholding": {
+    "defaultMessage": "Withholding"
+  },
+  "addNewPartner": {
+    "defaultMessage": "Add New Partner",
+    "description": "Add new partner information"
+  },
+  "editPartner": {
+    "defaultMessage": "Edit Partner"
+  },
+  "wallet.exchange.confirm": {
+    "defaultMessage": "Confirm Exchange",
+    "description": "Button to confirm exchange"
+  },
+  "customer": {
+    "defaultMessage": "Customer"
+  },
+  "customerSearch": {
+    "defaultMessage": "Customer Search"
+  },
+  "externalReference": {
+    "defaultMessage": "External Reference"
+  },
+  "card": {
+    "defaultMessage": "Card"
+  },
+  "search": {
+    "defaultMessage": "Search"
+  },
+  "customerSearchForm.input.placeholder.text": {
+    "defaultMessage": "Customer number or full customer name"
+  },
+  "error.requiredField": {
+    "defaultMessage": "Required field"
+  },
+  "customerSearchForm.error.nameRequired": {
+    "defaultMessage": "First and Last Name are required"
+  },
+  "customerSearchForm.error.firstNameMinChars": {
+    "defaultMessage": "First name must contain at least 1 characters."
+  },
+  "customerSearchForm.error.lastNameMinChars": {
+    "defaultMessage": "Last name must contain at least 1 characters."
+  },
+  "familyName": {
+    "defaultMessage": "Family Name"
+  },
+  "givenName": {
+    "defaultMessage": "First Name"
+  },
+  "firstName": {
+    "defaultMessage": "First Name"
+  },
+  "middleName": {
+    "defaultMessage": "Middle Name"
+  },
+  "lastName": {
+    "defaultMessage": "Last Name"
+  },
+  "secondLastName": {
+    "defaultMessage": "Second Last Name"
+  },
+  "suffix": {
+    "defaultMessage": "Suffix"
+  },
+  "nickName": {
+    "defaultMessage": "Nickname"
+  },
+  "program": {
+    "defaultMessage": "Program"
+  },
+  "contactNumber": {
+    "defaultMessage": "Contact #"
+  },
+  "emailAddress": {
+    "defaultMessage": "Email Address"
+  },
+  "city": {
+    "defaultMessage": "City"
+  },
+  "country": {
+    "defaultMessage": "Country"
+  },
+  "postalCode": {
+    "defaultMessage": "Postal Code"
+  },
+  "error.mustBeANumber": {
+    "defaultMessage": "Must be a number"
+  },
+  "cardNumber": {
+    "defaultMessage": "Card number"
+  },
+  "table.pagination.results": {
+    "defaultMessage": "Showing {rangeStart}-{rangeEnd} of {totalCount} results"
+  },
+  "showApprovedChangeOrders": {
+    "defaultMessage": "Show Approved Change Orders"
+  },
+  "pendingChange": {
+    "defaultMessage": "Pending Change"
+  },
+  "details": {
+    "defaultMessage": "Details"
+  },
+  "createdBy": {
+    "defaultMessage": "Created By"
+  },
+  "button.approve": {
+    "defaultMessage": "APPROVE"
+  },
+  "changeOrder": {
+    "defaultMessage": "Change Order"
+  },
+  "changeRequest": {
+    "defaultMessage": "Change Request"
+  },
+  "approved": {
+    "defaultMessage": "Approved"
+  },
+  "changeOrderDetails": {
+    "defaultMessage": "Change Order Details"
+  },
+  "delete": {
+    "defaultMessage": "Delete"
+  },
+  "approveChangeOrder": {
+    "defaultMessage": "Approve Change Order"
+  },
+  "approve": {
+    "defaultMessage": "Approve"
+  },
+  "input.memo.placeholder": {
+    "defaultMessage": "Memo (300 characters max.)"
+  },
+  "changeRequests": {
+    "defaultMessage": "Change Requests"
+  },
+  "label.language.english": {
+    "defaultMessage": "U.S. - English"
+  },
+  "label.language.japanese": {
+    "defaultMessage": "Japanese"
+  },
+  "label.language.portuguese": {
+    "defaultMessage": "Portuguese"
+  },
+  "label.language.spanish": {
+    "defaultMessage": "Spanish"
+  },
+  "bank": {
+    "defaultMessage": "Bank"
+  },
+  "date": {
+    "defaultMessage": "Date"
+  },
+  "source": {
+    "defaultMessage": "Source"
+  },
+  "reason": {
+    "defaultMessage": "Reason"
+  },
+  "activityLog": {
+    "defaultMessage": "Activity Log"
+  },
+  "action": {
+    "defaultMessage": "Action"
+  },
+  "user": {
+    "defaultMessage": "User"
+  },
+  "filterByDate": {
+    "defaultMessage": "Filter by Date"
+  },
+  "today": {
+    "defaultMessage": "Today"
+  },
+  "thisWeek": {
+    "defaultMessage": "This Week"
+  },
+  "thisMonth": {
+    "defaultMessage": "This Month"
+  },
+  "custom": {
+    "defaultMessage": "Custom"
+  },
+  "fromDate": {
+    "defaultMessage": "From Date"
+  },
+  "toDate": {
+    "defaultMessage": "To Date"
+  },
+  "filterByUser": {
+    "defaultMessage": "Filter by User"
+  },
+  "filterByCustomer": {
+    "defaultMessage": "Filter by Customer"
+  },
+  "clearFilters": {
+    "defaultMessage": "Clear filters"
+  },
+  "userName": {
+    "defaultMessage": "User name"
+  },
+  "customerNumber": {
+    "defaultMessage": "Customer number"
+  },
+  "filterResults": {
+    "defaultMessage": "Filter Results"
+  },
+  "error.fromDateLessThanToDate": {
+    "defaultMessage": "From Date Must Be Less than \"To Date\""
+  },
+  "error.toDateGreaterThanFromDate": {
+    "defaultMessage": "To Date Must Be Greater than \"From Date\""
+  },
+  "january": {
+    "defaultMessage": "January"
+  },
+  "february": {
+    "defaultMessage": "February"
+  },
+  "march": {
+    "defaultMessage": "March"
+  },
+  "april": {
+    "defaultMessage": "April"
+  },
+  "may": {
+    "defaultMessage": "May"
+  },
+  "june": {
+    "defaultMessage": "June"
+  },
+  "july": {
+    "defaultMessage": "July"
+  },
+  "august": {
+    "defaultMessage": "August"
+  },
+  "september": {
+    "defaultMessage": "September"
+  },
+  "october": {
+    "defaultMessage": "October"
+  },
+  "november": {
+    "defaultMessage": "November"
+  },
+  "december": {
+    "defaultMessage": "December"
+  },
+  "weekdaysMin.sunday": {
+    "defaultMessage": "SU"
+  },
+  "weekdaysMin.monday": {
+    "defaultMessage": "M"
+  },
+  "weekdaysMin.tuesday": {
+    "defaultMessage": "TU"
+  },
+  "weekdaysMin.wednesday": {
+    "defaultMessage": "W"
+  },
+  "weekdaysMin.thursday": {
+    "defaultMessage": "TH"
+  },
+  "weekdaysMin.friday": {
+    "defaultMessage": "F"
+  },
+  "weekdaysMin.saturday": {
+    "defaultMessage": "SA"
+  },
+  "addNewUser": {
+    "defaultMessage": "Add New User"
+  },
+  "lastLogin": {
+    "defaultMessage": "Last Login"
+  },
+  "segments": {
+    "defaultMessage": "Segments"
+  },
+  "cardIssuance": {
+    "defaultMessage": "Card Issuance"
+  },
+  "messaging": {
+    "defaultMessage": "Messaging"
+  },
+  "button.edit": {
+    "defaultMessage": "EDIT"
+  },
+  "addNewMailTemplate": {
+    "defaultMessage": "Add New Mail Template"
+  },
+  "addNewTransactionMemoTemplate": {
+    "defaultMessage": "Add New Transaction Memo Template"
+  },
+  "mailTemplates": {
+    "defaultMessage": "Mail Templates"
+  },
+  "transactionMemoTemplates": {
+    "defaultMessage": "Transaction Memo Templates"
+  },
+  "editMailTemplate": {
+    "defaultMessage": "Edit Mail Template"
+  },
+  "language": {
+    "defaultMessage": "Language"
+  },
+  "mailKey": {
+    "defaultMessage": "Mail Key"
+  },
+  "sender": {
+    "defaultMessage": "Sender"
+  },
+  "subject": {
+    "defaultMessage": "Subject"
+  },
+  "error.mailKey.required": {
+    "defaultMessage": "Mail Key is a required field."
+  },
+  "error.language.required": {
+    "defaultMessage": "Language is a required field."
+  },
+  "error.sender.required": {
+    "defaultMessage": "Sender is a required field."
+  },
+  "error.subject.required": {
+    "defaultMessage": "Subject is a required field."
+  },
+  "error.template.required": {
+    "defaultMessage": "Template is a required field."
+  },
+  "addNewCardProfile": {
+    "defaultMessage": "Add New Card Profile"
+  },
+  "cardProfiles": {
+    "defaultMessage": "Card Profiles"
+  },
+  "editCardProfile": {
+    "defaultMessage": "Edit Card Profile"
+  },
+  "cardProfileName": {
+    "defaultMessage": "Card Profile Name"
+  },
+  "description": {
+    "defaultMessage": "Description"
+  },
+  "cardType": {
+    "defaultMessage": "Card Type"
+  },
+  "bankIIN": {
+    "defaultMessage": "Bank IIN"
+  },
+  "serviceCode": {
+    "defaultMessage": "Service Code"
+  },
+  "IINSegment": {
+    "defaultMessage": "IIN Segment"
+  },
+  "expiryMonths": {
+    "defaultMessage": "Expiry (number of months)"
+  },
+  "embossedName": {
+    "defaultMessage": "Embossed Name"
+  },
+  "PINLength": {
+    "defaultMessage": "PIN Length"
+  },
+  "issuerIdentifier": {
+    "defaultMessage": "Issuer identifier"
+  },
+  "feePlans": {
+    "defaultMessage": "Fee Plans"
+  },
+  "riskLevels": {
+    "defaultMessage": "Risk Levels"
+  },
+  "addNewFeePlan": {
+    "defaultMessage": "Add New Fee Plan"
+  },
+  "continue": {
+    "defaultMessage": "Continue"
+  },
+  "location": {
+    "defaultMessage": "Location"
+  },
+  "timeZone": {
+    "defaultMessage": "Time Zone"
+  },
+  "homeCurrency": {
+    "defaultMessage": "Home Currency"
+  },
+  "exchanges": {
+    "defaultMessage": "Exchanges"
+  },
+  "cardProfile.success.update": {
+    "defaultMessage": "Card Profile Has Been Updated Successfully"
+  },
+  "cardProfile.success.save": {
+    "defaultMessage": "Card Profile Has Been Saved Successfully"
+  },
+  "error.maxLength64": {
+    "defaultMessage": "Max length is 64"
+  },
+  "error.maxLength4": {
+    "defaultMessage": "Max length is 4"
+  },
+  "error.maxLength26": {
+    "defaultMessage": "Max length is 26"
+  },
+  "error.maxLength16": {
+    "defaultMessage": "Max length is 16"
+  },
+  "error.maxLength10": {
+    "defaultMessage": "Max length is 10"
+  },
+  "error.name.required": {
+    "defaultMessage": "Name is required."
+  },
+  "error.description.required": {
+    "defaultMessage": "Description is required."
+  },
+  "error.serviceCode.required": {
+    "defaultMessage": "Service Code is required."
+  },
+  "error.IINSegment.required": {
+    "defaultMessage": "IIN Segment is required."
+  },
+  "error.expiryMonths.required": {
+    "defaultMessage": "Expiration time in months is required"
+  },
+  "error.cardType.required": {
+    "defaultMessage": "Card Type is required."
+  },
+  "error.bankIIN.required": {
+    "defaultMessage": "Bank IIN is required."
+  },
+  "error.PANLength.required": {
+    "defaultMessage": "PAN Length is required."
+  },
+  "error.PINLength.required": {
+    "defaultMessage": "PIN Length is required."
+  },
+  "createNewFeePlan": {
+    "defaultMessage": "Create New Fee Plan"
+  },
+  "feePlanDetails": {
+    "defaultMessage": "Fee Plan Details"
+  },
+  "feePlan": {
+    "defaultMessage": "Fee Plan"
+  },
+  "program.hideFeePlans": {
+    "defaultMessage": "Hide all fees assigned to this fee plan"
+  },
+  "program.showFeePlans": {
+    "defaultMessage": "Show all fees assigned to this fee plan"
+  },
+  "button.addFeeEntry": {
+    "defaultMessage": "ADD FEE ENTRY"
+  },
+  "error.feePlan.required": {
+    "defaultMessage": "Fee Plan is a required field"
+  },
+  "error.currency.required": {
+    "defaultMessage": "Currency is a required field"
+  },
+  "error.program.feeAmount.required": {
+    "defaultMessage": "Fee Amount ($) is a required field"
+  },
+  "error.program.feeAmount.percentage.required": {
+    "defaultMessage": "Fee Amount (%) is a required field"
+  },
+  "error.program.feeAmount.numberType": {
+    "defaultMessage": "Fee Amount ($) should be a number"
+  },
+  "error.program.feeAmount.percentage.numberType": {
+    "defaultMessage": "Fee Amount (%) should be a number"
+  },
+  "error.program.fixFee.currency.format": {
+    "defaultMessage": "15 digit whole number and 5 digit fraction only"
+  },
+  "error.program.fixFee.percentage.format": {
+    "defaultMessage": "7 digit whole number and 3 digit fraction only"
+  },
+  "error.program.receiver.required": {
+    "defaultMessage": "Receiver Fee Amount ($) is a required field"
+  },
+  "error.program.receiver.numberType": {
+    "defaultMessage": "Receiver Fee Amount ($) should be a number"
+  },
+  "error.program.receiver.percentage.required": {
+    "defaultMessage": "Receiver Fee Amount (%) is a required field"
+  },
+  "error.program.receiver.percentage.numberType": {
+    "defaultMessage": "Receiver Fee Amount (%) should be a number"
+  },
+  "error.program.receiver.percentage.format": {
+    "defaultMessage": "15 digit whole number and 5 digit fraction only"
+  },
+  "step2of3": {
+    "defaultMessage": "Step 2 of 3"
+  },
+  "step1of2": {
+    "defaultMessage": "Step 1 of 2"
+  },
+  "error.greaterThan0": {
+    "defaultMessage": "Must be a number greater than 0.0"
+  },
+  "addFeestoPlan": {
+    "defaultMessage": "Add Fees to Plan"
+  },
+  "newFeePlan": {
+    "defaultMessage": "New Fee Plan"
+  },
+  "addFees": {
+    "defaultMessage": "Add Fees"
+  },
+  "chooseParameter": {
+    "defaultMessage": "Choose Parameter"
+  },
+  "currency": {
+    "defaultMessage": "Currency"
+  },
+  "amount": {
+    "defaultMessage": "Amount"
+  },
+  "customerDetail": {
+    "defaultMessage": "Customer Detail"
+  },
+  "lastModified": {
+    "defaultMessage": "Last Modified"
+  },
+  "createChangeOrder": {
+    "defaultMessage": "Create Change Order"
+  },
+  "viewAllDetails": {
+    "defaultMessage": "View all details"
+  },
+  "declinedActivity": {
+    "defaultMessage": "Declined Activity"
+  },
+  "recentActivity": {
+    "defaultMessage": "Recent Activity"
+  },
+  "preferredLanguage": {
+    "defaultMessage": "Preferred Language"
+  },
+  "activeBlocks": {
+    "defaultMessage": "Active Blocks"
+  },
+  "cardblocks": {
+    "defaultMessage": "card blocks"
+  },
+  "customerblocks": {
+    "defaultMessage": "customer blocks"
+  },
+  "accountblocks": {
+    "defaultMessage": "account blocks"
+  },
+  "customerDetails.viewRiskLevelDetails": {
+    "defaultMessage": "VIEW RISK LEVEL DETAILS"
+  },
+  "dateCreated": {
+    "defaultMessage": "Date Created"
+  },
+  "contactMethod": {
+    "defaultMessage": "Contact Method"
+  },
+  "contactInfo": {
+    "defaultMessage": "Contact Info"
+  },
+  "customerMemos": {
+    "defaultMessage": "Customer Memos"
+  },
+  "memo.button.addNewMemo": {
+    "defaultMessage": "ADD NEW MEMO"
+  },
+  "addMemo": {
+    "defaultMessage": "Add Memo"
+  },
+  "editMemo": {
+    "defaultMessage": "Edit Memo"
+  },
+  "addNewMemo": {
+    "defaultMessage": "Add New Memo"
+  },
+  "saveMemo": {
+    "defaultMessage": "Save Memo"
+  },
+  "error.memo.mustBe300Chars": {
+    "defaultMessage": "Memo must be 300 characters or less."
+  },
+  "error.memo.required": {
+    "defaultMessage": "Memo is a required field."
+  },
+  "error.contactChannel.required": {
+    "defaultMessage": "Contact channel is a required field"
+  },
+  "error.email.valid": {
+    "defaultMessage": "Must be a valid email."
+  },
+  "error.email.required": {
+    "defaultMessage": "Email is a required field."
+  },
+  "error.phone.invalidFormat": {
+    "defaultMessage": "Invalid phone format"
+  },
+  "error.phone.required": {
+    "defaultMessage": "Phone is a required field."
+  },
+  "error.contactInfo.required": {
+    "defaultMessage": "Contact info is a required field."
+  },
+  "memo.input.placeholder": {
+    "defaultMessage": "Memo (300 characters max.)"
+  },
+  "contactChannel.input.placeholder": {
+    "defaultMessage": "Contact Channel*"
+  },
+  "phoneNumber.input.placeholder": {
+    "defaultMessage": "Phone Number*"
+  },
+  "email.input.placeholder": {
+    "defaultMessage": "Email"
+  },
+  "cancel": {
+    "defaultMessage": "Cancel"
+  },
+  "merchant": {
+    "defaultMessage": "Merchant"
+  },
+  "transactionAmount": {
+    "defaultMessage": "Transaction Amount"
+  },
+  "riskLevelwhenTriggered": {
+    "defaultMessage": "Risk Level when Triggered"
+  },
+  "status": {
+    "defaultMessage": "Status"
+  },
+  "blockMemo": {
+    "defaultMessage": "Block Memo"
+  },
+  "dateReleased": {
+    "defaultMessage": "Date Released"
+  },
+  "releasedBy": {
+    "defaultMessage": "Released By"
+  },
+  "release": {
+    "defaultMessage": "Release"
+  },
+  "released": {
+    "defaultMessage": "Released"
+  },
+  "requestedDate": {
+    "defaultMessage": "Requested Date"
+  },
+  "releaseMemo": {
+    "defaultMessage": "Release Memo"
+  },
+  "requestMemo": {
+    "defaultMessage": "Request Memo"
+  },
+  "dateApproved": {
+    "defaultMessage": "Date Approved"
+  },
+  "approvedBy": {
+    "defaultMessage": "Approved By"
+  },
+  "approvalMemo": {
+    "defaultMessage": "Approval Memo"
+  },
+  "button.approved": {
+    "defaultMessage": "APPROVED"
+  },
+  "button.discard": {
+    "defaultMessage": "DISCARD"
+  },
+  "blocks": {
+    "defaultMessage": "Blocks"
+  },
+  "showreleasedBlocks": {
+    "defaultMessage": "Show released blocks"
+  },
+  "showsingleuseCards": {
+    "defaultMessage": "Show single-use cards"
+  },
+  "adjustments": {
+    "defaultMessage": "Adjustments"
+  },
+  "button.addNewChargeoff": {
+    "defaultMessage": "ADD NEW CHARGEOFF"
+  },
+  "button.createChangeOrder": {
+    "defaultMessage": "CREATE CHANGE ORDER"
+  },
+  "button.addNewBlock": {
+    "defaultMessage": "ADD NEW BLOCK"
+  },
+  "fee.wizard.newFees.feeAmount": {
+    "defaultMessage": "Fee Amount ($)"
+  },
+  "fee.wizard.newFees.feeAmountPercent": {
+    "defaultMessage": "Fee Amount (%)"
+  },
+  "fee.wizard.newFees.receiverFeeAmount": {
+    "defaultMessage": "Receiver Fee Amount($)"
+  },
+  "fee.wizard.newFees.receiverFeeAmountPercent": {
+    "defaultMessage": "Receiver Fee Amount (%)"
+  },
+  "button.addAdditionalFee": {
+    "defaultMessage": "ADD ADDITIONAL FEE"
+  },
+  "step1of3": {
+    "defaultMessage": "Step 1 of 3"
+  },
+  "pleaseChooseOne": {
+    "defaultMessage": "Please choose one."
+  },
+  "error.feePlanToCopy.required": {
+    "defaultMessage": "Fee Plan To Copy is a required field"
+  },
+  "chooseOne": {
+    "defaultMessage": "Choose One"
+  },
+  "configureFeePlanManually": {
+    "defaultMessage": "Configure fee plan manually"
+  },
+  "createCopyOfExistingFeePlan": {
+    "defaultMessage": "Create a copy of an existing fee plan"
+  },
+  "changeOrder.create.success": {
+    "defaultMessage": "Your change order was created successfully"
+  },
+  "changeRequest.create.success": {
+    "defaultMessage": "Your change request was created successfully"
+  },
+  "step3of3": {
+    "defaultMessage": "Step 3 of 3"
+  },
+  "chooseFeePlanToCopy": {
+    "defaultMessage": "Choose Fee Plan To Copy"
+  },
+  "error.activateOn.required": {
+    "defaultMessage": "Activate On is a required field"
+  },
+  "error.activationDate.required": {
+    "defaultMessage": "Activation Date is a required field"
+  },
+  "assignToAChangeOrder": {
+    "defaultMessage": "Assign To a Change Order"
+  },
+  "createNewChangeOrder": {
+    "defaultMessage": "Create New Change Order"
+  },
+  "chargeOff.activateOn.input.placeholder": {
+    "defaultMessage": "Activate on:"
+  },
+  "assignToExistingChangeOrder": {
+    "defaultMessage": "Assign To Existing Change Order"
+  },
+  "chooseChangeOrder": {
+    "defaultMessage": "Choose change order"
+  },
+  "activateOn": {
+    "defaultMessage": "Activate on"
+  },
+  "approval": {
+    "defaultMessage": "Approval"
+  },
+  "schedule": {
+    "defaultMessage": "Schedule"
+  },
+  "addNewChargeoff": {
+    "defaultMessage": "Add New Chargeoff"
+  },
+  "error.amount.required": {
+    "defaultMessage": "Amount is a required field."
+  },
+  "chargeOff.error.activateOn.required": {
+    "defaultMessage": "A radio option is required"
+  },
+  "programs.riskLevel.label.riskLevel": {
+    "defaultMessage": "Risk Level - {name}",
+    "description": "topnav label"
+  },
+  "addNewRiskProfile": {
+    "defaultMessage": "Add New Risk Profile"
+  },
+  "error.riskLevelToCopy.required": {
+    "defaultMessage": "Risk Level To Copy is a required field"
+  },
+  "createNewRiskLevel": {
+    "defaultMessage": "Create New Risk Level"
+  },
+  "configureRiskLevelManually": {
+    "defaultMessage": "Configure risk level manually"
+  },
+  "createCopyOfExistingRiskLevel": {
+    "defaultMessage": "Create a copy of an existing risk level"
+  },
+  "chooseRiskLevelPlanToCopy": {
+    "defaultMessage": "Choose Risk Level To Copy"
+  },
+  "error.riskLevel.numberType": {
+    "defaultMessage": "Risk Level must be a number"
+  },
+  "error.riskLevel.required": {
+    "defaultMessage": "Risk Level is a required field"
+  },
+  "error.riskParameter.required": {
+    "defaultMessage": "Risk Parameter is a required field"
+  },
+  "error.value.required": {
+    "defaultMessage": "Value is a required field"
+  },
+  "addRulesToRiskLevel": {
+    "defaultMessage": "Add Rules to Risk Level"
+  },
+  "riskLevelNumber": {
+    "defaultMessage": "Risk Level Number"
+  },
+  "newRiskLevelNumber": {
+    "defaultMessage": "New Risk Level Number"
+  },
+  "addRiskRules": {
+    "defaultMessage": "Add Risk Rules"
+  },
+  "value": {
+    "defaultMessage": "Value"
+  },
+  "block": {
+    "defaultMessage": "Block"
+  },
+  "notify": {
+    "defaultMessage": "Notify"
+  },
+  "disabled": {
+    "defaultMessage": "Disabled"
+  },
+  "button.addAdditionalRiskRule": {
+    "defaultMessage": "ADD ADDITIONAL RISK RULE"
+  },
+  "error.noMatch": {
+    "defaultMessage": "Oops, this page doesn’t exist."
+  },
+  "error.noAccess": {
+    "defaultMessage": "No access"
+  },
+  "error.oopsSomethingWentWrong": {
+    "defaultMessage": "Oops, something went wrong."
+  },
+  "takeMeBack": {
+    "defaultMessage": "Take me back"
+  },
+  "editTransactionMemoTemplate": {
+    "defaultMessage": "Edit Transaction Memo Template"
+  },
+  "addTransactionMemoTemplate": {
+    "defaultMessage": "Add Transaction Memo Template"
+  },
+  "memoKey": {
+    "defaultMessage": "Memo Key"
+  },
+  "template": {
+    "defaultMessage": "Template"
+  },
+  "PANLength": {
+    "defaultMessage": "PAN Length"
+  },
+  "edit": {
+    "defaultMessage": "Edit"
+  },
+  "roles": {
+    "defaultMessage": "Roles"
+  },
+  "editUser": {
+    "defaultMessage": "Edit User"
+  },
+  "title": {
+    "defaultMessage": "Title"
+  },
+  "countryCode": {
+    "defaultMessage": "Country Code"
+  },
+  "phoneNumber": {
+    "defaultMessage": "Phone Number"
+  },
+  "addNewProgram": {
+    "defaultMessage": "Add New Program"
+  },
+  "error.homeCurrency.required": {
+    "defaultMessage": "Home Currency is a required field"
+  },
+  "error.minCurrency.required": {
+    "defaultMessage": "At least one currency is required"
+  },
+  "error.partner.required": {
+    "defaultMessage": "Partner is a required field"
+  },
+  "error.timeZone.required": {
+    "defaultMessage": "Time Zone is a required field"
+  },
+  "error.location.required": {
+    "defaultMessage": "Location is a required field"
+  },
+  "addProgram": {
+    "defaultMessage": "Add Program"
+  },
+  "name": {
+    "defaultMessage": "Name"
+  },
+  "exchange": {
+    "defaultMessage": "Exchange"
+  },
+  "addNewCurrency": {
+    "defaultMessage": "Add New Currency"
+  },
+  "inputLabel": {
+    "defaultMessage": "Input Label"
+  },
+  "settlementTime": {
+    "defaultMessage": "Settlement Time"
+  },
+  "day": {
+    "defaultMessage": "Day"
+  },
+  "hour": {
+    "defaultMessage": "Hour"
+  },
+  "minute": {
+    "defaultMessage": "Minute"
+  },
+  "type": {
+    "defaultMessage": "Type"
+  },
+  "fax": {
+    "defaultMessage": "Fax"
+  },
+  "home": {
+    "defaultMessage": "Home"
+  },
+  "work": {
+    "defaultMessage": "Work"
+  },
+  "mobile": {
+    "defaultMessage": "Mobile"
+  },
+  "contact": {
+    "defaultMessage": "Contact",
+    "description": "contact phone type"
+  },
+  "emailStatus": {
+    "defaultMessage": "Email Status"
+  },
+  "riskLevelAccess": {
+    "defaultMessage": "Risk Level Access"
+  },
+  "roles.financialManager": {
+    "defaultMessage": "Financial Manager"
+  },
+  "roles.platformManager": {
+    "defaultMessage": "Platform Manager"
+  },
+  "roles.riskManager": {
+    "defaultMessage": "Risk Manager"
+  },
+  "roles.customerAgent": {
+    "defaultMessage": "Customer Agent"
+  },
+  "roles.system": {
+    "defaultMessage": "System"
+  },
+  "roles.storeManager": {
+    "defaultMessage": "Store Manager"
+  },
+  "roles.customerManager": {
+    "defaultMessage": "Customer Manager"
+  },
+  "roles.riskAgent": {
+    "defaultMessage": "Risk Agent"
+  },
+  "roles.auditor": {
+    "defaultMessage": "Auditor"
+  },
+  "roles.approver": {
+    "defaultMessage": "Approver"
+  },
+  "roles.storeAgent": {
+    "defaultMessage": "Store Agent"
+  },
+  "error.password.lowercase": {
+    "defaultMessage": "Password must include at least one lowercase letter"
+  },
+  "error.password.uppercase": {
+    "defaultMessage": "Password must include at least one uppercase letter"
+  },
+  "error.password.digit": {
+    "defaultMessage": "Password must include at least one digit"
+  },
+  "error.password.specialChar": {
+    "defaultMessage": "Password must contain at least one special character"
+  },
+  "error.password.minChar": {
+    "defaultMessage": "Password must contain at least 8 characters"
+  },
+  "error.password.maxChar": {
+    "defaultMessage": "Password must contain no more than 32 characters"
+  },
+  "error.field.required": {
+    "defaultMessage": "{fieldName} is a required field"
+  },
+  "error.field.validEmail": {
+    "defaultMessage": "A valid email address is required"
+  },
+  "error.field.numberType": {
+    "defaultMessage": "{fieldName} must be a number"
+  },
+  "error.field.number0and100": {
+    "defaultMessage": "{fieldName} must a number between 0 and 100"
+  },
+  "error.role.minSelection": {
+    "defaultMessage": "At least one role must be selected"
+  },
+  "error.field.lessThan300": {
+    "defaultMessage": "Must be less than 300 characters"
+  },
+  "error.complianceCurrency.required": {
+    "defaultMessage": "Compliance Currency is a required field"
+  },
+  "error.IIN.min6Digits": {
+    "defaultMessage": "IIN needs to contain 6 digits"
+  },
+  "editBank": {
+    "defaultMessage": "Edit Bank"
+  },
+  "complianceCurrency": {
+    "defaultMessage": "Compliance Currency"
+  },
+  "additionalCurrencies": {
+    "defaultMessage": "Additional Currencies"
+  },
+  "button.addAdditionalCurrency": {
+    "defaultMessage": "ADD ADDITIONAL CURRENCY"
+  },
+  "IINs": {
+    "defaultMessage": "IINs"
+  },
+  "addNewIIN": {
+    "defaultMessage": "Add New IIN"
+  },
+  "button.addAdditionalIIN": {
+    "defaultMessage": "ADD ADDITIONAL IIN"
+  },
+  "button.home": {
+    "defaultMessage": "HOME"
+  },
+  "product": {
+    "defaultMessage": "Product"
+  },
+  "riskLevel": {
+    "defaultMessage": "Risk Level"
+  },
+  "takeMeHome": {
+    "defaultMessage": "Take me home"
+  },
+  "riskLevelDetail": {
+    "defaultMessage": "Risk Level Detail"
+  },
+  "riskLevel.hideRules": {
+    "defaultMessage": "Hide all rules assigned to this risk level >>"
+  },
+  "riskLevel.showRules": {
+    "defaultMessage": "Show all rules assigned to this risk level <<"
+  },
+  "riskLevel.viewRules": {
+    "defaultMessage": "View all rules assigned to this risk level <<"
+  },
+  "button.addRiskRule": {
+    "defaultMessage": "ADD RISK RULE"
+  },
+  "createRiskException": {
+    "defaultMessage": "Create Risk Exception"
+  },
+  "releasableDate": {
+    "defaultMessage": "Releasable Date"
+  },
+  "riskParameter": {
+    "defaultMessage": "Risk Parameter"
+  },
+  "error.parameterValue.required": {
+    "defaultMessage": "Parameter value required."
+  },
+  "error.releaseDate.required": {
+    "defaultMessage": "Release date is required."
+  },
+  "created": {
+    "defaultMessage": "Created"
+  },
+  "activated": {
+    "defaultMessage": "Activated"
+  },
+  "riskLevelParameters": {
+    "defaultMessage": "Risk Level Parameters"
+  },
+  "program.riskLevels.deleteRiskRule": {
+    "defaultMessage": "Change order created to delete risk rule"
+  },
+  "fixedFeePercentage": {
+    "defaultMessage": "Fixed Fee/Percentage"
+  },
+  "recFixedFeePercentage": {
+    "defaultMessage": "Rec. Fixed Fee/Percentage"
+  },
+  "accordion.button.hide": {
+    "defaultMessage": "Hide {hideNumber}"
+  },
+  "accordion.button.view": {
+    "defaultMessage": "View all {showNumber}"
+  },
+  "addAdditionalPartner": {
+    "defaultMessage": "ADD ADDITIONAL PARTNER"
+  },
+  "addAdditionalProgram": {
+    "defaultMessage": "ADD ADDITIONAL PROGRAM"
+  },
+  "emptyLabel": {
+    "defaultMessage": ""
+  },
+  "hostAddress": {
+    "defaultMessage": "Host Address"
+  },
+  "standIn": {
+    "defaultMessage": "Stand In"
+  },
+  "partnerManagerDetails": {
+    "defaultMessage": "Partner Manager Details"
+  },
+  "error.field.unique": {
+    "defaultMessage": "{fieldName} must be unique"
+  },
+  "error.username.specialChar": {
+    "defaultMessage": "Username must only contain lowercase characters, numbers, and .-_"
+  },
+  "error.username.minChar": {
+    "defaultMessage": "Username must contain at least 8 characters"
+  },
+  "error.username.maxChar": {
+    "defaultMessage": "Username must contain no more than 32 characters"
+  },
+  "error.iin.minRequired": {
+    "defaultMessage": "At least one IIN is required"
+  },
+  "error.currency.minRequired": {
+    "defaultMessage": "At least one currency is required"
+  },
+  "drawdownOrder": {
+    "defaultMessage": "Drawdown Order"
+  },
+  "totalBalance": {
+    "defaultMessage": "Total Balance"
+  },
+  "pendingAmount": {
+    "defaultMessage": "Pending Amount"
+  },
+  "availableBalance": {
+    "defaultMessage": "Available Balance"
+  },
+  "safeDraft": {
+    "defaultMessage": "Safe Draft"
+  },
+  "safeCurrency": {
+    "defaultMessage": "Safe Currency"
+  },
+  "quickSpend": {
+    "defaultMessage": "Quick Spend"
+  },
+  "selectedFee": {
+    "defaultMessage": "Selected Fee"
+  },
+  "fixedFee": {
+    "defaultMessage": "Fixed Fee"
+  },
+  "percentage": {
+    "defaultMessage": "Percentage"
+  },
+  "chargeReceiver": {
+    "defaultMessage": "Charge Receiver"
+  },
+  "receiverFixFee": {
+    "defaultMessage": "Receiver fix fee"
+  },
+  "receiverPercent": {
+    "defaultMessage": "Receiver percent"
+  },
+  "wallets": {
+    "defaultMessage": "Wallets"
+  },
+  "cards": {
+    "defaultMessage": "Cards"
+  },
+  "button.orderNewCard": {
+    "defaultMessage": "ORDER NEW CARD"
+  },
+  "fees": {
+    "defaultMessage": "Fees"
+  },
+  "button.addFee": {
+    "defaultMessage": "ADD FEE"
+  },
+  "lastFourPAN": {
+    "defaultMessage": "Last Four PAN"
+  },
+  "expiry": {
+    "defaultMessage": "Expiry"
+  },
+  "tokens": {
+    "defaultMessage": "Tokens"
+  },
+  "view": {
+    "defaultMessage": "View"
+  },
+  "button.exchangeCurrency": {
+    "defaultMessage": "EXCHANGE CURRENCY"
+  },
+  "wallets.success.cardReissued": {
+    "defaultMessage": "Card Reissued Successfully"
+  },
+  "wallets.success.released": {
+    "defaultMessage": "Card Block ID: {respId} was released successfully"
+  },
+  "wallets.success.activated": {
+    "defaultMessage": "Card ID: {removedBlocId} was activated successfully"
+  },
+  "showInactiveCards": {
+    "defaultMessage": "Show inactive cards"
+  },
+  "orderDetails": {
+    "defaultMessage": "Order Details"
+  },
+  "address": {
+    "defaultMessage": "Address"
+  },
+  "state_province": {
+    "defaultMessage": "State/Providence"
+  },
+  "error.cardToken.required": {
+    "defaultMessage": "Please select at least one card token"
+  },
+  "error.memo.mustBe128Chars": {
+    "defaultMessage": "Memo must be 128 characters or less."
+  },
+  "drawer.card.tokens.label.select": {
+    "defaultMessage": "Select tokens to take action on:"
+  },
+  "memo.input.placeholder.max128Chars": {
+    "defaultMessage": "Memo (128 characters max.)"
+  },
+  "suspend": {
+    "defaultMessage": "Suspend"
+  },
+  "unsuspend": {
+    "defaultMessage": "Unsuspend"
+  },
+  "cardDetails": {
+    "defaultMessage": "Card Details"
+  },
+  "PAN": {
+    "defaultMessage": "PAN"
+  },
+  "sequenceNumber": {
+    "defaultMessage": "Sequence Number"
+  },
+  "unblock": {
+    "defaultMessage": "Unblock"
+  },
+  "reissue": {
+    "defaultMessage": "Reissue"
+  },
+  "exchangeQuoteExpiresIn": {
+    "defaultMessage": "Exchange quote expires in"
+  },
+  "sellCurrencyAmount": {
+    "defaultMessage": "Sell Currency Amount"
+  },
+  "buyCurrencyAmount": {
+    "defaultMessage": "Buy Currency Amount"
+  },
+  "error.sellCurrency.required": {
+    "defaultMessage": "Sell currency is required field."
+  },
+  "error.amount.mustBeA.number": {
+    "defaultMessage": "Amount must be a number"
+  },
+  "error.amount.mustBeA.positiveValue": {
+    "defaultMessage": "Amount must be a positive value"
+  },
+  "error.buyCurrency.required": {
+    "defaultMessage": "Buy currency is a required field."
+  },
+  "exchangeCurrency": {
+    "defaultMessage": "Exchange Currency"
+  },
+  "button.refreshQuote": {
+    "defaultMessage": "REFRESH QUOTE"
+  },
+  "button.getQuote": {
+    "defaultMessage": "GET QUOTE"
+  },
+  "confirmExchange": {
+    "defaultMessage": "Confirm Exchange"
+  },
+  "error.fixedAmount.required": {
+    "defaultMessage": "Fixed Amount is a required field"
+  },
+  "error.fixedAmount.shouldBeA.number": {
+    "defaultMessage": "Fixed Amount should be a number"
+  },
+  "error.feeAmount.required": {
+    "defaultMessage": "Fee amount (%) is a required field"
+  },
+  "error.feeAmount.shouldBeA.number": {
+    "defaultMessage": "Fee Amount (%) should be a number"
+  },
+  "error.10digitNumber.5digitFraction": {
+    "defaultMessage": "10 digit whole number and 5 digit fraction only"
+  },
+  "error.receiverFee.required": {
+    "defaultMessage": "Receiver fee amount ($) is a required field"
+  },
+  "error.receiverFee.shouldBeA.number": {
+    "defaultMessage": "Receiver fee Amount ($) should be a number"
+  },
+  "error.receiverFeeAmount.shouldBeA.number": {
+    "defaultMessage": "Receiver fee amount (%) should be a number"
+  },
+  "addFee": {
+    "defaultMessage": "Add Fee"
+  },
+  "editFee": {
+    "defaultMessage": "Edit Fee"
+  },
+  "fixedAmount": {
+    "defaultMessage": "Fixed Amount"
+  },
+  "feePercentage": {
+    "defaultMessage": "Fee Percentage"
+  },
+  "receiverFixedAmount": {
+    "defaultMessage": "Receiver Fixed Amount"
+  },
+  "receiverPercentage": {
+    "defaultMessage": "Receiver Percentage"
+  },
+  "remove": {
+    "defaultMessage": "Remove"
+  },
+  "orderNewCard": {
+    "defaultMessage": "Order New Card"
+  },
+  "customerName": {
+    "defaultMessage": "Customer Name"
+  },
+  "placeOrder": {
+    "defaultMessage": "Place Order"
+  },
+  "memos": {
+    "defaultMessage": "Memos"
+  },
+  "risk": {
+    "defaultMessage": "Risk"
+  },
+  "holds": {
+    "defaultMessage": "Holds"
+  },
+  "transactions": {
+    "defaultMessage": "Transactions"
+  },
+  "inProgressTransactions": {
+    "defaultMessage": "In Progress Transactions"
+  },
+  "paymentNetworkMessages": {
+    "defaultMessage": "Payment Network Messages"
+  },
+  "external": {
+    "defaultMessage": "External"
+  },
+  "releaseHold": {
+    "defaultMessage": "Release Hold"
+  },
+  "hideReleasedHolds": {
+    "defaultMessage": "Hide released holds"
+  },
+  "showReleasedHolds": {
+    "defaultMessage": "Show released holds"
+  },
+  "merchantLocation": {
+    "defaultMessage": "Merchant Location"
+  },
+  "holdMemo": {
+    "defaultMessage": "Hold Memo"
+  },
+  "allTransactionSources": {
+    "defaultMessage": "All Transaction Sources"
+  },
+  "allTransactionTypes": {
+    "defaultMessage": "All Transaction Types"
+  },
+  "error.toDate.greaterThan.FromDate": {
+    "defaultMessage": "To Date Must Be Greater \"than From Date\""
+  },
+  "error.FromDate.lessThan.toDate": {
+    "defaultMessage": "From Date Must Be Less than \"To date\""
+  },
+  "limitResultsTo": {
+    "defaultMessage": "Limit Results To"
+  },
+  "fee": {
+    "defaultMessage": "Fee"
+  },
+  "searchTransactions": {
+    "defaultMessage": "Search Transactions"
+  },
+  "unknown": {
+    "defaultMessage": "Unknown"
+  },
+  "inWalletPOS": {
+    "defaultMessage": "In Wallet POS"
+  },
+  "outOfWalletPOS": {
+    "defaultMessage": "Out of Wallet POS"
+  },
+  "inWalletATM": {
+    "defaultMessage": "In Wallet ATM"
+  },
+  "outOfWalletATM": {
+    "defaultMessage": "Out of Wallet ATM"
+  },
+  "online": {
+    "defaultMessage": "Online"
+  },
+  "internal": {
+    "defaultMessage": "Internal"
+  },
+  "static": {
+    "defaultMessage": "Static"
+  },
+  "mobileCommerce": {
+    "defaultMessage": "Mobile Commerce"
+  },
+  "newAccount": {
+    "defaultMessage": "New Account"
+  },
+  "cardSale": {
+    "defaultMessage": "Card Sale"
+  },
+  "purchase": {
+    "defaultMessage": "Purchase"
+  },
+  "refund": {
+    "defaultMessage": "Refund"
+  },
+  "load": {
+    "defaultMessage": "Load"
+  },
+  "withdraw": {
+    "defaultMessage": "Withdraw"
+  },
+  "balanceInquiry": {
+    "defaultMessage": "Balance Inquiry"
+  },
+  "P2P": {
+    "defaultMessage": "P2P"
+  },
+  "walletTransfer": {
+    "defaultMessage": "Wallet Transfer"
+  },
+  "exchangeMargin": {
+    "defaultMessage": "Exchange Margin"
+  },
+  "secondPresentment": {
+    "defaultMessage": "Second Presentment"
+  },
+  "chargeBack": {
+    "defaultMessage": "Chargeback"
+  },
+  "customerAdjustment": {
+    "defaultMessage": "Customer Adjustment"
+  },
+  "exchangeAdjustment": {
+    "defaultMessage": "Exchange Adjustment"
+  },
+  "maintenance": {
+    "defaultMessage": "Maintenance"
+  },
+  "chargeoff": {
+    "defaultMessage": "Chargeoff"
+  },
+  "withholding": {
+    "defaultMessage": "Withholding"
+  },
+  "closeAccount": {
+    "defaultMessage": "Close Account"
+  },
+  "reward": {
+    "defaultMessage": "Reward"
+  },
+  "shipping": {
+    "defaultMessage": "Shipping"
+  },
+  "expeditedShipping": {
+    "defaultMessage": "Expedited Shipping"
+  },
+  "addressing": {
+    "defaultMessage": "Addressing"
+  },
+  "settlement": {
+    "defaultMessage": "Settlement"
+  },
+  "consolidated": {
+    "defaultMessage": "Consolidated"
+  },
+  "interest": {
+    "defaultMessage": "Interest"
+  },
+  "cashback": {
+    "defaultMessage": "Cashback"
+  },
+  "error.majorCode.100": {
+    "defaultMessage": "Invalid parameter",
+    "description": "Invalid parameter"
+  },
+  "error.majorCode.101": {
+    "defaultMessage": "Null pointer exception",
+    "description": "Null pointer exception"
+  },
+  "error.majorCode.102": {
+    "defaultMessage": "IO/Remote exception",
+    "description": "IO/Remote exception"
+  },
+  "error.majorCode.103": {
+    "defaultMessage": "Unsupported operation",
+    "description": "Unsupported operation"
+  },
+  "error.majorCode.104": {
+    "defaultMessage": "Illegal state",
+    "description": "Illegal state"
+  },
+  "error.majorCode.200": {
+    "defaultMessage": "Not available",
+    "description": "Not available"
+  },
+  "error.majorCode.201": {
+    "defaultMessage": "Not found",
+    "description": "Not found"
+  },
+  "error.majorCode.202": {
+    "defaultMessage": "Invalid currency",
+    "description": "Invalid currency"
+  },
+  "error.majorCode.203": {
+    "defaultMessage": "Currency conversion",
+    "description": "Currency conversion"
+  },
+  "error.majorCode.204": {
+    "defaultMessage": "No exchange rate",
+    "description": "No exchange rate"
+  },
+  "error.majorCode.205": {
+    "defaultMessage": "General security",
+    "description": "General security"
+  },
+  "error.majorCode.206": {
+    "defaultMessage": "Currency mismatch",
+    "description": "Currency mismatch"
+  },
+  "error.majorCode.207": {
+    "defaultMessage": "Reversal",
+    "description": "Reversal"
+  },
+  "error.majorCode.208": {
+    "defaultMessage": "Validation",
+    "description": "Validation"
+  },
+  "error.majorCode.209": {
+    "defaultMessage": "Duplicate",
+    "description": "Duplicate"
+  },
+  "error.majorCode.210": {
+    "defaultMessage": "Exchange amount too small",
+    "description": "Exchange amount too small"
+  },
+  "error.majorCode.211": {
+    "defaultMessage": "Transaction",
+    "description": "Transaction"
+  },
+  "error.majorCode.212": {
+    "defaultMessage": "Message format",
+    "description": "Message format"
+  },
+  "error.majorCode.213": {
+    "defaultMessage": "Cafis",
+    "description": "Cafis"
+  },
+  "error.majorCode.214": {
+    "defaultMessage": "Error",
+    "description": "Error"
+  },
+  "error.majorCode.300": {
+    "defaultMessage": "Insufficient funds",
+    "description": "Insufficient funds"
+  },
+  "error.majorCode.400": {
+    "defaultMessage": "Risk rule",
+    "description": "Risk rule"
+  },
+  "error.majorCode.500": {
+    "defaultMessage": "Change order",
+    "description": "Change order"
+  },
+  "error.majorCode.600": {
+    "defaultMessage": "External Callout Failed",
+    "description": "External Callout Failed"
+  },
+  "error.majorCode.900": {
+    "defaultMessage": "HTTP",
+    "description": "HTTP"
+  },
+  "error.majorCode.unknown": {
+    "defaultMessage": "Unknown",
+    "description": "Unknown"
+  },
+  "error.minorCode.000": {
+    "defaultMessage": "Not applicable",
+    "description": "Minor Code"
+  },
+  "error.minorCode.001": {
+    "defaultMessage": "Customer number",
+    "description": "Minor Code"
+  },
+  "error.minorCode.002": {
+    "defaultMessage": "Customer external reference",
+    "description": "Minor Code"
+  },
+  "error.minorCode.003": {
+    "defaultMessage": "Program name",
+    "description": "Minor Code"
+  },
+  "error.minorCode.004": {
+    "defaultMessage": "Account number",
+    "description": "Minor Code"
+  },
+  "error.minorCode.005": {
+    "defaultMessage": "Store number",
+    "description": "Minor Code"
+  },
+  "error.minorCode.006": {
+    "defaultMessage": "Wallet currency",
+    "description": "Minor Code"
+  },
+  "error.minorCode.007": {
+    "defaultMessage": "Card number",
+    "description": "Minor Code"
+  },
+  "error.minorCode.008": {
+    "defaultMessage": "PAN",
+    "description": "Minor Code"
+  },
+  "error.minorCode.009": {
+    "defaultMessage": "Card ID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.010": {
+    "defaultMessage": "Bank name",
+    "description": "Minor Code"
+  },
+  "error.minorCode.011": {
+    "defaultMessage": "Interchange name",
+    "description": "Minor Code"
+  },
+  "error.minorCode.012": {
+    "defaultMessage": "Partner name",
+    "description": "Minor Code"
+  },
+  "error.minorCode.013": {
+    "defaultMessage": "Exchange provider name",
+    "description": "Minor Code"
+  },
+  "error.minorCode.014": {
+    "defaultMessage": "Exchange name",
+    "description": "Minor Code"
+  },
+  "error.minorCode.015": {
+    "defaultMessage": "Fee plan name",
+    "description": "Minor Code"
+  },
+  "error.minorCode.016": {
+    "defaultMessage": "Security level",
+    "description": "Minor Code"
+  },
+  "error.minorCode.017": {
+    "defaultMessage": "Expired",
+    "description": "Minor Code"
+  },
+  "error.minorCode.018": {
+    "defaultMessage": "Approval number",
+    "description": "Minor Code"
+  },
+  "error.minorCode.019": {
+    "defaultMessage": "Person ID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.020": {
+    "defaultMessage": "Risk rule",
+    "description": "Minor Code"
+  },
+  "error.minorCode.021": {
+    "defaultMessage": "Auth code",
+    "description": "Minor Code"
+  },
+  "error.minorCode.022": {
+    "defaultMessage": "Transaction",
+    "description": "Minor Code"
+  },
+  "error.minorCode.030": {
+    "defaultMessage": "Address ID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.031": {
+    "defaultMessage": "Email ID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.032": {
+    "defaultMessage": "Official ID ID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.033": {
+    "defaultMessage": "Phone ID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.034": {
+    "defaultMessage": "Card profile name",
+    "description": "Minor Code"
+  },
+  "error.minorCode.035": {
+    "defaultMessage": "Fee entry ID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.036": {
+    "defaultMessage": "Mail template ID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.037": {
+    "defaultMessage": "Currency",
+    "description": "Minor Code"
+  },
+  "error.minorCode.038": {
+    "defaultMessage": "Exchange pair rate",
+    "description": "Minor Code"
+  },
+  "error.minorCode.039": {
+    "defaultMessage": "Invoice summary ID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.040": {
+    "defaultMessage": "Invoice summary modification",
+    "description": "Minor Code"
+  },
+  "error.minorCode.041": {
+    "defaultMessage": "Risk exception ID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.042": {
+    "defaultMessage": "Parameter",
+    "description": "Minor Code"
+  },
+  "error.minorCode.043": {
+    "defaultMessage": "Amount value",
+    "description": "Minor Code"
+  },
+  "error.minorCode.044": {
+    "defaultMessage": "ID de token de autenticación",
+    "description": "Minor Code"
+  },
+  "error.minorCode.045": {
+    "defaultMessage": "Customer memo ID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.046": {
+    "defaultMessage": "Shipping number",
+    "description": "Minor Code"
+  },
+  "error.minorCode.047": {
+    "defaultMessage": "Attribute name",
+    "description": "Minor Code"
+  },
+  "error.minorCode.048": {
+    "defaultMessage": "Account locked",
+    "description": "Minor Code"
+  },
+  "error.minorCode.049": {
+    "defaultMessage": "Date of birth",
+    "description": "Minor Code"
+  },
+  "error.minorCode.050": {
+    "defaultMessage": "Expiration date",
+    "description": "Minor Code"
+  },
+  "error.minorCode.051": {
+    "defaultMessage": "Security code",
+    "description": "Minor Code"
+  },
+  "error.minorCode.052": {
+    "defaultMessage": "Child customer",
+    "description": "Minor Code"
+  },
+  "error.minorCode.053": {
+    "defaultMessage": "Pending transaction",
+    "description": "Minor Code"
+  },
+  "error.minorCode.054": {
+    "defaultMessage": "Card order",
+    "description": "Minor Code"
+  },
+  "error.minorCode.055": {
+    "defaultMessage": "Card status",
+    "description": "Minor Code"
+  },
+  "error.minorCode.056": {
+    "defaultMessage": "Pin",
+    "description": "Minor Code"
+  },
+  "error.minorCode.057": {
+    "defaultMessage": "Customer blocked",
+    "description": "Minor Code"
+  },
+  "error.minorCode.058": {
+    "defaultMessage": "Passcode",
+    "description": "Minor Code"
+  },
+  "error.minorCode.059": {
+    "defaultMessage": "Password",
+    "description": "Minor Code"
+  },
+  "error.minorCode.060": {
+    "defaultMessage": "Plugin",
+    "description": "Minor Code"
+  },
+  "error.minorCode.061": {
+    "defaultMessage": "Customer memo attribute ID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.062": {
+    "defaultMessage": "Session token",
+    "description": "Minor Code"
+  },
+  "error.minorCode.063": {
+    "defaultMessage": "Partner user ID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.064": {
+    "defaultMessage": "Partner user name",
+    "description": "Minor Code"
+  },
+  "error.minorCode.065": {
+    "defaultMessage": "New password",
+    "description": "Minor Code"
+  },
+  "error.minorCode.066": {
+    "defaultMessage": "Exchange margin",
+    "description": "Minor Code"
+  },
+  "error.minorCode.067": {
+    "defaultMessage": "Parent customer",
+    "description": "Minor Code"
+  },
+  "error.minorCode.068": {
+    "defaultMessage": "Subject",
+    "description": "Minor Code"
+  },
+  "error.minorCode.069": {
+    "defaultMessage": "Risk level",
+    "description": "Minor Code"
+  },
+  "error.minorCode.070": {
+    "defaultMessage": "ISO8583 message ID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.071": {
+    "defaultMessage": "Chargeback ID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.072": {
+    "defaultMessage": "Chargeback message ID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.090": {
+    "defaultMessage": "Change order ID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.091": {
+    "defaultMessage": "Change order state",
+    "description": "Minor Code"
+  },
+  "error.minorCode.092": {
+    "defaultMessage": "Change order action",
+    "description": "Minor Code"
+  },
+  "error.minorCode.093": {
+    "defaultMessage": "Change order type",
+    "description": "Minor Code"
+  },
+  "error.minorCode.094": {
+    "defaultMessage": "Change order requester",
+    "description": "Minor Code"
+  },
+  "error.minorCode.095": {
+    "defaultMessage": "Duplicate merchant control",
+    "description": "Minor Code"
+  },
+  "error.minorCode.200": {
+    "defaultMessage": "Pin verification",
+    "description": "Minor Code"
+  },
+  "error.minorCode.201": {
+    "defaultMessage": "Pin fail count",
+    "description": "Minor Code"
+  },
+  "error.minorCode.202": {
+    "defaultMessage": "Card expired",
+    "description": "Minor Code"
+  },
+  "error.minorCode.203": {
+    "defaultMessage": "Pin fail count temporary lock",
+    "description": "Minor Code"
+  },
+  "error.minorCode.300": {
+    "defaultMessage": "Customer incident ID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.600": {
+    "defaultMessage": "Known error code",
+    "description": "Minor Code"
+  },
+  "customer.recent.customerblockcreated": {
+    "defaultMessage": "Customer blocked",
+    "description": "Customer Block was created"
+  },
+  "customer.recent.customerblockreleased": {
+    "defaultMessage": "Customer block released",
+    "description": "Customer Block was released"
+  },
+  "customer.recent.memocreated": {
+    "defaultMessage": "New customer memo",
+    "description": "Created memo"
+  },
+  "customer.recent.orderapproved": {
+    "defaultMessage": "Change order approved",
+    "description": "Change order was approved"
+  },
+  "customer.recent.ordercreated": {
+    "defaultMessage": "Change order submitted",
+    "description": "Change order was submitted"
+  },
+  "customer.recent.cardblockcreated": {
+    "defaultMessage": "Card blocked",
+    "description": "Card Block was created"
+  },
+  "customer.recent.cardblockreleased": {
+    "defaultMessage": "Card block released",
+    "description": "Card Block was released"
+  },
+  "customer.recent.cardordered": {
+    "defaultMessage": "Card ordered",
+    "description": "Card ordered"
+  },
+  "yes": {
+    "defaultMessage": "Yes"
+  },
+  "no": {
+    "defaultMessage": "No"
+  },
+  "state": {
+    "defaultMessage": "State"
+  },
+  "MTI": {
+    "defaultMessage": "MTI"
+  },
+  "success": {
+    "defaultMessage": "Success"
+  },
+  "reversal": {
+    "defaultMessage": "Reversal"
+  },
+  "button.VIEW": {
+    "defaultMessage": "VIEW"
+  },
+  "general": {
+    "defaultMessage": "General"
+  },
+  "messageType": {
+    "defaultMessage": "Message Type"
+  },
+  "transactionType": {
+    "defaultMessage": "Transaction Type"
+  },
+  "transactionSource": {
+    "defaultMessage": "Transaction Source"
+  },
+  "processingCode": {
+    "defaultMessage": "Processing Code"
+  },
+  "responseCode": {
+    "defaultMessage": "Response Code"
+  },
+  "originalDataElements": {
+    "defaultMessage": "Original Data Elements"
+  },
+  "systemTraceAuditNumber": {
+    "defaultMessage": "System Trace Audit Number"
+  },
+  "referenceNumber": {
+    "defaultMessage": "Reference Number"
+  },
+  "retrievalReferenceNumber": {
+    "defaultMessage": "Retrieval Reference Number"
+  },
+  "originalReferenceNumber": {
+    "defaultMessage": "Original Reference Number"
+  },
+  "acquirerInfo": {
+    "defaultMessage": "Acquirer Info"
+  },
+  "cardAcceptorName": {
+    "defaultMessage": "Card Acceptor Name"
+  },
+  "cardAcceptorID": {
+    "defaultMessage": "Card Acceptor ID"
+  },
+  "cardAcceptorTerminalID": {
+    "defaultMessage": "Card Acceptor Terminal ID"
+  },
+  "cardAcceptorCity": {
+    "defaultMessage": "Card Acceptor City"
+  },
+  "cardAcceptorCountryCode": {
+    "defaultMessage": "Card Acceptor Country Code"
+  },
+  "MCC": {
+    "defaultMessage": "MCC"
+  },
+  "POSEntryMode": {
+    "defaultMessage": "POS Entry Mode"
+  },
+  "POSCondition": {
+    "defaultMessage": "POS Condition"
+  },
+  "acquiringInstitutionID": {
+    "defaultMessage": "Acquiring Institution ID"
+  },
+  "authCode": {
+    "defaultMessage": "Auth Code"
+  },
+  "additionalInfo": {
+    "defaultMessage": "Additional Info"
+  },
+  "cardPresent": {
+    "defaultMessage": "Card Present"
+  },
+  "inbound": {
+    "defaultMessage": "Inbound"
+  },
+  "authorization": {
+    "defaultMessage": "Authorization"
+  },
+  "debit": {
+    "defaultMessage": "Debit"
+  },
+  "forcePost": {
+    "defaultMessage": "Force Post"
+  },
+  "failedParameter": {
+    "defaultMessage": "Failed Parameter"
+  },
+  "activatedRule": {
+    "defaultMessage": "Activated Rule"
+  },
+  "errorMessage": {
+    "defaultMessage": "Error Message"
+  },
+  "timestamps": {
+    "defaultMessage": "Timestamps"
+  },
+  "creation": {
+    "defaultMessage": "Creation"
+  },
+  "modified": {
+    "defaultMessage": "Modified"
+  },
+  "transmission": {
+    "defaultMessage": "Transmission"
+  },
+  "authReleased": {
+    "defaultMessage": "Auth Released"
+  },
+  "amounts": {
+    "defaultMessage": "Amounts"
+  },
+  "acquirer": {
+    "defaultMessage": "Acquirer"
+  },
+  "billing": {
+    "defaultMessage": "Billing"
+  },
+  "compliance": {
+    "defaultMessage": "Compliance"
+  },
+  "replacement": {
+    "defaultMessage": "Replacement"
+  },
+  "partial": {
+    "defaultMessage": "Partial"
+  },
+  "paymentNetworkMessageDetails": {
+    "defaultMessage": "Payment Network Message Details"
+  },
+  "identifierCode": {
+    "defaultMessage": "Identifier Code"
+  },
+  "externalAccounts": {
+    "defaultMessage": "External Accounts"
+  },
+  "button.addNewExternalAccount": {
+    "defaultMessage": "ADD NEW EXTERNAL ACCOUNT"
+  },
+  "error.referenceNumber.required": {
+    "defaultMessage": "Reference number is a required field."
+  },
+  "editExternalAccount": {
+    "defaultMessage": "Edit External Account"
+  },
+  "addExternalAccount": {
+    "defaultMessage": "Add External Account"
+  },
+  "expirationDate": {
+    "defaultMessage": "Expiration Date"
+  },
+  "createdDate": {
+    "defaultMessage": "Created Date"
+  },
+  "attributes": {
+    "defaultMessage": "Attributes"
+  },
+  "addAttributeAttribute": {
+    "defaultMessage": "Add additional Attribute"
+  },
+  "expirationTime": {
+    "defaultMessage": "Expiration Time"
+  },
+  "search.results.showingMessage": {
+    "defaultMessage": "Showing {totalCount, plural, =0 {no results} one {# result} other {# results}} for \"{searchTerm}\""
+  },
+  "customerDetails": {
+    "defaultMessage": "Customer Details"
+  },
+  "error.type.required": {
+    "defaultMessage": "Type is a required field."
+  },
+  "error.reason.required": {
+    "defaultMessage": "Reason is a required field."
+  },
+  "error.cardLast4.required": {
+    "defaultMessage": "Card last 4 is a required field."
+  },
+  "addNewBlock": {
+    "defaultMessage": "Add New Block"
+  },
+  "chargeoffChangeOrder.success.create": {
+    "defaultMessage": "Chargeoff Change Order has been Created Successfully"
+  },
+  "error.memo.max255Chars": {
+    "defaultMessage": "Memo must be 255 characters or less."
+  },
+  "memo.input.max255Chars.placeholder": {
+    "defaultMessage": "Memo (255 characters max.)"
+  },
+  "chooseDate": {
+    "defaultMessage": "Choose date"
+  },
+  "closed": {
+    "defaultMessage": "Closed"
+  },
+  "fraud": {
+    "defaultMessage": "Fraud"
+  },
+  "system": {
+    "defaultMessage": "System"
+  },
+  "activation": {
+    "defaultMessage": "Activation"
+  },
+  "requestedBy": {
+    "defaultMessage": "Requested By"
+  },
+  "cancelCard": {
+    "defaultMessage": "Cancel Card"
+  },
+  "termination": {
+    "defaultMessage": "Termination"
+  },
+  "releaseBlock": {
+    "defaultMessage": "Release Block"
+  },
+  "confirm": {
+    "defaultMessage": "Confirm"
+  },
+  "mr": {
+    "defaultMessage": "Mr"
+  },
+  "ms": {
+    "defaultMessage": "Ms"
+  },
+  "mrs": {
+    "defaultMessage": "Mrs"
+  },
+  "jr": {
+    "defaultMessage": "Jr"
+  },
+  "sr": {
+    "defaultMessage": "Sr"
+  },
+  "I": {
+    "defaultMessage": "I"
+  },
+  "II": {
+    "defaultMessage": "II"
+  },
+  "III": {
+    "defaultMessage": "III"
+  },
+  "addressType": {
+    "defaultMessage": "Address Type"
+  },
+  "addressLine1": {
+    "defaultMessage": "Address Line 1"
+  },
+  "addressLine2": {
+    "defaultMessage": "Address Line 2"
+  },
+  "phoneType": {
+    "defaultMessage": "Phone Type"
+  },
+  "emailType": {
+    "defaultMessage": "Email Type"
+  },
+  "email": {
+    "defaultMessage": "Email"
+  },
+  "IDType": {
+    "defaultMessage": "ID Type"
+  },
+  "IDNumber": {
+    "defaultMessage": "ID Number"
+  },
+  "issuedDate": {
+    "defaultMessage": "Issued Date"
+  },
+  "configurations": {
+    "defaultMessage": "Configurations"
+  },
+  "success.changes.saved": {
+    "defaultMessage": "Your changes were saved successfully"
+  },
+  "error.givenName.required": {
+    "defaultMessage": "Given name is a required field"
+  },
+  "error.familyName.required": {
+    "defaultMessage": "Family name is a required field"
+  },
+  "error.dateOfBirth.required": {
+    "defaultMessage": "Date of birth is a required field."
+  },
+  "editCustomer": {
+    "defaultMessage": "Edit Customer"
+  },
+  "label.editCustomer": {
+    "defaultMessage": "Edit customer"
+  },
+  "personalInformation": {
+    "defaultMessage": "Personal Information"
+  },
+  "secondFamilyName": {
+    "defaultMessage": "Second Family Name"
+  },
+  "nickname": {
+    "defaultMessage": "Nickname"
+  },
+  "gender": {
+    "defaultMessage": "Gender"
+  },
+  "dateOfBirth": {
+    "defaultMessage": "Date of Birth"
+  },
+  "addresses": {
+    "defaultMessage": "Addresses"
+  },
+  "button.addNewAddress": {
+    "defaultMessage": "ADD NEW ADDRESS"
+  },
+  "phones": {
+    "defaultMessage": "Phones"
+  },
+  "button.addNewPhone": {
+    "defaultMessage": "ADD NEW PHONE"
+  },
+  "emails": {
+    "defaultMessage": "Emails"
+  },
+  "button.addNewEmail": {
+    "defaultMessage": "ADD NEW EMAIL"
+  },
+  "identification": {
+    "defaultMessage": "Identification"
+  },
+  "button.addNewIdentification": {
+    "defaultMessage": "ADD NEW IDENTIFICATION"
+  },
+  "notifications": {
+    "defaultMessage": "Notifications"
+  },
+  "button.addNewNotification": {
+    "defaultMessage": "ADD NEW NOTIFICATION"
+  },
+  "error.input.required": {
+    "defaultMessage": "{name} is a required field."
+  },
+  "editNotification": {
+    "defaultMessage": "Edit Notification"
+  },
+  "error.IDType.required": {
+    "defaultMessage": "ID type is a required field."
+  },
+  "error.primaryNumber.required": {
+    "defaultMessage": "Primary number is a required field."
+  },
+  "error.IDIssuerCountry.required": {
+    "defaultMessage": "ID issuer (country) is a required field."
+  },
+  "error.active.required": {
+    "defaultMessage": "Active is a required field."
+  },
+  "editIdentification": {
+    "defaultMessage": "Edit Identification"
+  },
+  "addIdentification": {
+    "defaultMessage": "Add Identification"
+  },
+  "primaryNumber": {
+    "defaultMessage": "Primary Number"
+  },
+  "secondaryNumber": {
+    "defaultMessage": "Secondary Number"
+  },
+  "IDIssuerState": {
+    "defaultMessage": "ID Issuer (State)"
+  },
+  "IDIssuerCountry": {
+    "defaultMessage": "ID Issuer (Country)"
+  },
+  "error.emailType.required": {
+    "defaultMessage": "Email type is a required field."
+  },
+  "error.emailFormat.invalid": {
+    "defaultMessage": "Invalid email format."
+  },
+  "error.emailAddress.required": {
+    "defaultMessage": "Email address is a required field."
+  },
+  "error.state.required": {
+    "defaultMessage": "State is a required field."
+  },
+  "editEmail": {
+    "defaultMessage": "Edit Email"
+  },
+  "addEmail": {
+    "defaultMessage": "Add Email"
+  },
+  "emailState": {
+    "defaultMessage": "Email State"
+  },
+  "error.phoneType.required": {
+    "defaultMessage": "Phone type is a required field"
+  },
+  "error.phoneFormat.invalid": {
+    "defaultMessage": "Invalid phone format"
+  },
+  "error.phoneNumber.required": {
+    "defaultMessage": "Phone Number is a required field."
+  },
+  "editPhone": {
+    "defaultMessage": "Edit Phone"
+  },
+  "addPhone": {
+    "defaultMessage": "Add Phone"
+  },
+  "error.addressType.required": {
+    "defaultMessage": "Address type is a required field."
+  },
+  "error.addressLine1.required": {
+    "defaultMessage": "Address line 1 is a required field."
+  },
+  "error.postalCode.required": {
+    "defaultMessage": "Postal code is a required field."
+  },
+  "error.city.required": {
+    "defaultMessage": "City is a required field."
+  },
+  "error.country.required": {
+    "defaultMessage": "Country is a required field."
+  },
+  "editAddress": {
+    "defaultMessage": "Edit Address"
+  },
+  "addAddress": {
+    "defaultMessage": "Add Address"
+  },
+  "addressLine3": {
+    "defaultMessage": "Address Line 3"
+  },
+  "yesterday": {
+    "defaultMessage": "Yesterday"
+  },
+  "button.release": {
+    "defaultMessage": "RELEASE"
+  },
+  "chargeoffs": {
+    "defaultMessage": "Chargeoffs"
+  },
+  "button.addNewAdjustment": {
+    "defaultMessage": "ADD NEW ADJUSTMENT"
+  },
+  "button.exchange": {
+    "defaultMessage": "EXCHANGE"
+  },
+  "button.released": {
+    "defaultMessage": "RELEASED"
+  },
+  "resetPassword": {
+    "defaultMessage": "Reset Password"
+  },
+  "changePassword": {
+    "defaultMessage": "Change Password"
+  },
+  "resetPartnerUserPassword": {
+    "defaultMessage": "Reset Partner User Password"
+  },
+  "change.password.first.time.message": {
+    "defaultMessage": "Enter your current password below, followed by your new password."
+  },
+  "locked": {
+    "defaultMessage": "Locked"
+  },
+  "cityStatePostalCode": {
+    "defaultMessage": "City, State, Postal Code"
+  },
+  "error.field.PAN.between.16and19": {
+    "defaultMessage": "PAN must be between 16-19 numeric characters."
+  },
+  "showDeactivatedCards": {
+    "defaultMessage": "Show Deactivated Cards"
+  },
+  "risk.param.atm_count_1d": {
+    "defaultMessage": "ATM Count limit for 1 day"
+  },
+  "risk.param.atm_count_30d": {
+    "defaultMessage": "ATM Count limit for 30 days"
+  },
+  "risk.param.atm_domestic_1d": {
+    "defaultMessage": "Domestic ATM debit card limit for 1 day"
+  },
+  "risk.param.atm_international_1d": {
+    "defaultMessage": "International ATM limit for 1 day"
+  },
+  "risk.param.international_limit": {
+    "defaultMessage": "International limit"
+  },
+  "risk.param.nomatch_merchant_control_response": {
+    "defaultMessage": "No Match Merchant Control Response"
+  },
+  "risk.param.online_purchase_30d": {
+    "defaultMessage": "Online purchase limit for 1 day"
+  },
+  "risk.param.online_purchase_count_1d": {
+    "defaultMessage": "Online purchase count limit for 1 day"
+  },
+  "risk.param.online_purchase_count_30d": {
+    "defaultMessage": "Online purchase count limit for 30 days"
+  },
+  "risk.param.online_purchase_count_7d": {
+    "defaultMessage": "Online purchase count limit for 7 days"
+  },
+  "risk.param.online_purchase_mcc_limit": {
+    "defaultMessage": "Online purchase MCC limit"
+  },
+  "risk.param.pos_purchase_30d": {
+    "defaultMessage": "POS purchase limit for 30 days"
+  },
+  "risk.param.pos_purchase_count_1d": {
+    "defaultMessage": "POS purchase count limit for 1 day"
+  },
+  "risk.param.pos_purchase_count_30d": {
+    "defaultMessage": "POS purchase count limit for 30 days"
+  },
+  "risk.param.pos_purchase_count_7d": {
+    "defaultMessage": "POS purchase count limit for 7 days"
+  },
+  "risk.param.purchase_count_1d": {
+    "defaultMessage": "Purchase count for 1 day"
+  },
+  "risk.param.purchase_count_30d": {
+    "defaultMessage": "Purchase count for 30 days"
+  },
+  "risk.param.purchase_count_7d": {
+    "defaultMessage": "Purchase count for 7 days"
+  },
+  "risk.param.purchase_count_same_merchant_1d": {
+    "defaultMessage": "Purchase same merchant 1 day (Count)"
+  },
+  "risk.param.purchase_count_same_merchant_30d": {
+    "defaultMessage": "Purchase same merchant 30 days (Count)"
+  },
+  "risk.param.purchase_count_same_merchant_7d": {
+    "defaultMessage": "Purchase same merchant 7 days (Count)"
+  },
+  "risk.param.purchase_same_merchant_1d": {
+    "defaultMessage": "Purchase same merchant 1 day (Amount)"
+  },
+  "risk.param.purchase_same_merchant_30d": {
+    "defaultMessage": "Purchase same merchant 30 days (Amount)"
+  },
+  "risk.param.purchase_same_merchant_7d": {
+    "defaultMessage": "Purchase same merchant 7 days (Amount)"
+  },
+  "risk.param.withdraw_percentage_limit": {
+    "defaultMessage": "Withdraw percentage limit"
+  },
+  "programs.button.addNewProgram": {
+    "defaultMessage": "Add New Program"
+  },
+  "programs.table.primaryContact": {
+    "defaultMessage": "Primary Contact"
+  },
+  "calculation.method.flatAmount": {
+    "defaultMessage": "Flat Amount"
+  },
+  "calculation.method.percentage": {
+    "defaultMessage": "Percentage"
+  },
+  "calculation.method.flatPlusPercentage": {
+    "defaultMessage": "Flat + Percentage"
+  },
+  "calculation.method.greaterOf": {
+    "defaultMessage": "Greater Of"
+  },
+  "calculation.method.lesserOf": {
+    "defaultMessage": "Lesser Of"
+  },
+  "transaction.type.fee.monthly": {
+    "defaultMessage": "Monthly Fee"
+  },
+  "transaction.type.fee.annual": {
+    "defaultMessage": "Annual Fee"
+  },
+  "transaction.type.fastFund": {
+    "defaultMessage": "Fast Fund"
+  },
+  "transaction.type.fee.loadReversal": {
+    "defaultMessage": "Payment Reversal"
+  },
+  "transaction.type.fee.expiry": {
+    "defaultMessage": "Expiry"
+  },
+  "transaction.type.fee.moneySend": {
+    "defaultMessage": "Money Send"
+  },
+  "transaction.type.fee.latePaymentFee": {
+    "defaultMessage": "Late Payment Fee"
+  },
+  "addressType.home": {
+    "defaultMessage": "Home",
+    "description": "Address type"
+  },
+  "address.type.business": {
+    "defaultMessage": "Business",
+    "description": "Address type"
+  },
+  "address.type.shipping": {
+    "defaultMessage": "Shipping",
+    "description": "Address type"
+  },
+  "block.type.card": {
+    "defaultMessage": "Card",
+    "description": "Block type"
+  },
+  "block.type.customer": {
+    "defaultMessage": "Customer",
+    "description": "Block type"
+  },
+  "card.block.loststolen": {
+    "defaultMessage": "Lost or Stolen",
+    "description": "Card block reason"
+  },
+  "card.block.suspended": {
+    "defaultMessage": "Suspended",
+    "description": "Card block reason"
+  },
+  "card.block.fraud": {
+    "defaultMessage": "Fraud",
+    "description": "Card block reason"
+  },
+  "card.block.system": {
+    "defaultMessage": "System",
+    "description": "Card block reason"
+  },
+  "card.block.activation": {
+    "defaultMessage": "Activation",
+    "description": "Card block reason"
+  },
+  "card.block.deactivation": {
+    "defaultMessage": "Deactivation",
+    "description": "Card block reason"
+  },
+  "token.status.active": {
+    "defaultMessage": "Active",
+    "description": "token status"
+  },
+  "token.status.suspended": {
+    "defaultMessage": "Suspended",
+    "description": "token status"
+  },
+  "token.status.inactive": {
+    "defaultMessage": "Inactive",
+    "description": "token status"
+  },
+  "change.order.adjust": {
+    "defaultMessage": "Adjustment",
+    "description": "Adjustment change order"
+  },
+  "change.order.chargeoff": {
+    "defaultMessage": "Chargeoff",
+    "description": "Chargeoff change order"
+  },
+  "change.order.exchangeMargin": {
+    "defaultMessage": "Exchange Margin",
+    "description": "Exchange Margin Request"
+  },
+  "change.order.feeEntry": {
+    "defaultMessage": "Fee Entry",
+    "description": "Fee Entry Request"
+  },
+  "change.order.feePlan": {
+    "defaultMessage": "Fee Plan",
+    "description": "Fee Plan Request"
+  },
+  "change.order.programAdjustment": {
+    "defaultMessage": "Program Adjustment",
+    "description": "Program Adjustment Request"
+  },
+  "change.order.riskConfiguration": {
+    "defaultMessage": "Risk Configuration",
+    "description": "Risk Configuration Request"
+  },
+  "change.order.riskLevel": {
+    "defaultMessage": "Risk Level",
+    "description": "Risk Level Request"
+  },
+  "change.order.withholdingl": {
+    "defaultMessage": "Withholding",
+    "description": "Withholding Request"
+  },
+  "contact.method.email": {
+    "defaultMessage": "Email",
+    "description": "contact method email"
+  },
+  "contact.method.phone": {
+    "defaultMessage": "Phone",
+    "description": "contact method phone"
+  },
+  "email.state.verified": {
+    "defaultMessage": "Verified",
+    "description": "email state"
+  },
+  "email.state.unverified": {
+    "defaultMessage": "Unverified",
+    "description": "email state"
+  },
+  "success.majorCode.200": {
+    "defaultMessage": "Request Completed"
+  },
+  "success.majorCode.unknown": {
+    "defaultMessage": "Unknown",
+    "description": "Unknown"
+  },
+  "success.minorCode.000": {
+    "defaultMessage": "Success",
+    "description": "Request Completed"
+  },
+  "success.minorCode.unknown": {
+    "defaultMessage": "Unknown",
+    "description": "Unknown"
+  },
+  "id.type.tax": {
+    "defaultMessage": "Tax",
+    "description": "id type"
+  },
+  "id.type.national": {
+    "defaultMessage": "National",
+    "description": "id type"
+  },
+  "id.type.passport": {
+    "defaultMessage": "Passport",
+    "description": "id type"
+  },
+  "id.type.driversLicense": {
+    "defaultMessage": "Driver's License",
+    "description": "id type"
+  },
+  "id.type.supplementary": {
+    "defaultMessage": "Supplementary",
+    "description": "id type"
+  },
+  "id.type.alternate": {
+    "defaultMessage": "Alternate",
+    "description": "id type"
+  },
+  "id.type.other": {
+    "defaultMessage": "Other",
+    "description": "id type"
+  },
+  "request.type.exchangeMarginRequest": {
+    "defaultMessage": "Exchange Margin Request",
+    "description": "Change request type"
+  },
+  "request.type.amountChangeRequest": {
+    "defaultMessage": "Amount Change Request",
+    "description": "Change request type"
+  },
+  "request.type.customerAdjustmentRequest": {
+    "defaultMessage": "Customer Adjustment Request",
+    "description": "Change request type"
+  },
+  "request.type.feeEntryRequest": {
+    "defaultMessage": "Fee Entry Request",
+    "description": "Change request type"
+  },
+  "request.type.feePlanRequest": {
+    "defaultMessage": "Fee Plan Request",
+    "description": "Change request type"
+  },
+  "request.type.programAdjustmentRequest": {
+    "defaultMessage": "Program Adjustment Request",
+    "description": "Change request type"
+  },
+  "request.type.riskConfigRequest": {
+    "defaultMessage": "Risk Config Request",
+    "description": "Change request type"
+  },
+  "request.type.riskLevelRequest": {
+    "defaultMessage": "Risk Level Request",
+    "description": "Change request type"
+  },
+  "roles.programManager": {
+    "defaultMessage": "Program Manager",
+    "description": "partner user role"
+  },
+  "roles.retailManager": {
+    "defaultMessage": "Retail Manager",
+    "description": "partner user role"
+  },
+  "roles.readOnly": {
+    "defaultMessage": "Read Only",
+    "description": "partner user role"
+  },
+  "error.feeType.required": {
+    "defaultMessage": "Fee Type is a required field"
+  },
+  "error.number.15integers5decimals.format": {
+    "defaultMessage": "Value should have no more than 15 integers and 5 decimals"
+  },
+  "error.number.7integers3decimals.format": {
+    "defaultMessage": "Value should have no more than 7 integers and 3 decimals"
+  },
+  "calculationMethod": {
+    "defaultMessage": "Calculation Method"
+  },
+  "error.parameterAndValue.required": {
+    "defaultMessage": "Parameter and Value cannot be blank"
+  },
+  "audit.details.title": {
+    "defaultMessage": "Audit Details"
+  },
+  "audit.details.partner": {
+    "defaultMessage": "Partner"
+  },
+  "audit.details.username": {
+    "defaultMessage": "User Name"
+  },
+  "audit.details.customerNumber": {
+    "defaultMessage": "Customer Number"
+  },
+  "audit.details.remoteaddress": {
+    "defaultMessage": "Remote Address"
+  },
+  "audit.details.api": {
+    "defaultMessage": "API"
+  },
+  "drawer.programs.edit.label.language": {
+    "defaultMessage": "Language"
+  },
+  "drawer.programs.edit.label.location": {
+    "defaultMessage": "Location"
+  },
+  "drawer.programs.edit.label.currency": {
+    "defaultMessage": "Home Currency"
+  },
+  "drawer.programs.edit.label.partner": {
+    "defaultMessage": "Partner"
+  },
+  "drawer.programs.edit.label.Bank": {
+    "defaultMessage": "Bank"
+  },
+  "drawer.programs.edit.label.Exchanges": {
+    "defaultMessage": "Exchanges"
+  },
+  "drawer.program.edit.button.addNewFeeButton": {
+    "defaultMessage": "Add New Fee Plan",
+    "description": "Add Fee Plans Label"
+  },
+  "drawer.programs.edit.label.riskProfiles": {
+    "defaultMessage": "Risk Profiles",
+    "description": "Risk Profiles Section Label"
+  },
+  "drawer.program.edit.button.addNewRiskProfileButton": {
+    "defaultMessage": "Add New Risk Profile >>",
+    "description": "Add Risk Profile Label"
+  },
+  "drawer.fees.table.header.calculation.method": {
+    "defaultMessage": "Calculation method"
+  },
+  "saveChanges": {
+    "defaultMessage": "Save Changes",
+    "description": "Save changes button"
+  },
+  "error.currency.15integers5decimals.format": {
+    "defaultMessage": "Value should have no more than 15 integers and 5 decimals"
+  },
+  "drawer.fee.wizard.button.step2of3": {
+    "defaultMessage": "Step 2 of 3",
+    "description": "Step 2 of 3"
+  },
+  "drawer.header.fee.wizard.label.feePlan": {
+    "defaultMessage": "Fee Plan*",
+    "description": "Input Label"
+  },
+  "drawer.fee.wizard.newFeePlan": {
+    "defaultMessage": "New Fee Plan*",
+    "description": "Drawer form placeholder text"
+  },
+  "step2of2": {
+    "defaultMessage": "Step 2 of 2",
+    "description": "Step 2 of 2"
+  },
+  "error.memoKey.required": {
+    "defaultMessage": "Memo Key is required.",
+    "description": "drawer header"
+  },
+  "error.IINs.required": {
+    "defaultMessage": "IIN is required."
+  },
+  "drawer.header.viewCardProfile": {
+    "defaultMessage": "View Card Profile"
+  },
+  "drawer.header.editCardProfile": {
+    "defaultMessage": "Edit Card Profile"
+  },
+  "drawer.header.addCardProfile": {
+    "defaultMessage": "Add New Card Profile"
+  },
+  "drawer.programs.edit.label.cardProfileName": {
+    "defaultMessage": "Card Profile Name"
+  },
+  "drawer.programs.edit.label.pansIssued": {
+    "defaultMessage": "PANs Issued"
+  },
+  "drawer.cardProfile.label.IINs": {
+    "defaultMessage": "IIN*",
+    "description": "Input Label"
+  },
+  "drawer.card.profile.button.edit": {
+    "defaultMessage": "Edit",
+    "description": "Edit"
+  },
+  "drawer.card.profile.button.saveChanges": {
+    "defaultMessage": "Save Changes"
+  },
+  "programs.edit.label.pansIssued": {
+    "defaultMessage": "PANs Issued"
+  },
+  "page.title.editProgram": {
+    "defaultMessage": "Edit Program"
+  },
+  "expiryOverride": {
+    "defaultMessage": "Expiry Override (YYYYMM)"
+  },
+  "suspendTokens": {
+    "defaultMessage": "Suspend Tokens"
+  },
+  "unsuspendTokens": {
+    "defaultMessage": "Unsuspend Tokens"
+  },
+  "deleteTokens": {
+    "defaultMessage": "Delete Tokens"
+  },
+  "active": {
+    "defaultMessage": "Active"
+  },
+  "changeState": {
+    "defaultMessage": "Change State"
+  },
+  "partnerUserState": {
+    "defaultMessage": "Partner User State"
+  },
+  "error.securityLevel.required": {
+    "defaultMessage": "Security level is a required field"
+  },
+  "securityLevel": {
+    "defaultMessage": "Security level"
+  },
+  "error.emailState.required": {
+    "defaultMessage": "Email state is a required field"
+  },
+  "error.firstName.required": {
+    "defaultMessage": "First name is a required field"
+  },
+  "error.lastName.required": {
+    "defaultMessage": "Last name is a required field"
+  },
+  "button.viewChangeHistory": {
+    "defaultMessage": "VIEW CHANGE HISTORY"
+  },
+  "added": {
+    "defaultMessage": "Added"
+  },
+  "updated": {
+    "defaultMessage": "Updated"
+  },
+  "deleted": {
+    "defaultMessage": "Deleted"
+  },
+  "source.name": {
+    "defaultMessage": "name"
+  },
+  "source.email": {
+    "defaultMessage": "email"
+  },
+  "source.phone": {
+    "defaultMessage": "phone"
+  },
+  "source.address": {
+    "defaultMessage": "address"
+  },
+  "source.identification": {
+    "defaultMessage": "identification"
+  },
+  "changeHistory": {
+    "defaultMessage": "Change History"
+  },
+  "error.IINSegment.numberType": {
+    "defaultMessage": "IIN Segment must be a number"
+  },
+  "viewDetails": {
+    "defaultMessage": "View Details"
+  },
+  "authorizedHoldDetails": {
+    "defaultMessage": "Authorized Hold Details"
+  },
+  "id": {
+    "defaultMessage": "ID"
+  },
+  "transactionID": {
+    "defaultMessage": "Transaction ID"
+  },
+  "customerAccountID": {
+    "defaultMessage": "Customer Account ID"
+  },
+  "releasedDate": {
+    "defaultMessage": "Released Date"
+  },
+  "rawMessage": {
+    "defaultMessage": "Raw Message"
+  },
+  "networkMessages": {
+    "defaultMessage": "Network Messages"
+  },
+  "riskDetails": {
+    "defaultMessage": "Risk Details"
+  },
+  "changeRiskLevel": {
+    "defaultMessage": "Change Risk Level"
+  },
+  "addRiskException": {
+    "defaultMessage": "Add Risk Exception"
+  },
+  "editRiskLevel": {
+    "defaultMessage": "Edit Risk Level"
+  },
+  "weekly": {
+    "defaultMessage": "Weekly"
+  },
+  "monthly": {
+    "defaultMessage": "Monthly"
+  },
+  "statementBalance": {
+    "defaultMessage": "Statement Balance"
+  },
+  "automaticLoadRule": {
+    "defaultMessage": "Automatic Load Rule"
+  },
+  "frequency": {
+    "defaultMessage": "Frequency"
+  },
+  "dayOfPeriod": {
+    "defaultMessage": "Day Of Period"
+  },
+  "strategy": {
+    "defaultMessage": "Strategy"
+  },
+  "enabled": {
+    "defaultMessage": "Enabled"
+  },
+  "editAutomaticLoad": {
+    "defaultMessage": "Edit Automatic Load"
+  },
+  "setupAutomaticLoad": {
+    "defaultMessage": "Setup Automatic Load"
+  },
+  "error.changeOrder.required": {
+    "defaultMessage": "Change order is a required field"
+  },
+  "error.neighborhood.mustBe50Chars": {
+    "defaultMessage": "Neighborhood must be 50 characters or less."
+  },
+  "error.releaseDate.cannotBeOlderThanToday": {
+    "defaultMessage": "Release date cannot be older than today"
+  },
+  "error.releaseDate.invalid": {
+    "defaultMessage": "Please enter a valid release date"
+  },
+  "error.adjustmentAmount.cannotLeadToACreditOn": {
+    "defaultMessage": "Adjustment cannot lead to a credit on"
+  },
+  "error.adjustment.mustBeANumber": {
+    "defaultMessage": "Adjustment must be a number"
+  },
+  "error.feeAmountOrFeePercentage.mustBeEntered": {
+    "defaultMessage": "Fixed amount or Fee percentage(%) must be entered"
+  },
+  "error.expiry.dateFormat": {
+    "defaultMessage": "Expiry Override must be in YYYYMM format."
+  },
+  "error.expiry.validDate": {
+    "defaultMessage": "Value must be a valid expiry date."
+  },
+  "error.invalid.input": {
+    "defaultMessage": "Invalid input"
+  },
+  "error.number.required": {
+    "defaultMessage": "A number is required"
+  },
+  "error.test.validPhone": {
+    "defaultMessage": "test-valid-phone"
+  },
+  "error.oldPassword.required": {
+    "defaultMessage": "Old password is a required field."
+  },
+  "error.oneLowercase.character": {
+    "defaultMessage": "One lowercase character"
+  },
+  "error.password.mustContain.oneUppercase.character": {
+    "defaultMessage": "Password must contain one uppercase character"
+  },
+  "error.password.mustContain.oneSpecial.character": {
+    "defaultMessage": "Password must contain one special character"
+  },
+  "error.password.mustContain.oneNumber": {
+    "defaultMessage": "Password must contain one number"
+  },
+  "error.password.mustContain.8Chars": {
+    "defaultMessage": "Password must contain must be 8 characters or more"
+  },
+  "error.password.mustContain.32Chars": {
+    "defaultMessage": "Password must contain must be 32 characters or less"
+  },
+  "error.confirmPassword.required": {
+    "defaultMessage": "Confirm password is a required field."
+  },
+  "error.password.bothSame": {
+    "defaultMessage": "Both password need to be the same"
+  },
+  "user.unlocked.successful": {
+    "defaultMessage": "User was locked successfully"
+  },
+  "adjustments.success.created": {
+    "defaultMessage": "Adjustments has been Created Successfully"
+  },
+  "chargeoffChangeOrder.success.created": {
+    "defaultMessage": "Chargeoff Change Order has been Created Successfully"
+  },
+  "phoneInfo.updated.successful": {
+    "defaultMessage": "Phone Info Updated Successfully."
+  },
+  "address.updated.successful": {
+    "defaultMessage": "Address Updated Successfully."
+  },
+  "program.success.created": {
+    "defaultMessage": "Program has been Created Successfully"
+  },
+  "request.success.completed": {
+    "defaultMessage": "Request Completed Successfully"
+  },
+  "address.success.deleted": {
+    "defaultMessage": "Address Deleted Successfully"
+  },
+  "phone.success.deleted": {
+    "defaultMessage": "Phone Deleted Successfully"
+  },
+  "email.success.deleted": {
+    "defaultMessage": "Email Deleted Successfully"
+  },
+  "ID.success.deleted": {
+    "defaultMessage": "ID Deleted Successfully"
+  },
+  "adjustments.changeOrder.success.created": {
+    "defaultMessage": "Adjustments Change Order has been Created Successfully"
+  },
+  "changes.success.saved": {
+    "defaultMessage": "Your changes were saved successfully."
+  },
+  "password.success.message": {
+    "defaultMessage": "Password was successfully updated. Please login with your new password!"
+  },
+  "email.success.updated": {
+    "defaultMessage": "Email Updated Successfully"
+  },
+  "card.success.reissued": {
+    "defaultMessage": "Card Reissued Successfully"
+  },
+  "card.success.activated": {
+    "defaultMessage": "Card Activated Successfully"
+  },
+  "customer.success.updated": {
+    "defaultMessage": "Customer has been Updated Successfully"
+  },
+  "change.affectAccount.nextBillingPeriodClose": {
+    "defaultMessage": "This change will start affecting the account at the next billing period close."
+  },
+  "adjustment.success.discarded": {
+    "defaultMessage": "Adjustment has been discarded"
+  },
+  "changeOrder.success.created": {
+    "defaultMessage": "A change order was created successfully."
+  },
+  "program.success.updated": {
+    "defaultMessage": "Program has been Updated Successfully"
+  },
+  "changeRequest.success.deleted": {
+    "defaultMessage": "Change request deleted"
+  },
+  "save": {
+    "defaultMessage": "Save"
+  },
+  "additionalAttributes": {
+    "defaultMessage": "Additional Attributes"
+  },
+  "country.AFG": {
+    "defaultMessage": "Afghanistan"
+  },
+  "country.ALA": {
+    "defaultMessage": "Åland Islands"
+  },
+  "country.ALB": {
+    "defaultMessage": "Albania"
+  },
+  "country.DZA": {
+    "defaultMessage": "Algeria"
+  },
+  "country.ASM": {
+    "defaultMessage": "American Samoa"
+  },
+  "country.AND": {
+    "defaultMessage": "Andorra"
+  },
+  "country.AGO": {
+    "defaultMessage": "Angola"
+  },
+  "country.AIA": {
+    "defaultMessage": "Anguilla"
+  },
+  "country.ATA": {
+    "defaultMessage": "Antarctica"
+  },
+  "country.ATG": {
+    "defaultMessage": "Antigua and Barbuda"
+  },
+  "country.ARG": {
+    "defaultMessage": "Argentina"
+  },
+  "country.ARM": {
+    "defaultMessage": "Armenia"
+  },
+  "country.ABW": {
+    "defaultMessage": "Aruba"
+  },
+  "country.ASC": {
+    "defaultMessage": "Ascension Island"
+  },
+  "country.AUS": {
+    "defaultMessage": "Australia"
+  },
+  "country.AUT": {
+    "defaultMessage": "Austria"
+  },
+  "country.AZE": {
+    "defaultMessage": "Azerbaijan"
+  },
+  "country.BHS": {
+    "defaultMessage": "Bahamas"
+  },
+  "country.BHR": {
+    "defaultMessage": "Bahrain"
+  },
+  "country.BGD": {
+    "defaultMessage": "Bangladesh"
+  },
+  "country.BRB": {
+    "defaultMessage": "Barbados"
+  },
+  "country.BLR": {
+    "defaultMessage": "Belarus"
+  },
+  "country.BEL": {
+    "defaultMessage": "Belgium"
+  },
+  "country.BLZ": {
+    "defaultMessage": "Belize"
+  },
+  "country.BEN": {
+    "defaultMessage": "Benin"
+  },
+  "country.BMU": {
+    "defaultMessage": "Bermuda"
+  },
+  "country.BTN": {
+    "defaultMessage": "Bhutan"
+  },
+  "country.BOL": {
+    "defaultMessage": "Bolivia, Plurinational State of"
+  },
+  "country.BES": {
+    "defaultMessage": "Bonaire, Sint Eustatius and Saba"
+  },
+  "country.BIH": {
+    "defaultMessage": "Bosnia and Herzegovina"
+  },
+  "country.BWA": {
+    "defaultMessage": "Botswana"
+  },
+  "country.BVT": {
+    "defaultMessage": "Bouvet Island"
+  },
+  "country.BRA": {
+    "defaultMessage": "Brazil"
+  },
+  "country.IOT": {
+    "defaultMessage": "British Indian Ocean Territory"
+  },
+  "country.BRN": {
+    "defaultMessage": "Brunei Darussalam"
+  },
+  "country.BGR": {
+    "defaultMessage": "Bulgaria"
+  },
+  "country.BFA": {
+    "defaultMessage": "Burkina Faso"
+  },
+  "country.BUR": {
+    "defaultMessage": "Burma"
+  },
+  "country.BDI": {
+    "defaultMessage": "Burundi"
+  },
+  "country.KHM": {
+    "defaultMessage": "Cambodia"
+  },
+  "country.CMR": {
+    "defaultMessage": "Cameroon"
+  },
+  "country.CAN": {
+    "defaultMessage": "Canada"
+  },
+  "country.CPV": {
+    "defaultMessage": "Cape Verde"
+  },
+  "country.CYM": {
+    "defaultMessage": "Cayman Islands"
+  },
+  "country.CAF": {
+    "defaultMessage": "Central African Republic"
+  },
+  "country.TCD": {
+    "defaultMessage": "Chad"
+  },
+  "country.CHL": {
+    "defaultMessage": "Chile"
+  },
+  "country.CHN": {
+    "defaultMessage": "China"
+  },
+  "country.CXR": {
+    "defaultMessage": "Christmas Island"
+  },
+  "country.CPT": {
+    "defaultMessage": "Clipperton Island"
+  },
+  "country.CCK": {
+    "defaultMessage": "Cocos (Keeling) Islands"
+  },
+  "country.COL": {
+    "defaultMessage": "Colombia"
+  },
+  "country.COM": {
+    "defaultMessage": "Comoros"
+  },
+  "country.COG": {
+    "defaultMessage": "Congo"
+  },
+  "country.COD": {
+    "defaultMessage": "Congo, the Democratic Republic of the"
+  },
+  "country.COK": {
+    "defaultMessage": "Cook Islands"
+  },
+  "country.CRI": {
+    "defaultMessage": "Costa Rica"
+  },
+  "country.HRV": {
+    "defaultMessage": "Croatia"
+  },
+  "country.CUB": {
+    "defaultMessage": "Cuba"
+  },
+  "country.CUW": {
+    "defaultMessage": "Curaçao"
+  },
+  "country.CYP": {
+    "defaultMessage": "Cyprus"
+  },
+  "country.CZE": {
+    "defaultMessage": "Czech Republic"
+  },
+  "country.CIV": {
+    "defaultMessage": "Côte d'Ivoire"
+  },
+  "country.DNK": {
+    "defaultMessage": "Denmark"
+  },
+  "country.DGA": {
+    "defaultMessage": "Diego Garcia"
+  },
+  "country.DJI": {
+    "defaultMessage": "Djibouti"
+  },
+  "country.DMA": {
+    "defaultMessage": "Dominica"
+  },
+  "country.DOM": {
+    "defaultMessage": "Dominican Republic"
+  },
+  "country.TMP": {
+    "defaultMessage": "East Timor"
+  },
+  "country.ECU": {
+    "defaultMessage": "Ecuador"
+  },
+  "country.EGY": {
+    "defaultMessage": "Egypt"
+  },
+  "country.SLV": {
+    "defaultMessage": "El Salvador"
+  },
+  "country.GNQ": {
+    "defaultMessage": "Equatorial Guinea"
+  },
+  "country.ERI": {
+    "defaultMessage": "Eritrea"
+  },
+  "country.EST": {
+    "defaultMessage": "Estonia"
+  },
+  "country.SWZ": {
+    "defaultMessage": "Eswatini"
+  },
+  "country.ETH": {
+    "defaultMessage": "Ethiopia"
+  },
+  "country.FLK": {
+    "defaultMessage": "Falkland Islands (Malvinas)"
+  },
+  "country.FRO": {
+    "defaultMessage": "Faroe Islands"
+  },
+  "country.FJI": {
+    "defaultMessage": "Fiji"
+  },
+  "country.FIN": {
+    "defaultMessage": "Finland"
+  },
+  "country.FRA": {
+    "defaultMessage": "France"
+  },
+  "country.FXX": {
+    "defaultMessage": "France, Metropolitan"
+  },
+  "country.GUF": {
+    "defaultMessage": "French Guiana"
+  },
+  "country.PYF": {
+    "defaultMessage": "French Polynesia"
+  },
+  "country.ATF": {
+    "defaultMessage": "French Southern Territories"
+  },
+  "country.GAB": {
+    "defaultMessage": "Gabon"
+  },
+  "country.GMB": {
+    "defaultMessage": "Gambia"
+  },
+  "country.GEO": {
+    "defaultMessage": "Georgia"
+  },
+  "country.DEU": {
+    "defaultMessage": "Germany"
+  },
+  "country.GHA": {
+    "defaultMessage": "Ghana"
+  },
+  "country.GIB": {
+    "defaultMessage": "Gibraltar"
+  },
+  "country.GRC": {
+    "defaultMessage": "Greece"
+  },
+  "country.GRL": {
+    "defaultMessage": "Greenland"
+  },
+  "country.GRD": {
+    "defaultMessage": "Grenada"
+  },
+  "country.GLP": {
+    "defaultMessage": "Guadeloupe"
+  },
+  "country.GUM": {
+    "defaultMessage": "Guam"
+  },
+  "country.GTM": {
+    "defaultMessage": "Guatemala"
+  },
+  "country.GGY": {
+    "defaultMessage": "Guernsey"
+  },
+  "country.GIN": {
+    "defaultMessage": "Guinea"
+  },
+  "country.GNB": {
+    "defaultMessage": "Guinea-Bissau"
+  },
+  "country.GUY": {
+    "defaultMessage": "Guyana"
+  },
+  "country.HTI": {
+    "defaultMessage": "Haiti"
+  },
+  "country.HMD": {
+    "defaultMessage": "Heard Island and McDonald Islands"
+  },
+  "country.VAT": {
+    "defaultMessage": "Holy See (Vatican City State)"
+  },
+  "country.HND": {
+    "defaultMessage": "Honduras"
+  },
+  "country.HKG": {
+    "defaultMessage": "Hong Kong"
+  },
+  "country.HUN": {
+    "defaultMessage": "Hungary"
+  },
+  "country.ISL": {
+    "defaultMessage": "Iceland"
+  },
+  "country.IND": {
+    "defaultMessage": "India"
+  },
+  "country.IDN": {
+    "defaultMessage": "Indonesia"
+  },
+  "country.IRN": {
+    "defaultMessage": "Iran, Islamic Republic of"
+  },
+  "country.IRQ": {
+    "defaultMessage": "Iraq"
+  },
+  "country.IRL": {
+    "defaultMessage": "Ireland"
+  },
+  "country.IMN": {
+    "defaultMessage": "Isle of Man"
+  },
+  "country.ISR": {
+    "defaultMessage": "Israel"
+  },
+  "country.ITA": {
+    "defaultMessage": "Italy"
+  },
+  "country.JAM": {
+    "defaultMessage": "Jamaica"
+  },
+  "country.JPN": {
+    "defaultMessage": "Japan"
+  },
+  "country.JEY": {
+    "defaultMessage": "Jersey"
+  },
+  "country.JOR": {
+    "defaultMessage": "Jordan"
+  },
+  "country.KAZ": {
+    "defaultMessage": "Kazakhstan"
+  },
+  "country.KEN": {
+    "defaultMessage": "Kenya"
+  },
+  "country.KIR": {
+    "defaultMessage": "Kiribati"
+  },
+  "country.PRK": {
+    "defaultMessage": "Korea, Democratic People's Republic of"
+  },
+  "country.KOR": {
+    "defaultMessage": "Korea, Republic of"
+  },
+  "country.XKX": {
+    "defaultMessage": "Kosovo, Republic of"
+  },
+  "country.KWT": {
+    "defaultMessage": "Kuwait"
+  },
+  "country.KGZ": {
+    "defaultMessage": "Kyrgyzstan"
+  },
+  "country.LAO": {
+    "defaultMessage": "Lao People's Democratic Republic"
+  },
+  "country.LVA": {
+    "defaultMessage": "Latvia"
+  },
+  "country.LBN": {
+    "defaultMessage": "Lebanon"
+  },
+  "country.LSO": {
+    "defaultMessage": "Lesotho"
+  },
+  "country.LBR": {
+    "defaultMessage": "Liberia"
+  },
+  "country.LBY": {
+    "defaultMessage": "Libya"
+  },
+  "country.LIE": {
+    "defaultMessage": "Liechtenstein"
+  },
+  "country.LTU": {
+    "defaultMessage": "Lithuania"
+  },
+  "country.LUX": {
+    "defaultMessage": "Luxembourg"
+  },
+  "country.MAC": {
+    "defaultMessage": "Macao"
+  },
+  "country.MDG": {
+    "defaultMessage": "Madagascar"
+  },
+  "country.MWI": {
+    "defaultMessage": "Malawi"
+  },
+  "country.MYS": {
+    "defaultMessage": "Malaysia"
+  },
+  "country.MDV": {
+    "defaultMessage": "Maldives"
+  },
+  "country.MLI": {
+    "defaultMessage": "Mali"
+  },
+  "country.MLT": {
+    "defaultMessage": "Malta"
+  },
+  "country.MHL": {
+    "defaultMessage": "Marshall Islands"
+  },
+  "country.MTQ": {
+    "defaultMessage": "Martinique"
+  },
+  "country.MRT": {
+    "defaultMessage": "Mauritania"
+  },
+  "country.MUS": {
+    "defaultMessage": "Mauritius"
+  },
+  "country.MYT": {
+    "defaultMessage": "Mayotte"
+  },
+  "country.MEX": {
+    "defaultMessage": "Mexico"
+  },
+  "country.FSM": {
+    "defaultMessage": "Micronesia, Federated States of"
+  },
+  "country.MDA": {
+    "defaultMessage": "Moldova, Republic of"
+  },
+  "country.MCO": {
+    "defaultMessage": "Monaco"
+  },
+  "country.MNG": {
+    "defaultMessage": "Mongolia"
+  },
+  "country.MNE": {
+    "defaultMessage": "Montenegro"
+  },
+  "country.MSR": {
+    "defaultMessage": "Montserrat"
+  },
+  "country.MAR": {
+    "defaultMessage": "Morocco"
+  },
+  "country.MOZ": {
+    "defaultMessage": "Mozambique"
+  },
+  "country.MMR": {
+    "defaultMessage": "Myanmar"
+  },
+  "country.NAM": {
+    "defaultMessage": "Namibia"
+  },
+  "country.NRU": {
+    "defaultMessage": "Nauru"
+  },
+  "country.NPL": {
+    "defaultMessage": "Nepal"
+  },
+  "country.NLD": {
+    "defaultMessage": "Netherlands"
+  },
+  "country.ANT": {
+    "defaultMessage": "Netherlands Antilles"
+  },
+  "country.NCL": {
+    "defaultMessage": "New Caledonia"
+  },
+  "country.NZL": {
+    "defaultMessage": "New Zealand"
+  },
+  "country.NIC": {
+    "defaultMessage": "Nicaragua"
+  },
+  "country.NER": {
+    "defaultMessage": "Niger"
+  },
+  "country.NGA": {
+    "defaultMessage": "Nigeria"
+  },
+  "country.NIU": {
+    "defaultMessage": "Niue"
+  },
+  "country.NFK": {
+    "defaultMessage": "Norfolk Island"
+  },
+  "country.MKD": {
+    "defaultMessage": "North Macedonia, Republic of"
+  },
+  "country.XXI": {
+    "defaultMessage": "Northern Ireland"
+  },
+  "country.MNP": {
+    "defaultMessage": "Northern Mariana Islands"
+  },
+  "country.NOR": {
+    "defaultMessage": "Norway"
+  },
+  "country.OMN": {
+    "defaultMessage": "Oman"
+  },
+  "country.PAK": {
+    "defaultMessage": "Pakistan"
+  },
+  "country.PLW": {
+    "defaultMessage": "Palau"
+  },
+  "country.PSE": {
+    "defaultMessage": "Palestine, State of"
+  },
+  "country.PAN": {
+    "defaultMessage": "Panama"
+  },
+  "country.PNG": {
+    "defaultMessage": "Papua New Guinea"
+  },
+  "country.PRY": {
+    "defaultMessage": "Paraguay"
+  },
+  "country.PER": {
+    "defaultMessage": "Peru"
+  },
+  "country.PHL": {
+    "defaultMessage": "Philippines"
+  },
+  "country.PCN": {
+    "defaultMessage": "Pitcairn"
+  },
+  "country.POL": {
+    "defaultMessage": "Poland"
+  },
+  "country.PRT": {
+    "defaultMessage": "Portugal"
+  },
+  "country.PRI": {
+    "defaultMessage": "Puerto Rico"
+  },
+  "country.QAT": {
+    "defaultMessage": "Qatar"
+  },
+  "country.ROU": {
+    "defaultMessage": "Romania"
+  },
+  "country.RUS": {
+    "defaultMessage": "Russian Federation"
+  },
+  "country.RWA": {
+    "defaultMessage": "Rwanda"
+  },
+  "country.REU": {
+    "defaultMessage": "Réunion"
+  },
+  "country.BLM": {
+    "defaultMessage": "Saint Barthélemy"
+  },
+  "country.SHN": {
+    "defaultMessage": "Saint Helena, Ascension and Tristan da Cunha"
+  },
+  "country.KNA": {
+    "defaultMessage": "Saint Kitts and Nevis"
+  },
+  "country.LCA": {
+    "defaultMessage": "Saint Lucia"
+  },
+  "country.MAF": {
+    "defaultMessage": "Saint Martin (French part)"
+  },
+  "country.SPM": {
+    "defaultMessage": "Saint Pierre and Miquelon"
+  },
+  "country.VCT": {
+    "defaultMessage": "Saint Vincent and the Grenadines"
+  },
+  "country.WSM": {
+    "defaultMessage": "Samoa"
+  },
+  "country.SMR": {
+    "defaultMessage": "San Marino"
+  },
+  "country.STP": {
+    "defaultMessage": "Sao Tome and Principe"
+  },
+  "country.SAU": {
+    "defaultMessage": "Saudi Arabia"
+  },
+  "country.SEN": {
+    "defaultMessage": "Senegal"
+  },
+  "country.SRB": {
+    "defaultMessage": "Serbia"
+  },
+  "country.SYC": {
+    "defaultMessage": "Seychelles"
+  },
+  "country.SLE": {
+    "defaultMessage": "Sierra Leone"
+  },
+  "country.SGP": {
+    "defaultMessage": "Singapore"
+  },
+  "country.SXM": {
+    "defaultMessage": "Sint Maarten (Dutch part)"
+  },
+  "country.SVK": {
+    "defaultMessage": "Slovakia"
+  },
+  "country.SVN": {
+    "defaultMessage": "Slovenia"
+  },
+  "country.SLB": {
+    "defaultMessage": "Solomon Islands"
+  },
+  "country.SOM": {
+    "defaultMessage": "Somalia"
+  },
+  "country.ZAF": {
+    "defaultMessage": "South Africa"
+  },
+  "country.SGS": {
+    "defaultMessage": "South Georgia and the South Sandwich Islands"
+  },
+  "country.SSD": {
+    "defaultMessage": "South Sudan"
+  },
+  "country.ESP": {
+    "defaultMessage": "Spain"
+  },
+  "country.LKA": {
+    "defaultMessage": "Sri Lanka"
+  },
+  "country.SDN": {
+    "defaultMessage": "Sudan"
+  },
+  "country.SUR": {
+    "defaultMessage": "Suriname"
+  },
+  "country.SJM": {
+    "defaultMessage": "Svalbard and Jan Mayen"
+  },
+  "country.SWE": {
+    "defaultMessage": "Sweden"
+  },
+  "country.CHE": {
+    "defaultMessage": "Switzerland"
+  },
+  "country.SYR": {
+    "defaultMessage": "Syrian Arab Republic"
+  },
+  "country.TWN": {
+    "defaultMessage": "Taiwan, Province of China"
+  },
+  "country.TJK": {
+    "defaultMessage": "Tajikistan"
+  },
+  "country.TZA": {
+    "defaultMessage": "Tanzania, United Republic "
+  },
+  "country.THA": {
+    "defaultMessage": "Thailand"
+  },
+  "country.TLS": {
+    "defaultMessage": "Timor-Leste"
+  },
+  "country.TGO": {
+    "defaultMessage": "Togo"
+  },
+  "country.TKL": {
+    "defaultMessage": "Tokelau"
+  },
+  "country.TON": {
+    "defaultMessage": "Tonga"
+  },
+  "country.TTO": {
+    "defaultMessage": "Trinidad and Tobago"
+  },
+  "country.TAA": {
+    "defaultMessage": "Tristan da Cunha"
+  },
+  "country.TUN": {
+    "defaultMessage": "Tunisia"
+  },
+  "country.TUR": {
+    "defaultMessage": "Turkey"
+  },
+  "country.TKM": {
+    "defaultMessage": "Turkmenistan"
+  },
+  "country.TCA": {
+    "defaultMessage": "Turks and Caicos Islands"
+  },
+  "country.TUV": {
+    "defaultMessage": "Tuvalu"
+  },
+  "country.UGA": {
+    "defaultMessage": "Uganda"
+  },
+  "country.UKR": {
+    "defaultMessage": "Ukraine"
+  },
+  "country.ARE": {
+    "defaultMessage": "United Arab Emirates"
+  },
+  "country.GBR": {
+    "defaultMessage": "United Kingdom"
+  },
+  "country.XXU": {
+    "defaultMessage": "United Kingdom (excluding Northern Ireland)"
+  },
+  "country.USA": {
+    "defaultMessage": "United States"
+  },
+  "country.UMI": {
+    "defaultMessage": "United States Minor Outlying Islands"
+  },
+  "country.URY": {
+    "defaultMessage": "Uruguay"
+  },
+  "country.UZB": {
+    "defaultMessage": "Uzbekistan"
+  },
+  "country.VUT": {
+    "defaultMessage": "Vanuatu"
+  },
+  "country.VEN": {
+    "defaultMessage": "Venezuela, Bolivarian Republic of"
+  },
+  "country.VNM": {
+    "defaultMessage": "Vietnam"
+  },
+  "country.VGB": {
+    "defaultMessage": "Virgin Islands, British"
+  },
+  "country.VIR": {
+    "defaultMessage": "Virgin Islands, U.S."
+  },
+  "country.WLF": {
+    "defaultMessage": "Wallis and Futuna"
+  },
+  "country.ESH": {
+    "defaultMessage": "Western Sahara"
+  },
+  "country.YEM": {
+    "defaultMessage": "Yemen"
+  },
+  "country.ZMB": {
+    "defaultMessage": "Zambia"
+  },
+  "country.ZWE": {
+    "defaultMessage": "Zimbabwe"
+  },
+  "direct": {
+    "defaultMessage": "DIRECT"
+  },
+  "tier": {
+    "defaultMessage": "TIER"
+  },
+  "summaryBalances": {
+    "defaultMessage": "Summary Balances"
+  },
+  "billingDetails": {
+    "defaultMessage": "Billing Details"
+  },
+  "periodManagement": {
+    "defaultMessage": "Period Management"
+  },
+  "credit": {
+    "defaultMessage": "Credit"
+  },
+  "productedit.credit.button": {
+    "defaultMessage": "Edit"
+  },
+  "viewPreviousMinPaymentHistory": {
+    "defaultMessage": "View previous min payment history"
+  },
+  "automaticLoad": {
+    "defaultMessage": "Automatic Load"
+  },
+  "makeAnAdjustment": {
+    "defaultMessage": "Make an Adjustment"
+  },
+  "purchaseBalances": {
+    "defaultMessage": "Purchase balances"
+  },
+  "feeBalances": {
+    "defaultMessage": "Fee balances"
+  },
+  "cashAdvanceBalances": {
+    "defaultMessage": "Cash Advance balances"
+  },
+  "lastCycleBalance": {
+    "defaultMessage": "Last Cycle Balance"
+  },
+  "minimumDue": {
+    "defaultMessage": "Minimum Due"
+  },
+  "lastCycleCloseDate": {
+    "defaultMessage": "Last Cycle Close Date"
+  },
+  "paymentDueDate": {
+    "defaultMessage": "Payment Due Date"
+  },
+  "nextRepaymentEndDate": {
+    "defaultMessage": "Next Repayment End Date"
+  },
+  "repaymentPeriodLength": {
+    "defaultMessage": "Repayment Period Length"
+  },
+  "nextBillingPeriodEndDate": {
+    "defaultMessage": "Next Billing Period End Date"
+  },
+  "billingPeriodLength": {
+    "defaultMessage": "Billing Period Length"
+  },
+  "interestAccrual": {
+    "defaultMessage": "Interest Accrual"
+  },
+  "rateMethod": {
+    "defaultMessage": "Rate Method"
+  },
+  "interestRateTier": {
+    "defaultMessage": "Interest Rate Tier"
+  },
+  "purchaseRate": {
+    "defaultMessage": "Purchase rate"
+  },
+  "cashRate": {
+    "defaultMessage": "Cash rate"
+  },
+  "feeRate": {
+    "defaultMessage": "Fee rate"
+  },
+  "availableCredit": {
+    "defaultMessage": "Available Credit"
+  },
+  "creditLimit": {
+    "defaultMessage": "Credit Limit"
+  },
+  "unpaidMinimums": {
+    "defaultMessage": "Unpaid Minimums"
+  },
+  "currentPrincipal": {
+    "defaultMessage": "Current Principal"
+  },
+  "currentInterest": {
+    "defaultMessage": "Current Interest"
+  },
+  "previousPrincipal": {
+    "defaultMessage": "Previous Principal"
+  },
+  "previousInterest": {
+    "defaultMessage": "Previous Interest"
+  },
+  "owedPrincipal": {
+    "defaultMessage": "Owed Principal"
+  },
+  "owedInterest": {
+    "defaultMessage": "Owed Interest"
+  },
+  "billingHistory": {
+    "defaultMessage": "Billing History"
+  },
+  "cycleStartDate": {
+    "defaultMessage": "Cycle Start Date"
+  },
+  "cycleEndDate": {
+    "defaultMessage": "Cycle End Date"
+  },
+  "cycleBalance": {
+    "defaultMessage": "Cycle Balance"
+  },
+  "previousCycleBalance": {
+    "defaultMessage": "Previous Cycle Balance"
+  },
+  "payments": {
+    "defaultMessage": "Payments"
+  },
+  "credits": {
+    "defaultMessage": "Credits"
+  },
+  "purchasesCharged": {
+    "defaultMessage": "Purchases Charged"
+  },
+  "cashAdvanceCharged": {
+    "defaultMessage": "Cash Advance Charged"
+  },
+  "feeCharged": {
+    "defaultMessage": "Fee Charged"
+  },
+  "interestCharged": {
+    "defaultMessage": "Interest Charged"
+  },
+  "modifiedOrCreated": {
+    "defaultMessage": "modified or created"
+  },
+  "personChangeHistory": {
+    "defaultMessage": "Person Change History"
+  },
+  "text.deleted": {
+    "defaultMessage": "deleted"
+  },
+  "person": {
+    "defaultMessage": "Person"
+  },
+  "officialId": {
+    "defaultMessage": "Official ID"
+  },
+  "button.HIDE": {
+    "defaultMessage": "HIDE"
+  },
+  "controls": {
+    "defaultMessage": "Controls"
+  },
+  "merchantControls": {
+    "defaultMessage": "Merchant Controls"
+  },
+  "warning.confirmation.delete": {
+    "defaultMessage": "Are you sure you want to delete this {fieldName}?"
+  },
+  "billingCycleDate": {
+    "defaultMessage": "Billing cycle date"
+  },
+  "originalOwedAmount": {
+    "defaultMessage": "Original owed amount"
+  },
+  "unpaidAmount": {
+    "defaultMessage": "Unpaid amount"
+  },
+  "minimumPaymentDueHistory": {
+    "defaultMessage": "Minimum Payment Due History"
+  },
+  "adjustmentType": {
+    "defaultMessage": "Adjustment Type"
+  },
+  "addAdditionalAdjustment": {
+    "defaultMessage": "ADD ADDITIONAL ADJUSTMENT"
+  },
+  "currentTotalBalance": {
+    "defaultMessage": "Current Total Balance"
+  },
+  "totalAdjustmentAmount": {
+    "defaultMessage": "Total Adjustment Amount"
+  },
+  "projected": {
+    "defaultMessage": "Projected"
+  },
+  "error.merchantControl.ruleConflict": {
+    "defaultMessage": "This rule is in conflict with Merchant Control {id}. Please enter a valid To/From amount and Merchant ID."
+  },
+  "error": {
+    "defaultMessage": "Error"
+  },
+  "incorrectOldPassword": {
+    "defaultMessage": "Incorrect Old Password"
+  },
+  "oldPasswordDoesNotMatch": {
+    "defaultMessage": "The old password provided does not match our records. Please enter the correct old password."
+  },
+  "button.addNewRiskLevel": {
+    "defaultMessage": "ADD NEW RISK LEVEL"
+  },
+  "button.addNewFeePlan": {
+    "defaultMessage": "ADD NEW FEE PLAN"
+  },
+  "customerFeePlans": {
+    "defaultMessage": "Customer Fee Plans"
+  },
+  "currentBilledInterest": {
+    "defaultMessage": "Current Billed Interest"
+  },
+  "owedBilledInterest": {
+    "defaultMessage": "Owed Billed Interest"
+  },
+  "previousBilledInterest": {
+    "defaultMessage": "Previous Billed Interest"
+  },
+  "creditBalances": {
+    "defaultMessage": "Credit Balances (Choose at least one)"
+  },
+  "cashAdvance": {
+    "defaultMessage": "Cash Advance"
+  },
+  "chooseAtLeastOne": {
+    "defaultMessage": "Choose at least One"
+  },
+  "daysPerYear": {
+    "defaultMessage": "Days Per Year"
+  },
+  "interestAccrualType": {
+    "defaultMessage": "Interest Accrual Type"
+  },
+  "interestRateTiers": {
+    "defaultMessage": "Interest Rate Tiers"
+  },
+  "tierName": {
+    "defaultMessage": "Tier Name"
+  },
+  "addNewTier": {
+    "defaultMessage": "ADD NEW TIER"
+  },
+  "repayment": {
+    "defaultMessage": "Repayment"
+  },
+  "nonProcessingDayHandling": {
+    "defaultMessage": "Non Processing Day Handling"
+  },
+  "dueDateShift": {
+    "defaultMessage": "Due Date Shift"
+  },
+  "autoLoadShift": {
+    "defaultMessage": "Auto Load Shift"
+  },
+  "repaymentHierarchy": {
+    "defaultMessage": "Repayment Hierarchy"
+  },
+  "minimumRepayment": {
+    "defaultMessage": "Minimum Repayment"
+  },
+  "purchaseRepaymentRatios": {
+    "defaultMessage": "Purchase repayment ratios"
+  },
+  "cashAdvanceRepaymentRatios": {
+    "defaultMessage": "Cash Advance repayment ratios"
+  },
+  "feeRepaymentRatios": {
+    "defaultMessage": "Fee repayment ratios"
+  },
+  "usePrevious": {
+    "defaultMessage": "Use Previous"
+  },
+  "useNew": {
+    "defaultMessage": "Use New"
+  },
+  "reissue.cards.title": {
+    "defaultMessage": "Reissue Card"
+  },
+  "reissue.cards.samePan": {
+    "defaultMessage": "Same PAN"
+  },
+  "reissue.cards.sameExpiry": {
+    "defaultMessage": "Same Expiry"
+  },
+  "reissue.cards.chargeFee": {
+    "defaultMessage": "Charge Fee"
+  },
+  "reissue.cards.expeditedShipping": {
+    "defaultMessage": "Expedited Shipping"
+  },
+  "cardOrderAttributes": {
+    "defaultMessage": "Card Order Attributes"
+  },
+  "attributeMergeStrategy": {
+    "defaultMessage": "Attribute Merge Strategy*"
+  },
+  "drawer.ext.acct.label.name": {
+    "defaultMessage": "Name*"
+  },
+  "drawer.ext.acct.label.value": {
+    "defaultMessage": "Value*"
+  },
+  "drawer.ext.acct.add.attribute": {
+    "defaultMessage": "ADD ADDITIONAL ATTRIBUTES"
+  },
+  "re.issue.card.cancel.button": {
+    "defaultMessage": "Cancel"
+  },
+  "reissue.cards.reissue.button": {
+    "defaultMessage": "Reissue"
+  },
+  "error.cardProfile.required": {
+    "defaultMessage": "Card Profile is a required field."
+  },
+  "error.personName.required": {
+    "defaultMessage": "Account Holder is a required field."
+  },
+  "accountHolder": {
+    "defaultMessage": "Account Holder*"
+  },
+  "drawer.orderNewCard.label.chargeFee": {
+    "defaultMessage": "Charge Fee"
+  },
+  "minimumAllowed": {
+    "defaultMessage": "Minimum Allowed"
+  },
+  "maximumAllowed": {
+    "defaultMessage": "Maximum Allowed"
+  },
+  "latePaymentFee": {
+    "defaultMessage": "Late Payment Fee"
+  },
+  "loanPeriod": {
+    "defaultMessage": "Loan Period*"
+  },
+  "loanPeriodDays": {
+    "defaultMessage": "Loan Period Days*"
+  },
+  "interestApplicationDay": {
+    "defaultMessage": "Interest Application Day*"
+  },
+  "annualInterestRateOnLoanAmount": {
+    "defaultMessage": "Annual Interest Rate On Loan Amount*"
+  },
+  "dayCountPerYear": {
+    "defaultMessage": "Day Count Per Year*"
+  },
+  "annualInterestRateMaxLimit": {
+    "defaultMessage": "Annual Interest Rate Max Limit*"
+  },
+  "dismiss": {
+    "defaultMessage": "Dismiss"
+  },
+  "primaryAction": {
+    "defaultMessage": "Primary Action"
+  },
+  "dontShowAgain": {
+    "defaultMessage": "Don't show again"
+  },
+  "drawer.blocks.card.table.header.reason": {
+    "defaultMessage": "Reason"
+  },
+  "drawer.blocks.card.table.header.memo": {
+    "defaultMessage": "Memo"
+  },
+  "drawer.blocks.card.table.header.created": {
+    "defaultMessage": "Created"
+  },
+  "drawer.blocks.card.table.header.createdBy": {
+    "defaultMessage": "Created By"
+  },
+  "drawer.blocks.card.table.header.release": {
+    "defaultMessage": "Release"
+  },
+  "drawer.blocks.button.release": {
+    "defaultMessage": "Release"
+  },
+  "drawer.blocks.card.table.header.customerReleasable": {
+    "defaultMessage": "Customer Releasable"
+  },
+  "customer.drawer.billingHistory.header": {
+    "defaultMessage": "Billing History"
+  },
+  "viewCycleTransaction": {
+    "defaultMessage": "View Cycle Transactions >>>"
+  },
+  "adjustmentAmount": {
+    "defaultMessage": "Adjustment amount"
+  },
+  "drawer.createchangeorder.activateOn": {
+    "defaultMessage": "Activate on:"
+  },
+  "drawer.createchangeorder.memo": {
+    "defaultMessage": "Memo"
+  },
+  "drawer.createchangeorder.approval": {
+    "defaultMessage": "Approval"
+  },
+  "drawer.createchangeorder.currency": {
+    "defaultMessage": "Currency*"
+  },
+  "drawer.createchangeorder.amount": {
+    "defaultMessage": "Amount"
+  },
+  "customerDetail.drawer.feePlans.viewAllFees": {
+    "defaultMessage": "View all fees assigned to this fee plan <<"
+  },
+  "customerDetail.drawer.feePlan.hideAllFees": {
+    "defaultMessage": "Hide all fees assigned to this fee plan >>"
+  },
+  "customerDetail.drawer.feePlans.saveChanges": {
+    "defaultMessage": "Save Changes>"
+  },
+  "customerDetail.drawer.feePlans.cancel": {
+    "defaultMessage": "Cancel"
+  },
+  "customerDetail.drawer.feePlan.header": {
+    "defaultMessage": "Fee Plan Detail"
+  },
+  "drawer.createchangeorder.chooseDate": {
+    "defaultMessage": "Choose date*"
+  },
+  "drawer.card.details.status": {
+    "defaultMessage": "Status"
+  },
+  "drawer.card.details.created": {
+    "defaultMessage": "Created"
+  },
+  "drawer.card.details.modified": {
+    "defaultMessage": "Last Modified"
+  },
+  "drawer.card.details.address": {
+    "defaultMessage": "Address"
+  },
+  "drawer.card.detail.PIN.failCount": {
+    "defaultMessage": "PIN Fail Count"
+  },
+  "wallet.card.activate.button": {
+    "defaultMessage": "Activate"
+  },
+  "customer.edit.label.title": {
+    "defaultMessage": "Title"
+  },
+  "customerEdit.drawer.personalInfo.firstName": {
+    "defaultMessage": "Given Name*"
+  },
+  "customerEdit.drawer.personalInfo.MiddleName": {
+    "defaultMessage": "Middle Name"
+  },
+  "customerEdit.drawer.personalInfo.FamilyName": {
+    "defaultMessage": "Family Name*"
+  },
+  "customer.edit.label.secondFamilyName": {
+    "defaultMessage": "Second Family Name"
+  },
+  "customer.edit.label.suffix": {
+    "defaultMessage": "Suffix"
+  },
+  "customer.edit.label.nickname": {
+    "defaultMessage": "nickname"
+  },
+  "customer.edit.label.gender": {
+    "defaultMessage": "gender"
+  },
+  "customer.edit.label.dob": {
+    "defaultMessage": "Date of Birth"
+  },
+  "drawer.personalInfo.button.cancel": {
+    "defaultMessage": "Cancel"
+  },
+  "drawer.personalInfo.button.saveChanges": {
+    "defaultMessage": "Save Changes"
+  },
+  "drawer.label.identification.issuerState": {
+    "defaultMessage": "ID Issuer (State)"
+  },
+  "phone": {
+    "defaultMessage": "Phone"
+  },
+  "customer.updated.successful": {
+    "defaultMessage": "Customer has been Updated Successfully"
+  },
+  "interestForgiveness": {
+    "defaultMessage": "Interest Forgiveness"
+  },
+  "change.account.startAffecting.nextBilling": {
+    "defaultMessage": "This change will start affecting the account at the next billing period close."
+  },
+  "wallets.section.header.wallets": {
+    "defaultMessage": "Wallets"
+  },
+  "accountHolders.card.title.persons": {
+    "defaultMessage": "Account Holders"
+  },
+  "customer.account.link.account.holders": {
+    "defaultMessage": "View Account Holders"
+  },
+  "filters": {
+    "defaultMessage": "Filters"
+  },
+  "customer.search.result.name": {
+    "defaultMessage": "Name"
+  },
+  "customer.search.result.customerNumber": {
+    "defaultMessage": "Customer Number"
+  },
+  "customer.search.result.address": {
+    "defaultMessage": "Address"
+  },
+  "selectLanguage": {
+    "defaultMessage": "Select Language"
+  },
+  "selectALanguage": {
+    "defaultMessage": "Select a Language"
+  },
+  "drawer.addPartner.label.email": {
+    "defaultMessage": "Email"
+  },
+  "drawer.addPartner.label.inns": {
+    "defaultMessage": "IINs"
+  },
+  "drawer.partners.label.Inns": {
+    "defaultMessage": "IINs"
+  },
+  "partner.add.additional.inns.button": {
+    "defaultMessage": "ADD ADDITIONAL IIN"
+  },
+  "configure.form.base.label.productName": {
+    "defaultMessage": "Product Name*"
+  },
+  "configure.form.base.label.partner": {
+    "defaultMessage": "Partner"
+  },
+  "configure.form.base.label.language": {
+    "defaultMessage": "Language"
+  },
+  "drawer.addProgram.label.location": {
+    "defaultMessage": "Location*"
+  },
+  "configure.form.base.label.timeZone": {
+    "defaultMessage": "Time Zone"
+  },
+  "configure.form.base.label.day": {
+    "defaultMessage": "Day"
+  },
+  "configure.form.base.label.hour": {
+    "defaultMessage": "Hour"
+  },
+  "configure.form.base.label.minute": {
+    "defaultMessage": "Minute"
+  },
+  "default": {
+    "defaultMessage": "Default"
+  },
+  "defaultRepaymentPeriod": {
+    "defaultMessage": "Default Repayment Period"
+  },
+  "overallBalanceRatio": {
+    "defaultMessage": "Overall Balance Ratio"
+  },
+  "minimumThreshold": {
+    "defaultMessage": "Minimum Threshold"
+  },
+  "owedPastDueRatio": {
+    "defaultMessage": "Owed Past Due Ratio"
+  },
+  "currentPrincipalRatio": {
+    "defaultMessage": "Current Principal Ratio"
+  },
+  "owedPrincipalRatio": {
+    "defaultMessage": "Owed Principal Ratio"
+  },
+  "currentInterestRatio": {
+    "defaultMessage": "Current Interest Ratio"
+  },
+  "owedInterestRatio": {
+    "defaultMessage": "Owed Interest Ratio"
+  },
+  "previousPrincipalRatio": {
+    "defaultMessage": "Previous Principal Ratio"
+  },
+  "previousInterestRatio": {
+    "defaultMessage": "Previous Interest Ratio"
+  },
+  "error.mustLessThan.maximumAllowed": {
+    "defaultMessage": "Must be less than maximum allowed"
+  },
+  "error.mustMoreThan.maximumAllowed": {
+    "defaultMessage": "Must be more than maximum allowed"
+  },
+  "error.mustLessThan.default": {
+    "defaultMessage": "Must be less than default"
+  },
+  "error.mustLessThan.minimum": {
+    "defaultMessage": "Must more less than minimum"
+  },
+  "error.mustMoreThan.maximum": {
+    "defaultMessage": "Must be more than maximum"
+  },
+  "error.mustMoreThan.default": {
+    "defaultMessage": "Must be more than default"
+  },
+  "error.mustMoreThan.minimum": {
+    "defaultMessage": "Must be more than minimum"
+  },
+  "error.mustLessThan.maximum": {
+    "defaultMessage": "Must be less than maximum"
+  },
+  "error.tierName.required": {
+    "defaultMessage": "Tier name is required!"
+  },
+  "error.thisField.required": {
+    "defaultMessage": "This is a required field"
+  },
+  "installments": {
+    "defaultMessage": "Installments"
+  },
+  "annualRate": {
+    "defaultMessage": "Annual Rate"
+  },
+  "changeRequestDetails": {
+    "defaultMessage": "Change Request Details"
+  },
+  "programs.add.button": {
+    "defaultMessage": "Choose & continue"
+  },
+  "allow": {
+    "defaultMessage": "Allow"
+  },
+  "reject": {
+    "defaultMessage": "Reject"
+  },
+  "merchantControl.success.updated": {
+    "defaultMessage": "Merchant Control has been Updated Successfully"
+  },
+  "merchantControl.success.created": {
+    "defaultMessage": "Merchant Control has been Created Successfully"
+  },
+  "network": {
+    "defaultMessage": "Network"
+  },
+  "amountCurrency": {
+    "defaultMessage": "Amount currency"
+  },
+  "toAmount": {
+    "defaultMessage": "To Amount"
+  },
+  "fromAmount": {
+    "defaultMessage": "From Amount"
+  },
+  "merchantControl.success.deleted": {
+    "defaultMessage": "Merchant Control Deleted Successfully"
+  },
+  "viewMerchantControlDetails": {
+    "defaultMessage": "Merchant Control ID"
+  },
+  "amountFrom": {
+    "defaultMessage": "Amount - From"
+  },
+  "amountTo": {
+    "defaultMessage": "Amount - To"
+  },
+  "acquirerID": {
+    "defaultMessage": "Acquirer ID"
+  },
+  "merchantID": {
+    "defaultMessage": "Merchant ID"
+  },
+  "terminalIDFrom": {
+    "defaultMessage": "Terminal ID - From"
+  },
+  "terminalIDTo": {
+    "defaultMessage": "Terminal ID - To"
+  },
+  "merchantCity": {
+    "defaultMessage": "Merchant City"
+  },
+  "merchantCountryCode": {
+    "defaultMessage": "Merchant Country Code"
+  },
+  "modifiedDate": {
+    "defaultMessage": "Modified Date"
+  },
+  "editMerchantControl": {
+    "defaultMessage": "Edit Merchant Control"
+  },
+  "createMerchantControl": {
+    "defaultMessage": "Create Merchant Control"
+  },
+  "deleteMerchantControl": {
+    "defaultMessage": "Delete merchant control"
+  },
+  "discardChanges": {
+    "defaultMessage": "Discard Changes"
+  },
+  "products": {
+    "defaultMessage": "Products"
+  },
+  "memo": {
+    "defaultMessage": "Memo"
+  },
+  "card.state.created": {
+    "defaultMessage": "Created"
+  },
+  "card.state.shipped": {
+    "defaultMessage": "Shipped"
+  },
+  "card.state.sold": {
+    "defaultMessage": "Sold"
+  },
+  "card.state.returned": {
+    "defaultMessage": "Returned"
+  },
+  "card.state.resent": {
+    "defaultMessage": "Resent"
+  },
+  "card.state.activated": {
+    "defaultMessage": "Activated"
+  },
+  "card.state.invalid": {
+    "defaultMessage": "Invalid"
+  },
+  "transaction.state.pending": {
+    "defaultMessage": "Pending"
+  },
+  "transaction.state.submitted": {
+    "defaultMessage": "Submitted"
+  },
+  "transaction.state.success": {
+    "defaultMessage": "Success"
+  },
+  "transaction.state.cancelled": {
+    "defaultMessage": "Cancelled"
+  },
+  "transaction.state.fail": {
+    "defaultMessage": "Fail"
+  },
+  "transaction.state.expired": {
+    "defaultMessage": "Expired"
+  },
+  "transaction.state.completed": {
+    "defaultMessage": "Completed"
+  },
+  "tokenActivationMethod.SMS": {
+    "defaultMessage": "SMS"
+  },
+  "tokenActivationMethod.EMAIL": {
+    "defaultMessage": "Email"
+  },
+  "tokenActivationMethod.WEBSITE": {
+    "defaultMessage": "Website"
+  },
+  "tokenActivationMethod.MOBILE_APP": {
+    "defaultMessage": "Mobile App"
+  },
+  "tokenActivationMethod.CALL_CENTER": {
+    "defaultMessage": "Call Center"
+  },
+  "button.addNewMethod": {
+    "defaultMessage": "ADD NEW METHOD"
+  },
+  "activationMethod": {
+    "defaultMessage": "Activation Method"
+  },
+  "activationMethods": {
+    "defaultMessage": "Activation Methods"
+  },
+  "days": {
+    "defaultMessage": "Days"
+  },
+  "none": {
+    "defaultMessage": "None"
+  },
+  "totalDue": {
+    "defaultMessage": "Total Due"
+  },
+  "currentPeriodReturnToGraceForgiveness": {
+    "defaultMessage": "Current Period Return to Grace Forgiveness"
+  },
+  "repaymentAmountRequirement": {
+    "defaultMessage": "Repayment Amount Requirement"
+  }
+}

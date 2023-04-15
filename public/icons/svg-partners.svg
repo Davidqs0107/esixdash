@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons / nav / partners / focused</title>
+    <g id="icons-/-nav-/-partners-/-focused" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Partner-Icon" transform="translate(5.000000, 5.000000)" stroke="#73809D" stroke-width="1.25">
+            <circle id="Oval" cx="2.5" cy="2.5" r="2.5"></circle>
+            <circle id="Oval-Copy-5" cx="11.5" cy="11.5" r="2.5"></circle>
+            <line x1="4.21490479" y1="4.21490479" x2="9.82299805" y2="9.82299805" id="Path-3"></line>
+        </g>
+    </g>
+</svg>

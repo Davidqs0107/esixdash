@@ -1,0 +1,69 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "jest": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb",
+        "eslint:recommended",
+        "airbnb/hooks"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "max-len": ["error", 120],
+        "import/extensions": [
+            "error",
+            "ignorePackages",
+            {
+                "js": "never",
+                "jsx": "never",
+                "ts": "never",
+                "tsx": "never"
+            }
+        ],
+        "comma-dangle": "off",
+        "no-plusplus": "off",
+        "import/no-unresolved": "off",
+        "react-hooks/exhaustive-deps": "off",
+        "react/jsx-filename-extension": "off",
+        "react/jsx-props-no-spreading": "off",
+        "react/require-default-props": "off",
+        "react/forbid-prop-types": "off",
+        "react/prop-types": "off",
+        "jsx-a11y/click-events-have-key-events": "off",
+        "jsx-a11y/no-static-element-interactions": "off",
+        "jsx-a11y/control-has-associated-label": "off",
+        "jsx-a11y/anchor-is-valid": "off"
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "paths": [
+                    "src"
+                ],
+                "extensions": [
+                    ".js",
+                    ".jsx",
+                    ".ts",
+                    ".tsx",
+                    ".d.ts"
+                ]
+            }
+        }
+    },
+    "globals": {
+        "StatusBar": true
+    }
+}

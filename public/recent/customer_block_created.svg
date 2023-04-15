@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>components / image / small icon / activity / customer block created</title>
+    <defs>
+        <circle id="path-1" cx="15" cy="15" r="15"></circle>
+        <polygon id="path-3" points="16.3301572 11 19 13.6698428 17.6698428 15 15 12.3301572 12.3301572 15 11 13.6698428 13.6698428 11 11 8.33015723 12.3301572 7 15 9.66984277 17.6698428 7 19 8.33015723"></polygon>
+        <filter x="-43.8%" y="-31.2%" width="187.5%" height="187.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="0" y="0" width="15" height="30"></rect>
+    </defs>
+    <g id="components-/-image-/-small-icon-/-activity-/-customer-block-created" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="Mask"></g>
+        <g id="Icon" mask="url(#mask-2)" fill="#EE0351">
+            <g transform="translate(6.000000, 4.000000)">
+                <path d="M17.9057696,18.5 L19.7073139,32.3774491 L-1.70725899,32.3774491 L0.0938350465,18.5 L17.9057696,18.5 Z" id="Fill-1" stroke="#EE0351" stroke-width="3" stroke-linejoin="round"></path>
+                <circle id="Oval" stroke="none" cx="9" cy="7" r="7"></circle>
+            </g>
+        </g>
+        <g id="X" fill-rule="nonzero" mask="url(#mask-2)">
+            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+            <use fill="#FFFFFF" xlink:href="#path-3"></use>
+        </g>
+        <g id="Shadow" mask="url(#mask-2)">
+            <g transform="translate(15.000000, 0.000000)">
+                <mask id="mask-6" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <g id="Mask" stroke="none" fill="none"></g>
+                <g id="Shadow" opacity="0.100000001" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" mask="url(#mask-6)">
+                    <g transform="translate(-9.000000, 4.000000)" fill="#000000">
+                        <path d="M17.9057696,18.5 L19.7073139,32.3774491 L-1.70725899,32.3774491 L0.0938350465,18.5 L17.9057696,18.5 Z" id="Fill-1" stroke="#000000" stroke-width="3" stroke-linejoin="round"></path>
+                        <circle id="Oval" stroke="none" cx="9" cy="7" r="7"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

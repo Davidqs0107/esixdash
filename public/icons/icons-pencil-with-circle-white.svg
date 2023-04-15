@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="20px" viewBox="0 0 19 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Pencil: White + Circle</title>
+    <g id="-----------Customer-Activity-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Set-of-icons---combined-added-and-modified" transform="translate(-324.000000, -168.000000)" stroke="#FFFFFF" stroke-width="1.25">
+            <g id="Pencil:-White-+-Circle" transform="translate(324.000000, 168.500000)">
+                <circle id="Oval-Copy-4" cx="9.5" cy="9.5" r="8.875"></circle>
+                <g id="Pencil" transform="translate(3.739877, 3.961920)" stroke-linecap="round">
+                    <line x1="7.84152909" y1="2.85523944" x2="7.84152909" y2="9.85523944" id="Line" transform="translate(7.841529, 6.355239) rotate(-132.000000) translate(-7.841529, -6.355239) "></line>
+                    <line x1="5.16500667" y1="-0.117339859" x2="5.16500667" y2="6.88266014" id="Line-Copy" transform="translate(5.165007, 3.382660) rotate(-132.000000) translate(-5.165007, -3.382660) "></line>
+                    <line x1="7.10427477" y1="2.52699267" x2="11.1042748" y2="2.52699267" id="Line-Copy-2" transform="translate(9.104275, 2.526993) rotate(-132.000000) translate(-9.104275, -2.526993) "></line>
+                    <line x1="5.61798512" y1="3.86525388" x2="9.61798512" y2="3.86525388" id="Line-Copy-3" transform="translate(7.617985, 3.865254) rotate(-132.000000) translate(-7.617985, -3.865254) "></line>
+                    <line x1="1.90226099" y1="7.21090691" x2="5.90226099" y2="7.21090691" id="Line-Copy-4" transform="translate(3.902261, 7.210907) rotate(-132.000000) translate(-3.902261, -7.210907) "></line>
+                    <line x1="2.45667436" y1="10.4577476" x2="4.45667436" y2="7.45774765" id="Line-Copy-5" transform="translate(3.456674, 8.957748) rotate(-132.000000) translate(-3.456674, -8.957748) "></line>
+                    <line x1="3.11841315" y1="8.971458" x2="1.11841315" y2="5.971458" id="Line-Copy-6" transform="translate(2.118413, 7.471458) rotate(-132.000000) translate(-2.118413, -7.471458) "></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

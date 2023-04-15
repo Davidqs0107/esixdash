@@ -1,0 +1,90 @@
+/*!
+ / Copyright (c) 2015-2021, Episode Six and/or its affiliates. All rights reserved.
+ / EPISODE SIX PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
+ /
+ / THIS IS CONFIDENTIAL AND PROPRIETARY TO EPISODE SIX, and any
+ / copying, reproduction, redistribution, dissemination, modification, or
+ / other use, in whole or in part, is strictly prohibited without the prior
+ / written consent of (or as may be specifically permitted in a fully signed
+ / agreement with) Episode Six.   Violations may result in severe civil and/or
+ / criminal penalties, and Episode Six will enforce its rights to the maximum
+ / extent permitted by law.
+ /
+.input-float-label
+  display: flex
+  flex-direction: column
+  margin-top: 10px
+  position: relative
+
+.input-float-label label
+  color: #8995AD
+  font-size: 12px
+  letter-spacing: -0.2px
+  line-height: 14px
+  padding: 4px 12px
+  pointer-events: none
+  position: absolute
+  transform: translate(0, 12px) scale(1)
+  transform-origin: top left
+  transition: all 0.2s ease-out
+
+
+.input-float-label:focus-within label
+  color: #433AA8
+  transform: translate(0.5px, 2px) scale(0.70)
+
+@keyframes onAutoFillCancel
+  from
+    /**/
+  to
+    /**/
+
+@keyframes onAutoFillStart
+  from
+    /**/
+  to
+    /**/
+
+.input-float-label .active
+  color: #433AA8
+  transform: translate(0.5px, 2px) scale(0.70)
+
+.input:-webkit-autofill
+  animation-name: onAutoFillStart
+  transition: background-color 50000s ease-in-out 0s
+
+.input:not(:-webkit-autofill)
+  animation-name: onAutoFillCancel
+
+.MuiFormControl-root.Mui-verified .MuiOutlinedInput-notchedOutline
+  border-color: #23C38E
+
+.MuiFormControl-root.Mui-verified input
+  background-image: url('../../../public/icons/icons-verified-icon-only-green@2x.png')
+  background-position: right calc(0.375em + 0.1875rem) center
+  background-size: 12px 12px
+  background-repeat: no-repeat
+  padding-right: calc(1.5em + 0.75rem)
+
+.Mui-error .MuiInputBase-input.MuiOutlinedInput-input
+  background-image: url('../../../public/icons/icons-error-input-field.png')
+  background-position: right calc(0.375em + 0.1875rem) center
+  background-size: 12px 12px
+  background-repeat: no-repeat
+  padding-right: calc(1.5em + 0.75rem)
+
+.Mui-error .MuiSelect-select.MuiInputBase-input.MuiOutlinedInput-input
+  background-position: right calc(1.5em + 0.1875rem) center
+
+.Mui-error .MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputAdornedEnd
+  background-image: url('../../../public/icons/icons-error-input-field.png')
+  background-position: right calc(2.375em + 0.5rem) center
+  background-size: 12px 12px
+  background-repeat: no-repeat
+  padding-right: calc(2.5em + 0.75rem)
+
+.MuiOutlinedInput-notchedOutline legend
+  max-width: 0px !important
+
+.MuiInputBase-input
+  font-weight: 400

@@ -1,0 +1,4 @@
+{
+  "PARTNER_ENDPOINT": "/api/partner/restful",
+  "DEV_PARTNER_ENDPOINT": "http://localhost:10002/restful"
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons / nav / change orders / focused</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="6" height="3"></rect>
+    </defs>
+    <g id="icons-/-nav-/-change-orders-/-focused" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Clipboard" stroke="#73809D" stroke-width="1.25" stroke-linejoin="round" x="7" y="7" width="10" height="12"></rect>
+        <g id="Handle" transform="translate(9.000000, 4.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <circle id="Oval" stroke="#73809D" stroke-width="1.25" mask="url(#mask-2)" cx="3" cy="3" r="2"></circle>
+        </g>
+        <polyline id="Checkmark" stroke="#73809D" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" points="10 13.1076667 11.4193333 14.527 14 11"></polyline>
+    </g>
+</svg>

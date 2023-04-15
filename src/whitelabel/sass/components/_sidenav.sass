@@ -1,0 +1,122 @@
+/*!
+ / Copyright (c) 2015-2021, Episode Six and/or its affiliates. All rights reserved.
+ / EPISODE SIX PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
+ /
+ / THIS IS CONFIDENTIAL AND PROPRIETARY TO EPISODE SIX, and any
+ / copying, reproduction, redistribution, dissemination, modification, or
+ / other use, in whole or in part, is strictly prohibited without the prior
+ / written consent of (or as may be specifically permitted in a fully signed
+ / agreement with) Episode Six.   Violations may result in severe civil and/or
+ / criminal penalties, and Episode Six will enforce its rights to the maximum
+ / extent permitted by law.
+ /
+/* Sidenav.tsx */
+
+// Important because of column
+.SidenavContainer
+  height: 100vh
+  min-width: 204px !important
+  max-width: 204px !important
+  width: 204px !important
+
+
+.Sidenav
+  height: 100%
+  width: 100%
+  font-size: 18px
+  background-color: #FFFFFF
+  box-shadow: 0 40px 40px -20px rgba(33,31,64,0.2)
+
+.Sidenav .icon
+  text-align: center
+  color: #8995AD
+  letter-spacing: -0.2px
+  line-height: 12px
+  height: 100%
+
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #fff), color-stop(50%, #4c4bae))
+  background: -webkit-linear-gradient(left, #fff 50%, #4c4bae 50%)
+  background: -moz-linear-gradient(left, #fff 50%, #4c4bae 50%)
+  background: linear-gradient(to right, #fff 50%, #4c4bae 50%)
+  background-size: 200% 100%
+  background-position: 0 0
+  -webkit-transition: background-position .3s ease-out
+  -moz-transition: background-position .3s ease-out
+  transition: background-position .3s ease-out
+
+.Sidenav .badge
+  float: right
+  margin-right: 10px
+  margin-top: 5px
+
+
+.Sidenav .nav-item
+  width: 100%
+
+.Sidenav .listItem .label
+  color: #8995AD
+  font-size: 12px
+  letter-spacing: -0.2px
+  line-height: 12px
+  text-align: left
+
+
+.sidebarNAV .active
+  -webkit-box-shadow: 7px 10px 19px 0px rgba(224,224,224,1)
+  -moz-box-shadow: 7px 10px 19px 0px rgba(224,224,224,1)
+  box-shadow: 10px 10px 10px -5px rgba(33,31,64,0.1)
+
+  cursor: pointer
+  width: 100%
+  z-index: 3
+
+
+.sidebarNAV .active .icon
+  background-position: -100% 0
+  padding-left: 5px
+  transition-duration: 0.3s
+  color: white
+
+
+.sidebarNAV .active .label
+  font-size: 12px
+  color: #152C5B
+  padding-left: 5px
+  transition-duration: 0.3s
+
+.Sidenav .listItem:hover
+  -webkit-box-shadow: 7px 10px 19px 0px rgba(224,224,224,1)
+  -moz-box-shadow: 7px 10px 19px 0px rgba(224,224,224,1)
+  box-shadow: 10px 10px 10px -5px rgba(33,31,64,0.1)
+
+  cursor: pointer
+  width: 100%
+  z-index: 3
+
+
+.Sidenav .listItem:hover > .icon
+  background-position: -100% 0
+  padding-left: 5px
+  transition-duration: 0.3s
+  color: white
+
+
+.Sidenav .listItem:hover > .label
+  color: black
+  padding-left: 5px
+  transition-duration: 0.3s
+
+.nav
+  flex-wrap: inherit !important
+
+.sidebarNAV
+  justify-content: flex-start
+  flex-shrink: inherit
+  flex-flow: row
+  flex-wrap: wrap !important
+
+.sidebarNAV > .nav-item
+  width: 100%
+
+.sidebarNAV > .nav-item span
+  font-weight: 400

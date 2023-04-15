@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>components / image / small icon / activity / card block released w memo</title>
+    <defs>
+        <rect id="path-1" x="0" y="9" width="28" height="20" rx="3"></rect>
+        <filter x="-44.6%" y="-37.5%" width="189.3%" height="250.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2.5" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="10" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.129411765   0 0 0 0 0.121568627   0 0 0 0 0.250980392  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="20 16.6802328 13.0169049 23.6632881 8 18.6583394 9.69222876 16.9661901 13.0169049 20.3028226 14.2085594 19.1111681 18.3197672 15"></polygon>
+        <filter x="-29.2%" y="-28.9%" width="158.3%" height="180.8%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M0,0 L11,0 C12.6568542,-3.04359188e-16 14,1.34314575 14,3 L14,17 C14,18.6568542 12.6568542,20 11,20 L0,20 L0,20 L0,0 Z" id="path-5"></path>
+        <rect id="path-7" x="5" y="10" width="10" height="11" rx="1"></rect>
+        <filter x="-70.0%" y="-45.5%" width="240.0%" height="227.3%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.129411765   0 0 0 0 0.121568627   0 0 0 0 0.250980392  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-9" cx="28.5" cy="19.5" r="1.5"></circle>
+        <filter x="-116.7%" y="-83.3%" width="333.3%" height="333.3%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="components-/-image-/-small-icon-/-activity-/-card-block-released-w-memo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Card-Shape">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#23C38E" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+        <rect id="Rectangle" fill="#152C5B" opacity="0.400000006" x="0" y="13" width="28" height="4"></rect>
+        <g id="Path" fill-rule="nonzero">
+            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+            <use fill="#FFFFFF" xlink:href="#path-3"></use>
+        </g>
+        <path d="M14,9 L25,9 C26.6568542,9 28,10.3431458 28,12 L28,26 C28,27.6568542 26.6568542,29 25,29 L14,29 L14,29 L14,9 Z" id="Darken" fill="#000000" opacity="0.100000001"></path>
+        <g id="SHADOW" transform="translate(14.000000, 9.000000)">
+            <mask id="mask-6" fill="white">
+                <use xlink:href="#path-5"></use>
+            </mask>
+            <use id="Mask" fill="#000000" opacity="0" xlink:href="#path-5"></use>
+            <g mask="url(#mask-6)">
+                <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+            </g>
+        </g>
+        <g id="Group" transform="translate(19.000000, 19.000000)">
+            <rect id="Paper" fill="#FFFFFF" x="0" y="0" width="10" height="11" rx="1"></rect>
+            <rect id="Rectangle" fill="#8995AD" x="2" y="3" width="6" height="1" rx="0.5"></rect>
+            <rect id="Rectangle" fill="#8995AD" x="2" y="5" width="6" height="1" rx="0.5"></rect>
+            <rect id="Rectangle" fill="#8995AD" x="2" y="7" width="6" height="1" rx="0.5"></rect>
+        </g>
+        <g id="Oval">
+            <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+            <use fill="#F6B42A" fill-rule="evenodd" xlink:href="#path-9"></use>
+        </g>
+    </g>
+</svg>

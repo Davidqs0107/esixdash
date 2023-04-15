@@ -1,0 +1,4368 @@
+{
+  "login": {
+    "defaultMessage": "Login"
+  },
+  "partnerName": {
+    "defaultMessage": "Nome do parceiro"
+  },
+  "error.partnerName.required": {
+    "defaultMessage": "Nome do parceiro é um campo obrigatório."
+  },
+  "username": {
+    "defaultMessage": "Username"
+  },
+  "error.username.required": {
+    "defaultMessage": "O nome de usuário é um campo obrigatório."
+  },
+  "password": {
+    "defaultMessage": "Senha"
+  },
+  "login.label.rememberMe": {
+    "defaultMessage": "Lembre-se de mim"
+  },
+  "login.link.forgotPassword": {
+    "defaultMessage": "Esqueci a senha"
+  },
+  "login.button.login": {
+    "defaultMessage": "Iniciar sessão"
+  },
+  "error.password.required": {
+    "defaultMessage": "A senha é um campo obrigatório."
+  },
+  "dashboard": {
+    "defaultMessage": "Painel de controle"
+  },
+  "error.login.205000": {
+    "defaultMessage": "Nome de usuário ou senha incorreta. Por favor, tente de novo."
+  },
+  "error.login.201012": {
+    "defaultMessage": "Parceiro não encontrado. Por favor, tente de novo."
+  },
+  "error.somethingWentWrong": {
+    "defaultMessage": "Algo correu mal"
+  },
+  "forgot.button.backToLoginScreen": {
+    "defaultMessage": "Volta à tela de login"
+  },
+  "forgot.button.sendMyResetLink": {
+    "defaultMessage": "Envie meu link de reset"
+  },
+  "forgot.field.emailAddressOrUsername": {
+    "defaultMessage": "Endereço de e-mail / nome de usuário"
+  },
+  "forgot.fill.fields": {
+    "defaultMessage": "Enviaremos um e-mail com link seguro para redefinir sua senha ",
+    "description": "Please fill out fields"
+  },
+  "forgot.reset.link.sent": {
+    "defaultMessage": "Seu link de redefinição de senha está a caminho do endereço de e-mail associado a sua conta",
+    "description": "Reset link sent"
+  },
+  "forgot.reset.success": {
+    "defaultMessage": "Sucesso!",
+    "description": "Success"
+  },
+  "forgot.will.send.link": {
+    "defaultMessage": "Enviaremos um e-mail com link seguro para redefinir sua senha ",
+    "description": "Will send email with link"
+  },
+  "button.hide": {
+    "defaultMessage": "Ocultar {hideNumber}"
+  },
+  "button.view": {
+    "defaultMessage": "Exibir todos {showNumber}"
+  },
+  "genders": {
+    "defaultMessage": "Sexo"
+  },
+  "gender.female": {
+    "defaultMessage": "Fêmea",
+    "description": "female gender"
+  },
+  "gender.male": {
+    "defaultMessage": "Masculino",
+    "description": "male gender"
+  },
+  "block.type.card": {
+    "defaultMessage": "cartão",
+    "description": "Block type"
+  },
+  "block.type.customer": {
+    "defaultMessage": "cliente",
+    "description": "Block type"
+  },
+  "card.block.activation": {
+    "defaultMessage": "ativação",
+    "description": "Card block reason"
+  },
+  "card.block.deactivation": {
+    "defaultMessage": "desativação",
+    "description": "Card block reason"
+  },
+  "card.block.fraud": {
+    "defaultMessage": "fraude",
+    "description": "Card block reason"
+  },
+  "card.block.loststolen": {
+    "defaultMessage": "perdido ou roubado",
+    "description": "Card block reason"
+  },
+  "card.block.suspended": {
+    "defaultMessage": "suspenso",
+    "description": "Card block reason"
+  },
+  "card.block.system": {
+    "defaultMessage": "sistema",
+    "description": "Card block reason"
+  },
+  "customer.block.activation": {
+    "defaultMessage": "ativação",
+    "description": "Customer block reason"
+  },
+  "customer.block.closed": {
+    "defaultMessage": "fechado",
+    "description": "Customer block reason"
+  },
+  "customer.block.fraud": {
+    "defaultMessage": "fraude",
+    "description": "Customer block reason"
+  },
+  "customer.block.system": {
+    "defaultMessage": "sistema",
+    "description": "Customer block reason"
+  },
+  "customer.block.termination": {
+    "defaultMessage": "terminação",
+    "description": "Customer block reason"
+  },
+  "customerSearch.filter.accountStatus": {
+    "defaultMessage": "Status da Conta"
+  },
+  "customerSearch.filter.active": {
+    "defaultMessage": "Ativo"
+  },
+  "customerSearch.filter.assigned": {
+    "defaultMessage": "Atribuído"
+  },
+  "customerSearch.filter.banks": {
+    "defaultMessage": "Bancos"
+  },
+  "customerSearch.filter.high": {
+    "defaultMessage": "Alto"
+  },
+  "customerSearch.filter.inReview": {
+    "defaultMessage": "Em revisão"
+  },
+  "customerSearch.filter.inactive": {
+    "defaultMessage": "Inativo"
+  },
+  "customerSearch.filter.low": {
+    "defaultMessage": "Baixo"
+  },
+  "customerSearch.filter.medium": {
+    "defaultMessage": "Médio"
+  },
+  "customerSearch.filter.new": {
+    "defaultMessage": "Novo"
+  },
+  "customerSearch.filter.onHold": {
+    "defaultMessage": "Em espera"
+  },
+  "customerSearch.filter.partners": {
+    "defaultMessage": "Parceiros"
+  },
+  "customerSearch.filter.programs": {
+    "defaultMessage": "Programas"
+  },
+  "customerSearch.filter.resolved": {
+    "defaultMessage": "Resolvido"
+  },
+  "customerSearch.filter.riskStatus": {
+    "defaultMessage": "Status de rico"
+  },
+  "customerSearch.filter.supportStatus": {
+    "defaultMessage": "Status de suporte"
+  },
+  "riskStatus.adjustments.amount": {
+    "defaultMessage": "Quantia",
+    "description": "The amount of the adjustment"
+  },
+  "riskStatus.adjustments.approvalMemo": {
+    "defaultMessage": "Memorando de Aprovação",
+    "description": "Adjustment approval memo"
+  },
+  "riskStatus.adjustments.approvedBy": {
+    "defaultMessage": "Aprovado por",
+    "description": "The username of the person who approved the adjustment"
+  },
+  "riskStatus.adjustments.button.approve": {
+    "defaultMessage": "Aprovar",
+    "description": "Approve adjustments button"
+  },
+  "riskStatus.adjustments.button.approved": {
+    "defaultMessage": "Aprovado",
+    "description": "Approved adjustments button"
+  },
+  "riskStatus.adjustments.currency": {
+    "defaultMessage": "Moeda",
+    "description": "The currency of the adjustment"
+  },
+  "riskStatus.adjustments.dateApproved": {
+    "defaultMessage": "Data aprovada",
+    "description": "The date in which the request was approved"
+  },
+  "riskStatus.adjustments.requestMemo": {
+    "defaultMessage": "Memorando de Solicitação",
+    "description": "Adjustment request memo"
+  },
+  "riskStatus.adjustments.requestedBy": {
+    "defaultMessage": "Requerido por",
+    "description": "The username of the person who requested the adjustment"
+  },
+  "riskStatus.adjustments.requestedDate": {
+    "defaultMessage": "Data Solicitada",
+    "description": "The date in which the adjustment was requested"
+  },
+  "riskStatus.adjustments.status": {
+    "defaultMessage": "Status",
+    "description": "Adjustment status"
+  },
+  "riskStatus.blocks.blockMemo": {
+    "defaultMessage": "Memorando de bloqueio",
+    "description": "Block memo"
+  },
+  "riskStatus.blocks.button.release": {
+    "defaultMessage": "Liberação de bloqueio",
+    "description": "Release blocks button"
+  },
+  "riskStatus.blocks.button.released": {
+    "defaultMessage": "Liberado",
+    "description": "Released blocks button"
+  },
+  "riskStatus.blocks.createdBy": {
+    "defaultMessage": "Criado Por",
+    "description": "Username of person who created the block"
+  },
+  "riskStatus.blocks.dateCreated": {
+    "defaultMessage": "Data Criada",
+    "description": "The date in which the block was created"
+  },
+  "riskStatus.blocks.dateReleased": {
+    "defaultMessage": "Data de Liberação",
+    "description": "The date in which the block was released"
+  },
+  "riskStatus.blocks.reason": {
+    "defaultMessage": "Razão",
+    "description": "Block reason"
+  },
+  "riskStatus.blocks.releaseMemo": {
+    "defaultMessage": "Memorando de Liberação",
+    "description": "Release memo"
+  },
+  "riskStatus.blocks.releasedBy": {
+    "defaultMessage": "Liberado Por",
+    "description": "The username of the person who released the block"
+  },
+  "riskStatus.blocks.status": {
+    "defaultMessage": "Status",
+    "description": "status of block"
+  },
+  "riskStatus.blocks.type": {
+    "defaultMessage": "Tipo",
+    "description": "Block type"
+  },
+  "riskStatus.declinedTxs.currency": {
+    "defaultMessage": "Moeda",
+    "description": "Currency of declined tx"
+  },
+  "riskStatus.declinedTxs.date": {
+    "defaultMessage": "Data",
+    "description": "Date of declined tx"
+  },
+  "riskStatus.declinedTxs.merchant": {
+    "defaultMessage": "Comerciante",
+    "description": "Merchant name of declined tx"
+  },
+  "riskStatus.declinedTxs.riskLevelTriggered": {
+    "defaultMessage": "Nível de Risco Quando Acionado",
+    "description": "Risk Level when Triggered"
+  },
+  "riskStatus.declinedTxs.riskRuleAmount": {
+    "defaultMessage": "Quantidade de Regra de Risco",
+    "description": "Risk rule amount"
+  },
+  "riskStatus.declinedTxs.riskRuleName": {
+    "defaultMessage": "Nome da Regra de Risco",
+    "description": "Risk Rule Name"
+  },
+  "riskStatus.declinedTxs.source": {
+    "defaultMessage": "Fonte",
+    "description": "Source of declined tx"
+  },
+  "riskStatus.declinedTxs.transactionAmount": {
+    "defaultMessage": "Valor da Transação",
+    "description": "Amount of declined tx"
+  },
+  "riskStatus.declinedTxs.type": {
+    "defaultMessage": "Tipo",
+    "description": "Type of declined tx"
+  },
+  "riskStatus.section.header.adjustments": {
+    "defaultMessage": "Ajustes",
+    "description": "Adjustments section header"
+  },
+  "riskStatus.section.header.blocks": {
+    "defaultMessage": "Bloqueios",
+    "description": "Blocks section header"
+  },
+  "riskStatus.section.header.declinedTransactions": {
+    "defaultMessage": "Transações Recusadas",
+    "description": "Declined transactions section header"
+  },
+  "sidenav.label.banks": {
+    "defaultMessage": "Bancos",
+    "description": "sidenav label"
+  },
+  "sidenav.label.customer": {
+    "defaultMessage": "Cliente",
+    "description": "sidenav label"
+  },
+  "sidenav.label.partners": {
+    "defaultMessage": "Parceiros",
+    "description": "sidenav label"
+  },
+  "sidenav.label.programs": {
+    "defaultMessage": "Programas",
+    "description": "sidenav label"
+  },
+  "topnav.label.language.english": {
+    "defaultMessage": "inglês",
+    "description": "topnav label"
+  },
+  "topnav.label.language.japanese": {
+    "defaultMessage": "japonês",
+    "description": "topnav label"
+  },
+  "topnav.label.language.portuguese": {
+    "defaultMessage": "português",
+    "description": "topnav label"
+  },
+  "topnav.label.logout": {
+    "defaultMessage": "Logout",
+    "description": "topnav label"
+  },
+  "topnav.label.welcome": {
+    "defaultMessage": "Bem-vindo, ",
+    "description": "topnav label"
+  },
+  "language.reset.button": {
+    "defaultMessage": "Redefinir"
+  },
+  "logout": {
+    "defaultMessage": "Logout"
+  },
+  "welcome": {
+    "defaultMessage": "Bem-vindo"
+  },
+  "reset": {
+    "defaultMessage": "Redefinir"
+  },
+  "customers": {
+    "defaultMessage": "Clientes"
+  },
+  "banks": {
+    "defaultMessage": "Bancos"
+  },
+  "programs": {
+    "defaultMessage": "Programas"
+  },
+  "partners": {
+    "defaultMessage": "Parceiros"
+  },
+  "changeOrders": {
+    "defaultMessage": "Alterar ordens"
+  },
+  "users": {
+    "defaultMessage": "Usuários"
+  },
+  "audit": {
+    "defaultMessage": "Auditoria"
+  },
+  "customer": {
+    "defaultMessage": "Cliente"
+  },
+  "customerSearch": {
+    "defaultMessage": "Pesquisa de clientes"
+  },
+  "externalReference": {
+    "defaultMessage": "Referência Externa"
+  },
+  "card": {
+    "defaultMessage": "Cartão"
+  },
+  "search": {
+    "defaultMessage": "Pesquisa"
+  },
+  "customerSearchForm.input.placeholder.text": {
+    "defaultMessage": "Número do cliente ou nome completo do cliente"
+  },
+  "error.requiredField": {
+    "defaultMessage": "Campo obrigatório"
+  },
+  "customerSearchForm.error.nameRequired": {
+    "defaultMessage": "Primeiro e Sobrenome são necessários"
+  },
+  "customerSearchForm.error.firstNameMinChars": {
+    "defaultMessage": "O primeiro nome deve conter pelo menos 1 caracteres."
+  },
+  "customerSearchForm.error.lastNameMinChars": {
+    "defaultMessage": "O sobrenome deve conter pelo menos 1 caracteres."
+  },
+  "familyName": {
+    "defaultMessage": "Sobrenome"
+  },
+  "givenName": {
+    "defaultMessage": "Nome"
+  },
+  "middleName": {
+    "defaultMessage": "Nome do meio"
+  },
+  "secondLastName": {
+    "defaultMessage": "Segundo Sobrenome"
+  },
+  "suffix": {
+    "defaultMessage": "Sufixo"
+  },
+  "nickName": {
+    "defaultMessage": "Apelido"
+  },
+  "program": {
+    "defaultMessage": "Programa"
+  },
+  "contactNumber": {
+    "defaultMessage": "Contato #"
+  },
+  "emailAddress": {
+    "defaultMessage": "Endereço de e-mail"
+  },
+  "city": {
+    "defaultMessage": "Cidade"
+  },
+  "country": {
+    "defaultMessage": "País"
+  },
+  "postalCode": {
+    "defaultMessage": "Código postal"
+  },
+  "standardtable.emptyrow": {
+    "defaultMessage": "Não há resultados para mostrar."
+  },
+  "partner": {
+    "defaultMessage": "Parceiro"
+  },
+  "error.mustBeANumber": {
+    "defaultMessage": "Deve ser um número"
+  },
+  "cardNumber": {
+    "defaultMessage": "Número do cartão"
+  },
+  "table.pagination.results": {
+    "defaultMessage": "Mostrando {rangeStart}-{rangeEnd} dos resultados {totalCount}"
+  },
+  "showApprovedChangeOrders": {
+    "defaultMessage": "Mostrar ordens de mudança aprovadas"
+  },
+  "pendingChange": {
+    "defaultMessage": "Mudança pendente"
+  },
+  "details": {
+    "defaultMessage": "Detalhes"
+  },
+  "button.approve": {
+    "defaultMessage": "APROVAR"
+  },
+  "changeOrder": {
+    "defaultMessage": "Alterar ordem"
+  },
+  "changeRequest": {
+    "defaultMessage": "Solicitação de alteração"
+  },
+  "approved": {
+    "defaultMessage": "Aprovado"
+  },
+  "changeOrderDetails": {
+    "defaultMessage": "Alterar detalhes do pedido"
+  },
+  "delete": {
+    "defaultMessage": "Excluir"
+  },
+  "drawer.delete.changeOrder": {
+    "defaultMessage": "Tem certeza que deseja excluir o pedido de alteração?",
+    "description": "drawer header"
+  },
+  "approveChangeOrder": {
+    "defaultMessage": "Aprovar a ordem de alteração"
+  },
+  "approve": {
+    "defaultMessage": "Aprovar"
+  },
+  "input.memo.placeholder": {
+    "defaultMessage": "Memorando (300 caracteres no máximo.)"
+  },
+  "changeRequests": {
+    "defaultMessage": "Solicitações de alteração"
+  },
+  "label.language.english": {
+    "defaultMessage": "EUA - Inglês"
+  },
+  "label.language.japanese": {
+    "defaultMessage": "Japonês"
+  },
+  "label.language.portuguese": {
+    "defaultMessage": "Português"
+  },
+  "label.language.spanish": {
+    "defaultMessage": "Espanhol"
+  },
+  "date": {
+    "defaultMessage": "Data"
+  },
+  "source": {
+    "defaultMessage": "Fonte"
+  },
+  "reason": {
+    "defaultMessage": "Razão"
+  },
+  "activityLog": {
+    "defaultMessage": "Registro de atividades"
+  },
+  "action": {
+    "defaultMessage": "Ação"
+  },
+  "user": {
+    "defaultMessage": "Usuário"
+  },
+  "filterByDate": {
+    "defaultMessage": "Filtro por data"
+  },
+  "today": {
+    "defaultMessage": "Hoje"
+  },
+  "thisWeek": {
+    "defaultMessage": "Esta semana"
+  },
+  "thisMonth": {
+    "defaultMessage": "Este mês"
+  },
+  "custom": {
+    "defaultMessage": "Personalizado"
+  },
+  "fromDate": {
+    "defaultMessage": "A partir de data"
+  },
+  "toDate": {
+    "defaultMessage": "Até à data"
+  },
+  "filterByUser": {
+    "defaultMessage": "Filtro por Usuário"
+  },
+  "filterByCustomer": {
+    "defaultMessage": "Filtrar pelo Cliente"
+  },
+  "clearFilters": {
+    "defaultMessage": "Limpar filtros"
+  },
+  "userName": {
+    "defaultMessage": "Nome do usuário"
+  },
+  "customerNumber": {
+    "defaultMessage": "Número do cliente"
+  },
+  "filterResults": {
+    "defaultMessage": "Resultados do filtro"
+  },
+  "error.fromDateLessThanToDate": {
+    "defaultMessage": "A partir da data deve ser menor do que \"Até hoje\""
+  },
+  "error.toDateGreaterThanFromDate": {
+    "defaultMessage": "Até hoje deve ser maior do que \"From Date\""
+  },
+  "bank": {
+    "defaultMessage": "Banco"
+  },
+  "january": {
+    "defaultMessage": "Janeiro"
+  },
+  "february": {
+    "defaultMessage": "Fevereiro"
+  },
+  "march": {
+    "defaultMessage": "Março"
+  },
+  "april": {
+    "defaultMessage": "Abril"
+  },
+  "may": {
+    "defaultMessage": "Pode"
+  },
+  "june": {
+    "defaultMessage": "Junho"
+  },
+  "july": {
+    "defaultMessage": "Julho"
+  },
+  "august": {
+    "defaultMessage": "Agosto"
+  },
+  "september": {
+    "defaultMessage": "Setembro"
+  },
+  "october": {
+    "defaultMessage": "Outubro"
+  },
+  "november": {
+    "defaultMessage": "Novembro"
+  },
+  "december": {
+    "defaultMessage": "Dezembro"
+  },
+  "weekdaysMin.sunday": {
+    "defaultMessage": "DO"
+  },
+  "weekdaysMin.monday": {
+    "defaultMessage": "M"
+  },
+  "weekdaysMin.tuesday": {
+    "defaultMessage": "TU"
+  },
+  "weekdaysMin.wednesday": {
+    "defaultMessage": "W"
+  },
+  "weekdaysMin.thursday": {
+    "defaultMessage": "TH"
+  },
+  "weekdaysMin.friday": {
+    "defaultMessage": "F"
+  },
+  "weekdaysMin.saturday": {
+    "defaultMessage": "Sá"
+  },
+  "addNewUser": {
+    "defaultMessage": "Adicionar novo usuário"
+  },
+  "roles": {
+    "defaultMessage": "Cargos"
+  },
+  "lastLogin": {
+    "defaultMessage": "Último login"
+  },
+  "segments": {
+    "defaultMessage": "Segmentos"
+  },
+  "cardIssuance": {
+    "defaultMessage": "Emissão de cartões"
+  },
+  "messaging": {
+    "defaultMessage": "Mensagens"
+  },
+  "button.edit": {
+    "defaultMessage": "Editar"
+  },
+  "addNewMailTemplate": {
+    "defaultMessage": "Adicionar novo modelo de e-mail"
+  },
+  "addNewTransactionMemoTemplate": {
+    "defaultMessage": "Adicionar novo modelo de memorando de transações"
+  },
+  "mailTemplates": {
+    "defaultMessage": "Modelos de e-mail"
+  },
+  "transactionMemoTemplates": {
+    "defaultMessage": "Modelos de memorandos de transações"
+  },
+  "editMailTemplate": {
+    "defaultMessage": "Editar modelo de e-mail"
+  },
+  "language": {
+    "defaultMessage": "Língua"
+  },
+  "mailKey": {
+    "defaultMessage": "Chave de correio"
+  },
+  "sender": {
+    "defaultMessage": "Remetente"
+  },
+  "subject": {
+    "defaultMessage": "Assunto"
+  },
+  "error.mailKey.required": {
+    "defaultMessage": "Mail Key é um campo obrigatório."
+  },
+  "error.language.required": {
+    "defaultMessage": "A linguagem é um campo obrigatório."
+  },
+  "error.sender.required": {
+    "defaultMessage": "Remetente é um campo obrigatório."
+  },
+  "error.subject.required": {
+    "defaultMessage": "O assunto é um campo obrigatório."
+  },
+  "error.template.required": {
+    "defaultMessage": "O modelo é um campo obrigatório."
+  },
+  "addNewCardProfile": {
+    "defaultMessage": "Adicionar novo perfil de cartão"
+  },
+  "cardProfiles": {
+    "defaultMessage": "Perfis de cartões"
+  },
+  "editCardProfile": {
+    "defaultMessage": "Editar perfil do cartão"
+  },
+  "cardProfileName": {
+    "defaultMessage": "Nome do perfil do cartão"
+  },
+  "description": {
+    "defaultMessage": "Descrição"
+  },
+  "cardType": {
+    "defaultMessage": "Tipo de cartão"
+  },
+  "bankIIN": {
+    "defaultMessage": "Banco IIN"
+  },
+  "serviceCode": {
+    "defaultMessage": "Código de Serviço"
+  },
+  "IINSegment": {
+    "defaultMessage": "Segmento IIN"
+  },
+  "expiryMonths": {
+    "defaultMessage": "Expiração (número de meses)"
+  },
+  "embossedName": {
+    "defaultMessage": "Nome em relevo"
+  },
+  "PINLength": {
+    "defaultMessage": "Comprimento pin"
+  },
+  "issuerIdentifier": {
+    "defaultMessage": "Identificador de emissor"
+  },
+  "feePlans": {
+    "defaultMessage": "Planos de Taxas"
+  },
+  "riskLevels": {
+    "defaultMessage": "Níveis de risco"
+  },
+  "addNewFeePlan": {
+    "defaultMessage": "Adicionar novo plano de taxa"
+  },
+  "continue": {
+    "defaultMessage": "Continuar"
+  },
+  "location": {
+    "defaultMessage": "Localização"
+  },
+  "timeZone": {
+    "defaultMessage": "Fuso horário"
+  },
+  "homeCurrency": {
+    "defaultMessage": "Moeda inicial"
+  },
+  "exchanges": {
+    "defaultMessage": "Intercâmbios"
+  },
+  "cardProfile.success.update": {
+    "defaultMessage": "Perfil do cartão foi atualizado com sucesso"
+  },
+  "cardProfile.success.save": {
+    "defaultMessage": "O perfil do cartão foi salvo com sucesso"
+  },
+  "error.maxLength64": {
+    "defaultMessage": "O comprimento máximo é 64."
+  },
+  "error.maxLength4": {
+    "defaultMessage": "O comprimento máximo é 4."
+  },
+  "error.maxLength26": {
+    "defaultMessage": "O comprimento máximo é 26."
+  },
+  "error.maxLengt16": {
+    "defaultMessage": "O comprimento máximo é 16."
+  },
+  "error.maxLength10": {
+    "defaultMessage": "O comprimento máximo é 10."
+  },
+  "error.name.required": {
+    "defaultMessage": "O nome é necessário."
+  },
+  "error.description.required": {
+    "defaultMessage": "A descrição é necessária."
+  },
+  "error.serviceCode.required": {
+    "defaultMessage": "O Código de Serviço é necessário."
+  },
+  "error.IINSegment.required": {
+    "defaultMessage": "O segmento IIN é necessário."
+  },
+  "error.expiryMonths.required": {
+    "defaultMessage": "Tempo de validade em meses é necessário"
+  },
+  "error.cardType.required": {
+    "defaultMessage": "É necessário tipo de cartão."
+  },
+  "error.bankIIN.required": {
+    "defaultMessage": "O Bank IIN é necessário."
+  },
+  "error.PANLength.required": {
+    "defaultMessage": "O comprimento pan é necessário."
+  },
+  "error.PINLength.required": {
+    "defaultMessage": "O comprimento do PIN é necessário."
+  },
+  "createNewFeePlan": {
+    "defaultMessage": "Criar novo plano de taxa"
+  },
+  "feePlanDetails": {
+    "defaultMessage": "Detalhes do plano de taxas"
+  },
+  "feePlan": {
+    "defaultMessage": "Plano de Taxas"
+  },
+  "program.hideFeePlans": {
+    "defaultMessage": "Esconda todas as taxas atribuídas a este plano de taxas"
+  },
+  "program.showFeePlans": {
+    "defaultMessage": "Mostre todas as taxas atribuídas a este plano de taxas"
+  },
+  "button.addFeeEntry": {
+    "defaultMessage": "ADICIONAR ENTRADA DE TAXA"
+  },
+  "error.feePlan.required": {
+    "defaultMessage": "O Plano de Taxas é um campo obrigatório"
+  },
+  "error.program.feeAmount.required": {
+    "defaultMessage": "O Valor da Taxa ($) é um campo obrigatório"
+  },
+  "error.program.feeAmount.percentage.required": {
+    "defaultMessage": "Valor da taxa (%) é um campo obrigatório"
+  },
+  "error.program.feeAmount.numberType": {
+    "defaultMessage": "O Valor da Taxa ($) deve ser um número"
+  },
+  "error.program.feeAmount.percentage.numberType": {
+    "defaultMessage": "O Valor da Taxa (%) deve ser um número"
+  },
+  "error.program.fixFee.currency.format": {
+    "defaultMessage": "Número inteiro de 15 dígitos e fração de 5 dígitos apenas"
+  },
+  "error.program.fixFee.percentage.format": {
+    "defaultMessage": "Número inteiro de 7 dígitos e fração de 3 dígitos apenas"
+  },
+  "error.program.receiver.required": {
+    "defaultMessage": "O Valor da Taxa do Receptor ($) é um campo obrigatório"
+  },
+  "error.program.receiver.numberType": {
+    "defaultMessage": "O valor da taxa do receptor ($) deve ser um número"
+  },
+  "error.program.receiver.percentage.required": {
+    "defaultMessage": "O Valor da Taxa do Receptor (%) é um campo obrigatório"
+  },
+  "error.program.receiver.percentage.numberType": {
+    "defaultMessage": "O Valor da Taxa do Receptor (%) deve ser um número"
+  },
+  "error.program.receiver.percentage.format": {
+    "defaultMessage": "Número inteiro de 15 dígitos e fração de 5 dígitos apenas"
+  },
+  "step2of3": {
+    "defaultMessage": "Passo 2 de 3"
+  },
+  "step1of2": {
+    "defaultMessage": "Passo 1 de 2"
+  },
+  "error.greaterThan0": {
+    "defaultMessage": "Deve ser um número maior que 0.0"
+  },
+  "addFeestoPlan": {
+    "defaultMessage": "Adicionar taxas ao plano"
+  },
+  "newFeePlan": {
+    "defaultMessage": "Novo Plano de Taxas"
+  },
+  "addFees": {
+    "defaultMessage": "Adicionar taxas"
+  },
+  "chooseParameter": {
+    "defaultMessage": "Escolha parâmetro"
+  },
+  "currency": {
+    "defaultMessage": "Moeda"
+  },
+  "amount": {
+    "defaultMessage": "Quantidade"
+  },
+  "customerDetail": {
+    "defaultMessage": "Detalhes do cliente"
+  },
+  "lastModified": {
+    "defaultMessage": "Última modificação"
+  },
+  "createChangeOrder": {
+    "defaultMessage": "Criar ordem de alteração"
+  },
+  "viewAllDetails": {
+    "defaultMessage": "Veja todos os detalhes"
+  },
+  "declinedActivity": {
+    "defaultMessage": "Atividade recusada"
+  },
+  "recentActivity": {
+    "defaultMessage": "Atividade recente"
+  },
+  "preferredLanguage": {
+    "defaultMessage": "Língua preferida"
+  },
+  "activeBlocks": {
+    "defaultMessage": "Blocos Ativos"
+  },
+  "cardblocks": {
+    "defaultMessage": "blocos de cartões"
+  },
+  "customerblocks": {
+    "defaultMessage": "blocos de clientes"
+  },
+  "accountblocks": {
+    "defaultMessage": "blocos de conta"
+  },
+  "customerDetails.viewRiskLevelDetails": {
+    "defaultMessage": "EXIBIR DETALHES DO NÍVEL DE RISCO"
+  },
+  "dateCreated": {
+    "defaultMessage": "Data de criação"
+  },
+  "createdBy": {
+    "defaultMessage": "Data de criação"
+  },
+  "memo": {
+    "defaultMessage": "Memorando"
+  },
+  "contactMethod": {
+    "defaultMessage": "Método de contato"
+  },
+  "contactInfo": {
+    "defaultMessage": "Informações de contato"
+  },
+  "customerMemos": {
+    "defaultMessage": "Memorandos de Clientes"
+  },
+  "memo.button.addNewMemo": {
+    "defaultMessage": "ADICIONAR NOVO MEMORANDO"
+  },
+  "addMemo": {
+    "defaultMessage": "Adicionar memorando"
+  },
+  "editMemo": {
+    "defaultMessage": "Editar memorando"
+  },
+  "addNewMemo": {
+    "defaultMessage": "Adicionar novo memorando"
+  },
+  "saveMemo": {
+    "defaultMessage": "Salvar memorando"
+  },
+  "error.memo.mustBe300Chars": {
+    "defaultMessage": "Memorando deve ter 300 caracteres ou menos."
+  },
+  "error.memo.required": {
+    "defaultMessage": "Memorando é um campo obrigatório."
+  },
+  "error.contactChannel.required": {
+    "defaultMessage": "Canal de contato é um campo obrigatório"
+  },
+  "error.email.valid": {
+    "defaultMessage": "Deve ser um e-mail válido."
+  },
+  "error.email.required": {
+    "defaultMessage": "O e-mail é um campo obrigatório."
+  },
+  "error.phone.invalidFormat": {
+    "defaultMessage": "Formato telefônico inválido"
+  },
+  "error.phone.required": {
+    "defaultMessage": "O telefone é um campo obrigatório."
+  },
+  "error.contactInfo.required": {
+    "defaultMessage": "Informações de contato são um campo obrigatório."
+  },
+  "memo.input.placeholder": {
+    "defaultMessage": "Memorando (300 caracteres no máximo.) *"
+  },
+  "contactChannel.input.placeholder": {
+    "defaultMessage": "Canal de contato*"
+  },
+  "phoneNumber.input.placeholder": {
+    "defaultMessage": "Número de telefone*"
+  },
+  "email.input.placeholder": {
+    "defaultMessage": "E-mail*"
+  },
+  "cancel": {
+    "defaultMessage": "Cancelar"
+  },
+  "merchant": {
+    "defaultMessage": "Comerciante"
+  },
+  "transactionAmount": {
+    "defaultMessage": "Valor da transação"
+  },
+  "riskLevelwhenTriggered": {
+    "defaultMessage": "Nível de risco quando acionado"
+  },
+  "status": {
+    "defaultMessage": "Status"
+  },
+  "blockMemo": {
+    "defaultMessage": "Memorando de bloco"
+  },
+  "dateReleased": {
+    "defaultMessage": "Data divulgada"
+  },
+  "releasedBy": {
+    "defaultMessage": "Lançado por"
+  },
+  "release": {
+    "defaultMessage": "Lançamento"
+  },
+  "released": {
+    "defaultMessage": "Lançado"
+  },
+  "requestedDate": {
+    "defaultMessage": "Data solicitada"
+  },
+  "releaseMemo": {
+    "defaultMessage": "Memorando de lançamento"
+  },
+  "requestMemo": {
+    "defaultMessage": "Solicitar memorando"
+  },
+  "dateApproved": {
+    "defaultMessage": "Data aprovada"
+  },
+  "approvedBy": {
+    "defaultMessage": "Aprovado por"
+  },
+  "approvalMemo": {
+    "defaultMessage": "Memorando de Aprovação"
+  },
+  "button.approved": {
+    "defaultMessage": "APROVADO"
+  },
+  "button.discard": {
+    "defaultMessage": "Descartar"
+  },
+  "blocks": {
+    "defaultMessage": "Blocos"
+  },
+  "showreleasedBlocks": {
+    "defaultMessage": "Blocos lançados show"
+  },
+  "showsingleuseCards": {
+    "defaultMessage": "Mostre cartões de uso único"
+  },
+  "adjustments": {
+    "defaultMessage": "Ajustes"
+  },
+  "button.addNewChargeoff": {
+    "defaultMessage": "ADICIONAR NOVO CHARGEOFF"
+  },
+  "button.createChangeOrder": {
+    "defaultMessage": "CRIAR ORDEM DE ALTERAÇÃO"
+  },
+  "button.addNewBlock": {
+    "defaultMessage": "ADICIONAR NOVO BLOCO"
+  },
+  "fee.wizard.newFees.feeAmount": {
+    "defaultMessage": "Valor da taxa ($)"
+  },
+  "fee.wizard.newFees.feeAmountPercent": {
+    "defaultMessage": "Valor da taxa (%)"
+  },
+  "fee.wizard.newFees.receiverFeeAmount": {
+    "defaultMessage": "Valor da taxa do receptor ($)"
+  },
+  "fee.wizard.newFees.receiverFeeAmountPercent": {
+    "defaultMessage": "Valor da taxa do receptor (%)"
+  },
+  "button.addAdditionalFee": {
+    "defaultMessage": "ADICIONAR TAXA ADICIONAL"
+  },
+  "step1of3": {
+    "defaultMessage": "Passo 1 de 3"
+  },
+  "pleaseChooseOne": {
+    "defaultMessage": "Por favor, escolha um."
+  },
+  "error.feePlanToCopy.required": {
+    "defaultMessage": "Plano de taxa para copiar é um campo obrigatório"
+  },
+  "chooseOne": {
+    "defaultMessage": "Escolha um"
+  },
+  "configureFeePlanManually": {
+    "defaultMessage": "Configure o plano de taxas manualmente"
+  },
+  "createCopyOfExistingFeePlan": {
+    "defaultMessage": "Crie uma cópia de um plano de taxa existente"
+  },
+  "changeOrder.create.success": {
+    "defaultMessage": "Sua ordem de mudança foi criada com sucesso"
+  },
+  "changeRequest.create.success": {
+    "defaultMessage": "Sua solicitação de mudança foi criada com sucesso"
+  },
+  "step3of3": {
+    "defaultMessage": "Passo 3 de 3"
+  },
+  "chooseFeePlanToCopy": {
+    "defaultMessage": "Escolha o plano de taxa para copiar"
+  },
+  "error.activateOn.required": {
+    "defaultMessage": "Ativar on é um campo obrigatório"
+  },
+  "error.activationDate.required": {
+    "defaultMessage": "Data de ativação é um campo obrigatório"
+  },
+  "assignToAChangeOrder": {
+    "defaultMessage": "Atribuir a uma ordem de alteração"
+  },
+  "createNewChangeOrder": {
+    "defaultMessage": "Criar nova ordem de alteração"
+  },
+  "chargeOff.memo.input.placeholder": {
+    "defaultMessage": "Memorando (255 caracteres no máximo.)"
+  },
+  "chargeOff.activateOn.input.placeholder": {
+    "defaultMessage": "Ativar em:"
+  },
+  "assignToExistingChangeOrder": {
+    "defaultMessage": "Atribuir à Ordem de alteração existente"
+  },
+  "chooseChangeOrder": {
+    "defaultMessage": "Escolha a ordem de alteração"
+  },
+  "activateOn": {
+    "defaultMessage": "Ativar em"
+  },
+  "approval": {
+    "defaultMessage": "Aprovação"
+  },
+  "schedule": {
+    "defaultMessage": "Agenda"
+  },
+  "addNewChargeoff": {
+    "defaultMessage": "Adicionar novo chargeoff"
+  },
+  "saveChanges": {
+    "defaultMessage": "Salvar as alterações"
+  },
+  "error.amount.required": {
+    "defaultMessage": "A quantidade é um campo obrigatório."
+  },
+  "error.currency.required": {
+    "defaultMessage": "A moeda é um campo obrigatório."
+  },
+  "chargeOff.error.activateOn.required": {
+    "defaultMessage": "Uma opção de rádio é necessária"
+  },
+  "error.memo.max255Chars": {
+    "defaultMessage": "O memorando deve ter 255 caracteres ou menos."
+  },
+  "programs.riskLevel.label.riskLevel": {
+    "defaultMessage": "Nível de risco  - {name}",
+    "description": "topnav label"
+  },
+  "addNewRiskProfile": {
+    "defaultMessage": "Adicionar novo perfil de risco"
+  },
+  "error.riskLevelToCopy.required": {
+    "defaultMessage": "Nível de risco para copiar é um campo obrigatório"
+  },
+  "createNewRiskLevel": {
+    "defaultMessage": "Criar novo nível de risco"
+  },
+  "configureRiskLevelManually": {
+    "defaultMessage": "Configure o nível de risco manualmente"
+  },
+  "createCopyOfExistingRiskLevel": {
+    "defaultMessage": "Crie uma cópia de um nível de risco existente"
+  },
+  "chooseRiskLevelPlanToCopy": {
+    "defaultMessage": "Escolha o nível de risco para copiar"
+  },
+  "error.riskLevel.numberType": {
+    "defaultMessage": "O nível de risco deve ser um número"
+  },
+  "error.riskLevel.required": {
+    "defaultMessage": "Nível de Risco é um campo obrigatório"
+  },
+  "error.riskParameter.required": {
+    "defaultMessage": "Parâmetro de Risco é um campo obrigatório"
+  },
+  "error.value.required": {
+    "defaultMessage": "O valor é um campo obrigatório"
+  },
+  "addRulesToRiskLevel": {
+    "defaultMessage": "Adicionar regras ao nível de risco"
+  },
+  "riskLevelNumber": {
+    "defaultMessage": "Número do nível de risco"
+  },
+  "newRiskLevelNumber": {
+    "defaultMessage": "Novo número de nível de risco"
+  },
+  "addRiskRules": {
+    "defaultMessage": "Adicionar regras de risco"
+  },
+  "value": {
+    "defaultMessage": "Valor"
+  },
+  "block": {
+    "defaultMessage": "Bloco"
+  },
+  "notify": {
+    "defaultMessage": "Notificar"
+  },
+  "disabled": {
+    "defaultMessage": "Desativado"
+  },
+  "button.addAdditionalRiskRule": {
+    "defaultMessage": "Adicionar regra de risco adicional"
+  },
+  "error.noMatch": {
+    "defaultMessage": "Opa, esta página não existe."
+  },
+  "error.noAccess": {
+    "defaultMessage": "Sem acesso"
+  },
+  "error.oopsSomethingWentWrong": {
+    "defaultMessage": "Opa, algo deu errado."
+  },
+  "takeMeBack": {
+    "defaultMessage": "Leve-me de volta."
+  },
+  "takeMeHome": {
+    "defaultMessage": "Leve-me para casa."
+  },
+  "editTransactionMemoTemplate": {
+    "defaultMessage": "Editar modelo de memorando de transação"
+  },
+  "addTransactionMemoTemplate": {
+    "defaultMessage": "Adicionar modelo de memorando de transações"
+  },
+  "memoKey": {
+    "defaultMessage": "Chave de memorando"
+  },
+  "template": {
+    "defaultMessage": "Modelo"
+  },
+  "PANLength": {
+    "defaultMessage": "Comprimento pan"
+  },
+  "edit": {
+    "defaultMessage": "Editar"
+  },
+  "editUser": {
+    "defaultMessage": "Editar usuário"
+  },
+  "title": {
+    "defaultMessage": "Título"
+  },
+  "countryCode": {
+    "defaultMessage": "Código do País"
+  },
+  "phoneNumber": {
+    "defaultMessage": "Número de telefone"
+  },
+  "addNewProgram": {
+    "defaultMessage": "Adicionar novo programa"
+  },
+  "error.homeCurrency.required": {
+    "defaultMessage": "Home Currency é um campo obrigatório"
+  },
+  "error.minCurrency.required": {
+    "defaultMessage": "Pelo menos uma moeda é necessária"
+  },
+  "error.partner.required": {
+    "defaultMessage": "Parceiro é um campo obrigatório"
+  },
+  "error.timeZone.required": {
+    "defaultMessage": "Fuso horário é um campo obrigatório"
+  },
+  "error.location.required": {
+    "defaultMessage": "Localização é um campo obrigatório"
+  },
+  "addProgram": {
+    "defaultMessage": "Adicionar programa"
+  },
+  "name": {
+    "defaultMessage": "Nome"
+  },
+  "exchange": {
+    "defaultMessage": "Exchange"
+  },
+  "additionalCurrencies": {
+    "defaultMessage": "Moedas adicionais"
+  },
+  "addNewCurrency": {
+    "defaultMessage": "Adicionar nova moeda"
+  },
+  "inputLabel": {
+    "defaultMessage": "Etiqueta de entrada"
+  },
+  "settlementTime": {
+    "defaultMessage": "Tempo de liquidação"
+  },
+  "day": {
+    "defaultMessage": "Dia"
+  },
+  "hour": {
+    "defaultMessage": "Hora"
+  },
+  "minute": {
+    "defaultMessage": "Minuto"
+  },
+  "type": {
+    "defaultMessage": "Tipo"
+  },
+  "fax": {
+    "defaultMessage": "Fax"
+  },
+  "home": {
+    "defaultMessage": "Casa"
+  },
+  "work": {
+    "defaultMessage": "Trabalho"
+  },
+  "mobile": {
+    "defaultMessage": "Celular"
+  },
+  "contact": {
+    "defaultMessage": "Contato",
+    "description": "contact phone type"
+  },
+  "personal": {
+    "defaultMessage": "Pessoal"
+  },
+  "emailStatus": {
+    "defaultMessage": "Status do e-mail"
+  },
+  "roles.financialManager": {
+    "defaultMessage": "Gerente financeiro"
+  },
+  "roles.platformManager": {
+    "defaultMessage": "Gerente de Plataforma"
+  },
+  "roles.riskManager": {
+    "defaultMessage": "Gerente de Riscos"
+  },
+  "roles.customerAgent": {
+    "defaultMessage": "Agente do Cliente"
+  },
+  "roles.system": {
+    "defaultMessage": "Sistema"
+  },
+  "roles.storeManager": {
+    "defaultMessage": "Gerente de loja"
+  },
+  "roles.customerManager": {
+    "defaultMessage": "Gerente de Clientes"
+  },
+  "roles.riskAgent": {
+    "defaultMessage": "Agente de Risco"
+  },
+  "roles.auditor": {
+    "defaultMessage": "Auditor"
+  },
+  "roles.approver": {
+    "defaultMessage": "Aprovador"
+  },
+  "roles.storeAgent": {
+    "defaultMessage": "Agente de loja"
+  },
+  "error.complianceCurrency.required": {
+    "defaultMessage": "Compliance Currency é um campo obrigatório"
+  },
+  "error.IIN.min6Digits": {
+    "defaultMessage": "IIN precisa conter 6 dígitos"
+  },
+  "editBank": {
+    "defaultMessage": "Editar banco"
+  },
+  "addNewBank": {
+    "defaultMessage": "Adicionar novo banco"
+  },
+  "complianceCurrency": {
+    "defaultMessage": "Moeda de conformidade"
+  },
+  "button.addAdditionalCurrency": {
+    "defaultMessage": "ADICIONAR MOEDA ADICIONAL"
+  },
+  "IINs": {
+    "defaultMessage": "IINs"
+  },
+  "addNewIIN": {
+    "defaultMessage": "Adicionar novo IIN"
+  },
+  "button.addAdditionalIIN": {
+    "defaultMessage": "ADICIONAR IIN ADICIONAL"
+  },
+  "button.home": {
+    "defaultMessage": "Casa"
+  },
+  "product": {
+    "defaultMessage": "Produto"
+  },
+  "riskLevel": {
+    "defaultMessage": "Nível de Risco"
+  },
+  "riskLevelDetail": {
+    "defaultMessage": "Detalhe do nível de risco"
+  },
+  "riskLevel.hideRules": {
+    "defaultMessage": "Esconda todas as regras atribuídas a este nível de risco >>"
+  },
+  "riskLevel.showRules": {
+    "defaultMessage": "Mostre todas as regras atribuídas a este nível de risco <<"
+  },
+  "riskLevel.viewRules": {
+    "defaultMessage": "Exibir todas as regras atribuídas a este nível de risco <<"
+  },
+  "button.addRiskRule": {
+    "defaultMessage": "ADICIONAR REGRA DE RISCO"
+  },
+  "createRiskException": {
+    "defaultMessage": "Criar exceção de risco"
+  },
+  "releasableDate": {
+    "defaultMessage": "Data de lançamento"
+  },
+  "riskParameter": {
+    "defaultMessage": "Parâmetro de risco"
+  },
+  "error.parameterValue.required": {
+    "defaultMessage": "Valor do parâmetro necessário."
+  },
+  "error.releaseDate.required": {
+    "defaultMessage": "A data de lançamento é necessária."
+  },
+  "created": {
+    "defaultMessage": "Criado"
+  },
+  "riskLevelParameters": {
+    "defaultMessage": "Parâmetros de nível de risco"
+  },
+  "program.riskLevels.deleteRiskRule": {
+    "defaultMessage": "Ordem de alteração criada para excluir regra de risco"
+  },
+  "fixedFeePercentage": {
+    "defaultMessage": "Taxa/Porcentagem Fixa"
+  },
+  "recFixedFeePercentage": {
+    "defaultMessage": "Rec. Taxa/Porcentagem Fixa"
+  },
+  "accordion.button.hide": {
+    "defaultMessage": "Ocultar {hideNumber}"
+  },
+  "accordion.button.view": {
+    "defaultMessage": "Exibir todos {showNumber}"
+  },
+  "drawdownOrder": {
+    "defaultMessage": "Ordem de saque"
+  },
+  "totalBalance": {
+    "defaultMessage": "Saldo Total"
+  },
+  "pendingAmount": {
+    "defaultMessage": "Quantidade pendente"
+  },
+  "availableBalance": {
+    "defaultMessage": "Saldo disponível"
+  },
+  "safeDraft": {
+    "defaultMessage": "Rascunho seguro"
+  },
+  "safeCurrency": {
+    "defaultMessage": "Moeda Segura"
+  },
+  "quickSpend": {
+    "defaultMessage": "Gasto rápido"
+  },
+  "selectedFee": {
+    "defaultMessage": "Taxa Selecionada"
+  },
+  "fixedFee": {
+    "defaultMessage": "Taxa fixa"
+  },
+  "percentage": {
+    "defaultMessage": "Porcentagem"
+  },
+  "chargeReceiver": {
+    "defaultMessage": "Receptor de carga"
+  },
+  "receiverFixFee": {
+    "defaultMessage": "Taxa de correção do receptor"
+  },
+  "receiverPercent": {
+    "defaultMessage": "Porcentagem de receptor"
+  },
+  "wallets": {
+    "defaultMessage": "Carteiras"
+  },
+  "cards": {
+    "defaultMessage": "Cartões"
+  },
+  "button.orderNewCard": {
+    "defaultMessage": "ENCOMENDAR NOVO CARTÃO"
+  },
+  "fees": {
+    "defaultMessage": "Taxas"
+  },
+  "button.addFee": {
+    "defaultMessage": "TAXA DE ADOÇÃO"
+  },
+  "lastFourPAN": {
+    "defaultMessage": "Últimos Quatro PAN"
+  },
+  "expiry": {
+    "defaultMessage": "Caducidade"
+  },
+  "tokens": {
+    "defaultMessage": "Tokens"
+  },
+  "view": {
+    "defaultMessage": "Modo de exibição"
+  },
+  "button.exchangeCurrency": {
+    "defaultMessage": "MOEDA DE TROCA"
+  },
+  "wallets.success.cardReissued": {
+    "defaultMessage": "Cartão relançado com sucesso"
+  },
+  "wallets.success.released": {
+    "defaultMessage": "Identificação do bloco de cartão: {respId} foi lançado com sucesso"
+  },
+  "wallets.success.activated": {
+    "defaultMessage": "ID do cartão: {removedBlocId} foi ativado com sucesso"
+  },
+  "showInactiveCards": {
+    "defaultMessage": "Mostrar cartões inativos"
+  },
+  "orderDetails": {
+    "defaultMessage": "Detalhes do pedido"
+  },
+  "address": {
+    "defaultMessage": "Endereço"
+  },
+  "state_province": {
+    "defaultMessage": "Estado/Providência"
+  },
+  "error.cardToken.required": {
+    "defaultMessage": "Selecione pelo menos um token de cartão"
+  },
+  "error.memo.mustBe128Chars": {
+    "defaultMessage": "O memorando deve ter 128 caracteres ou menos."
+  },
+  "drawer.card.tokens.label.select": {
+    "defaultMessage": "Selecione tokens para agir:"
+  },
+  "memo.input.placeholder.max128Chars": {
+    "defaultMessage": "Memorando (128 caracteres no máximo.)"
+  },
+  "suspend": {
+    "defaultMessage": "Suspender"
+  },
+  "unsuspend": {
+    "defaultMessage": "Unsuspend"
+  },
+  "cardDetails": {
+    "defaultMessage": "Detalhes do cartão"
+  },
+  "PAN": {
+    "defaultMessage": "PANELA"
+  },
+  "sequenceNumber": {
+    "defaultMessage": "Número da sequência"
+  },
+  "unblock": {
+    "defaultMessage": "Desbloquear"
+  },
+  "reissue": {
+    "defaultMessage": "Reedição"
+  },
+  "exchangeQuoteExpiresIn": {
+    "defaultMessage": "A cotação da troca expira em"
+  },
+  "sellCurrencyAmount": {
+    "defaultMessage": "Vender valor da moeda"
+  },
+  "buyCurrencyAmount": {
+    "defaultMessage": "Comprar Valor da Moeda"
+  },
+  "error.sellCurrency.required": {
+    "defaultMessage": "A moeda de venda é necessária."
+  },
+  "error.amount.mustBeA.number": {
+    "defaultMessage": "O valor deve ser um número"
+  },
+  "error.amount.mustBeA.positiveValue": {
+    "defaultMessage": "O valor deve ser um valor positivo"
+  },
+  "error.buyCurrency.required": {
+    "defaultMessage": "Comprar moeda é um campo obrigatório."
+  },
+  "exchangeCurrency": {
+    "defaultMessage": "Moeda de Troca"
+  },
+  "button.refreshQuote": {
+    "defaultMessage": "COTAÇÃO DE ATUALIZAÇÃO"
+  },
+  "button.getQuote": {
+    "defaultMessage": "OBTER CITAÇÃO"
+  },
+  "confirmExchange": {
+    "defaultMessage": "Confirmar troca"
+  },
+  "error.fixedAmount.required": {
+    "defaultMessage": "O Valor Fixo é um campo obrigatório"
+  },
+  "error.fixedAmount.shouldBeA.number": {
+    "defaultMessage": "O Valor Fixo deve ser um número"
+  },
+  "error.feeAmount.required": {
+    "defaultMessage": "O valor da taxa (%) é um campo obrigatório"
+  },
+  "error.feeAmount.shouldBeA.number": {
+    "defaultMessage": "O Valor da Taxa (%) deve ser um número"
+  },
+  "error.10digitNumber.5digitFraction": {
+    "defaultMessage": "Número inteiro de 10 dígitos e fração de 5 dígitos apenas"
+  },
+  "error.receiverFee.required": {
+    "defaultMessage": "O valor da taxa do receptor ($) é um campo obrigatório"
+  },
+  "error.receiverFee.shouldBeA.number": {
+    "defaultMessage": "O valor da taxa do receptor ($) deve ser um número"
+  },
+  "error.receiverFeeAmount.shouldBeA.number": {
+    "defaultMessage": "O valor da taxa do receptor (%) deve ser um número"
+  },
+  "addFee": {
+    "defaultMessage": "Adicionar taxa"
+  },
+  "editFee": {
+    "defaultMessage": "Taxa de edição"
+  },
+  "fixedAmount": {
+    "defaultMessage": "Valor fixo"
+  },
+  "feePercentage": {
+    "defaultMessage": "Percentual da taxa"
+  },
+  "receiverFixedAmount": {
+    "defaultMessage": "Quantidade fixa do receptor"
+  },
+  "receiverPercentage": {
+    "defaultMessage": "Porcentagem do receptor"
+  },
+  "remove": {
+    "defaultMessage": "Remover"
+  },
+  "orderNewCard": {
+    "defaultMessage": "Encomendar novo cartão"
+  },
+  "customerName": {
+    "defaultMessage": "Nome do cliente"
+  },
+  "placeOrder": {
+    "defaultMessage": "Ordem do Lugar"
+  },
+  "memos": {
+    "defaultMessage": "Memorandos"
+  },
+  "risk": {
+    "defaultMessage": "risco"
+  },
+  "holds": {
+    "defaultMessage": "Mantém"
+  },
+  "transactions": {
+    "defaultMessage": "Transações"
+  },
+  "inProgressTransactions": {
+    "defaultMessage": "Transações em andamento"
+  },
+  "paymentNetworkMessages": {
+    "defaultMessage": "Mensagens de rede de pagamento"
+  },
+  "external": {
+    "defaultMessage": "Externo"
+  },
+  "releaseHold": {
+    "defaultMessage": "Soltar hold"
+  },
+  "hideReleasedHolds": {
+    "defaultMessage": "Ocultar-se prende"
+  },
+  "showReleasedHolds": {
+    "defaultMessage": "Show lançado realiza"
+  },
+  "merchantLocation": {
+    "defaultMessage": "Localização do Comerciante"
+  },
+  "holdMemo": {
+    "defaultMessage": "Mantenha memorando"
+  },
+  "allTransactionSources": {
+    "defaultMessage": "Todas as fontes de transação"
+  },
+  "allTransactionTypes": {
+    "defaultMessage": "Todos os tipos de transação"
+  },
+  "error.toDate.greaterThan.FromDate": {
+    "defaultMessage": "Até o momento deve ser maior \"do que a partir de data\""
+  },
+  "error.FromDate.lessThan.toDate": {
+    "defaultMessage": "A partir da data deve ser menor do que \"Até hoje\""
+  },
+  "limitResultsTo": {
+    "defaultMessage": "Limitar resultados para"
+  },
+  "fee": {
+    "defaultMessage": "Taxa"
+  },
+  "searchTransactions": {
+    "defaultMessage": "Operações de pesquisa"
+  },
+  "unknown": {
+    "defaultMessage": "Desconhecido"
+  },
+  "inWalletPOS": {
+    "defaultMessage": "Em Pos de carteira"
+  },
+  "outOfWalletPOS": {
+    "defaultMessage": "PDV fora da carteira"
+  },
+  "inWalletATM": {
+    "defaultMessage": "Em Caixa eletrônico de carteira"
+  },
+  "outOfWalletATM": {
+    "defaultMessage": "Caixa eletrônico out of wallet"
+  },
+  "online": {
+    "defaultMessage": "Online"
+  },
+  "internal": {
+    "defaultMessage": "Interno"
+  },
+  "static": {
+    "defaultMessage": "Estático"
+  },
+  "mobileCommerce": {
+    "defaultMessage": "Comércio Móvel"
+  },
+  "newAccount": {
+    "defaultMessage": "Nova conta"
+  },
+  "cardSale": {
+    "defaultMessage": "Venda de cartões"
+  },
+  "purchase": {
+    "defaultMessage": "Compra"
+  },
+  "refund": {
+    "defaultMessage": "Reembolso"
+  },
+  "load": {
+    "defaultMessage": "Carga"
+  },
+  "withdraw": {
+    "defaultMessage": "Retirar"
+  },
+  "balanceInquiry": {
+    "defaultMessage": "Inquérito de Equilíbrio"
+  },
+  "P2P": {
+    "defaultMessage": "P2P"
+  },
+  "walletTransfer": {
+    "defaultMessage": "Transferência de carteira"
+  },
+  "exchangeMargin": {
+    "defaultMessage": "Margem de Câmbio"
+  },
+  "secondPresentment": {
+    "defaultMessage": "Segunda Apresentação"
+  },
+  "chargeBack": {
+    "defaultMessage": "Chargeback"
+  },
+  "customerAdjustment": {
+    "defaultMessage": "Ajuste do cliente"
+  },
+  "exchangeAdjustment": {
+    "defaultMessage": "Ajuste cambial"
+  },
+  "maintenance": {
+    "defaultMessage": "Manutenção"
+  },
+  "chargeoff": {
+    "defaultMessage": "Chargeoff"
+  },
+  "withholding": {
+    "defaultMessage": "Retenção"
+  },
+  "closeAccount": {
+    "defaultMessage": "Fechar conta"
+  },
+  "reward": {
+    "defaultMessage": "Recompensa"
+  },
+  "shipping": {
+    "defaultMessage": "Transporte"
+  },
+  "expeditedShipping": {
+    "defaultMessage": "Expedição rápida"
+  },
+  "addressing": {
+    "defaultMessage": "Endereçamento"
+  },
+  "settlement": {
+    "defaultMessage": "Liquidação"
+  },
+  "consolidated": {
+    "defaultMessage": "Consolidado"
+  },
+  "interest": {
+    "defaultMessage": "Interesse"
+  },
+  "cashback": {
+    "defaultMessage": "Cashback"
+  },
+  "error.majorCode.100": {
+    "defaultMessage": "Parâmetro inválido",
+    "description": "Parâmetro inválido"
+  },
+  "error.majorCode.101": {
+    "defaultMessage": "Exceção de ponteiro nulo",
+    "description": "Exceção de ponteiro nulo"
+  },
+  "error.majorCode.102": {
+    "defaultMessage": "IO/Exceção remota",
+    "description": "IO/Exceção remota"
+  },
+  "error.majorCode.103": {
+    "defaultMessage": "Operação sem suporte",
+    "description": "Operação sem suporte"
+  },
+  "error.majorCode.104": {
+    "defaultMessage": "Estado ilegal",
+    "description": "Estado ilegal"
+  },
+  "error.majorCode.200": {
+    "defaultMessage": "Não disponível",
+    "description": "Não disponível"
+  },
+  "error.majorCode.201": {
+    "defaultMessage": "Não encontrado",
+    "description": "Não encontrado"
+  },
+  "error.majorCode.202": {
+    "defaultMessage": "Moeda inválida",
+    "description": "Moeda inválida"
+  },
+  "error.majorCode.203": {
+    "defaultMessage": "Conversão de moeda",
+    "description": "Conversão de moeda"
+  },
+  "error.majorCode.204": {
+    "defaultMessage": "Sem taxa de câmbio",
+    "description": "Sem taxa de câmbio"
+  },
+  "error.majorCode.205": {
+    "defaultMessage": "Segurança geral",
+    "description": "Segurança geral"
+  },
+  "error.majorCode.206": {
+    "defaultMessage": "Incompatibilidade cambial ",
+    "description": "Incompatibilidade cambial "
+  },
+  "error.majorCode.207": {
+    "defaultMessage": "Reversão",
+    "description": "Reversão"
+  },
+  "error.majorCode.208": {
+    "defaultMessage": "Validação",
+    "description": "Validação"
+  },
+  "error.majorCode.209": {
+    "defaultMessage": "Duplicar",
+    "description": "Duplicar"
+  },
+  "error.majorCode.210": {
+    "defaultMessage": "Valor de troca muito pequena ",
+    "description": "Valor de troca muito pequena "
+  },
+  "error.majorCode.211": {
+    "defaultMessage": "Transação",
+    "description": "Transação"
+  },
+  "error.majorCode.212": {
+    "defaultMessage": "Formato de mensagem",
+    "description": "Formato de mensagem"
+  },
+  "error.majorCode.213": {
+    "defaultMessage": "Cafis",
+    "description": "Cafis"
+  },
+  "error.majorCode.214": {
+    "defaultMessage": "Erro",
+    "description": "Erro"
+  },
+  "error.majorCode.300": {
+    "defaultMessage": "Fundos insuficientes",
+    "description": "Fundos insuficientes"
+  },
+  "error.majorCode.400": {
+    "defaultMessage": "Regra de risco",
+    "description": "Regra de risco"
+  },
+  "error.majorCode.500": {
+    "defaultMessage": "Pedido de alteração r",
+    "description": "Pedido de alteração "
+  },
+  "error.majorCode.600": {
+    "defaultMessage": "Falha na chamada externa",
+    "description": "Falha na chamada externa"
+  },
+  "error.majorCode.900": {
+    "defaultMessage": "HTTP",
+    "description": "HTTP"
+  },
+  "error.majorCode.unknown": {
+    "defaultMessage": "Desconhecido",
+    "description": "Desconhecido"
+  },
+  "error.minorCode.000": {
+    "defaultMessage": "Não aplicável",
+    "description": "Minor Code"
+  },
+  "error.minorCode.001": {
+    "defaultMessage": "Número do cliente",
+    "description": "Minor Code"
+  },
+  "error.minorCode.002": {
+    "defaultMessage": "Referência externa do cliente ",
+    "description": "Minor Code"
+  },
+  "error.minorCode.003": {
+    "defaultMessage": "Nome do programa",
+    "description": "Minor Code"
+  },
+  "error.minorCode.004": {
+    "defaultMessage": "Número da conta",
+    "description": "Minor Code"
+  },
+  "error.minorCode.005": {
+    "defaultMessage": "Número da loja",
+    "description": "Minor Code"
+  },
+  "error.minorCode.006": {
+    "defaultMessage": "Moeda da carteira",
+    "description": "Minor Code"
+  },
+  "error.minorCode.007": {
+    "defaultMessage": "Número do cartão",
+    "description": "Minor Code"
+  },
+  "error.minorCode.008": {
+    "defaultMessage": "PANELA",
+    "description": "Minor Code"
+  },
+  "error.minorCode.009": {
+    "defaultMessage": "Identidade do cartão",
+    "description": "Minor Code"
+  },
+  "error.minorCode.010": {
+    "defaultMessage": "Nome do banco",
+    "description": "Minor Code"
+  },
+  "error.minorCode.011": {
+    "defaultMessage": "Nome do intercâmbio",
+    "description": "Minor Code"
+  },
+  "error.minorCode.012": {
+    "defaultMessage": "Nome do parceiro",
+    "description": "Minor Code"
+  },
+  "error.minorCode.013": {
+    "defaultMessage": "Nome do provedor de câmbio",
+    "description": "Minor Code"
+  },
+  "error.minorCode.014": {
+    "defaultMessage": "Nome de troca",
+    "description": "Minor Code"
+  },
+  "error.minorCode.015": {
+    "defaultMessage": "Nome do plano de taxa",
+    "description": "Minor Code"
+  },
+  "error.minorCode.016": {
+    "defaultMessage": "Nível de segurança",
+    "description": "Minor Code"
+  },
+  "error.minorCode.017": {
+    "defaultMessage": "Expirado",
+    "description": "Minor Code"
+  },
+  "error.minorCode.018": {
+    "defaultMessage": "Número de aprovação",
+    "description": "Minor Code"
+  },
+  "error.minorCode.019": {
+    "defaultMessage": "Identidade da pessoa",
+    "description": "Minor Code"
+  },
+  "error.minorCode.020": {
+    "defaultMessage": "Regra de risco",
+    "description": "Minor Code"
+  },
+  "error.minorCode.021": {
+    "defaultMessage": "Código de autorização",
+    "description": "Minor Code"
+  },
+  "error.minorCode.022": {
+    "defaultMessage": "Transação",
+    "description": "Minor Code"
+  },
+  "error.minorCode.030": {
+    "defaultMessage": "ID de endereço",
+    "description": "Minor Code"
+  },
+  "error.minorCode.031": {
+    "defaultMessage": "ID de E-mail",
+    "description": "Minor Code"
+  },
+  "error.minorCode.032": {
+    "defaultMessage": "ID oficial",
+    "description": "Minor Code"
+  },
+  "error.minorCode.033": {
+    "defaultMessage": "ID telefônico",
+    "description": "Minor Code"
+  },
+  "error.minorCode.034": {
+    "defaultMessage": "Nome do perfil do cartão",
+    "description": "Minor Code"
+  },
+  "error.minorCode.035": {
+    "defaultMessage": "ID de entrada da taxa",
+    "description": "Minor Code"
+  },
+  "error.minorCode.036": {
+    "defaultMessage": "ID do modelo de e-mail",
+    "description": "Minor Code"
+  },
+  "error.minorCode.037": {
+    "defaultMessage": "Moeda",
+    "description": "Minor Code"
+  },
+  "error.minorCode.038": {
+    "defaultMessage": "Taxa de pares de câmbio",
+    "description": "Minor Code"
+  },
+  "error.minorCode.039": {
+    "defaultMessage": "Taxa de pares de câmbio",
+    "description": "Minor Code"
+  },
+  "error.minorCode.040": {
+    "defaultMessage": "Modificação do resumo da fatura",
+    "description": "Minor Code"
+  },
+  "error.minorCode.041": {
+    "defaultMessage": "Identidade da exceção de risco",
+    "description": "Minor Code"
+  },
+  "error.minorCode.042": {
+    "defaultMessage": "Parâmetro",
+    "description": "Minor Code"
+  },
+  "error.minorCode.043": {
+    "defaultMessage": "Valor da quantidade",
+    "description": "Minor Code"
+  },
+  "error.minorCode.044": {
+    "defaultMessage": "Identidade do token de autenticação",
+    "description": "Minor Code"
+  },
+  "error.minorCode.045": {
+    "defaultMessage": "Identidade do memorando do cliente ",
+    "description": "Minor Code"
+  },
+  "error.minorCode.046": {
+    "defaultMessage": "Número de envio",
+    "description": "Minor Code"
+  },
+  "error.minorCode.047": {
+    "defaultMessage": "Nome do atributo",
+    "description": "Minor Code"
+  },
+  "error.minorCode.048": {
+    "defaultMessage": "Conta bloqueada",
+    "description": "Minor Code"
+  },
+  "error.minorCode.049": {
+    "defaultMessage": "Data de nascimento",
+    "description": "Minor Code"
+  },
+  "error.minorCode.050": {
+    "defaultMessage": "Data de validade",
+    "description": "Minor Code"
+  },
+  "error.minorCode.051": {
+    "defaultMessage": "Código de segurança",
+    "description": "Minor Code"
+  },
+  "error.minorCode.052": {
+    "defaultMessage": "Cliente infantil",
+    "description": "Minor Code"
+  },
+  "error.minorCode.053": {
+    "defaultMessage": "Transação pendente",
+    "description": "Minor Code"
+  },
+  "error.minorCode.054": {
+    "defaultMessage": "Pedido de cartão",
+    "description": "Minor Code"
+  },
+  "error.minorCode.055": {
+    "defaultMessage": "Status do cartão",
+    "description": "Minor Code"
+  },
+  "error.minorCode.056": {
+    "defaultMessage": "Senha",
+    "description": "Minor Code"
+  },
+  "error.minorCode.057": {
+    "defaultMessage": "Cliente bloqueado",
+    "description": "Minor Code"
+  },
+  "error.minorCode.058": {
+    "defaultMessage": "Senha",
+    "description": "Minor Code"
+  },
+  "error.minorCode.059": {
+    "defaultMessage": "Senha",
+    "description": "Minor Code"
+  },
+  "error.minorCode.060": {
+    "defaultMessage": "Plugin",
+    "description": "Minor Code"
+  },
+  "error.minorCode.061": {
+    "defaultMessage": "ID de atributo de memorando do cliente",
+    "description": "Minor Code"
+  },
+  "error.minorCode.062": {
+    "defaultMessage": "Token de sessão",
+    "description": "Minor Code"
+  },
+  "error.minorCode.063": {
+    "defaultMessage": "Identidade do parceiro usuário",
+    "description": "Minor Code"
+  },
+  "error.minorCode.064": {
+    "defaultMessage": "Nome do parceiro usuário",
+    "description": "Minor Code"
+  },
+  "error.minorCode.065": {
+    "defaultMessage": "Nova senha",
+    "description": "Minor Code"
+  },
+  "error.minorCode.066": {
+    "defaultMessage": "Margem de câmbio",
+    "description": "Minor Code"
+  },
+  "error.minorCode.067": {
+    "defaultMessage": "Cliente pai",
+    "description": "Minor Code"
+  },
+  "error.minorCode.068": {
+    "defaultMessage": "Assunto",
+    "description": "Minor Code"
+  },
+  "error.minorCode.069": {
+    "defaultMessage": "Nível de risco",
+    "description": "Minor Code"
+  },
+  "error.minorCode.070": {
+    "defaultMessage": "ID de mensagem ISO8583",
+    "description": "Minor Code"
+  },
+  "error.minorCode.071": {
+    "defaultMessage": "Chargeback ID",
+    "description": "Minor Code"
+  },
+  "error.minorCode.072": {
+    "defaultMessage": "ID de mensagem chargeback",
+    "description": "Minor Code"
+  },
+  "error.minorCode.090": {
+    "defaultMessage": "Identidade do pedido de alteração",
+    "description": "Minor Code"
+  },
+  "error.minorCode.091": {
+    "defaultMessage": "Estado de ordem de mudança",
+    "description": "Minor Code"
+  },
+  "error.minorCode.092": {
+    "defaultMessage": "Alterar ação de ordem",
+    "description": "Minor Code"
+  },
+  "error.minorCode.093": {
+    "defaultMessage": "Tipo do pedido de alteração",
+    "description": "Minor Code"
+  },
+  "error.minorCode.094": {
+    "defaultMessage": "Solicitador de pedidos de alteração",
+    "description": "Minor Code"
+  },
+  "error.minorCode.095": {
+    "defaultMessage": "Controle de comerciante duplicado",
+    "description": "Minor Code"
+  },
+  "error.minorCode.200": {
+    "defaultMessage": "Senha de Verificação",
+    "description": "Minor Code"
+  },
+  "error.minorCode.201": {
+    "defaultMessage": "Contagem de falhas de pinos",
+    "description": "Minor Code"
+  },
+  "error.minorCode.202": {
+    "defaultMessage": "Cartão expirado",
+    "description": "Minor Code"
+  },
+  "error.minorCode.203": {
+    "defaultMessage": "Contagem de falha de pino bloqueio temporário",
+    "description": "Minor Code"
+  },
+  "error.minorCode.300": {
+    "defaultMessage": "Identidade do incidente do cliente",
+    "description": "Minor Code"
+  },
+  "error.minorCode.600": {
+    "defaultMessage": "Código de erro conhecido",
+    "description": "Minor Code"
+  },
+  "customer.recent.customerblockcreated": {
+    "defaultMessage": "Cliente bloqueado",
+    "description": "Customer Block was created"
+  },
+  "customer.recent.customerblockreleased": {
+    "defaultMessage": "Bloqueio do cliente liberado",
+    "description": "Customer Block was released"
+  },
+  "customer.recent.memocreated": {
+    "defaultMessage": "Novo memorando de cliente",
+    "description": "Created memo"
+  },
+  "customer.recent.orderapproved": {
+    "defaultMessage": "Pedido de alteração aprovado",
+    "description": "Change order was approved"
+  },
+  "customer.recent.ordercreated": {
+    "defaultMessage": "Ordem de alteração submetida",
+    "description": "Change order was submitted"
+  },
+  "customer.recent.cardblockcreated": {
+    "defaultMessage": "Cartão bloqueado",
+    "description": "Card Block was created"
+  },
+  "customer.recent.cardblockreleased": {
+    "defaultMessage": "Bloqueio de cartão liberado",
+    "description": "Card Block was released"
+  },
+  "customer.recent.cardordered": {
+    "defaultMessage": "Cartão pedido",
+    "description": "Card ordered"
+  },
+  "yes": {
+    "defaultMessage": "Sim"
+  },
+  "no": {
+    "defaultMessage": "Não"
+  },
+  "state": {
+    "defaultMessage": "Estado"
+  },
+  "MTI": {
+    "defaultMessage": "MTI"
+  },
+  "success": {
+    "defaultMessage": "Sucesso"
+  },
+  "reversal": {
+    "defaultMessage": "Reversão"
+  },
+  "button.VIEW": {
+    "defaultMessage": "Ver"
+  },
+  "general": {
+    "defaultMessage": "Geral"
+  },
+  "messageType": {
+    "defaultMessage": "Tipo de mensagem"
+  },
+  "transactionType": {
+    "defaultMessage": "Tipo de transação"
+  },
+  "transactionSource": {
+    "defaultMessage": "Fonte de transação"
+  },
+  "processingCode": {
+    "defaultMessage": "Código de Processamento"
+  },
+  "responseCode": {
+    "defaultMessage": "Código de resposta"
+  },
+  "originalDataElements": {
+    "defaultMessage": "Elementos de dados originais"
+  },
+  "systemTraceAuditNumber": {
+    "defaultMessage": "Número de auditoria de rastreamento do sistema"
+  },
+  "referenceNumber": {
+    "defaultMessage": "Número de referência"
+  },
+  "retrievalReferenceNumber": {
+    "defaultMessage": "Número de referência de recuperação"
+  },
+  "originalReferenceNumber": {
+    "defaultMessage": "Número de referência original"
+  },
+  "acquirerInfo": {
+    "defaultMessage": "Informações do Adquirente"
+  },
+  "cardAcceptorName": {
+    "defaultMessage": "Nome do aceitador de cartão"
+  },
+  "cardAcceptorID": {
+    "defaultMessage": "ID do aceitador de cartão"
+  },
+  "cardAcceptorTerminalID": {
+    "defaultMessage": "ID terminal do aceitador de cartão"
+  },
+  "cardAcceptorCity": {
+    "defaultMessage": "Cidade aceitadora de cartões"
+  },
+  "cardAcceptorCountryCode": {
+    "defaultMessage": "Código de país aceitor de cartão"
+  },
+  "MCC": {
+    "defaultMessage": "Mcc"
+  },
+  "POSEntryMode": {
+    "defaultMessage": "Modo de entrada de PDV"
+  },
+  "POSCondition": {
+    "defaultMessage": "Condição de PDV"
+  },
+  "acquiringInstitutionID": {
+    "defaultMessage": "ID de Instituição De aquisição"
+  },
+  "authCode": {
+    "defaultMessage": "Código Auth"
+  },
+  "additionalInfo": {
+    "defaultMessage": "Informações adicionais"
+  },
+  "cardPresent": {
+    "defaultMessage": "Cartão Presente"
+  },
+  "inbound": {
+    "defaultMessage": "Entrada"
+  },
+  "authorization": {
+    "defaultMessage": "Autorização"
+  },
+  "debit": {
+    "defaultMessage": "Débito"
+  },
+  "forcePost": {
+    "defaultMessage": "Posto de Força"
+  },
+  "failedParameter": {
+    "defaultMessage": "Parâmetro com falha"
+  },
+  "activatedRule": {
+    "defaultMessage": "Regra ativada"
+  },
+  "errorMessage": {
+    "defaultMessage": "Mensagem de erro"
+  },
+  "timestamps": {
+    "defaultMessage": "Timestamps"
+  },
+  "creation": {
+    "defaultMessage": "Criação"
+  },
+  "modified": {
+    "defaultMessage": "Modificado"
+  },
+  "transmission": {
+    "defaultMessage": "Transmissão"
+  },
+  "authReleased": {
+    "defaultMessage": "Auth Liberado"
+  },
+  "amounts": {
+    "defaultMessage": "Quantidades"
+  },
+  "acquirer": {
+    "defaultMessage": "Adquirente"
+  },
+  "billing": {
+    "defaultMessage": "Faturamento"
+  },
+  "compliance": {
+    "defaultMessage": "Conformidade"
+  },
+  "replacement": {
+    "defaultMessage": "Substituição"
+  },
+  "partial": {
+    "defaultMessage": "Parcial"
+  },
+  "paymentNetworkMessageDetails": {
+    "defaultMessage": "Detalhes da mensagem da rede de pagamento"
+  },
+  "identifierCode": {
+    "defaultMessage": "Código identificador"
+  },
+  "externalAccounts": {
+    "defaultMessage": "Contas Externas"
+  },
+  "button.addNewExternalAccount": {
+    "defaultMessage": "ADICIONAR NOVA CONTA EXTERNA"
+  },
+  "error.referenceNumber.required": {
+    "defaultMessage": "O número de referência é um campo obrigatório."
+  },
+  "editExternalAccount": {
+    "defaultMessage": "Editar conta externa"
+  },
+  "addExternalAccount": {
+    "defaultMessage": "Adicionar conta externa"
+  },
+  "expirationDate": {
+    "defaultMessage": "Data de expiração"
+  },
+  "error.password.lowercase": {
+    "defaultMessage": "A senha deve incluir pelo menos uma letra minúscula"
+  },
+  "error.password.uppercase": {
+    "defaultMessage": "A senha deve incluir pelo menos uma letra maiúscula"
+  },
+  "error.password.digit": {
+    "defaultMessage": "A senha deve incluir pelo menos um dígito"
+  },
+  "error.password.specialChar": {
+    "defaultMessage": "A senha deve conter pelo menos um caractere especial"
+  },
+  "error.password.minChar": {
+    "defaultMessage": "A senha deve conter pelo menos 8 caracteres"
+  },
+  "error.password.maxChar": {
+    "defaultMessage": "A senha deve conter no máximo 32 caracteres"
+  },
+  "error.field.required": {
+    "defaultMessage": "{fieldName} é um campo obrigatório"
+  },
+  "error.field.validEmail": {
+    "defaultMessage": "Um endereço de e-mail válido é necessário"
+  },
+  "error.role.minSelection": {
+    "defaultMessage": "Pelo menos uma função deve ser selecionada"
+  },
+  "linkedPartners": {
+    "defaultMessage": "Parceiros Vinculados"
+  },
+  "linkedPrograms": {
+    "defaultMessage": "Programas Vinculados"
+  },
+  "addAdditionalPartner": {
+    "defaultMessage": "ADICIONAR PARCEIRO ADICIONAL"
+  },
+  "addAdditionalProgram": {
+    "defaultMessage": "ADICIONAR PROGRAMA ADICIONAL"
+  },
+  "addNewPartner": {
+    "defaultMessage": "Adicionar novo parceiro"
+  },
+  "editPartner": {
+    "defaultMessage": "Editar parceiro"
+  },
+  "emptyLabel": {
+    "defaultMessage": ""
+  },
+  "firstName": {
+    "defaultMessage": "Primeiro nome"
+  },
+  "lastName": {
+    "defaultMessage": "Sobrenome"
+  },
+  "hostAddress": {
+    "defaultMessage": "Endereço do host"
+  },
+  "standIn": {
+    "defaultMessage": "Substituir"
+  },
+  "partnerManagerDetails": {
+    "defaultMessage": "Detalhes do gerente de parceiros"
+  },
+  "error.field.unique": {
+    "defaultMessage": "{fieldName} deve ser único"
+  },
+  "createdDate": {
+    "defaultMessage": "Data de criação"
+  },
+  "modifiedDate": {
+    "defaultMessage": "Data modificada"
+  },
+  "attributes": {
+    "defaultMessage": "Atributos"
+  },
+  "addAttributeAttribute": {
+    "defaultMessage": "Adicionar atributo adicional"
+  },
+  "expirationTime": {
+    "defaultMessage": "Tempo de expiração"
+  },
+  "search.results.showingMessage": {
+    "defaultMessage": "Showing {totalCount, plural, =0 {no results} one {# result} other {# results}} for \"{searchTerm}\""
+  },
+  "currencies": {
+    "defaultMessage": "Moedas"
+  },
+  "exchangeProvider": {
+    "defaultMessage": "Provedor de câmbio"
+  },
+  "intermediateCurrency": {
+    "defaultMessage": "Moeda intermediária"
+  },
+  "realTime": {
+    "defaultMessage": "Tempo real"
+  },
+  "externalIdCode": {
+    "defaultMessage": "Código de ID externo"
+  },
+  "crossTradeCurrency": {
+    "defaultMessage": "Moeda de negociação cruzada"
+  },
+  "creationDate": {
+    "defaultMessage": "Data de criação"
+  },
+  "addExchange": {
+    "defaultMessage": "Adicionar Troca"
+  },
+  "addInterchange": {
+    "defaultMessage": "Adicionar intercâmbio"
+  },
+  "editInterchange": {
+    "defaultMessage": "Editar intercâmbio"
+  },
+  "interchanges": {
+    "defaultMessage": "Intercâmbios"
+  },
+  "exchangeName": {
+    "defaultMessage": "Nome da troca"
+  },
+  "individualCurrencyMargin": {
+    "defaultMessage": "Margem de moeda individual"
+  },
+  "individualCurrencyMargins": {
+    "defaultMessage": "Margens de Moedas Individuais"
+  },
+  "individualCurrencyMarginOptional": {
+    "defaultMessage": "Margem de Moeda individual (Opcional)"
+  },
+  "buyMargin": {
+    "defaultMessage": "Comprar Margem"
+  },
+  "buyMarginPercentage": {
+    "defaultMessage": "Comprar porcentagem de margem"
+  },
+  "sellMargin": {
+    "defaultMessage": "Margem de venda"
+  },
+  "sellMarginPercentage": {
+    "defaultMessage": "Porcentagem de Margem de Venda"
+  },
+  "addAdditionalCurrencyPair": {
+    "defaultMessage": "Adicionar par de moedas adicional"
+  },
+  "sellCurrency": {
+    "defaultMessage": "Vender moeda"
+  },
+  "currencyPairMarginOptional": {
+    "defaultMessage": "Margem Par de moedas (Opcional)"
+  },
+  "buyCurrency": {
+    "defaultMessage": "Comprar moeda"
+  },
+  "createNewIndividualCurrencyMargin": {
+    "defaultMessage": "Criar nova margem de moeda individual"
+  },
+  "currencyMarginPairs": {
+    "defaultMessage": "Pares de Margem de Moedas"
+  },
+  "createNewCurrencyMarginPair": {
+    "defaultMessage": "Criar novo par de margem de moeda"
+  },
+  "addIndividualCurrencyMargin": {
+    "defaultMessage": "Adicionar Margem de Moeda Individual"
+  },
+  "editIndividualCurrencyMargin": {
+    "defaultMessage": "Editar Margem de Moeda Individual"
+  },
+  "chooseFeePlanOptional": {
+    "defaultMessage": "Escolha Plano de Taxas (Opcional)"
+  },
+  "chooseProgram": {
+    "defaultMessage": "Escolha o programa"
+  },
+  "error.field.lessThan300": {
+    "defaultMessage": "Deve ter menos de 300 caracteres"
+  },
+  "addCurrencyMarginPair": {
+    "defaultMessage": "Adicionar par de margem de moeda"
+  },
+  "editCurrencyMarginPair": {
+    "defaultMessage": "Editar Par de Margem de Moedas"
+  },
+  "interchangeName": {
+    "defaultMessage": "Nome do intercâmbio"
+  },
+  "bankName": {
+    "defaultMessage": "Nome do banco"
+  },
+  "newCurrency": {
+    "defaultMessage": "Nova moeda"
+  },
+  "addCurrency": {
+    "defaultMessage": "Adicionar moeda"
+  },
+  "addIIN": {
+    "defaultMessage": "Adicionar IIN"
+  },
+  "newIIN": {
+    "defaultMessage": "Novo IIN"
+  },
+  "error.iin.minRequired": {
+    "defaultMessage": "Pelo menos um IIN é necessário"
+  },
+  "error.currency.minRequired": {
+    "defaultMessage": "Pelo menos uma moeda é necessária"
+  },
+  "iin": {
+    "defaultMessage": "IIN"
+  },
+  "error.field.numberType": {
+    "defaultMessage": "{fieldName} deve ser um número"
+  },
+  "error.field.number0and100": {
+    "defaultMessage": "{fieldName} deve um número entre 0 e 100"
+  },
+  "customerDetails": {
+    "defaultMessage": "Detalhes do cliente"
+  },
+  "error.type.required": {
+    "defaultMessage": "O tipo é um campo obrigatório."
+  },
+  "error.reason.required": {
+    "defaultMessage": "A razão é um campo obrigatório."
+  },
+  "error.cardLast4.required": {
+    "defaultMessage": "O último cartão 4 é um campo obrigatório."
+  },
+  "addNewBlock": {
+    "defaultMessage": "Adicionar novo bloco"
+  },
+  "chargeoffChangeOrder.success.create": {
+    "defaultMessage": "A ordem de mudança de chargeoff foi criada com sucesso"
+  },
+  "memo.input.max255Chars.placeholder": {
+    "defaultMessage": "Memorando (255 caracteres no máximo.)"
+  },
+  "chooseDate": {
+    "defaultMessage": "Escolha a data"
+  },
+  "closed": {
+    "defaultMessage": "Fechado"
+  },
+  "fraud": {
+    "defaultMessage": "Fraude"
+  },
+  "system": {
+    "defaultMessage": "Sistema"
+  },
+  "activation": {
+    "defaultMessage": "Ativação"
+  },
+  "requestedBy": {
+    "defaultMessage": "Pedido por"
+  },
+  "cancelCard": {
+    "defaultMessage": "Cancelar cartão"
+  },
+  "termination": {
+    "defaultMessage": "Terminação"
+  },
+  "releaseBlock": {
+    "defaultMessage": "Bloco de liberação"
+  },
+  "confirm": {
+    "defaultMessage": "Confirmar"
+  },
+  "mr": {
+    "defaultMessage": "Sr"
+  },
+  "ms": {
+    "defaultMessage": "Ms"
+  },
+  "mrs": {
+    "defaultMessage": "Sra"
+  },
+  "jr": {
+    "defaultMessage": "Jr"
+  },
+  "sr": {
+    "defaultMessage": "Sr."
+  },
+  "I": {
+    "defaultMessage": "Eu"
+  },
+  "II": {
+    "defaultMessage": "Ii"
+  },
+  "III": {
+    "defaultMessage": "Iii"
+  },
+  "addressType": {
+    "defaultMessage": "Tipo de endereço"
+  },
+  "addressLine1": {
+    "defaultMessage": "Endereço linha 1"
+  },
+  "addressLine2": {
+    "defaultMessage": "Linha de endereços 2"
+  },
+  "phoneType": {
+    "defaultMessage": "Tipo de telefone"
+  },
+  "emailType": {
+    "defaultMessage": "Tipo de e-mail"
+  },
+  "email": {
+    "defaultMessage": "Email"
+  },
+  "IDType": {
+    "defaultMessage": "Tipo de ID"
+  },
+  "IDNumber": {
+    "defaultMessage": "Número de identificação"
+  },
+  "issuedDate": {
+    "defaultMessage": "Data de emissão"
+  },
+  "configurations": {
+    "defaultMessage": "構成"
+  },
+  "success.changes.saved": {
+    "defaultMessage": "Suas mudanças foram salvas com sucesso"
+  },
+  "error.givenName.required": {
+    "defaultMessage": "O nome dado é um campo obrigatório"
+  },
+  "error.familyName.required": {
+    "defaultMessage": "Nome da família é um campo obrigatório"
+  },
+  "error.dateOfBirth.required": {
+    "defaultMessage": "A data de nascimento é um campo obrigatório."
+  },
+  "editCustomer": {
+    "defaultMessage": "Editar cliente"
+  },
+  "label.editCustomer": {
+    "defaultMessage": "Editar cliente"
+  },
+  "personalInformation": {
+    "defaultMessage": "Informações pessoais"
+  },
+  "secondFamilyName": {
+    "defaultMessage": "Segundo Nome da Família"
+  },
+  "nickname": {
+    "defaultMessage": "Alcunha"
+  },
+  "gender": {
+    "defaultMessage": "Gênero"
+  },
+  "dateOfBirth": {
+    "defaultMessage": "Data de nascimento"
+  },
+  "addresses": {
+    "defaultMessage": "Endereços"
+  },
+  "button.addNewAddress": {
+    "defaultMessage": "ADICIONAR NOVO ENDEREÇO"
+  },
+  "phones": {
+    "defaultMessage": "Telefones"
+  },
+  "button.addNewPhone": {
+    "defaultMessage": "ADICIONAR NOVO TELEFONE"
+  },
+  "emails": {
+    "defaultMessage": "E-mails"
+  },
+  "button.addNewEmail": {
+    "defaultMessage": "ADICIONAR NOVO E-MAIL"
+  },
+  "identification": {
+    "defaultMessage": "Identificação"
+  },
+  "button.addNewIdentification": {
+    "defaultMessage": "ADICIONAR NOVA IDENTIFICAÇÃO"
+  },
+  "notifications": {
+    "defaultMessage": "Notificações"
+  },
+  "button.addNewNotification": {
+    "defaultMessage": "ADICIONAR NOVA NOTIFICAÇÃO"
+  },
+  "error.input.required": {
+    "defaultMessage": "{name} é um campo obrigatório."
+  },
+  "editNotification": {
+    "defaultMessage": "Editar notificação"
+  },
+  "error.IDType.required": {
+    "defaultMessage": "O tipo de ID é um campo obrigatório."
+  },
+  "error.primaryNumber.required": {
+    "defaultMessage": "O número primário é um campo obrigatório."
+  },
+  "error.IDIssuerCountry.required": {
+    "defaultMessage": "O emissor de ID (país) é um campo obrigatório."
+  },
+  "error.active.required": {
+    "defaultMessage": "Ativo é um campo obrigatório."
+  },
+  "editIdentification": {
+    "defaultMessage": "Identificação de edição"
+  },
+  "addIdentification": {
+    "defaultMessage": "Adicionar identificação"
+  },
+  "primaryNumber": {
+    "defaultMessage": "Número Primário"
+  },
+  "secondaryNumber": {
+    "defaultMessage": "Número Secundário"
+  },
+  "IDIssuerState": {
+    "defaultMessage": "Emissor de ID (Estado)"
+  },
+  "IDIssuerCountry": {
+    "defaultMessage": "Emissor de ID (País)"
+  },
+  "error.emailType.required": {
+    "defaultMessage": "O tipo de e-mail é um campo obrigatório."
+  },
+  "error.emailFormat.invalid": {
+    "defaultMessage": "Formato de e-mail inválido."
+  },
+  "error.emailAddress.required": {
+    "defaultMessage": "O endereço de e-mail é um campo obrigatório."
+  },
+  "error.state.required": {
+    "defaultMessage": "O Estado é um campo obrigatório."
+  },
+  "editEmail": {
+    "defaultMessage": "Editar e-mail"
+  },
+  "addEmail": {
+    "defaultMessage": "Adicionar e-mail"
+  },
+  "emailState": {
+    "defaultMessage": "Estado de e-mail"
+  },
+  "error.phoneType.required": {
+    "defaultMessage": "O tipo de telefone é um campo obrigatório"
+  },
+  "error.phoneFormat.invalid": {
+    "defaultMessage": "Formato telefônico inválido"
+  },
+  "error.phoneNumber.required": {
+    "defaultMessage": "Número de telefone é um campo obrigatório."
+  },
+  "editPhone": {
+    "defaultMessage": "Editar telefone"
+  },
+  "addPhone": {
+    "defaultMessage": "Adicionar telefone"
+  },
+  "error.addressType.required": {
+    "defaultMessage": "O tipo de endereço é um campo obrigatório."
+  },
+  "error.addressLine1.required": {
+    "defaultMessage": "A linha de endereço 1 é um campo obrigatório."
+  },
+  "error.postalCode.required": {
+    "defaultMessage": "O código postal é um campo obrigatório."
+  },
+  "error.city.required": {
+    "defaultMessage": "A cidade é um campo obrigatório."
+  },
+  "error.country.required": {
+    "defaultMessage": "O país é um campo obrigatório."
+  },
+  "editAddress": {
+    "defaultMessage": "Editar endereço"
+  },
+  "addAddress": {
+    "defaultMessage": "Adicionar endereço"
+  },
+  "addressLine3": {
+    "defaultMessage": "Endereço linha 3"
+  },
+  "yesterday": {
+    "defaultMessage": "Ontem"
+  },
+  "button.release": {
+    "defaultMessage": "SOLTAR"
+  },
+  "chargeoffs": {
+    "defaultMessage": "Chargeoffs"
+  },
+  "button.addNewAdjustment": {
+    "defaultMessage": "ADICIONAR NOVO AJUSTE"
+  },
+  "button.exchange": {
+    "defaultMessage": "TROCA"
+  },
+  "button.released": {
+    "defaultMessage": "LANÇADO"
+  },
+  "resetPassword": {
+    "defaultMessage": "Redefinir senha"
+  },
+  "changePassword": {
+    "defaultMessage": "Mudar senha"
+  },
+  "resetPartnerUserPassword": {
+    "defaultMessage": "REDEFINIR SENHA DE USUÁRIO DO PARCEIRO"
+  },
+  "locked": {
+    "defaultMessage": "Bloqueado"
+  },
+  "showDeactivatedCards": {
+    "defaultMessage": "Mostrar cartões desativados"
+  },
+  "risk.param.activation_time_limit": {
+    "defaultMessage": "Limite de tempo de ativação",
+    "description": "Risk Param"
+  },
+  "risk.param.adjustment_1d": {
+    "defaultMessage": "Limite de ajuste por 1 dia",
+    "description": "Risk Param"
+  },
+  "risk.param.adjustment_30d": {
+    "defaultMessage": "Ajuste de 30 dias",
+    "description": "Risk Param"
+  },
+  "risk.param.adjustment_7d": {
+    "defaultMessage": "Limite de ajuste por 7 dias",
+    "description": "Risk Param"
+  },
+  "risk.param.adjustment_limit": {
+    "defaultMessage": "Limite de ajuste",
+    "description": "Risk Param"
+  },
+  "risk.param.age_limit": {
+    "defaultMessage": "Limite de idade",
+    "description": "Risk Param"
+  },
+  "risk.param.allowed_mcc": {
+    "defaultMessage": "MCC permitido",
+    "description": "Risk Param"
+  },
+  "risk.param.atm_1d": {
+    "defaultMessage": "Limite de saque de caixa eletrônico por 1 dia",
+    "description": "Risk Param"
+  },
+  "risk.param.atm_30d": {
+    "defaultMessage": "Limite de saque de caixa eletrônico por 30 dias",
+    "description": "Risk Param"
+  },
+  "risk.param.atm_7d": {
+    "defaultMessage": "Limite de retirada em caixas eletrônicos por 7 dias",
+    "description": "Risk Param"
+  },
+  "risk.param.atm_count_7d": {
+    "defaultMessage": "Contagem ATM por 7 dias",
+    "description": "Risk Param"
+  },
+  "risk.param.atm_limit": {
+    "defaultMessage": "Limite de saque de caixas eletrônicos",
+    "description": "Risk Param"
+  },
+  "risk.param.atm_reversal_count_1d": {
+    "defaultMessage": "Contagem de reversão de caixa eletrônico 1 dia",
+    "description": "Risk Param"
+  },
+  "risk.param.auto_top_up_count_1d": {
+    "defaultMessage": "Contagem de recarga automática por 1 dia",
+    "description": "Risk Param"
+  },
+  "risk.param.auto_top_up_limit": {
+    "defaultMessage": "Limite de recarga automática",
+    "description": "Risk Param"
+  },
+  "risk.param.auto_top_up_limit_1d": {
+    "defaultMessage": "Limite de recarga automática de 1 dia",
+    "description": "Risk Param"
+  },
+  "risk.param.balance_floor": {
+    "defaultMessage": "Piso de equilíbrio",
+    "description": "Risk Param"
+  },
+  "risk.param.balance_limit": {
+    "defaultMessage": "Limite de equilíbrio",
+    "description": "Risk Param"
+  },
+  "risk.param.blocked_countries": {
+    "defaultMessage": "Países bloqueados",
+    "description": "Risk Param"
+  },
+  "risk.param.blocked_mcc": {
+    "defaultMessage": "Códigos MCC bloqueados",
+    "description": "Risk Param"
+  },
+  "risk.param.exchange_quote_duration": {
+    "defaultMessage": "Duração da cotação do câmbio",
+    "description": "Risk Param"
+  },
+  "risk.param.hierarchy_max_level": {
+    "defaultMessage": "Nível máximo da herdeira",
+    "description": "Risk Param"
+  },
+  "risk.param.load_limit": {
+    "defaultMessage": "Limite de carga",
+    "description": "Risk Param"
+  },
+  "risk.param.load_limit_1d": {
+    "defaultMessage": "Limite de carga por 1 dia",
+    "description": "Risk Param"
+  },
+  "risk.param.load_limit_1y": {
+    "defaultMessage": "Limite de carga por 1 ano",
+    "description": "Risk Param"
+  },
+  "risk.param.load_limit_30d": {
+    "defaultMessage": "Limite de carga por 30 dias",
+    "description": "Risk Param"
+  },
+  "risk.param.low_balance_threshold": {
+    "defaultMessage": "Baixo limite de equilíbrio",
+    "description": "Risk Param"
+  },
+  "risk.param.max_cards_allowed": {
+    "defaultMessage": "Número máximo de cartões permitidos",
+    "description": "Risk Param"
+  },
+  "risk.param.max_num_cards": {
+    "defaultMessage": "Número máximo de cartões por conta do cliente",
+    "description": "Risk Param"
+  },
+  "risk.param.max_num_persons": {
+    "defaultMessage": "Número máximo de pessoas por conta do cliente",
+    "description": "Risk Param"
+  },
+  "risk.param.max_num_tokens_per_card": {
+    "defaultMessage": "Número máximo de tokens por cartão",
+    "description": "Risk Param"
+  },
+  "risk.param.minimum_load": {
+    "defaultMessage": "Carga mínima",
+    "description": "Risk Param"
+  },
+  "risk.param.not_allowed_first_transaction_types": {
+    "defaultMessage": "Não é permitido os primeiros tipos de transação",
+    "description": "Risk Param"
+  },
+  "risk.param.online_purchase_1d": {
+    "defaultMessage": "Limite de compra online por 1 dia",
+    "description": "Risk Param"
+  },
+  "risk.param.online_purchase_7d": {
+    "defaultMessage": "Limite de compra online por 7 dias",
+    "description": "Risk Param"
+  },
+  "risk.param.online_purchase_limit": {
+    "defaultMessage": "Limite de compra online",
+    "description": "Risk Param"
+  },
+  "risk.param.p2p_1d": {
+    "defaultMessage": "Limite de transferência P2P por 1 dia",
+    "description": "Risk Param"
+  },
+  "risk.param.p2p_1y": {
+    "defaultMessage": "Limite de transferência P2P para 1 ano",
+    "description": "Risk Param"
+  },
+  "risk.param.p2p_30d": {
+    "defaultMessage": "Limite de transferência P2P por 30 dias",
+    "description": "Risk Param"
+  },
+  "risk.param.p2p_7d": {
+    "defaultMessage": "Limite de transferência P2P por 7 dias",
+    "description": "Risk Param"
+  },
+  "risk.param.p2p_limit": {
+    "defaultMessage": "Limite de transferência P2P",
+    "description": "Risk Param"
+  },
+  "risk.param.p2p_limit_recv": {
+    "defaultMessage": "Limite de P2P recebido",
+    "description": "Risk Param"
+  },
+  "risk.param.p2p_recv_1d": {
+    "defaultMessage": "P2P recebeu limite para 1 dia",
+    "description": "Risk Param"
+  },
+  "risk.param.p2p_recv_1y": {
+    "defaultMessage": "P2P recebeu limite por 1 ano",
+    "description": "Risk Param"
+  },
+  "risk.param.p2p_recv_30d": {
+    "defaultMessage": "P2P recebeu limite por 30 dias",
+    "description": "Risk Param"
+  },
+  "risk.param.passcode_reset_time_limit": {
+    "defaultMessage": "Limite de tempo de redefinição de senha",
+    "description": "Risk Param"
+  },
+  "risk.param.password_history_count": {
+    "defaultMessage": "Contagem de histórico de senhas",
+    "description": "Risk Param"
+  },
+  "risk.param.password_reset_time_limit": {
+    "defaultMessage": "Limite de tempo de redefinição de senha do cliente",
+    "description": "Risk Param"
+  },
+  "risk.param.pin_fail_count": {
+    "defaultMessage": "Falha no limite de contagem de PIN",
+    "description": "Risk Param"
+  },
+  "risk.param.pin_fail_count_temporary_lock": {
+    "defaultMessage": "Bloqueio temporário da contagem de falha do PIN",
+    "description": "Risk Param"
+  },
+  "risk.param.pos_purchase_1d": {
+    "defaultMessage": "Limite de compra de PDV por 1 dia",
+    "description": "Risk Param"
+  },
+  "risk.param.pos_purchase_7d": {
+    "defaultMessage": "Limite de compra de PDV por 7 dias",
+    "description": "Risk Param"
+  },
+  "risk.param.pos_purchase_limit": {
+    "defaultMessage": "Limite de compra de PDV",
+    "description": "Risk Param"
+  },
+  "risk.param.pre_approval_interval_begin": {
+    "defaultMessage": "Início do intervalo de pré-aprovação",
+    "description": "Risk Param"
+  },
+  "risk.param.pre_approval_interval_end": {
+    "defaultMessage": "Fim do intervalo de pré-aprovação",
+    "description": "Risk Param"
+  },
+  "risk.param.purchase_1d": {
+    "defaultMessage": "Limite de compra por 1 dia",
+    "description": "Risk Param"
+  },
+  "risk.param.purchase_1y": {
+    "defaultMessage": "Limite de compra por 1 ano",
+    "description": "Risk Param"
+  },
+  "risk.param.purchase_30d": {
+    "defaultMessage": "Limite de compra por 30 dias",
+    "description": "Risk Param"
+  },
+  "risk.param.purchase_7d": {
+    "defaultMessage": "Limite de compra por 7 dias",
+    "description": "Risk Param"
+  },
+  "risk.param.purchase_count_same_merchant_3d": {
+    "defaultMessage": "Compre o mesmo comerciante 3 dias (Contagem)",
+    "description": "Risk Param"
+  },
+  "risk.param.purchase_limit": {
+    "defaultMessage": "Limite de compra",
+    "description": "Risk Param"
+  },
+  "risk.param.purchase_limit_recv": {
+    "defaultMessage": "Limite de compra recebido",
+    "description": "Risk Param"
+  },
+  "risk.param.purchase_no_cvm_1d": {
+    "defaultMessage": "Comprar na CVM 1 dia",
+    "description": "Risk Param"
+  },
+  "risk.param.purchase_no_cvm_count_1d": {
+    "defaultMessage": "Compre no CVM Count 1 dia",
+    "description": "Risk Param"
+  },
+  "risk.param.purchase_no_cvm_limit": {
+    "defaultMessage": "Não compre limite da CVM",
+    "description": "Risk Param"
+  },
+  "risk.param.purchase_same_merchant_3d": {
+    "defaultMessage": "Comprar mesmo comerciante 3 dias (Valor)",
+    "description": "Risk Param"
+  },
+  "risk.param.refund_1d": {
+    "defaultMessage": "Limite de reembolso por 1 dia",
+    "description": "Risk Param"
+  },
+  "risk.param.refund_1y": {
+    "defaultMessage": "Limite de restituição por 1 ano",
+    "description": "Risk Param"
+  },
+  "risk.param.refund_30d": {
+    "defaultMessage": "Limite de reembolso por 30 dias",
+    "description": "Risk Param"
+  },
+  "risk.param.refund_7d": {
+    "defaultMessage": "Limite de reembolso por 7 dias",
+    "description": "Risk Param"
+  },
+  "risk.param.refund_count_1d": {
+    "defaultMessage": "Limite de contagem de reembolsos por 1 dia",
+    "description": "Risk Param"
+  },
+  "risk.param.refund_count_7d": {
+    "defaultMessage": "Limite da contagem de reembolsos por 7 dias",
+    "description": "Risk Param"
+  },
+  "risk.param.refund_limit": {
+    "defaultMessage": "Limite de reembolso",
+    "description": "Risk Param"
+  },
+  "risk.param.refund_limit_recv": {
+    "defaultMessage": "Limite de reembolso recebido",
+    "description": "Risk Param"
+  },
+  "risk.param.refund_purchase_period": {
+    "defaultMessage": "Período de reembolso",
+    "description": "Risk Param"
+  },
+  "risk.param.rejected_count_5d": {
+    "defaultMessage": "Contagem rejeitada 5 dias",
+    "description": "Risk Param"
+  },
+  "risk.param.verify_email_time_limit": {
+    "defaultMessage": "Verifique o limite de tempo de e-mail",
+    "description": "Risk Param"
+  },
+  "risk.param.withdraw_1d": {
+    "defaultMessage": "Limite de saque por 1 dia",
+    "description": "Risk Param"
+  },
+  "risk.param.withdraw_1y": {
+    "defaultMessage": "Limite de saque por 1 ano",
+    "description": "Risk Param"
+  },
+  "risk.param.withdraw_30d": {
+    "defaultMessage": "Limite de saque por 30 dias",
+    "description": "Risk Param"
+  },
+  "risk.param.withdraw_7d": {
+    "defaultMessage": "Limite de saque por 7 dias",
+    "description": "Risk Param"
+  },
+  "risk.param.withdraw_limit": {
+    "defaultMessage": "Limite de saque",
+    "description": "Risk Param"
+  },
+  "risk.param.accumulated_purchase_limit": {
+    "defaultMessage": "Limite de compra acumulado",
+    "description": "Risk Param"
+  },
+  "risk.param.disable_card_not_present": {
+    "defaultMessage": "Desativar cartão não presente",
+    "description": "Risk Param"
+  },
+  "risk.param.disable_mag_stripe": {
+    "defaultMessage": "Desativar a tarja magnética",
+    "description": "Risk Param"
+  },
+  "risk.param.limit_card_not_present": {
+    "defaultMessage": "Limitar cartão não presente",
+    "description": "Risk Param"
+  },
+  "risk.param.limit_mag_stripe": {
+    "defaultMessage": "Limite de tarja magnética",
+    "description": "Risk Param"
+  },
+  "risk.param.sg_withdraw": {
+    "defaultMessage": "Levantamentos em caixas eletrônicos de Cingapura",
+    "description": "Risk Param"
+  },
+  "risk.param.atm_count_1d": {
+    "defaultMessage": "Limite de contagem de caixas eletrônicos por 1 dia"
+  },
+  "risk.param.atm_count_30d": {
+    "defaultMessage": "Limite de contagem de caixas eletrônicos por 30 dias"
+  },
+  "risk.param.atm_domestic_1d": {
+    "defaultMessage": "Limite de cartão de débito ATM doméstico por 1 dia"
+  },
+  "risk.param.atm_international_1d": {
+    "defaultMessage": "Limite internacional de ATM para 1 dia"
+  },
+  "risk.param.international_limit": {
+    "defaultMessage": "Limite internacional"
+  },
+  "risk.param.nomatch_merchant_control_response": {
+    "defaultMessage": "Nenhuma resposta de controle de comerciante de correspondência"
+  },
+  "risk.param.online_purchase_30d": {
+    "defaultMessage": "Limite de compra online por 1 dia"
+  },
+  "risk.param.online_purchase_count_1d": {
+    "defaultMessage": "Limite de contagem de compras online por 1 dia"
+  },
+  "risk.param.online_purchase_count_30d": {
+    "defaultMessage": "Limite de contagem de compras online por 30 dias"
+  },
+  "risk.param.online_purchase_count_7d": {
+    "defaultMessage": "Limite de contagem de compras online por 7 dias"
+  },
+  "risk.param.online_purchase_mcc_limit": {
+    "defaultMessage": "Limite MCC de compra on-line"
+  },
+  "risk.param.pos_purchase_30d": {
+    "defaultMessage": "Limite de compra de PDV por 30 dias"
+  },
+  "risk.param.pos_purchase_count_1d": {
+    "defaultMessage": "Limite de contagem de compras de PDV por 1 dia"
+  },
+  "risk.param.pos_purchase_count_30d": {
+    "defaultMessage": "Limite de contagem de compras de PDV por 30 dias"
+  },
+  "risk.param.pos_purchase_count_7d": {
+    "defaultMessage": "Limite de contagem de compras de PDV por 7 dias"
+  },
+  "risk.param.purchase_count_1d": {
+    "defaultMessage": "Contagem de compras por 1 dia"
+  },
+  "risk.param.purchase_count_30d": {
+    "defaultMessage": "Contagem de compras por 30 dias"
+  },
+  "risk.param.purchase_count_7d": {
+    "defaultMessage": "Contagem de compras por 7 dias"
+  },
+  "risk.param.purchase_count_same_merchant_1d": {
+    "defaultMessage": "Compre o mesmo comerciante 1 dia (Contagem)"
+  },
+  "risk.param.purchase_count_same_merchant_30d": {
+    "defaultMessage": "Compre o mesmo comerciante 30 dias (Contagem)"
+  },
+  "risk.param.purchase_count_same_merchant_7d": {
+    "defaultMessage": "Compre o mesmo comerciante 7 dias (Contagem)"
+  },
+  "risk.param.purchase_same_merchant_1d": {
+    "defaultMessage": "Compre o mesmo comerciante 1 dia (Valor)"
+  },
+  "risk.param.purchase_same_merchant_30d": {
+    "defaultMessage": "Compre o mesmo comerciante 30 dias (Valor)"
+  },
+  "risk.param.purchase_same_merchant_7d": {
+    "defaultMessage": "Compre o mesmo comerciante 7 dias (Valor)"
+  },
+  "risk.param.withdraw_percentage_limit": {
+    "defaultMessage": "Limite percentual de retirada"
+  },
+  "programs.button.addNewProgram": {
+    "defaultMessage": "Adicionar novo programa"
+  },
+  "programs.table.primaryContact": {
+    "defaultMessage": "Contato principal"
+  },
+  "calculation.method.flatAmount": {
+    "defaultMessage": "Quantidade Fixa"
+  },
+  "calculation.method.percentage": {
+    "defaultMessage": "Porcentagem"
+  },
+  "calculation.method.flatPlusPercentage": {
+    "defaultMessage": "Plano + Porcentagem"
+  },
+  "calculation.method.greaterOf": {
+    "defaultMessage": "Maior de"
+  },
+  "calculation.method.lesserOf": {
+    "defaultMessage": "Menor de"
+  },
+  "transaction.source.customer": {
+    "defaultMessage": "Cliente"
+  },
+  "transaction.source.internal": {
+    "defaultMessage": "Interno"
+  },
+  "transaction.source.inwalletATM": {
+    "defaultMessage": "Em Caixa eletrônico de carteira"
+  },
+  "transaction.source.inwalletPOS": {
+    "defaultMessage": "Em Pos de carteira"
+  },
+  "transaction.source.mobilecommerce": {
+    "defaultMessage": "Comércio Móvel"
+  },
+  "transaction.source.online": {
+    "defaultMessage": "Online"
+  },
+  "transaction.source.outofwalletATM": {
+    "defaultMessage": "Caixa eletrônico out of wallet"
+  },
+  "transaction.source.outofwalletPOS": {
+    "defaultMessage": "PDV fora da carteira"
+  },
+  "transaction.source.partner": {
+    "defaultMessage": "Parceiro"
+  },
+  "transaction.source.static": {
+    "defaultMessage": "Estático"
+  },
+  "transaction.source.unknown": {
+    "defaultMessage": "Desconhecido"
+  },
+  "transaction.type.unknown": {
+    "defaultMessage": "Unknown",
+    "description": "Unknown transaction type"
+  },
+  "transaction.type.newAccount": {
+    "defaultMessage": "Nova conta",
+    "description": "Transaction represents an account being created"
+  },
+  "transaction.type.cardSale": {
+    "defaultMessage": "Venda de cartões",
+    "description": "Card purchase for order"
+  },
+  "transaction.type.purchase": {
+    "defaultMessage": "Compra",
+    "description": "Transaction represents a purchase"
+  },
+  "transaction.type.refund": {
+    "defaultMessage": "Reembolso",
+    "description": "Transaction represents a refund"
+  },
+  "transaction.type.load": {
+    "defaultMessage": "Carga",
+    "description": "Transaction represents a load"
+  },
+  "transaction.type.withdraw": {
+    "defaultMessage": "Retirar",
+    "description": "Transaction represents a withdraw"
+  },
+  "transaction.type.balanceInquiry": {
+    "defaultMessage": "Inquérito de Equilíbrio",
+    "description": "Transaction represents a Balance Inquiry"
+  },
+  "transaction.type.p2p": {
+    "defaultMessage": "P2P",
+    "description": "Transaction represents a P2P Transfer"
+  },
+  "transaction.type.walletTransfer": {
+    "defaultMessage": "Transferência de carteira",
+    "description": "Transaction represents a transfer between wallets"
+  },
+  "transaction.type.exchange": {
+    "defaultMessage": "Exchange",
+    "description": "Represents an Exchange Transaction"
+  },
+  "transaction.type.exchangeMargin": {
+    "defaultMessage": "Margem de Câmbio",
+    "description": "Exchange Margin"
+  },
+  "transaction.type.secondPresentment": {
+    "defaultMessage": "Segunda Apresentação",
+    "description": "Second Presentment"
+  },
+  "transaction.type.chargeBack": {
+    "defaultMessage": "Chargeback",
+    "description": "Chargeback"
+  },
+  "transaction.type.customerAdjustment": {
+    "defaultMessage": "Ajuste do cliente"
+  },
+  "transaction.type.exchangeAdjustment": {
+    "defaultMessage": "Ajuste cambial"
+  },
+  "transaction.type.maintenance": {
+    "defaultMessage": "Manutenção"
+  },
+  "transaction.type.chargeoff": {
+    "defaultMessage": "Cargo"
+  },
+  "transaction.type.withholding": {
+    "defaultMessage": "Retenção"
+  },
+  "transaction.type.closeAccount": {
+    "defaultMessage": "Fechar conta"
+  },
+  "transaction.type.reward": {
+    "defaultMessage": "Recompensa"
+  },
+  "transaction.type.shipping": {
+    "defaultMessage": "Transporte"
+  },
+  "transaction.type.expeditedShipping": {
+    "defaultMessage": "Envío acelerado"
+  },
+  "transaction.type.addressing": {
+    "defaultMessage": "Endereçamento"
+  },
+  "transaction.type.settlement": {
+    "defaultMessage": "Liquidação"
+  },
+  "transaction.type.consolidated": {
+    "defaultMessage": "Consolidado"
+  },
+  "transaction.type.interest": {
+    "defaultMessage": "Interesse"
+  },
+  "transaction.type.cashback": {
+    "defaultMessage": "Cashback"
+  },
+  "transaction.type.fee": {
+    "defaultMessage": "Taxa"
+  },
+  "transaction.type.fee.monthly": {
+    "defaultMessage": "Mensalidade"
+  },
+  "transaction.type.fee.annual": {
+    "defaultMessage": "Taxa Anual"
+  },
+  "transaction.type.fastFund": {
+    "defaultMessage": "Fundo Rápido"
+  },
+  "transaction.type.fee.loadReversal": {
+    "defaultMessage": "Reversão de Pagamento"
+  },
+  "transaction.type.fee.expiry": {
+    "defaultMessage": "Caducidade"
+  },
+  "transaction.type.fee.moneySend": {
+    "defaultMessage": "Envio de Dinheiro"
+  },
+  "transaction.type.fee.latePaymentFee": {
+    "defaultMessage": "Taxa de Atraso de Pagamento"
+  },
+  "addressType.home": {
+    "defaultMessage": "Casa",
+    "description": "Address type"
+  },
+  "address.type.business": {
+    "defaultMessage": "Negócio",
+    "description": "Address type"
+  },
+  "address.type.shipping": {
+    "defaultMessage": "Transporte",
+    "description": "Address type"
+  },
+  "token.status.active": {
+    "defaultMessage": "Ativo",
+    "description": "token status"
+  },
+  "token.status.suspended": {
+    "defaultMessage": "Suspenso",
+    "description": "token status"
+  },
+  "token.status.inactive": {
+    "defaultMessage": "Inativo",
+    "description": "token status"
+  },
+  "card.type.temporary": {
+    "defaultMessage": "Temporário",
+    "description": "Card Type"
+  },
+  "card.type.oneTimeUse": {
+    "defaultMessage": "Uso único",
+    "description": "Card Type"
+  },
+  "card.type.personalized": {
+    "defaultMessage": "Personalizado",
+    "description": "Card Type"
+  },
+  "card.type.virtual": {
+    "defaultMessage": "Virtual",
+    "description": "Card Type"
+  },
+  "card.type.router": {
+    "defaultMessage": "Roteador",
+    "description": "Card Type"
+  },
+  "change.order.adjust": {
+    "defaultMessage": "Ajuste",
+    "description": "Adjustment change order"
+  },
+  "change.order.chargeoff": {
+    "defaultMessage": "Chargeoff",
+    "description": "Chargeoff change order"
+  },
+  "change.order.exchangeMargin": {
+    "defaultMessage": "Margem de Câmbio",
+    "description": "Exchange Margin Request"
+  },
+  "change.order.feeEntry": {
+    "defaultMessage": "Taxa de Inscrição",
+    "description": "Fee Entry Request"
+  },
+  "change.order.feePlan": {
+    "defaultMessage": "Plano de Taxas",
+    "description": "Fee Plan Request"
+  },
+  "change.order.programAdjustment": {
+    "defaultMessage": "Ajuste do Programa",
+    "description": "Program Adjustment Request"
+  },
+  "change.order.riskConfiguration": {
+    "defaultMessage": "Configuração de Risco",
+    "description": "Risk Configuration Request"
+  },
+  "change.order.riskLevel": {
+    "defaultMessage": "Nível de Risco",
+    "description": "Risk Level Request"
+  },
+  "change.order.withholdingl": {
+    "defaultMessage": "Retenção",
+    "description": "Withholding Request"
+  },
+  "contact.method.email": {
+    "defaultMessage": "Email",
+    "description": "contact method email"
+  },
+  "contact.method.phone": {
+    "defaultMessage": "Telefone",
+    "description": "contact method phone"
+  },
+  "email.state.verified": {
+    "defaultMessage": "Verificado",
+    "description": "email state"
+  },
+  "mail.state.unverified": {
+    "defaultMessage": "Unverified",
+    "description": "email state"
+  },
+  "mail.template.type.accountBalanceChange": {
+    "defaultMessage": "Mudança de saldo da conta",
+    "description": "Mail template type"
+  },
+  "mail.template.type.accountBalanceChangePurchase": {
+    "defaultMessage": "Saldo da Conta Alterar Compra",
+    "description": "Mail template type"
+  },
+  "mail.template.type.accountBalanceChangeWithdraw": {
+    "defaultMessage": "Retirada do saldo da conta",
+    "description": "Mail template type"
+  },
+  "mail.template.type.accountBlock": {
+    "defaultMessage": "Bloco de conta",
+    "description": "Mail template type"
+  },
+  "mail.template.type.accountOpeningAcceptance": {
+    "defaultMessage": " Aceitação de abertura de conta",
+    "description": "Mail template type"
+  },
+  "mail.template.type.accountSetupComplete": {
+    "defaultMessage": "Configuração da conta concluída",
+    "description": "Mail template type"
+  },
+  "mail.template.type.addressChanged": {
+    "defaultMessage": "Endereço alterado",
+    "description": "Mail template type"
+  },
+  "mail.template.type.authorization": {
+    "defaultMessage": "Autorização",
+    "description": "Mail template type"
+  },
+  "mail.template.type.authorizationError": {
+    "defaultMessage": "Erro de autorização",
+    "description": "Mail template type"
+  },
+  "mail.template.type.autoTopUp": {
+    "defaultMessage": "Auto-Top Up",
+    "description": "Mail template type"
+  },
+  "mail.template.type.autoTopUpRemoved": {
+    "defaultMessage": "Auto-Up Removido",
+    "description": "Mail template type"
+  },
+  "mail.template.type.autoTopUpSet": {
+    "defaultMessage": "Configuração de recarga automática",
+    "description": "Mail template type"
+  },
+  "mail.template.type.availableBalance": {
+    "defaultMessage": "Saldo disponível",
+    "description": "Mail template type"
+  },
+  "mail.template.type.background": {
+    "defaultMessage": "Fundo",
+    "description": "Mail template type"
+  },
+  "mail.template.type.cardActivation": {
+    "defaultMessage": "Ativação do cartão",
+    "description": "Mail template type"
+  },
+  "mail.template.type.cardBlock": {
+    "defaultMessage": "Bloco de Cartão",
+    "description": "Mail template type"
+  },
+  "mail.template.type.cardBlockRelease": {
+    "defaultMessage": "Liberação do bloco de cartão",
+    "description": "Mail template type"
+  },
+  "mail.template.type.cardExternalTokenActivated": {
+    "defaultMessage": "Token externo do cartão ativado",
+    "description": "Mail template type"
+  },
+  "mail.template.type.cardExternalTokenUpdated": {
+    "defaultMessage": "Token externo do cartão atualizado",
+    "description": "Mail template type"
+  },
+  "mail.template.type.cashWithdraw": {
+    "defaultMessage": "Saque em dinheiro",
+    "description": "Mail template type"
+  },
+  "mail.template.type.closeCustomerAccount": {
+    "defaultMessage": "Fechar conta do cliente",
+    "description": "Mail template type"
+  },
+  "mail.template.type.creditLimit": {
+    "defaultMessage": "Limite de crédito",
+    "description": "Mail template type"
+  },
+  "mail.template.type.customerActivation": {
+    "defaultMessage": "Ativação do cliente",
+    "description": "Mail template type"
+  },
+  "mail.template.type.customerBlock": {
+    "defaultMessage": "Bloco de clientes",
+    "description": "Mail template type"
+  },
+  "mail.template.type.customerPasscodeReset": {
+    "defaultMessage": "Redefinição da senha do cliente",
+    "description": "Mail template type"
+  },
+  "mail.template.type.customerPasscodeResetCompleted": {
+    "defaultMessage": "Redefinição da senha do cliente concluída",
+    "description": "Mail template type"
+  },
+  "mail.template.type.customerRisk": {
+    "defaultMessage": "Risco ao Cliente",
+    "description": "Mail template type"
+  },
+  "mail.template.type.customerRiskChangeFailed": {
+    "defaultMessage": "Falha na mudança de risco do cliente",
+    "description": "Mail template type"
+  },
+  "mail.template.type.customerRiskChangeOK": {
+    "defaultMessage": "Mudança de risco do cliente OK",
+    "description": "Mail template type"
+  },
+  "mail.template.type.debitLimit": {
+    "defaultMessage": "Limite de débito",
+    "description": "Mail template type"
+  },
+  "mail.template.type.deliverTokenActivationCode": {
+    "defaultMessage": "Entregar código de ativação de token",
+    "description": "Mail template type"
+  },
+  "mail.template.type.emailChangeRequest": {
+    "defaultMessage": "Solicitação de alteração de e-mail",
+    "description": "Mail template type"
+  },
+  "mail.template.type.emailChanged": {
+    "defaultMessage": "Email alterado",
+    "description": "Mail template type"
+  },
+  "mail.template.type.foreignTransaction": {
+    "defaultMessage": "Transação Estrangeira",
+    "description": "Mail template type"
+  },
+  "mail.template.type.loadComplete": {
+    "defaultMessage": "Carga Concluída",
+    "description": "Mail template type"
+  },
+  "mail.template.type.loginLocked": {
+    "defaultMessage": "Bloqueio de login",
+    "description": "Mail template type"
+  },
+  "mail.template.type.lowBalance": {
+    "defaultMessage": "Baixo Equilíbrio",
+    "description": "Mail template type"
+  },
+  "mail.template.type.negativeBalance": {
+    "defaultMessage": "Saldo Negativo",
+    "description": "Mail template type"
+  },
+  "mail.template.type.newAccount": {
+    "defaultMessage": "Nova conta",
+    "description": "Mail template type"
+  },
+  "mail.template.type.passwordReset": {
+    "defaultMessage": "Reset de senha",
+    "description": "Mail template type"
+  },
+  "mail.template.type.passwordResetCompleted": {
+    "defaultMessage": "Redefinição de senha concluída",
+    "description": "Mail template type"
+  },
+  "mail.template.type.phoneChanged": {
+    "defaultMessage": "Telefone alterado",
+    "description": "Mail template type"
+  },
+  "mail.template.type.pinChanged": {
+    "defaultMessage": "Pino alterado",
+    "description": "Mail template type"
+  },
+  "mail.template.type.transaction": {
+    "defaultMessage": "Transação",
+    "description": "Mail template type"
+  },
+  "mail.template.type.transactionComplete": {
+    "defaultMessage": "Transação concluída",
+    "description": "Mail template type"
+  },
+  "mail.template.type.transactionFailure": {
+    "defaultMessage": "Falha na transação",
+    "description": "Mail template type"
+  },
+  "mail.template.type.verifyEmail": {
+    "defaultMessage": "Verifique o e-mail",
+    "description": "Mail template type"
+  },
+  "mail.template.type.verifyEmailCompleted": {
+    "defaultMessage": "Verificar e-mail concluído",
+    "description": "Mail template type"
+  },
+  "mail.template.type.walletTransfer": {
+    "defaultMessage": "Transferência de carteira",
+    "description": "Mail template type"
+  },
+  "mail.template.type.withdrawal": {
+    "defaultMessage": "Retirada",
+    "description": "Mail template type"
+  },
+  "success.majorCode.200": {
+    "defaultMessage": "Solicitação concluída"
+  },
+  "success.majorCode.unknown": {
+    "defaultMessage": "Desconhecido",
+    "description": "Unknown"
+  },
+  "error.minorCode.unknown": {
+    "defaultMessage": "Erro desconhecido",
+    "description": "Unknown Error"
+  },
+  "success.minorCode.000": {
+    "defaultMessage": "Sucesso",
+    "description": "Request Completed"
+  },
+  "success.minorCode.unknown": {
+    "defaultMessage": "Desconhecido",
+    "description": "Unknown"
+  },
+  "id.type.tax": {
+    "defaultMessage": "Imposto",
+    "description": "id type"
+  },
+  "id.type.national": {
+    "defaultMessage": "Nacional",
+    "description": "id type"
+  },
+  "id.type.passport": {
+    "defaultMessage": "Passaporte",
+    "description": "id type"
+  },
+  "id.type.driversLicense": {
+    "defaultMessage": "Carteira de motorista",
+    "description": "id type"
+  },
+  "id.type.supplementary": {
+    "defaultMessage": "Suplementar",
+    "description": "id type"
+  },
+  "id.type.alternate": {
+    "defaultMessage": "Alternativo",
+    "description": "id type"
+  },
+  "id.type.other": {
+    "defaultMessage": "Outros",
+    "description": "id type"
+  },
+  "request.type.exchangeMarginRequest": {
+    "defaultMessage": "Solicitação de Margem de Câmbio",
+    "description": "Change request type"
+  },
+  "request.type.amountChangeRequest": {
+    "defaultMessage": "Solicitação de alteração de valor",
+    "description": "Change request type"
+  },
+  "request.type.customerAdjustmentRequest": {
+    "defaultMessage": "Solicitud de ajuste del cliente",
+    "description": "Change request type"
+  },
+  "request.type.feeEntryRequest": {
+    "defaultMessage": "Solicitação de Entrada de Taxa",
+    "description": "Change request type"
+  },
+  "request.type.feePlanRequest": {
+    "defaultMessage": "Solicitação de Plano de Taxa",
+    "description": "Change request type"
+  },
+  "request.type.programAdjustmentRequest": {
+    "defaultMessage": "Solicitação de Ajuste do Programa",
+    "description": "Change request type"
+  },
+  "request.type.riskConfigRequest": {
+    "defaultMessage": "Solicitação de Configuração de Risco",
+    "description": "Change request type"
+  },
+  "request.type.riskLevelRequest": {
+    "defaultMessage": "Solicitação de Nível de Risco",
+    "description": "Change request type"
+  },
+  "roles.programManager": {
+    "defaultMessage": "Gerente de Programa",
+    "description": "partner user role"
+  },
+  "roles.retailManager": {
+    "defaultMessage": "Gerente de Varejo",
+    "description": "partner user role"
+  },
+  "roles.readOnly": {
+    "defaultMessage": "Somente leitura",
+    "description": "partner user role"
+  },
+  "error.feeType.required": {
+    "defaultMessage": "Tipo de taxa é um campo obrigatório"
+  },
+  "error.number.15integers5decimals.format": {
+    "defaultMessage": "O valor não deve ter mais de 7 inteiros e 3 decimais"
+  },
+  "calculationMethod": {
+    "defaultMessage": "Método de cálculo"
+  },
+  "error.parameterAndValue.required": {
+    "defaultMessage": "Parâmetro e valor não podem estar em branco"
+  },
+  "audit.details.title": {
+    "defaultMessage": "Detalhes da auditoria"
+  },
+  "audit.details.partner": {
+    "defaultMessage": "Parceiro"
+  },
+  "audit.details.username": {
+    "defaultMessage": "Nome de usuário"
+  },
+  "audit.details.customerNumber": {
+    "defaultMessage": "Número do cliente"
+  },
+  "audit.details.remoteaddress": {
+    "defaultMessage": "Endereço remoto"
+  },
+  "audit.details.api": {
+    "defaultMessage": "API"
+  },
+  "drawer.programs.edit.label.language": {
+    "defaultMessage": "Língua"
+  },
+  "drawer.programs.edit.label.location": {
+    "defaultMessage": "Localização"
+  },
+  "drawer.programs.edit.label.timeZone": {
+    "defaultMessage": "Fuso horário"
+  },
+  "drawer.programs.edit.label.currency": {
+    "defaultMessage": "Moeda inicial"
+  },
+  "drawer.programs.edit.label.partner": {
+    "defaultMessage": "Parceiro"
+  },
+  "drawer.programs.edit.label.Bank": {
+    "defaultMessage": "Banco"
+  },
+  "drawer.programs.edit.label.Exchanges": {
+    "defaultMessage": "Intercâmbios"
+  },
+  "drawer.programs.edit.label.feePlans": {
+    "defaultMessage": "Planos de Taxas",
+    "description": "Section Label"
+  },
+  "drawer.program.edit.button.addNewFeeButton": {
+    "defaultMessage": "Adicionar novo plano de taxa",
+    "description": "Add Fee Plans Label"
+  },
+  "drawer.programs.edit.label.riskProfiles": {
+    "defaultMessage": "Perfis de risco",
+    "description": "Risk Profiles Section Label"
+  },
+  "drawer.program.edit.button.addNewRiskProfileButton": {
+    "defaultMessage": "Adicionar novo perfil de risco >>",
+    "description": "Add Risk Profile Label"
+  },
+  "programs.cardProfiles.button.view": {
+    "defaultMessage": "Ver",
+    "description": "View program card profile information"
+  },
+  "drawer.fees.table.header.calculation.method": {
+    "defaultMessage": "Método de cálculo"
+  },
+  "error.currency.15integers5decimals.format": {
+    "defaultMessage": "O valor não deve ter mais de 15 inteiros e 5 decimais"
+  },
+  "error.number.7integers3decimals.format": {
+    "defaultMessage": "Value should have no more than 7 integers and 3 decimals"
+  },
+  "drawer.fee.wizard.button.step2of3": {
+    "defaultMessage": "Passo 2 de 3",
+    "description": "Step 2 of 3"
+  },
+  "drawer.header.fee.wizard.label.feePlan": {
+    "defaultMessage": "Plano de Taxas*",
+    "description": "Input Label"
+  },
+  "drawer.fee.wizard.newFeePlan": {
+    "defaultMessage": "Novo Plano de Taxas*",
+    "description": "Drawer form placeholder text"
+  },
+  "step2of2": {
+    "defaultMessage": "Passo 2 de 2",
+    "description": "Step 2 of 2"
+  },
+  "drawer.header.addMailTemplate": {
+    "defaultMessage": "Adicionar modelo de e-mail",
+    "description": "drawer header"
+  },
+  "error.memoKey.required": {
+    "defaultMessage": "A chave do memorando é necessária.",
+    "description": "drawer header"
+  },
+  "error.IINs.required": {
+    "defaultMessage": "O IIN é obrigatório."
+  },
+  "error.maxLength16": {
+    "defaultMessage": "O comprimento máximo é 16."
+  },
+  "drawer.header.viewCardProfile": {
+    "defaultMessage": "Visualizar perfil do cartão"
+  },
+  "drawer.header.editCardProfile": {
+    "defaultMessage": "Editar perfil do cartão"
+  },
+  "drawer.header.addCardProfile": {
+    "defaultMessage": "Adicionar novo perfil de cartão"
+  },
+  "drawer.programs.edit.label.cardProfileName": {
+    "defaultMessage": "Nome do perfil do cartão"
+  },
+  "drawer.programs.edit.label.pansIssued": {
+    "defaultMessage": "PANs Emitidos"
+  },
+  "drawer.cardProfile.label.IINs": {
+    "defaultMessage": "IIN*",
+    "description": "Input Label"
+  },
+  "drawer.card.profile.button.edit": {
+    "defaultMessage": "Editar",
+    "description": "Edit"
+  },
+  "drawer.card.profile.button.saveChanges": {
+    "defaultMessage": "Salvar as alterações"
+  },
+  "programs.edit.label.pansIssued": {
+    "defaultMessage": "PANs Emitidos"
+  },
+  "page.title.editProgram": {
+    "defaultMessage": "Editar programa"
+  },
+  "expiryOverride": {
+    "defaultMessage": "Substituição de expiração (YYYYMM)"
+  },
+  "suspendTokens": {
+    "defaultMessage": "Suspender tokens"
+  },
+  "unsuspendTokens": {
+    "defaultMessage": "Cancelar a suspensão de tokens"
+  },
+  "deleteTokens": {
+    "defaultMessage": "Excluir tokens"
+  },
+  "active": {
+    "defaultMessage": "Ativo"
+  },
+  "changeState": {
+    "defaultMessage": "Alterar estado"
+  },
+  "partnerUserState": {
+    "defaultMessage": "Estado do Usuário Parceiro"
+  },
+  "riskLevelAccess": {
+    "defaultMessage": "Acesso ao Nível de Risco"
+  },
+  "email.state.unverified": {
+    "defaultMessage": "Não verificado"
+  },
+  "error.securityLevel.required": {
+    "defaultMessage": "Nível de segurança é um campo obrigatório"
+  },
+  "securityLevel": {
+    "defaultMessage": "Nível de segurança"
+  },
+  "error.emailState.required": {
+    "defaultMessage": "Estado do e-mail é um campo obrigatório"
+  },
+  "error.firstName.required": {
+    "defaultMessage": "Nome é um campo obrigatório"
+  },
+  "error.lastName.required": {
+    "defaultMessage": "Sobrenome é um campo obrigatório"
+  },
+  "error.username.specialChar": {
+    "defaultMessage": "O nome de usuário deve conter apenas caracteres minúsculos, números e .-_"
+  },
+  "error.username.minChar": {
+    "defaultMessage": "O nome de usuário deve conter pelo menos 8 caracteres"
+  },
+  "error.username.maxChar": {
+    "defaultMessage": "UO nome de usuário não deve conter mais de 32 caracteres"
+  },
+  "button.viewChangeHistory": {
+    "defaultMessage": "VER HISTÓRICO DE ALTERAÇÕES"
+  },
+  "added": {
+    "defaultMessage": "Adicionado"
+  },
+  "updated": {
+    "defaultMessage": "Atualizado"
+  },
+  "deleted": {
+    "defaultMessage": "Excluído"
+  },
+  "source.name": {
+    "defaultMessage": "nome"
+  },
+  "source.email": {
+    "defaultMessage": "email"
+  },
+  "source.phone": {
+    "defaultMessage": "telefone"
+  },
+  "source.address": {
+    "defaultMessage": "endereço"
+  },
+  "source.identification": {
+    "defaultMessage": "identificação"
+  },
+  "changeHistory": {
+    "defaultMessage": "Histórico de alterações"
+  },
+  "error.IINSegment.numberType": {
+    "defaultMessage": "O segmento IIN deve ser um número"
+  },
+  "viewDetails": {
+    "defaultMessage": "Ver detalhes"
+  },
+  "authorizedHoldDetails": {
+    "defaultMessage": "Detalhes de Retenção Autorizados"
+  },
+  "id": {
+    "defaultMessage": "ID"
+  },
+  "transactionID": {
+    "defaultMessage": "ID da transação"
+  },
+  "customerAccountID": {
+    "defaultMessage": "ID da Conta do Cliente"
+  },
+  "releasedDate": {
+    "defaultMessage": "Data de lançamento"
+  },
+  "rawMessage": {
+    "defaultMessage": "Mensagem bruta"
+  },
+  "networkMessages": {
+    "defaultMessage": "Mensagens de rede"
+  },
+  "riskDetails": {
+    "defaultMessage": "Detalhes de Risco"
+  },
+  "changeRiskLevel": {
+    "defaultMessage": "Alterar o nível de risco"
+  },
+  "addRiskException": {
+    "defaultMessage": "Adicionar exceção de risco"
+  },
+  "editRiskLevel": {
+    "defaultMessage": "Editar nível de risco"
+  },
+  "weekly": {
+    "defaultMessage": "Semanalmente"
+  },
+  "monthly": {
+    "defaultMessage": "Mensal"
+  },
+  "statementBalance": {
+    "defaultMessage": "Saldo do Extrato"
+  },
+  "minimum.paymentOwed": {
+    "defaultMessage": "Pagamento Mínimo Devido"
+  },
+  "customer.success.updated": {
+    "defaultMessage": "O cliente foi atualizado com êxito"
+  },
+  "automaticLoadRule": {
+    "defaultMessage": "Regra de Carregamento Automático"
+  },
+  "frequency": {
+    "defaultMessage": "Freqüência"
+  },
+  "dayOfPeriod": {
+    "defaultMessage": "DDia Do Período"
+  },
+  "strategy": {
+    "defaultMessage": "Estratégia"
+  },
+  "enabled": {
+    "defaultMessage": "Habilitado"
+  },
+  "editAutomaticLoad": {
+    "defaultMessage": "Editar carregamento automático"
+  },
+  "setupAutomaticLoad": {
+    "defaultMessage": "Configuração de Carga Automática"
+  },
+  "save": {
+    "defaultMessage": "Salvar"
+  },
+  "additionalAttributes": {
+    "defaultMessage": "Atributos adicionais"
+  },
+  "modifiedOrCreated": {
+    "defaultMessage": "modificado ou criado"
+  },
+  "personChangeHistory": {
+    "defaultMessage": "Histórico de Alterações de Pessoa"
+  },
+  "text.deleted": {
+    "defaultMessage": "deletado"
+  },
+  "person": {
+    "defaultMessage": "Pessoa"
+  },
+  "officialId": {
+    "defaultMessage": "Identificação Oficial"
+  },
+  "button.HIDE": {
+    "defaultMessage": "ESCONDER"
+  },
+  "controls": {
+    "defaultMessage": "Controles"
+  },
+  "merchantControls": {
+    "defaultMessage": "Controles do comerciante"
+  },
+  "warning.confirmation.delete": {
+    "defaultMessage": "Tem certeza de que deseja excluir este {fieldName}?"
+  },
+  "error.merchantControl.ruleConflict": {
+    "defaultMessage": "Esta regra está em conflito com o Merchant Control {id}. Insira um valor de/para válido e um ID do comerciante."
+  },
+  "button.addNewRiskLevel": {
+    "defaultMessage": "ADICIONAR NOVO NÍVEL DE RISCO"
+  },
+  "button.addNewFeePlan": {
+    "defaultMessage": "ADICIONAR NOVO PLANO DE TAXAS"
+  },
+  "customerFeePlans": {
+    "defaultMessage": "Planos de Taxa de Cliente"
+  },
+  "currentBilledInterest": {
+    "defaultMessage": "Juros Faturados Atuais"
+  },
+  "owedBilledInterest": {
+    "defaultMessage": "Juros Faturados Devidos"
+  },
+  "previousBilledInterest": {
+    "defaultMessage": "Juros Faturados Anteriores"
+  },
+  "tokenActivationMethod.SMS": {
+    "defaultMessage": "SMS"
+  },
+  "tokenActivationMethod.EMAIL": {
+    "defaultMessage": "Email"
+  },
+  "tokenActivationMethod.WEBSITE": {
+    "defaultMessage": "Site"
+  },
+  "tokenActivationMethod.MOBILE_APP": {
+    "defaultMessage": "Aplicativo móvel"
+  },
+  "tokenActivationMethod.CALL_CENTER": {
+    "defaultMessage": "Central de atendimento"
+  },
+  "button.addNewMethod": {
+    "defaultMessage": "ADICIONAR NOVO MÉTODO"
+  },
+  "activationMethod": {
+    "defaultMessage": "Método de ativação"
+  },
+  "activationMethods": {
+    "defaultMessage": "Métodos de ativação"
+  },
+  "days": {
+    "defaultMessage": "Dias"
+  },
+  "none": {
+    "defaultMessage": "Nenhum"
+  },
+  "minimumDue": {
+    "defaultMessage": "Mínimo devido"
+  },
+  "totalDue": {
+    "defaultMessage": "Total devido"
+  },
+  "currentPeriodReturnToGraceForgiveness": {
+    "defaultMessage": "Período Atual Retorno à Graça Perdão"
+  },
+  "repaymentAmountRequirement": {
+    "defaultMessage": "Requisito de Valor de Reembolso"
+  }
+}

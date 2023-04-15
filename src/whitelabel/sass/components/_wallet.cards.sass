@@ -1,0 +1,164 @@
+/*!
+ / Copyright (c) 2015-2021, Episode Six and/or its affiliates. All rights reserved.
+ / EPISODE SIX PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
+ /
+ / Copying is only permitted per the terms of an executed Non-Disclosure Agreement
+ / with Episode Six. Use is only permitted for conducting an evaluation of
+ / Episode Six APIs as authorized by Episode Six.
+ /
+ /
+
+/*!
+ / Copyright (c) 2015-2021, Episode Six and/or its affiliates. All rights reserved.
+ / EPISODE SIX PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
+ /
+ / Copying is only permitted per the terms of an executed Non-Disclosure Agreement
+ / with Episode Six. Use is only permitted for conducting an evaluation of
+ / Episode Six APIs as authorized by Episode Six.
+ /
+ /
+
+.cardTextGray
+  color: #8995AD
+  font-size: 12px !important
+  font-family: "Montserrat Semi Bold", sans-serif !important
+  font-weight: bolder !important
+
+.gridItem, .gridItemCapitalized
+  display: flex
+  flex-direction: column
+
+.gridItemCapitalized
+  text-transform: capitalize
+
+.inlineRow
+  align-items: baseline
+  display: flex
+  flex-direction: row
+
+.cardType
+  background-color: #F2E8D2FF
+  border-radius: 15px
+  font-size: xx-small
+  font-weight: bold
+  padding: 0px 5px
+  text-transform: uppercase
+
+.cancelButton
+  justify-content: center
+
+.cardTextBlue
+  color: #152C5B !important
+  font-size: 12px !important
+  font-family: "Montserrat Semi Bold", sans-serif !important
+  font-weight: bolder !important
+
+.cardNumber
+  font-size: 12px !important
+  font-family: "Montserrat Semi Bold", sans-serif !important
+  display: block
+  font-weight: bolder !important
+
+.cardCustName
+  font-size: 14px !important
+  font-family: "Montserrat Semi Bold", sans-serif !important
+  display: block
+  font-size: 12px
+  font-weight: bolder !important
+
+.roundedCard
+  border-radius: 30px !important
+
+.visa-logo
+  width: 60px !important
+  background-color: inherit !important
+
+.furthestCard
+  border-radius: 30px !important
+  position: absolute !important
+  background-color: #F7F8FA !important
+  box-shadow: 0px 0px 20px 0px #969696
+
+.middleCard
+  border-radius: 30px !important
+  position: absolute !important
+  z-index: 2
+  margin-top: 40px
+  transition: all 10ms linear !important
+  background-color: White !important
+  box-shadow: 0px 0px 20px 0px #969696
+
+.frontCard
+  border-radius: 30px !important
+  position: absolute !important
+  z-index: 3
+  margin-top: 80px
+  background-color: #EFF3FA !important
+  transition: all linear
+  box-shadow: 0px 0px 20px 0px #969696
+
+.drawerCard
+  border-radius: 30px !important
+  background-color: #EFF3FA !important
+  box-shadow: 0px 0px 20px 0px #969696
+
+
+.cardTable
+  overflow-y: scroll
+  height: 400px
+  display: block
+  padding: 35px
+
+.invalid
+  opacity: 80%
+
+.furthest-animation
+  animation: furtherAnimation .80s forwards
+
+.middle-animation
+  animation: middleAnimation .75s forwards
+
+@keyframes furtherAnimation
+  0%
+    top: 0%
+    position: absolute !important
+    z-index: 1
+
+  25%
+    top: 0%
+    position: absolute !important
+    z-index: 4
+
+  50%
+    top: 30%
+    position: absolute !important
+    z-index: 4
+
+  75%
+    top: 30%
+    position: absolute !important
+    transform: translateY(50%)
+    z-index: 4
+
+
+@keyframes middleAnimation
+  0%
+    top: 0%
+    position: absolute !important
+    z-index: 2
+
+  25%
+    top: 0%
+    position: absolute !important
+    z-index: 4
+
+  50%
+    top: 30%
+    position: absolute !important
+    z-index: 4
+
+  75%
+    top: 30%
+    position: absolute !important
+    transform: translateY(40%)
+    z-index: 4

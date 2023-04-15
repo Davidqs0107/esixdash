@@ -1,0 +1,11920 @@
+{
+  "I": [
+    {
+      "type": 0,
+      "value": "I"
+    }
+  ],
+  "ID.success.deleted": [
+    {
+      "type": 0,
+      "value": "ID が正常に削除されました"
+    }
+  ],
+  "IDIssuerCountry": [
+    {
+      "type": 0,
+      "value": "ID発行者(国)"
+    }
+  ],
+  "IDIssuerState": [
+    {
+      "type": 0,
+      "value": "ID発行者(都道府県)"
+    }
+  ],
+  "IDNumber": [
+    {
+      "type": 0,
+      "value": "ID番号"
+    }
+  ],
+  "IDType": [
+    {
+      "type": 0,
+      "value": "IDタイプ"
+    }
+  ],
+  "II": [
+    {
+      "type": 0,
+      "value": "II"
+    }
+  ],
+  "III": [
+    {
+      "type": 0,
+      "value": "III"
+    }
+  ],
+  "IINSegment": [
+    {
+      "type": 0,
+      "value": "IINセグメント"
+    }
+  ],
+  "IINs": [
+    {
+      "type": 0,
+      "value": "IINs"
+    }
+  ],
+  "MCC": [
+    {
+      "type": 0,
+      "value": "MCC"
+    }
+  ],
+  "MTI": [
+    {
+      "type": 0,
+      "value": "MTI"
+    }
+  ],
+  "P2P": [
+    {
+      "type": 0,
+      "value": "P2P"
+    }
+  ],
+  "PAN": [
+    {
+      "type": 0,
+      "value": "PAN"
+    }
+  ],
+  "PANLength": [
+    {
+      "type": 0,
+      "value": "PANの長さ"
+    }
+  ],
+  "PINLength": [
+    {
+      "type": 0,
+      "value": "PINの長さ"
+    }
+  ],
+  "POSCondition": [
+    {
+      "type": 0,
+      "value": "POS状態"
+    }
+  ],
+  "POSEntryMode": [
+    {
+      "type": 0,
+      "value": "POS入力モード"
+    }
+  ],
+  "accordion.button.hide": [
+    {
+      "type": 0,
+      "value": "表示しない "
+    },
+    {
+      "type": 1,
+      "value": "hideNumber"
+    }
+  ],
+  "accordion.button.view": [
+    {
+      "type": 0,
+      "value": "すべて表示 "
+    },
+    {
+      "type": 1,
+      "value": "showNumber"
+    }
+  ],
+  "accountHolder": [
+    {
+      "type": 0,
+      "value": "アカウントホルダー*"
+    }
+  ],
+  "accountHolders.card.title.persons": [
+    {
+      "type": 0,
+      "value": "アカウントホルダー"
+    }
+  ],
+  "accountblocks": [
+    {
+      "type": 0,
+      "value": "アカウントブロック"
+    }
+  ],
+  "acquirer": [
+    {
+      "type": 0,
+      "value": "アクワイアラー"
+    }
+  ],
+  "acquirerID": [
+    {
+      "type": 0,
+      "value": "取得者 ID"
+    }
+  ],
+  "acquirerInfo": [
+    {
+      "type": 0,
+      "value": "アクワイアラー情報"
+    }
+  ],
+  "acquiringInstitutionID": [
+    {
+      "type": 0,
+      "value": "アクワイアラ識別コード"
+    }
+  ],
+  "action": [
+    {
+      "type": 0,
+      "value": "アクション"
+    }
+  ],
+  "activateOn": [
+    {
+      "type": 0,
+      "value": "アクティベートオン"
+    }
+  ],
+  "activatedRule": [
+    {
+      "type": 0,
+      "value": "アクティブなルール"
+    }
+  ],
+  "activation": [
+    {
+      "type": 0,
+      "value": "アクティベーション"
+    }
+  ],
+  "activationMethod": [
+    {
+      "type": 0,
+      "value": "アクティベーション方法"
+    }
+  ],
+  "activationMethods": [
+    {
+      "type": 0,
+      "value": "アクティベーション方法"
+    }
+  ],
+  "active": [
+    {
+      "type": 0,
+      "value": "アクティブ"
+    }
+  ],
+  "activeBlocks": [
+    {
+      "type": 0,
+      "value": "アクティブなブロック"
+    }
+  ],
+  "activityLog": [
+    {
+      "type": 0,
+      "value": "アクティビティログ"
+    }
+  ],
+  "addAdditionalAdjustment": [
+    {
+      "type": 0,
+      "value": "追加の調整を追加"
+    }
+  ],
+  "addAdditionalCurrencyPair": [
+    {
+      "type": 0,
+      "value": "通貨ペアを追加"
+    }
+  ],
+  "addAdditionalPartner": [
+    {
+      "type": 0,
+      "value": "新しいパートナーを追加"
+    }
+  ],
+  "addAdditionalProgram": [
+    {
+      "type": 0,
+      "value": "プログラムを追加"
+    }
+  ],
+  "addAddress": [
+    {
+      "type": 0,
+      "value": "住所を追加"
+    }
+  ],
+  "addAttributeAttribute": [
+    {
+      "type": 0,
+      "value": "アトリビュートの追加"
+    }
+  ],
+  "addCurrency": [
+    {
+      "type": 0,
+      "value": "通貨を追加"
+    }
+  ],
+  "addCurrencyMarginPair": [
+    {
+      "type": 0,
+      "value": "新しい通貨証拠金ペアを追加"
+    }
+  ],
+  "addEmail": [
+    {
+      "type": 0,
+      "value": "メールを追加"
+    }
+  ],
+  "addExchange": [
+    {
+      "type": 0,
+      "value": "新しいエクスチェンジを追加"
+    }
+  ],
+  "addExternalAccount": [
+    {
+      "type": 0,
+      "value": "外部アカウントを追加"
+    }
+  ],
+  "addFee": [
+    {
+      "type": 0,
+      "value": "手数料を追加"
+    }
+  ],
+  "addFees": [
+    {
+      "type": 0,
+      "value": "手数料を追加"
+    }
+  ],
+  "addFeestoPlan": [
+    {
+      "type": 0,
+      "value": "プランに手数料エントリを追加する"
+    }
+  ],
+  "addIIN": [
+    {
+      "type": 0,
+      "value": "追加IIN"
+    }
+  ],
+  "addIdentification": [
+    {
+      "type": 0,
+      "value": "IDを追加"
+    }
+  ],
+  "addIndividualCurrencyMargin": [
+    {
+      "type": 0,
+      "value": "個別通貨証拠金を追加"
+    }
+  ],
+  "addInterchange": [
+    {
+      "type": 0,
+      "value": "インターチェンジを追加"
+    }
+  ],
+  "addMailTemplate": [
+    {
+      "type": 0,
+      "value": "新しいメールテンプレートを作成"
+    }
+  ],
+  "addMemo": [
+    {
+      "type": 0,
+      "value": "メモを追加"
+    }
+  ],
+  "addNewBank": [
+    {
+      "type": 0,
+      "value": "新しいバンクを追加"
+    }
+  ],
+  "addNewBlock": [
+    {
+      "type": 0,
+      "value": "新しいブロックを追加"
+    }
+  ],
+  "addNewCardProfile": [
+    {
+      "type": 0,
+      "value": "新しいカードプロファイルを追加"
+    }
+  ],
+  "addNewChargeoff": [
+    {
+      "type": 0,
+      "value": "新しいチャージオフを追加"
+    }
+  ],
+  "addNewCurrency": [
+    {
+      "type": 0,
+      "value": "追加の通貨"
+    }
+  ],
+  "addNewFeePlan": [
+    {
+      "type": 0,
+      "value": "新しい手数料プランを追加"
+    }
+  ],
+  "addNewIIN": [
+    {
+      "type": 0,
+      "value": "IINs"
+    }
+  ],
+  "addNewMailTemplate": [
+    {
+      "type": 0,
+      "value": "新しいメールテンプレートを追加"
+    }
+  ],
+  "addNewMemo": [
+    {
+      "type": 0,
+      "value": "新しいメモを追加"
+    }
+  ],
+  "addNewPartner": [
+    {
+      "type": 0,
+      "value": "新しいパートナーを追加"
+    }
+  ],
+  "addNewProgram": [
+    {
+      "type": 0,
+      "value": "新しいプログラムを追加"
+    }
+  ],
+  "addNewRiskProfile": [
+    {
+      "type": 0,
+      "value": "新しいリスクプロファイルを追加"
+    }
+  ],
+  "addNewTier": [
+    {
+      "type": 0,
+      "value": "新しいティアを追加"
+    }
+  ],
+  "addNewTransactionMemoTemplate": [
+    {
+      "type": 0,
+      "value": "新しいトランザクションメモテンプレートを追加"
+    }
+  ],
+  "addNewUser": [
+    {
+      "type": 0,
+      "value": "新しいユーザーを追加"
+    }
+  ],
+  "addPhone": [
+    {
+      "type": 0,
+      "value": "電話番号を追加"
+    }
+  ],
+  "addProgram": [
+    {
+      "type": 0,
+      "value": "プログラムの追加"
+    }
+  ],
+  "addRiskException": [
+    {
+      "type": 0,
+      "value": "リスクの例外を追加"
+    }
+  ],
+  "addRiskRules": [
+    {
+      "type": 0,
+      "value": "リスクルールの追加"
+    }
+  ],
+  "addRulesToRiskLevel": [
+    {
+      "type": 0,
+      "value": "リスクレベルへのルールの追加"
+    }
+  ],
+  "addTransactionMemoTemplate": [
+    {
+      "type": 0,
+      "value": "新しいトランザクションメモテンプレートを作成"
+    }
+  ],
+  "added": [
+    {
+      "type": 0,
+      "value": "追加した"
+    }
+  ],
+  "additionalAttributes": [
+    {
+      "type": 0,
+      "value": "追加属性"
+    }
+  ],
+  "additionalCurrencies": [
+    {
+      "type": 0,
+      "value": "追加の通貨"
+    }
+  ],
+  "additionalInfo": [
+    {
+      "type": 0,
+      "value": "追加情報"
+    }
+  ],
+  "address": [
+    {
+      "type": 0,
+      "value": "アドレス"
+    }
+  ],
+  "address.success.deleted": [
+    {
+      "type": 0,
+      "value": "アドレスが正常に削除されました"
+    }
+  ],
+  "address.type.business": [
+    {
+      "type": 0,
+      "value": "仕事"
+    }
+  ],
+  "address.type.shipping": [
+    {
+      "type": 0,
+      "value": "運送"
+    }
+  ],
+  "address.updated.successful": [
+    {
+      "type": 0,
+      "value": "アドレスが正常に更新されました。"
+    }
+  ],
+  "addressLine1": [
+    {
+      "type": 0,
+      "value": "住所1"
+    }
+  ],
+  "addressLine2": [
+    {
+      "type": 0,
+      "value": "住所2"
+    }
+  ],
+  "addressLine3": [
+    {
+      "type": 0,
+      "value": "住所3"
+    }
+  ],
+  "addressType": [
+    {
+      "type": 0,
+      "value": "住所タイプ"
+    }
+  ],
+  "addressType.home": [
+    {
+      "type": 0,
+      "value": "家"
+    }
+  ],
+  "addresses": [
+    {
+      "type": 0,
+      "value": "アドレス"
+    }
+  ],
+  "addressing": [
+    {
+      "type": 0,
+      "value": "アドレッシング"
+    }
+  ],
+  "adjustment.success.discarded": [
+    {
+      "type": 0,
+      "value": "調整は破棄されました"
+    }
+  ],
+  "adjustmentAmount": [
+    {
+      "type": 0,
+      "value": "調整額"
+    }
+  ],
+  "adjustmentType": [
+    {
+      "type": 0,
+      "value": "Adjustment Type"
+    }
+  ],
+  "adjustments": [
+    {
+      "type": 0,
+      "value": "アジャストメント"
+    }
+  ],
+  "adjustments.changeOrder.success.created": [
+    {
+      "type": 0,
+      "value": "調整変更オーダーが正常に作成されました"
+    }
+  ],
+  "adjustments.success.created": [
+    {
+      "type": 0,
+      "value": "調整が正常に作成されました"
+    }
+  ],
+  "allTransactionSources": [
+    {
+      "type": 0,
+      "value": "すべてのトランザクションソース"
+    }
+  ],
+  "allTransactionTypes": [
+    {
+      "type": 0,
+      "value": "すべてのトランザクションタイプ"
+    }
+  ],
+  "allow": [
+    {
+      "type": 0,
+      "value": "許可する"
+    }
+  ],
+  "amount": [
+    {
+      "type": 0,
+      "value": "金額"
+    }
+  ],
+  "amountCurrency": [
+    {
+      "type": 0,
+      "value": "金額 通貨"
+    }
+  ],
+  "amountFrom": [
+    {
+      "type": 0,
+      "value": "金額 - から"
+    }
+  ],
+  "amountTo": [
+    {
+      "type": 0,
+      "value": "匹敵する"
+    }
+  ],
+  "amounts": [
+    {
+      "type": 0,
+      "value": "金額"
+    }
+  ],
+  "annualInterestRateMaxLimit": [
+    {
+      "type": 0,
+      "value": "年間利率上限*"
+    }
+  ],
+  "annualInterestRateOnLoanAmount": [
+    {
+      "type": 0,
+      "value": "ローン金額の年利率*"
+    }
+  ],
+  "annualRate": [
+    {
+      "type": 0,
+      "value": "年率"
+    }
+  ],
+  "approval": [
+    {
+      "type": 0,
+      "value": "承認"
+    }
+  ],
+  "approvalMemo": [
+    {
+      "type": 0,
+      "value": "承認メモ"
+    }
+  ],
+  "approve": [
+    {
+      "type": 0,
+      "value": "承認"
+    }
+  ],
+  "approveChangeOrder": [
+    {
+      "type": 0,
+      "value": "変更オーダーの承認"
+    }
+  ],
+  "approved": [
+    {
+      "type": 0,
+      "value": "承認"
+    }
+  ],
+  "approvedBy": [
+    {
+      "type": 0,
+      "value": "承認者"
+    }
+  ],
+  "april": [
+    {
+      "type": 0,
+      "value": "4月"
+    }
+  ],
+  "assignToAChangeOrder": [
+    {
+      "type": 0,
+      "value": "変更オーダーへのアサイン"
+    }
+  ],
+  "assignToExistingChangeOrder": [
+    {
+      "type": 0,
+      "value": "既存の変更オーダーへのアサイン"
+    }
+  ],
+  "attributeMergeStrategy": [
+    {
+      "type": 0,
+      "value": "アトリビュートマージストラテジー"
+    }
+  ],
+  "attributes": [
+    {
+      "type": 0,
+      "value": "アトリビュート"
+    }
+  ],
+  "audit": [
+    {
+      "type": 0,
+      "value": "監査"
+    }
+  ],
+  "audit.details.api": [
+    {
+      "type": 0,
+      "value": "API"
+    }
+  ],
+  "audit.details.button.message": [
+    {
+      "type": 0,
+      "value": "結果に戻る"
+    }
+  ],
+  "audit.details.created": [
+    {
+      "type": 0,
+      "value": "作成日時"
+    }
+  ],
+  "audit.details.customerNumber": [
+    {
+      "type": 0,
+      "value": "顧客番号:"
+    }
+  ],
+  "audit.details.parameters": [
+    {
+      "type": 0,
+      "value": "パラメータ"
+    }
+  ],
+  "audit.details.partner": [
+    {
+      "type": 0,
+      "value": "パートナー:"
+    }
+  ],
+  "audit.details.remoteaddress": [
+    {
+      "type": 0,
+      "value": "リモートアドレス"
+    }
+  ],
+  "audit.details.responseCode": [
+    {
+      "type": 0,
+      "value": "応答コード"
+    }
+  ],
+  "audit.details.success": [
+    {
+      "type": 0,
+      "value": "成功"
+    }
+  ],
+  "audit.details.title": [
+    {
+      "type": 0,
+      "value": "監査詳細"
+    }
+  ],
+  "audit.details.username": [
+    {
+      "type": 0,
+      "value": "ユーザー名:"
+    }
+  ],
+  "audit.row.details.path": [
+    {
+      "type": 0,
+      "value": "パス"
+    }
+  ],
+  "august": [
+    {
+      "type": 0,
+      "value": "8月"
+    }
+  ],
+  "authCode": [
+    {
+      "type": 0,
+      "value": "認証コード"
+    }
+  ],
+  "authReleased": [
+    {
+      "type": 0,
+      "value": "認証リリース"
+    }
+  ],
+  "authorization": [
+    {
+      "type": 0,
+      "value": "オーソリ"
+    }
+  ],
+  "authorizedHoldDetails": [
+    {
+      "type": 0,
+      "value": "承認された保留の詳細"
+    }
+  ],
+  "autoLoadShift": [
+    {
+      "type": 0,
+      "value": "オートロードシフト"
+    }
+  ],
+  "automaticLoad": [
+    {
+      "type": 0,
+      "value": "自動ロード"
+    }
+  ],
+  "automaticLoadRule": [
+    {
+      "type": 0,
+      "value": "自動ロード ルール"
+    }
+  ],
+  "availableBalance": [
+    {
+      "type": 0,
+      "value": "利用可能な残高"
+    }
+  ],
+  "availableCredit": [
+    {
+      "type": 0,
+      "value": "利用可能なクレジット"
+    }
+  ],
+  "balanceInquiry": [
+    {
+      "type": 0,
+      "value": "残高照会"
+    }
+  ],
+  "bank": [
+    {
+      "type": 0,
+      "value": "バンク"
+    }
+  ],
+  "bankIIN": [
+    {
+      "type": 0,
+      "value": "バンクIIN"
+    }
+  ],
+  "bankName": [
+    {
+      "type": 0,
+      "value": "バンク名"
+    }
+  ],
+  "banks": [
+    {
+      "type": 0,
+      "value": "バンク"
+    }
+  ],
+  "billing": [
+    {
+      "type": 0,
+      "value": "請求"
+    }
+  ],
+  "billingCycleDate": [
+    {
+      "type": 0,
+      "value": "請求サイクルの日付"
+    }
+  ],
+  "billingDetails": [
+    {
+      "type": 0,
+      "value": "支払明細"
+    }
+  ],
+  "billingHistory": [
+    {
+      "type": 0,
+      "value": "請求履歴"
+    }
+  ],
+  "billingPeriodLength": [
+    {
+      "type": 0,
+      "value": "請求期間の長さ"
+    }
+  ],
+  "block": [
+    {
+      "type": 0,
+      "value": "ブロック"
+    }
+  ],
+  "block.type.card": [
+    {
+      "type": 0,
+      "value": "カード"
+    }
+  ],
+  "block.type.customer": [
+    {
+      "type": 0,
+      "value": "顧客"
+    }
+  ],
+  "blockMemo": [
+    {
+      "type": 0,
+      "value": "ブロックメモ"
+    }
+  ],
+  "blocks": [
+    {
+      "type": 0,
+      "value": "ブロック"
+    }
+  ],
+  "brandType": [
+    {
+      "type": 0,
+      "value": "ブランドタイプ"
+    }
+  ],
+  "button.HIDE": [
+    {
+      "type": 0,
+      "value": "非表示"
+    }
+  ],
+  "button.VIEW": [
+    {
+      "type": 0,
+      "value": "表示"
+    }
+  ],
+  "button.addAdditionalCurrency": [
+    {
+      "type": 0,
+      "value": "通貨を追加"
+    }
+  ],
+  "button.addAdditionalFee": [
+    {
+      "type": 0,
+      "value": "手数料の追加"
+    }
+  ],
+  "button.addAdditionalIIN": [
+    {
+      "type": 0,
+      "value": "IINを追加"
+    }
+  ],
+  "button.addAdditionalRiskRule": [
+    {
+      "type": 0,
+      "value": "リスクルールの追加"
+    }
+  ],
+  "button.addFee": [
+    {
+      "type": 0,
+      "value": "手数料を追加"
+    }
+  ],
+  "button.addFeeEntry": [
+    {
+      "type": 0,
+      "value": "手数料エントリの追加"
+    }
+  ],
+  "button.addNewAddress": [
+    {
+      "type": 0,
+      "value": "新しいアドレスを追加"
+    }
+  ],
+  "button.addNewAdjustment": [
+    {
+      "type": 0,
+      "value": "新しいアジャストメントを追加"
+    }
+  ],
+  "button.addNewBlock": [
+    {
+      "type": 0,
+      "value": "新しいブロックを追加"
+    }
+  ],
+  "button.addNewChargeoff": [
+    {
+      "type": 0,
+      "value": "新しいチャージオフを追加"
+    }
+  ],
+  "button.addNewEmail": [
+    {
+      "type": 0,
+      "value": "新しいメールを追加"
+    }
+  ],
+  "button.addNewExternalAccount": [
+    {
+      "type": 0,
+      "value": "新しい外部アカウントを追加"
+    }
+  ],
+  "button.addNewFeePlan": [
+    {
+      "type": 0,
+      "value": "新しい料金プランを追加"
+    }
+  ],
+  "button.addNewIdentification": [
+    {
+      "type": 0,
+      "value": "新しいIDを追加"
+    }
+  ],
+  "button.addNewMethod": [
+    {
+      "type": 0,
+      "value": "新しいメソッドを追加"
+    }
+  ],
+  "button.addNewNotification": [
+    {
+      "type": 0,
+      "value": "新しい通知を追加"
+    }
+  ],
+  "button.addNewPhone": [
+    {
+      "type": 0,
+      "value": "新しい電話を追加"
+    }
+  ],
+  "button.addNewRiskLevel": [
+    {
+      "type": 0,
+      "value": "新しいリスクレベルを追加"
+    }
+  ],
+  "button.addRiskRule": [
+    {
+      "type": 0,
+      "value": "リスクルールの追加"
+    }
+  ],
+  "button.approve": [
+    {
+      "type": 0,
+      "value": "承認する"
+    }
+  ],
+  "button.approved": [
+    {
+      "type": 0,
+      "value": "承認"
+    }
+  ],
+  "button.createChangeOrder": [
+    {
+      "type": 0,
+      "value": "変更オーダーを作成"
+    }
+  ],
+  "button.discard": [
+    {
+      "type": 0,
+      "value": "破棄"
+    }
+  ],
+  "button.edit": [
+    {
+      "type": 0,
+      "value": "編集"
+    }
+  ],
+  "button.exchange": [
+    {
+      "type": 0,
+      "value": "両替"
+    }
+  ],
+  "button.exchangeCurrency": [
+    {
+      "type": 0,
+      "value": "両替通貨"
+    }
+  ],
+  "button.getQuote": [
+    {
+      "type": 0,
+      "value": "見積もりを取得"
+    }
+  ],
+  "button.hide": [
+    {
+      "type": 0,
+      "value": "表示しない "
+    },
+    {
+      "type": 1,
+      "value": "hideNumber"
+    }
+  ],
+  "button.home": [
+    {
+      "type": 0,
+      "value": "ホーム"
+    }
+  ],
+  "button.orderNewCard": [
+    {
+      "type": 0,
+      "value": "新しいカードを注文する"
+    }
+  ],
+  "button.refreshQuote": [
+    {
+      "type": 0,
+      "value": "見積もりの更新"
+    }
+  ],
+  "button.release": [
+    {
+      "type": 0,
+      "value": "リリース"
+    }
+  ],
+  "button.released": [
+    {
+      "type": 0,
+      "value": "リリース済"
+    }
+  ],
+  "button.view": [
+    {
+      "type": 0,
+      "value": "すべて表示 "
+    },
+    {
+      "type": 1,
+      "value": "showNumber"
+    }
+  ],
+  "button.viewChangeHistory": [
+    {
+      "type": 0,
+      "value": "変更履歴を表示"
+    }
+  ],
+  "buyCurrency": [
+    {
+      "type": 0,
+      "value": "購入通貨"
+    }
+  ],
+  "buyCurrencyAmount": [
+    {
+      "type": 0,
+      "value": "購入通貨金額"
+    }
+  ],
+  "buyMargin": [
+    {
+      "type": 0,
+      "value": "購入マージン"
+    }
+  ],
+  "buyMarginPercentage": [
+    {
+      "type": 0,
+      "value": "購入マージン%"
+    }
+  ],
+  "calculation.method.flatAmount": [
+    {
+      "type": 0,
+      "value": "定額"
+    }
+  ],
+  "calculation.method.flatPlusPercentage": [
+    {
+      "type": 0,
+      "value": "フラット + パーセンテージ"
+    }
+  ],
+  "calculation.method.greaterOf": [
+    {
+      "type": 0,
+      "value": "グレーター・オブ"
+    }
+  ],
+  "calculation.method.lesserOf": [
+    {
+      "type": 0,
+      "value": "レッサーオブ"
+    }
+  ],
+  "calculation.method.percentage": [
+    {
+      "type": 0,
+      "value": "パーセンテージ"
+    }
+  ],
+  "calculationMethod": [
+    {
+      "type": 0,
+      "value": "計算方法"
+    }
+  ],
+  "cancel": [
+    {
+      "type": 0,
+      "value": "キャンセル"
+    }
+  ],
+  "cancelCard": [
+    {
+      "type": 0,
+      "value": "キャンセルカード"
+    }
+  ],
+  "card": [
+    {
+      "type": 0,
+      "value": "カード"
+    }
+  ],
+  "card.block.activation": [
+    {
+      "type": 0,
+      "value": "アクティベーション"
+    }
+  ],
+  "card.block.deactivation": [
+    {
+      "type": 0,
+      "value": "ディアクティベーション"
+    }
+  ],
+  "card.block.fraud": [
+    {
+      "type": 0,
+      "value": "不正利用"
+    }
+  ],
+  "card.block.loststolen": [
+    {
+      "type": 0,
+      "value": "紛失盗難"
+    }
+  ],
+  "card.block.suspended": [
+    {
+      "type": 0,
+      "value": "一時停止"
+    }
+  ],
+  "card.block.system": [
+    {
+      "type": 0,
+      "value": "システム"
+    }
+  ],
+  "card.state.activated": [
+    {
+      "type": 0,
+      "value": "有効"
+    }
+  ],
+  "card.state.created": [
+    {
+      "type": 0,
+      "value": "発行済み"
+    }
+  ],
+  "card.state.invalid": [
+    {
+      "type": 0,
+      "value": "無効"
+    }
+  ],
+  "card.state.resent": [
+    {
+      "type": 0,
+      "value": "憤る"
+    }
+  ],
+  "card.state.returned": [
+    {
+      "type": 0,
+      "value": "戻ってきた"
+    }
+  ],
+  "card.state.shipped": [
+    {
+      "type": 0,
+      "value": "発送済み"
+    }
+  ],
+  "card.state.sold": [
+    {
+      "type": 0,
+      "value": "売却"
+    }
+  ],
+  "card.success.activated": [
+    {
+      "type": 0,
+      "value": "カードが正常に有効化されました"
+    }
+  ],
+  "card.success.reissued": [
+    {
+      "type": 0,
+      "value": "カードが正常に再発行されました"
+    }
+  ],
+  "card.table.button.details.tokens": [
+    {
+      "type": 0,
+      "value": "オーダー詳細"
+    }
+  ],
+  "card.table.button.view.tokens": [
+    {
+      "type": 0,
+      "value": "トークン"
+    }
+  ],
+  "card.type.oneTimeUse": [
+    {
+      "type": 0,
+      "value": "1 回限りの使用"
+    }
+  ],
+  "card.type.personalized": [
+    {
+      "type": 0,
+      "value": "パーソナライズ"
+    }
+  ],
+  "card.type.router": [
+    {
+      "type": 0,
+      "value": "ルーター"
+    }
+  ],
+  "card.type.temporary": [
+    {
+      "type": 0,
+      "value": "一時的"
+    }
+  ],
+  "card.type.virtual": [
+    {
+      "type": 0,
+      "value": "バーチャル"
+    }
+  ],
+  "cardAcceptorCity": [
+    {
+      "type": 0,
+      "value": "カード利用店舗の都市"
+    }
+  ],
+  "cardAcceptorCountryCode": [
+    {
+      "type": 0,
+      "value": "カード利用店舗の国番号"
+    }
+  ],
+  "cardAcceptorID": [
+    {
+      "type": 0,
+      "value": "カード利用識別コード"
+    }
+  ],
+  "cardAcceptorName": [
+    {
+      "type": 0,
+      "value": "カード利用店舗名"
+    }
+  ],
+  "cardAcceptorTerminalID": [
+    {
+      "type": 0,
+      "value": "カード利用端末識別"
+    }
+  ],
+  "cardDetails": [
+    {
+      "type": 0,
+      "value": "カードの詳細"
+    }
+  ],
+  "cardIssuance": [
+    {
+      "type": 0,
+      "value": "カード発行"
+    }
+  ],
+  "cardNumber": [
+    {
+      "type": 0,
+      "value": "カード番号"
+    }
+  ],
+  "cardOrderAttributes": [
+    {
+      "type": 0,
+      "value": "カードオーダーアトリビュート"
+    }
+  ],
+  "cardPresent": [
+    {
+      "type": 0,
+      "value": "カード提示"
+    }
+  ],
+  "cardProfile.success.save": [
+    {
+      "type": 0,
+      "value": "カードプロファイルは正常に保存されました"
+    }
+  ],
+  "cardProfile.success.update": [
+    {
+      "type": 0,
+      "value": "カードプロファイルは正常に更新されました"
+    }
+  ],
+  "cardProfileName": [
+    {
+      "type": 0,
+      "value": "カードプロファイル名"
+    }
+  ],
+  "cardProfiles": [
+    {
+      "type": 0,
+      "value": "カードプロファイル"
+    }
+  ],
+  "cardSale": [
+    {
+      "type": 0,
+      "value": "カード販売"
+    }
+  ],
+  "cardType": [
+    {
+      "type": 0,
+      "value": "カードタイプ"
+    }
+  ],
+  "cardblocks": [
+    {
+      "type": 0,
+      "value": "カードブロック"
+    }
+  ],
+  "cards": [
+    {
+      "type": 0,
+      "value": "カード"
+    }
+  ],
+  "cards.table.View.button": [
+    {
+      "type": 0,
+      "value": "カード詳細"
+    }
+  ],
+  "cashAdvance": [
+    {
+      "type": 0,
+      "value": "キャッシング・サービス"
+    }
+  ],
+  "cashAdvanceBalances": [
+    {
+      "type": 0,
+      "value": "Cash Advance balances"
+    }
+  ],
+  "cashAdvanceCharged": [
+    {
+      "type": 0,
+      "value": "キャッシングチャージあり"
+    }
+  ],
+  "cashAdvanceRepaymentRatios": [
+    {
+      "type": 0,
+      "value": "キャッシング返済率"
+    }
+  ],
+  "cashRate": [
+    {
+      "type": 0,
+      "value": "キャッシュレート"
+    }
+  ],
+  "cashback": [
+    {
+      "type": 0,
+      "value": "キャッシュバック"
+    }
+  ],
+  "change.account.startAffecting.nextBilling": [
+    {
+      "type": 0,
+      "value": "この変更は、次回の請求期間終了時にアカウントに影響を与え始めます。"
+    }
+  ],
+  "change.affectAccount.nextBillingPeriodClose": [
+    {
+      "type": 0,
+      "value": "この変更は、次の請求期間終了時にアカウントに影響を与え始めます。"
+    }
+  ],
+  "change.order.adjust": [
+    {
+      "type": 0,
+      "value": "調整"
+    }
+  ],
+  "change.order.chargeoff": [
+    {
+      "type": 0,
+      "value": "チャージオフ"
+    }
+  ],
+  "change.order.exchangeMargin": [
+    {
+      "type": 0,
+      "value": "為替証拠金"
+    }
+  ],
+  "change.order.feeEntry": [
+    {
+      "type": 0,
+      "value": "入場料"
+    }
+  ],
+  "change.order.feePlan": [
+    {
+      "type": 0,
+      "value": "料金プラン"
+    }
+  ],
+  "change.order.programAdjustment": [
+    {
+      "type": 0,
+      "value": "プログラム調整"
+    }
+  ],
+  "change.order.riskConfiguration": [
+    {
+      "type": 0,
+      "value": "リスク設定"
+    }
+  ],
+  "change.order.riskLevel": [
+    {
+      "type": 0,
+      "value": "リスクレベル"
+    }
+  ],
+  "change.order.withholdingl": [
+    {
+      "type": 0,
+      "value": "源泉徴収"
+    }
+  ],
+  "change.password.first.time.message": [
+    {
+      "type": 0,
+      "value": "現在のパスワード、及び新しいパスワードを入力してください。"
+    }
+  ],
+  "changeHistory": [
+    {
+      "type": 0,
+      "value": "変更履歴"
+    }
+  ],
+  "changeOrder": [
+    {
+      "type": 0,
+      "value": "変更オーダー"
+    }
+  ],
+  "changeOrder.create.success": [
+    {
+      "type": 0,
+      "value": "変更オーダーは正常に作成されました"
+    }
+  ],
+  "changeOrder.success.created": [
+    {
+      "type": 0,
+      "value": "変更管理が正常に作成されました."
+    }
+  ],
+  "changeOrder.table.for": [
+    {
+      "type": 0,
+      "value": "対象"
+    }
+  ],
+  "changeOrder.table.status": [
+    {
+      "type": 0,
+      "value": "ステータス"
+    }
+  ],
+  "changeOrderDetails": [
+    {
+      "type": 0,
+      "value": "変更オーダー詳細"
+    }
+  ],
+  "changeOrders": [
+    {
+      "type": 0,
+      "value": "変更オーダー"
+    }
+  ],
+  "changePassword": [
+    {
+      "type": 0,
+      "value": "パスワードを変更する"
+    }
+  ],
+  "changeRequest": [
+    {
+      "type": 0,
+      "value": "変更要求"
+    }
+  ],
+  "changeRequest.create.success": [
+    {
+      "type": 0,
+      "value": "変更要求は正常に作成されました"
+    }
+  ],
+  "changeRequest.success.deleted": [
+    {
+      "type": 0,
+      "value": "変更リクエストが削除されました"
+    }
+  ],
+  "changeRequestDetails": [
+    {
+      "type": 0,
+      "value": "変更依頼の詳細"
+    }
+  ],
+  "changeRequests": [
+    {
+      "type": 0,
+      "value": "変更要求"
+    }
+  ],
+  "changeRiskLevel": [
+    {
+      "type": 0,
+      "value": "リスクレベルの変更"
+    }
+  ],
+  "changeState": [
+    {
+      "type": 0,
+      "value": "状態を変更"
+    }
+  ],
+  "changes.success.saved": [
+    {
+      "type": 0,
+      "value": "変更は正常に保存されました"
+    }
+  ],
+  "chargeBack": [
+    {
+      "type": 0,
+      "value": "チャージバック"
+    }
+  ],
+  "chargeOff.activateOn.input.placeholder": [
+    {
+      "type": 0,
+      "value": "アクティベートオン:"
+    }
+  ],
+  "chargeOff.error.activateOn.required": [
+    {
+      "type": 0,
+      "value": "無線オプションが必要です"
+    }
+  ],
+  "chargeOff.memo.input.placeholder": [
+    {
+      "type": 0,
+      "value": "メモ (最大255文字)"
+    }
+  ],
+  "chargeReceiver": [
+    {
+      "type": 0,
+      "value": "受取人手数料"
+    }
+  ],
+  "chargeoff": [
+    {
+      "type": 0,
+      "value": "チャージオフ"
+    }
+  ],
+  "chargeoffChangeOrder.success.create": [
+    {
+      "type": 0,
+      "value": "チャージオフ変更オーダーが正常に登録されました"
+    }
+  ],
+  "chargeoffChangeOrder.success.created": [
+    {
+      "type": 0,
+      "value": "チャージオフ変更注文が正常に作成されました"
+    }
+  ],
+  "chargeoffs": [
+    {
+      "type": 0,
+      "value": "チャージオフ"
+    }
+  ],
+  "childAccounts": [
+    {
+      "type": 0,
+      "value": "チャイルドアカウント"
+    }
+  ],
+  "chooseAtLeastOne": [
+    {
+      "type": 0,
+      "value": "少なくとも 1 つ選択してください"
+    }
+  ],
+  "chooseChangeOrder": [
+    {
+      "type": 0,
+      "value": "変更オーダーの選択"
+    }
+  ],
+  "chooseDate": [
+    {
+      "type": 0,
+      "value": "日付を選択"
+    }
+  ],
+  "chooseFeePlanOptional": [
+    {
+      "type": 0,
+      "value": "手数料プランの選択（オプション）"
+    }
+  ],
+  "chooseFeePlanToCopy": [
+    {
+      "type": 0,
+      "value": "コピーする手数料プランを選択"
+    }
+  ],
+  "chooseOne": [
+    {
+      "type": 0,
+      "value": "いずれかを選択"
+    }
+  ],
+  "chooseParameter": [
+    {
+      "type": 0,
+      "value": "パラメータの選択"
+    }
+  ],
+  "chooseProgram": [
+    {
+      "type": 0,
+      "value": "プログラムを選択"
+    }
+  ],
+  "chooseRiskLevelPlanToCopy": [
+    {
+      "type": 0,
+      "value": "コピーするリスクレベルを選択"
+    }
+  ],
+  "city": [
+    {
+      "type": 0,
+      "value": "市町村"
+    }
+  ],
+  "cityStatePostalCode": [
+    {
+      "type": 0,
+      "value": "都市, 郵便番号"
+    }
+  ],
+  "clearFilters": [
+    {
+      "type": 0,
+      "value": "フィルターのクリア"
+    }
+  ],
+  "closeAccount": [
+    {
+      "type": 0,
+      "value": "アカウントのクローズ"
+    }
+  ],
+  "closed": [
+    {
+      "type": 0,
+      "value": "クローズ"
+    }
+  ],
+  "compliance": [
+    {
+      "type": 0,
+      "value": "コンプライアンス"
+    }
+  ],
+  "complianceCurrency": [
+    {
+      "type": 0,
+      "value": "コンプライアンス通貨"
+    }
+  ],
+  "configurations": [
+    {
+      "type": 0,
+      "value": "構成"
+    }
+  ],
+  "configure.form.base.label.day": [
+    {
+      "type": 0,
+      "value": "日"
+    }
+  ],
+  "configure.form.base.label.hour": [
+    {
+      "type": 0,
+      "value": "時間"
+    }
+  ],
+  "configure.form.base.label.language": [
+    {
+      "type": 0,
+      "value": "言語"
+    }
+  ],
+  "configure.form.base.label.minute": [
+    {
+      "type": 0,
+      "value": "分"
+    }
+  ],
+  "configure.form.base.label.partner": [
+    {
+      "type": 0,
+      "value": "パートナー"
+    }
+  ],
+  "configure.form.base.label.productName": [
+    {
+      "type": 0,
+      "value": "プロダクト名"
+    }
+  ],
+  "configure.form.base.label.timeZone": [
+    {
+      "type": 0,
+      "value": "タイムゾーン"
+    }
+  ],
+  "configure.form.button.setPlugins": [
+    {
+      "type": 0,
+      "value": "保存"
+    }
+  ],
+  "configureFeePlanManually": [
+    {
+      "type": 0,
+      "value": "手数料プランを手動で構成する"
+    }
+  ],
+  "configureRiskLevelManually": [
+    {
+      "type": 0,
+      "value": "リスクレベルを手動で構成する"
+    }
+  ],
+  "confirm": [
+    {
+      "type": 0,
+      "value": "確認"
+    }
+  ],
+  "confirmExchange": [
+    {
+      "type": 0,
+      "value": "両替の確認"
+    }
+  ],
+  "confirmNewPassword": [
+    {
+      "type": 0,
+      "value": "新しいパスワードを確認"
+    }
+  ],
+  "confirmPassword": [
+    {
+      "type": 0,
+      "value": "パスワードを認証する"
+    }
+  ],
+  "consolidated": [
+    {
+      "type": 0,
+      "value": "連結"
+    }
+  ],
+  "contact": [
+    {
+      "type": 0,
+      "value": "連絡先"
+    }
+  ],
+  "contact.method.email": [
+    {
+      "type": 0,
+      "value": "Eメール"
+    }
+  ],
+  "contact.method.phone": [
+    {
+      "type": 0,
+      "value": "電話"
+    }
+  ],
+  "contactChannel.input.placeholder": [
+    {
+      "type": 0,
+      "value": "コンタクトチャネル*"
+    }
+  ],
+  "contactInfo": [
+    {
+      "type": 0,
+      "value": "連絡先"
+    }
+  ],
+  "contactMethod": [
+    {
+      "type": 0,
+      "value": "連絡方法"
+    }
+  ],
+  "contactNumber": [
+    {
+      "type": 0,
+      "value": "連絡先"
+    }
+  ],
+  "continue": [
+    {
+      "type": 0,
+      "value": "続行"
+    }
+  ],
+  "controls": [
+    {
+      "type": 0,
+      "value": "コントロール"
+    }
+  ],
+  "country": [
+    {
+      "type": 0,
+      "value": "国"
+    }
+  ],
+  "country.ABW": [
+    {
+      "type": 0,
+      "value": "アルバ"
+    }
+  ],
+  "country.AFG": [
+    {
+      "type": 0,
+      "value": "アフガニスタン"
+    }
+  ],
+  "country.AGO": [
+    {
+      "type": 0,
+      "value": "アンゴラ"
+    }
+  ],
+  "country.AIA": [
+    {
+      "type": 0,
+      "value": "アンギラ"
+    }
+  ],
+  "country.ALA": [
+    {
+      "type": 0,
+      "value": "オーランド諸島"
+    }
+  ],
+  "country.ALB": [
+    {
+      "type": 0,
+      "value": "アルバニア"
+    }
+  ],
+  "country.AND": [
+    {
+      "type": 0,
+      "value": "アンドラ"
+    }
+  ],
+  "country.ANT": [
+    {
+      "type": 0,
+      "value": "オランダ領アンティル"
+    }
+  ],
+  "country.ARE": [
+    {
+      "type": 0,
+      "value": "アラブ首長国連邦"
+    }
+  ],
+  "country.ARG": [
+    {
+      "type": 0,
+      "value": "アルゼンチン"
+    }
+  ],
+  "country.ARM": [
+    {
+      "type": 0,
+      "value": "アルメニア"
+    }
+  ],
+  "country.ASC": [
+    {
+      "type": 0,
+      "value": "アセンション島"
+    }
+  ],
+  "country.ASM": [
+    {
+      "type": 0,
+      "value": "アメリカ領サモア"
+    }
+  ],
+  "country.ATA": [
+    {
+      "type": 0,
+      "value": "南極大陸"
+    }
+  ],
+  "country.ATF": [
+    {
+      "type": 0,
+      "value": "フランス領南方領土"
+    }
+  ],
+  "country.ATG": [
+    {
+      "type": 0,
+      "value": "アンティグア・バーブーダ"
+    }
+  ],
+  "country.AUS": [
+    {
+      "type": 0,
+      "value": "オーストラリア"
+    }
+  ],
+  "country.AUT": [
+    {
+      "type": 0,
+      "value": "オーストリア"
+    }
+  ],
+  "country.AZE": [
+    {
+      "type": 0,
+      "value": "アゼルバイジャン"
+    }
+  ],
+  "country.BDI": [
+    {
+      "type": 0,
+      "value": "ブルンジ"
+    }
+  ],
+  "country.BEL": [
+    {
+      "type": 0,
+      "value": "ベルギー"
+    }
+  ],
+  "country.BEN": [
+    {
+      "type": 0,
+      "value": "ベナン"
+    }
+  ],
+  "country.BES": [
+    {
+      "type": 0,
+      "value": "ボネール、セント ユースタティウス、サバ"
+    }
+  ],
+  "country.BFA": [
+    {
+      "type": 0,
+      "value": "ブルキナファソ"
+    }
+  ],
+  "country.BGD": [
+    {
+      "type": 0,
+      "value": "バングラデシュ"
+    }
+  ],
+  "country.BGR": [
+    {
+      "type": 0,
+      "value": "ブルガリア"
+    }
+  ],
+  "country.BHR": [
+    {
+      "type": 0,
+      "value": "バーレーン"
+    }
+  ],
+  "country.BHS": [
+    {
+      "type": 0,
+      "value": "バハマ"
+    }
+  ],
+  "country.BIH": [
+    {
+      "type": 0,
+      "value": "ボスニア・ヘルツェゴビナ"
+    }
+  ],
+  "country.BLM": [
+    {
+      "type": 0,
+      "value": "聖バルテルミー"
+    }
+  ],
+  "country.BLR": [
+    {
+      "type": 0,
+      "value": "ベラルーシ"
+    }
+  ],
+  "country.BLZ": [
+    {
+      "type": 0,
+      "value": "ベリーズ"
+    }
+  ],
+  "country.BMU": [
+    {
+      "type": 0,
+      "value": "バミューダ"
+    }
+  ],
+  "country.BOL": [
+    {
+      "type": 0,
+      "value": "多民族国家ボリビア"
+    }
+  ],
+  "country.BRA": [
+    {
+      "type": 0,
+      "value": "ブラジル"
+    }
+  ],
+  "country.BRB": [
+    {
+      "type": 0,
+      "value": "バルバドス"
+    }
+  ],
+  "country.BRN": [
+    {
+      "type": 0,
+      "value": "ブルネイ ダルサラーム"
+    }
+  ],
+  "country.BTN": [
+    {
+      "type": 0,
+      "value": "ブータン"
+    }
+  ],
+  "country.BUR": [
+    {
+      "type": 0,
+      "value": "ビルマ"
+    }
+  ],
+  "country.BVT": [
+    {
+      "type": 0,
+      "value": "ブーベ島"
+    }
+  ],
+  "country.BWA": [
+    {
+      "type": 0,
+      "value": "ボツワナ"
+    }
+  ],
+  "country.CAF": [
+    {
+      "type": 0,
+      "value": "中央アフリカ共和国"
+    }
+  ],
+  "country.CAN": [
+    {
+      "type": 0,
+      "value": "カナダ"
+    }
+  ],
+  "country.CCK": [
+    {
+      "type": 0,
+      "value": "ココス (キーリング) 諸島"
+    }
+  ],
+  "country.CHE": [
+    {
+      "type": 0,
+      "value": "スイス"
+    }
+  ],
+  "country.CHL": [
+    {
+      "type": 0,
+      "value": "チリ"
+    }
+  ],
+  "country.CHN": [
+    {
+      "type": 0,
+      "value": "中国"
+    }
+  ],
+  "country.CIV": [
+    {
+      "type": 0,
+      "value": "コートジボワール"
+    }
+  ],
+  "country.CMR": [
+    {
+      "type": 0,
+      "value": "カメルーン"
+    }
+  ],
+  "country.COD": [
+    {
+      "type": 0,
+      "value": "コンゴ民主共和国"
+    }
+  ],
+  "country.COG": [
+    {
+      "type": 0,
+      "value": "コンゴ"
+    }
+  ],
+  "country.COK": [
+    {
+      "type": 0,
+      "value": "クック諸島"
+    }
+  ],
+  "country.COL": [
+    {
+      "type": 0,
+      "value": "コロンビア"
+    }
+  ],
+  "country.COM": [
+    {
+      "type": 0,
+      "value": "コモロ"
+    }
+  ],
+  "country.CPT": [
+    {
+      "type": 0,
+      "value": "クリッパートン島"
+    }
+  ],
+  "country.CPV": [
+    {
+      "type": 0,
+      "value": "カーボベルデ"
+    }
+  ],
+  "country.CRI": [
+    {
+      "type": 0,
+      "value": "コスタリカ"
+    }
+  ],
+  "country.CUB": [
+    {
+      "type": 0,
+      "value": "キューバ"
+    }
+  ],
+  "country.CUW": [
+    {
+      "type": 0,
+      "value": "キュラソー"
+    }
+  ],
+  "country.CXR": [
+    {
+      "type": 0,
+      "value": "クリスマス島"
+    }
+  ],
+  "country.CYM": [
+    {
+      "type": 0,
+      "value": "ケイマン諸島"
+    }
+  ],
+  "country.CYP": [
+    {
+      "type": 0,
+      "value": "キプロス"
+    }
+  ],
+  "country.CZE": [
+    {
+      "type": 0,
+      "value": "チェコ共和国"
+    }
+  ],
+  "country.DEU": [
+    {
+      "type": 0,
+      "value": "ドイツ"
+    }
+  ],
+  "country.DGA": [
+    {
+      "type": 0,
+      "value": "ディエゴ・ガルシア"
+    }
+  ],
+  "country.DJI": [
+    {
+      "type": 0,
+      "value": "ジブチ"
+    }
+  ],
+  "country.DMA": [
+    {
+      "type": 0,
+      "value": "ドミニカ"
+    }
+  ],
+  "country.DOM": [
+    {
+      "type": 0,
+      "value": "ドミニカ共和国"
+    }
+  ],
+  "country.DZA": [
+    {
+      "type": 0,
+      "value": "アルジェリア"
+    }
+  ],
+  "country.ECU": [
+    {
+      "type": 0,
+      "value": "Ecuador"
+    }
+  ],
+  "country.EGY": [
+    {
+      "type": 0,
+      "value": "Egypt"
+    }
+  ],
+  "country.ERI": [
+    {
+      "type": 0,
+      "value": "エリトリア"
+    }
+  ],
+  "country.ESH": [
+    {
+      "type": 0,
+      "value": "西サハラ"
+    }
+  ],
+  "country.ESP": [
+    {
+      "type": 0,
+      "value": "スペイン"
+    }
+  ],
+  "country.EST": [
+    {
+      "type": 0,
+      "value": "エストニア"
+    }
+  ],
+  "country.ETH": [
+    {
+      "type": 0,
+      "value": "エチオピア"
+    }
+  ],
+  "country.FIN": [
+    {
+      "type": 0,
+      "value": "フィンランド"
+    }
+  ],
+  "country.FJI": [
+    {
+      "type": 0,
+      "value": "フィジー"
+    }
+  ],
+  "country.FLK": [
+    {
+      "type": 0,
+      "value": "フォークランド諸島 (マルビナス)"
+    }
+  ],
+  "country.FRA": [
+    {
+      "type": 0,
+      "value": "フランス"
+    }
+  ],
+  "country.FRO": [
+    {
+      "type": 0,
+      "value": "フェロー諸島"
+    }
+  ],
+  "country.FSM": [
+    {
+      "type": 0,
+      "value": "ミクロネシア連邦"
+    }
+  ],
+  "country.FXX": [
+    {
+      "type": 0,
+      "value": "フランス、メトロポリタン"
+    }
+  ],
+  "country.GAB": [
+    {
+      "type": 0,
+      "value": "ガボン"
+    }
+  ],
+  "country.GBR": [
+    {
+      "type": 0,
+      "value": "イギリス"
+    }
+  ],
+  "country.GEO": [
+    {
+      "type": 0,
+      "value": "グルジア"
+    }
+  ],
+  "country.GGY": [
+    {
+      "type": 0,
+      "value": "ガーンジー"
+    }
+  ],
+  "country.GHA": [
+    {
+      "type": 0,
+      "value": "ガーナ"
+    }
+  ],
+  "country.GIB": [
+    {
+      "type": 0,
+      "value": "ジブラルタル"
+    }
+  ],
+  "country.GIN": [
+    {
+      "type": 0,
+      "value": "ギニア"
+    }
+  ],
+  "country.GLP": [
+    {
+      "type": 0,
+      "value": "グアドループ"
+    }
+  ],
+  "country.GMB": [
+    {
+      "type": 0,
+      "value": "ガンビア"
+    }
+  ],
+  "country.GNB": [
+    {
+      "type": 0,
+      "value": "ギニアビサウ"
+    }
+  ],
+  "country.GNQ": [
+    {
+      "type": 0,
+      "value": "赤道ギニア"
+    }
+  ],
+  "country.GRC": [
+    {
+      "type": 0,
+      "value": "ギリシャ"
+    }
+  ],
+  "country.GRD": [
+    {
+      "type": 0,
+      "value": "Grenada"
+    }
+  ],
+  "country.GRL": [
+    {
+      "type": 0,
+      "value": "グリーンランド"
+    }
+  ],
+  "country.GTM": [
+    {
+      "type": 0,
+      "value": "グアテマラ"
+    }
+  ],
+  "country.GUF": [
+    {
+      "type": 0,
+      "value": "フランス領ギアナ"
+    }
+  ],
+  "country.GUM": [
+    {
+      "type": 0,
+      "value": "グアム"
+    }
+  ],
+  "country.GUY": [
+    {
+      "type": 0,
+      "value": "ガイアナ"
+    }
+  ],
+  "country.HKG": [
+    {
+      "type": 0,
+      "value": "香港"
+    }
+  ],
+  "country.HMD": [
+    {
+      "type": 0,
+      "value": "ハード島とマクドナルド諸島"
+    }
+  ],
+  "country.HND": [
+    {
+      "type": 0,
+      "value": "Honduras"
+    }
+  ],
+  "country.HRV": [
+    {
+      "type": 0,
+      "value": "クロアチア"
+    }
+  ],
+  "country.HTI": [
+    {
+      "type": 0,
+      "value": "ハイチ"
+    }
+  ],
+  "country.HUN": [
+    {
+      "type": 0,
+      "value": "ハンガリー"
+    }
+  ],
+  "country.IDN": [
+    {
+      "type": 0,
+      "value": "インドネシア"
+    }
+  ],
+  "country.IMN": [
+    {
+      "type": 0,
+      "value": "マン島"
+    }
+  ],
+  "country.IND": [
+    {
+      "type": 0,
+      "value": "インド"
+    }
+  ],
+  "country.IOT": [
+    {
+      "type": 0,
+      "value": "イギリス領インド洋地域"
+    }
+  ],
+  "country.IRL": [
+    {
+      "type": 0,
+      "value": "アイルランド"
+    }
+  ],
+  "country.IRN": [
+    {
+      "type": 0,
+      "value": "イラン・イスラム共和国"
+    }
+  ],
+  "country.IRQ": [
+    {
+      "type": 0,
+      "value": "イラク"
+    }
+  ],
+  "country.ISL": [
+    {
+      "type": 0,
+      "value": "アイスランド"
+    }
+  ],
+  "country.ISR": [
+    {
+      "type": 0,
+      "value": "イスラエル"
+    }
+  ],
+  "country.ITA": [
+    {
+      "type": 0,
+      "value": "イタリア"
+    }
+  ],
+  "country.JAM": [
+    {
+      "type": 0,
+      "value": "ジャマイカ"
+    }
+  ],
+  "country.JEY": [
+    {
+      "type": 0,
+      "value": "ジャージー"
+    }
+  ],
+  "country.JOR": [
+    {
+      "type": 0,
+      "value": "ヨルダン"
+    }
+  ],
+  "country.JPN": [
+    {
+      "type": 0,
+      "value": "日本"
+    }
+  ],
+  "country.KAZ": [
+    {
+      "type": 0,
+      "value": "カザフスタン"
+    }
+  ],
+  "country.KEN": [
+    {
+      "type": 0,
+      "value": "ケニア"
+    }
+  ],
+  "country.KGZ": [
+    {
+      "type": 0,
+      "value": "キルギスタン"
+    }
+  ],
+  "country.KHM": [
+    {
+      "type": 0,
+      "value": "カンボジア"
+    }
+  ],
+  "country.KIR": [
+    {
+      "type": 0,
+      "value": "キリバス"
+    }
+  ],
+  "country.KNA": [
+    {
+      "type": 0,
+      "value": "セントクリストファー・ネイビス"
+    }
+  ],
+  "country.KOR": [
+    {
+      "type": 0,
+      "value": "大韓民国"
+    }
+  ],
+  "country.KWT": [
+    {
+      "type": 0,
+      "value": "クウェート"
+    }
+  ],
+  "country.LAO": [
+    {
+      "type": 0,
+      "value": "ラオス人民民主共和国"
+    }
+  ],
+  "country.LBN": [
+    {
+      "type": 0,
+      "value": "レバノン"
+    }
+  ],
+  "country.LBR": [
+    {
+      "type": 0,
+      "value": "リベリア"
+    }
+  ],
+  "country.LBY": [
+    {
+      "type": 0,
+      "value": "リビア"
+    }
+  ],
+  "country.LCA": [
+    {
+      "type": 0,
+      "value": "セントルシア"
+    }
+  ],
+  "country.LIE": [
+    {
+      "type": 0,
+      "value": "リヒテンシュタイン"
+    }
+  ],
+  "country.LKA": [
+    {
+      "type": 0,
+      "value": "スリランカ"
+    }
+  ],
+  "country.LSO": [
+    {
+      "type": 0,
+      "value": "レソト"
+    }
+  ],
+  "country.LTU": [
+    {
+      "type": 0,
+      "value": "リトアニア"
+    }
+  ],
+  "country.LUX": [
+    {
+      "type": 0,
+      "value": "ルクセンブルク"
+    }
+  ],
+  "country.LVA": [
+    {
+      "type": 0,
+      "value": "ラトビア"
+    }
+  ],
+  "country.MAC": [
+    {
+      "type": 0,
+      "value": "マカオ"
+    }
+  ],
+  "country.MAF": [
+    {
+      "type": 0,
+      "value": "セント・マーチン（フランス語の部分）"
+    }
+  ],
+  "country.MAR": [
+    {
+      "type": 0,
+      "value": "モロッコ"
+    }
+  ],
+  "country.MCO": [
+    {
+      "type": 0,
+      "value": "モナコ"
+    }
+  ],
+  "country.MDA": [
+    {
+      "type": 0,
+      "value": "モルドバ共和国 of"
+    }
+  ],
+  "country.MDG": [
+    {
+      "type": 0,
+      "value": "マダガスカル"
+    }
+  ],
+  "country.MDV": [
+    {
+      "type": 0,
+      "value": "モルディブ"
+    }
+  ],
+  "country.MEX": [
+    {
+      "type": 0,
+      "value": "メキシコ"
+    }
+  ],
+  "country.MHL": [
+    {
+      "type": 0,
+      "value": "マーシャル諸島"
+    }
+  ],
+  "country.MKD": [
+    {
+      "type": 0,
+      "value": "北マケドニア共和国"
+    }
+  ],
+  "country.MLI": [
+    {
+      "type": 0,
+      "value": "マリ"
+    }
+  ],
+  "country.MLT": [
+    {
+      "type": 0,
+      "value": "マルタ"
+    }
+  ],
+  "country.MMR": [
+    {
+      "type": 0,
+      "value": "ミャンマー"
+    }
+  ],
+  "country.MNE": [
+    {
+      "type": 0,
+      "value": "モンテネグロ"
+    }
+  ],
+  "country.MNG": [
+    {
+      "type": 0,
+      "value": "モンゴル"
+    }
+  ],
+  "country.MNP": [
+    {
+      "type": 0,
+      "value": "北マリアナ諸島"
+    }
+  ],
+  "country.MOZ": [
+    {
+      "type": 0,
+      "value": "モザンビーク"
+    }
+  ],
+  "country.MRT": [
+    {
+      "type": 0,
+      "value": "モーリタニア"
+    }
+  ],
+  "country.MSR": [
+    {
+      "type": 0,
+      "value": "モントセラト"
+    }
+  ],
+  "country.MTQ": [
+    {
+      "type": 0,
+      "value": "マルティニーク"
+    }
+  ],
+  "country.MUS": [
+    {
+      "type": 0,
+      "value": "モーリシャス"
+    }
+  ],
+  "country.MWI": [
+    {
+      "type": 0,
+      "value": "マラウイ"
+    }
+  ],
+  "country.MYS": [
+    {
+      "type": 0,
+      "value": "マレーシア"
+    }
+  ],
+  "country.MYT": [
+    {
+      "type": 0,
+      "value": "マヨット"
+    }
+  ],
+  "country.NAM": [
+    {
+      "type": 0,
+      "value": "ナミビア"
+    }
+  ],
+  "country.NCL": [
+    {
+      "type": 0,
+      "value": "ニューカレドニア"
+    }
+  ],
+  "country.NER": [
+    {
+      "type": 0,
+      "value": "ニジェール"
+    }
+  ],
+  "country.NFK": [
+    {
+      "type": 0,
+      "value": "ノーフォーク島"
+    }
+  ],
+  "country.NGA": [
+    {
+      "type": 0,
+      "value": "ナイジェリア"
+    }
+  ],
+  "country.NIC": [
+    {
+      "type": 0,
+      "value": "ニカラグア"
+    }
+  ],
+  "country.NIU": [
+    {
+      "type": 0,
+      "value": "ニウエ"
+    }
+  ],
+  "country.NLD": [
+    {
+      "type": 0,
+      "value": "オランダ"
+    }
+  ],
+  "country.NOR": [
+    {
+      "type": 0,
+      "value": "ノルウェー"
+    }
+  ],
+  "country.NPL": [
+    {
+      "type": 0,
+      "value": "ネパール"
+    }
+  ],
+  "country.NRU": [
+    {
+      "type": 0,
+      "value": "ナウル"
+    }
+  ],
+  "country.NZL": [
+    {
+      "type": 0,
+      "value": "ニュージーランド"
+    }
+  ],
+  "country.OMN": [
+    {
+      "type": 0,
+      "value": "オマーン"
+    }
+  ],
+  "country.PAK": [
+    {
+      "type": 0,
+      "value": "パキスタン"
+    }
+  ],
+  "country.PAN": [
+    {
+      "type": 0,
+      "value": "パナマ"
+    }
+  ],
+  "country.PCN": [
+    {
+      "type": 0,
+      "value": "ピトケアン"
+    }
+  ],
+  "country.PER": [
+    {
+      "type": 0,
+      "value": "ペルー"
+    }
+  ],
+  "country.PHL": [
+    {
+      "type": 0,
+      "value": "フィリピン"
+    }
+  ],
+  "country.PLW": [
+    {
+      "type": 0,
+      "value": "パラオ"
+    }
+  ],
+  "country.PNG": [
+    {
+      "type": 0,
+      "value": "パプアニューギニア"
+    }
+  ],
+  "country.POL": [
+    {
+      "type": 0,
+      "value": "ポーランド"
+    }
+  ],
+  "country.PRI": [
+    {
+      "type": 0,
+      "value": "プエルトリコ"
+    }
+  ],
+  "country.PRK": [
+    {
+      "type": 0,
+      "value": "朝鮮民主主義人民共和国"
+    }
+  ],
+  "country.PRT": [
+    {
+      "type": 0,
+      "value": "ポルトガル"
+    }
+  ],
+  "country.PRY": [
+    {
+      "type": 0,
+      "value": "パラグアイ"
+    }
+  ],
+  "country.PSE": [
+    {
+      "type": 0,
+      "value": "パレスチナ"
+    }
+  ],
+  "country.PYF": [
+    {
+      "type": 0,
+      "value": "フランス領ポリネシア"
+    }
+  ],
+  "country.QAT": [
+    {
+      "type": 0,
+      "value": "カタール"
+    }
+  ],
+  "country.REU": [
+    {
+      "type": 0,
+      "value": "ミーティング"
+    }
+  ],
+  "country.ROU": [
+    {
+      "type": 0,
+      "value": "ルーマニア"
+    }
+  ],
+  "country.RUS": [
+    {
+      "type": 0,
+      "value": "ロシア連邦"
+    }
+  ],
+  "country.RWA": [
+    {
+      "type": 0,
+      "value": "ルワンダ"
+    }
+  ],
+  "country.SAU": [
+    {
+      "type": 0,
+      "value": "サウジアラビア"
+    }
+  ],
+  "country.SDN": [
+    {
+      "type": 0,
+      "value": "スーダン"
+    }
+  ],
+  "country.SEN": [
+    {
+      "type": 0,
+      "value": "セネガル"
+    }
+  ],
+  "country.SGP": [
+    {
+      "type": 0,
+      "value": "シンガポール"
+    }
+  ],
+  "country.SGS": [
+    {
+      "type": 0,
+      "value": "サウスジョージア・サウスサンドウィッチ諸島"
+    }
+  ],
+  "country.SHN": [
+    {
+      "type": 0,
+      "value": "セントヘレナ、アセンション、トリスタン ダ クーニャ"
+    }
+  ],
+  "country.SJM": [
+    {
+      "type": 0,
+      "value": "スヴァールバル諸島とヤンマイエン"
+    }
+  ],
+  "country.SLB": [
+    {
+      "type": 0,
+      "value": "ソロモン諸島"
+    }
+  ],
+  "country.SLE": [
+    {
+      "type": 0,
+      "value": "シエラレオネ"
+    }
+  ],
+  "country.SLV": [
+    {
+      "type": 0,
+      "value": "El Salvador"
+    }
+  ],
+  "country.SMR": [
+    {
+      "type": 0,
+      "value": "サンマリノ"
+    }
+  ],
+  "country.SOM": [
+    {
+      "type": 0,
+      "value": "ソマリア"
+    }
+  ],
+  "country.SPM": [
+    {
+      "type": 0,
+      "value": "サンピエール島とミクロン島"
+    }
+  ],
+  "country.SRB": [
+    {
+      "type": 0,
+      "value": "Serbia"
+    }
+  ],
+  "country.SSD": [
+    {
+      "type": 0,
+      "value": "南スーダン"
+    }
+  ],
+  "country.STP": [
+    {
+      "type": 0,
+      "value": "サントメ・プリンシペ"
+    }
+  ],
+  "country.SUR": [
+    {
+      "type": 0,
+      "value": "スリナム"
+    }
+  ],
+  "country.SVK": [
+    {
+      "type": 0,
+      "value": "スロバキア"
+    }
+  ],
+  "country.SVN": [
+    {
+      "type": 0,
+      "value": "スロベニア"
+    }
+  ],
+  "country.SWE": [
+    {
+      "type": 0,
+      "value": "スウェーデン"
+    }
+  ],
+  "country.SWZ": [
+    {
+      "type": 0,
+      "value": "スワットで"
+    }
+  ],
+  "country.SXM": [
+    {
+      "type": 0,
+      "value": "シント・マールテン (オランダ語)"
+    }
+  ],
+  "country.SYC": [
+    {
+      "type": 0,
+      "value": "セルビア"
+    }
+  ],
+  "country.SYR": [
+    {
+      "type": 0,
+      "value": "シリア・アラブ共和国"
+    }
+  ],
+  "country.TAA": [
+    {
+      "type": 0,
+      "value": "トリスタン・ダ・クーニャ"
+    }
+  ],
+  "country.TCA": [
+    {
+      "type": 0,
+      "value": "タークス・カイコス諸島"
+    }
+  ],
+  "country.TCD": [
+    {
+      "type": 0,
+      "value": "チャド"
+    }
+  ],
+  "country.TGO": [
+    {
+      "type": 0,
+      "value": "持ち帰り"
+    }
+  ],
+  "country.THA": [
+    {
+      "type": 0,
+      "value": "タイ"
+    }
+  ],
+  "country.TJK": [
+    {
+      "type": 0,
+      "value": "タジキスタン"
+    }
+  ],
+  "country.TKL": [
+    {
+      "type": 0,
+      "value": "トケラウ"
+    }
+  ],
+  "country.TKM": [
+    {
+      "type": 0,
+      "value": "トルクメニスタン"
+    }
+  ],
+  "country.TLS": [
+    {
+      "type": 0,
+      "value": "ティモール・リード"
+    }
+  ],
+  "country.TMP": [
+    {
+      "type": 0,
+      "value": "東ティモール"
+    }
+  ],
+  "country.TON": [
+    {
+      "type": 0,
+      "value": "トンガ"
+    }
+  ],
+  "country.TTO": [
+    {
+      "type": 0,
+      "value": "トリニダード・トバゴ"
+    }
+  ],
+  "country.TUN": [
+    {
+      "type": 0,
+      "value": "チュニジア"
+    }
+  ],
+  "country.TUR": [
+    {
+      "type": 0,
+      "value": "七面鳥"
+    }
+  ],
+  "country.TUV": [
+    {
+      "type": 0,
+      "value": "ツバル"
+    }
+  ],
+  "country.TWN": [
+    {
+      "type": 0,
+      "value": "中華民国台湾"
+    }
+  ],
+  "country.TZA": [
+    {
+      "type": 0,
+      "value": "タンザニア、連合共和国 "
+    }
+  ],
+  "country.UGA": [
+    {
+      "type": 0,
+      "value": "ウガンダ"
+    }
+  ],
+  "country.UKR": [
+    {
+      "type": 0,
+      "value": "ウクライナ"
+    }
+  ],
+  "country.UMI": [
+    {
+      "type": 0,
+      "value": "合衆国領有小離島"
+    }
+  ],
+  "country.URY": [
+    {
+      "type": 0,
+      "value": "ウルグアイ"
+    }
+  ],
+  "country.USA": [
+    {
+      "type": 0,
+      "value": "アメリカ"
+    }
+  ],
+  "country.UZB": [
+    {
+      "type": 0,
+      "value": "ウズベキスタン"
+    }
+  ],
+  "country.VAT": [
+    {
+      "type": 0,
+      "value": "聖座 (バチカン市国))"
+    }
+  ],
+  "country.VCT": [
+    {
+      "type": 0,
+      "value": "セントビンセントおよびグレナディーン諸島"
+    }
+  ],
+  "country.VEN": [
+    {
+      "type": 0,
+      "value": "ベネズエラ、ボリバル共和国"
+    }
+  ],
+  "country.VGB": [
+    {
+      "type": 0,
+      "value": "バージン諸島、イギリス"
+    }
+  ],
+  "country.VIR": [
+    {
+      "type": 0,
+      "value": "バージン諸島、アメリカ"
+    }
+  ],
+  "country.VNM": [
+    {
+      "type": 0,
+      "value": "Vietnam"
+    }
+  ],
+  "country.VUT": [
+    {
+      "type": 0,
+      "value": "バヌアツ"
+    }
+  ],
+  "country.WLF": [
+    {
+      "type": 0,
+      "value": "ウォリス・フツナ"
+    }
+  ],
+  "country.WSM": [
+    {
+      "type": 0,
+      "value": "サモア"
+    }
+  ],
+  "country.XKX": [
+    {
+      "type": 0,
+      "value": "コソボ共和国"
+    }
+  ],
+  "country.XXI": [
+    {
+      "type": 0,
+      "value": "北アイルランド"
+    }
+  ],
+  "country.XXU": [
+    {
+      "type": 0,
+      "value": "英国（北アイルランドを除く）"
+    }
+  ],
+  "country.YEM": [
+    {
+      "type": 0,
+      "value": "イエメン"
+    }
+  ],
+  "country.ZAF": [
+    {
+      "type": 0,
+      "value": "南アフリカ"
+    }
+  ],
+  "country.ZMB": [
+    {
+      "type": 0,
+      "value": "Zambia"
+    }
+  ],
+  "country.ZWE": [
+    {
+      "type": 0,
+      "value": "ジンバブエ"
+    }
+  ],
+  "countryCode": [
+    {
+      "type": 0,
+      "value": "国番号"
+    }
+  ],
+  "createChangeOrder": [
+    {
+      "type": 0,
+      "value": "変更オーダーを作成"
+    }
+  ],
+  "createCopyOfExistingFeePlan": [
+    {
+      "type": 0,
+      "value": "既存の手数料プランをコピーする"
+    }
+  ],
+  "createCopyOfExistingRiskLevel": [
+    {
+      "type": 0,
+      "value": "既存のリスクレベルをコピーする"
+    }
+  ],
+  "createMerchantControl": [
+    {
+      "type": 0,
+      "value": "マーチャント コントロールの作成"
+    }
+  ],
+  "createNewChangeOrder": [
+    {
+      "type": 0,
+      "value": "新しい変更オーダーを作成"
+    }
+  ],
+  "createNewCurrencyMarginPair": [
+    {
+      "type": 0,
+      "value": "新しい通貨証拠金ペアを作成"
+    }
+  ],
+  "createNewFeePlan": [
+    {
+      "type": 0,
+      "value": "新しい手数料プランを作成"
+    }
+  ],
+  "createNewIndividualCurrencyMargin": [
+    {
+      "type": 0,
+      "value": "新しい個別通貨証拠金を作成"
+    }
+  ],
+  "createNewRiskLevel": [
+    {
+      "type": 0,
+      "value": "新しいリスクレベルを作成"
+    }
+  ],
+  "createRiskException": [
+    {
+      "type": 0,
+      "value": "リスク例外を作成"
+    }
+  ],
+  "created": [
+    {
+      "type": 0,
+      "value": "作成日時"
+    }
+  ],
+  "createdBy": [
+    {
+      "type": 0,
+      "value": "作成者"
+    }
+  ],
+  "createdDate": [
+    {
+      "type": 0,
+      "value": "作成日"
+    }
+  ],
+  "creation": [
+    {
+      "type": 0,
+      "value": "作成"
+    }
+  ],
+  "creationDate": [
+    {
+      "type": 0,
+      "value": "作成日"
+    }
+  ],
+  "credit": [
+    {
+      "type": 0,
+      "value": "クレジット"
+    }
+  ],
+  "creditBalances": [
+    {
+      "type": 0,
+      "value": "クレジット残高 (少なくとも 1 つを選択してください)"
+    }
+  ],
+  "creditLimit": [
+    {
+      "type": 0,
+      "value": "与信限度額"
+    }
+  ],
+  "credits": [
+    {
+      "type": 0,
+      "value": "クレジット"
+    }
+  ],
+  "crossTradeCurrency": [
+    {
+      "type": 0,
+      "value": "クロストレード通貨"
+    }
+  ],
+  "currencies": [
+    {
+      "type": 0,
+      "value": "通貨"
+    }
+  ],
+  "currency": [
+    {
+      "type": 0,
+      "value": "通貨"
+    }
+  ],
+  "currencyMarginPairs": [
+    {
+      "type": 0,
+      "value": "通貨証拠金ペア"
+    }
+  ],
+  "currencyPairMarginOptional": [
+    {
+      "type": 0,
+      "value": "通貨ペアの証拠金 (オプション)"
+    }
+  ],
+  "currentBilledInterest": [
+    {
+      "type": 0,
+      "value": "現在請求されている利息"
+    }
+  ],
+  "currentInterest": [
+    {
+      "type": 0,
+      "value": "現在の関心"
+    }
+  ],
+  "currentInterestRatio": [
+    {
+      "type": 0,
+      "value": "現在の金利比率"
+    }
+  ],
+  "currentPeriodReturnToGraceForgiveness": [
+    {
+      "type": 0,
+      "value": "現在の期間 恩寵への復帰 赦し"
+    }
+  ],
+  "currentPrincipal": [
+    {
+      "type": 0,
+      "value": "現在の校長"
+    }
+  ],
+  "currentPrincipalRatio": [
+    {
+      "type": 0,
+      "value": "現在の元本比率"
+    }
+  ],
+  "currentTotalBalance": [
+    {
+      "type": 0,
+      "value": "現在の合計残高"
+    }
+  ],
+  "custom": [
+    {
+      "type": 0,
+      "value": "カスタム"
+    }
+  ],
+  "customer": [
+    {
+      "type": 0,
+      "value": "顧客"
+    }
+  ],
+  "customer.account.holders.emailAddress": [
+    {
+      "type": 0,
+      "value": "メールアドレス"
+    }
+  ],
+  "customer.account.holders.givenName": [
+    {
+      "type": 0,
+      "value": "名"
+    }
+  ],
+  "customer.account.holders.lastActivity": [
+    {
+      "type": 0,
+      "value": "プライマリ / セカンダリ"
+    }
+  ],
+  "customer.account.holders.list": [
+    {
+      "type": 0,
+      "value": "アカウントホルダー"
+    }
+  ],
+  "customer.account.holders.name": [
+    {
+      "type": 0,
+      "value": "名前"
+    }
+  ],
+  "customer.account.holders.phoneNumber": [
+    {
+      "type": 0,
+      "value": "電話番号"
+    }
+  ],
+  "customer.account.holders.primary-secondary": [
+    {
+      "type": 0,
+      "value": "プライマリ / セカンダリ"
+    }
+  ],
+  "customer.account.holders.relatedAccounts": [
+    {
+      "type": 0,
+      "value": "名"
+    }
+  ],
+  "customer.account.holders.view": [
+    {
+      "type": 0,
+      "value": "表示する"
+    }
+  ],
+  "customer.account.link.account.holders": [
+    {
+      "type": 0,
+      "value": "アカウントホルダー一覧"
+    }
+  ],
+  "customer.delete.button.address": [
+    {
+      "type": 0,
+      "value": "削除"
+    }
+  ],
+  "customer.drawer.billingHistory.header": [
+    {
+      "type": 0,
+      "value": "請求履歴"
+    }
+  ],
+  "customer.edit.account.holder.header.title": [
+    {
+      "type": 0,
+      "value": "アカウントホルダーの編集"
+    }
+  ],
+  "customer.edit.address.addressType": [
+    {
+      "type": 0,
+      "value": "タイプ"
+    }
+  ],
+  "customer.edit.addresses": [
+    {
+      "type": 0,
+      "value": "住所"
+    }
+  ],
+  "customer.edit.button.addNewAddress": [
+    {
+      "type": 0,
+      "value": "住所を追加"
+    }
+  ],
+  "customer.edit.button.addNewEmail": [
+    {
+      "type": 0,
+      "value": "メールを追加"
+    }
+  ],
+  "customer.edit.button.addNewIdentification": [
+    {
+      "type": 0,
+      "value": "IDを追加"
+    }
+  ],
+  "customer.edit.button.addNewPhone": [
+    {
+      "type": 0,
+      "value": "電話番号を追加"
+    }
+  ],
+  "customer.edit.button.address": [
+    {
+      "type": 0,
+      "value": "編集"
+    }
+  ],
+  "customer.edit.button.editPersonalInfo": [
+    {
+      "type": 0,
+      "value": "編集"
+    }
+  ],
+  "customer.edit.button.email": [
+    {
+      "type": 0,
+      "value": "編集"
+    }
+  ],
+  "customer.edit.button.phone": [
+    {
+      "type": 0,
+      "value": "編集"
+    }
+  ],
+  "customer.edit.email.email": [
+    {
+      "type": 0,
+      "value": "メールアドレス"
+    }
+  ],
+  "customer.edit.email.emailType": [
+    {
+      "type": 0,
+      "value": "タイプ"
+    }
+  ],
+  "customer.edit.email.verified": [
+    {
+      "type": 0,
+      "value": "認証済?"
+    }
+  ],
+  "customer.edit.emails": [
+    {
+      "type": 0,
+      "value": "メールアドレス"
+    }
+  ],
+  "customer.edit.header.title": [
+    {
+      "type": 0,
+      "value": "顧客情報詳細"
+    }
+  ],
+  "customer.edit.identification": [
+    {
+      "type": 0,
+      "value": "ID"
+    }
+  ],
+  "customer.edit.identification.active": [
+    {
+      "type": 0,
+      "value": "アクティブ"
+    }
+  ],
+  "customer.edit.identification.expirationDate": [
+    {
+      "type": 0,
+      "value": "有効期限"
+    }
+  ],
+  "customer.edit.identification.idNumber": [
+    {
+      "type": 0,
+      "value": "プライマリ番号"
+    }
+  ],
+  "customer.edit.identification.idNumberSecondary": [
+    {
+      "type": 0,
+      "value": "セカンダリ番号"
+    }
+  ],
+  "customer.edit.identification.idtype": [
+    {
+      "type": 0,
+      "value": "タイプ"
+    }
+  ],
+  "customer.edit.identification.issueDate": [
+    {
+      "type": 0,
+      "value": "発行日時"
+    }
+  ],
+  "customer.edit.identification.issuerCountry": [
+    {
+      "type": 0,
+      "value": "ID発行者(国)"
+    }
+  ],
+  "customer.edit.identification.issuerState": [
+    {
+      "type": 0,
+      "value": "ID発行者(都道府県)"
+    }
+  ],
+  "customer.edit.label.created": [
+    {
+      "type": 0,
+      "value": "作成日時"
+    }
+  ],
+  "customer.edit.label.dob": [
+    {
+      "type": 0,
+      "value": "誕生日"
+    }
+  ],
+  "customer.edit.label.firstName": [
+    {
+      "type": 0,
+      "value": "名"
+    }
+  ],
+  "customer.edit.label.gender": [
+    {
+      "type": 0,
+      "value": "性別"
+    }
+  ],
+  "customer.edit.label.lastName": [
+    {
+      "type": 0,
+      "value": "姓"
+    }
+  ],
+  "customer.edit.label.middleName": [
+    {
+      "type": 0,
+      "value": "ミドルネーム"
+    }
+  ],
+  "customer.edit.label.modified": [
+    {
+      "type": 0,
+      "value": "変更日時"
+    }
+  ],
+  "customer.edit.label.nickname": [
+    {
+      "type": 0,
+      "value": "ニックネーム"
+    }
+  ],
+  "customer.edit.label.secondFamilyName": [
+    {
+      "type": 0,
+      "value": "姓(2)"
+    }
+  ],
+  "customer.edit.label.suffix": [
+    {
+      "type": 0,
+      "value": "サフィックス"
+    }
+  ],
+  "customer.edit.label.title": [
+    {
+      "type": 0,
+      "value": "敬称"
+    }
+  ],
+  "customer.edit.personalInformation": [
+    {
+      "type": 0,
+      "value": "個人情報"
+    }
+  ],
+  "customer.edit.phone.addressLine1": [
+    {
+      "type": 0,
+      "value": "住所"
+    }
+  ],
+  "customer.edit.phone.country": [
+    {
+      "type": 0,
+      "value": "国"
+    }
+  ],
+  "customer.edit.phone.phoneNumber": [
+    {
+      "type": 0,
+      "value": "電話番号"
+    }
+  ],
+  "customer.edit.phone.phoneType": [
+    {
+      "type": 0,
+      "value": "タイプ"
+    }
+  ],
+  "customer.edit.phones": [
+    {
+      "type": 0,
+      "value": "電話番号"
+    }
+  ],
+  "customer.recent.cardblockcreated": [
+    {
+      "type": 0,
+      "value": "カードがブロックされました"
+    }
+  ],
+  "customer.recent.cardblockreleased": [
+    {
+      "type": 0,
+      "value": "カードブロックがリリースされました"
+    }
+  ],
+  "customer.recent.cardordered": [
+    {
+      "type": 0,
+      "value": "カードが注文されました"
+    }
+  ],
+  "customer.recent.customerblockcreated": [
+    {
+      "type": 0,
+      "value": "ユーザーがブロックされました"
+    }
+  ],
+  "customer.recent.customerblockreleased": [
+    {
+      "type": 0,
+      "value": "ユーザーブロックがリリースされました"
+    }
+  ],
+  "customer.recent.memocreated": [
+    {
+      "type": 0,
+      "value": "顧客メモが作成されました"
+    }
+  ],
+  "customer.recent.orderapproved": [
+    {
+      "type": 0,
+      "value": "変更オーダーが承認されました"
+    }
+  ],
+  "customer.recent.ordercreated": [
+    {
+      "type": 0,
+      "value": "送信された変更オーダー"
+    }
+  ],
+  "customer.search.result.address": [
+    {
+      "type": 0,
+      "value": "住所"
+    }
+  ],
+  "customer.search.result.customerNumber": [
+    {
+      "type": 0,
+      "value": "顧客番号"
+    }
+  ],
+  "customer.search.result.name": [
+    {
+      "type": 0,
+      "value": "顧客名"
+    }
+  ],
+  "customer.subAccounts.customerNumber": [
+    {
+      "type": 0,
+      "value": "顧客番号"
+    }
+  ],
+  "customer.success.updated": [
+    {
+      "type": 0,
+      "value": "顧客が正常に更新されました"
+    }
+  ],
+  "customer.updated.successful": [
+    {
+      "type": 0,
+      "value": "顧客が正常に更新されました"
+    }
+  ],
+  "customerAccountID": [
+    {
+      "type": 0,
+      "value": "顧客アカウント ID"
+    }
+  ],
+  "customerAdjustment": [
+    {
+      "type": 0,
+      "value": "カスタマーアジャストメント"
+    }
+  ],
+  "customerDetail": [
+    {
+      "type": 0,
+      "value": "顧客詳細情報"
+    }
+  ],
+  "customerDetail.drawer.feePlan.header": [
+    {
+      "type": 0,
+      "value": "手数料プラン詳細"
+    }
+  ],
+  "customerDetail.drawer.feePlan.hideAllFees": [
+    {
+      "type": 0,
+      "value": "手数料プランに含まれる手数料を表示しない >>"
+    }
+  ],
+  "customerDetail.drawer.feePlans.cancel": [
+    {
+      "type": 0,
+      "value": "キャンセル"
+    }
+  ],
+  "customerDetail.drawer.feePlans.saveChanges": [
+    {
+      "type": 0,
+      "value": "保存"
+    }
+  ],
+  "customerDetail.drawer.feePlans.viewAllFees": [
+    {
+      "type": 0,
+      "value": "手数料プランに含まれる手数料を全て表示する <<"
+    }
+  ],
+  "customerDetail.drawer.riskExceptions.header": [
+    {
+      "type": 0,
+      "value": "リスク例外"
+    }
+  ],
+  "customerDetail.drawer.riskMeasurements.header": [
+    {
+      "type": 0,
+      "value": "リスク計測値"
+    }
+  ],
+  "customerDetail.drawer.riskRules.header": [
+    {
+      "type": 0,
+      "value": "リスクルール"
+    }
+  ],
+  "customerDetails": [
+    {
+      "type": 0,
+      "value": "顧客情報"
+    }
+  ],
+  "customerDetails.viewRiskLevelDetails": [
+    {
+      "type": 0,
+      "value": "リスクレベル詳細を表示"
+    }
+  ],
+  "customerEdit.drawer.personalInfo.FamilyName": [
+    {
+      "type": 0,
+      "value": "姓*"
+    }
+  ],
+  "customerEdit.drawer.personalInfo.MiddleName": [
+    {
+      "type": 0,
+      "value": "ミドルネーム"
+    }
+  ],
+  "customerEdit.drawer.personalInfo.firstName": [
+    {
+      "type": 0,
+      "value": "名*"
+    }
+  ],
+  "customerEdit.drawer.personalInfo.header": [
+    {
+      "type": 0,
+      "value": "個人情報の編集"
+    }
+  ],
+  "customerFeePlans": [
+    {
+      "type": 0,
+      "value": "顧客料金プラン"
+    }
+  ],
+  "customerMemos": [
+    {
+      "type": 0,
+      "value": "顧客メモ"
+    }
+  ],
+  "customerName": [
+    {
+      "type": 0,
+      "value": "顧客名"
+    }
+  ],
+  "customerNumber": [
+    {
+      "type": 0,
+      "value": "顧客番号"
+    }
+  ],
+  "customerSearch": [
+    {
+      "type": 0,
+      "value": "顧客検索"
+    }
+  ],
+  "customerSearch.filter.accountStatus": [
+    {
+      "type": 0,
+      "value": "アカウントのステータス"
+    }
+  ],
+  "customerSearch.filter.active": [
+    {
+      "type": 0,
+      "value": "アクティブ"
+    }
+  ],
+  "customerSearch.filter.assigned": [
+    {
+      "type": 0,
+      "value": "アサイン済"
+    }
+  ],
+  "customerSearch.filter.banks": [
+    {
+      "type": 0,
+      "value": "銀行"
+    }
+  ],
+  "customerSearch.filter.high": [
+    {
+      "type": 0,
+      "value": "高い"
+    }
+  ],
+  "customerSearch.filter.inReview": [
+    {
+      "type": 0,
+      "value": "レビュー中"
+    }
+  ],
+  "customerSearch.filter.inactive": [
+    {
+      "type": 0,
+      "value": "非活性"
+    }
+  ],
+  "customerSearch.filter.low": [
+    {
+      "type": 0,
+      "value": "Low"
+    }
+  ],
+  "customerSearch.filter.medium": [
+    {
+      "type": 0,
+      "value": "中くらい"
+    }
+  ],
+  "customerSearch.filter.new": [
+    {
+      "type": 0,
+      "value": "新規"
+    }
+  ],
+  "customerSearch.filter.onHold": [
+    {
+      "type": 0,
+      "value": "保留"
+    }
+  ],
+  "customerSearch.filter.partners": [
+    {
+      "type": 0,
+      "value": "パートナー"
+    }
+  ],
+  "customerSearch.filter.programs": [
+    {
+      "type": 0,
+      "value": "プログラム"
+    }
+  ],
+  "customerSearch.filter.resolved": [
+    {
+      "type": 0,
+      "value": "解決済"
+    }
+  ],
+  "customerSearch.filter.riskStatus": [
+    {
+      "type": 0,
+      "value": "リスク状況"
+    }
+  ],
+  "customerSearch.filter.supportStatus": [
+    {
+      "type": 0,
+      "value": "サポート状況"
+    }
+  ],
+  "customerSearchForm.error.firstNameMinChars": [
+    {
+      "type": 0,
+      "value": "名は1文字以上でなければなりません。"
+    }
+  ],
+  "customerSearchForm.error.lastNameMinChars": [
+    {
+      "type": 0,
+      "value": "姓は1文字以上でなければなりません。"
+    }
+  ],
+  "customerSearchForm.error.nameRequired": [
+    {
+      "type": 0,
+      "value": "名と姓は必須です"
+    }
+  ],
+  "customerSearchForm.input.placeholder.text": [
+    {
+      "type": 0,
+      "value": "顧客番号または顧客名"
+    }
+  ],
+  "customerblocks": [
+    {
+      "type": 0,
+      "value": "顧客ブロック"
+    }
+  ],
+  "customers": [
+    {
+      "type": 0,
+      "value": "顧客"
+    }
+  ],
+  "cycleBalance": [
+    {
+      "type": 0,
+      "value": "サイクルバランス"
+    }
+  ],
+  "cycleEndDate": [
+    {
+      "type": 0,
+      "value": "サイクル終了日"
+    }
+  ],
+  "cycleStartDate": [
+    {
+      "type": 0,
+      "value": "サイクル開始日"
+    }
+  ],
+  "dashboard": [
+    {
+      "type": 0,
+      "value": "ダッシュボード"
+    }
+  ],
+  "date": [
+    {
+      "type": 0,
+      "value": "日付"
+    }
+  ],
+  "dateApproved": [
+    {
+      "type": 0,
+      "value": "承認日"
+    }
+  ],
+  "dateCreated": [
+    {
+      "type": 0,
+      "value": "作成日時"
+    }
+  ],
+  "dateOfBirth": [
+    {
+      "type": 0,
+      "value": "生年月日"
+    }
+  ],
+  "dateReleased": [
+    {
+      "type": 0,
+      "value": "リリース日"
+    }
+  ],
+  "day": [
+    {
+      "type": 0,
+      "value": "日"
+    }
+  ],
+  "dayCountPerYear": [
+    {
+      "type": 0,
+      "value": "年間日数*"
+    }
+  ],
+  "dayOfPeriod": [
+    {
+      "type": 0,
+      "value": "生理日"
+    }
+  ],
+  "days": [
+    {
+      "type": 0,
+      "value": "日々"
+    }
+  ],
+  "daysPerYear": [
+    {
+      "type": 0,
+      "value": "年間日数"
+    }
+  ],
+  "debit": [
+    {
+      "type": 0,
+      "value": "デビット"
+    }
+  ],
+  "december": [
+    {
+      "type": 0,
+      "value": "12月"
+    }
+  ],
+  "declinedActivity": [
+    {
+      "type": 0,
+      "value": "拒否されたアクティビティ"
+    }
+  ],
+  "default": [
+    {
+      "type": 0,
+      "value": "デフォルト"
+    }
+  ],
+  "defaultRepaymentPeriod": [
+    {
+      "type": 0,
+      "value": "デフォルト返済期間"
+    }
+  ],
+  "delete": [
+    {
+      "type": 0,
+      "value": "削除"
+    }
+  ],
+  "deleteMerchantControl": [
+    {
+      "type": 0,
+      "value": "マーチャント コントロールの削除"
+    }
+  ],
+  "deleteTokens": [
+    {
+      "type": 0,
+      "value": "トークンを削除する"
+    }
+  ],
+  "deleted": [
+    {
+      "type": 0,
+      "value": "削除しました"
+    }
+  ],
+  "description": [
+    {
+      "type": 0,
+      "value": "説明"
+    }
+  ],
+  "details": [
+    {
+      "type": 0,
+      "value": "詳細"
+    }
+  ],
+  "direct": [
+    {
+      "type": 0,
+      "value": "直接"
+    }
+  ],
+  "disabled": [
+    {
+      "type": 0,
+      "value": "無効"
+    }
+  ],
+  "discardChanges": [
+    {
+      "type": 0,
+      "value": "変更を破棄"
+    }
+  ],
+  "dismiss": [
+    {
+      "type": 0,
+      "value": "解散"
+    }
+  ],
+  "dontShowAgain": [
+    {
+      "type": 0,
+      "value": "今後表示しない"
+    }
+  ],
+  "drawdownOrder": [
+    {
+      "type": 0,
+      "value": "ドローダウンオーダー"
+    }
+  ],
+  "drawer.addMemo.button.cancel": [
+    {
+      "type": 0,
+      "value": "キャンセル"
+    }
+  ],
+  "drawer.addPartner.label.email": [
+    {
+      "type": 0,
+      "value": "Eメール"
+    }
+  ],
+  "drawer.addPartner.label.inns": [
+    {
+      "type": 0,
+      "value": "IIN"
+    }
+  ],
+  "drawer.addProgram.label.homeCurrency": [
+    {
+      "type": 0,
+      "value": "自国通貨"
+    }
+  ],
+  "drawer.addProgram.label.location": [
+    {
+      "type": 0,
+      "value": "ロケーション*"
+    }
+  ],
+  "drawer.addblock.button.cancel": [
+    {
+      "type": 0,
+      "value": "キャンセル"
+    }
+  ],
+  "drawer.addblock.button.saveChanges": [
+    {
+      "type": 0,
+      "value": "保存"
+    }
+  ],
+  "drawer.addfee.fixedAmount": [
+    {
+      "type": 0,
+      "value": "固定金額*"
+    }
+  ],
+  "drawer.addfee.percentage": [
+    {
+      "type": 0,
+      "value": "手数料の割合*"
+    }
+  ],
+  "drawer.addfee.receiver.fixedamount": [
+    {
+      "type": 0,
+      "value": "受取人固定金額*"
+    }
+  ],
+  "drawer.addfee.receiver.percentage": [
+    {
+      "type": 0,
+      "value": "受取人手数料の割合*"
+    }
+  ],
+  "drawer.blocks.button.release": [
+    {
+      "type": 0,
+      "value": "リリース"
+    }
+  ],
+  "drawer.blocks.card.table.header.created": [
+    {
+      "type": 0,
+      "value": "作成した"
+    }
+  ],
+  "drawer.blocks.card.table.header.createdBy": [
+    {
+      "type": 0,
+      "value": "によって作成された"
+    }
+  ],
+  "drawer.blocks.card.table.header.customerReleasable": [
+    {
+      "type": 0,
+      "value": "顧客がリリース可能"
+    }
+  ],
+  "drawer.blocks.card.table.header.memo": [
+    {
+      "type": 0,
+      "value": "メモ"
+    }
+  ],
+  "drawer.blocks.card.table.header.reason": [
+    {
+      "type": 0,
+      "value": "理由"
+    }
+  ],
+  "drawer.blocks.card.table.header.release": [
+    {
+      "type": 0,
+      "value": "リリース"
+    }
+  ],
+  "drawer.card.detail.PIN.failCount": [
+    {
+      "type": 0,
+      "value": "PIN失敗回数"
+    }
+  ],
+  "drawer.card.details.address": [
+    {
+      "type": 0,
+      "value": "住所"
+    }
+  ],
+  "drawer.card.details.created": [
+    {
+      "type": 0,
+      "value": "作成日時"
+    }
+  ],
+  "drawer.card.details.modified": [
+    {
+      "type": 0,
+      "value": "変更日時"
+    }
+  ],
+  "drawer.card.details.status": [
+    {
+      "type": 0,
+      "value": "ステータス"
+    }
+  ],
+  "drawer.card.profile.button.edit": [
+    {
+      "type": 0,
+      "value": "編集"
+    }
+  ],
+  "drawer.card.profile.button.saveChanges": [
+    {
+      "type": 0,
+      "value": "保存"
+    }
+  ],
+  "drawer.card.tokens.label.select": [
+    {
+      "type": 0,
+      "value": "アクションを実行するトークンを選択します。"
+    }
+  ],
+  "drawer.cardProfile.label.IINs": [
+    {
+      "type": 0,
+      "value": "IIN*"
+    }
+  ],
+  "drawer.createchangeorder.activateOn": [
+    {
+      "type": 0,
+      "value": "アクティベートオン:"
+    }
+  ],
+  "drawer.createchangeorder.addNewAdjustment": [
+    {
+      "type": 0,
+      "value": "新しいアジャストメントの追加"
+    }
+  ],
+  "drawer.createchangeorder.amount": [
+    {
+      "type": 0,
+      "value": "金額*"
+    }
+  ],
+  "drawer.createchangeorder.approval": [
+    {
+      "type": 0,
+      "value": "承認"
+    }
+  ],
+  "drawer.createchangeorder.chooseDate": [
+    {
+      "type": 0,
+      "value": "日付を選択してください*"
+    }
+  ],
+  "drawer.createchangeorder.currency": [
+    {
+      "type": 0,
+      "value": "通貨*"
+    }
+  ],
+  "drawer.createchangeorder.memo": [
+    {
+      "type": 0,
+      "value": "メモ (最大255文字)"
+    }
+  ],
+  "drawer.createchangeorder.schedule": [
+    {
+      "type": 0,
+      "value": "スケジュール"
+    }
+  ],
+  "drawer.delete.changeOrder": [
+    {
+      "type": 0,
+      "value": "変更オーダーを削除しますか?"
+    }
+  ],
+  "drawer.delete.delete": [
+    {
+      "type": 0,
+      "value": "削除"
+    }
+  ],
+  "drawer.editUser.label.State": [
+    {
+      "type": 0,
+      "value": "状態変更"
+    }
+  ],
+  "drawer.editUser.label.phoneNumber": [
+    {
+      "type": 0,
+      "value": "電話番号*"
+    }
+  ],
+  "drawer.ext.acct.add.attribute": [
+    {
+      "type": 0,
+      "value": "アトリビュートを追加"
+    }
+  ],
+  "drawer.ext.acct.label.name": [
+    {
+      "type": 0,
+      "value": "名前*"
+    }
+  ],
+  "drawer.ext.acct.label.value": [
+    {
+      "type": 0,
+      "value": "値*"
+    }
+  ],
+  "drawer.fee.calculationMethod": [
+    {
+      "type": 0,
+      "value": "計算方式"
+    }
+  ],
+  "drawer.fee.wizard.button.step2of3": [
+    {
+      "type": 0,
+      "value": "ステップ 2/3"
+    }
+  ],
+  "drawer.fee.wizard.label.newFees.calculationMethodDescription": [
+    {
+      "type": 0,
+      "value": "計算方式"
+    }
+  ],
+  "drawer.fee.wizard.newFeePlan": [
+    {
+      "type": 0,
+      "value": "新料金プラン*"
+    }
+  ],
+  "drawer.fees.table.header.calculation.method": [
+    {
+      "type": 0,
+      "value": "計算方式"
+    }
+  ],
+  "drawer.header.addCardProfile": [
+    {
+      "type": 0,
+      "value": "新しいカードプロファイルを作成"
+    }
+  ],
+  "drawer.header.createChangeOrder": [
+    {
+      "type": 0,
+      "value": "新しい変更オーダーを作成"
+    }
+  ],
+  "drawer.header.editCardProfile": [
+    {
+      "type": 0,
+      "value": "カードプロファイルの編集"
+    }
+  ],
+  "drawer.header.fee.wizard.label.feePlan": [
+    {
+      "type": 0,
+      "value": "料金プラン*"
+    }
+  ],
+  "drawer.header.viewCardProfile": [
+    {
+      "type": 0,
+      "value": "カードプロファイルを表示"
+    }
+  ],
+  "drawer.label.address.neighborhood": [
+    {
+      "type": 0,
+      "value": "地域"
+    }
+  ],
+  "drawer.label.identification.issuerState": [
+    {
+      "type": 0,
+      "value": "ID 発行者 (州)"
+    }
+  ],
+  "drawer.orderNewCard.button.cancel": [
+    {
+      "type": 0,
+      "value": "キャンセル"
+    }
+  ],
+  "drawer.orderNewCard.button.placeOrder": [
+    {
+      "type": 0,
+      "value": "注文する"
+    }
+  ],
+  "drawer.orderNewCard.label.cardProfile": [
+    {
+      "type": 0,
+      "value": "カードプロファイル名*"
+    }
+  ],
+  "drawer.orderNewCard.label.chargeFee": [
+    {
+      "type": 0,
+      "value": "手数料請求"
+    }
+  ],
+  "drawer.partners.label.Inns": [
+    {
+      "type": 0,
+      "value": "IINs"
+    }
+  ],
+  "drawer.personalInfo.button.cancel": [
+    {
+      "type": 0,
+      "value": "キャンセル"
+    }
+  ],
+  "drawer.personalInfo.button.saveChanges": [
+    {
+      "type": 0,
+      "value": "保存"
+    }
+  ],
+  "drawer.program.edit.button.addNewFeeButton": [
+    {
+      "type": 0,
+      "value": "新しい料金プランを追加"
+    }
+  ],
+  "drawer.program.edit.button.addNewRiskProfileButton": [
+    {
+      "type": 0,
+      "value": "新しいリスク プロファイルを追加する >>"
+    }
+  ],
+  "drawer.programs.edit.label.Bank": [
+    {
+      "type": 0,
+      "value": "バンク"
+    }
+  ],
+  "drawer.programs.edit.label.Exchanges": [
+    {
+      "type": 0,
+      "value": "エクスチェンジ"
+    }
+  ],
+  "drawer.programs.edit.label.cardProfileName": [
+    {
+      "type": 0,
+      "value": "カードプロファイル名"
+    }
+  ],
+  "drawer.programs.edit.label.currency": [
+    {
+      "type": 0,
+      "value": "通貨"
+    }
+  ],
+  "drawer.programs.edit.label.feePlans": [
+    {
+      "type": 0,
+      "value": "料金プラン"
+    }
+  ],
+  "drawer.programs.edit.label.language": [
+    {
+      "type": 0,
+      "value": "言語"
+    }
+  ],
+  "drawer.programs.edit.label.location": [
+    {
+      "type": 0,
+      "value": "ロケーション"
+    }
+  ],
+  "drawer.programs.edit.label.pansIssued": [
+    {
+      "type": 0,
+      "value": "発行されたPAN"
+    }
+  ],
+  "drawer.programs.edit.label.partner": [
+    {
+      "type": 0,
+      "value": "パートナー"
+    }
+  ],
+  "drawer.programs.edit.label.riskProfiles": [
+    {
+      "type": 0,
+      "value": "リスクプロファイル"
+    }
+  ],
+  "drawer.programs.edit.label.timeZone": [
+    {
+      "type": 0,
+      "value": "タイムゾーン"
+    }
+  ],
+  "drawer.riskLevel.table.header.block": [
+    {
+      "type": 0,
+      "value": "ブロック"
+    }
+  ],
+  "drawer.riskLevel.table.header.created": [
+    {
+      "type": 0,
+      "value": "作成日時"
+    }
+  ],
+  "drawer.riskLevel.table.header.disabled": [
+    {
+      "type": 0,
+      "value": "無効"
+    }
+  ],
+  "drawer.riskLevel.table.header.name": [
+    {
+      "type": 0,
+      "value": "名前"
+    }
+  ],
+  "drawer.riskLevel.table.header.notify": [
+    {
+      "type": 0,
+      "value": "通知"
+    }
+  ],
+  "drawer.riskLevel.table.header.value": [
+    {
+      "type": 0,
+      "value": "値"
+    }
+  ],
+  "dueDateShift": [
+    {
+      "type": 0,
+      "value": "期日シフト"
+    }
+  ],
+  "edit": [
+    {
+      "type": 0,
+      "value": "編集"
+    }
+  ],
+  "editAddress": [
+    {
+      "type": 0,
+      "value": "住所の編集"
+    }
+  ],
+  "editAutomaticLoad": [
+    {
+      "type": 0,
+      "value": "自動ロードの編集"
+    }
+  ],
+  "editBank": [
+    {
+      "type": 0,
+      "value": "バンクの編集"
+    }
+  ],
+  "editCardProfile": [
+    {
+      "type": 0,
+      "value": "カードプロファイルの編集"
+    }
+  ],
+  "editCurrencyMarginPair": [
+    {
+      "type": 0,
+      "value": "通貨証拠金ペアの編集"
+    }
+  ],
+  "editCustomer": [
+    {
+      "type": 0,
+      "value": "顧客の編集"
+    }
+  ],
+  "editEmail": [
+    {
+      "type": 0,
+      "value": "メールの編集"
+    }
+  ],
+  "editExternalAccount": [
+    {
+      "type": 0,
+      "value": "外部アカウントの編集"
+    }
+  ],
+  "editFee": [
+    {
+      "type": 0,
+      "value": "手数料の編集"
+    }
+  ],
+  "editIdentification": [
+    {
+      "type": 0,
+      "value": "識別情報の編集"
+    }
+  ],
+  "editIndividualCurrencyMargin": [
+    {
+      "type": 0,
+      "value": "個別通貨証拠金の編集"
+    }
+  ],
+  "editInterchange": [
+    {
+      "type": 0,
+      "value": "インターチェンジを編集"
+    }
+  ],
+  "editMailTemplate": [
+    {
+      "type": 0,
+      "value": "メールテンプレートの編集"
+    }
+  ],
+  "editMemo": [
+    {
+      "type": 0,
+      "value": "メモの編集"
+    }
+  ],
+  "editMerchantControl": [
+    {
+      "type": 0,
+      "value": "加盟店管理の編集"
+    }
+  ],
+  "editNotification": [
+    {
+      "type": 0,
+      "value": "通知の編集"
+    }
+  ],
+  "editPartner": [
+    {
+      "type": 0,
+      "value": "パートナーの編集"
+    }
+  ],
+  "editPhone": [
+    {
+      "type": 0,
+      "value": "電話番号の編集"
+    }
+  ],
+  "editRiskLevel": [
+    {
+      "type": 0,
+      "value": "リスクレベルの編集"
+    }
+  ],
+  "editTransactionMemoTemplate": [
+    {
+      "type": 0,
+      "value": "トランザクションメモテンプレートの編集"
+    }
+  ],
+  "editUser": [
+    {
+      "type": 0,
+      "value": "ユーザーの編集"
+    }
+  ],
+  "email": [
+    {
+      "type": 0,
+      "value": "電子メール"
+    }
+  ],
+  "email.input.placeholder": [
+    {
+      "type": 0,
+      "value": "メールアドレス*"
+    }
+  ],
+  "email.state.unverified": [
+    {
+      "type": 0,
+      "value": "未確認"
+    }
+  ],
+  "email.state.verified": [
+    {
+      "type": 0,
+      "value": "検証済み"
+    }
+  ],
+  "email.success.deleted": [
+    {
+      "type": 0,
+      "value": "メールが正常に削除されました"
+    }
+  ],
+  "email.success.updated": [
+    {
+      "type": 0,
+      "value": "メールが正常に更新されました"
+    }
+  ],
+  "emailAddress": [
+    {
+      "type": 0,
+      "value": "メールアドレス"
+    }
+  ],
+  "emailState": [
+    {
+      "type": 0,
+      "value": "メールの状態"
+    }
+  ],
+  "emailStatus": [
+    {
+      "type": 0,
+      "value": "メールのステータス"
+    }
+  ],
+  "emailType": [
+    {
+      "type": 0,
+      "value": "メールタイプ"
+    }
+  ],
+  "emails": [
+    {
+      "type": 0,
+      "value": "メール"
+    }
+  ],
+  "embossedName": [
+    {
+      "type": 0,
+      "value": "エンボス加工された名前"
+    }
+  ],
+  "emptyLabel": [
+  ],
+  "enabled": [
+    {
+      "type": 0,
+      "value": "有効"
+    }
+  ],
+  "error.10digitNumber.5digitFraction": [
+    {
+      "type": 0,
+      "value": "10桁の整数と5桁の小数部のみ"
+    }
+  ],
+  "error.FromDate.lessThan.toDate": [
+    {
+      "type": 0,
+      "value": "開始日は終了日以前とする必要があります"
+    }
+  ],
+  "error.IDIssuerCountry.required": [
+    {
+      "type": 0,
+      "value": "ID発行者(国)は必須入力フィールドです。"
+    }
+  ],
+  "error.IDType.required": [
+    {
+      "type": 0,
+      "value": "IDタイプは必須入力フィールドです。"
+    }
+  ],
+  "error.IIN.min6Digits": [
+    {
+      "type": 0,
+      "value": "IINには6桁の数字を含める必要があります。"
+    }
+  ],
+  "error.IINSegment.numberType": [
+    {
+      "type": 0,
+      "value": "IIN セグメントは数値でなければなりません"
+    }
+  ],
+  "error.IINSegment.required": [
+    {
+      "type": 0,
+      "value": "IINセグメントは必須です。"
+    }
+  ],
+  "error.IINs.required": [
+    {
+      "type": 0,
+      "value": "IIN が必要です。`"
+    }
+  ],
+  "error.PANLength.required": [
+    {
+      "type": 0,
+      "value": "PANの長さは必須です。"
+    }
+  ],
+  "error.PINLength.required": [
+    {
+      "type": 0,
+      "value": "PINの長さは必須です。"
+    }
+  ],
+  "error.activateOn.required": [
+    {
+      "type": 0,
+      "value": "アクティベートオンは必須入力フィールドです。"
+    }
+  ],
+  "error.activationDate.required": [
+    {
+      "type": 0,
+      "value": "アクティベーション日は必須入力フィールドです。"
+    }
+  ],
+  "error.active.required": [
+    {
+      "type": 0,
+      "value": "アクティブは必須入力フィールドです。"
+    }
+  ],
+  "error.addressLine1.required": [
+    {
+      "type": 0,
+      "value": "住所行1は必須入力フィールドです。"
+    }
+  ],
+  "error.addressType.required": [
+    {
+      "type": 0,
+      "value": "住所タイプは必須入力フィールドです。"
+    }
+  ],
+  "error.adjustment.mustBeANumber": [
+    {
+      "type": 0,
+      "value": "調整は数値でなければなりません"
+    }
+  ],
+  "error.adjustmentAmount.cannotLeadToACreditOn": [
+    {
+      "type": 0,
+      "value": "調整はクレジットにつながることはありません"
+    }
+  ],
+  "error.amount.mustBeA.number": [
+    {
+      "type": 0,
+      "value": "金額は数値でなければなりません"
+    }
+  ],
+  "error.amount.mustBeA.positiveValue": [
+    {
+      "type": 0,
+      "value": "金額は正の値でなければなりません"
+    }
+  ],
+  "error.amount.required": [
+    {
+      "type": 0,
+      "value": "金額は必須入力フィールドです。"
+    }
+  ],
+  "error.attributeMergeStrategy.required": [
+    {
+      "type": 0,
+      "value": "アトリビュートマージストラテジーは必須入力フィールドです。"
+    }
+  ],
+  "error.bankIIN.required": [
+    {
+      "type": 0,
+      "value": "バンクIINは必須です。"
+    }
+  ],
+  "error.buyCurrency.required": [
+    {
+      "type": 0,
+      "value": "購入通貨は必須入力フィールドです。"
+    }
+  ],
+  "error.cardLast4.required": [
+    {
+      "type": 0,
+      "value": "PANの下4桁は必須入力フィールドです。"
+    }
+  ],
+  "error.cardProfile.required": [
+    {
+      "type": 0,
+      "value": "カードプロファイル名は必須入力フィールドです。"
+    }
+  ],
+  "error.cardToken.required": [
+    {
+      "type": 0,
+      "value": "少なくとも1つのカードトークンを選択してください"
+    }
+  ],
+  "error.cardType.required": [
+    {
+      "type": 0,
+      "value": "カードタイプは必須です。"
+    }
+  ],
+  "error.changeOrder.required": [
+    {
+      "type": 0,
+      "value": "注文変更は必須フィールドです"
+    }
+  ],
+  "error.city.required": [
+    {
+      "type": 0,
+      "value": "市区町村は必須入力フィールドです。"
+    }
+  ],
+  "error.complianceCurrency.required": [
+    {
+      "type": 0,
+      "value": "コンプライアンス通貨は必須入力フィールドです。"
+    }
+  ],
+  "error.confirmPassword.required": [
+    {
+      "type": 0,
+      "value": "パスワードの確認は必須フィールドです。"
+    }
+  ],
+  "error.contactChannel.required": [
+    {
+      "type": 0,
+      "value": "問い合わせチャネルは必須入力フィールドです"
+    }
+  ],
+  "error.contactInfo.required": [
+    {
+      "type": 0,
+      "value": "連絡先情報は必須入力フィールドです。"
+    }
+  ],
+  "error.country.required": [
+    {
+      "type": 0,
+      "value": "国は必須入力フィールドです。"
+    }
+  ],
+  "error.currency.15integers5decimals.format": [
+    {
+      "type": 0,
+      "value": "値は 15 個の整数と 5 個の小数を超えてはなりません"
+    }
+  ],
+  "error.currency.minRequired": [
+    {
+      "type": 0,
+      "value": "少なくとも1つの通貨が必要です"
+    }
+  ],
+  "error.currency.required": [
+    {
+      "type": 0,
+      "value": "通貨は必須入力フィールドです。"
+    }
+  ],
+  "error.dateOfBirth.required": [
+    {
+      "type": 0,
+      "value": "生年月日は必須入力フィールドです。"
+    }
+  ],
+  "error.description.required": [
+    {
+      "type": 0,
+      "value": "説明は必須です。"
+    }
+  ],
+  "error.email.required": [
+    {
+      "type": 0,
+      "value": "電子メールは必須入力フィールドです。"
+    }
+  ],
+  "error.email.valid": [
+    {
+      "type": 0,
+      "value": "有効な電子メールである必要があります。"
+    }
+  ],
+  "error.emailAddress.required": [
+    {
+      "type": 0,
+      "value": "メールアドレスは必須入力フィールドです。"
+    }
+  ],
+  "error.emailFormat.invalid": [
+    {
+      "type": 0,
+      "value": "無効な電子メール形式です。"
+    }
+  ],
+  "error.emailState.required": [
+    {
+      "type": 0,
+      "value": "メールの状態は必須フィールドです"
+    }
+  ],
+  "error.emailType.required": [
+    {
+      "type": 0,
+      "value": "メールタイプは必須入力フィールドです。"
+    }
+  ],
+  "error.expiry.dateFormat": [
+    {
+      "type": 0,
+      "value": "有効期限はYYYYMMのフォーマットで入力してください。"
+    }
+  ],
+  "error.expiry.validDate": [
+    {
+      "type": 0,
+      "value": "有効な期限を入力してください。"
+    }
+  ],
+  "error.expiryMonths.required": [
+    {
+      "type": 0,
+      "value": "有効期限は必須です。"
+    }
+  ],
+  "error.familyName.required": [
+    {
+      "type": 0,
+      "value": "姓は必須入力フィールドです"
+    }
+  ],
+  "error.feeAmount.required": [
+    {
+      "type": 0,
+      "value": "手数料金額(%)は必須入力フィールドです。"
+    }
+  ],
+  "error.feeAmount.shouldBeA.number": [
+    {
+      "type": 0,
+      "value": "手数料金額(%)は数字にする必要があります"
+    }
+  ],
+  "error.feeAmountOrFeePercentage.mustBeEntered": [
+    {
+      "type": 0,
+      "value": "固定額または手数料率 (%) を入力する必要があります"
+    }
+  ],
+  "error.feePlan.required": [
+    {
+      "type": 0,
+      "value": "手数料プランは必須入力フィールドです。"
+    }
+  ],
+  "error.feePlanToCopy.required": [
+    {
+      "type": 0,
+      "value": "コピーする手数料プランは必須入力フィールドです。"
+    }
+  ],
+  "error.feeType.required": [
+    {
+      "type": 0,
+      "value": "料金タイプは必須フィールドです"
+    }
+  ],
+  "error.field.PAN.between.16and19": [
+    {
+      "type": 0,
+      "value": "PANは16から19桁の数字である必要があります"
+    }
+  ],
+  "error.field.lessThan300": [
+    {
+      "type": 0,
+      "value": "300 文字未満である必要があります"
+    }
+  ],
+  "error.field.number0and100": [
+    {
+      "type": 1,
+      "value": "fieldName"
+    },
+    {
+      "type": 0,
+      "value": " 0から100までの数値でなければなりません"
+    }
+  ],
+  "error.field.numberType": [
+    {
+      "type": 1,
+      "value": "fieldName"
+    },
+    {
+      "type": 0,
+      "value": " 数字でなければなりません"
+    }
+  ],
+  "error.field.required": [
+    {
+      "type": 1,
+      "value": "fieldName"
+    },
+    {
+      "type": 0,
+      "value": " は必須フィールドです"
+    }
+  ],
+  "error.field.unique": [
+    {
+      "type": 1,
+      "value": "fieldName"
+    },
+    {
+      "type": 0,
+      "value": " ユニークである必要があります"
+    }
+  ],
+  "error.field.validEmail": [
+    {
+      "type": 0,
+      "value": "有効なメールアドレスが必要です"
+    }
+  ],
+  "error.firstName.required": [
+    {
+      "type": 0,
+      "value": "名は必須フィールドです"
+    }
+  ],
+  "error.fixedAmount.required": [
+    {
+      "type": 0,
+      "value": "固定金額は必須入力フィールドです。"
+    }
+  ],
+  "error.fixedAmount.shouldBeA.number": [
+    {
+      "type": 0,
+      "value": "固定金額は数値でなければなりません"
+    }
+  ],
+  "error.fromDateLessThanToDate": [
+    {
+      "type": 0,
+      "value": "開始日は「終了日」以前でなければなりません"
+    }
+  ],
+  "error.givenName.required": [
+    {
+      "type": 0,
+      "value": "指定された名前は必須フィールドです"
+    }
+  ],
+  "error.greaterThan0": [
+    {
+      "type": 0,
+      "value": "0.0より大きい数値にする必要があります。"
+    }
+  ],
+  "error.homeCurrency.required": [
+    {
+      "type": 0,
+      "value": "自国通貨は必須入力フィールドです。"
+    }
+  ],
+  "error.iin.minRequired": [
+    {
+      "type": 0,
+      "value": "少なくとも1つのIINが必要です"
+    }
+  ],
+  "error.input.required": [
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " は必須入力フィールドです。"
+    }
+  ],
+  "error.invalid.input": [
+    {
+      "type": 0,
+      "value": "無効入力"
+    }
+  ],
+  "error.language.required": [
+    {
+      "type": 0,
+      "value": "言語は必須入力フィールドです。"
+    }
+  ],
+  "error.lastName.required": [
+    {
+      "type": 0,
+      "value": "姓は必須フィールドです"
+    }
+  ],
+  "error.location.required": [
+    {
+      "type": 0,
+      "value": "ロケーションは必須入力フィールドです"
+    }
+  ],
+  "error.login.201012": [
+    {
+      "type": 0,
+      "value": "パートナーが見つかりません。もう一度お試しください。"
+    }
+  ],
+  "error.login.205000": [
+    {
+      "type": 0,
+      "value": "ユーザー名またはパスワードが正しくありません。もう一度お試しください。"
+    }
+  ],
+  "error.mailKey.required": [
+    {
+      "type": 0,
+      "value": "メールキーは必須入力フィールドです。"
+    }
+  ],
+  "error.majorCode.100": [
+    {
+      "type": 0,
+      "value": "無効なパラメータ"
+    }
+  ],
+  "error.majorCode.101": [
+    {
+      "type": 0,
+      "value": "ヌルポインタ例外"
+    }
+  ],
+  "error.majorCode.102": [
+    {
+      "type": 0,
+      "value": "IO/リモート例外"
+    }
+  ],
+  "error.majorCode.103": [
+    {
+      "type": 0,
+      "value": "サポートされていない操作"
+    }
+  ],
+  "error.majorCode.104": [
+    {
+      "type": 0,
+      "value": "不正な状態"
+    }
+  ],
+  "error.majorCode.200": [
+    {
+      "type": 0,
+      "value": "使用できません"
+    }
+  ],
+  "error.majorCode.201": [
+    {
+      "type": 0,
+      "value": "見つかりません"
+    }
+  ],
+  "error.majorCode.202": [
+    {
+      "type": 0,
+      "value": "無効な通貨"
+    }
+  ],
+  "error.majorCode.203": [
+    {
+      "type": 0,
+      "value": "通貨換算"
+    }
+  ],
+  "error.majorCode.204": [
+    {
+      "type": 0,
+      "value": "為替レートなし"
+    }
+  ],
+  "error.majorCode.205": [
+    {
+      "type": 0,
+      "value": "一般的なセキュリティ"
+    }
+  ],
+  "error.majorCode.206": [
+    {
+      "type": 0,
+      "value": "通貨の不一致"
+    }
+  ],
+  "error.majorCode.207": [
+    {
+      "type": 0,
+      "value": "取消"
+    }
+  ],
+  "error.majorCode.208": [
+    {
+      "type": 0,
+      "value": "検証"
+    }
+  ],
+  "error.majorCode.209": [
+    {
+      "type": 0,
+      "value": "重複"
+    }
+  ],
+  "error.majorCode.210": [
+    {
+      "type": 0,
+      "value": "交換金額が小さすぎる"
+    }
+  ],
+  "error.majorCode.211": [
+    {
+      "type": 0,
+      "value": "トランザクション"
+    }
+  ],
+  "error.majorCode.212": [
+    {
+      "type": 0,
+      "value": "メッセージ形式"
+    }
+  ],
+  "error.majorCode.213": [
+    {
+      "type": 0,
+      "value": "カフィス"
+    }
+  ],
+  "error.majorCode.214": [
+    {
+      "type": 0,
+      "value": "エラー"
+    }
+  ],
+  "error.majorCode.300": [
+    {
+      "type": 0,
+      "value": "資金不足"
+    }
+  ],
+  "error.majorCode.400": [
+    {
+      "type": 0,
+      "value": "リスクルール"
+    }
+  ],
+  "error.majorCode.500": [
+    {
+      "type": 0,
+      "value": "順序の変更"
+    }
+  ],
+  "error.majorCode.600": [
+    {
+      "type": 0,
+      "value": "外部コールアウトが失敗しました"
+    }
+  ],
+  "error.majorCode.900": [
+    {
+      "type": 0,
+      "value": "ティッカー"
+    }
+  ],
+  "error.majorCode.unknown": [
+    {
+      "type": 0,
+      "value": "未知"
+    }
+  ],
+  "error.maxLengt16": [
+    {
+      "type": 0,
+      "value": "最大長は16です。"
+    }
+  ],
+  "error.maxLength10": [
+    {
+      "type": 0,
+      "value": "最大長は10です。"
+    }
+  ],
+  "error.maxLength16": [
+    {
+      "type": 0,
+      "value": "最大長は 16 です"
+    }
+  ],
+  "error.maxLength26": [
+    {
+      "type": 0,
+      "value": "最大長は26です。"
+    }
+  ],
+  "error.maxLength4": [
+    {
+      "type": 0,
+      "value": "最大長は4です。"
+    }
+  ],
+  "error.maxLength64": [
+    {
+      "type": 0,
+      "value": "最大長は64です。"
+    }
+  ],
+  "error.memo.max255Chars": [
+    {
+      "type": 0,
+      "value": "メモは255文字以下にする必要があります。"
+    }
+  ],
+  "error.memo.mustBe128Chars": [
+    {
+      "type": 0,
+      "value": "メモは128文字以下にする必要があります。"
+    }
+  ],
+  "error.memo.mustBe300Chars": [
+    {
+      "type": 0,
+      "value": "メモは300文字以下にする必要があります。"
+    }
+  ],
+  "error.memo.required": [
+    {
+      "type": 0,
+      "value": "メモは必須入力フィールドです。"
+    }
+  ],
+  "error.memoKey.required": [
+    {
+      "type": 0,
+      "value": "メモキーが必要です。"
+    }
+  ],
+  "error.merchantControl.ruleConflict": [
+    {
+      "type": 0,
+      "value": "このルールは、マーチャント コントロール "
+    },
+    {
+      "type": 1,
+      "value": "id"
+    },
+    {
+      "type": 0,
+      "value": " と競合しています。有効な To/From 金額とマーチャント ID を入力してください。"
+    }
+  ],
+  "error.minCurrency.required": [
+    {
+      "type": 0,
+      "value": "少なくとも1つの通貨が必要です"
+    }
+  ],
+  "error.minorCode.000": [
+    {
+      "type": 0,
+      "value": "該当なし"
+    }
+  ],
+  "error.minorCode.001": [
+    {
+      "type": 0,
+      "value": "顧客番号"
+    }
+  ],
+  "error.minorCode.002": [
+    {
+      "type": 0,
+      "value": "顧客外部参照"
+    }
+  ],
+  "error.minorCode.003": [
+    {
+      "type": 0,
+      "value": "プログラム名"
+    }
+  ],
+  "error.minorCode.004": [
+    {
+      "type": 0,
+      "value": "口座番号"
+    }
+  ],
+  "error.minorCode.005": [
+    {
+      "type": 0,
+      "value": "店舗番号"
+    }
+  ],
+  "error.minorCode.006": [
+    {
+      "type": 0,
+      "value": "ウォレット通貨"
+    }
+  ],
+  "error.minorCode.007": [
+    {
+      "type": 0,
+      "value": "カード番号"
+    }
+  ],
+  "error.minorCode.008": [
+    {
+      "type": 0,
+      "value": "PAN"
+    }
+  ],
+  "error.minorCode.009": [
+    {
+      "type": 0,
+      "value": "カードID"
+    }
+  ],
+  "error.minorCode.010": [
+    {
+      "type": 0,
+      "value": "バンク名"
+    }
+  ],
+  "error.minorCode.011": [
+    {
+      "type": 0,
+      "value": "インターチェンジ名"
+    }
+  ],
+  "error.minorCode.012": [
+    {
+      "type": 0,
+      "value": "パートナー名"
+    }
+  ],
+  "error.minorCode.013": [
+    {
+      "type": 0,
+      "value": "交換プロバイダー名"
+    }
+  ],
+  "error.minorCode.014": [
+    {
+      "type": 0,
+      "value": "交換名"
+    }
+  ],
+  "error.minorCode.015": [
+    {
+      "type": 0,
+      "value": "料金プラン名"
+    }
+  ],
+  "error.minorCode.016": [
+    {
+      "type": 0,
+      "value": "セキュリティレベル"
+    }
+  ],
+  "error.minorCode.017": [
+    {
+      "type": 0,
+      "value": "期限切れ"
+    }
+  ],
+  "error.minorCode.018": [
+    {
+      "type": 0,
+      "value": "承認番号"
+    }
+  ],
+  "error.minorCode.019": [
+    {
+      "type": 0,
+      "value": "個人ID"
+    }
+  ],
+  "error.minorCode.020": [
+    {
+      "type": 0,
+      "value": "リスクルール"
+    }
+  ],
+  "error.minorCode.021": [
+    {
+      "type": 0,
+      "value": "認証コード"
+    }
+  ],
+  "error.minorCode.022": [
+    {
+      "type": 0,
+      "value": "トランザクション"
+    }
+  ],
+  "error.minorCode.030": [
+    {
+      "type": 0,
+      "value": "住所ID"
+    }
+  ],
+  "error.minorCode.031": [
+    {
+      "type": 0,
+      "value": "電子メールID"
+    }
+  ],
+  "error.minorCode.032": [
+    {
+      "type": 0,
+      "value": "公式身分証明書"
+    }
+  ],
+  "error.minorCode.033": [
+    {
+      "type": 0,
+      "value": "電話番号ID"
+    }
+  ],
+  "error.minorCode.034": [
+    {
+      "type": 0,
+      "value": "カードプロファイル名"
+    }
+  ],
+  "error.minorCode.035": [
+    {
+      "type": 0,
+      "value": "料金入力ID"
+    }
+  ],
+  "error.minorCode.036": [
+    {
+      "type": 0,
+      "value": "メールテンプレートID"
+    }
+  ],
+  "error.minorCode.037": [
+    {
+      "type": 0,
+      "value": "通貨"
+    }
+  ],
+  "error.minorCode.038": [
+    {
+      "type": 0,
+      "value": "為替ペアレート"
+    }
+  ],
+  "error.minorCode.039": [
+    {
+      "type": 0,
+      "value": "為替ペアレート"
+    }
+  ],
+  "error.minorCode.040": [
+    {
+      "type": 0,
+      "value": "請求書の概要の変更"
+    }
+  ],
+  "error.minorCode.041": [
+    {
+      "type": 0,
+      "value": "リスク例外ID"
+    }
+  ],
+  "error.minorCode.042": [
+    {
+      "type": 0,
+      "value": "パラメーター"
+    }
+  ],
+  "error.minorCode.043": [
+    {
+      "type": 0,
+      "value": "金額の値"
+    }
+  ],
+  "error.minorCode.044": [
+    {
+      "type": 0,
+      "value": "認証トークンID"
+    }
+  ],
+  "error.minorCode.045": [
+    {
+      "type": 0,
+      "value": "顧客メモID"
+    }
+  ],
+  "error.minorCode.046": [
+    {
+      "type": 0,
+      "value": "配送番号"
+    }
+  ],
+  "error.minorCode.047": [
+    {
+      "type": 0,
+      "value": "属性名"
+    }
+  ],
+  "error.minorCode.048": [
+    {
+      "type": 0,
+      "value": "アカウントがロックされました"
+    }
+  ],
+  "error.minorCode.049": [
+    {
+      "type": 0,
+      "value": "生年月日"
+    }
+  ],
+  "error.minorCode.050": [
+    {
+      "type": 0,
+      "value": "生年月日"
+    }
+  ],
+  "error.minorCode.051": [
+    {
+      "type": 0,
+      "value": "セキュリティコード"
+    }
+  ],
+  "error.minorCode.052": [
+    {
+      "type": 0,
+      "value": "子顧客"
+    }
+  ],
+  "error.minorCode.053": [
+    {
+      "type": 0,
+      "value": "保留中のトランザクション"
+    }
+  ],
+  "error.minorCode.054": [
+    {
+      "type": 0,
+      "value": "カードの注文"
+    }
+  ],
+  "error.minorCode.055": [
+    {
+      "type": 0,
+      "value": "カードの状態"
+    }
+  ],
+  "error.minorCode.056": [
+    {
+      "type": 0,
+      "value": "PIN"
+    }
+  ],
+  "error.minorCode.057": [
+    {
+      "type": 0,
+      "value": "顧客がブロックされた"
+    }
+  ],
+  "error.minorCode.058": [
+    {
+      "type": 0,
+      "value": "パスコード"
+    }
+  ],
+  "error.minorCode.059": [
+    {
+      "type": 0,
+      "value": "パスワード"
+    }
+  ],
+  "error.minorCode.060": [
+    {
+      "type": 0,
+      "value": "プラグイン"
+    }
+  ],
+  "error.minorCode.061": [
+    {
+      "type": 0,
+      "value": "顧客メモ属性ID"
+    }
+  ],
+  "error.minorCode.062": [
+    {
+      "type": 0,
+      "value": "セッショントークン"
+    }
+  ],
+  "error.minorCode.063": [
+    {
+      "type": 0,
+      "value": "パートナーユーザーID"
+    }
+  ],
+  "error.minorCode.064": [
+    {
+      "type": 0,
+      "value": "パートナーユーザー名"
+    }
+  ],
+  "error.minorCode.065": [
+    {
+      "type": 0,
+      "value": "新規パスワード"
+    }
+  ],
+  "error.minorCode.066": [
+    {
+      "type": 0,
+      "value": "為替証拠金"
+    }
+  ],
+  "error.minorCode.067": [
+    {
+      "type": 0,
+      "value": "親顧客"
+    }
+  ],
+  "error.minorCode.068": [
+    {
+      "type": 0,
+      "value": "件名"
+    }
+  ],
+  "error.minorCode.069": [
+    {
+      "type": 0,
+      "value": "リスクレベル"
+    }
+  ],
+  "error.minorCode.070": [
+    {
+      "type": 0,
+      "value": "ISO8583メッセージID"
+    }
+  ],
+  "error.minorCode.071": [
+    {
+      "type": 0,
+      "value": "チャージバックID"
+    }
+  ],
+  "error.minorCode.072": [
+    {
+      "type": 0,
+      "value": "チャージバックメッセージID"
+    }
+  ],
+  "error.minorCode.090": [
+    {
+      "type": 0,
+      "value": "注文IDの変更"
+    }
+  ],
+  "error.minorCode.091": [
+    {
+      "type": 0,
+      "value": "注文状態の変更"
+    }
+  ],
+  "error.minorCode.092": [
+    {
+      "type": 0,
+      "value": "注文変更アクション"
+    }
+  ],
+  "error.minorCode.093": [
+    {
+      "type": 0,
+      "value": "注文タイプの変更"
+    }
+  ],
+  "error.minorCode.094": [
+    {
+      "type": 0,
+      "value": "変更オーダー要求者"
+    }
+  ],
+  "error.minorCode.095": [
+    {
+      "type": 0,
+      "value": "加盟店管理の重複"
+    }
+  ],
+  "error.minorCode.200": [
+    {
+      "type": 0,
+      "value": "PINの検証"
+    }
+  ],
+  "error.minorCode.201": [
+    {
+      "type": 0,
+      "value": "PINの失敗回数"
+    }
+  ],
+  "error.minorCode.202": [
+    {
+      "type": 0,
+      "value": "カードの有効期限切れ"
+    }
+  ],
+  "error.minorCode.203": [
+    {
+      "type": 0,
+      "value": "PIN失敗カウント一時ロック"
+    }
+  ],
+  "error.minorCode.300": [
+    {
+      "type": 0,
+      "value": "顧客インシデントID"
+    }
+  ],
+  "error.minorCode.600": [
+    {
+      "type": 0,
+      "value": "既知のエラーコード"
+    }
+  ],
+  "error.minorCode.unknown": [
+    {
+      "type": 0,
+      "value": "不明なエラー"
+    }
+  ],
+  "error.mustBeANumber": [
+    {
+      "type": 0,
+      "value": "数値である必要があります"
+    }
+  ],
+  "error.mustLessThan.default": [
+    {
+      "type": 0,
+      "value": "デフォルトより小さい必要があります"
+    }
+  ],
+  "error.mustLessThan.maximum": [
+    {
+      "type": 0,
+      "value": "最大値未満である必要があります"
+    }
+  ],
+  "error.mustLessThan.maximumAllowed": [
+    {
+      "type": 0,
+      "value": "許可されている最大値より小さくする必要があります"
+    }
+  ],
+  "error.mustLessThan.minimum": [
+    {
+      "type": 0,
+      "value": "最小値未満である必要があります"
+    }
+  ],
+  "error.mustMoreThan.default": [
+    {
+      "type": 0,
+      "value": "デフォルト以上である必要があります"
+    }
+  ],
+  "error.mustMoreThan.maximum": [
+    {
+      "type": 0,
+      "value": "最大値以上である必要があります"
+    }
+  ],
+  "error.mustMoreThan.maximumAllowed": [
+    {
+      "type": 0,
+      "value": "許可されている最大値より大きくする必要があります"
+    }
+  ],
+  "error.mustMoreThan.minimum": [
+    {
+      "type": 0,
+      "value": "最小値以上である必要があります"
+    }
+  ],
+  "error.name.required": [
+    {
+      "type": 0,
+      "value": "名前は必須です。"
+    }
+  ],
+  "error.neighborhood.mustBe50Chars": [
+    {
+      "type": 0,
+      "value": "近隣は 50 文字以下である必要があります。"
+    }
+  ],
+  "error.noAccess": [
+    {
+      "type": 0,
+      "value": "アクセス不可"
+    }
+  ],
+  "error.noMatch": [
+    {
+      "type": 0,
+      "value": "このページは存在しません。"
+    }
+  ],
+  "error.number.15integers5decimals.format": [
+    {
+      "type": 0,
+      "value": "値は 7 個の整数と 3 個の小数以下にする必要があります"
+    }
+  ],
+  "error.number.7integers3decimals.format": [
+    {
+      "type": 0,
+      "value": "Value should have no more than 7 integers and 3 decimals"
+    }
+  ],
+  "error.number.required": [
+    {
+      "type": 0,
+      "value": "番号が必要です"
+    }
+  ],
+  "error.oldPassword.required": [
+    {
+      "type": 0,
+      "value": "古いパスワードは必須フィールドです。"
+    }
+  ],
+  "error.oneLowercase.character": [
+    {
+      "type": 0,
+      "value": "小文字 1 文字"
+    }
+  ],
+  "error.oopsSomethingWentWrong": [
+    {
+      "type": 0,
+      "value": "エラーが発生しました。"
+    }
+  ],
+  "error.parameterAndValue.required": [
+    {
+      "type": 0,
+      "value": "パラメータと値を空白にすることはできません"
+    }
+  ],
+  "error.parameterValue.required": [
+    {
+      "type": 0,
+      "value": "パラメーター値が必要です。"
+    }
+  ],
+  "error.partner.required": [
+    {
+      "type": 0,
+      "value": "パートナーは必須入力フィールドです。"
+    }
+  ],
+  "error.partnerName.required": [
+    {
+      "type": 0,
+      "value": "パートナー名は必須入力フィールドです。"
+    }
+  ],
+  "error.password.bothSame": [
+    {
+      "type": 0,
+      "value": "両方のパスワードは同じである必要があります"
+    }
+  ],
+  "error.password.digit": [
+    {
+      "type": 0,
+      "value": "パスワードには少なくとも1つの数字が含まれている必要があります"
+    }
+  ],
+  "error.password.lowercase": [
+    {
+      "type": 0,
+      "value": "パスワードには少なくとも1つの小文字を含める必要があります"
+    }
+  ],
+  "error.password.maxChar": [
+    {
+      "type": 0,
+      "value": "パスワードは32文字以内にする必要があります"
+    }
+  ],
+  "error.password.minChar": [
+    {
+      "type": 0,
+      "value": "パスワードは8文字以上である必要があります"
+    }
+  ],
+  "error.password.mustBeTheSame": [
+    {
+      "type": 0,
+      "value": "両方のパスワードは同じである必要があります"
+    }
+  ],
+  "error.password.mustContain.32Chars": [
+    {
+      "type": 0,
+      "value": "パスワードは 32 文字以下にする必要があります"
+    }
+  ],
+  "error.password.mustContain.8Chars": [
+    {
+      "type": 0,
+      "value": "パスワードには 8 文字以上を含める必要があります"
+    }
+  ],
+  "error.password.mustContain.oneNumber": [
+    {
+      "type": 0,
+      "value": "パスワードには数字が 1 つ含まれている必要があります"
+    }
+  ],
+  "error.password.mustContain.oneSpecial.character": [
+    {
+      "type": 0,
+      "value": "パスワードには特殊文字を 1 文字含める必要があります"
+    }
+  ],
+  "error.password.mustContain.oneUppercase.character": [
+    {
+      "type": 0,
+      "value": "パスワードには大文字を 1 文字含める必要があります"
+    }
+  ],
+  "error.password.required": [
+    {
+      "type": 0,
+      "value": "パスワードは必須入力フィールドです。"
+    }
+  ],
+  "error.password.specialChar": [
+    {
+      "type": 0,
+      "value": "パスワードには少なくとも1つの特殊文字が含まれている必要があります"
+    }
+  ],
+  "error.password.uppercase": [
+    {
+      "type": 0,
+      "value": "パスワードには少なくとも1つの大文字を含める必要があります"
+    }
+  ],
+  "error.personName.required": [
+    {
+      "type": 0,
+      "value": "アカウントホルダーは必須入力フィールドです。"
+    }
+  ],
+  "error.phone.invalidFormat": [
+    {
+      "type": 0,
+      "value": "有効な電話番号である必要があります。"
+    }
+  ],
+  "error.phone.required": [
+    {
+      "type": 0,
+      "value": "電話番号は必須入力フィールドです。"
+    }
+  ],
+  "error.phoneFormat.invalid": [
+    {
+      "type": 0,
+      "value": "無効な電話形式"
+    }
+  ],
+  "error.phoneNumber.required": [
+    {
+      "type": 0,
+      "value": "電話番号は必須入力フィールドです。"
+    }
+  ],
+  "error.phoneType.required": [
+    {
+      "type": 0,
+      "value": "電話番号タイプは必須入力フィールドです"
+    }
+  ],
+  "error.postalCode.required": [
+    {
+      "type": 0,
+      "value": "郵便番号は必須入力フィールドです。"
+    }
+  ],
+  "error.primaryNumber.required": [
+    {
+      "type": 0,
+      "value": "プライマリ番号は必須入力フィールドです。"
+    }
+  ],
+  "error.program.feeAmount.numberType": [
+    {
+      "type": 0,
+      "value": "手数料の金額は数字でなければなりません。"
+    }
+  ],
+  "error.program.feeAmount.percentage.numberType": [
+    {
+      "type": 0,
+      "value": "手数料金額(%)は数字にする必要があります。"
+    }
+  ],
+  "error.program.feeAmount.percentage.required": [
+    {
+      "type": 0,
+      "value": "手数料金額(%)は必須入力フィールドです。"
+    }
+  ],
+  "error.program.feeAmount.required": [
+    {
+      "type": 0,
+      "value": "手数料金額は必須入力フィールドです。"
+    }
+  ],
+  "error.program.fixFee.currency.format": [
+    {
+      "type": 0,
+      "value": "15桁の整数と5桁の小数部のみである必要があります。"
+    }
+  ],
+  "error.program.fixFee.percentage.format": [
+    {
+      "type": 0,
+      "value": "7桁の整数と3桁の小数部のみである必要があります。"
+    }
+  ],
+  "error.program.receiver.numberType": [
+    {
+      "type": 0,
+      "value": "受取手数料の金額は数値でなければなりません"
+    }
+  ],
+  "error.program.receiver.percentage.format": [
+    {
+      "type": 0,
+      "value": "15桁の整数と5桁の小数部のみである必要があります。"
+    }
+  ],
+  "error.program.receiver.percentage.numberType": [
+    {
+      "type": 0,
+      "value": "受取手数料の金額(%)は数値にする必要があります"
+    }
+  ],
+  "error.program.receiver.percentage.required": [
+    {
+      "type": 0,
+      "value": "受取手数料の金額(%)は必須入力フィールドです。"
+    }
+  ],
+  "error.program.receiver.required": [
+    {
+      "type": 0,
+      "value": "受取手数料の金額は必須入力フィールドです。"
+    }
+  ],
+  "error.reason.required": [
+    {
+      "type": 0,
+      "value": "理由は必須入力フィールドです。"
+    }
+  ],
+  "error.receiverFee.required": [
+    {
+      "type": 0,
+      "value": "受取手数料の金額は必須入力フィールドです。"
+    }
+  ],
+  "error.receiverFee.shouldBeA.number": [
+    {
+      "type": 0,
+      "value": "受取手数料の金額は数字でなければなりません"
+    }
+  ],
+  "error.receiverFeeAmount.shouldBeA.number": [
+    {
+      "type": 0,
+      "value": "受取手数料の金額(%)は数値にする必要があります"
+    }
+  ],
+  "error.referenceNumber.required": [
+    {
+      "type": 0,
+      "value": "リファレンスナンバーは必須入力フィールドです。"
+    }
+  ],
+  "error.releaseDate.cannotBeOlderThanToday": [
+    {
+      "type": 0,
+      "value": "リリース日に今日より前の日付は指定できません"
+    }
+  ],
+  "error.releaseDate.invalid": [
+    {
+      "type": 0,
+      "value": "有効なリリース日を入力してください"
+    }
+  ],
+  "error.releaseDate.required": [
+    {
+      "type": 0,
+      "value": "リリース日は必須です。"
+    }
+  ],
+  "error.requiredField": [
+    {
+      "type": 0,
+      "value": "必須フィールド"
+    }
+  ],
+  "error.riskLevel.numberType": [
+    {
+      "type": 0,
+      "value": "リスクレベルは数値である必要があります。"
+    }
+  ],
+  "error.riskLevel.required": [
+    {
+      "type": 0,
+      "value": "リスクレベルは必須入力フィールドです。"
+    }
+  ],
+  "error.riskLevelToCopy.required": [
+    {
+      "type": 0,
+      "value": "コピーするリスクレベルは必須入力フィールドです。"
+    }
+  ],
+  "error.riskParameter.required": [
+    {
+      "type": 0,
+      "value": "リスクパラメータは必須入力フィールドです。"
+    }
+  ],
+  "error.role.minSelection": [
+    {
+      "type": 0,
+      "value": "少なくとも1つのロールを選択する必要があります"
+    }
+  ],
+  "error.securityLevel.required": [
+    {
+      "type": 0,
+      "value": "セキュリティ レベルは必須フィールドです"
+    }
+  ],
+  "error.sellCurrency.required": [
+    {
+      "type": 0,
+      "value": "売却通貨は必須入力フィールドです。"
+    }
+  ],
+  "error.sender.required": [
+    {
+      "type": 0,
+      "value": "送信者は必須入力フィールドです。"
+    }
+  ],
+  "error.serviceCode.required": [
+    {
+      "type": 0,
+      "value": "サービスコードは必須です。"
+    }
+  ],
+  "error.somethingWentWrong": [
+    {
+      "type": 0,
+      "value": "エラーが発生しました。"
+    }
+  ],
+  "error.state.required": [
+    {
+      "type": 0,
+      "value": "状態は必須入力フィールドです。"
+    }
+  ],
+  "error.subject.required": [
+    {
+      "type": 0,
+      "value": "件名は必須入力フィールドです。"
+    }
+  ],
+  "error.template.required": [
+    {
+      "type": 0,
+      "value": "テンプレートは必須入力フィールドです。"
+    }
+  ],
+  "error.test.validPhone": [
+    {
+      "type": 0,
+      "value": "テスト有効電話"
+    }
+  ],
+  "error.thisField.required": [
+    {
+      "type": 0,
+      "value": "これは必要項目です"
+    }
+  ],
+  "error.tierName.required": [
+    {
+      "type": 0,
+      "value": "ティア名が必要です!"
+    }
+  ],
+  "error.timeZone.required": [
+    {
+      "type": 0,
+      "value": "タイムゾーンは必須入力フィールドです。"
+    }
+  ],
+  "error.toDate.greaterThan.FromDate": [
+    {
+      "type": 0,
+      "value": "終了日は開始日以降とする必要があります"
+    }
+  ],
+  "error.toDateGreaterThanFromDate": [
+    {
+      "type": 0,
+      "value": "終了日は「開始日」以降でなければなりません"
+    }
+  ],
+  "error.type.required": [
+    {
+      "type": 0,
+      "value": "タイプは必須入力フィールドです。"
+    }
+  ],
+  "error.username.maxChar": [
+    {
+      "type": 0,
+      "value": "ユーザー名は32文字以内にする必要があります"
+    }
+  ],
+  "error.username.minChar": [
+    {
+      "type": 0,
+      "value": "ユーザー名は8文字以上である必要があります"
+    }
+  ],
+  "error.username.required": [
+    {
+      "type": 0,
+      "value": "ユーザー名は必須入力フィールドです。"
+    }
+  ],
+  "error.username.specialChar": [
+    {
+      "type": 0,
+      "value": "ユーザー名には、小文字、数字、および .-_ のみ使用可能です"
+    }
+  ],
+  "error.value.required": [
+    {
+      "type": 0,
+      "value": "値は必須入力フィールドです"
+    }
+  ],
+  "errorMessage": [
+    {
+      "type": 0,
+      "value": "エラーメッセージ"
+    }
+  ],
+  "exchange": [
+    {
+      "type": 0,
+      "value": "エクスチェンジ"
+    }
+  ],
+  "exchangeAdjustment": [
+    {
+      "type": 0,
+      "value": "両替調整"
+    }
+  ],
+  "exchangeCurrency": [
+    {
+      "type": 0,
+      "value": "両替通貨"
+    }
+  ],
+  "exchangeMargin": [
+    {
+      "type": 0,
+      "value": "両替差益"
+    }
+  ],
+  "exchangeName": [
+    {
+      "type": 0,
+      "value": "エクスチェンジ名"
+    }
+  ],
+  "exchangeProvider": [
+    {
+      "type": 0,
+      "value": "エクスチェンジプロバイダー"
+    }
+  ],
+  "exchangeQuoteExpiresIn": [
+    {
+      "type": 0,
+      "value": "両替見積もりの有効期限"
+    }
+  ],
+  "exchanges": [
+    {
+      "type": 0,
+      "value": "エクスチェンジ"
+    }
+  ],
+  "expeditedShipping": [
+    {
+      "type": 0,
+      "value": "お急ぎ便"
+    }
+  ],
+  "expirationDate": [
+    {
+      "type": 0,
+      "value": "有効期限"
+    }
+  ],
+  "expirationTime": [
+    {
+      "type": 0,
+      "value": "有効期限"
+    }
+  ],
+  "expiry": [
+    {
+      "type": 0,
+      "value": "有効期限"
+    }
+  ],
+  "expiryMonths": [
+    {
+      "type": 0,
+      "value": "有効期限(月数)"
+    }
+  ],
+  "expiryOverride": [
+    {
+      "type": 0,
+      "value": "有効期限オーバーライド (YYYYMM)"
+    }
+  ],
+  "external": [
+    {
+      "type": 0,
+      "value": "外部"
+    }
+  ],
+  "externalAccounts": [
+    {
+      "type": 0,
+      "value": "外部アカウント"
+    }
+  ],
+  "externalIdCode": [
+    {
+      "type": 0,
+      "value": "外部IDコード"
+    }
+  ],
+  "externalReference": [
+    {
+      "type": 0,
+      "value": "外部参照"
+    }
+  ],
+  "failedParameter": [
+    {
+      "type": 0,
+      "value": "失敗したパラメータ"
+    }
+  ],
+  "familyName": [
+    {
+      "type": 0,
+      "value": "姓"
+    }
+  ],
+  "fax": [
+    {
+      "type": 0,
+      "value": "ファックス"
+    }
+  ],
+  "february": [
+    {
+      "type": 0,
+      "value": "2月"
+    }
+  ],
+  "fee": [
+    {
+      "type": 0,
+      "value": "手数料"
+    }
+  ],
+  "fee.wizard.newFees.feeAmount": [
+    {
+      "type": 0,
+      "value": "手数料金額"
+    }
+  ],
+  "fee.wizard.newFees.feeAmountPercent": [
+    {
+      "type": 0,
+      "value": "手数料金額(%)"
+    }
+  ],
+  "fee.wizard.newFees.receiverFeeAmount": [
+    {
+      "type": 0,
+      "value": "受取手数料金額"
+    }
+  ],
+  "fee.wizard.newFees.receiverFeeAmountPercent": [
+    {
+      "type": 0,
+      "value": "受取手数料金額(%)"
+    }
+  ],
+  "feeBalances": [
+    {
+      "type": 0,
+      "value": "手数料残高"
+    }
+  ],
+  "feeCharged": [
+    {
+      "type": 0,
+      "value": "有料"
+    }
+  ],
+  "feePercentage": [
+    {
+      "type": 0,
+      "value": "手数料の割合"
+    }
+  ],
+  "feePlan": [
+    {
+      "type": 0,
+      "value": "手数料プラン"
+    }
+  ],
+  "feePlanDetails": [
+    {
+      "type": 0,
+      "value": "手数料プランの編集"
+    }
+  ],
+  "feePlans": [
+    {
+      "type": 0,
+      "value": "手数料プラン"
+    }
+  ],
+  "feeRate": [
+    {
+      "type": 0,
+      "value": "手数料率"
+    }
+  ],
+  "feeRepaymentRatios": [
+    {
+      "type": 0,
+      "value": "手数料返済率"
+    }
+  ],
+  "fees": [
+    {
+      "type": 0,
+      "value": "手数料"
+    }
+  ],
+  "fees.calculation.method": [
+    {
+      "type": 0,
+      "value": "計算方式"
+    }
+  ],
+  "filterByCustomer": [
+    {
+      "type": 0,
+      "value": "顧客によるフィルター"
+    }
+  ],
+  "filterByDate": [
+    {
+      "type": 0,
+      "value": "日付によるフィルタ"
+    }
+  ],
+  "filterByUser": [
+    {
+      "type": 0,
+      "value": "ユーザーによるフィルター"
+    }
+  ],
+  "filterResults": [
+    {
+      "type": 0,
+      "value": "フィルター結果"
+    }
+  ],
+  "filters": [
+    {
+      "type": 0,
+      "value": "フィルター"
+    }
+  ],
+  "firstName": [
+    {
+      "type": 0,
+      "value": "名前"
+    }
+  ],
+  "fixedAmount": [
+    {
+      "type": 0,
+      "value": "固定金額"
+    }
+  ],
+  "fixedFee": [
+    {
+      "type": 0,
+      "value": "固定金額"
+    }
+  ],
+  "fixedFeePercentage": [
+    {
+      "type": 0,
+      "value": "固定金額/割合"
+    }
+  ],
+  "forcePost": [
+    {
+      "type": 0,
+      "value": "フォースポスト"
+    }
+  ],
+  "forgot.button.backToLoginScreen": [
+    {
+      "type": 0,
+      "value": "ログイン画面に戻る"
+    }
+  ],
+  "forgot.button.sendMyResetLink": [
+    {
+      "type": 0,
+      "value": "リセットリンクを送信する"
+    }
+  ],
+  "forgot.field.emailAddressOrUsername": [
+    {
+      "type": 0,
+      "value": "メールアドレス/ユーザー名"
+    }
+  ],
+  "forgot.fill.fields": [
+    {
+      "type": 0,
+      "value": "下記フォームに必要事項を入力してください"
+    }
+  ],
+  "forgot.reset.link.sent": [
+    {
+      "type": 0,
+      "value": "パスワードをリセットするためのリンクを、記載されたメールアドレスに送信しています。"
+    }
+  ],
+  "forgot.reset.success": [
+    {
+      "type": 0,
+      "value": "成功!"
+    }
+  ],
+  "forgot.will.send.link": [
+    {
+      "type": 0,
+      "value": "パスワードをリセットするためのリンクが、記載のメールアドレスに送信されます。"
+    }
+  ],
+  "fraud": [
+    {
+      "type": 0,
+      "value": "不正利用"
+    }
+  ],
+  "frequency": [
+    {
+      "type": 0,
+      "value": "周波数"
+    }
+  ],
+  "fromAmount": [
+    {
+      "type": 0,
+      "value": "金額から"
+    }
+  ],
+  "fromDate": [
+    {
+      "type": 0,
+      "value": "開始日"
+    }
+  ],
+  "gender": [
+    {
+      "type": 0,
+      "value": "性別"
+    }
+  ],
+  "gender.female": [
+    {
+      "type": 0,
+      "value": "女性"
+    }
+  ],
+  "gender.male": [
+    {
+      "type": 0,
+      "value": "男性"
+    }
+  ],
+  "genders": [
+    {
+      "type": 0,
+      "value": "性別"
+    }
+  ],
+  "general": [
+    {
+      "type": 0,
+      "value": "一般"
+    }
+  ],
+  "givenName": [
+    {
+      "type": 0,
+      "value": "名"
+    }
+  ],
+  "hideReleasedHolds": [
+    {
+      "type": 0,
+      "value": "解除されたホールドを非表示にする"
+    }
+  ],
+  "holdMemo": [
+    {
+      "type": 0,
+      "value": "ホールドメモ"
+    }
+  ],
+  "holds": [
+    {
+      "type": 0,
+      "value": "ホールド"
+    }
+  ],
+  "home": [
+    {
+      "type": 0,
+      "value": "ホーム"
+    }
+  ],
+  "homeCurrency": [
+    {
+      "type": 0,
+      "value": "自国通貨"
+    }
+  ],
+  "hostAddress": [
+    {
+      "type": 0,
+      "value": "ホストアドレス"
+    }
+  ],
+  "hour": [
+    {
+      "type": 0,
+      "value": "時間"
+    }
+  ],
+  "id": [
+    {
+      "type": 0,
+      "value": "ID"
+    }
+  ],
+  "id.type.alternate": [
+    {
+      "type": 0,
+      "value": "代わりの"
+    }
+  ],
+  "id.type.driversLicense": [
+    {
+      "type": 0,
+      "value": "運転免許証"
+    }
+  ],
+  "id.type.national": [
+    {
+      "type": 0,
+      "value": "全国"
+    }
+  ],
+  "id.type.other": [
+    {
+      "type": 0,
+      "value": "他の"
+    }
+  ],
+  "id.type.passport": [
+    {
+      "type": 0,
+      "value": "パスポート"
+    }
+  ],
+  "id.type.supplementary": [
+    {
+      "type": 0,
+      "value": "補足"
+    }
+  ],
+  "id.type.tax": [
+    {
+      "type": 0,
+      "value": "税"
+    }
+  ],
+  "identification": [
+    {
+      "type": 0,
+      "value": "識別"
+    }
+  ],
+  "identifierCode": [
+    {
+      "type": 0,
+      "value": "識別子コード"
+    }
+  ],
+  "inProgressTransactions": [
+    {
+      "type": 0,
+      "value": "進行中のトランザクション"
+    }
+  ],
+  "inWalletATM": [
+    {
+      "type": 0,
+      "value": "インウォレットATM"
+    }
+  ],
+  "inWalletPOS": [
+    {
+      "type": 0,
+      "value": "インウォレットPOS"
+    }
+  ],
+  "inbound": [
+    {
+      "type": 0,
+      "value": "インバウンド"
+    }
+  ],
+  "individualCurrencyMargin": [
+    {
+      "type": 0,
+      "value": "個別通貨証拠金"
+    }
+  ],
+  "individualCurrencyMarginOptional": [
+    {
+      "type": 0,
+      "value": "個別通貨証拠金 (オプション)"
+    }
+  ],
+  "individualCurrencyMargins": [
+    {
+      "type": 0,
+      "value": "個別通貨証拠金"
+    }
+  ],
+  "input.memo.placeholder": [
+    {
+      "type": 0,
+      "value": "メモ (最大300文字)"
+    }
+  ],
+  "inputLabel": [
+    {
+      "type": 0,
+      "value": "入力ラベル"
+    }
+  ],
+  "installments": [
+    {
+      "type": 0,
+      "value": "分割払い"
+    }
+  ],
+  "interchangeName": [
+    {
+      "type": 0,
+      "value": "インターチェンジ名"
+    }
+  ],
+  "interchanges": [
+    {
+      "type": 0,
+      "value": "インターチェンジ"
+    }
+  ],
+  "interest": [
+    {
+      "type": 0,
+      "value": "利子"
+    }
+  ],
+  "interestAccrual": [
+    {
+      "type": 0,
+      "value": "利息発生"
+    }
+  ],
+  "interestAccrualType": [
+    {
+      "type": 0,
+      "value": "利息発生タイプ"
+    }
+  ],
+  "interestApplicationDay": [
+    {
+      "type": 0,
+      "value": "利子申請日*"
+    }
+  ],
+  "interestCharged": [
+    {
+      "type": 0,
+      "value": "利息がかかる"
+    }
+  ],
+  "interestForgiveness": [
+    {
+      "type": 0,
+      "value": "利息の免除"
+    }
+  ],
+  "interestRateTier": [
+    {
+      "type": 0,
+      "value": "金利層"
+    }
+  ],
+  "interestRateTiers": [
+    {
+      "type": 0,
+      "value": "金利階層"
+    }
+  ],
+  "intermediateCurrency": [
+    {
+      "type": 0,
+      "value": "中間通貨"
+    }
+  ],
+  "internal": [
+    {
+      "type": 0,
+      "value": "内部"
+    }
+  ],
+  "issuedDate": [
+    {
+      "type": 0,
+      "value": "発行日"
+    }
+  ],
+  "issuerIdentifier": [
+    {
+      "type": 0,
+      "value": "イシュアーID"
+    }
+  ],
+  "january": [
+    {
+      "type": 0,
+      "value": "1月"
+    }
+  ],
+  "jr": [
+    {
+      "type": 0,
+      "value": "ジュニア"
+    }
+  ],
+  "july": [
+    {
+      "type": 0,
+      "value": "7月"
+    }
+  ],
+  "june": [
+    {
+      "type": 0,
+      "value": "6月"
+    }
+  ],
+  "label": [
+    {
+      "type": 0,
+      "value": "ラベル"
+    }
+  ],
+  "label.editCustomer": [
+    {
+      "type": 0,
+      "value": "顧客の編集"
+    }
+  ],
+  "label.language.english": [
+    {
+      "type": 0,
+      "value": "英語 (US)"
+    }
+  ],
+  "label.language.japanese": [
+    {
+      "type": 0,
+      "value": "日本語"
+    }
+  ],
+  "label.language.portuguese": [
+    {
+      "type": 0,
+      "value": "ポルトガル語"
+    }
+  ],
+  "label.language.spanish": [
+    {
+      "type": 0,
+      "value": "スペイン語"
+    }
+  ],
+  "label.totalBalance": [
+    {
+      "type": 0,
+      "value": "総合収支"
+    }
+  ],
+  "language": [
+    {
+      "type": 0,
+      "value": "言語"
+    }
+  ],
+  "language.reset.button": [
+    {
+      "type": 0,
+      "value": "リセット"
+    }
+  ],
+  "lastCycleBalance": [
+    {
+      "type": 0,
+      "value": "最終サイクル残高"
+    }
+  ],
+  "lastCycleCloseDate": [
+    {
+      "type": 0,
+      "value": "最終サイクル完了日"
+    }
+  ],
+  "lastFourPAN": [
+    {
+      "type": 0,
+      "value": "PANの下4桁"
+    }
+  ],
+  "lastLogin": [
+    {
+      "type": 0,
+      "value": "最終ログイン"
+    }
+  ],
+  "lastModified": [
+    {
+      "type": 0,
+      "value": "最終更新日"
+    }
+  ],
+  "lastName": [
+    {
+      "type": 0,
+      "value": "姓"
+    }
+  ],
+  "latePaymentFee": [
+    {
+      "type": 0,
+      "value": "遅延料金"
+    }
+  ],
+  "limitResultsTo": [
+    {
+      "type": 0,
+      "value": "最大表示件数"
+    }
+  ],
+  "linkedPartner": [
+    {
+      "type": 0,
+      "value": "リンクされたパートナー"
+    }
+  ],
+  "linkedPartners": [
+    {
+      "type": 0,
+      "value": "リンクされたパートナー"
+    }
+  ],
+  "linkedProgram": [
+    {
+      "type": 0,
+      "value": "リンクされたプログラム"
+    }
+  ],
+  "linkedPrograms": [
+    {
+      "type": 0,
+      "value": "リンクされたプログラム"
+    }
+  ],
+  "load": [
+    {
+      "type": 0,
+      "value": "入金"
+    }
+  ],
+  "loanPeriod": [
+    {
+      "type": 0,
+      "value": "貸出期間*"
+    }
+  ],
+  "loanPeriodDays": [
+    {
+      "type": 0,
+      "value": "貸出期間日数*"
+    }
+  ],
+  "locale": [
+    {
+      "type": 0,
+      "value": "ロケール"
+    }
+  ],
+  "location": [
+    {
+      "type": 0,
+      "value": "ロケーション"
+    }
+  ],
+  "locked": [
+    {
+      "type": 0,
+      "value": "ロック"
+    }
+  ],
+  "login": [
+    {
+      "type": 0,
+      "value": "ログイン"
+    }
+  ],
+  "login.button.login": [
+    {
+      "type": 0,
+      "value": "ログイン"
+    }
+  ],
+  "login.label.rememberMe": [
+    {
+      "type": 0,
+      "value": "ログイン情報を保存"
+    }
+  ],
+  "login.link.forgotPassword": [
+    {
+      "type": 0,
+      "value": "パスワードを忘れた場合"
+    }
+  ],
+  "logout": [
+    {
+      "type": 0,
+      "value": "ログアウト"
+    }
+  ],
+  "mail.state.unverified": [
+    {
+      "type": 0,
+      "value": "未確認"
+    }
+  ],
+  "mail.template.type.accountBalanceChange": [
+    {
+      "type": 0,
+      "value": "口座残高の変更"
+    }
+  ],
+  "mail.template.type.accountBalanceChangePurchase": [
+    {
+      "type": 0,
+      "value": "アカウント残高変更購入"
+    }
+  ],
+  "mail.template.type.accountBalanceChangeWithdraw": [
+    {
+      "type": 0,
+      "value": "口座残高変更 出金"
+    }
+  ],
+  "mail.template.type.accountBlock": [
+    {
+      "type": 0,
+      "value": "アカウントのブロック"
+    }
+  ],
+  "mail.template.type.accountOpeningAcceptance": [
+    {
+      "type": 0,
+      "value": "口座開設受付"
+    }
+  ],
+  "mail.template.type.accountSetupComplete": [
+    {
+      "type": 0,
+      "value": "アカウント設定完了"
+    }
+  ],
+  "mail.template.type.addressChanged": [
+    {
+      "type": 0,
+      "value": "住所変更"
+    }
+  ],
+  "mail.template.type.authorization": [
+    {
+      "type": 0,
+      "value": "認可"
+    }
+  ],
+  "mail.template.type.authorizationError": [
+    {
+      "type": 0,
+      "value": "認証エラー"
+    }
+  ],
+  "mail.template.type.autoTopUp": [
+    {
+      "type": 0,
+      "value": "自動チャージ"
+    }
+  ],
+  "mail.template.type.autoTopUpRemoved": [
+    {
+      "type": 0,
+      "value": "自動トップアップが削除されました"
+    }
+  ],
+  "mail.template.type.autoTopUpSet": [
+    {
+      "type": 0,
+      "value": "オートチャージセット"
+    }
+  ],
+  "mail.template.type.availableBalance": [
+    {
+      "type": 0,
+      "value": "利用可能残高"
+    }
+  ],
+  "mail.template.type.background": [
+    {
+      "type": 0,
+      "value": "バックグラウンド"
+    }
+  ],
+  "mail.template.type.cardActivation": [
+    {
+      "type": 0,
+      "value": "カードアクティベーション"
+    }
+  ],
+  "mail.template.type.cardBlock": [
+    {
+      "type": 0,
+      "value": "カードブロック"
+    }
+  ],
+  "mail.template.type.cardBlockRelease": [
+    {
+      "type": 0,
+      "value": "カードブロック解除"
+    }
+  ],
+  "mail.template.type.cardExternalTokenActivated": [
+    {
+      "type": 0,
+      "value": "カードの外部トークンが有効化されました"
+    }
+  ],
+  "mail.template.type.cardExternalTokenUpdated": [
+    {
+      "type": 0,
+      "value": "カードの外部トークンが更新されました"
+    }
+  ],
+  "mail.template.type.cashWithdraw": [
+    {
+      "type": 0,
+      "value": "現金引き出し"
+    }
+  ],
+  "mail.template.type.closeCustomerAccount": [
+    {
+      "type": 0,
+      "value": "顧客アカウントを閉じる"
+    }
+  ],
+  "mail.template.type.creditLimit": [
+    {
+      "type": 0,
+      "value": "与信限度額"
+    }
+  ],
+  "mail.template.type.customerActivation": [
+    {
+      "type": 0,
+      "value": "顧客の活性化"
+    }
+  ],
+  "mail.template.type.customerBlock": [
+    {
+      "type": 0,
+      "value": "顧客ブロック"
+    }
+  ],
+  "mail.template.type.customerPasscodeReset": [
+    {
+      "type": 0,
+      "value": "顧客パスコードのリセット"
+    }
+  ],
+  "mail.template.type.customerPasscodeResetCompleted": [
+    {
+      "type": 0,
+      "value": "お客様のパスコードのリセットが完了しました"
+    }
+  ],
+  "mail.template.type.customerRisk": [
+    {
+      "type": 0,
+      "value": "顧客リスク"
+    }
+  ],
+  "mail.template.type.customerRiskChangeFailed": [
+    {
+      "type": 0,
+      "value": "顧客リスクの変更に失敗しました"
+    }
+  ],
+  "mail.template.type.customerRiskChangeOK": [
+    {
+      "type": 0,
+      "value": "顧客 リスク 変更 OK"
+    }
+  ],
+  "mail.template.type.debitLimit": [
+    {
+      "type": 0,
+      "value": "限度額"
+    }
+  ],
+  "mail.template.type.deliverTokenActivationCode": [
+    {
+      "type": 0,
+      "value": "トークン アクティベーション コードの配信"
+    }
+  ],
+  "mail.template.type.emailChangeRequest": [
+    {
+      "type": 0,
+      "value": "メール変更リクエスト"
+    }
+  ],
+  "mail.template.type.emailChanged": [
+    {
+      "type": 0,
+      "value": "メールが変更されました"
+    }
+  ],
+  "mail.template.type.foreignTransaction": [
+    {
+      "type": 0,
+      "value": "外国取引"
+    }
+  ],
+  "mail.template.type.loadComplete": [
+    {
+      "type": 0,
+      "value": "ロード完了"
+    }
+  ],
+  "mail.template.type.loginLocked": [
+    {
+      "type": 0,
+      "value": "ログインがロックされました"
+    }
+  ],
+  "mail.template.type.lowBalance": [
+    {
+      "type": 0,
+      "value": "ローバランス"
+    }
+  ],
+  "mail.template.type.negativeBalance": [
+    {
+      "type": 0,
+      "value": "マイナス残高"
+    }
+  ],
+  "mail.template.type.newAccount": [
+    {
+      "type": 0,
+      "value": "新しいアカウント"
+    }
+  ],
+  "mail.template.type.passwordReset": [
+    {
+      "type": 0,
+      "value": "パスワードのリセット"
+    }
+  ],
+  "mail.template.type.passwordResetCompleted": [
+    {
+      "type": 0,
+      "value": "パスワードのリセットが完了しました"
+    }
+  ],
+  "mail.template.type.phoneChanged": [
+    {
+      "type": 0,
+      "value": "電話が変更されました"
+    }
+  ],
+  "mail.template.type.pinChanged": [
+    {
+      "type": 0,
+      "value": "ピンが変更されました"
+    }
+  ],
+  "mail.template.type.transaction": [
+    {
+      "type": 0,
+      "value": "取引"
+    }
+  ],
+  "mail.template.type.transactionComplete": [
+    {
+      "type": 0,
+      "value": "取引完了"
+    }
+  ],
+  "mail.template.type.transactionFailure": [
+    {
+      "type": 0,
+      "value": "トランザクションの失敗"
+    }
+  ],
+  "mail.template.type.verifyEmail": [
+    {
+      "type": 0,
+      "value": "Eメールを確認します"
+    }
+  ],
+  "mail.template.type.verifyEmailCompleted": [
+    {
+      "type": 0,
+      "value": "メールの確認完了"
+    }
+  ],
+  "mail.template.type.walletTransfer": [
+    {
+      "type": 0,
+      "value": "ウォレット転送"
+    }
+  ],
+  "mail.template.type.withdrawal": [
+    {
+      "type": 0,
+      "value": "出金"
+    }
+  ],
+  "mailKey": [
+    {
+      "type": 0,
+      "value": "メールキー"
+    }
+  ],
+  "mailTemplates": [
+    {
+      "type": 0,
+      "value": "メールテンプレート"
+    }
+  ],
+  "maintenance": [
+    {
+      "type": 0,
+      "value": "メンテナンス"
+    }
+  ],
+  "makeAnAdjustment": [
+    {
+      "type": 0,
+      "value": "調整する"
+    }
+  ],
+  "march": [
+    {
+      "type": 0,
+      "value": "3月"
+    }
+  ],
+  "maximumAllowed": [
+    {
+      "type": 0,
+      "value": "最大許容"
+    }
+  ],
+  "may": [
+    {
+      "type": 0,
+      "value": "5月"
+    }
+  ],
+  "memo": [
+    {
+      "type": 0,
+      "value": "メモ"
+    }
+  ],
+  "memo.button.addNewMemo": [
+    {
+      "type": 0,
+      "value": "新しいメモを追加"
+    }
+  ],
+  "memo.input.max255Chars.placeholder": [
+    {
+      "type": 0,
+      "value": "メモ (最大255文字)"
+    }
+  ],
+  "memo.input.placeholder": [
+    {
+      "type": 0,
+      "value": "メモ (最大300文字)"
+    }
+  ],
+  "memo.input.placeholder.max128Chars": [
+    {
+      "type": 0,
+      "value": "メモ(最大128文字)"
+    }
+  ],
+  "memoKey": [
+    {
+      "type": 0,
+      "value": "メモキー"
+    }
+  ],
+  "memos": [
+    {
+      "type": 0,
+      "value": "メモ"
+    }
+  ],
+  "merchant": [
+    {
+      "type": 0,
+      "value": "加盟店"
+    }
+  ],
+  "merchantCity": [
+    {
+      "type": 0,
+      "value": "商業都市"
+    }
+  ],
+  "merchantControl": [
+    {
+      "type": 0,
+      "value": "加盟店管理"
+    }
+  ],
+  "merchantControl.success.created": [
+    {
+      "type": 0,
+      "value": "マーチャント コントロールが正常に作成されました"
+    }
+  ],
+  "merchantControl.success.deleted": [
+    {
+      "type": 0,
+      "value": "マーチャント コントロールが正常に削除されました"
+    }
+  ],
+  "merchantControl.success.updated": [
+    {
+      "type": 0,
+      "value": "マーチャント コントロールが正常に更新されました"
+    }
+  ],
+  "merchantControls": [
+    {
+      "type": 0,
+      "value": "加盟店管理"
+    }
+  ],
+  "merchantCountryCode": [
+    {
+      "type": 0,
+      "value": "マーチャント国コード"
+    }
+  ],
+  "merchantID": [
+    {
+      "type": 0,
+      "value": "販売者ID"
+    }
+  ],
+  "merchantLocation": [
+    {
+      "type": 0,
+      "value": "加盟店ロケーション"
+    }
+  ],
+  "messageType": [
+    {
+      "type": 0,
+      "value": "メッセージタイプ"
+    }
+  ],
+  "messaging": [
+    {
+      "type": 0,
+      "value": "メッセージング"
+    }
+  ],
+  "middleName": [
+    {
+      "type": 0,
+      "value": "ミドルネーム"
+    }
+  ],
+  "minimum.paymentOwed": [
+    {
+      "type": 0,
+      "value": "最低支払額"
+    }
+  ],
+  "minimumAllowed": [
+    {
+      "type": 0,
+      "value": "最小許容"
+    }
+  ],
+  "minimumDue": [
+    {
+      "type": 0,
+      "value": "最低支払額"
+    }
+  ],
+  "minimumPaymentDueHistory": [
+    {
+      "type": 0,
+      "value": "最低支払期日履歴"
+    }
+  ],
+  "minimumRepayment": [
+    {
+      "type": 0,
+      "value": "最低返済額"
+    }
+  ],
+  "minimumThreshold": [
+    {
+      "type": 0,
+      "value": "最小しきい値"
+    }
+  ],
+  "minute": [
+    {
+      "type": 0,
+      "value": "分"
+    }
+  ],
+  "mobile": [
+    {
+      "type": 0,
+      "value": "携帯"
+    }
+  ],
+  "mobileCommerce": [
+    {
+      "type": 0,
+      "value": "モバイルコマース"
+    }
+  ],
+  "modified": [
+    {
+      "type": 0,
+      "value": "変更"
+    }
+  ],
+  "modifiedDate": [
+    {
+      "type": 0,
+      "value": "変更日時"
+    }
+  ],
+  "modifiedOrCreated": [
+    {
+      "type": 0,
+      "value": "変更または作成された"
+    }
+  ],
+  "monthly": [
+    {
+      "type": 0,
+      "value": "毎月"
+    }
+  ],
+  "mr": [
+    {
+      "type": 0,
+      "value": "さん"
+    }
+  ],
+  "mrs": [
+    {
+      "type": 0,
+      "value": "さん"
+    }
+  ],
+  "ms": [
+    {
+      "type": 0,
+      "value": "さん"
+    }
+  ],
+  "name": [
+    {
+      "type": 0,
+      "value": "名前"
+    }
+  ],
+  "network": [
+    {
+      "type": 0,
+      "value": "通信網"
+    }
+  ],
+  "networkMessages": [
+    {
+      "type": 0,
+      "value": "ネットワーク メッセージ"
+    }
+  ],
+  "newAccount": [
+    {
+      "type": 0,
+      "value": "新規アカウント"
+    }
+  ],
+  "newCurrency": [
+    {
+      "type": 0,
+      "value": "新規通貨"
+    }
+  ],
+  "newFeePlan": [
+    {
+      "type": 0,
+      "value": "新規手数料プラン"
+    }
+  ],
+  "newIIN": [
+    {
+      "type": 0,
+      "value": "新規IIN"
+    }
+  ],
+  "newPassword": [
+    {
+      "type": 0,
+      "value": "新しいパスワード"
+    }
+  ],
+  "newRiskLevelNumber": [
+    {
+      "type": 0,
+      "value": "新規リスクレベル"
+    }
+  ],
+  "nextBillingPeriodEndDate": [
+    {
+      "type": 0,
+      "value": "次の請求期間の終了日"
+    }
+  ],
+  "nextRepaymentEndDate": [
+    {
+      "type": 0,
+      "value": "次回返済終了日"
+    }
+  ],
+  "nickName": [
+    {
+      "type": 0,
+      "value": "ニックネーム"
+    }
+  ],
+  "nickname": [
+    {
+      "type": 0,
+      "value": "ニックネーム"
+    }
+  ],
+  "no": [
+    {
+      "type": 0,
+      "value": "いいえ"
+    }
+  ],
+  "nonProcessingDayHandling": [
+    {
+      "type": 0,
+      "value": "休業日扱い"
+    }
+  ],
+  "none": [
+    {
+      "type": 0,
+      "value": "なし"
+    }
+  ],
+  "notifications": [
+    {
+      "type": 0,
+      "value": "通知"
+    }
+  ],
+  "notify": [
+    {
+      "type": 0,
+      "value": "通知"
+    }
+  ],
+  "november": [
+    {
+      "type": 0,
+      "value": "11月"
+    }
+  ],
+  "october": [
+    {
+      "type": 0,
+      "value": "10月"
+    }
+  ],
+  "officialId": [
+    {
+      "type": 0,
+      "value": "公的身分証明書"
+    }
+  ],
+  "oldPassword": [
+    {
+      "type": 0,
+      "value": "以前のパスワード"
+    }
+  ],
+  "online": [
+    {
+      "type": 0,
+      "value": "オンライン"
+    }
+  ],
+  "orderDetails": [
+    {
+      "type": 0,
+      "value": "オーダーの詳細"
+    }
+  ],
+  "orderNewCard": [
+    {
+      "type": 0,
+      "value": "新しいカードの注文"
+    }
+  ],
+  "originalDataElements": [
+    {
+      "type": 0,
+      "value": "オリジナルデータエレメント"
+    }
+  ],
+  "originalOwedAmount": [
+    {
+      "type": 0,
+      "value": "元の未払い額"
+    }
+  ],
+  "originalReferenceNumber": [
+    {
+      "type": 0,
+      "value": "オリジナルリファレンスナンバー"
+    }
+  ],
+  "outOfWalletATM": [
+    {
+      "type": 0,
+      "value": "アウトウォレットATM"
+    }
+  ],
+  "outOfWalletPOS": [
+    {
+      "type": 0,
+      "value": "アウトウォレットPOS"
+    }
+  ],
+  "overallBalanceRatio": [
+    {
+      "type": 0,
+      "value": "全体収支比率"
+    }
+  ],
+  "owedBilledInterest": [
+    {
+      "type": 0,
+      "value": "請求済み利息の未払い"
+    }
+  ],
+  "owedInterest": [
+    {
+      "type": 0,
+      "value": "未払いの利息"
+    }
+  ],
+  "owedInterestRatio": [
+    {
+      "type": 0,
+      "value": "未払利率"
+    }
+  ],
+  "owedPastDueRatio": [
+    {
+      "type": 0,
+      "value": "未払い率"
+    }
+  ],
+  "owedPrincipal": [
+    {
+      "type": 0,
+      "value": "未払いの元本"
+    }
+  ],
+  "owedPrincipalRatio": [
+    {
+      "type": 0,
+      "value": "未払い元本比率"
+    }
+  ],
+  "page.title.editProgram": [
+    {
+      "type": 0,
+      "value": "プログラムの編集"
+    }
+  ],
+  "partial": [
+    {
+      "type": 0,
+      "value": "部分"
+    }
+  ],
+  "partner": [
+    {
+      "type": 0,
+      "value": "パートナー"
+    }
+  ],
+  "partner.add.additional.inns.button": [
+    {
+      "type": 0,
+      "value": "IINを追加"
+    }
+  ],
+  "partnerManagerDetails": [
+    {
+      "type": 0,
+      "value": "パートナー マネージャーの詳細"
+    }
+  ],
+  "partnerName": [
+    {
+      "type": 0,
+      "value": "パートナー名"
+    }
+  ],
+  "partnerUserState": [
+    {
+      "type": 0,
+      "value": "パートナー ユーザーの状態"
+    }
+  ],
+  "partners": [
+    {
+      "type": 0,
+      "value": "パートナー"
+    }
+  ],
+  "password": [
+    {
+      "type": 0,
+      "value": "パスワード"
+    }
+  ],
+  "password-reset-save-password-button": [
+    {
+      "type": 0,
+      "value": "パスワードをリセット"
+    }
+  ],
+  "password.success.message": [
+    {
+      "type": 0,
+      "value": "パスワードが正常に更新されました。新しいパスワードでログインしてください！"
+    }
+  ],
+  "paymentDueDate": [
+    {
+      "type": 0,
+      "value": "支払期限"
+    }
+  ],
+  "paymentNetworkMessageDetails": [
+    {
+      "type": 0,
+      "value": "ペイメントネットワークメッセージの詳細"
+    }
+  ],
+  "paymentNetworkMessages": [
+    {
+      "type": 0,
+      "value": "ペイメントネットワークメッセージ"
+    }
+  ],
+  "payments": [
+    {
+      "type": 0,
+      "value": "支払い"
+    }
+  ],
+  "pendingAmount": [
+    {
+      "type": 0,
+      "value": "ホールド中の金額"
+    }
+  ],
+  "pendingChange": [
+    {
+      "type": 0,
+      "value": "保留中の変更"
+    }
+  ],
+  "percentage": [
+    {
+      "type": 0,
+      "value": "割合"
+    }
+  ],
+  "periodManagement": [
+    {
+      "type": 0,
+      "value": "期間管理"
+    }
+  ],
+  "person": [
+    {
+      "type": 0,
+      "value": "人"
+    }
+  ],
+  "personChangeHistory": [
+    {
+      "type": 0,
+      "value": "個人変更履歴"
+    }
+  ],
+  "personal": [
+    {
+      "type": 0,
+      "value": "個人"
+    }
+  ],
+  "personalInformation": [
+    {
+      "type": 0,
+      "value": "個人情報"
+    }
+  ],
+  "phone": [
+    {
+      "type": 0,
+      "value": "電話"
+    }
+  ],
+  "phone.success.deleted": [
+    {
+      "type": 0,
+      "value": "電話が正常に削除されました"
+    }
+  ],
+  "phoneInfo.updated.successful": [
+    {
+      "type": 0,
+      "value": "電話情報が正常に更新されました。"
+    }
+  ],
+  "phoneNumber": [
+    {
+      "type": 0,
+      "value": "電話番号"
+    }
+  ],
+  "phoneNumber.input.placeholder": [
+    {
+      "type": 0,
+      "value": "電話番号*"
+    }
+  ],
+  "phoneType": [
+    {
+      "type": 0,
+      "value": "電話番号タイプ"
+    }
+  ],
+  "phones": [
+    {
+      "type": 0,
+      "value": "携帯電話"
+    }
+  ],
+  "placeOrder": [
+    {
+      "type": 0,
+      "value": "注文を送信"
+    }
+  ],
+  "pleaseChooseOne": [
+    {
+      "type": 0,
+      "value": "いずれかお選びください。"
+    }
+  ],
+  "postalCode": [
+    {
+      "type": 0,
+      "value": "郵便番号"
+    }
+  ],
+  "preferredLanguage": [
+    {
+      "type": 0,
+      "value": "言語設定"
+    }
+  ],
+  "previousBilledInterest": [
+    {
+      "type": 0,
+      "value": "以前の請求済み利息"
+    }
+  ],
+  "previousCycleBalance": [
+    {
+      "type": 0,
+      "value": "前周期残高"
+    }
+  ],
+  "previousInterest": [
+    {
+      "type": 0,
+      "value": "以前の興味"
+    }
+  ],
+  "previousInterestRatio": [
+    {
+      "type": 0,
+      "value": "旧利率"
+    }
+  ],
+  "previousPrincipal": [
+    {
+      "type": 0,
+      "value": "前校長"
+    }
+  ],
+  "previousPrincipalRatio": [
+    {
+      "type": 0,
+      "value": "以前の元本比率"
+    }
+  ],
+  "primaryAction": [
+    {
+      "type": 0,
+      "value": "プライマリ アクション"
+    }
+  ],
+  "primaryNumber": [
+    {
+      "type": 0,
+      "value": "プライマリ番号"
+    }
+  ],
+  "primaryPerson": [
+    {
+      "type": 0,
+      "value": "プライマリパーソン"
+    }
+  ],
+  "processingCode": [
+    {
+      "type": 0,
+      "value": "プロセシングコード"
+    }
+  ],
+  "product": [
+    {
+      "type": 0,
+      "value": "プロダクト"
+    }
+  ],
+  "productedit.credit.button": [
+    {
+      "type": 0,
+      "value": "編集"
+    }
+  ],
+  "products": [
+    {
+      "type": 0,
+      "value": "製品"
+    }
+  ],
+  "products.name": [
+    {
+      "type": 0,
+      "value": "製品名"
+    }
+  ],
+  "profile": [
+    {
+      "type": 0,
+      "value": "プロファイル"
+    }
+  ],
+  "program": [
+    {
+      "type": 0,
+      "value": "プログラム"
+    }
+  ],
+  "program.hideFeePlans": [
+    {
+      "type": 0,
+      "value": "この手数料プランに含まれるすべての手数料を非表示にする"
+    }
+  ],
+  "program.riskLevels.deleteRiskRule": [
+    {
+      "type": 0,
+      "value": "リスクルールを削除するために作成された順序の変更"
+    }
+  ],
+  "program.showFeePlans": [
+    {
+      "type": 0,
+      "value": "この手数料プランに含まれるすべての手数料を表示する"
+    }
+  ],
+  "program.success.created": [
+    {
+      "type": 0,
+      "value": "プログラムが正常に作成されました"
+    }
+  ],
+  "program.success.updated": [
+    {
+      "type": 0,
+      "value": "プログラムは正常に更新されました"
+    }
+  ],
+  "programs": [
+    {
+      "type": 0,
+      "value": "プログラム"
+    }
+  ],
+  "programs.add.button": [
+    {
+      "type": 0,
+      "value": "選択して進む"
+    }
+  ],
+  "programs.button.addNewProgram": [
+    {
+      "type": 0,
+      "value": "新しいプログラムを追加"
+    }
+  ],
+  "programs.cardProfiles.button.view": [
+    {
+      "type": 0,
+      "value": "見る"
+    }
+  ],
+  "programs.edit.label.pansIssued": [
+    {
+      "type": 0,
+      "value": "発行されたPAN"
+    }
+  ],
+  "programs.header.configure.product": [
+    {
+      "type": 0,
+      "value": "プロダクトを構成する"
+    }
+  ],
+  "programs.header.program.add": [
+    {
+      "type": 0,
+      "value": "セットアップオプションの選択"
+    }
+  ],
+  "programs.riskLevel.label.riskLevel": [
+    {
+      "type": 0,
+      "value": "リスクレベル - "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "programs.section.add.products": [
+    {
+      "type": 0,
+      "value": "テンプレートを使用、または既存のプログラムをコピーしてセットアップすることができます。"
+    }
+  ],
+  "programs.section.configure.product": [
+    {
+      "type": 0,
+      "value": "ベースプログラムをセットアップし、プロダクトの振る舞いをカスタマイズします。"
+    }
+  ],
+  "programs.table.primaryContact": [
+    {
+      "type": 0,
+      "value": "一次連絡先"
+    }
+  ],
+  "projected": [
+    {
+      "type": 0,
+      "value": "投影された"
+    }
+  ],
+  "purchase": [
+    {
+      "type": 0,
+      "value": "購入"
+    }
+  ],
+  "purchaseBalances": [
+    {
+      "type": 0,
+      "value": "購入残高"
+    }
+  ],
+  "purchaseRate": [
+    {
+      "type": 0,
+      "value": "買取率"
+    }
+  ],
+  "purchaseRepaymentRatios": [
+    {
+      "type": 0,
+      "value": "買取率"
+    }
+  ],
+  "purchasesCharged": [
+    {
+      "type": 0,
+      "value": "有料の購入"
+    }
+  ],
+  "quickSpend": [
+    {
+      "type": 0,
+      "value": "クイック支出"
+    }
+  ],
+  "rateMethod": [
+    {
+      "type": 0,
+      "value": "レート方法"
+    }
+  ],
+  "rawMessage": [
+    {
+      "type": 0,
+      "value": "生メッセージ"
+    }
+  ],
+  "re.issue.card.cancel.button": [
+    {
+      "type": 0,
+      "value": "キャンセル"
+    }
+  ],
+  "realTime": [
+    {
+      "type": 0,
+      "value": "リアルタイム"
+    }
+  ],
+  "reason": [
+    {
+      "type": 0,
+      "value": "理由"
+    }
+  ],
+  "recFixedFeePercentage": [
+    {
+      "type": 0,
+      "value": "記録 固定金額/割合"
+    }
+  ],
+  "receiverFixFee": [
+    {
+      "type": 0,
+      "value": "受取人固定金額"
+    }
+  ],
+  "receiverFixedAmount": [
+    {
+      "type": 0,
+      "value": "受取人固定金額"
+    }
+  ],
+  "receiverPercent": [
+    {
+      "type": 0,
+      "value": "受取人手数料の割合"
+    }
+  ],
+  "receiverPercentage": [
+    {
+      "type": 0,
+      "value": "受取人パーセンテージ"
+    }
+  ],
+  "recentActivity": [
+    {
+      "type": 0,
+      "value": "最近のアクティビティ"
+    }
+  ],
+  "referenceNumber": [
+    {
+      "type": 0,
+      "value": "リファレンスナンバー"
+    }
+  ],
+  "refund": [
+    {
+      "type": 0,
+      "value": "返金"
+    }
+  ],
+  "reissue": [
+    {
+      "type": 0,
+      "value": "再発行"
+    }
+  ],
+  "reissue.cards.chargeFee": [
+    {
+      "type": 0,
+      "value": "手数料請求"
+    }
+  ],
+  "reissue.cards.deactivateCurrent": [
+    {
+      "type": 0,
+      "value": "現在のカードを無効化"
+    }
+  ],
+  "reissue.cards.expeditedShipping": [
+    {
+      "type": 0,
+      "value": "お急ぎ便"
+    }
+  ],
+  "reissue.cards.reissue.button": [
+    {
+      "type": 0,
+      "value": "再発行"
+    }
+  ],
+  "reissue.cards.sameExpiry": [
+    {
+      "type": 0,
+      "value": "同じ有効期限"
+    }
+  ],
+  "reissue.cards.samePan": [
+    {
+      "type": 0,
+      "value": "同じPAN"
+    }
+  ],
+  "reissue.cards.title": [
+    {
+      "type": 0,
+      "value": "カードの再発行"
+    }
+  ],
+  "reissueCards": [
+    {
+      "type": 0,
+      "value": "カードの再発行"
+    }
+  ],
+  "reject": [
+    {
+      "type": 0,
+      "value": "拒絶"
+    }
+  ],
+  "relationships": [
+    {
+      "type": 0,
+      "value": "リレーションシップ"
+    }
+  ],
+  "releasableDate": [
+    {
+      "type": 0,
+      "value": "リリース可能日"
+    }
+  ],
+  "release": [
+    {
+      "type": 0,
+      "value": "リリース"
+    }
+  ],
+  "releaseBlock": [
+    {
+      "type": 0,
+      "value": "リリースブロック"
+    }
+  ],
+  "releaseHold": [
+    {
+      "type": 0,
+      "value": "ホールド解除"
+    }
+  ],
+  "releaseMemo": [
+    {
+      "type": 0,
+      "value": "リリースメモ"
+    }
+  ],
+  "released": [
+    {
+      "type": 0,
+      "value": "リリース済"
+    }
+  ],
+  "releasedBy": [
+    {
+      "type": 0,
+      "value": "リリース元"
+    }
+  ],
+  "releasedDate": [
+    {
+      "type": 0,
+      "value": "発売日"
+    }
+  ],
+  "remove": [
+    {
+      "type": 0,
+      "value": "削除"
+    }
+  ],
+  "repayment": [
+    {
+      "type": 0,
+      "value": "返済"
+    }
+  ],
+  "repaymentAmountRequirement": [
+    {
+      "type": 0,
+      "value": "返済額要件"
+    }
+  ],
+  "repaymentHierarchy": [
+    {
+      "type": 0,
+      "value": "返済階層"
+    }
+  ],
+  "repaymentPeriodLength": [
+    {
+      "type": 0,
+      "value": "返済期間"
+    }
+  ],
+  "replacement": [
+    {
+      "type": 0,
+      "value": "両替"
+    }
+  ],
+  "request.success.completed": [
+    {
+      "type": 0,
+      "value": "リクエストが正常に完了しました"
+    }
+  ],
+  "request.type.amountChangeRequest": [
+    {
+      "type": 0,
+      "value": "金額変更依頼"
+    }
+  ],
+  "request.type.customerAdjustmentRequest": [
+    {
+      "type": 0,
+      "value": "お客様調整依頼"
+    }
+  ],
+  "request.type.exchangeMarginRequest": [
+    {
+      "type": 0,
+      "value": "為替証拠金請求"
+    }
+  ],
+  "request.type.feeEntryRequest": [
+    {
+      "type": 0,
+      "value": "有料エントリーリクエスト"
+    }
+  ],
+  "request.type.feePlanRequest": [
+    {
+      "type": 0,
+      "value": "料金プランのリクエスト"
+    }
+  ],
+  "request.type.programAdjustmentRequest": [
+    {
+      "type": 0,
+      "value": "プログラム調整依頼"
+    }
+  ],
+  "request.type.riskConfigRequest": [
+    {
+      "type": 0,
+      "value": "リスク設定リクエスト"
+    }
+  ],
+  "request.type.riskLevelRequest": [
+    {
+      "type": 0,
+      "value": "リスクレベルのリクエスト"
+    }
+  ],
+  "requestMemo": [
+    {
+      "type": 0,
+      "value": "リクエストメモ"
+    }
+  ],
+  "requestedBy": [
+    {
+      "type": 0,
+      "value": "要求元"
+    }
+  ],
+  "requestedDate": [
+    {
+      "type": 0,
+      "value": "要求日"
+    }
+  ],
+  "reset": [
+    {
+      "type": 0,
+      "value": "リセット"
+    }
+  ],
+  "reset.password.error": [
+    {
+      "type": 0,
+      "value": "パスワード再設定エラー"
+    }
+  ],
+  "reset.password.fields": [
+    {
+      "type": 0,
+      "value": "以下でパスワードをリセットします"
+    }
+  ],
+  "reset.password.instructions": [
+    {
+      "type": 0,
+      "value": "以下に新しいパスワードを入力し、2 番目のフィールドで新しいパスワードを確認します"
+    }
+  ],
+  "reset.reset.link.sent": [
+    {
+      "type": 0,
+      "value": "パスワードが正常にリセットされました"
+    }
+  ],
+  "reset.reset.success": [
+    {
+      "type": 0,
+      "value": "成功!"
+    }
+  ],
+  "resetPartnerUserPassword": [
+    {
+      "type": 0,
+      "value": "パートナーユーザーのパスワードをリセット"
+    }
+  ],
+  "resetPassword": [
+    {
+      "type": 0,
+      "value": "パスワードを再設定する"
+    }
+  ],
+  "responseCode": [
+    {
+      "type": 0,
+      "value": "レスポンスコード"
+    }
+  ],
+  "retrievalReferenceNumber": [
+    {
+      "type": 0,
+      "value": "リトリーバルリファレンスナンバー"
+    }
+  ],
+  "reversal": [
+    {
+      "type": 0,
+      "value": "取消"
+    }
+  ],
+  "reward": [
+    {
+      "type": 0,
+      "value": "リワード"
+    }
+  ],
+  "risk": [
+    {
+      "type": 0,
+      "value": "リスク"
+    }
+  ],
+  "risk-level-two-delete-button": [
+    {
+      "type": 0,
+      "value": "削除"
+    }
+  ],
+  "risk.exception.created": [
+    {
+      "type": 0,
+      "value": "作成日時"
+    }
+  ],
+  "risk.exception.deleteButton": [
+  ],
+  "risk.exception.modified": [
+    {
+      "type": 0,
+      "value": "変更日時"
+    }
+  ],
+  "risk.exception.name": [
+    {
+      "type": 0,
+      "value": "名前"
+    }
+  ],
+  "risk.exception.releaseDate": [
+    {
+      "type": 0,
+      "value": "リリース日時"
+    }
+  ],
+  "risk.exception.value": [
+    {
+      "type": 0,
+      "value": "値"
+    }
+  ],
+  "risk.measurement.block": [
+    {
+      "type": 0,
+      "value": "ブロック"
+    }
+  ],
+  "risk.measurement.creationTime": [
+    {
+      "type": 0,
+      "value": "作成日時"
+    }
+  ],
+  "risk.measurement.currentValue": [
+    {
+      "type": 0,
+      "value": "現在値"
+    }
+  ],
+  "risk.measurement.disabled": [
+    {
+      "type": 0,
+      "value": "無効"
+    }
+  ],
+  "risk.measurement.maxValue": [
+    {
+      "type": 0,
+      "value": "最大値"
+    }
+  ],
+  "risk.measurement.name": [
+    {
+      "type": 0,
+      "value": "名前"
+    }
+  ],
+  "risk.measurement.notify": [
+    {
+      "type": 0,
+      "value": "通知"
+    }
+  ],
+  "risk.param.accumulated_purchase_limit": [
+    {
+      "type": 0,
+      "value": "累積購入リミット"
+    }
+  ],
+  "risk.param.activation_time_limit": [
+    {
+      "type": 0,
+      "value": "アクティベーションタイムリミット"
+    }
+  ],
+  "risk.param.adjustment_1d": [
+    {
+      "type": 0,
+      "value": "アジャストメントリミット 1日"
+    }
+  ],
+  "risk.param.adjustment_30d": [
+    {
+      "type": 0,
+      "value": "アジャストメントリミット 30日"
+    }
+  ],
+  "risk.param.adjustment_7d": [
+    {
+      "type": 0,
+      "value": "アジャストメントリミット 7日"
+    }
+  ],
+  "risk.param.adjustment_limit": [
+    {
+      "type": 0,
+      "value": "アジャストメントリミット"
+    }
+  ],
+  "risk.param.age_limit": [
+    {
+      "type": 0,
+      "value": "年齢制限"
+    }
+  ],
+  "risk.param.allowed_mcc": [
+    {
+      "type": 0,
+      "value": "使用可能MCC"
+    }
+  ],
+  "risk.param.atm_1d": [
+    {
+      "type": 0,
+      "value": "ATM出金リミット 1日"
+    }
+  ],
+  "risk.param.atm_30d": [
+    {
+      "type": 0,
+      "value": "ATM出金リミット 30日"
+    }
+  ],
+  "risk.param.atm_7d": [
+    {
+      "type": 0,
+      "value": "ATM出金リミット 7日"
+    }
+  ],
+  "risk.param.atm_count_1d": [
+    {
+      "type": 0,
+      "value": "1日のATMカウント制限"
+    }
+  ],
+  "risk.param.atm_count_30d": [
+    {
+      "type": 0,
+      "value": "30 日間の ATM カウント制限"
+    }
+  ],
+  "risk.param.atm_count_7d": [
+    {
+      "type": 0,
+      "value": "ATM回数 7日"
+    }
+  ],
+  "risk.param.atm_domestic_1d": [
+    {
+      "type": 0,
+      "value": "国内ATMデビットカード1日利用限度額"
+    }
+  ],
+  "risk.param.atm_domestic_limit": [
+    {
+      "type": 0,
+      "value": "国内ATMデビットカードリミット"
+    }
+  ],
+  "risk.param.atm_international_1d": [
+    {
+      "type": 0,
+      "value": "1日の国際ATM限度額"
+    }
+  ],
+  "risk.param.atm_international_limit": [
+    {
+      "type": 0,
+      "value": "海外ATMリミット"
+    }
+  ],
+  "risk.param.atm_limit": [
+    {
+      "type": 0,
+      "value": "ATM出金リミット"
+    }
+  ],
+  "risk.param.atm_reversal_count_1d": [
+    {
+      "type": 0,
+      "value": "ATM取消回数 1日"
+    }
+  ],
+  "risk.param.auto_top_up_count_1d": [
+    {
+      "type": 0,
+      "value": "オートトップアップ回数 1日"
+    }
+  ],
+  "risk.param.auto_top_up_limit": [
+    {
+      "type": 0,
+      "value": "オートトップアップリミット"
+    }
+  ],
+  "risk.param.auto_top_up_limit_1d": [
+    {
+      "type": 0,
+      "value": "オートトップアップリミット 1日"
+    }
+  ],
+  "risk.param.balance_floor": [
+    {
+      "type": 0,
+      "value": "バランスフロア"
+    }
+  ],
+  "risk.param.balance_limit": [
+    {
+      "type": 0,
+      "value": "バランスリミット"
+    }
+  ],
+  "risk.param.blocked_countries": [
+    {
+      "type": 0,
+      "value": "使用禁止国"
+    }
+  ],
+  "risk.param.blocked_mcc": [
+    {
+      "type": 0,
+      "value": "使用禁止MCCコード"
+    }
+  ],
+  "risk.param.combined_funds_out_1y": [
+    {
+      "type": 0,
+      "value": "合計出金リミット 1年"
+    }
+  ],
+  "risk.param.combined_purchase_1d": [
+    {
+      "type": 0,
+      "value": "オンラインとPOS購入合計リミット 1日"
+    }
+  ],
+  "risk.param.disable_card_not_present": [
+    {
+      "type": 0,
+      "value": "カード提示無しブロック"
+    }
+  ],
+  "risk.param.disable_mag_stripe": [
+    {
+      "type": 0,
+      "value": "カードスワイプブロック"
+    }
+  ],
+  "risk.param.exchange_quote_duration": [
+    {
+      "type": 0,
+      "value": "両替見積もりの期間"
+    }
+  ],
+  "risk.param.hierarchy_max_level": [
+    {
+      "type": 0,
+      "value": "ハイエラルキー最大レベル"
+    }
+  ],
+  "risk.param.international_limit": [
+    {
+      "type": 0,
+      "value": "国際制限"
+    }
+  ],
+  "risk.param.limit_card_not_present": [
+    {
+      "type": 0,
+      "value": "カード提示無しリミット"
+    }
+  ],
+  "risk.param.limit_mag_stripe": [
+    {
+      "type": 0,
+      "value": "カードスワイプリミット"
+    }
+  ],
+  "risk.param.load_limit": [
+    {
+      "type": 0,
+      "value": "ロードリミット"
+    }
+  ],
+  "risk.param.load_limit_1d": [
+    {
+      "type": 0,
+      "value": "ロードリミット 1日"
+    }
+  ],
+  "risk.param.load_limit_1y": [
+    {
+      "type": 0,
+      "value": "ロードリミット 1年"
+    }
+  ],
+  "risk.param.load_limit_30d": [
+    {
+      "type": 0,
+      "value": "ロードリミット 30日"
+    }
+  ],
+  "risk.param.low_balance_threshold": [
+    {
+      "type": 0,
+      "value": "ローバランスしきい値"
+    }
+  ],
+  "risk.param.max_cards_allowed": [
+    {
+      "type": 0,
+      "value": "最大カード枚数"
+    }
+  ],
+  "risk.param.max_num_cards": [
+    {
+      "type": 0,
+      "value": "顧客アカウントごとの最大カード枚数"
+    }
+  ],
+  "risk.param.max_num_persons": [
+    {
+      "type": 0,
+      "value": "顧客アカウントごとの最大アカウントホルダー数"
+    }
+  ],
+  "risk.param.max_num_tokens_per_card": [
+    {
+      "type": 0,
+      "value": "カードごとの最大トークン数"
+    }
+  ],
+  "risk.param.minimum_load": [
+    {
+      "type": 0,
+      "value": "最小ロード"
+    }
+  ],
+  "risk.param.nomatch_merchant_control_response": [
+    {
+      "type": 0,
+      "value": "一致しない加盟店管理の応答"
+    }
+  ],
+  "risk.param.not_allowed_first_transaction_types": [
+    {
+      "type": 0,
+      "value": "初回トランザクションにおける禁止タイプ"
+    }
+  ],
+  "risk.param.online_purchase_1d": [
+    {
+      "type": 0,
+      "value": "オンライン購入リミット 1日"
+    }
+  ],
+  "risk.param.online_purchase_30d": [
+    {
+      "type": 0,
+      "value": "1日のオンライン購入制限"
+    }
+  ],
+  "risk.param.online_purchase_7d": [
+    {
+      "type": 0,
+      "value": "オンライン購入リミット 7日"
+    }
+  ],
+  "risk.param.online_purchase_count_1d": [
+    {
+      "type": 0,
+      "value": "1日のオンライン購入回数制限"
+    }
+  ],
+  "risk.param.online_purchase_count_30d": [
+    {
+      "type": 0,
+      "value": "30日間のオンライン購入回数制限"
+    }
+  ],
+  "risk.param.online_purchase_count_7d": [
+    {
+      "type": 0,
+      "value": "7日間のオンライン購入回数制限"
+    }
+  ],
+  "risk.param.online_purchase_limit": [
+    {
+      "type": 0,
+      "value": "オンライン購入リミット"
+    }
+  ],
+  "risk.param.online_purchase_mcc_limit": [
+    {
+      "type": 0,
+      "value": "オンライン購入の MCC 制限"
+    }
+  ],
+  "risk.param.p2p_1d": [
+    {
+      "type": 0,
+      "value": "P2P送金リミット 1日"
+    }
+  ],
+  "risk.param.p2p_1y": [
+    {
+      "type": 0,
+      "value": "P2P送金リミット 1年"
+    }
+  ],
+  "risk.param.p2p_30d": [
+    {
+      "type": 0,
+      "value": "P2P送金リミット 30日"
+    }
+  ],
+  "risk.param.p2p_7d": [
+    {
+      "type": 0,
+      "value": "P2P送金リミット 7日"
+    }
+  ],
+  "risk.param.p2p_limit": [
+    {
+      "type": 0,
+      "value": "P2P送金リミット"
+    }
+  ],
+  "risk.param.p2p_limit_recv": [
+    {
+      "type": 0,
+      "value": "P2P受取リミット"
+    }
+  ],
+  "risk.param.p2p_recv_1d": [
+    {
+      "type": 0,
+      "value": "P2P受取リミット 1日"
+    }
+  ],
+  "risk.param.p2p_recv_1y": [
+    {
+      "type": 0,
+      "value": "P2P受取リミット 1年"
+    }
+  ],
+  "risk.param.p2p_recv_30d": [
+    {
+      "type": 0,
+      "value": "P2P受取リミット 30日"
+    }
+  ],
+  "risk.param.passcode_reset_time_limit": [
+    {
+      "type": 0,
+      "value": "パスコードリセットタイムリミット"
+    }
+  ],
+  "risk.param.password_history_count": [
+    {
+      "type": 0,
+      "value": "パスワード履歴カウント"
+    }
+  ],
+  "risk.param.password_reset_time_limit": [
+    {
+      "type": 0,
+      "value": "顧客パスワードのリセットタイムリミット"
+    }
+  ],
+  "risk.param.pin_fail_count": [
+    {
+      "type": 0,
+      "value": "PIN失敗回数リミット"
+    }
+  ],
+  "risk.param.pin_fail_count_temporary_lock": [
+    {
+      "type": 0,
+      "value": "PIN失敗回数仮ロック"
+    }
+  ],
+  "risk.param.pos_purchase_1d": [
+    {
+      "type": 0,
+      "value": "POS購入リミット 1日"
+    }
+  ],
+  "risk.param.pos_purchase_30d": [
+    {
+      "type": 0,
+      "value": "30日間のPOS購入制限"
+    }
+  ],
+  "risk.param.pos_purchase_7d": [
+    {
+      "type": 0,
+      "value": "POS購入リミット 7日"
+    }
+  ],
+  "risk.param.pos_purchase_count_1d": [
+    {
+      "type": 0,
+      "value": "1日のPOS購入回数制限"
+    }
+  ],
+  "risk.param.pos_purchase_count_30d": [
+    {
+      "type": 0,
+      "value": "30日間のPOS購入回数制限"
+    }
+  ],
+  "risk.param.pos_purchase_count_7d": [
+    {
+      "type": 0,
+      "value": "7日間のPOS購入回数制限"
+    }
+  ],
+  "risk.param.pos_purchase_limit": [
+    {
+      "type": 0,
+      "value": "POS購入リミット"
+    }
+  ],
+  "risk.param.pre_approval_interval_begin": [
+    {
+      "type": 0,
+      "value": "事前承認インターバル開始"
+    }
+  ],
+  "risk.param.pre_approval_interval_end": [
+    {
+      "type": 0,
+      "value": "事前承認インターバル終了"
+    }
+  ],
+  "risk.param.purchase_1d": [
+    {
+      "type": 0,
+      "value": "購入リミット 1日"
+    }
+  ],
+  "risk.param.purchase_1y": [
+    {
+      "type": 0,
+      "value": "購入リミット 1年"
+    }
+  ],
+  "risk.param.purchase_30d": [
+    {
+      "type": 0,
+      "value": "購入リミット 30日"
+    }
+  ],
+  "risk.param.purchase_7d": [
+    {
+      "type": 0,
+      "value": "購入リミット 7日"
+    }
+  ],
+  "risk.param.purchase_count_1d": [
+    {
+      "type": 0,
+      "value": "1日の購入回数"
+    }
+  ],
+  "risk.param.purchase_count_30d": [
+    {
+      "type": 0,
+      "value": "30日間の購入回数"
+    }
+  ],
+  "risk.param.purchase_count_7d": [
+    {
+      "type": 0,
+      "value": "7日間の購入回数"
+    }
+  ],
+  "risk.param.purchase_count_same_merchant_1d": [
+    {
+      "type": 0,
+      "value": "同じ商人を1日購入（カウント）"
+    }
+  ],
+  "risk.param.purchase_count_same_merchant_30d": [
+    {
+      "type": 0,
+      "value": "同じ商人を購入 30 日 (カウント)"
+    }
+  ],
+  "risk.param.purchase_count_same_merchant_3d": [
+    {
+      "type": 0,
+      "value": "同じ加盟店での購入 3日 (回数)"
+    }
+  ],
+  "risk.param.purchase_count_same_merchant_7d": [
+    {
+      "type": 0,
+      "value": "同じ商人を購入 7 日 (カウント)"
+    }
+  ],
+  "risk.param.purchase_limit": [
+    {
+      "type": 0,
+      "value": "購入リミット"
+    }
+  ],
+  "risk.param.purchase_limit_recv": [
+    {
+      "type": 0,
+      "value": "購入受取リミット"
+    }
+  ],
+  "risk.param.purchase_no_cvm_1d": [
+    {
+      "type": 0,
+      "value": "CVM無し購入 1日"
+    }
+  ],
+  "risk.param.purchase_no_cvm_count_1d": [
+    {
+      "type": 0,
+      "value": "CVM無し購入回数 1日"
+    }
+  ],
+  "risk.param.purchase_no_cvm_limit": [
+    {
+      "type": 0,
+      "value": "CVM無し購入リミット"
+    }
+  ],
+  "risk.param.purchase_same_merchant_1d": [
+    {
+      "type": 0,
+      "value": "同じ加盟店を 1 日購入する (金額)"
+    }
+  ],
+  "risk.param.purchase_same_merchant_30d": [
+    {
+      "type": 0,
+      "value": "同じ加盟店を 30 日間購入する (金額)"
+    }
+  ],
+  "risk.param.purchase_same_merchant_3d": [
+    {
+      "type": 0,
+      "value": "同じ加盟店での購入 3日 (金額)"
+    }
+  ],
+  "risk.param.purchase_same_merchant_7d": [
+    {
+      "type": 0,
+      "value": "同じ加盟店を7日間購入（金額"
+    }
+  ],
+  "risk.param.refund_1d": [
+    {
+      "type": 0,
+      "value": "返金リミット 1日"
+    }
+  ],
+  "risk.param.refund_1y": [
+    {
+      "type": 0,
+      "value": "返金リミット 1年"
+    }
+  ],
+  "risk.param.refund_30d": [
+    {
+      "type": 0,
+      "value": "返金リミット 30日"
+    }
+  ],
+  "risk.param.refund_7d": [
+    {
+      "type": 0,
+      "value": "返金リミット 7日"
+    }
+  ],
+  "risk.param.refund_count_1d": [
+    {
+      "type": 0,
+      "value": "返金回数リミット 1日"
+    }
+  ],
+  "risk.param.refund_count_7d": [
+    {
+      "type": 0,
+      "value": "返金回数リミット 7日"
+    }
+  ],
+  "risk.param.refund_limit": [
+    {
+      "type": 0,
+      "value": "返金リミット"
+    }
+  ],
+  "risk.param.refund_limit_recv": [
+    {
+      "type": 0,
+      "value": "返金受取リミット"
+    }
+  ],
+  "risk.param.refund_purchase_period": [
+    {
+      "type": 0,
+      "value": "返金期間"
+    }
+  ],
+  "risk.param.rejected_count_5d": [
+    {
+      "type": 0,
+      "value": "拒否回数 5日"
+    }
+  ],
+  "risk.param.reward_limit_1d": [
+    {
+      "type": 0,
+      "value": "リワードリミット 1日"
+    }
+  ],
+  "risk.param.reward_limit_30d": [
+    {
+      "type": 0,
+      "value": "リワードリミット 30日"
+    }
+  ],
+  "risk.param.reward_limit_7d": [
+    {
+      "type": 0,
+      "value": "リワードリミット 7日"
+    }
+  ],
+  "risk.param.sg_withdraw": [
+    {
+      "type": 0,
+      "value": "シンガポールATMデビットカードブロック"
+    }
+  ],
+  "risk.param.verify_email_time_limit": [
+    {
+      "type": 0,
+      "value": "メール認証タイムリミット"
+    }
+  ],
+  "risk.param.withdraw_1d": [
+    {
+      "type": 0,
+      "value": "出金リミット 1日"
+    }
+  ],
+  "risk.param.withdraw_1y": [
+    {
+      "type": 0,
+      "value": "出金リミット 1年"
+    }
+  ],
+  "risk.param.withdraw_30d": [
+    {
+      "type": 0,
+      "value": "出金リミット 30日"
+    }
+  ],
+  "risk.param.withdraw_7d": [
+    {
+      "type": 0,
+      "value": "出金リミット 7日"
+    }
+  ],
+  "risk.param.withdraw_limit": [
+    {
+      "type": 0,
+      "value": "出金リミット"
+    }
+  ],
+  "risk.param.withdraw_percentage_limit": [
+    {
+      "type": 0,
+      "value": "パーセンテージ制限を引き出す"
+    }
+  ],
+  "riskDetails": [
+    {
+      "type": 0,
+      "value": "リスクの詳細"
+    }
+  ],
+  "riskLevel": [
+    {
+      "type": 0,
+      "value": "リスクレベル"
+    }
+  ],
+  "riskLevel.hideRules": [
+    {
+      "type": 0,
+      "value": "このリスクレベルに割り当てられたすべてのルールを非表示にする >>"
+    }
+  ],
+  "riskLevel.showRules": [
+    {
+      "type": 0,
+      "value": "このリスクレベルに割り当てられたすべてのルールを表示する <<"
+    }
+  ],
+  "riskLevel.viewRules": [
+    {
+      "type": 0,
+      "value": "このリスクレベルに割り当てられたすべてのルールを表示する <<"
+    }
+  ],
+  "riskLevelAccess": [
+    {
+      "type": 0,
+      "value": "リスクレベル アクセス"
+    }
+  ],
+  "riskLevelDetail": [
+    {
+      "type": 0,
+      "value": "リスクレベルの編集"
+    }
+  ],
+  "riskLevelNumber": [
+    {
+      "type": 0,
+      "value": "リスクレベル"
+    }
+  ],
+  "riskLevelParameters": [
+    {
+      "type": 0,
+      "value": "リスクレベルパラメータ"
+    }
+  ],
+  "riskLevels": [
+    {
+      "type": 0,
+      "value": "リスクレベル"
+    }
+  ],
+  "riskLevelwhenTriggered": [
+    {
+      "type": 0,
+      "value": "発生時のリスクレベル"
+    }
+  ],
+  "riskParameter": [
+    {
+      "type": 0,
+      "value": "リスクパラメータ"
+    }
+  ],
+  "roles": [
+    {
+      "type": 0,
+      "value": "役割"
+    }
+  ],
+  "roles.approver": [
+    {
+      "type": 0,
+      "value": "承認者"
+    }
+  ],
+  "roles.auditor": [
+    {
+      "type": 0,
+      "value": "審査員"
+    }
+  ],
+  "roles.customerAgent": [
+    {
+      "type": 0,
+      "value": "カスタマーエージェント"
+    }
+  ],
+  "roles.customerManager": [
+    {
+      "type": 0,
+      "value": "カスタマーマネージャー"
+    }
+  ],
+  "roles.financialManager": [
+    {
+      "type": 0,
+      "value": "財務管理者"
+    }
+  ],
+  "roles.platformManager": [
+    {
+      "type": 0,
+      "value": "プラットフォーム マネージャー"
+    }
+  ],
+  "roles.programManager": [
+    {
+      "type": 0,
+      "value": "プログラムマネージャー"
+    }
+  ],
+  "roles.readOnly": [
+    {
+      "type": 0,
+      "value": "読み取り専用"
+    }
+  ],
+  "roles.retailManager": [
+    {
+      "type": 0,
+      "value": "小売責任者"
+    }
+  ],
+  "roles.riskAgent": [
+    {
+      "type": 0,
+      "value": "リスクエージェント"
+    }
+  ],
+  "roles.riskManager": [
+    {
+      "type": 0,
+      "value": "リスクマネージャー"
+    }
+  ],
+  "roles.storeAgent": [
+    {
+      "type": 0,
+      "value": "ストアエージェント"
+    }
+  ],
+  "roles.storeManager": [
+    {
+      "type": 0,
+      "value": "店長"
+    }
+  ],
+  "roles.system": [
+    {
+      "type": 0,
+      "value": "システム"
+    }
+  ],
+  "safeCurrency": [
+    {
+      "type": 0,
+      "value": "安全な通貨"
+    }
+  ],
+  "safeDraft": [
+    {
+      "type": 0,
+      "value": "セーフドラフト"
+    }
+  ],
+  "samePan": [
+    {
+      "type": 0,
+      "value": "前でも"
+    }
+  ],
+  "save": [
+    {
+      "type": 0,
+      "value": "保存"
+    }
+  ],
+  "saveChanges": [
+    {
+      "type": 0,
+      "value": "保存"
+    }
+  ],
+  "saveMemo": [
+    {
+      "type": 0,
+      "value": "保存"
+    }
+  ],
+  "schedule": [
+    {
+      "type": 0,
+      "value": "スケジュール"
+    }
+  ],
+  "search": [
+    {
+      "type": 0,
+      "value": "検索"
+    }
+  ],
+  "search.results.showingMessage": [
+    {
+      "type": 0,
+      "value": "\""
+    },
+    {
+      "type": 1,
+      "value": "searchTerm"
+    },
+    {
+      "type": 0,
+      "value": "\" に対して "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "no results"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " result"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " results"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "totalCount"
+    },
+    {
+      "type": 0,
+      "value": " を表示"
+    }
+  ],
+  "searchTransactions": [
+    {
+      "type": 0,
+      "value": "トランザクションを検索"
+    }
+  ],
+  "secondFamilyName": [
+    {
+      "type": 0,
+      "value": "セカンドファミリーネーム"
+    }
+  ],
+  "secondLastName": [
+    {
+      "type": 0,
+      "value": "姓(2)"
+    }
+  ],
+  "secondPresentment": [
+    {
+      "type": 0,
+      "value": "2回目のプレゼンテーション"
+    }
+  ],
+  "secondaryNumber": [
+    {
+      "type": 0,
+      "value": "セカンダリ番号"
+    }
+  ],
+  "securityLevel": [
+    {
+      "type": 0,
+      "value": "セキュリティレベル"
+    }
+  ],
+  "segments": [
+    {
+      "type": 0,
+      "value": "セグメント"
+    }
+  ],
+  "selectALanguage": [
+    {
+      "type": 0,
+      "value": "言語を選択"
+    }
+  ],
+  "selectLanguage": [
+    {
+      "type": 0,
+      "value": "言語を選択する"
+    }
+  ],
+  "selectedFee": [
+    {
+      "type": 0,
+      "value": "選択された手数料"
+    }
+  ],
+  "sellCurrency": [
+    {
+      "type": 0,
+      "value": "売却通貨"
+    }
+  ],
+  "sellCurrencyAmount": [
+    {
+      "type": 0,
+      "value": "売却通貨金額"
+    }
+  ],
+  "sellMargin": [
+    {
+      "type": 0,
+      "value": "売却マージン"
+    }
+  ],
+  "sellMarginPercentage": [
+    {
+      "type": 0,
+      "value": "売却マージン率"
+    }
+  ],
+  "sender": [
+    {
+      "type": 0,
+      "value": "送信者"
+    }
+  ],
+  "september": [
+    {
+      "type": 0,
+      "value": "9月"
+    }
+  ],
+  "sequenceNumber": [
+    {
+      "type": 0,
+      "value": "シーケンス番号"
+    }
+  ],
+  "serviceCode": [
+    {
+      "type": 0,
+      "value": "サービスコード"
+    }
+  ],
+  "settlement": [
+    {
+      "type": 0,
+      "value": "決済"
+    }
+  ],
+  "settlementTime": [
+    {
+      "type": 0,
+      "value": "決済時間"
+    }
+  ],
+  "setupAutomaticLoad": [
+    {
+      "type": 0,
+      "value": "自動ロードの設定"
+    }
+  ],
+  "shipping": [
+    {
+      "type": 0,
+      "value": "配送"
+    }
+  ],
+  "showApprovedChangeOrders": [
+    {
+      "type": 0,
+      "value": "承認済みの変更オーダーの表示"
+    }
+  ],
+  "showDeactivatedCards": [
+    {
+      "type": 0,
+      "value": "非アクティブ化されたカードを表示"
+    }
+  ],
+  "showInactiveCards": [
+    {
+      "type": 0,
+      "value": "非アクティブなカードを表示する"
+    }
+  ],
+  "showReleasedHolds": [
+    {
+      "type": 0,
+      "value": "解除されたホールドを表示"
+    }
+  ],
+  "showreleasedBlocks": [
+    {
+      "type": 0,
+      "value": "リリースされたブロックを表示"
+    }
+  ],
+  "showsingleuseCards": [
+    {
+      "type": 0,
+      "value": "使い捨てカードを表示"
+    }
+  ],
+  "sidenav.label.audit": [
+    {
+      "type": 0,
+      "value": "監査"
+    }
+  ],
+  "sidenav.label.banks": [
+    {
+      "type": 0,
+      "value": "バンク"
+    }
+  ],
+  "sidenav.label.changeRequests": [
+    {
+      "type": 0,
+      "value": "変更要求"
+    }
+  ],
+  "sidenav.label.customer": [
+    {
+      "type": 0,
+      "value": "顧客"
+    }
+  ],
+  "sidenav.label.partners": [
+    {
+      "type": 0,
+      "value": "パートナー"
+    }
+  ],
+  "sidenav.label.programs": [
+    {
+      "type": 0,
+      "value": "プログラム"
+    }
+  ],
+  "sidenav.label.users": [
+    {
+      "type": 0,
+      "value": "ユーザー"
+    }
+  ],
+  "source": [
+    {
+      "type": 0,
+      "value": "ソース"
+    }
+  ],
+  "source.address": [
+    {
+      "type": 0,
+      "value": "住所"
+    }
+  ],
+  "source.email": [
+    {
+      "type": 0,
+      "value": "Eメール"
+    }
+  ],
+  "source.identification": [
+    {
+      "type": 0,
+      "value": "身元"
+    }
+  ],
+  "source.name": [
+    {
+      "type": 0,
+      "value": "名前"
+    }
+  ],
+  "source.phone": [
+    {
+      "type": 0,
+      "value": "電話"
+    }
+  ],
+  "sr": [
+    {
+      "type": 0,
+      "value": "シニア"
+    }
+  ],
+  "standIn": [
+    {
+      "type": 0,
+      "value": "スタンドイン"
+    }
+  ],
+  "standardtable.emptyrow": [
+    {
+      "type": 0,
+      "value": "表示する結果がありません。"
+    }
+  ],
+  "state": [
+    {
+      "type": 0,
+      "value": "状態"
+    }
+  ],
+  "state_province": [
+    {
+      "type": 0,
+      "value": "都道府県"
+    }
+  ],
+  "statementBalance": [
+    {
+      "type": 0,
+      "value": "ステートメント残高"
+    }
+  ],
+  "static": [
+    {
+      "type": 0,
+      "value": "静的"
+    }
+  ],
+  "status": [
+    {
+      "type": 0,
+      "value": "ステータス"
+    }
+  ],
+  "step1of2": [
+    {
+      "type": 0,
+      "value": "ステップ 1/2"
+    }
+  ],
+  "step1of3": [
+    {
+      "type": 0,
+      "value": "ステップ 1/3"
+    }
+  ],
+  "step2of2": [
+    {
+      "type": 0,
+      "value": "ステップ 2/2"
+    }
+  ],
+  "step2of3": [
+    {
+      "type": 0,
+      "value": "ステップ 2/3"
+    }
+  ],
+  "step3of3": [
+    {
+      "type": 0,
+      "value": "ステップ　3/3"
+    }
+  ],
+  "strategy": [
+    {
+      "type": 0,
+      "value": "ストラテジー"
+    }
+  ],
+  "subject": [
+    {
+      "type": 0,
+      "value": "件名"
+    }
+  ],
+  "success": [
+    {
+      "type": 0,
+      "value": "成功"
+    }
+  ],
+  "success.changes.saved": [
+    {
+      "type": 0,
+      "value": "変更内容は正常に保存されました"
+    }
+  ],
+  "success.majorCode.200": [
+    {
+      "type": 0,
+      "value": "リクエストは正常に処理されました"
+    }
+  ],
+  "success.majorCode.unknown": [
+    {
+      "type": 0,
+      "value": "わからない"
+    }
+  ],
+  "success.minorCode.000": [
+    {
+      "type": 0,
+      "value": "成功"
+    }
+  ],
+  "success.minorCode.unknown": [
+    {
+      "type": 0,
+      "value": "わからない"
+    }
+  ],
+  "suffix": [
+    {
+      "type": 0,
+      "value": "サフィックス"
+    }
+  ],
+  "summaryBalances": [
+    {
+      "type": 0,
+      "value": "要約残高"
+    }
+  ],
+  "suspend": [
+    {
+      "type": 0,
+      "value": "中断"
+    }
+  ],
+  "suspendTokens": [
+    {
+      "type": 0,
+      "value": "トークンの一時停止"
+    }
+  ],
+  "system": [
+    {
+      "type": 0,
+      "value": "システム"
+    }
+  ],
+  "systemTraceAuditNumber": [
+    {
+      "type": 0,
+      "value": "システムトレースオーディットナンバー"
+    }
+  ],
+  "table.pagination.results": [
+    {
+      "type": 1,
+      "value": "totalCount"
+    },
+    {
+      "type": 0,
+      "value": " 件中 "
+    },
+    {
+      "type": 1,
+      "value": "rangeStart"
+    },
+    {
+      "type": 0,
+      "value": "-"
+    },
+    {
+      "type": 1,
+      "value": "rangeEnd"
+    },
+    {
+      "type": 0,
+      "value": " 件を表示"
+    }
+  ],
+  "takeMeBack": [
+    {
+      "type": 0,
+      "value": "戻る"
+    }
+  ],
+  "takeMeHome": [
+    {
+      "type": 0,
+      "value": "ホーム画面に戻る"
+    }
+  ],
+  "template": [
+    {
+      "type": 0,
+      "value": "テンプレート"
+    }
+  ],
+  "terminalIDFrom": [
+    {
+      "type": 0,
+      "value": "ターミナル ID - 送信元"
+    }
+  ],
+  "terminalIDTo": [
+    {
+      "type": 0,
+      "value": "ターミナル ID - 宛先"
+    }
+  ],
+  "termination": [
+    {
+      "type": 0,
+      "value": "ターミネーション"
+    }
+  ],
+  "text.deleted": [
+    {
+      "type": 0,
+      "value": "削除された"
+    }
+  ],
+  "thisMonth": [
+    {
+      "type": 0,
+      "value": "今月"
+    }
+  ],
+  "thisWeek": [
+    {
+      "type": 0,
+      "value": "今週"
+    }
+  ],
+  "tier": [
+    {
+      "type": 0,
+      "value": "ティア"
+    }
+  ],
+  "timeZone": [
+    {
+      "type": 0,
+      "value": "タイムゾーン"
+    }
+  ],
+  "timestamps": [
+    {
+      "type": 0,
+      "value": "タイムスタンプ"
+    }
+  ],
+  "title": [
+    {
+      "type": 0,
+      "value": "敬称"
+    }
+  ],
+  "toAmount": [
+    {
+      "type": 0,
+      "value": "金額へ"
+    }
+  ],
+  "toDate": [
+    {
+      "type": 0,
+      "value": "終了日"
+    }
+  ],
+  "today": [
+    {
+      "type": 0,
+      "value": "今日"
+    }
+  ],
+  "token.status.active": [
+    {
+      "type": 0,
+      "value": "アクティブ"
+    }
+  ],
+  "token.status.inactive": [
+    {
+      "type": 0,
+      "value": "非活性"
+    }
+  ],
+  "token.status.suspended": [
+    {
+      "type": 0,
+      "value": "一時停止"
+    }
+  ],
+  "tokenActivationMethod.CALL_CENTER": [
+    {
+      "type": 0,
+      "value": "コールセンター"
+    }
+  ],
+  "tokenActivationMethod.EMAIL": [
+    {
+      "type": 0,
+      "value": "電子メール"
+    }
+  ],
+  "tokenActivationMethod.MOBILE_APP": [
+    {
+      "type": 0,
+      "value": "モバイルアプリ"
+    }
+  ],
+  "tokenActivationMethod.SMS": [
+    {
+      "type": 0,
+      "value": "SMS"
+    }
+  ],
+  "tokenActivationMethod.WEBSITE": [
+    {
+      "type": 0,
+      "value": "Webサイト"
+    }
+  ],
+  "tokens": [
+    {
+      "type": 0,
+      "value": "トークン"
+    }
+  ],
+  "topnav.label.language.english": [
+    {
+      "type": 0,
+      "value": "英語"
+    }
+  ],
+  "topnav.label.language.japanese": [
+    {
+      "type": 0,
+      "value": "日本語"
+    }
+  ],
+  "topnav.label.logout": [
+    {
+      "type": 0,
+      "value": "ログアウト"
+    }
+  ],
+  "topnav.label.welcome": [
+    {
+      "type": 0,
+      "value": "ようこそ "
+    }
+  ],
+  "totalAdjustmentAmount": [
+    {
+      "type": 0,
+      "value": "調整額合計"
+    }
+  ],
+  "totalBalance": [
+    {
+      "type": 0,
+      "value": "合計残高"
+    }
+  ],
+  "totalDue": [
+    {
+      "type": 0,
+      "value": "総支払額"
+    }
+  ],
+  "transaction.source.customer": [
+    {
+      "type": 0,
+      "value": "カスタマー"
+    }
+  ],
+  "transaction.source.internal": [
+    {
+      "type": 0,
+      "value": "インターナル"
+    }
+  ],
+  "transaction.source.inwalletATM": [
+    {
+      "type": 0,
+      "value": "インウォレットATM"
+    }
+  ],
+  "transaction.source.inwalletPOS": [
+    {
+      "type": 0,
+      "value": "インウォレットPOS"
+    }
+  ],
+  "transaction.source.mobilecommerce": [
+    {
+      "type": 0,
+      "value": "モバイルコマース"
+    }
+  ],
+  "transaction.source.online": [
+    {
+      "type": 0,
+      "value": "オンライン"
+    }
+  ],
+  "transaction.source.outofwalletATM": [
+    {
+      "type": 0,
+      "value": "アウトオブウォレットATM"
+    }
+  ],
+  "transaction.source.outofwalletPOS": [
+    {
+      "type": 0,
+      "value": "アウトオブウォレットPOS"
+    }
+  ],
+  "transaction.source.partner": [
+    {
+      "type": 0,
+      "value": "パートナー"
+    }
+  ],
+  "transaction.source.static": [
+    {
+      "type": 0,
+      "value": "スタティック"
+    }
+  ],
+  "transaction.source.unknown": [
+    {
+      "type": 0,
+      "value": "不明"
+    }
+  ],
+  "transaction.state.cancelled": [
+    {
+      "type": 0,
+      "value": "キャンセル"
+    }
+  ],
+  "transaction.state.completed": [
+    {
+      "type": 0,
+      "value": "完了"
+    }
+  ],
+  "transaction.state.expired": [
+    {
+      "type": 0,
+      "value": "期限切れ"
+    }
+  ],
+  "transaction.state.fail": [
+    {
+      "type": 0,
+      "value": "失敗"
+    }
+  ],
+  "transaction.state.pending": [
+    {
+      "type": 0,
+      "value": "保留中"
+    }
+  ],
+  "transaction.state.submitted": [
+    {
+      "type": 0,
+      "value": "提出済み"
+    }
+  ],
+  "transaction.state.success": [
+    {
+      "type": 0,
+      "value": "成功"
+    }
+  ],
+  "transaction.type.addressing": [
+    {
+      "type": 0,
+      "value": "アドレッシング"
+    }
+  ],
+  "transaction.type.balanceInquiry": [
+    {
+      "type": 0,
+      "value": "残高照会"
+    }
+  ],
+  "transaction.type.cardSale": [
+    {
+      "type": 0,
+      "value": "カード販売"
+    }
+  ],
+  "transaction.type.cashback": [
+    {
+      "type": 0,
+      "value": "キャッシュバック"
+    }
+  ],
+  "transaction.type.chargeBack": [
+    {
+      "type": 0,
+      "value": "チャージバック"
+    }
+  ],
+  "transaction.type.chargeoff": [
+    {
+      "type": 0,
+      "value": "チャージオフ"
+    }
+  ],
+  "transaction.type.closeAccount": [
+    {
+      "type": 0,
+      "value": "アカウント閉鎖"
+    }
+  ],
+  "transaction.type.consolidated": [
+    {
+      "type": 0,
+      "value": "連結"
+    }
+  ],
+  "transaction.type.customerAdjustment": [
+    {
+      "type": 0,
+      "value": "カスタマーアジャストメント"
+    }
+  ],
+  "transaction.type.exchange": [
+    {
+      "type": 0,
+      "value": "両替"
+    }
+  ],
+  "transaction.type.exchangeAdjustment": [
+    {
+      "type": 0,
+      "value": "両替調整"
+    }
+  ],
+  "transaction.type.exchangeMargin": [
+    {
+      "type": 0,
+      "value": "両替差益"
+    }
+  ],
+  "transaction.type.expeditedShipping": [
+    {
+      "type": 0,
+      "value": "お急ぎ便"
+    }
+  ],
+  "transaction.type.fastFund": [
+    {
+      "type": 0,
+      "value": "ファストファンド"
+    }
+  ],
+  "transaction.type.fee": [
+    {
+      "type": 0,
+      "value": "手数料"
+    }
+  ],
+  "transaction.type.fee.annual": [
+    {
+      "type": 0,
+      "value": "年間手数料"
+    }
+  ],
+  "transaction.type.fee.expiry": [
+    {
+      "type": 0,
+      "value": "期限切れ"
+    }
+  ],
+  "transaction.type.fee.latePaymentFee": [
+    {
+      "type": 0,
+      "value": "支払い遅延手数料"
+    }
+  ],
+  "transaction.type.fee.loadReversal": [
+    {
+      "type": 0,
+      "value": "ロード取消"
+    }
+  ],
+  "transaction.type.fee.moneySend": [
+    {
+      "type": 0,
+      "value": "送金"
+    }
+  ],
+  "transaction.type.fee.monthly": [
+    {
+      "type": 0,
+      "value": "月間手数料"
+    }
+  ],
+  "transaction.type.interest": [
+    {
+      "type": 0,
+      "value": "利子"
+    }
+  ],
+  "transaction.type.load": [
+    {
+      "type": 0,
+      "value": "入金"
+    }
+  ],
+  "transaction.type.maintenance": [
+    {
+      "type": 0,
+      "value": "メンテナンス"
+    }
+  ],
+  "transaction.type.newAccount": [
+    {
+      "type": 0,
+      "value": "新規アカウント"
+    }
+  ],
+  "transaction.type.p2p": [
+    {
+      "type": 0,
+      "value": "P2P"
+    }
+  ],
+  "transaction.type.purchase": [
+    {
+      "type": 0,
+      "value": "購入"
+    }
+  ],
+  "transaction.type.refund": [
+    {
+      "type": 0,
+      "value": "返金"
+    }
+  ],
+  "transaction.type.reward": [
+    {
+      "type": 0,
+      "value": "リワード"
+    }
+  ],
+  "transaction.type.secondPresentment": [
+    {
+      "type": 0,
+      "value": "セカンドプレゼントメント"
+    }
+  ],
+  "transaction.type.settlement": [
+    {
+      "type": 0,
+      "value": "決済"
+    }
+  ],
+  "transaction.type.shipping": [
+    {
+      "type": 0,
+      "value": "配送"
+    }
+  ],
+  "transaction.type.unknown": [
+    {
+      "type": 0,
+      "value": "不明"
+    }
+  ],
+  "transaction.type.walletTransfer": [
+    {
+      "type": 0,
+      "value": "ウォレット転送"
+    }
+  ],
+  "transaction.type.withdraw": [
+    {
+      "type": 0,
+      "value": "出金"
+    }
+  ],
+  "transaction.type.withholding": [
+    {
+      "type": 0,
+      "value": "保留"
+    }
+  ],
+  "transactionAmount": [
+    {
+      "type": 0,
+      "value": "取引金額"
+    }
+  ],
+  "transactionID": [
+    {
+      "type": 0,
+      "value": "取引ID"
+    }
+  ],
+  "transactionMemoTemplates": [
+    {
+      "type": 0,
+      "value": "トランザクションメモテンプレート"
+    }
+  ],
+  "transactionSource": [
+    {
+      "type": 0,
+      "value": "トランザクションソース"
+    }
+  ],
+  "transactionType": [
+    {
+      "type": 0,
+      "value": "トランザクションタイプ"
+    }
+  ],
+  "transactions": [
+    {
+      "type": 0,
+      "value": "トランザクション"
+    }
+  ],
+  "transmission": [
+    {
+      "type": 0,
+      "value": "送信"
+    }
+  ],
+  "type": [
+    {
+      "type": 0,
+      "value": "タイプ"
+    }
+  ],
+  "unblock": [
+    {
+      "type": 0,
+      "value": "解除"
+    }
+  ],
+  "unknown": [
+    {
+      "type": 0,
+      "value": "未知"
+    }
+  ],
+  "unpaidAmount": [
+    {
+      "type": 0,
+      "value": "未払い額"
+    }
+  ],
+  "unpaidMinimums": [
+    {
+      "type": 0,
+      "value": "未払いの最低額"
+    }
+  ],
+  "unsuspend": [
+    {
+      "type": 0,
+      "value": "中断解除"
+    }
+  ],
+  "unsuspendTokens": [
+    {
+      "type": 0,
+      "value": "トークンの一時停止解除"
+    }
+  ],
+  "updated": [
+    {
+      "type": 0,
+      "value": "更新しました"
+    }
+  ],
+  "useNew": [
+    {
+      "type": 0,
+      "value": "新設定を使用"
+    }
+  ],
+  "usePrevious": [
+    {
+      "type": 0,
+      "value": "旧設定を使用"
+    }
+  ],
+  "user": [
+    {
+      "type": 0,
+      "value": "ユーザー"
+    }
+  ],
+  "user.unlocked.successful": [
+    {
+      "type": 0,
+      "value": "ユーザーが正常にロックされました"
+    }
+  ],
+  "userName": [
+    {
+      "type": 0,
+      "value": "ユーザー名"
+    }
+  ],
+  "username": [
+    {
+      "type": 0,
+      "value": "ユーザー名"
+    }
+  ],
+  "users": [
+    {
+      "type": 0,
+      "value": "ユーザー"
+    }
+  ],
+  "value": [
+    {
+      "type": 0,
+      "value": "値"
+    }
+  ],
+  "view": [
+    {
+      "type": 0,
+      "value": "ビュー"
+    }
+  ],
+  "viewAllDetails": [
+    {
+      "type": 0,
+      "value": "すべての詳細を見る"
+    }
+  ],
+  "viewCustomerDetails": [
+    {
+      "type": 0,
+      "value": "顧客情報詳細を表示"
+    }
+  ],
+  "viewCycleTransaction": [
+    {
+      "type": 0,
+      "value": "サイクル取引を見る >>>"
+    }
+  ],
+  "viewDetails": [
+    {
+      "type": 0,
+      "value": "詳細を見る"
+    }
+  ],
+  "viewMerchantControlDetails": [
+    {
+      "type": 0,
+      "value": "加盟店管理 ID"
+    }
+  ],
+  "viewPreviousMinPaymentHistory": [
+    {
+      "type": 0,
+      "value": "前回の最小支払い履歴を表示する"
+    }
+  ],
+  "viewRiskLevelDetails": [
+    {
+      "type": 0,
+      "value": "リスクレベル詳細を表示 >>"
+    }
+  ],
+  "wallet.card.activate.button": [
+    {
+      "type": 0,
+      "value": "アクティベート"
+    }
+  ],
+  "walletTransfer": [
+    {
+      "type": 0,
+      "value": "ウォレット転送"
+    }
+  ],
+  "wallets": [
+    {
+      "type": 0,
+      "value": "ウォレット"
+    }
+  ],
+  "wallets.section.header.wallets": [
+    {
+      "type": 0,
+      "value": "ウォレット"
+    }
+  ],
+  "wallets.success.activated": [
+    {
+      "type": 0,
+      "value": "カードID: "
+    },
+    {
+      "type": 1,
+      "value": "removedBlocId"
+    },
+    {
+      "type": 0,
+      "value": " が正常に有効化されました"
+    }
+  ],
+  "wallets.success.cardReissued": [
+    {
+      "type": 0,
+      "value": "カードの再発行に成功しました"
+    }
+  ],
+  "wallets.success.released": [
+    {
+      "type": 0,
+      "value": "カードブロックID: "
+    },
+    {
+      "type": 1,
+      "value": "respId"
+    },
+    {
+      "type": 0,
+      "value": " がリリースされました"
+    }
+  ],
+  "warning.confirmation.delete": [
+    {
+      "type": 0,
+      "value": "この "
+    },
+    {
+      "type": 1,
+      "value": "fieldName"
+    },
+    {
+      "type": 0,
+      "value": " を削除してもよろしいですか?"
+    }
+  ],
+  "weekdaysMin.friday": [
+    {
+      "type": 0,
+      "value": "金"
+    }
+  ],
+  "weekdaysMin.monday": [
+    {
+      "type": 0,
+      "value": "月"
+    }
+  ],
+  "weekdaysMin.saturday": [
+    {
+      "type": 0,
+      "value": "土"
+    }
+  ],
+  "weekdaysMin.sunday": [
+    {
+      "type": 0,
+      "value": "日"
+    }
+  ],
+  "weekdaysMin.thursday": [
+    {
+      "type": 0,
+      "value": "木"
+    }
+  ],
+  "weekdaysMin.tuesday": [
+    {
+      "type": 0,
+      "value": "火"
+    }
+  ],
+  "weekdaysMin.wednesday": [
+    {
+      "type": 0,
+      "value": "水"
+    }
+  ],
+  "weekly": [
+    {
+      "type": 0,
+      "value": "毎週"
+    }
+  ],
+  "welcome": [
+    {
+      "type": 0,
+      "value": "ようこそ"
+    }
+  ],
+  "withdraw": [
+    {
+      "type": 0,
+      "value": "出金"
+    }
+  ],
+  "withholding": [
+    {
+      "type": 0,
+      "value": "保留"
+    }
+  ],
+  "work": [
+    {
+      "type": 0,
+      "value": "仕事"
+    }
+  ],
+  "yes": [
+    {
+      "type": 0,
+      "value": "はい"
+    }
+  ],
+  "yesterday": [
+    {
+      "type": 0,
+      "value": "昨日"
+    }
+  ]
+}

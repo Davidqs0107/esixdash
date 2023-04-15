@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>components / image / small icon / activity / card pin set</title>
+    <g id="components-/-image-/-small-icon-/-activity-/-card-pin-set" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-5" transform="translate(2.500000, 6.500000)" stroke="#FFFFFF">
+            <line x1="6.26282308e-05" y1="5.31417558" x2="25" y2="5.31417558" id="Stroke-3" stroke-width="3"></line>
+            <path d="M24.9999374,13.748768 C24.9999374,15.5440369 23.4768188,17 21.5973456,17 L3.40196552,17 C1.52311859,17 0,15.5440369 0,13.748768 L0,3.25123205 C0,1.45596311 1.52311859,0 3.40196552,0 L21.5973456,0 C23.4768188,0 24.9999374,1.45596311 24.9999374,3.25123205 C24.9999374,5.50529194 24.9999374,7.42303811 24.9999374,9.00447057 C24.9999374,10.585903 24.9999374,12.1673355 24.9999374,13.748768 Z" id="Stroke-1" stroke-width="1.5" stroke-linecap="round"></path>
+        </g>
+        <text id="****" font-family="Montserrat-SemiBold, Montserrat" font-size="12" font-weight="500" letter-spacing="0.554545" fill="#23C38E">
+            <tspan x="5.05891" y="24.8">****</tspan>
+        </text>
+    </g>
+</svg>

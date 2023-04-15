@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>components / image / small icon / activity / customer memo added</title>
+    <g id="components-/-image-/-small-icon-/-activity-/-customer-memo-added" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Memo-Icon" transform="translate(5.000000, 4.000000)">
+            <rect id="Paper" stroke="#FFFFFF" stroke-width="1.5" x="0.75" y="0.75" width="18.5" height="20.5" rx="2"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="4" y="6" width="12" height="2" rx="1"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="4" y="10" width="12" height="2" rx="1"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="4" y="14" width="12" height="2" rx="1"></rect>
+        </g>
+        <g id="components-/-image-/-med-icon-/-success" transform="translate(19.833333, 0.833333)">
+            <g id="checked" transform="translate(0.000000, 0.000000)">
+                <path d="M4.16666667,0 C1.8766276,0 0,1.8766276 0,4.16666667 C0,6.45670573 1.8766276,8.33333333 4.16666667,8.33333333 C6.45670573,8.33333333 8.33333333,6.45670573 8.33333333,4.16666667 C8.33333333,1.8766276 6.45670573,0 4.16666667,0 Z" id="Path" fill="#23C38E"></path>
+                <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="6.53971354 3.45865885 3.67838542 6.3199707 1.62270508 4.26918945 2.31609701 3.57583008 3.67838542 4.94301758 4.16666667 4.45473633 5.85123698 2.77018229"></polygon>
+                <path d="M8.33333333,4.16666667 C8.33333333,6.45670573 6.45670573,8.33333333 4.16666667,8.33333333 L4.16666667,0 C6.45670573,0 8.33333333,1.8766276 8.33333333,4.16666667 Z" id="Path" fill-opacity="0.1" fill="#000000"></path>
+            </g>
+        </g>
+        <g id="components-/-image-/-med-icon-/-error" transform="translate(19.833333, 0.833333)">
+            <path d="M4.16666667,4.4408921e-16 C1.8766276,4.4408921e-16 0,1.8766276 0,4.16666667 C0,6.45670573 1.8766276,8.33333333 4.16666667,8.33333333 C6.45670573,8.33333333 8.33333333,6.45670573 8.33333333,4.16666667 C8.33333333,1.8766276 6.45670573,4.4408921e-16 4.16666667,4.4408921e-16 Z" id="Path" fill="#433AA8"></path>
+            <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" transform="translate(4.166667, 4.166667) rotate(45.000000) translate(-4.166667, -4.166667) " points="4.85512695 4.16666667 6.23697917 5.54851888 5.54851888 6.23697917 4.16666667 4.85512695 2.78481445 6.23697917 2.09635417 5.54851888 3.47820638 4.16666667 2.09635417 2.78481445 2.78481445 2.09635417 4.16666667 3.47820638 5.54851888 2.09635417 6.23697917 2.78481445"></polygon>
+            <path d="M8.33333333,4.16666667 C8.33333333,6.45670573 6.45670573,8.33333333 4.16666667,8.33333333 L4.16666667,4.4408921e-16 C6.45670573,4.4408921e-16 8.33333333,1.8766276 8.33333333,4.16666667 Z" id="Path" fill-opacity="0.1" fill="#000000"></path>
+        </g>
+    </g>
+</svg>

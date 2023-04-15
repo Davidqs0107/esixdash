@@ -1,0 +1,193 @@
+/*!
+ / Copyright (c) 2015-2021, Episode Six and/or its affiliates. All rights reserved.
+ / EPISODE SIX PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
+ /
+ / THIS IS CONFIDENTIAL AND PROPRIETARY TO EPISODE SIX, and any
+ / copying, reproduction, redistribution, dissemination, modification, or
+ / other use, in whole or in part, is strictly prohibited without the prior
+ / written consent of (or as may be specifically permitted in a fully signed
+ / agreement with) Episode Six.   Violations may result in severe civil and/or
+ / criminal penalties, and Episode Six will enforce its rights to the maximum
+ / extent permitted by law.
+ /
+
+
+//@import "~rfs/scss"
+@import "../../../../node_modules/rfs/scss"
+
+
+html > *
+  transition: transform 330ms ease-in-out
+
+
+.t-console
+  height: 0.97%
+  width: 6.67%
+  color: $breadcrumb-before-color
+  @include rfs(10px)
+
+  font-weight: 600
+  letter-spacing: 4px
+  line-height: 13px
+  display: table-cell
+  vertical-align: middle
+  text-transform: uppercase
+
+.dash-container
+  padding-left: 40px !important
+  padding-right: 40px !important
+  margin-right: 5px !important
+  margin-left: 5px !important
+
+.grid-sized
+  display: grid
+// The font-size mixin is a shorthand which calls
+// @include rfs(4rem, font-size);
+
+// Other shorthand mixins that are available are:
+// @include padding(4rem);
+// @include padding-top(4rem);
+// @include padding-right(4rem);
+// @include padding-bottom(4rem);
+// @include padding-left(4rem);
+// @include margin(4rem);
+// @include margin-top(4rem);
+// @include margin-right(4rem);
+// @include margin-bottom(4rem);
+// @include margin-left(4rem);
+
+// For properties which do not have a shorthand, the property can be passed:
+// @include rfs(4rem, border-radius);
+
+// Whenever a value contains a space, it should be escaped with `#{}`:
+// @include rfs(0 0 4rem red #{","} 0 0 5rem blue, box-shadow);
+
+// Custom properties (css variables):
+// @include rfs(4rem, --border-radius);
+
+
+.App
+  background-color: var(--background-color)
+
+.App-header
+  background-color: $header-background
+  min-height: 100vh
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  font-size: calc(10px + 2vmin)
+  color: white
+
+/* STYLE GUIDE DEFAULTS */
+a
+  color: $link-color
+
+.light-purple
+  background-color: $light-purple !important
+  border: none !important
+
+.light-purple:hover
+  background-color: $hovered-light-purple !important
+
+.medium-purple
+  background-color: var(--primary-accent-color) !important
+  border: none !important
+
+.medium-purple:disabled
+  opacity: .29
+
+.medium-purple:hover
+  background-color: $hovered-medium-purple !important
+
+.breadcrumb-item+.breadcrumb-item::before
+  display: inline-block
+  padding-right: .5rem
+  margin-top: 8px
+  color: $breadcrumb-before-color
+  content: "/"
+
+.form-control
+  display: block
+  width: 100%
+  height: calc(1.5em + .75rem + 2px)
+  padding: .375rem .75rem
+  font-size: 1rem
+  font-weight: 400
+  line-height: 1.5
+  color: $form-text
+  background-color: $form-background-color
+  background-clip: padding-box
+  border: 1px solid $form-border-color
+  border-radius: .25rem
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out
+
+h2.regular
+  color: $header-text-color
+  font-size: 24px
+  font-weight: 600
+  letter-spacing: 0
+  line-height: 29px
+
+h1.bold
+  color: $header-text-color2
+  font-size: 36px
+  font-weight: 600
+  line-height: 44px
+
+h1.large
+  color: $header-text-color
+  font-size: 72px
+  font-weight: 600
+  letter-spacing: 0
+  line-height: 88px
+
+h1.regular
+  color: $header-text-color2
+  font-size: 36px
+  font-weight: 600
+
+
+h2.bold
+  color: $header-text-color
+  font-size: 24px
+  font-weight: 600
+  letter-spacing: 0
+  line-height: 44px
+
+h2.regular-white
+  color: #FFFFFF
+  font-size: 24px
+  font-weight: 600
+  letter-spacing: 0
+  line-height: 29px
+
+h3
+  color: #152C5B
+
+
+.currency
+  color: $positive-currency-color
+  font-size: 18px
+  font-weight: 600
+  letter-spacing: 0
+  line-height: 22px
+  text-align: center
+
+.grey
+  color: $specific-grey
+
+/* END STYLE GUIDE DEFAULTS */
+
+.vCenter
+  margin-top: auto
+  margin-bottom: auto
+
+.brand-corner
+  height: 62px
+  align-items: center
+  text-align: center
+  display: flex
+
+.shadowed
+  -webkit-filter: drop-shadow(0px 2px 2px rgba(0,0,0,0.35))

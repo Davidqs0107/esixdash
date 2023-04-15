@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>components / image / small icon / activity / card block released</title>
+    <defs>
+        <rect id="path-1" x="0" y="9" width="28" height="20" rx="3"></rect>
+        <filter x="-44.6%" y="-37.5%" width="189.3%" height="250.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2.5" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="10" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.129411765   0 0 0 0 0.121568627   0 0 0 0 0.250980392  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="20 16.6802328 13.0169049 23.6632881 8 18.6583394 9.69222876 16.9661901 13.0169049 20.3028226 14.2085594 19.1111681 18.3197672 15"></polygon>
+        <filter x="-29.2%" y="-28.9%" width="158.3%" height="180.8%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="components-/-image-/-small-icon-/-activity-/-card-block-released" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Card-Shape">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#23C38E" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+        <rect id="Rectangle" fill="#152C5B" opacity="0.400000006" x="0" y="13" width="28" height="4"></rect>
+        <g id="Path" fill-rule="nonzero">
+            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+            <use fill="#FFFFFF" xlink:href="#path-3"></use>
+        </g>
+        <path d="M14,9 L25,9 C26.6568542,9 28,10.3431458 28,12 L28,26 C28,27.6568542 26.6568542,29 25,29 L14,29 L14,29 L14,9 Z" id="Darken" fill="#000000" opacity="0.100000001"></path>
+    </g>
+</svg>

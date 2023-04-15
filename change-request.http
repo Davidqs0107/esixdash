@@ -1,0 +1,35 @@
+POST https://dev.e6tech.net/api/partner/restful/v1/auth/login
+Content-Type: application/json
+
+{
+  "partnerName": "Bank X",
+  "userName": "all-roles",
+  "password": "h3Password",
+  "rememberMe": false
+}
+
+> {% client.global.set("auth_token", response.body.tokenId); %}
+
+###
+GET https://dev.e6tech.net/api/partner/restful/v1/programs/change-orders
+Authorization: Bearer {{auth_token}}
+
+###
+GET https://dev.e6tech.net/api/partner/restful/v1/programs
+Authorization: Bearer {{auth_token}}
+
+###
+
+GET https://dev.e6tech.net/api/partner/restful/v1/customers/change-orders?count=10&start-index=0&ascending=true
+Authorization: Bearer {{auth_token}}
+Content-Type: application/json
+
+###
+
+GET https://dev.e6tech.net/api/partner/restful/v1/change-orders/
+Authorization: Bearer {{auth_token}}
+
+###
+
+GET https://dev.e6tech.net/api/partner/restful/v1/programs/change-orders
+Authorization: Bearer {{auth_token}}
