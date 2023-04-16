@@ -1,0 +1,26 @@
+{
+  "name": "@e6tech/react-basics",
+  "version": "1.0.0",
+  "description": "Simple react components with no inherent E6 logic",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src --resolve-plugins-relative-to ../eslint/ --config ../eslint/.eslintrc.json --ext .js "
+  },
+  "author": "",
+  "devDependencies": {
+    "eslint": "^6.6.0"
+  },
+  "dependencies": {
+    "@e6tech/common": "file:../common"
+  },
+  "peerDependencies": {
+    "react-dom": "^16.8.6",
+    "react": "^16.8.6",
+    "formik": "^1.5.7",
+    "prop-types": "latest",
+    "react-i18next": "^10.10.0",
+    "reactstrap": "^8.0.0"
+  },
+  "license": "UNLICENSED"
+}

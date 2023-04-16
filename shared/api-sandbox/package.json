@@ -1,0 +1,19 @@
+{
+  "name": "@e6tech/api-sandbox",
+  "version": "1.0.0",
+  "description": "Standard H3 Partner API.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src --resolve-plugins-relative-to ../eslint/ --config ../eslint/.eslintrc.json --ext .js "
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@e6tech/api-base": "file:../api-base",
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0"
+  }
+}
