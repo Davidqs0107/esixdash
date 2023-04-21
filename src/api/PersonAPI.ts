@@ -10,58 +10,62 @@
  * criminal penalties, and Episode Six will enforce its rights to the maximum
  * extent permitted by law.
  */
-import axios from "axios";
-import wrapper from "axios-cache-plugin";
+import { setup } from "axios-cache-adapter";
 
 const PersonAPI = (config: any) => {
   const { partnerEndpoint, ...others } = config;
-  const instance = axios.create({
+
+  const instance = setup({
     baseURL: `${partnerEndpoint}/v1/persons/`,
     ...others,
-  });
-  const httpProxy = wrapper(instance, {
-    maxCacheSize: 15,
+    cache: {
+      maxAge: 15 * 60 * 1000,
+      debug: console.log,
+      exclude: {
+        methods: ["put", "patch", "delete"],
+      },
+    },
   });
 
   return {
-    interceptors: instance.interceptors,
-    get: (personIdentifier: any) => httpProxy.get(`${personIdentifier}`),
+    get: (personIdentifier: any) => instance.get(`${personIdentifier}`),
     getAddress: (personIdentifier: any) =>
-      httpProxy.get(`${personIdentifier}/addresses`),
+      instance.get(`${personIdentifier}/addresses`),
     getEmailList: (personIdentifier: any) =>
-      httpProxy.get(`${personIdentifier}/emails`),
+      instance.get(`${personIdentifier}/emails`),
     getPhones: (personIdentifier: any) =>
-      httpProxy.get(`${personIdentifier}/phones`),
+      instance.get(`${personIdentifier}/phones`),
     getOfficialIds: (personIdentifier: any) =>
-      httpProxy.get(`${personIdentifier}/official-ids`),
+      instance.get(`${personIdentifier}/official-ids`),
     getNameHistory: (personIdentifier: any) =>
-      httpProxy.get(`${personIdentifier}/person/history`),
+      instance.get(`${personIdentifier}/person/history`),
     getPhoneHistory: (personIdentifier: any) =>
-      httpProxy.get(`${personIdentifier}/phones/history`),
+      instance.get(`${personIdentifier}/phones/history`),
     getEmailHistory: (personIdentifier: any) =>
-      httpProxy.get(`${personIdentifier}/emails/history`),
+      instance.get(`${personIdentifier}/emails/history`),
     getAddressHistory: (personIdentifier: any) =>
-      httpProxy.get(`${personIdentifier}/addresses/history`),
+      instance.get(`${personIdentifier}/addresses/history`),
     getIdentificationHistory: (personIdentifier: any) =>
-      httpProxy.get(`${personIdentifier}/official-ids/history`),
+      instance.get(`${personIdentifier}/official-ids/history`),
     update: (personIdentifier: any, dto: any) =>
-      httpProxy.post(`${personIdentifier}`, dto),
+      instance.post(`${personIdentifier}`, dto),
     updateAddress: (personIdentifier: any, dto: any) =>
-      httpProxy.post(`${personIdentifier}/addresses`, dto),
+      instance.post(`${personIdentifier}/addresses`, dto),
     updateEmail: (personIdentifier: any, dto: any) =>
-      httpProxy.post(`${personIdentifier}/emails`, dto),
+      instance.post(`${personIdentifier}/emails`, dto),
     updatePhone: (personIdentifier: any, dto: any) =>
-      httpProxy.post(`${personIdentifier}/phones`, dto),
+      instance.post(`${personIdentifier}/phones`, dto),
     updateOfficialId: (personIdentifier: any, dto: any) =>
-      httpProxy.post(`${personIdentifier}/official-ids`, dto),
+      instance.post(`${personIdentifier}/official-ids`, dto),
     deleteAddress: (personIdentifier: any, addressId: string) =>
-      httpProxy.delete(`${personIdentifier}/addresses/` + addressId),
+      instance.delete(`${personIdentifier}/addresses/` + addressId),
     deleteEmail: (personIdentifier: any, emailId: string) =>
-      httpProxy.delete(`${personIdentifier}/emails/` + emailId),
+      instance.delete(`${personIdentifier}/emails/` + emailId),
     deletePhone: (personIdentifier: any, phoneId: string) =>
-      httpProxy.delete(`${personIdentifier}/phones/` + phoneId),
+      instance.delete(`${personIdentifier}/phones/` + phoneId),
     deleteOfficialId: (personIdentifier: any, officialId: string) =>
-      httpProxy.delete(`${personIdentifier}/official-ids/` + officialId),
+      instance.delete(`${personIdentifier}/official-ids/` + officialId),
+    interceptors: instance.interceptors,
   };
 };
 
