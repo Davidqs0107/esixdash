@@ -104,7 +104,7 @@ const axiosHeaders = {
     maxAge: 15 * 60 * 1000,
     exclude: { query: false, methods: ["put", "patch", "delete"] },
     store: forageStore,
-    debug: console.log,
+    // debug: console.log,
   },
 };
 
