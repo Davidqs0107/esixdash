@@ -10,18 +10,14 @@
  * criminal penalties, and Episode Six will enforce its rights to the maximum
  * extent permitted by law.
  */
-
-import axios from "axios";
-import wrapper from "axios-cache-plugin";
+import { setup } from "axios-cache-adapter";
 
 const PartnerAuthAPI = (config: any) => {
   const { partnerEndpoint, ...others } = config;
-  const instance = axios.create({
+
+  const instance = setup({
     baseURL: `${partnerEndpoint}/v1/`,
     ...others,
-  });
-  const httpProxy = wrapper(instance, {
-    maxCacheSize: 15,
   });
 
   return {

@@ -17,9 +17,7 @@ declare module "*.png" {
   export = value;
 }
 
-declare module 'nprogress';
-declare module 'axios-cache-plugin';
-declare module 'axios-cache-plugin/src';
+declare module "nprogress";
 
 declare module "*.svg" {
   const content: any;

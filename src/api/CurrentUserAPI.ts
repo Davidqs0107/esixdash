@@ -10,34 +10,22 @@
  * criminal penalties, and Episode Six will enforce its rights to the maximum
  * extent permitted by law.
  */
-
-import axios from "axios";
-
-/* Importing from 'axios-cache-plugin' used the axios-cache-plugin/dist/index.js file. This file does not have all
-*  the functions as the non-minified version (i.e. does not have the __clearCache() method). To be able to use
-*  __addFilter for caching we'll need to use __clearCache() to remove the cached data when logging out.
-*/
-import wrapper from "axios-cache-plugin/src";
+import { setup } from "axios-cache-adapter";
 
 const CurrentUserAPI = (config: any) => {
   const { partnerEndpoint, ...others } = config;
-  const instance = axios.create({
+
+  const instance = setup({
     baseURL: `${partnerEndpoint}/v1/`,
     ...others,
   });
-  const httpProxy = wrapper(instance, {
-    maxCacheSize: 15,
-  });
-
-  // eslint-disable-next-line no-underscore-dangle
-  httpProxy.__addFilter(/me/); // Cached
 
   return {
     interceptors: instance.interceptors,
     changePassword: (dto: any) => instance.post("changepassword", dto),
-    getCurrentUserInfo: () => httpProxy.get("me"),
+    getCurrentUserInfo: () => instance.get("me"),
     logout: () => instance.get("logout"),
-    clearCache: () => httpProxy.__clearCache()
+    clearCache: () => {}, // instance.clearCache(),
   };
 };
 

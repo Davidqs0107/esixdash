@@ -10,6 +10,7 @@
  * criminal penalties, and Episode Six will enforce its rights to the maximum
  * extent permitted by law.
  */
+import localforage from "localforage";
 
 import CardAPI from "./CardAPI";
 import CustomerAPI from "./CustomerAPI";
@@ -88,11 +89,22 @@ const requireAuth = {
 
 const internalPartner = {};
 
+const forageStore = localforage.createInstance({
+  driver: localforage.LOCALSTORAGE,
+  name: "axios-cache",
+});
+
 const axiosHeaders = {
   partnerEndpoint,
   headers: {
     "Content-Type": "application/json",
     Accept: "application/json",
+  },
+  cache: {
+    maxAge: 15 * 60 * 1000,
+    exclude: { query: false, methods: ["put", "patch", "delete"] },
+    store: forageStore,
+    // debug: console.log,
   },
 };
 
