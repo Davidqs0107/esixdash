@@ -18,16 +18,10 @@ const PersonAPI = (config: any) => {
   const instance = setup({
     baseURL: `${partnerEndpoint}/v1/persons/`,
     ...others,
-    cache: {
-      maxAge: 15 * 60 * 1000,
-      debug: console.log,
-      exclude: {
-        methods: ["put", "patch", "delete"],
-      },
-    },
   });
 
   return {
+    interceptors: instance.interceptors,
     get: (personIdentifier: any) => instance.get(`${personIdentifier}`),
     getAddress: (personIdentifier: any) =>
       instance.get(`${personIdentifier}/addresses`),
@@ -65,7 +59,6 @@ const PersonAPI = (config: any) => {
       instance.delete(`${personIdentifier}/phones/` + phoneId),
     deleteOfficialId: (personIdentifier: any, officialId: string) =>
       instance.delete(`${personIdentifier}/official-ids/` + officialId),
-    interceptors: instance.interceptors,
   };
 };
 

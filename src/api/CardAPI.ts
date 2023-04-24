@@ -10,30 +10,29 @@
  * criminal penalties, and Episode Six will enforce its rights to the maximum
  * extent permitted by law.
  */
-import axios from "axios";
-import wrapper from "axios-cache-plugin";
+import { setup } from "axios-cache-adapter";
 
 const CardAPI = (config: any) => {
   const { partnerEndpoint, ...others } = config;
-  const instance = axios.create({
+
+  const instance = setup({
     baseURL: `${partnerEndpoint}/v1/cards/`,
     ...others,
-  });
-  const httpProxy = wrapper(instance, {
-    maxCacheSize: 15,
   });
 
   return {
     interceptors: instance.interceptors,
-    changeCardState: (cardId: any, dto: any) => instance.put(`${cardId}/state`, dto),
-    createCardBlock: (cardId: any, dto: any) => instance.post(`${cardId}/blocks`, dto),
+    changeCardState: (cardId: any, dto: any) =>
+      instance.put(`${cardId}/state`, dto),
+    createCardBlock: (cardId: any, dto: any) =>
+      instance.post(`${cardId}/blocks`, dto),
     createCardOrder: (dto: any) => instance.post("order", dto),
     get: (cardId: any) => instance.get(`${cardId}`),
     getAllCardBlocks: (cardId: any, dto: any) =>
       instance.post(`${cardId}/blocks/all`, dto),
     getCardBlock: (cardId: any, blockId: any) =>
       instance.get(`${cardId}/blocks/${blockId}`),
-    getCardBlocks: (cardId: any) => httpProxy.get(`${cardId}/blocks`),
+    getCardBlocks: (cardId: any) => instance.get(`${cardId}/blocks`),
     getCardCustomer: (cardId: any) => instance.get(`${cardId}/customer`),
     getCardHistory: (cardId: any) => instance.get(`${cardId}/history`),
     getCardOrder: (cardId: any) => instance.get(`${cardId}/order`),
@@ -46,8 +45,16 @@ const CardAPI = (config: any) => {
       instance.post(`${cardId}/blocks/${blockId}/release`),
     releaseCardBlockWithMemo: (cardId: any, blockId: any, dto: any) =>
       instance.post(`${cardId}/blocks/${blockId}`, dto),
-    getUniquePanCounts: (programName: any, profileName: any) => instance.get(`program/${encodeURIComponent(programName)}/profile/${profileName}/uniquePanCounts`),
-    getUniquePanCountsByProgram: (programName: any) => instance.get(`program/${encodeURIComponent(programName)}/uniquePanCounts`),
+    getUniquePanCounts: (programName: any, profileName: any) =>
+      instance.get(
+        `program/${encodeURIComponent(
+          programName
+        )}/profile/${profileName}/uniquePanCounts`
+      ),
+    getUniquePanCountsByProgram: (programName: any) =>
+      instance.get(
+        `program/${encodeURIComponent(programName)}/uniquePanCounts`
+      ),
   };
 };
 
