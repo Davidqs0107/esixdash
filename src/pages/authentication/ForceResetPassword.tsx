@@ -355,7 +355,7 @@ const ForceResetPassword: React.FC<IForceResetPassword> = ({
                         <Box>
                           <Typography component="h2" variant={"loginTitle"}>
                             <FormattedMessage
-                              id="partner.password.reset.message"
+                              id="reset.password.fields"
                               defaultMessage="Reset your password below."
                               description="Please reset password"
                             />
@@ -432,7 +432,10 @@ const ForceResetPassword: React.FC<IForceResetPassword> = ({
                         name="oldPassword"
                         autoComplete="off"
                         type="password"
-                        placeholder="Old password"
+                        placeholder={`${intl.formatMessage({
+                          id: "oldPassword",
+                          defaultMessage: "Old Password",
+                        })}*`}
                         {...props}
                       />
                     </Box>
@@ -443,7 +446,10 @@ const ForceResetPassword: React.FC<IForceResetPassword> = ({
                         name="newPassword1"
                         autoComplete="off"
                         type="password"
-                        placeholder="New password"
+                        placeholder={`${intl.formatMessage({
+                          id: "newPassword",
+                          defaultMessage: "New Password",
+                        })}*`}
                         {...props}
                       />
                     </Box>
@@ -454,7 +460,10 @@ const ForceResetPassword: React.FC<IForceResetPassword> = ({
                         name="newPassword2"
                         autoComplete="off"
                         type="password"
-                        placeholder="Confirm new password"
+                        placeholder={`${intl.formatMessage({
+                          id: "confirmNewPassword",
+                          defaultMessage: "Confirm New Password",
+                        })}*`}
                         {...props}
                       />
                     </Box>

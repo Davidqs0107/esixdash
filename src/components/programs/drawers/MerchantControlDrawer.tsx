@@ -362,25 +362,25 @@ const MerchantControlDrawer: React.FC<IMerchantControlDrawer> = ({
                   defaultMessage="Description"
                 />
               </Label>
-              <TextRender data={initialValues.description} />
+              <TextRender data={initialValues.description} truncated={false}/>
             </Box>
             <Box sx={{ marginBottom: "14px" }}>
               <Label variant="grey">
                 <FormattedMessage id="network" defaultMessage="Network" />
               </Label>
-              <TextRender data={initialValues.network} />
+              <TextRender data={initialValues.network} truncated={false}/>
             </Box>
             <Box sx={{ marginBottom: "14px" }}>
               <Label variant="grey">
                 <FormattedMessage id="action" defaultMessage="Action" />
               </Label>
-              <TextRender data={initialValues.action} />
+              <TextRender data={initialValues.action} truncated={false}/>
             </Box>
             <Box sx={{ marginBottom: "14px" }}>
               <Label variant="grey">
                 <FormattedMessage id="currency" defaultMessage="Currency" />
               </Label>
-              <TextRender data={initialValues.currency} />
+              <TextRender data={initialValues.currency} truncated={false}/>
             </Box>
             <Box sx={{ marginBottom: "14px" }}>
               <Label variant="grey">
@@ -389,13 +389,13 @@ const MerchantControlDrawer: React.FC<IMerchantControlDrawer> = ({
                   defaultMessage="Amount - From"
                 />
               </Label>
-              <TextRender data={initialValues.amountFrom} />
+              <TextRender data={initialValues.amountFrom} truncated={false}/>
             </Box>
             <Box sx={{ marginBottom: "14px" }}>
               <Label variant="grey">
                 <FormattedMessage id="amountTo" defaultMessage="Amount - To" />
               </Label>
-              <TextRender data={initialValues.amountTo} />
+              <TextRender data={initialValues.amountTo} truncated={false}/>
             </Box>
             <Box sx={{ marginBottom: "14px" }}>
               <Label variant="grey">
@@ -404,7 +404,7 @@ const MerchantControlDrawer: React.FC<IMerchantControlDrawer> = ({
                   defaultMessage="Acquirer ID"
                 />
               </Label>
-              <TextRender data={initialValues.acquirerId} />
+              <TextRender data={initialValues.acquirerId} truncated={false}/>
             </Box>
             <Box sx={{ marginBottom: "14px" }}>
               <Label variant="grey">
@@ -413,7 +413,7 @@ const MerchantControlDrawer: React.FC<IMerchantControlDrawer> = ({
                   defaultMessage="Merchant ID"
                 />
               </Label>
-              <TextRender data={initialValues.merchantId} />
+              <TextRender data={initialValues.merchantId} truncated={false}/>
             </Box>
             <Box sx={{ marginBottom: "14px" }}>
               <Label variant="grey">
@@ -422,7 +422,7 @@ const MerchantControlDrawer: React.FC<IMerchantControlDrawer> = ({
                   defaultMessage="Terminal ID - From"
                 />
               </Label>
-              <TextRender data={initialValues.terminalIdFrom} />
+              <TextRender data={initialValues.terminalIdFrom} truncated={false}/>
             </Box>
             <Box sx={{ marginBottom: "14px" }}>
               <Label variant="grey">
@@ -431,7 +431,7 @@ const MerchantControlDrawer: React.FC<IMerchantControlDrawer> = ({
                   defaultMessage="Terminal ID - To"
                 />
               </Label>
-              <TextRender data={initialValues.terminalIdTo} />
+              <TextRender data={initialValues.terminalIdTo} truncated={false}/>
             </Box>
             <Box sx={{ marginBottom: "14px" }}>
               <Label variant="grey">
@@ -440,7 +440,7 @@ const MerchantControlDrawer: React.FC<IMerchantControlDrawer> = ({
                   defaultMessage="Merchant Location"
                 />
               </Label>
-              <TextRender data={initialValues.merchantLocation} />
+              <TextRender data={initialValues.merchantLocation} truncated={false}/>
             </Box>
             <Box sx={{ marginBottom: "14px" }}>
               <Label variant="grey">
@@ -449,7 +449,7 @@ const MerchantControlDrawer: React.FC<IMerchantControlDrawer> = ({
                   defaultMessage="Merchant City"
                 />
               </Label>
-              <TextRender data={initialValues.merchantCity} />
+              <TextRender data={initialValues.merchantCity} truncated={false}/>
             </Box>
             <Box sx={{ marginBottom: "14px" }}>
               <Label variant="grey">
@@ -458,7 +458,7 @@ const MerchantControlDrawer: React.FC<IMerchantControlDrawer> = ({
                   defaultMessage="Merchant Country Code"
                 />
               </Label>
-              <TextRender data={initialValues.merchantCountryCode} />
+              <TextRender data={initialValues.merchantCountryCode} truncated={false} />
             </Box>
             <Box sx={{ marginBottom: "14px" }}>
               <Label variant="grey">
@@ -467,7 +467,7 @@ const MerchantControlDrawer: React.FC<IMerchantControlDrawer> = ({
                   defaultMessage="Merchant Category Code"
                 />
               </Label>
-              <TextRender data={initialValues.merchantCategoryCode} />
+              <TextRender data={initialValues.merchantCategoryCode} truncated={false} />
             </Box>
             <Box sx={{ marginBottom: "22px" }}>
               <Box sx={{ marginBottom: "6px" }}>

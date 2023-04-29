@@ -50,7 +50,7 @@ const AccountHoldersCard: React.FC<IRiskLevelCard> = ({
         <Box sx={{ mb: "20px" }}>
           <Header
             value={intl.formatMessage({
-              id: "accountHolders.card.title.persons",
+              id: "accountHolders",
               description: "Account Holders card title",
               defaultMessage: "Account Holders",
             })}

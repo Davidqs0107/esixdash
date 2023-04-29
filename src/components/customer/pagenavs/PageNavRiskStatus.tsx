@@ -53,6 +53,11 @@ import CreateChangeOrder from "../drawers/CreateChangeOrderDrawer";
 import { ContentVisibilityContext } from "../../../contexts/ContentVisibilityContext";
 import { OfferingCustomerSummary } from "../../../types/customer";
 import AddAdjustment from "../drawers/AddAdjustment";
+import ProgramDetailContextProvider from "../../../contexts/ProgramDetailContext";
+import CustomerRiskLevelDrawer from "../drawers/CustomerRiskLevelDrawer";
+import ProgramRiskParamsLevelTwo from "../../programs/drawers/level-two/ProgramRiskParamsLevelTwo";
+import { CustomerDetailContext } from "../../../contexts/CustomerDetailContext";
+import CustomerRiskLevelDrawerContextProvider from "../../../contexts/CustomerRiskLevelDrawerContext";
 import Label from "../../common/elements/Label";
 
 const QDButton = lazy(() => import("../../common/elements/QDButton"));
@@ -64,10 +69,12 @@ interface IPageNavRiskStatus {
   customerNumber: string;
   primaryPersonId: string;
   portfolioId: string;
+  programName: string;
 }
 
 const PageNavRiskStatus: React.FC<IPageNavRiskStatus> = (props) => {
   const { readOnly } = useContext(ContentVisibilityContext);
+  const { securityLevel } = useContext(CustomerDetailContext);
   const { setErrorMsg, setSuccessMsg } = useContext(MessageContext);
 
   const intl = useIntl();
@@ -77,6 +84,7 @@ const PageNavRiskStatus: React.FC<IPageNavRiskStatus> = (props) => {
   const [declinedTxs, setDeclinedTxs] = useState([]);
   const [blocks, setBlocks] = useState([]);
   const [fees, setFees] = useState([]);
+  const [riskRules, setRiskRules] = useState([]);
   const [releasedToggled, setReleasedToggled] = useState(false);
   const [singleUseToggled, setSingleUseToggled] = useState(false);
   const [adjustmentCardObjects, setAdjustmentCardObjects]: any = useState([]);
@@ -1173,6 +1181,48 @@ const PageNavRiskStatus: React.FC<IPageNavRiskStatus> = (props) => {
     },
   ];
 
+  const riskRulesTableMetadata = [
+    {
+      width: "14%",
+      header: <FormattedMessage id="riskRule" defaultMessage="Risk Rule" />,
+      render: () => "",
+    },
+    {
+      width: "14%",
+      header: (
+        <FormattedMessage id="currentValue" defaultMessage="Current Value" />
+      ),
+      render: () => "",
+    },
+    {
+      width: "10%",
+      header: (
+        <FormattedMessage id="allowedValue" defaultMessage="Allowed Value" />
+      ),
+      render: () => "",
+    },
+    {
+      width: "10%",
+      header: <FormattedMessage id="scope" defaultMessage="Scope" />,
+      render: () => "",
+    },
+    {
+      width: "12%",
+      header: <FormattedMessage id="source" defaultMessage="Source" />,
+      render: () => "",
+    },
+    {
+      width: "12%",
+      header: <FormattedMessage id="alerts" defaultMessage="Alerts" />,
+      render: () => "",
+    },
+    {
+      width: "12%",
+      header: <FormattedMessage id="created" defaultMessage="Created" />,
+      render: () => "",
+    },
+  ];
+
   useEffect(() => {
     //getAllBlocks(customerNumber, primaryPersonId);
     //emitter.on(RiskStatusEvents.BlocksChanged, () =>
@@ -1513,6 +1563,60 @@ const PageNavRiskStatus: React.FC<IPageNavRiskStatus> = (props) => {
           tableRowPrefix="customer-fee-table"
           tableMetadata={feeTableMetadata}
           dataList={fees}
+        />
+      </Box>
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "space-between",
+          marginBottom: "18px",
+        }}
+      >
+        <Box>
+          <Header
+            level={2}
+            bold
+            value={intl.formatMessage(
+              defineMessage({
+                id: "riskRules",
+                defaultMessage: "Risk Rules",
+              })
+            )}
+          />
+        </Box>
+        <Box sx={{ display: "flex" }}>
+          <Box sx={{ marginRight: "14px" }}>
+            <CustomerRiskLevelDrawerContextProvider>
+              <ProgramDetailContextProvider
+                programName={props.programName}
+                currentLevel={securityLevel}
+              >
+                <DrawerComp
+                  widthPercentage={80}
+                  LevelTwo={ProgramRiskParamsLevelTwo}
+                  label={intl.formatMessage(
+                    defineMessage({
+                      id: "changeRiskLevel",
+                      defaultMessage: "Change Risk Level",
+                    })
+                  )}
+                >
+                  <CustomerRiskLevelDrawer
+                    securityLevel={securityLevel}
+                    programName={props.programName}
+                  />
+                </DrawerComp>
+              </ProgramDetailContextProvider>
+            </CustomerRiskLevelDrawerContextProvider>
+          </Box>
+        </Box>
+      </Box>
+      <Box>
+        <StandardTable
+          id="customer-risk-rules-table"
+          tableRowPrefix="customer-risk-rules-table"
+          tableMetadata={riskRulesTableMetadata}
+          dataList={riskRules}
         />
       </Box>
     </Box>

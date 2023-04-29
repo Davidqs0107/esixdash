@@ -21,8 +21,6 @@ import Helmet from "react-helmet";
 import { FormattedDate, useIntl, defineMessage } from "react-intl";
 import { useQuery } from "@tanstack/react-query";
 
-import Link from "@mui/material/Link";
-import Typography from "@mui/material/Typography";
 import api from "../../api/api";
 import CardBlocks from "../../components/customer/CardBlocks";
 import PageNav from "../../components/common/navigation/PageNav";
@@ -31,6 +29,7 @@ import { toCustomerName } from "../../components/common/converters/CustomerNameC
 import navs from "../../components/customer/pagenavs/PagenavIndex";
 import CustomerRecentActivity from "../../components/customer/CustomerRecentActivity";
 import StandardTable from "../../components/common/table/StandardTable";
+import CustomerDetailContextProvider from "../../contexts/CustomerDetailContext";
 import CurrencyRender from "../../components/common/converters/CurrencyRender";
 import TextRender from "../../components/common/TextRender";
 import TxSourceConverter from "../../components/common/converters/TxSourceConverter";
@@ -51,6 +50,8 @@ import TxTypeConverter from "../../components/common/converters/TxTypeConverter"
 import BreadcrumbsNav from "../../components/common/navigation/BreadcrumbsNav";
 import CreateChangeOrder from "../../components/customer/drawers/CreateChangeOrderDrawer";
 import { ContentVisibilityContext } from "../../contexts/ContentVisibilityContext";
+import Link from "@mui/material/Link";
+import Typography from "@mui/material/Typography";
 import Header from "../../components/common/elements/Header";
 import Text from "../../components/common/elements/Text";
 import Label from "../../components/common/elements/Label";
@@ -61,10 +62,14 @@ import toCountryName from "../../components/common/converters/CountryNameConvert
 import FormattedMessage from "../../components/common/FormattedMessage";
 import { store } from "../../store";
 import { OfferingCustomerSummary } from "../../types/customer";
+import AccountHoldersContext from "../../contexts/account-holders/AccountHoldersContext";
 
 const CustomerDetail = (props: any) => {
   const { setErrorMsg } = useContext(MessageContext);
   const { canSeeCustomerMemos } = useContext(ContentVisibilityContext);
+  const accountHoldersContext = useContext(AccountHoldersContext);  const {
+    setIsAccountHolder,
+  } = accountHoldersContext;
   const state = store.getState();
   const roles = state.account?.user?.roles;
 
@@ -95,37 +100,20 @@ const CustomerDetail = (props: any) => {
     onError: (error: any) => setErrorMsg(error),
   });
 
-  const getCustomer = (customerIdentifier: any) => {
-    Promise.allSettled([
-      // @ts-ignore
-      api.CustomerAPI.get(customerIdentifier),
-      // @ts-ignore
-      api.CustomerAPI.getCustomerParent(customerIdentifier),
-    ])
-      .then(([customerResult, parentResult]) => {
-        setCustomer(() => {
-          // @ts-ignore
-          const customer = customerResult.value;
+  const getCustomer = async (customerIdentifier: any) => {
+    // @ts-ignore
+    const cust = await api.CustomerAPI.get(customerIdentifier).catch(() =>
+      history.push("/customer")
+    );
 
-          // @ts-ignore
-          const customerId = customer.id;
-          // @ts-ignore
-          const primaryPersonId = customer.primaryPerson.id;
+    // @ts-ignore
+    const custParent = await api.CustomerAPI.getCustomerParent(
+      customerIdentifier
+    ).catch(() => history.push("/customer"));
 
-          getCustomerAddresses(primaryPersonId);
-          getCustomerEmails(primaryPersonId);
-          getCustomerPhones(primaryPersonId);
-          getCustomerChildren();
-          getDeclinedTransactions(customerId);
-          getRecentActivity(customerId);
-          getFilteredNavs(customerIdentifier);
-
-          return customer;
-        });
-        // @ts-ignore
-        setParentCustomer(parentResult.value);
-      })
-      .catch(() => history.push("/customer"));
+    setCustomer(cust);
+    setParentCustomer(custParent);
+    return cust;
   };
 
   const getCustomerAddresses = (personIdentifier: any) =>
@@ -213,8 +201,8 @@ const CustomerDetail = (props: any) => {
         }
         callback &&
           callback(hasCustomerOffering, {
-            isCreditCardCustomer,
-            isInstallmentsCustomer,
+            isCreditCardCustomer: isCreditCardCustomer,
+            isInstallmentsCustomer: isInstallmentsCustomer,
           });
       })
       .catch((exception: any) => {
@@ -228,8 +216,8 @@ const CustomerDetail = (props: any) => {
 
         callback &&
           callback(hasCustomerOffering, {
-            isCreditCardCustomer,
-            isInstallmentsCustomer,
+            isCreditCardCustomer: isCreditCardCustomer,
+            isInstallmentsCustomer: isInstallmentsCustomer,
           });
       });
   };
@@ -328,7 +316,7 @@ const CustomerDetail = (props: any) => {
     isInstallmentsCustomer: boolean
   ) => {
     let allowedNavs = navs;
-    const offeringNavs = ["product", "financials"];
+    let offeringNavs = ["product", "financials"];
     if (hasCustomerOffering) {
       if (isCreditCardCustomer) {
         allowedNavs = allowedNavs.filter(
@@ -373,18 +361,39 @@ const CustomerDetail = (props: any) => {
   };
 
   useEffect(() => {
-    getCustomer(customerNumber);
+    getCustomer(customerNumber).then((cust) => {
+      const { id } = cust.primaryPerson;
+      getCustomerAddresses(id);
+      getCustomerEmails(id);
+      getCustomerPhones(id);
+      getCustomerChildren();
+      getDeclinedTransactions(cust.id);
+      getRecentActivity(cust.id);
+    });
 
-    emitter.on("customer.details.changed", () => getCustomer(customerNumber));
+    emitter.on("customer.details.changed", () =>
+      getCustomer(customerNumber).then((cust) => {
+        const { id } = cust.primaryPerson;
+        getCustomerAddresses(id);
+        getCustomerEmails(id);
+        getCustomerPhones(id);
+        getCustomerChildren();
+        getDeclinedTransactions(cust.id);
+        getRecentActivity(cust.id);
+      })
+    );
+
+    getFilteredNavs(customerNumber);
 
     emitter.on("customer.billing.history.changed", (data: any) => {
       emitter.emit("common.navigation.changed", data);
     });
-  }, []);
+  }, [customerNumber, roles]);
 
   useEffect(() => {
-    if (!parentCustomer) return;
-    getFilteredNavs(parentCustomer.customerNumber);
+    if (parentCustomer) {
+      getFilteredNavs(parentCustomer.customerNumber);
+    }
   }, [parentCustomer]);
 
   useEffect(() => {
@@ -394,6 +403,10 @@ const CustomerDetail = (props: any) => {
       );
     }
   }, [getCountryList2Data]);
+
+  useEffect(() => {
+    setIsAccountHolder(false);
+  }, []);
 
   // @ts-ignore
   return (
@@ -406,250 +419,291 @@ const CustomerDetail = (props: any) => {
           })}`}
         </title>
       </Helmet>
-      <Box>
-        <Grid container>
-          <Grid item xs={12} md={12} lg={12}>
-            <Box>
-              <BreadcrumbsNav aria-label="breadcrumb" className="withBorder">
-                <Link href="/customer" underline="none">
-                  {intl.formatMessage({
-                    id: "customer",
-                    defaultMessage: "Customer",
-                  })}
-                </Link>
-                <Typography>{customerNumber}</Typography>
-              </BreadcrumbsNav>
-            </Box>
-            <Grid
-              container
-              justifyContent="space-between"
-              alignItems="center"
-              sx={{ marginTop: "30px", marginBottom: "49px" }}
-            >
-              <Grid item>
-                <Typography variant="h1">{toCustomerName(customer)}</Typography>
-                <Typography
-                  style={{
-                    color: "#515969",
-                    fontSize: "14px",
-                    lineHeight: "16px",
-                  }}
-                >
-                  {" "}
-                  {customer != null &&
-                  customer.primaryPerson.nickName !== undefined &&
-                  customer.primaryPerson.nickName.length > 0 ? (
-                    <span>{`'${customer.primaryPerson.nickName}'`}</span>
-                  ) : null}
-                </Typography>
-              </Grid>
-              <Grid item>
-                <Box>
-                  <Box
-                    sx={{
-                      display: "flex",
-                      marginBottom: "16px",
-                      gap: "20px",
-                      alignItems: "center",
+      <CustomerDetailContextProvider>
+        <Box>
+          <Grid container>
+            <Grid item xs={12} md={12} lg={12}>
+              <Box>
+                <BreadcrumbsNav aria-label="breadcrumb" className="withBorder">
+                  <Link href="/customer" underline="none">
+                    {intl.formatMessage({
+                      id: "customers",
+                      defaultMessage: "customers",
+                    })}
+                  </Link>
+                  <Label variant="grey" fontWeight={400}>
+                    {customerNumber}
+                  </Label>
+                </BreadcrumbsNav>
+              </Box>
+              <Grid
+                container
+                justifyContent="space-between"
+                alignItems="center"
+                sx={{ marginTop: "30px", marginBottom: "49px" }}
+              >
+                <Grid item>
+                  <Typography variant="h1">
+                    {toCustomerName(customer)}
+                  </Typography>
+                  <Typography
+                    style={{
+                      color: "#515969",
+                      fontSize: "14px",
+                      lineHeight: "16px",
                     }}
                   >
-                    <Label variant="grey" fontWeight={400}>
-                      {intl.formatMessage(
-                        defineMessage({
-                          id: "createdDate",
-                          defaultMessage: "Created Date",
-                        })
-                      )}
-                    </Label>
-                    {customer != null ? (
-                      <Label fontWeight={400}>
-                        <FormattedDate
-                          value={new Date(customer.creationTime)}
-                          year="numeric"
-                          month="long"
-                          day="2-digit"
-                        />
-                      </Label>
+                    {" "}
+                    {customer != null &&
+                    customer.primaryPerson.nickName !== undefined &&
+                    customer.primaryPerson.nickName.length > 0 ? (
+                      <span>{`'${customer.primaryPerson.nickName}'`}</span>
                     ) : null}
-                  </Box>
-                  <Box
-                    sx={{
-                      display: "flex",
-                      marginBottom: "16px",
-                      gap: "20px",
-                      alignItems: "center",
-                    }}
-                  >
-                    <Label variant="grey" fontWeight={400}>
-                      {intl.formatMessage(
-                        defineMessage({
-                          id: "lastModified",
-                          defaultMessage: "Last Modified",
-                        })
-                      )}
-                    </Label>
-                    {customer != null ? (
-                      <Label fontWeight={400}>
-                        <FormattedDate
-                          value={new Date(customer.modifiedTime)}
-                          year="numeric"
-                          month="long"
-                          day="2-digit"
-                        />
+                  </Typography>
+                </Grid>
+                <Grid item>
+                  <Box>
+                    <Box
+                      sx={{
+                        display: "flex",
+                        marginBottom: "16px",
+                        gap: "20px",
+                        alignItems: "center",
+                      }}
+                    >
+                      <Label variant="grey" fontWeight={400}>
+                        {intl.formatMessage(
+                          defineMessage({
+                            id: "createdDate",
+                            defaultMessage: "Created Date",
+                          })
+                        )}
                       </Label>
-                    ) : null}
+                      {customer != null ? (
+                        <Label fontWeight={400}>
+                          <FormattedDate
+                            value={new Date(customer.creationTime)}
+                            year="numeric"
+                            month="long"
+                            day="2-digit"
+                          />
+                        </Label>
+                      ) : null}
+                    </Box>
+                    <Box
+                      sx={{
+                        display: "flex",
+                        marginBottom: "16px",
+                        gap: "20px",
+                        alignItems: "center",
+                      }}
+                    >
+                      <Label variant="grey" fontWeight={400}>
+                        {intl.formatMessage(
+                          defineMessage({
+                            id: "lastModified",
+                            defaultMessage: "Last Modified",
+                          })
+                        )}
+                      </Label>
+                      {customer != null ? (
+                        <Label fontWeight={400}>
+                          <FormattedDate
+                            value={new Date(customer.modifiedTime)}
+                            year="numeric"
+                            month="long"
+                            day="2-digit"
+                          />
+                        </Label>
+                      ) : null}
+                    </Box>
                   </Box>
-                </Box>
+                </Grid>
               </Grid>
             </Grid>
           </Grid>
-        </Grid>
-        <Grid container spacing={3}>
-          <Grid item lg={3}>
-            <Box sx={{ minHeight: "218px" }}>
-              {customer ? <CardBlocks customer={customer} /> : null}
-            </Box>
-            <Box>
-              <AccountHoldersCard
-                customer={customer}
-                cxIdent={customerNumber}
-              />
-            </Box>
-          </Grid>
-          <Grid item lg={6}>
-            <Box
-              sx={{
-                minHeight: "172px",
-                "& a": {
-                  letterSpacing: "0.1px",
-                },
-              }}
-            >
+          <Grid container spacing={3}>
+            <Grid item lg={3}>
+              <Box sx={{ minHeight: "218px" }}>
+                {customer ? <CardBlocks customer={customer} /> : null}
+              </Box>
+              <Box>
+                <AccountHoldersCard
+                  customer={customer}
+                  cxIdent={customerNumber}
+                />
+              </Box>
+            </Grid>
+            <Grid item lg={6}>
               <Box
                 sx={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  alignItems: "center",
-                  marginBottom: "20px",
+                  minHeight: "172px",
+                  "& a": {
+                    letterSpacing: "0.1px",
+                  },
                 }}
               >
-                <Header
-                  level={2}
-                  bold
-                  color="primary"
-                  value={intl.formatMessage(
-                    defineMessage({
-                      id: "customerDetails",
-                      defaultMessage: "Customer Details",
-                    })
-                  )}
-                />
-                <NavLink to={`/customer/${customerNumber}/edit`}>
-                  <Label
-                    fontWeight={600}
-                    lineHeight="12px"
-                    size="body"
-                    variant="link"
-                  >
-                    {intl.formatMessage({
-                      id: "viewCustomerDetails",
-                      defaultMessage: "View Customer Details",
-                    })}
-                    {" >>"}
-                  </Label>
-                </NavLink>
-              </Box>
-              <Grid container spacing={2} sx={{ minHeight: "188px" }}>
-                <Grid item lg={5}>
-                  {addresses.map((addr: any) => (
-                    <Box
-                      key={addr.id}
-                      sx={{
-                        display: "flex",
-                        justifyContent: "space-between",
-                        paddingBottom: "15px",
-                        alignItems: "baseline",
-                        marginTop: "-4px",
-                      }}
+                <Box
+                  sx={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    marginBottom: "20px",
+                  }}
+                >
+                  <Header
+                    level={2}
+                    bold
+                    color="primary"
+                    value={intl.formatMessage(
+                      defineMessage({
+                        id: "customerDetails",
+                        defaultMessage: "Customer Details",
+                      })
+                    )}
+                  />
+                  <NavLink to={`/customer/${customerNumber}/edit`}>
+                    <Label
+                      fontWeight={600}
+                      lineHeight="12px"
+                      size="body"
+                      variant="link"
                     >
-                      <Grid container flexDirection="column">
-                        <Label size="body" lineHeight="15px" fontWeight={400}>
-                          {addr.line1}
-                        </Label>
-                        {addr.line2 ? (
+                      {intl.formatMessage({
+                        id: "viewCustomerDetails",
+                        defaultMessage: "View Customer Details",
+                      })}
+                      {" >>"}
+                    </Label>
+                  </NavLink>
+                </Box>
+                <Grid container spacing={2} sx={{ minHeight: "188px" }}>
+                  <Grid item lg={5}>
+                    {addresses.map((addr: any) => (
+                      <Box
+                        key={addr.id}
+                        sx={{
+                          display: "flex",
+                          justifyContent: "space-between",
+                          paddingBottom: "15px",
+                          alignItems: "baseline",
+                          marginTop: "-4px",
+                        }}
+                      >
+                        <Grid container flexDirection="column">
                           <Label size="body" lineHeight="15px" fontWeight={400}>
-                            {addr.line2}
+                            {addr.line1}
                           </Label>
-                        ) : null}
-                        {addr.line3 ? (
+                          {addr.line2 ? (
+                            <Label
+                              size="body"
+                              lineHeight="15px"
+                              fontWeight={400}
+                            >
+                              {addr.line2}
+                            </Label>
+                          ) : null}
+                          {addr.line3 ? (
+                            <Label
+                              size="body"
+                              lineHeight="15px"
+                              fontWeight={400}
+                            >
+                              {addr.line3}
+                            </Label>
+                          ) : null}
                           <Label size="body" lineHeight="15px" fontWeight={400}>
-                            {addr.line3}
+                            {[
+                              addr.neighborhood,
+                              addr.city,
+                              addr.state,
+                              addr.postalCode,
+                            ]
+                              .filter(Boolean)
+                              .join(", ")}
                           </Label>
-                        ) : null}
-                        <Label size="body" lineHeight="15px" fontWeight={400}>
-                          {[
-                            addr.neighborhood,
-                            addr.city,
-                            addr.state,
-                            addr.postalCode,
-                          ]
-                            .filter(Boolean)
-                            .join(", ")}
-                        </Label>
-                        <Label size="body" lineHeight="15px" fontWeight={400}>
-                          {toCountryName(addr.country, countries)}
-                        </Label>
-                      </Grid>
-                      <Box>
+                          <Label size="body" lineHeight="15px" fontWeight={400}>
+                            {toCountryName(addr.country, countries)}
+                          </Label>
+                        </Grid>
+                        <Box>
+                          <Pill
+                            label={<FormattedMessage id={addr.type} />}
+                            variant="red"
+                          ></Pill>
+                        </Box>
+                      </Box>
+                    ))}
+                  </Grid>
+                  <Grid item lg={7}>
+                    {emails.map((e: any) => (
+                      <Box
+                        key={e.id}
+                        sx={{
+                          display: "flex",
+                          justifyContent: "space-between",
+                          alignItems: "baseline",
+                          marginBottom: "15px",
+                          lineHeight: "15px",
+                        }}
+                      >
+                        <Box sx={{ display: "flex", alignItems: "baseline" }}>
+                          {e.state === "verified" && (
+                            <Box sx={{ marginRight: "5px" }}>
+                              <img
+                                src={Icon.verifiedCheckmark}
+                                height={12}
+                                width={12}
+                                alt="checkmark"
+                              />
+                            </Box>
+                          )}
+                          <Typography
+                            sx={{
+                              color: "#152C5B",
+                              fontSize: "10px",
+                            }}
+                          >
+                            {e.email}
+                          </Typography>
+                        </Box>
                         <Pill
-                          label={<FormattedMessage id={addr.type} />}
-                          variant="red"
-                        />
+                          label={<FormattedMessage id={e.type} />}
+                          variant="yellow"
+                        ></Pill>
                       </Box>
-                    </Box>
-                  ))}
-                </Grid>
-                <Grid item lg={7}>
-                  {emails.map((e: any) => (
-                    <Box
-                      key={e.id}
-                      sx={{
-                        display: "flex",
-                        justifyContent: "space-between",
-                        alignItems: "baseline",
-                        marginBottom: "15px",
-                        lineHeight: "15px",
-                      }}
-                    >
-                      <Box sx={{ display: "flex", alignItems: "baseline" }}>
-                        {e.state === "verified" && (
-                          <Box sx={{ marginRight: "5px" }}>
-                            <img
-                              src={Icon.verifiedCheckmark}
-                              height={12}
-                              width={12}
-                              alt="checkmark"
+                    ))}
+                    {phones.map((p: any) => (
+                      <Box
+                        key={p.id}
+                        sx={{
+                          display: "flex",
+                          justifyContent: "space-between",
+                          marginBottom: "15px",
+                          lineHeight: "15px",
+                        }}
+                      >
+                        <Box>
+                          <Typography
+                            sx={{
+                              color: "#152C5B",
+                              fontSize: "10px",
+                            }}
+                          >
+                            {`+${p.countryCode} ${p.phoneNumber}`}
+                          </Typography>
+                        </Box>
+                        <Pill
+                          label={
+                            <FormattedMessage
+                              id={p.type == "mob" ? "mobile" : p.type}
                             />
-                          </Box>
-                        )}
-                        <Typography
-                          sx={{
-                            color: "#152C5B",
-                            fontSize: "10px",
-                          }}
-                        >
-                          {e.email}
-                        </Typography>
+                          }
+                          variant="red"
+                        ></Pill>
                       </Box>
-                      <Pill
-                        label={<FormattedMessage id={e.type} />}
-                        variant="yellow"
-                      />
-                    </Box>
-                  ))}
-                  {phones.map((p: any) => (
+                    ))}
                     <Box
-                      key={p.id}
                       sx={{
                         display: "flex",
                         justifyContent: "space-between",
@@ -657,173 +711,146 @@ const CustomerDetail = (props: any) => {
                         lineHeight: "15px",
                       }}
                     >
-                      <Box>
-                        <Typography
-                          sx={{
-                            color: "#152C5B",
-                            fontSize: "10px",
-                          }}
-                        >
-                          {`+${p.countryCode} ${p.phoneNumber}`}
-                        </Typography>
-                      </Box>
+                      <Typography
+                        sx={{
+                          color: "#152C5B",
+                          fontSize: "10px",
+                        }}
+                      >
+                        {customer?.language === undefined ? (
+                          "--"
+                        ) : (
+                          <>
+                            {intl.formatDisplayName(customer?.language, {
+                              type: "language",
+                            }) || ""}
+                          </>
+                        )}
+                      </Typography>
                       <Pill
                         label={
                           <FormattedMessage
-                            id={p.type == "mob" ? "mobile" : p.type}
+                            id="preferredLanguage"
+                            defaultMessage="Preferred Language"
                           />
                         }
-                        variant="red"
-                      />
+                        variant="blue"
+                      ></Pill>
                     </Box>
-                  ))}
-                  <Box
-                    sx={{
-                      display: "flex",
-                      justifyContent: "space-between",
-                      marginBottom: "15px",
-                      lineHeight: "15px",
-                    }}
-                  >
-                    <Typography
+                    {/* @ts-ignore */}
+                    <List
+                      key="fee-plan"
                       sx={{
-                        color: "#152C5B",
-                        fontSize: "10px",
+                        display: "flex",
+                        padding: 0,
+                        lineHeight: "15px",
+                        marginBottom: "15px",
                       }}
+                      type="inline"
                     >
-                      {customer?.language === undefined ? (
-                        "--"
-                      ) : (
-                        <>
-                          {intl.formatDisplayName(customer?.language, {
-                            type: "language",
-                          }) || ""}
-                        </>
-                      )}
-                    </Typography>
-                    <Pill
-                      label={
-                        <FormattedMessage
-                          id="preferredLanguage"
-                          defaultMessage="Preferred Language"
-                        />
-                      }
-                      variant="blue"
-                    />
-                  </Box>
-                  {/* @ts-ignore */}
-                  <List
-                    key="fee-plan"
-                    sx={{
-                      display: "flex",
-                      padding: 0,
-                      lineHeight: "15px",
-                      marginBottom: "15px",
-                    }}
-                    type="inline"
-                  >
-                    <ListItem sx={{ padding: 0 }}>
-                      {/* @ts-ignore */}
-                      <CustomerFeePlanDrawerContextProvider>
-                        <DrawerComp
-                          id="customer-fee-plan-drawer"
-                          LevelTwo={FeePlanEntriesLevelTwoDrawer}
-                          asLink
-                          label={`${customer?.feePlanName} >>`}
-                          widthPercentage={70}
-                          bodyInteractive="small"
-                        >
-                          <CustomerFeePlanDrawer />
-                        </DrawerComp>
-                      </CustomerFeePlanDrawerContextProvider>
-                    </ListItem>
-                    <ListItem sx={{ padding: 0, justifyContent: "end" }}>
-                      <Pill label="Fee Plan" />
-                    </ListItem>
-                  </List>
-                  {/* @ts-ignore */}
-                  <List
-                    key="risk-level"
-                    sx={{
-                      display: "flex",
-                      padding: 0,
-                      lineHeight: "15px",
-                      marginBottom: "15px",
-                    }}
-                    type="inline"
-                  >
-                    <ListItem sx={{ padding: 0 }}>
-                      <CustomerRiskLevelDrawerContextProvider>
-                        <CustomerRiskLevelCard customer={customer} />
-                      </CustomerRiskLevelDrawerContextProvider>
-                    </ListItem>
-                    <ListItem sx={{ padding: 0, justifyContent: "end" }}>
-                      <Pill label="Risk Level" />
-                    </ListItem>
-                  </List>
+                      <ListItem sx={{ padding: 0 }}>
+                        {/* @ts-ignore */}
+                        <CustomerFeePlanDrawerContextProvider>
+                          <DrawerComp
+                            id="customer-fee-plan-drawer"
+                            LevelTwo={FeePlanEntriesLevelTwoDrawer}
+                            asLink
+                            label={`${customer?.feePlanName} >>`}
+                            widthPercentage={70}
+                            bodyInteractive="small"
+                          >
+                            <CustomerFeePlanDrawer />
+                          </DrawerComp>
+                        </CustomerFeePlanDrawerContextProvider>
+                      </ListItem>
+                      <ListItem sx={{ padding: 0, justifyContent: "end" }}>
+                        <Pill label="Fee Plan" />
+                      </ListItem>
+                    </List>
+                    {/* @ts-ignore */}
+                    <List
+                      key="risk-level"
+                      sx={{
+                        display: "flex",
+                        padding: 0,
+                        lineHeight: "15px",
+                        marginBottom: "15px",
+                      }}
+                      type="inline"
+                    >
+                      <ListItem sx={{ padding: 0 }}>
+                        <CustomerRiskLevelDrawerContextProvider>
+                          <CustomerRiskLevelCard customer={customer} />
+                        </CustomerRiskLevelDrawerContextProvider>
+                      </ListItem>
+                      <ListItem sx={{ padding: 0, justifyContent: "end" }}>
+                        <Pill label="Risk Level" />
+                      </ListItem>
+                    </List>
+                  </Grid>
                 </Grid>
-              </Grid>
-            </Box>
-            <Box>
-              <Box sx={{ mb: 2.25 }}>
-                <Header
-                  level={2}
-                  bold
-                  color="primary"
-                  value={intl.formatMessage(
-                    defineMessage({
-                      id: "declinedActivity",
-                      defaultMessage: "Declined Activity",
-                    })
-                  )}
+              </Box>
+              <Box>
+                <Box sx={{ mb: 2.25 }}>
+                  <Header
+                    level={2}
+                    bold
+                    color="primary"
+                    value={intl.formatMessage(
+                      defineMessage({
+                        id: "declinedActivity",
+                        defaultMessage: "Declined Activity",
+                      })
+                    )}
+                  />
+                </Box>
+                <StandardTable
+                  id="customer-detail-table"
+                  tableRowPrefix="customer-detail"
+                  dataList={declinedTxs}
+                  tableMetadata={declinedTxMeta}
                 />
               </Box>
-              <StandardTable
-                id="customer-detail-table"
-                tableRowPrefix="customer-detail"
-                dataList={declinedTxs}
-                tableMetadata={declinedTxMeta}
+            </Grid>
+            <Grid item xs={3} md={3} lg={3}>
+              <Header
+                level={2}
+                bold
+                color="primary"
+                value={intl.formatMessage(
+                  defineMessage({
+                    id: "recentActivity",
+                    defaultMessage: "Recent Activity",
+                  })
+                )}
               />
-            </Box>
+              <Box>
+                <CustomerRecentActivity
+                  listPrefix="recent-activity"
+                  activity={recentActivity}
+                />
+              </Box>
+            </Grid>
           </Grid>
-          <Grid item xs={3} md={3} lg={3}>
-            <Header
-              level={2}
-              bold
-              color="primary"
-              value={intl.formatMessage(
-                defineMessage({
-                  id: "recentActivity",
-                  defaultMessage: "Recent Activity",
-                })
-              )}
-            />
-            <Box>
-              <CustomerRecentActivity
-                listPrefix="recent-activity"
-                activity={recentActivity}
+          <Box>
+            {customer !== null ? (
+              <PageNav
+                components={allowedNavs}
+                customerNumber={customerNumber}
+                primaryPersonId={customer.primaryPerson.id}
+                portfolioId={customer.id}
+                sessionKey={`customerDetailTab-${customerNumber}`}
+                defaultTab={defaultTab}
+                programName={customer.programName}
+                homeCurrency={customer.homeCurrency}
+                parentCustomerNumber={
+                  parentCustomer ? parentCustomer.customerNumber : null
+                }
               />
-            </Box>
-          </Grid>
-        </Grid>
-        <Box>
-          {customer !== null ? (
-            <PageNav
-              components={allowedNavs}
-              customerNumber={customerNumber}
-              primaryPersonId={customer.primaryPerson.id}
-              portfolioId={customer.id}
-              sessionKey={`customerDetailTab-${customerNumber}`}
-              defaultTab={defaultTab}
-              programName={customer.programName}
-              homeCurrency={customer.homeCurrency}
-              parentCustomerNumber={
-                parentCustomer ? parentCustomer.customerNumber : null
-              }
-            />
-          ) : null}
+            ) : null}
+          </Box>
         </Box>
-      </Box>
+      </CustomerDetailContextProvider>
     </>
   );
 };

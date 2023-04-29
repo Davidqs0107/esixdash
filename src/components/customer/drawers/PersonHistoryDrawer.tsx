@@ -12,19 +12,22 @@
  *
  */
 
+import React, { SyntheticEvent, useContext, useEffect, useState } from "react";
 import {
   FormattedDate,
   FormattedMessage,
   FormattedTime,
   useIntl,
 } from "react-intl";
-import React, { SyntheticEvent, useContext, useEffect, useState } from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import TextRender from "../../common/TextRender";
 import Header from "../../common/elements/Header";
 import Icon from "../../common/Icon";
+import api from "../../../api/api";
+import { MessageContext } from "../../../contexts/MessageContext";
+import { ContentVisibilityContext } from "../../../contexts/ContentVisibilityContext";
 import { styled } from "@mui/material/styles";
 import MuiAccordion, { AccordionProps } from "@mui/material/Accordion";
 import MuiAccordionSummary, {
@@ -37,9 +40,6 @@ import EmailStateConverter from "../../common/converters/EmailStateConverter";
 import InternationalizeEmailType from "../../common/converters/EmailTypesI18nMap";
 import InternationalizePhoneType from "../../common/converters/PhoneTypesI18nMap";
 import OfficialIdTypeConverter from "../../common/converters/OfficialIdTypeConverter";
-import api from "../../../api/api";
-import { MessageContext } from "../../../contexts/MessageContext";
-import { ContentVisibilityContext } from "../../../contexts/ContentVisibilityContext";
 
 interface IPersonDetailsHistory {
   personId: string;
@@ -218,7 +218,7 @@ const PersonHistoryDrawer: React.FC<IPersonDetailsHistory> = ({
             <TextRender
               data={item.firstName}
               className="drawer-label"
-              truncateAt={100}
+              truncated={false}
               color="labelLight"
               noMargin
             />
@@ -232,7 +232,7 @@ const PersonHistoryDrawer: React.FC<IPersonDetailsHistory> = ({
             <TextRender
               data={item.middleName}
               className="drawer-label"
-              truncateAt={100}
+              truncated={false}
               color="labelLight"
               noMargin
             />
@@ -246,7 +246,7 @@ const PersonHistoryDrawer: React.FC<IPersonDetailsHistory> = ({
             <TextRender
               data={item.lastName}
               className="drawer-label"
-              truncateAt={100}
+              truncated={false}
               color="labelLight"
               noMargin
             />
@@ -263,7 +263,7 @@ const PersonHistoryDrawer: React.FC<IPersonDetailsHistory> = ({
             <TextRender
               data={item.lastName2}
               className="drawer-label"
-              truncateAt={100}
+              truncated={false}
               color="labelLight"
               noMargin
             />
@@ -291,7 +291,7 @@ const PersonHistoryDrawer: React.FC<IPersonDetailsHistory> = ({
             <TextRender
               data={item.nickname}
               className="drawer-label"
-              truncateAt={100}
+              truncated={false}
               color="labelLight"
               noMargin
             />
@@ -362,7 +362,7 @@ const PersonHistoryDrawer: React.FC<IPersonDetailsHistory> = ({
             <TextRender
               data={item.line1}
               className="drawer-label"
-              truncateAt={100}
+              truncated={false}
               color="labelLight"
               noMargin
             />
@@ -379,7 +379,7 @@ const PersonHistoryDrawer: React.FC<IPersonDetailsHistory> = ({
             <TextRender
               data={item.line2}
               className="drawer-label"
-              truncateAt={100}
+              truncated={false}
               color="labelLight"
               noMargin
             />
@@ -396,7 +396,7 @@ const PersonHistoryDrawer: React.FC<IPersonDetailsHistory> = ({
             <TextRender
               data={item.line3}
               className="drawer-label"
-              truncateAt={100}
+              truncated={false}
               color="labelLight"
               noMargin
             />
@@ -413,7 +413,7 @@ const PersonHistoryDrawer: React.FC<IPersonDetailsHistory> = ({
             <TextRender
               data={item.neighborhood}
               className="drawer-label"
-              truncateAt={100}
+              truncated={false}
               color="labelLight"
               noMargin
             />
@@ -427,7 +427,7 @@ const PersonHistoryDrawer: React.FC<IPersonDetailsHistory> = ({
             <TextRender
               data={item.postalCode}
               className="drawer-label"
-              truncateAt={100}
+              truncated={false}
               color="labelLight"
               noMargin
             />
@@ -441,7 +441,7 @@ const PersonHistoryDrawer: React.FC<IPersonDetailsHistory> = ({
             <TextRender
               data={item.city}
               className="drawer-label"
-              truncateAt={100}
+              truncated={false}
               color="labelLight"
               noMargin
             />
@@ -455,7 +455,7 @@ const PersonHistoryDrawer: React.FC<IPersonDetailsHistory> = ({
             <TextRender
               data={item.state}
               className="drawer-label"
-              truncateAt={100}
+              truncated={false}
               color="labelLight"
               noMargin
             />
@@ -469,7 +469,7 @@ const PersonHistoryDrawer: React.FC<IPersonDetailsHistory> = ({
             <TextRender
               data={item.country}
               className="drawer-label"
-              truncateAt={100}
+              truncated={false}
               color="labelLight"
               noMargin
             />
@@ -490,7 +490,7 @@ const PersonHistoryDrawer: React.FC<IPersonDetailsHistory> = ({
             <TextRender
               data={InternationalizeEmailType(item.type, intl)}
               className="drawer-label"
-              truncateAt={100}
+              truncated={false}
               color="labelLight"
               noMargin
             />
@@ -507,7 +507,7 @@ const PersonHistoryDrawer: React.FC<IPersonDetailsHistory> = ({
             <TextRender
               data={item.email}
               className="drawer-label"
-              truncateAt={100}
+              truncated={false}
               color="labelLight"
               noMargin
             />
@@ -521,7 +521,7 @@ const PersonHistoryDrawer: React.FC<IPersonDetailsHistory> = ({
             <TextRender
               data={EmailStateConverter(item.state, intl)}
               className="drawer-label"
-              truncateAt={100}
+              truncated={false}
               color="labelLight"
               noMargin
             />
@@ -542,7 +542,7 @@ const PersonHistoryDrawer: React.FC<IPersonDetailsHistory> = ({
             <TextRender
               data={InternationalizePhoneType(item.type, intl)}
               className="drawer-label"
-              truncateAt={100}
+              truncated={false}
               color="labelLight"
               noMargin
             />
@@ -559,7 +559,7 @@ const PersonHistoryDrawer: React.FC<IPersonDetailsHistory> = ({
             <TextRender
               data={item.phoneNumber}
               className="drawer-label"
-              truncateAt={100}
+              truncated={false}
               color="labelLight"
               noMargin
             />
@@ -580,7 +580,7 @@ const PersonHistoryDrawer: React.FC<IPersonDetailsHistory> = ({
             <TextRender
               data={OfficialIdTypeConverter(item.type, intl)}
               className="drawer-label"
-              truncateAt={100}
+              truncated={false}
               color="labelLight"
               noMargin
             />
@@ -597,7 +597,7 @@ const PersonHistoryDrawer: React.FC<IPersonDetailsHistory> = ({
             <TextRender
               data={item.primary}
               className="drawer-label"
-              truncateAt={100}
+              truncated={false}
               color="labelLight"
               noMargin
             />
@@ -614,7 +614,7 @@ const PersonHistoryDrawer: React.FC<IPersonDetailsHistory> = ({
             <TextRender
               data={item.secondary}
               className="drawer-label"
-              truncateAt={100}
+              truncated={false}
               color="labelLight"
               noMargin
             />
@@ -664,7 +664,7 @@ const PersonHistoryDrawer: React.FC<IPersonDetailsHistory> = ({
             <TextRender
               data={item.country}
               className="drawer-label"
-              truncateAt={100}
+              truncated={false}
               color="labelLight"
               noMargin
             />
@@ -889,7 +889,7 @@ const PersonHistoryDrawer: React.FC<IPersonDetailsHistory> = ({
                         <TextRender
                           data={content}
                           className="drawer-label"
-                          truncateAt={100}
+                          truncated={false}
                           color="labelLight"
                           noMargin
                         />

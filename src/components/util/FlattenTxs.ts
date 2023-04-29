@@ -19,6 +19,7 @@ export default (txList: string | any[]) => {
   // eslint-disable-next-line no-plusplus
   for (let i = 0; i < txList.length; i++) {
     const tx = txList[i];
+    const multiEntries = tx.transactionEntries.length > 1;
     // eslint-disable-next-line no-plusplus
     for (j = 0; j < tx.transactionEntries.length; j++) {
       const txe = tx.transactionEntries[j];
@@ -26,6 +27,10 @@ export default (txList: string | any[]) => {
         tx,
         even: isEven(i),
         txe,
+        isparent: multiEntries && j === 0,
+        hidden: multiEntries && j !== 0 ? true : false, //hides other entries but not the first one
+        expanded: false,
+        txId: tx.id
       };
       list.push(entry);
     }

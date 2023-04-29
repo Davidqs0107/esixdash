@@ -332,6 +332,7 @@ const ProductInstallmentsChildLoans = (props: any) => {
                     size="large"
                     fontWeight={700}
                     lineHeight="1"
+                    truncated={false}
                   />
                 </Grid>
               </Grid>

@@ -88,9 +88,9 @@ const DrawerTransactionDetails: React.FC<IDrawerTransactionDetails> = ({
       <Grid item>
         <TextRender
           data={content}
-          textTransform="capitalize"
           fontWeight={400}
           variant="labelLight"
+          truncated={false}
         />
       </Grid>
     </Grid>

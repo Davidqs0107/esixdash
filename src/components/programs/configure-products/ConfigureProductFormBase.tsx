@@ -195,9 +195,9 @@ const ConfigureProductFormBase: React.FC<any> = (props: any) => {
               type="text"
               placeholder={
                 <FormattedMessage
-                  id="configure.form.base.label.productName"
+                  id="productName"
                   description="Input Label"
-                  defaultMessage="Product Name*"
+                  defaultMessage="Product Name"
                 />
               }
               value={props.props.values[0].productName}

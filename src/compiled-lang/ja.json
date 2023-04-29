@@ -133,7 +133,7 @@
       "value": "アカウントホルダー*"
     }
   ],
-  "accountHolders.card.title.persons": [
+  "accountHolders": [
     {
       "type": 0,
       "value": "アカウントホルダー"
@@ -970,7 +970,7 @@
   "button.HIDE": [
     {
       "type": 0,
-      "value": "非表示"
+      "value": "隠れる"
     }
   ],
   "button.VIEW": [
@@ -1923,12 +1923,6 @@
       "value": "パートナー"
     }
   ],
-  "configure.form.base.label.productName": [
-    {
-      "type": 0,
-      "value": "プロダクト名"
-    }
-  ],
   "configure.form.base.label.timeZone": [
     {
       "type": 0,
@@ -1968,7 +1962,7 @@
   "confirmNewPassword": [
     {
       "type": 0,
-      "value": "新しいパスワードを確認"
+      "value": "新しいパスワード(確認)"
     }
   ],
   "confirmPassword": [
@@ -4587,6 +4581,12 @@
       "value": "デフォルト返済期間"
     }
   ],
+  "deferredPaymentOffset": [
+    {
+      "type": 0,
+      "value": "繰延支払オフセット"
+    }
+  ],
   "delete": [
     {
       "type": 0,
@@ -4645,6 +4645,12 @@
     {
       "type": 0,
       "value": "解散"
+    }
+  ],
+  "disqualifiedDebitHandling": [
+    {
+      "type": 0,
+      "value": "失格のデビット処理"
     }
   ],
   "dontShowAgain": [
@@ -5149,6 +5155,12 @@
     {
       "type": 0,
       "value": "編集"
+    }
+  ],
+  "editAccountHolder": [
+    {
+      "type": 0,
+      "value": "口座名義人を編集"
     }
   ],
   "editAddress": [
@@ -5707,6 +5719,16 @@
     {
       "type": 0,
       "value": " 0から100までの数値でなければなりません"
+    }
+  ],
+  "error.field.number1and28": [
+    {
+      "type": 1,
+      "value": "fieldName"
+    },
+    {
+      "type": 0,
+      "value": " は 1 から 28 までの数値でなければなりません"
     }
   ],
   "error.field.numberType": [
@@ -7617,6 +7639,12 @@
       "value": "インバウンド"
     }
   ],
+  "incorrectOldPassword": [
+    {
+      "type": 0,
+      "value": "古いパスワードが正しくありません"
+    }
+  ],
   "individualCurrencyMargin": [
     {
       "type": 0,
@@ -7903,6 +7931,12 @@
     {
       "type": 0,
       "value": "貸出期間日数*"
+    }
+  ],
+  "loanQualificationProcessing": [
+    {
+      "type": 0,
+      "value": "ローン資格処理"
     }
   ],
   "locale": [
@@ -8646,7 +8680,13 @@
   "oldPassword": [
     {
       "type": 0,
-      "value": "以前のパスワード"
+      "value": "現在のパスワード"
+    }
+  ],
+  "oldPasswordDoesNotMatch": [
+    {
+      "type": 0,
+      "value": "提供された古いパスワードは、当社の記録と一致しません。正しい古いパスワードを入力してください。"
     }
   ],
   "online": [
@@ -8763,6 +8803,12 @@
       "value": "IINを追加"
     }
   ],
+  "partner.password.first.time.message": [
+    {
+      "type": 0,
+      "value": "初回ログインパスワードの変更を行います。現在のパスワードの後に新しいパスワードを入力してください。"
+    }
+  ],
   "partnerManagerDetails": [
     {
       "type": 0,
@@ -8803,6 +8849,18 @@
     {
       "type": 0,
       "value": "パスワードが正常に更新されました。新しいパスワードでログインしてください！"
+    }
+  ],
+  "passwordUsedPreviously": [
+    {
+      "type": 0,
+      "value": "以前に使用したパスワード"
+    }
+  ],
+  "passwordUsedPreviouslyProvideNew": [
+    {
+      "type": 0,
+      "value": "以前のパスワードを再利用することはできません。新しいパスワードを入力してください。"
     }
   ],
   "paymentDueDate": [
@@ -8937,6 +8995,12 @@
       "value": "郵便番号"
     }
   ],
+  "preConfiguredLoans": [
+    {
+      "type": 0,
+      "value": "事前設定されたローン"
+    }
+  ],
   "preferredLanguage": [
     {
       "type": 0,
@@ -9007,6 +9071,12 @@
     {
       "type": 0,
       "value": "プロダクト"
+    }
+  ],
+  "productName": [
+    {
+      "type": 0,
+      "value": "プロダクト名"
     }
   ],
   "productedit.credit.button": [
@@ -9496,7 +9566,7 @@
   "reset.password.fields": [
     {
       "type": 0,
-      "value": "以下でパスワードをリセットします"
+      "value": "初回ログインパスワードの変更"
     }
   ],
   "reset.password.instructions": [

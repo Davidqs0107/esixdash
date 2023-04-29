@@ -222,12 +222,7 @@ const PassWordReset: React.FC<any> = (props: any) => {
               justifyContent: "center",
             }}
           >
-            <Typography variant="brandName">
-              <FormattedMessage
-                id={title.toLowerCase()}
-                defaultMessage={title}
-              />
-            </Typography>
+            <Typography variant="brandName">{title}</Typography>
           </Box>
 
           <Paper variant="formCentered">

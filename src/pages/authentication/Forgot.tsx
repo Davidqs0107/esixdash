@@ -238,7 +238,6 @@ const Forgot: React.FC<IForgot> = ({ history }) => {
                       <QDButton
                         id="forgot-password-send-link-button"
                         type="submit"
-                        onClick={props.submitForm}
                         size="large"
                         color="primary"
                         variant="contained"

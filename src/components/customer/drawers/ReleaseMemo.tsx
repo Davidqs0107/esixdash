@@ -77,18 +77,22 @@ const ReleaseMemo: FC<IReleaseMemo> = ({
     isCardBlock: Yup.boolean(),
     reasonBlockId: Yup.string().when("isCardBlock", {
       is: true,
-      then: Yup.string().min(1).required(intl.formatMessage({
-        id: "error.reason.required",
-        defaultMessage: "Reason is a required field",
-      })),
+      then: Yup.string()
+        .min(1)
+        .required(
+          intl.formatMessage({
+            id: "error.reason.required",
+            defaultMessage: "Reason is a required field",
+          })
+        ),
       otherwise: Yup.string(),
-    })
+    }),
   });
 
   const [initialValues] = useState({
     memo: "",
     reasonBlockId: blockId ? blockId : "",
-    isCardBlock: isCardBlock
+    isCardBlock: isCardBlock,
   });
 
   const [cardBlockReasons, setCardBlockReasons] = useState<any>([]);
@@ -99,9 +103,12 @@ const ReleaseMemo: FC<IReleaseMemo> = ({
       .then((result: any) => {
         const cardBlockReasonList = result.map((block: any) => ({
           blockId: block.id,
-          text: CardBlockReasonConverter(block.reason, intl) + ' - ' + fixDateTime(block.creationTime),
+          text:
+            CardBlockReasonConverter(block.reason, intl) +
+            " - " +
+            fixDateTime(block.creationTime),
           reason: block.reason,
-          customerReleaseable: block.customerReleaseable
+          customerReleaseable: block.customerReleaseable,
         }));
 
         // @ts-ignore

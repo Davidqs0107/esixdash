@@ -334,17 +334,27 @@ export const installmentsFormSchema = Yup.object().shape({
     .required()
     .typeError("A number is required")
     .moreThan(0),
-  periodCount: Yup.number()
-    .required()
-    .typeError("A number is required")
-    .min(0),
+  periodCount: Yup.number().required().typeError("A number is required").min(0),
   firstPaymentDaysOffset: Yup.number()
     .required()
     .typeError("A number is required")
     .min(0),
-  periodLength: Yup.string()
+  periodLength: Yup.string().required().typeError("Enter a valid value"),
+  excessCreditAction: Yup.string().required().typeError("Enter a valid value"),
+  cashLeakHandling: Yup.string().required().typeError("Enter a valid value"),
+  disqualifiedDebitHandling: Yup.string()
+    .oneOf(["DECLINE", "DEFER"])
     .required()
-    .typeError("Enter a valid value"),
+    .typeError("This is a required field"),
+  deferredPaymentOffset: Yup.number()
+    .when("disqualifiedDebitHandling", {
+      is: (disqualifiedDebitHandling: any) => {
+        return disqualifiedDebitHandling == "DEFER";
+      },
+      then: Yup.number().min(1).required().typeError("A number is required"),
+      otherwise: Yup.number().nullable(),
+    })
+    .typeError("A number is required"),
 });
 
 export const programFormSchema = Yup.object().shape({

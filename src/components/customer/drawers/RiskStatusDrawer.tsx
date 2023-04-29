@@ -79,7 +79,8 @@ const RiskStatusDrawer = (props: any) => {
       render: (rowData: any) => (
         <TextRender
           data={RiskParamConverter(rowData.name, intl)}
-          color="#152C5B"
+          color="#152C5B" 
+          truncated={false}
         />
       ),
     },
@@ -164,6 +165,7 @@ const RiskStatusDrawer = (props: any) => {
         <TextRender
           data={RiskParamConverter(rowData.paramName, intl)}
           color="#152C5B"
+          truncated={false}
         />
       ),
     },
@@ -176,7 +178,7 @@ const RiskStatusDrawer = (props: any) => {
         />
       ),
       render: (rowData: any) => (
-        <TextRender data={rowData.paramValue} color="#152C5B" />
+        <TextRender data={rowData.paramValue} color="#152C5B" truncated={false}/>
       ),
     },
     {

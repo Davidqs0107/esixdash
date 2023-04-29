@@ -161,6 +161,7 @@ const ProgramsFeesDrawer: React.FC<IProgramFeesDrawer> = ({
                     data={selectedFeePlan}
                     textTransform="capitalize"
                     fontWeight={400}
+                    truncated={false} 
                   />
                 </Box>
               ) : (

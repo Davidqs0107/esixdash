@@ -562,7 +562,7 @@ const InterchangeDrawer: React.FC<IInterchangeDrawer> = ({
                   </Label>
                   {interchange.iins &&
                     interchange.iins.map((iin: any, index: any) => (
-                      <TextRender data={iin} key={`label.iins.${index}`} />
+                      <TextRender data={iin} key={`label.iins.${index}`}  truncated={false}/>
                     ))}
                   <FieldArray
                     name="newIINs"

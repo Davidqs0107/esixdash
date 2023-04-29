@@ -37,7 +37,11 @@ import ConfigureProductFormInstallments from "../../../components/programs/confi
 
 import SubmitButton from "../../../components/common/elements/SubmitButton";
 import { MessageContext } from "../../../contexts/MessageContext";
-import { ProgramConfig, ProgramCreditCardConfig, ProgramInstallmentsConfig } from "../../../types/program";
+import {
+  ProgramConfig,
+  ProgramCreditCardConfig,
+  ProgramInstallmentsConfig,
+} from "../../../types/program";
 
 interface IProgramAddPane2 {
   setPlugins: any;
@@ -192,6 +196,20 @@ const defaultConfig: ProgramCreditCardConfig = {
   repaymentAssessmentRequirement: "MINIMUM_DUE",
 };
 
+const defaultInstallmentsConfig: ProgramInstallmentsConfig = {
+  minCreditLimit: null,
+  maxCreditLimit: null,
+  periodCount: null,
+  periodLength: null,
+  cashLeakHandling: null,
+  minimumPrincipal: null,
+  firstPaymentDaysOffset: null,
+  currency: null,
+  disqualifiedDebitHandling: null,
+  deferredPaymentOffset: null,
+  excessCreditAction: null,
+};
+
 const ProgramAddPane2: React.FC<IProgramAddPane2> = (props) => {
   const intl = useIntl();
   const history = useHistory();
@@ -200,7 +218,12 @@ const ProgramAddPane2: React.FC<IProgramAddPane2> = (props) => {
   const { product } = props;
 
   const [formData, setFormData] = useState({
-    formA: { productNameInput: null, values: null, validated: false, homeCurrency: null },
+    formA: {
+      productNameInput: null,
+      values: null,
+      validated: false,
+      homeCurrency: null,
+    },
     formB: { values: null, validated: false },
   });
 
@@ -295,7 +318,10 @@ const ProgramAddPane2: React.FC<IProgramAddPane2> = (props) => {
     if (formBRef.current) formBRef.current.click();
   };
 
-  const createProductForm = (product: any, config: ProgramConfig | ProgramCreditCardConfig) => {
+  const createProductForm = (
+    product: any,
+    config: ProgramConfig | ProgramCreditCardConfig | ProgramInstallmentsConfig
+  ) => {
     if (product.offeringType.indexOf("CreditCard") != -1) {
       if (!config) {
         config = defaultConfig;
@@ -318,16 +344,7 @@ const ProgramAddPane2: React.FC<IProgramAddPane2> = (props) => {
       return <ConfigureProductFormLineOfCredit initialValues={config} />;
     } else if (product.offeringType.indexOf("Installments") != -1) {
       if (!config) {
-        const installmentsConfig: ProgramInstallmentsConfig = {
-          minCreditLimit: null,
-          maxCreditLimit: null,
-          periodCount: null,
-          periodLength: null,
-          minimumPrincipal: null,
-          firstPaymentDaysOffset: null,
-          currency: null
-        };
-        config = installmentsConfig;
+        config = defaultInstallmentsConfig;
       }
       return (
         <ConfigureProductFormInstallments

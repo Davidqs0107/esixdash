@@ -61,8 +61,9 @@ const ProgramDetail: React.FC<IProgramDetailContext> = () => {
   const getPansIssued = (programName: string) =>
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
-    api.CardAPI.getUniquePanCountsByProgram(programName)
-      .catch((error: []) => setErrorMsg(error));
+    api.CardAPI.getUniquePanCountsByProgram(programName).catch((error: []) =>
+      setErrorMsg(error)
+    );
 
   const getCardProfiles = (name: string) =>
     // @ts-ignore

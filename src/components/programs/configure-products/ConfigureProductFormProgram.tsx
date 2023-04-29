@@ -179,7 +179,7 @@ const ConfigureProductFormProgram: React.FC<IConfigureProductFormProgram> = ({
           partner: partner.name,
           timeZone: partner.timeZone,
           location: partner.country,
-          language: partner.language.replace("en-US", "en"),
+          language: partner.language ? partner.language.replace("en-US", "en") : "en",
           productNameInput: productNameInput,
         });
       })
@@ -279,7 +279,7 @@ const ConfigureProductFormProgram: React.FC<IConfigureProductFormProgram> = ({
                     type="text"
                     placeholder={
                       <FormattedMessage
-                        id="configure.form.base.label.productName"
+                        id="productName"
                         description="Input Label"
                         defaultMessage="Product Name"
                       />

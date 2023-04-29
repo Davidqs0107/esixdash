@@ -25,7 +25,7 @@ export const toCustomerName = (
     feePlanName?: string;
   } | null
 ) => {
-  if (customer != null) {
+  if (customer != null && customer.primaryPerson) {
     const { firstName, lastName, title } = customer.primaryPerson;
     if (title) {
       return `${title}. ${firstName} ${lastName}`;

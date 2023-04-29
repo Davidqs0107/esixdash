@@ -6046,6 +6046,9 @@
   "modifiedOrCreated": {
     "defaultMessage": "modified or created"
   },
+  "button.HIDE": {
+    "defaultMessage": "HIDE"
+  },
   "personChangeHistory": {
     "defaultMessage": "Person Change History"
   },
@@ -6057,9 +6060,6 @@
   },
   "officialId": {
     "defaultMessage": "Official ID"
-  },
-  "button.HIDE": {
-    "defaultMessage": "HIDE"
   },
   "controls": {
     "defaultMessage": "Controls"
@@ -6400,7 +6400,7 @@
   "wallets.section.header.wallets": {
     "defaultMessage": "Wallets"
   },
-  "accountHolders.card.title.persons": {
+  "accountHolders": {
     "defaultMessage": "Account Holders"
   },
   "customer.account.link.account.holders": {
@@ -6436,8 +6436,8 @@
   "partner.add.additional.inns.button": {
     "defaultMessage": "ADD ADDITIONAL IIN"
   },
-  "configure.form.base.label.productName": {
-    "defaultMessage": "Product Name*"
+  "productName": {
+    "defaultMessage": "Product Name"
   },
   "configure.form.base.label.partner": {
     "defaultMessage": "Partner"
@@ -6652,6 +6652,21 @@
   "transaction.state.completed": {
     "defaultMessage": "Completed"
   },
+  "days": {
+    "defaultMessage": "Days"
+  },
+  "none": {
+    "defaultMessage": "None"
+  },
+  "totalDue": {
+    "defaultMessage": "Total Due"
+  },
+  "currentPeriodReturnToGraceForgiveness": {
+    "defaultMessage": "Current Period Return to Grace Forgiveness"
+  },
+  "repaymentAmountRequirement": {
+    "defaultMessage": "Repayment Amount Requirement"
+  },
   "tokenActivationMethod.SMS": {
     "defaultMessage": "SMS"
   },
@@ -6676,19 +6691,22 @@
   "activationMethods": {
     "defaultMessage": "Activation Methods"
   },
-  "days": {
-    "defaultMessage": "Days"
+  "error.field.number1and28": {
+    "defaultMessage": "{fieldName} must a number between 1 and 28"
   },
-  "none": {
-    "defaultMessage": "None"
+  "preConfiguredLoans": {
+    "defaultMessage": "Pre-Configured Loans"
   },
-  "totalDue": {
-    "defaultMessage": "Total Due"
+  "loanQualificationProcessing": {
+    "defaultMessage": "Loan Qualification Processing"
   },
-  "currentPeriodReturnToGraceForgiveness": {
-    "defaultMessage": "Current Period Return to Grace Forgiveness"
+  "deferredPaymentOffset": {
+    "defaultMessage": "Deferred Payment Offset"
   },
-  "repaymentAmountRequirement": {
-    "defaultMessage": "Repayment Amount Requirement"
+  "disqualifiedDebitHandling": {
+    "defaultMessage": "Disqualified Debit Handling"
+  },
+  "editAccountHolder": {
+    "defaultMessage": "Edit Account Holder"
   }
 }

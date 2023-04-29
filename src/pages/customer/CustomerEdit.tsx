@@ -50,6 +50,8 @@ import QDButton from "../../components/common/elements/QDButton";
 import toCountryName from "../../components/common/converters/CountryNameConverter";
 import PersonHistoryDrawer from "../../components/customer/drawers/PersonHistoryDrawer";
 import DateAndTimeConverter from "../../components/common/converters/DateAndTimeConverter";
+import { toCustomerName } from "../../components/common/converters/CustomerNameConverter";
+import Label from "../../components/common/elements/Label";
 
 interface ICustomerEditParam {
   id: string;
@@ -156,8 +158,8 @@ const CustomerEdit: React.FC = () => {
         const { line1, line2, line3 } = rowData;
         return (
           <>
-            {line1 && <TextRender data={line1} truncated={false} />}
-            {line2 && <TextRender data={line2} truncated={false} />}
+            {line1 && <TextRender data={line1} truncated={false} />} {" "}
+            {line2 && <TextRender data={line2} truncated={false} />} {" "}
             {line3 && <TextRender data={line3} truncated={false} />}
           </>
         );
@@ -875,98 +877,46 @@ const CustomerEdit: React.FC = () => {
           <form onSubmit={props.handleSubmit}>
             <Grid container>
               <Grid item md={12} lg={12}>
-                {!isAccountHolder ? (
-                  <BreadcrumbsNav
-                    aria-label="breadcrumb"
-                    className="withBorder"
-                  >
+                <BreadcrumbsNav aria-label="breadcrumb" className="withBorder">
+                  <Link href="/customer" underline="none">
+                    {intl.formatMessage({
+                      id: "customers",
+                      defaultMessage: "Customers",
+                    })}
+                  </Link>
+                  <Link href={`/customer/${customerNumber}/detail`} underline="none">
+                    {customerNumber}
+                  </Link>
+                  {isAccountHolder && (
                     <Link
-                      href="/customer"
-                      underline="none"
-                      variant="caption"
-                      className={classes.breadCrumbsText}
-                    >
+                      href={`/customer/${customerNumber}/account_holders`} underline="none">
                       {intl.formatMessage({
-                        id: "customers.header.Customer",
-                        defaultMessage: "Customer",
-                      })}
-                    </Link>
-                    <Link
-                      href={`/customer/${customerNumber}/detail`}
-                      underline="none"
-                      variant="caption"
-                      className={classes.breadCrumbsText}
-                    >
-                      {`${customerNumber}`}
-                    </Link>
-                    <Typography
-                      variant="caption"
-                      className={classes.breadCrumbsText}
-                    >
-                      {`${initialValues.title || ""} ${
-                        initialValues.firstName
-                      } ${initialValues.lastName} ${
-                        initialValues.suffix || ""
-                      }`}
-                    </Typography>
-                  </BreadcrumbsNav>
-                ) : (
-                  <BreadcrumbsNav
-                    aria-label="breadcrumb"
-                    className="withBorder"
-                  >
-                    <Link href="/customer" underline="none" variant="caption">
-                      {intl.formatMessage({
-                        id: "customers.header.Customer",
-                        defaultMessage: "Customer",
-                      })}
-                    </Link>
-                    <Link
-                      href={`/customer/${customerNumber}/detail`}
-                      underline="none"
-                      variant="caption"
-                    >
-                      {primaryPersonState.firstName}
-                      {primaryPersonState.lastName}
-                    </Link>
-                    <Link
-                      href={`/customer/${customerNumber}/account_holders`}
-                      underline="none"
-                      variant="caption"
-                    >
-                      {intl.formatMessage({
-                        id: "customers.header.Customer",
+                        id: "accountHolders",
                         defaultMessage: "Account Holders",
                       })}
                     </Link>
-                    <Typography variant="caption">
-                      Edit Account Holders
-                    </Typography>
-                  </BreadcrumbsNav>
-                )}
+                  )}
+                  <Label variant="grey" fontWeight={400}>
+                    {isAccountHolder ? 
+                      toCustomerName({ primaryPerson: primaryPersonState } as any) : 
+                      toCustomerName({ primaryPerson: initialValues } as any)}
+                  </Label>
+                </BreadcrumbsNav>
               </Grid>
             </Grid>
             <Grid container>
               <Grid item md={12} lg={12} sx={{ marginBottom: "16px" }}>
-                {!isAccountHolder ? (
-                  <Header
-                    value={intl.formatMessage({
-                      id: "customer.edit.header.title",
-                      defaultMessage: "Person Details",
-                    })}
-                    level={1}
-                    bold
-                  />
-                ) : (
-                  <Header
-                    value={intl.formatMessage({
-                      id: "customer.edit.account.holder.header.title",
-                      defaultMessage: "Edit Account Holder",
-                    })}
-                    level={1}
-                    bold
-                  />
-                )}
+                <Header
+                  value={isAccountHolder ? intl.formatMessage({
+                    id: "editAccountHolder",
+                    defaultMessage: "Edit Account Holder",
+                  }) : intl.formatMessage({
+                    id: "customer.edit.header.title",
+                    defaultMessage: "Person Details",
+                  })}
+                  level={1}
+                  bold
+                />
               </Grid>
             </Grid>
             <Grid container sx={{ marginTop: "3rem" }}>
@@ -1117,7 +1067,7 @@ const CustomerEdit: React.FC = () => {
                   <Info>
                     <InfoTitle>
                       {intl.formatMessage({
-                        id: "customer.edit.label.gender",
+                        id: "gender",
                         defaultMessage: "Gender",
                       })}
                     </InfoTitle>

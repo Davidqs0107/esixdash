@@ -26,8 +26,9 @@ import BreadcrumbsNav from "../../components/common/navigation/BreadcrumbsNav";
 import QDButton from "../../components/common/elements/QDButton";
 import AccountHoldersContext from "../../contexts/account-holders/AccountHoldersContext";
 import api from "../../api/api";
-import Pill from "../../components/common/elements/PillLabel";
 import { MessageContext } from "../../contexts/MessageContext";
+import { toCustomerName } from "../../components/common/converters/CustomerNameConverter";
+import Label from "../../components/common/elements/Label";
 
 interface ICustomerEditParam {
   id: string;
@@ -223,20 +224,24 @@ const AccountHolders: React.FC = () => {
       <Grid container>
         <Grid item md={12} lg={12}>
           <BreadcrumbsNav aria-label="breadcrumb" className="withBorder">
-            <Link href="/customer" underline="none" variant="caption">
+            <Link href="/customer" underline="none">
               {intl.formatMessage({
-                id: "customers.header.Customer",
+                id: "customer",
                 defaultMessage: "Customer",
               })}
             </Link>
             <Link
               href={`/customer/${customerNumber}/detail`}
               underline="none"
-              variant="caption"
             >
-              {primaryPersonState.firstName} {primaryPersonState.lastName}
+              {customerNumber}
             </Link>
-            <Typography variant="caption">Account Holders</Typography>
+            <Label variant="grey" fontWeight={400}>
+              {intl.formatMessage({
+                id: "accountHolders",
+                defaultMessage: "Account Holders",
+              })}
+            </Label>
           </BreadcrumbsNav>
         </Grid>
       </Grid>

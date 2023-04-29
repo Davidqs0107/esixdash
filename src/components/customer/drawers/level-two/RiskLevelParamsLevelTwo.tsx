@@ -173,7 +173,7 @@ const RiskLevelParamsLevelTwo = () => {
       render: (rowData: any) => (
         <TextRender
           data={RiskParamConverter(rowData.paramName, intl)}
-          color="#152C5B"
+          color="#152C5B" 
         />
       ),
     },
@@ -276,7 +276,7 @@ const RiskLevelParamsLevelTwo = () => {
         />
       ),
       render: (rowData: any) => (
-        <TextRender data={rowData.value} color="#152C5B" />
+        <TextRender data={rowData.value} color="#152C5B"/>
       ),
     },
     {

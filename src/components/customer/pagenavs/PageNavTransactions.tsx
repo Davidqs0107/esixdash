@@ -74,15 +74,23 @@ const PageNavTransactions: React.FC<IPageNavTransactions> = ({
     return dto;
   };
 
-  const getTransactions = () =>
+  const getTransactions = () => {
+    // TO DO: remove these mock data once we can generate multiple txn items
+    const mockTxnItem = {"creationTime":1679995252611,"modifiedTime":1679995252611,"id":"0918C5C715C10C1DC082069328CC6446-1000002204","transactionSourceCode":1,"transactionTypeCode":5,"reversal":false,"fee":false,"tax":false,"amount":50.00000,"amountText":"50.00000","memo":"Mock only","currency":"HKD","callerReference":"D57777273D20E0AC311CBBE9A229CEF0"};
+    const mockTxnItem2 = {"creationTime":1679995252611,"modifiedTime":1679995252611,"id":"0918C5C715C10C1DC082069328CC6446-1000002204","transactionSourceCode":1,"transactionTypeCode":5,"reversal":false,"fee":false,"tax":false,"amount":60.00000,"amountText":"60.00000","memo":"Mock only","currency":"HKD","callerReference":"D57777273D20E0AC311CBBE9A229CEF0"};
     // @ts-ignore
     api.TransactionAPI.listTransactions(buildFilterDTO())
       .then((txList: any) => {
         const { results } = txList;
+        if (results.length && results[0].transactionEntries) {
+          results[0].transactionEntries.push(mockTxnItem);
+          results[0].transactionEntries.push(mockTxnItem2);
+        }
         const flattenedTx: any = flattentxs(results);
         setTransactions(flattenedTx);
       })
       .catch((error: any) => setErrorMsg(error)); // TODO Handle error case
+  }
 
   useEffect(() => {
     getTransactions();

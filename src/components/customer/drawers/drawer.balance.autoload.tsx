@@ -44,6 +44,7 @@ interface IAutoload {
   homeCurrency: string;
   product: OfferingCustomerSummaryExtend;
   view?: boolean;
+  autoLoadRule?: any;
 }
 
 const DrawerAutoload: React.FC<IAutoload> = ({
@@ -52,6 +53,7 @@ const DrawerAutoload: React.FC<IAutoload> = ({
   product,
   toggleDrawer = () => {},
   view = false,
+  autoLoadRule,
 }) => {
   const { setErrorMsg, setSuccessMsg } = useContext(MessageContext);
   const intl = useIntl();
@@ -70,35 +72,8 @@ const DrawerAutoload: React.FC<IAutoload> = ({
   const [readOnly, setReadOnly] = useState<boolean>(view);
   const [isEdit, setIsEdit] = useState<boolean>(false);
 
-  const getAutoLoadRules = () =>
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-ignore
-    api.AutoloadAPI.getAutoLoadRules(customerNumber)
-      .then((result: any) => {
-        const { id, externalReferenceId, enabled, config } = result.shift();
-        setInitialValues({
-          currency: homeCurrency,
-          fixedAmount: config.fixedAmount,
-          id: id,
-          productType: AutoloadProductType.CREDIT,
-          externalReferenceId: externalReferenceId,
-          frequency: config.frequency,
-          dayOffset: config.dayOffset,
-          autoLoadStrategy: config.autoLoadStrategy,
-          enabled: enabled,
-        });
-      })
-      .catch((error: any) => console.log(error));
-
   const ref = useRef<any>(null);
   const [frequencies, setFrequencies] = useState([
-    {
-      label: intl.formatMessage({
-        id: "weekly",
-        defaultMessage: "Weekly",
-      }),
-      value: "WEEKLY",
-    },
     {
       label: intl.formatMessage({
         id: "monthly",
@@ -131,7 +106,7 @@ const DrawerAutoload: React.FC<IAutoload> = ({
           refOptions.push({
             label: ref.referenceNumber, //should encrypt the ref number, only display last 4 digit eg: ******1234
             value: ref.id,
-            partnerName: ref.partnerName
+            partnerName: ref.partnerName,
           });
         });
         // @ts-ignore
@@ -145,7 +120,17 @@ const DrawerAutoload: React.FC<IAutoload> = ({
 
   useEffect(() => {
     if (readOnly || isEdit) {
-      getAutoLoadRules();
+      setInitialValues({
+        currency: homeCurrency,
+        fixedAmount: autoLoadRule.fixedAmount,
+        id: autoLoadRule.id,
+        productType: AutoloadProductType.CREDIT,
+        externalReferenceId: autoLoadRule.externalReferenceId,
+        frequency: autoLoadRule.frequency,
+        dayOffset: autoLoadRule.dayOffset,
+        autoLoadStrategy: autoLoadRule.autoLoadStrategy,
+        enabled: autoLoadRule.enabled,
+      });
     }
   }, [readOnly, isEdit]);
 
@@ -212,8 +197,8 @@ const DrawerAutoload: React.FC<IAutoload> = ({
         1,
         intl.formatMessage(
           {
-            id: "error.field.number0and100",
-            defaultMessage: "Day of Period must a number between 0 and 100",
+            id: "error.field.number1and28",
+            defaultMessage: "Day of Period must a number between 1 and 28",
           },
           {
             fieldName: intl.formatMessage({
@@ -227,8 +212,8 @@ const DrawerAutoload: React.FC<IAutoload> = ({
         28,
         intl.formatMessage(
           {
-            id: "error.field.number0and100",
-            defaultMessage: "Day of Period must a number between 0 and 100",
+            id: "error.field.number1and28",
+            defaultMessage: "Day of Period must a number between 1 and 28",
           },
           {
             fieldName: intl.formatMessage({
@@ -325,7 +310,7 @@ const DrawerAutoload: React.FC<IAutoload> = ({
       (ref: any) => ref.value === initialValues.externalReferenceId
     );
     return extRef ? extRef.partnerName : "--";
-  }
+  };
 
   if (readOnly) {
     return (
@@ -385,11 +370,7 @@ const DrawerAutoload: React.FC<IAutoload> = ({
               <FormattedMessage id="partner" defaultMessage="Partner" />
             </Label>
             <TextRender
-              data={
-                initialValues.externalReferenceId ? 
-                  getPartnerName()
-                : "--"
-              }
+              data={initialValues.externalReferenceId ? getPartnerName() : "--"}
             />
           </Box>
           <Box sx={{ marginBottom: "14px" }}>
@@ -399,7 +380,7 @@ const DrawerAutoload: React.FC<IAutoload> = ({
                 defaultMessage="External Reference"
               />
             </Label>
-            <TextRender data={initialValues.externalReferenceId} />
+            <TextRender data={initialValues.externalReferenceId} truncated={false}/>
           </Box>
           <Box sx={{ marginBottom: "14px" }}>
             <Label variant="grey">

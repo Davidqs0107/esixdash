@@ -1196,7 +1196,7 @@ const PartnerDrawer: React.FC<IPartnerDrawer> = ({
                     />
                   </Label>
                   {exchanges.map((exchange: any) => (
-                    <TextRender data={exchange.name} />
+                    <TextRender data={exchange.name} truncated={false}/>
                   ))}
                 </FormGroup>
               )}
@@ -1214,6 +1214,7 @@ const PartnerDrawer: React.FC<IPartnerDrawer> = ({
                         <TextRender
                           data={p.name}
                           key={`linkedPartner-${p.name}`}
+                          truncated={false}
                         />
                       </div>
                     ))
@@ -1320,6 +1321,7 @@ const PartnerDrawer: React.FC<IPartnerDrawer> = ({
                         <TextRender
                           data={p.programName}
                           key={`linkedProgram-${p.programName}`}
+                          truncated={false}
                         />
                       </div>
                     ))
@@ -1435,7 +1437,7 @@ const PartnerDrawer: React.FC<IPartnerDrawer> = ({
                     <Grid item>
                       <TextRender
                         data={p}
-                        truncated
+                        truncated={false}
                         key={`partnerIINs-${p}`}
                         noMargin
                       />

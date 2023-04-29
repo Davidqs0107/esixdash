@@ -80,6 +80,16 @@ interface IProductCreditCard {
   programName: string;
 }
 
+interface AutoloadRule {
+  externalReferenceId: string;
+  config: {
+    frequency: string;
+    dayOffset: number;
+    autoLoadStrategy: string;
+    fixedAmount: number;
+  };
+}
+
 const ProductCreditCard = (props: any) => {
   const { customerNumber, homeCurrency, programName, programProduct } = props;
   const intl = useIntl();
@@ -131,6 +141,7 @@ const ProductCreditCard = (props: any) => {
     },
   ]);
   const [programConfig, setProgramConfig] = useState<ProgramCreditCardConfig>();
+  const [autoLoadRule, setAutoLoadRule] = useState<AutoloadRule>();
   const [externalRefList, setExternalRefList] = useState<
     CustomerExternalReference[]
   >([]);
@@ -173,11 +184,11 @@ const ProductCreditCard = (props: any) => {
 
           // eslint-disable-next-line @typescript-eslint/ban-ts-comment
           // @ts-ignore
-          api.ProductAPI.executeOfferingAction(customerNumber, req).then(
-            (res: any) => {
+          api.ProductAPI.executeOfferingAction(customerNumber, req)
+            .then((res: any) => {
               setLastBillingHistory(res[0]);
-            }
-          ).catch((error: any) => console.log(error));
+            })
+            .catch((error: any) => console.log(error));
         }
       }
     });
@@ -191,6 +202,15 @@ const ProductCreditCard = (props: any) => {
         setExternalRefList(result);
       })
       .catch((error: any) => setErrorMsg(error));
+
+  const getAutoLoadRules = () =>
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
+    api.AutoloadAPI.getAutoLoadRules(customerNumber)
+      .then((result: any) => {
+        setAutoLoadRule(result.shift());
+      })
+      .catch((error: any) => console.log(error));
 
   const setCustomerProduct = (product: OfferingCustomerSummary) => {
     const customerSummary: OfferingCustomerSummaryExtend = {
@@ -244,7 +264,11 @@ const ProductCreditCard = (props: any) => {
   }, [programProduct]);
 
   useEffect(() => {
-    isOfferingProgram ? getCustomerProduct() : null;
+    if (isOfferingProgram) {
+      getCustomerProduct();
+      getAutoLoadRules();
+    }
+
     emitter.on("drawbalances.changed", () => {
       getCustomerProduct();
       handleClosePurchaseBalancesMenu();
@@ -253,6 +277,7 @@ const ProductCreditCard = (props: any) => {
     });
     emitter.on("autoload.changed", () => {
       getCustomerProduct();
+      getAutoLoadRules();
       handleCloseAutoloadMenu();
     });
     emitter.on("drawbalances.cancel", () => {
@@ -1093,6 +1118,7 @@ const ProductCreditCard = (props: any) => {
                               homeCurrency={homeCurrency}
                               toggleDrawer={() => setAnchorAutoloadMenu(null)}
                               view={hasAutoLoadRule}
+                              autoLoadRule={autoLoadRule}
                             />
                           </DrawerComp>
                         </EllipseMenu>
@@ -1115,8 +1141,8 @@ const ProductCreditCard = (props: any) => {
 
                       <Grid item lg={6}>
                         <Label variant="labelDark" bold>
-                          {product?.autoLoadRuleDTO
-                            ? toTitleCase(product.autoLoadRuleDTO.frequency)
+                          {autoLoadRule
+                            ? toTitleCase(autoLoadRule.config.frequency)
                             : "N/A"}
                         </Label>
                         <Label variant="grey" regular>
@@ -1126,9 +1152,7 @@ const ProductCreditCard = (props: any) => {
                       <Grid item lg={6}>
                         {" "}
                         <Label variant="labelDark" bold>
-                          {product?.autoLoadRuleDTO
-                            ? product.autoLoadRuleDTO.dayOffset
-                            : "N/A"}
+                          {autoLoadRule ? autoLoadRule.config.dayOffset : "N/A"}
                         </Label>
                         <Label variant="grey" regular>
                           {product?.autoLoadRuleDTO?.frequency === "WEEKLY"
@@ -1140,9 +1164,9 @@ const ProductCreditCard = (props: any) => {
                       <Grid item container spacing={3}>
                         <Grid item lg={6}>
                           <Label variant="labelDark" bold>
-                            {product?.autoLoadRuleDTO
+                            {autoLoadRule
                               ? toTitleCase(
-                                  product.autoLoadRuleDTO.autoLoadStrategy.replace(
+                                  autoLoadRule.config.autoLoadStrategy.replace(
                                     "_",
                                     " "
                                   )
@@ -1153,12 +1177,12 @@ const ProductCreditCard = (props: any) => {
                             Amount Preference
                           </Label>
                         </Grid>
-                        {product?.autoLoadRuleDTO?.fixedAmount ? (
+                        {autoLoadRule ? (
                           <Grid item lg={6}>
                             <QDFormattedCurrency
                               className="label-dark-bold"
                               currency={homeCurrency}
-                              amount={product.autoLoadRuleDTO.fixedAmount}
+                              amount={autoLoadRule.config.fixedAmount}
                             />
                             <Label variant="grey" regular>
                               Custom Amount
@@ -1169,11 +1193,10 @@ const ProductCreditCard = (props: any) => {
 
                       <Grid item lg={6}>
                         <Label variant="labelDark" bold>
-                          {product && product?.autoLoadRuleDTO
+                          {product && autoLoadRule
                             ? externalRefList.find(
                                 (ref) =>
-                                  ref.id ===
-                                  product.autoLoadRuleDTO?.externalReferenceId
+                                  ref.id === autoLoadRule.externalReferenceId
                               )!.partnerName
                             : "N/A"}
                         </Label>
@@ -1184,11 +1207,10 @@ const ProductCreditCard = (props: any) => {
 
                       <Grid item lg={6}>
                         <Label variant="labelDark" bold>
-                          {product?.autoLoadRuleDTO
+                          {autoLoadRule
                             ? externalRefList.find(
                                 (ref) =>
-                                  ref.id ===
-                                  product.autoLoadRuleDTO?.externalReferenceId
+                                  ref.id === autoLoadRule.externalReferenceId
                               )!.referenceNumber
                             : "N/A"}
                         </Label>

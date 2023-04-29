@@ -69,6 +69,7 @@ const ReadOnlyRiskDrawer: React.FC<IRORiskDrawer> = ({
       render: (rowData: any) => (
         <TextRender
           data={RiskParamConverter(rowData.name, intl)}
+          truncated={false}
           color="#152C5B"
         />
       ),

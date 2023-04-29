@@ -361,6 +361,11 @@ const StandardTable: React.FC<IStandardTable> = ({
               <TableRow
                 id={`${tableRowPrefix}-${idx}`}
                 key={newId(`${tableRowPrefix}-${idx}`)}
+                sx={{
+                  ...(data.hidden && {
+                    display: "none",
+                  }),
+                }}
               >
                 {tableMetadata.map((col: any, _idx: number) => (
                   <TableCell
@@ -386,6 +391,11 @@ const StandardTable: React.FC<IStandardTable> = ({
               <TableRow
                 id={`${tableRowPrefix}-${idx}`}
                 key={`${tableRowPrefix}-${idx}`}
+                sx={{
+                  ...(data.hidden && {
+                    display: "none",
+                  }),
+                }}
               >
                 {tableMetadata.map((col: any, _idx: number) =>
                   col.header.props.defaultMessage !== "" ? (
@@ -399,7 +409,7 @@ const StandardTable: React.FC<IStandardTable> = ({
                         wordBreak: "break-word",
                       }}
                     >
-                      {col.render(data, col.className, col.icon, "heya")}
+                      {col.render(data, col.className, col.icon, "heya", _idx)}
                     </TableCell>
                   ) : (
                     <TableCell
@@ -411,7 +421,7 @@ const StandardTable: React.FC<IStandardTable> = ({
                         wordBreak: "break-word",
                       }}
                     >
-                      {col.render(data, col.className, col.icon, "heya")}
+                      {col.render(data, col.className, col.icon, "heya", _idx)}
                     </TableCell>
                   )
                 )}

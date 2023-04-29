@@ -11,7 +11,7 @@
  * extent permitted by law.
  */
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { FormattedMessage, useIntl } from "react-intl";
 import StandardTable from "../common/table/StandardTable";
 import YesNoConverter from "../common/converters/YesNoConverter";
@@ -23,6 +23,9 @@ import TextRender from "../common/TextRender";
 import QDFormattedCurrency from "../common/converters/QDFormattedCurrency";
 import DrawerComp from "../common/DrawerComp";
 import DrawerTransactionDetails from "./drawers/DrawerTransactionDetails";
+import Icon from "../common/Icon";
+import ClickableRender from "../common/ClickableRender";
+import emitter from "../../emitter";
 
 interface ITransactionsTable {
   customerNumber: string;
@@ -34,8 +37,57 @@ const TransactionsTable: React.FC<ITransactionsTable> = ({
   txList,
 }) => {
   const intl = useIntl();
+  const [txEntries, setTxEntries] = useState([]);
+  const [expand, setExpand] = useState(false);
 
   const TxTableMetadata = [
+    {
+      width: "5%",
+      header: <> </>,
+      render: (
+        rowData: any,
+        className: string,
+        icon: string,
+        ctr: string,
+        idx: number
+      ) => {
+        const {
+          isparent,
+          hidden,
+          expanded,
+          tx: { id },
+        } = rowData;
+        var ishidden = hidden;
+        return isparent && !ishidden ? (
+          <ClickableRender
+            id="password-reset-back-button"
+            onClickFunc={() => {
+              let childRows: any = txEntries.filter((e: any) => e.txId == id);
+              let expanded = false;
+              for (let i = 0; i < childRows.length; i++) {
+                childRows[i].hidden = false;
+                if (childRows[i].isparent) {
+                  expanded = !childRows[i].expanded;
+                  childRows[i].expanded = expanded;
+                } else {
+                  childRows[i].txe.creationTime = 0; // remove date on child items
+                  childRows[i].hidden = !expanded;
+                }
+              }
+              setTxEntries(txEntries);
+              setExpand(expanded);
+            }}
+          >
+            <img
+              height={13}
+              width={13}
+              src={expanded ? Icon.caretDownDark : Icon.caretRightDark}
+              alt=">"
+            />
+          </ClickableRender>
+        ) : null;
+      },
+    },
     {
       width: "14.2%",
       header: (
@@ -154,7 +206,10 @@ const TransactionsTable: React.FC<ITransactionsTable> = ({
       width: "14.2%",
       header: <> </>,
       render: (rowData: any) => {
-        const { txe, tx: { id, authCode, internalMemo, originalAuthDate } } = rowData;
+        const {
+          txe,
+          tx: { id, authCode, internalMemo, originalAuthDate },
+        } = rowData;
 
         return (
           <DrawerComp
@@ -179,12 +234,16 @@ const TransactionsTable: React.FC<ITransactionsTable> = ({
     },
   ];
 
+  useEffect(() => {
+    setTxEntries(txList);
+  }, [txList, expand]);
+
   return (
     <StandardTable
       id="customer-transaction-table"
       tableRowPrefix="customer-transactions-table"
       tableMetadata={TxTableMetadata}
-      dataList={txList}
+      dataList={txEntries}
     />
   );
 };

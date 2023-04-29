@@ -39,7 +39,6 @@ const Product = () => {
     // @ts-ignore
     api.ProductAPI.getProgramProduct(program.name)
       .then((product: any) => {
-        console.log("getProgramProduct", product);
         if (product.offeringClassName.indexOf("CreditCard") != -1) {
           if (!product.config.automaticLoadShiftSetting) {
             product.config.automaticLoadShiftSetting = null;
@@ -89,6 +88,7 @@ const Product = () => {
       if (product.offeringClassName.indexOf("Installments") != -1) {
         return <ConfigureProductFormInstallments
           programName={program.name}
+          defaultHomeCurrency={program.defaultHomeCurrency}
           submitForm={handleSubmit}
           initialValues={product.config as ProgramInstallmentsConfig}
           edit={true}

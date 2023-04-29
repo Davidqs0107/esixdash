@@ -377,7 +377,7 @@ const BankDrawer: React.FC<IBankDrawer> = ({
                   />
                   {bank.iins &&
                     bank.iins.map((iin: string, index: number) => (
-                      <TextRender data={iin} key={`label.iins.${index}`} />
+                      <TextRender data={iin} key={`label.iins.${index}`} truncated={false} />
                     ))}
                   <FieldArray
                     name="newIINs"

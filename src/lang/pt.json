@@ -4278,6 +4278,9 @@
   "modifiedOrCreated": {
     "defaultMessage": "modificado ou criado"
   },
+  "button.HIDE": {
+    "defaultMessage": "ESCONDER"
+  },
   "personChangeHistory": {
     "defaultMessage": "Histórico de Alterações de Pessoa"
   },
@@ -4289,9 +4292,6 @@
   },
   "officialId": {
     "defaultMessage": "Identificação Oficial"
-  },
-  "button.HIDE": {
-    "defaultMessage": "ESCONDER"
   },
   "controls": {
     "defaultMessage": "Controles"
@@ -4323,6 +4323,24 @@
   "previousBilledInterest": {
     "defaultMessage": "Juros Faturados Anteriores"
   },
+  "days": {
+    "defaultMessage": "Dias"
+  },
+  "none": {
+    "defaultMessage": "Nenhum"
+  },
+  "minimumDue": {
+    "defaultMessage": "Mínimo devido"
+  },
+  "totalDue": {
+    "defaultMessage": "Total devido"
+  },
+  "currentPeriodReturnToGraceForgiveness": {
+    "defaultMessage": "Período Atual Retorno à Graça Perdão"
+  },
+  "repaymentAmountRequirement": {
+    "defaultMessage": "Requisito de Valor de Reembolso"
+  },
   "tokenActivationMethod.SMS": {
     "defaultMessage": "SMS"
   },
@@ -4347,22 +4365,7 @@
   "activationMethods": {
     "defaultMessage": "Métodos de ativação"
   },
-  "days": {
-    "defaultMessage": "Dias"
-  },
-  "none": {
-    "defaultMessage": "Nenhum"
-  },
-  "minimumDue": {
-    "defaultMessage": "Mínimo devido"
-  },
-  "totalDue": {
-    "defaultMessage": "Total devido"
-  },
-  "currentPeriodReturnToGraceForgiveness": {
-    "defaultMessage": "Período Atual Retorno à Graça Perdão"
-  },
-  "repaymentAmountRequirement": {
-    "defaultMessage": "Requisito de Valor de Reembolso"
+  "error.field.number1and28": {
+    "defaultMessage": "{fieldName} deve ser um número entre 1 e 28"
   }
 }

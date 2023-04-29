@@ -2786,7 +2786,7 @@
   "accountHolder": {
     "defaultMessage": "アカウントホルダー*"
   },
-  "accountHolders.card.title.persons": {
+  "accountHolders": {
     "defaultMessage": "アカウントホルダー"
   },
   "customer.account.link.account.holders": {
@@ -3146,7 +3146,7 @@
   "configure.form.base.label.partner": {
     "defaultMessage": "パートナー"
   },
-  "configure.form.base.label.productName": {
+  "productName": {
     "defaultMessage": "プロダクト名"
   },
   "configure.form.button.setPlugins": {
@@ -5592,6 +5592,9 @@
   "modifiedOrCreated": {
     "defaultMessage": "変更または作成された"
   },
+  "button.HIDE": {
+    "defaultMessage": "隠れる"
+  },
   "personChangeHistory": {
     "defaultMessage": "個人変更履歴"
   },
@@ -5603,9 +5606,6 @@
   },
   "officialId": {
     "defaultMessage": "公的身分証明書"
-  },
-  "button.HIDE": {
-    "defaultMessage": "非表示"
   },
   "controls": {
     "defaultMessage": "コントロール"
@@ -6060,6 +6060,21 @@
   "transaction.state.completed": {
     "defaultMessage": "完了"
   },
+  "days": {
+    "defaultMessage": "日々"
+  },
+  "none": {
+    "defaultMessage": "なし"
+  },
+  "totalDue": {
+    "defaultMessage": "総支払額"
+  },
+  "currentPeriodReturnToGraceForgiveness": {
+    "defaultMessage": "現在の期間 恩寵への復帰 赦し"
+  },
+  "repaymentAmountRequirement": {
+    "defaultMessage": "返済額要件"
+  },
   "tokenActivationMethod.SMS": {
     "defaultMessage": "SMS"
   },
@@ -6084,35 +6099,23 @@
   "activationMethods": {
     "defaultMessage": "アクティベーション方法"
   },
-  "days": {
-    "defaultMessage": "日々"
-  },
-  "none": {
-    "defaultMessage": "なし"
-  },
-  "totalDue": {
-    "defaultMessage": "総支払額"
-  },
-  "currentPeriodReturnToGraceForgiveness": {
-    "defaultMessage": "現在の期間 恩寵への復帰 赦し"
-  },
-  "repaymentAmountRequirement": {
-    "defaultMessage": "返済額要件"
+  "error.field.number1and28": {
+    "defaultMessage": "{fieldName} は 1 から 28 までの数値でなければなりません"
   },
   "reset.password.fields": {
-    "defaultMessage": "以下でパスワードをリセットします"
+    "defaultMessage": "初回ログインパスワードの変更"
   },
   "reset.password.instructions": {
     "defaultMessage": "以下に新しいパスワードを入力し、2 番目のフィールドで新しいパスワードを確認します"
   },
   "oldPassword": {
-    "defaultMessage": "以前のパスワード"
+    "defaultMessage": "現在のパスワード"
   },
   "newPassword": {
     "defaultMessage": "新しいパスワード"
   },
   "confirmNewPassword": {
-    "defaultMessage": "新しいパスワードを確認"
+    "defaultMessage": "新しいパスワード(確認)"
   },
   "confirmPassword": {
     "defaultMessage": "パスワードを認証する"
@@ -6128,5 +6131,35 @@
   },
   "reset.password.error": {
     "defaultMessage": "パスワード再設定エラー"
+  },
+  "preConfiguredLoans": {
+    "defaultMessage": "事前設定されたローン"
+  },
+  "loanQualificationProcessing": {
+    "defaultMessage": "ローン資格処理"
+  },
+  "deferredPaymentOffset": {
+    "defaultMessage": "繰延支払オフセット"
+  },
+  "disqualifiedDebitHandling": {
+    "defaultMessage": "失格のデビット処理"
+  },
+  "partner.password.first.time.message": {
+    "defaultMessage": "初回ログインパスワードの変更を行います。現在のパスワードの後に新しいパスワードを入力してください。"
+  },
+  "incorrectOldPassword": {
+    "defaultMessage": "古いパスワードが正しくありません"
+  },
+  "oldPasswordDoesNotMatch": {
+    "defaultMessage": "提供された古いパスワードは、当社の記録と一致しません。正しい古いパスワードを入力してください。"
+  },
+  "passwordUsedPreviously": {
+    "defaultMessage": "以前に使用したパスワード"
+  },
+  "passwordUsedPreviouslyProvideNew": {
+    "defaultMessage": "以前のパスワードを再利用することはできません。新しいパスワードを入力してください。"
+  },
+  "editAccountHolder": {
+    "defaultMessage": "口座名義人を編集"
   }
 }

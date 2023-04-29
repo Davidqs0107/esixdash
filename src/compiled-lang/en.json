@@ -133,7 +133,7 @@
       "value": "Account Holder*"
     }
   ],
-  "accountHolders.card.title.persons": [
+  "accountHolders": [
     {
       "type": 0,
       "value": "Account Holders"
@@ -2173,12 +2173,6 @@
     {
       "type": 0,
       "value": "Partner"
-    }
-  ],
-  "configure.form.base.label.productName": [
-    {
-      "type": 0,
-      "value": "Product Name*"
     }
   ],
   "configure.form.base.label.timeZone": [
@@ -4691,6 +4685,12 @@
       "value": "Default Repayment Period"
     }
   ],
+  "deferredPaymentOffset": [
+    {
+      "type": 0,
+      "value": "Deferred Payment Offset"
+    }
+  ],
   "delete": [
     {
       "type": 0,
@@ -4749,6 +4749,12 @@
     {
       "type": 0,
       "value": "Dismiss"
+    }
+  ],
+  "disqualifiedDebitHandling": [
+    {
+      "type": 0,
+      "value": "Disqualified Debit Handling"
     }
   ],
   "dontShowAgain": [
@@ -5563,6 +5569,12 @@
       "value": "Edit"
     }
   ],
+  "editAccountHolder": [
+    {
+      "type": 0,
+      "value": "Edit Account Holder"
+    }
+  ],
   "editAddress": [
     {
       "type": 0,
@@ -6119,6 +6131,16 @@
     {
       "type": 0,
       "value": " must a number between 0 and 100"
+    }
+  ],
+  "error.field.number1and28": [
+    {
+      "type": 1,
+      "value": "fieldName"
+    },
+    {
+      "type": 0,
+      "value": " must a number between 1 and 28"
     }
   ],
   "error.field.numberType": [
@@ -8407,6 +8429,12 @@
       "value": "Loan Period Days*"
     }
   ],
+  "loanQualificationProcessing": [
+    {
+      "type": 0,
+      "value": "Loan Qualification Processing"
+    }
+  ],
   "locale": [
     {
       "type": 0,
@@ -9471,6 +9499,12 @@
       "value": "Postal Code"
     }
   ],
+  "preConfiguredLoans": [
+    {
+      "type": 0,
+      "value": "Pre-Configured Loans"
+    }
+  ],
   "preferredLanguage": [
     {
       "type": 0,
@@ -9535,6 +9569,12 @@
     {
       "type": 0,
       "value": "Product"
+    }
+  ],
+  "productName": [
+    {
+      "type": 0,
+      "value": "Product Name"
     }
   ],
   "productedit.credit.button": [

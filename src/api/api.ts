@@ -125,9 +125,6 @@ const authToken = () => (config: any) => {
 const reqRejected = () => (error: any) => {
   if (error.response.data.responseCode === "205000") {
     // not authorized
-    authService.setSession("");
-    // eslint-disable-next-line no-restricted-globals,no-undef
-    location.reload();
   } else if (error.response.data.responseCode === "205062") {
     // timeout function
     authService.logout();

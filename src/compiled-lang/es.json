@@ -2811,6 +2811,16 @@
       "value": " debe ser un número entre 0 y 100"
     }
   ],
+  "error.field.number1and28": [
+    {
+      "type": 1,
+      "value": "fieldName"
+    },
+    {
+      "type": 0,
+      "value": " debe tener un número entre 1 y 28"
+    }
+  ],
   "error.field.numberType": [
     {
       "type": 1,

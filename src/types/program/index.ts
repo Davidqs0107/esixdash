@@ -1,7 +1,7 @@
 interface InterestRateTierItem {
-  PURCHASE?: number,
-  CASH_ADVANCE?: number,
-  FEE?: number,
+  PURCHASE?: number;
+  CASH_ADVANCE?: number;
+  FEE?: number;
 }
 
 interface InterestRateTierHelperItem extends InterestRateTierItem {
@@ -10,12 +10,44 @@ interface InterestRateTierHelperItem extends InterestRateTierItem {
 }
 
 interface Program {
-  programName: string,
-  config: ProgramConfig | ProgramCreditCardConfig | ProgramInstallmentsConfig
-  offeringClassName: string
+  programName: string;
+  config: ProgramConfig | ProgramCreditCardConfig | ProgramInstallmentsConfig;
+  offeringClassName: string;
 }
 
 interface ProgramConfig {
+  minSpendLimit?: number | null;
+  maxSpendLimit?: number | null;
+  latePaymentFee?: number | null;
+  daysPerYear?: number | null | string;
+  interestTiersHelper?: InterestRateTierHelperItem[];
+  interestTiers?: Record<string, InterestRateTierItem>;
+  interestConfig?: Record<DrawType, InterestConfiguration>;
+}
+
+interface ProgramCreditCardConfig extends ProgramConfig {
+  drawTypes: DrawType[];
+  repaymentPeriodLength: number | null;
+  minimumPaymentPercentages: PaymentPercentages;
+  interestConfig: Record<DrawType, InterestConfiguration>;
+  repaymentHierarchy: RepaymentHierarchyItem[];
+  minimumPaymentStandardThreshold: number | null;
+  minimumPaymentOverallBalancePercentage: number | null;
+  minimumPaymentOwedPastDuePercentage: number | null;
+  repaymentDueShiftSetting?: string | null;
+  automaticLoadShiftSetting?: string | null;
+}
+
+interface ProgramInstallmentsConfig extends ProgramConfig {
+  minCreditLimit: number | null;
+  maxCreditLimit: number | null;
+  periodCount: number | null;
+  periodLength: string | null;
+  minimumPrincipal: number | null;
+  firstPaymentDaysOffset: number | null;
+  currency?: string | null;
+  excessCreditAction?: string | null;
+  interestConfig?: Record<DrawType, InterestConfiguration>,
   minSpendLimit?: number | null,
   maxSpendLimit?: number | null,
   latePaymentFee?: number | null,
@@ -44,32 +76,38 @@ interface ProgramInstallmentsConfig extends ProgramConfig {
   maxCreditLimit: number | null,
   periodCount: number | null,
   periodLength: string | null,
+  cashLeakHandling: string | null,
   minimumPrincipal: number | null,
   firstPaymentDaysOffset: number | null,
-  currency?: string | null,
+  currency: string | null,
+  disqualifiedDebitHandling?: string | null,
+  deferredPaymentOffset?: number | null,
 }
 
-type DrawType = 'PURCHASE' | 'CASH_ADVANCE' | 'FEE'
-type DrawBalanceType = | 'CURRENT' | 'OWED' | 'PREVIOUS'
-type DrawBalanceSubType = 'PRINCIPAL' | 'INTEREST'
-type InterestType = 'SIMPLE' | 'COMPOUND' | 'HYBRID' | 'NONE'
+type DrawType = "PURCHASE" | "CASH_ADVANCE" | "FEE";
+type DrawBalanceType = "CURRENT" | "OWED" | "PREVIOUS";
+type DrawBalanceSubType = "PRINCIPAL" | "INTEREST";
+type InterestType = "SIMPLE" | "COMPOUND" | "HYBRID" | "NONE";
 
 interface InterestConfiguration {
-  daysPerYear: number | null,
-  minAnnualRate: number | null,
-  maxAnnualRate: number | null,
-  defaultAnnualRate: number | null,
-  interestMode: InterestType | '',
+  daysPerYear: number | null;
+  minAnnualRate: number | null;
+  maxAnnualRate: number | null;
+  defaultAnnualRate: number | null;
+  interestMode: InterestType | "";
 }
 
 interface RepaymentHierarchyItem {
-  drawType: DrawType,
-  drawBalanceType: DrawBalanceType,
-  drawBalanceSubType: DrawBalanceSubType,
-  name?: string
+  drawType: DrawType;
+  drawBalanceType: DrawBalanceType;
+  drawBalanceSubType: DrawBalanceSubType;
+  name?: string;
 }
 
-type PaymentPercentages = Record<DrawType, Partial<Record<DrawBalanceType, Record<DrawBalanceSubType, number | null>>>>;
+type PaymentPercentages = Record<
+  DrawType,
+  Partial<Record<DrawBalanceType, Record<DrawBalanceSubType, number | null>>>
+>;
 
 export {
   InterestRateTierItem,
@@ -84,5 +122,5 @@ export {
   DrawBalanceSubType,
   InterestConfiguration,
   Program,
-  InterestRateTierHelperItem
+  InterestRateTierHelperItem,
 };

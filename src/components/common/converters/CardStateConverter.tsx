@@ -15,6 +15,7 @@
 import { defineMessages, MessageDescriptor } from "react-intl";
 
 const CardStateConverter = (status: string, intl: any) => {
+  console.log(status);
   const cardStateDefinition = defineMessages<string, MessageDescriptor>({
     CREATED: {
       id: "card.state.created",
@@ -50,6 +51,11 @@ const CardStateConverter = (status: string, intl: any) => {
       id: "card.state.invalid",
       description: "card state",
       defaultMessage: "Invalid",
+    },
+    ERROR: {
+      id: "card.state.error",
+      description: "card state",
+      defaultMessage: "Error",
     },
   });
   if (cardStateDefinition[status] !== null)

@@ -40,7 +40,7 @@ const InternationalizePhoneType = (phoneType: string, intl: IntlShape) => {
   });
 
   // @ts-ignore
-  return intl.formatMessage(phoneTypeDefinition[phoneType]);
+  return phoneType ? intl.formatMessage(phoneTypeDefinition[phoneType]) : "";
 };
 
 export default InternationalizePhoneType;

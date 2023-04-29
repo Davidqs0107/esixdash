@@ -74,7 +74,7 @@ const DrawerEditWallet: React.FC<IDrawerEditWallet> = ({
 
   const canActivateCard = (state: string) => {
     // return ['activated','invalid','returned','created'].includes(card.state);
-    return ["shipped", "sold", "resent", "virtual"].includes(state);
+    return ["shipped", "sold", "resent", "virtual", "created"].includes(state);
   };
 
   const expiryDisplay = card.expiry
@@ -156,7 +156,7 @@ const DrawerEditWallet: React.FC<IDrawerEditWallet> = ({
               defaultMessage="Program"
             />
           </Label>
-          <TextRender data={card.programName} />
+          <TextRender data={card.programName} truncated={false}/>
         </Grid>
         <Grid
           container
@@ -170,7 +170,7 @@ const DrawerEditWallet: React.FC<IDrawerEditWallet> = ({
               defaultMessage="Name"
             />
           </Label>
-          <TextRender data={card.embossedName} />
+          <TextRender data={card.embossedName} truncated={false}/>
         </Grid>
         <Grid
           container
@@ -296,7 +296,7 @@ const DrawerEditWallet: React.FC<IDrawerEditWallet> = ({
               defaultMessage="Type"
             />
           </Label>
-          <TextRender data={cardTypeDisplay} />
+          <TextRender data={cardTypeDisplay} truncated={false}/>
         </Grid>
         <Grid
           container
@@ -310,7 +310,7 @@ const DrawerEditWallet: React.FC<IDrawerEditWallet> = ({
               defaultMessage="Sequence Number"
             />
           </Label>
-          <TextRender data={card.sequenceNumber} />
+          <TextRender data={card.sequenceNumber}  truncated={false}/>
         </Grid>
         <Grid
           container
@@ -324,7 +324,7 @@ const DrawerEditWallet: React.FC<IDrawerEditWallet> = ({
               defaultMessage="Profile"
             />
           </Label>
-          <TextRender data={card.cardProfileName} />
+          <TextRender data={card.cardProfileName} truncated={false} />
         </Grid>
       </Box>
       <Box>

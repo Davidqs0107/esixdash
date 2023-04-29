@@ -168,6 +168,7 @@ const ProgramsRiskLevelDrawer: React.FC<IProgramsRiskLevelDrawer> = ({
                     data={selectedRiskLevel}
                     textTransform="capitalize"
                     fontWeight={400}
+                    truncated={false} 
                   />
                 </Box>
               ) : (

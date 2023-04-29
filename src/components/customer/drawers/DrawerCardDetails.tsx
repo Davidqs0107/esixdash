@@ -20,6 +20,7 @@ import { FormattedDate, FormattedMessage, useIntl } from "react-intl";
 import Header from "../../common/elements/Header";
 import TextRender from "../../common/TextRender";
 import Label from "../../common/elements/Label";
+import CardStateConverter from "../../common/converters/CardStateConverter";
 
 interface IDrawerCardDetails {
   card: any;
@@ -45,6 +46,8 @@ const DrawerCardDetails: React.FC<IDrawerCardDetails> = ({
     }
     return "";
   };
+
+  console.log(card.cardOrderInfo.state, card.cardOrderInfo.state.toUpperCase());
 
   return (
     <Box sx={{ width: "400px", padding: "0 14px", marginTop: "40px" }}>
@@ -73,7 +76,7 @@ const DrawerCardDetails: React.FC<IDrawerCardDetails> = ({
           />
         </Label>
         <TextRender
-          data={card.cardOrderInfo.state}
+          data={CardStateConverter(card.state.toUpperCase(), intl)}
           textTransform="capitalize"
           fontWeight={400}
         />
