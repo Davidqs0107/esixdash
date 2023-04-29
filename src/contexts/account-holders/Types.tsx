@@ -1,5 +1,6 @@
 // eslint-disable-next-line import/prefer-default-export
 export const GET_ACCOUNT_HOLDERS = "GET_ACCOUNT_HOLDERS";
+export const GET_TOTAL_ACCOUNT_HOLDERS = "GET_TOTAL_ACCOUNT_HOLDERS";
 export const SET_ACCOUNT_HOLDER_CONTACT_LIST =
   "SET_ACCOUNT_HOLDER_CONTACT_LIST";
 export const CLEAR_CONTACT_LIST = "CLEAR_CONTACT_LIST";

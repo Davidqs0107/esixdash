@@ -32,16 +32,15 @@ const AccountHoldersCard: React.FC<IRiskLevelCard> = ({
   cxIdent,
 }) => {
   const intl = useIntl();
-  const accountHoldersContext = useContext(AccountHoldersContext);
   const {
-    getAccountHolders,
-    accountHoldersList,
+    getTotalAccountHolders,
+    totalAccountHolders,
     clearAccountHolderContactList,
-  } = accountHoldersContext;
+  } = useContext(AccountHoldersContext);
 
   useEffect(() => {
     clearAccountHolderContactList();
-    getAccountHolders(cxIdent);
+    getTotalAccountHolders(cxIdent);
   }, []);
 
   return (
@@ -62,7 +61,7 @@ const AccountHoldersCard: React.FC<IRiskLevelCard> = ({
         <Box sx={{ mb: "20px" }}>
           {customer ? (
             <Label size="big" bold lineHeight="60px">
-              {accountHoldersList.length}
+              {totalAccountHolders}
             </Label>
           ) : null}
         </Box>

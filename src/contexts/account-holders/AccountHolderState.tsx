@@ -1,4 +1,4 @@
-import React, { useContext, useReducer } from "react";
+import React, { useContext, useEffect, useReducer, useState } from "react";
 import AccountHoldersContext from "./AccountHoldersContext";
 import AccountHoldersReducer from "./AccountHoldersReducer";
 import { MessageContext } from "../MessageContext";
@@ -6,6 +6,7 @@ import { store } from "../../store";
 
 import {
   GET_ACCOUNT_HOLDERS,
+  GET_TOTAL_ACCOUNT_HOLDERS,
   SET_ACCOUNT_HOLDER_CONTACT_LIST,
   ADD_ACCOUNT_HOLDERS,
   SET_PRIMARY_PERSON,
@@ -19,9 +20,10 @@ import api from "../../api/api";
 const AccountHolderState = (props: any) => {
   const initialState = {
     accountHoldersList: [],
+    totalAccountHolders: 0,
     accountHolderContactList: [],
     addAccountHolderList: [],
-    primaryPersonState: [],
+    primaryPersonState: {},
     isAccountHolder: false,
     isSecondary: false,
     secondaryPersonId: "",
@@ -62,6 +64,7 @@ const AccountHolderState = (props: any) => {
       payload: { data: status },
     });
   };
+
   const setSecondaryPersonId = (id: string) => {
     dispatch({
       type: SET_SECONDARY_PERSON_ID,
@@ -95,15 +98,23 @@ const AccountHolderState = (props: any) => {
   const clearAccountHolderContactList = () => {
     dispatch({
       type: CLEAR_CONTACT_LIST,
-      payload: { data: initialState.accountHolderContactList },
+      payload: { data: [] },
     });
   };
   const getSecondaryPersonsInformation = async (person: any) => {
     try {
+      const isSamePerson = state.primaryPersonState.id === person.id;
+
       const promises = [
-        getSecondaryPersonAddresses(person.id),
-        getSecondaryPersonEmails(person.id),
-        getSecondaryPersonPhones(person.id),
+        isSamePerson
+          ? Promise.resolve(state.primaryPersonState.addresses)
+          : getSecondaryPersonAddresses(person.id),
+        isSamePerson
+          ? Promise.resolve(state.primaryPersonState.emails)
+          : getSecondaryPersonEmails(person.id),
+        isSamePerson
+          ? Promise.resolve(state.primaryPersonState.contact)
+          : getSecondaryPersonPhones(person.id),
         getSecondaryPersonOfficialIds(person.id),
       ];
 
@@ -132,15 +143,34 @@ const AccountHolderState = (props: any) => {
     try {
       // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-ignore
-      const info = await api.CustomerAPI.getPersons(customerIdentifier);
+      const secondaryPersons = await api.CustomerAPI.getPersons(
+        customerIdentifier
+      );
 
-      info.map((person: { id: string }) =>
-        getSecondaryPersonsInformation(person)
+      await Promise.allSettled(
+        secondaryPersons.map((person: any) =>
+          getSecondaryPersonsInformation(person)
+        )
       );
 
       dispatch({
         type: GET_ACCOUNT_HOLDERS,
-        payload: { data: info },
+        payload: { data: secondaryPersons },
+      });
+    } catch (err) {
+      setErrorMsg(err);
+    }
+  };
+
+  const getTotalAccountHolders = async (customerIdentifier: string) => {
+    try {
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-ignore
+      const info = await api.CustomerAPI.getPersons(customerIdentifier);
+
+      dispatch({
+        type: GET_TOTAL_ACCOUNT_HOLDERS,
+        payload: { data: info.length },
       });
     } catch (err) {
       setErrorMsg(err);
@@ -158,6 +188,7 @@ const AccountHolderState = (props: any) => {
     <AccountHoldersContext.Provider
       value={{
         accountHoldersList: state.accountHoldersList,
+        totalAccountHolders: state.totalAccountHolders,
         accountHolderContactList: state.accountHolderContactList,
         addAccountHolderList: state.addAccountHolderList,
         isAccountHolder: state.isAccountHolder,
@@ -165,6 +196,7 @@ const AccountHolderState = (props: any) => {
         isSecondary: state.isSecondary,
         secondaryPersonId: state.secondaryPersonId,
         getAccountHolders,
+        getTotalAccountHolders,
         addAccountHolder,
         setPrimaryPerson,
         setIsSecondary,
