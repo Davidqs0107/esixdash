@@ -1,6 +1,7 @@
 import {
   ADD_ACCOUNT_HOLDERS,
   GET_ACCOUNT_HOLDERS,
+  GET_TOTAL_ACCOUNT_HOLDERS,
   SET_ACCOUNT_HOLDER_CONTACT_LIST,
   CLEAR_CONTACT_LIST,
   SET_IS_ACCOUNT_HOLDER,
@@ -25,6 +26,11 @@ export default (
         ...state,
         accountHoldersList: [...data],
       };
+    case GET_TOTAL_ACCOUNT_HOLDERS:
+      return {
+        ...state,
+        totalAccountHolders: data,
+      };
     case SET_ACCOUNT_HOLDER_CONTACT_LIST:
       return {
         ...state,
@@ -33,7 +39,8 @@ export default (
     case CLEAR_CONTACT_LIST:
       return {
         ...state,
-        accountHolderContactList: [...data],
+        accountHolderContactList: [],
+        totalAccountholders: 0,
       };
     case ADD_ACCOUNT_HOLDERS:
       return {

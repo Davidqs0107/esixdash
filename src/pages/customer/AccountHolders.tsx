@@ -37,10 +37,8 @@ interface ICustomerEditParam {
 const AccountHolders: React.FC = () => {
   const intl = useIntl();
   const customerNumber = useParams<ICustomerEditParam>().id;
-  const accountHoldersContext = useContext(AccountHoldersContext);
   const {
     getAccountHolders,
-    accountHoldersList,
     addAccountHolder,
     setIsAccountHolder,
     setPrimaryPerson,
@@ -48,11 +46,11 @@ const AccountHolders: React.FC = () => {
     setIsSecondary,
     setSecondaryPersonId,
     accountHolderContactList,
-  } = accountHoldersContext;
+  } = useContext(AccountHoldersContext);
   const { setErrorMsg } = useContext(MessageContext);
 
   const accountHolderData = () => {
-    if (accountHoldersList.length) {
+    if (accountHolderContactList.length) {
       return;
     }
     getAccountHolders(customerNumber);
@@ -79,7 +77,7 @@ const AccountHolders: React.FC = () => {
 
   useEffect(() => {
     accountHolderData();
-    getPerson();
+    // getPerson();
     setIsAccountHolder(true);
   }, []);
 
@@ -230,10 +228,7 @@ const AccountHolders: React.FC = () => {
                 defaultMessage: "Customer",
               })}
             </Link>
-            <Link
-              href={`/customer/${customerNumber}/detail`}
-              underline="none"
-            >
+            <Link href={`/customer/${customerNumber}/detail`} underline="none">
               {customerNumber}
             </Link>
             <Label variant="grey" fontWeight={400}>
@@ -293,6 +288,7 @@ const AccountHolders: React.FC = () => {
         {/*  <BankDrawer /> */}
         {/* </DrawerComp> */}
       </Box>
+
       <StandardTable
         id="account-holders-results"
         tableMetadata={tableMetadata}

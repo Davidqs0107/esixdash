@@ -11,7 +11,7 @@
  * extent permitted by law.
  */
 
-import React, { useContext, useEffect, useState } from "react";
+import React, { useCallback, useContext, useEffect, useState } from "react";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import List from "@mui/material/List";
@@ -67,9 +67,9 @@ import AccountHoldersContext from "../../contexts/account-holders/AccountHolders
 const CustomerDetail = (props: any) => {
   const { setErrorMsg } = useContext(MessageContext);
   const { canSeeCustomerMemos } = useContext(ContentVisibilityContext);
-  const accountHoldersContext = useContext(AccountHoldersContext);  const {
-    setIsAccountHolder,
-  } = accountHoldersContext;
+  const { setIsAccountHolder, setPrimaryPerson } = useContext(
+    AccountHoldersContext
+  );
   const state = store.getState();
   const roles = state.account?.user?.roles;
 
@@ -102,85 +102,71 @@ const CustomerDetail = (props: any) => {
 
   const getCustomer = async (customerIdentifier: any) => {
     // @ts-ignore
-    const cust = await api.CustomerAPI.get(customerIdentifier).catch(() =>
+    const customer = await api.CustomerAPI.get(customerIdentifier).catch(() =>
       history.push("/customer")
     );
-
     // @ts-ignore
     const custParent = await api.CustomerAPI.getCustomerParent(
       customerIdentifier
     ).catch(() => history.push("/customer"));
 
-    setCustomer(cust);
+    setCustomer(customer);
     setParentCustomer(custParent);
-    return cust;
+
+    return customer;
   };
 
-  const getCustomerAddresses = (personIdentifier: any) =>
+  const getCustomerAddresses = (personId: string) =>
     // @ts-ignore
-    api.PersonAPI.getAddress(personIdentifier)
-      .then((addressList: any) => {
-        setAddresses(addressList);
-      })
-      .catch((error: any) => error);
+    api.PersonAPI.getAddress(personId).catch(() => null);
 
-  const getCustomerEmails = (personIdentifier: any) =>
+  const getCustomerEmails = (personId: string) =>
     // @ts-ignore
-    api.PersonAPI.getEmailList(personIdentifier)
-      .then((emailList: any) => {
-        setEmails(emailList);
-      })
-      .catch((error: any) => error);
+    api.PersonAPI.getEmailList(personId).catch(() => null);
 
-  const getCustomerPhones = (personIdentifier: any) =>
+  const getCustomerPhones = (personId: string) =>
     // @ts-ignore
-    api.PersonAPI.getPhones(personIdentifier)
-      .then((phonesList: any) => {
-        setPhones(phonesList);
-      })
-      .catch((error: any) => error);
+    api.PersonAPI.getPhones(personId).catch(() => null);
 
   // eslint-disable-next-line max-len
   const getCustomerChildren = () =>
     // @ts-ignore
-    api.CustomerAPI.getCustomerChildren(customerNumber, {}) // use api defaults
-      .then((childList: { data: any }) => setChildren(childList.data))
-      .catch((error: any) => error);
+    api.CustomerAPI.getCustomerChildren(customerNumber, {})
+      .then((response: { data: any }) => response?.data)
+      .catch(() => []);
 
-  const getDeclinedTransactions = (customerId: any) => {
-    const cursor = { portfolioId: customerId, limit: 5 };
+  const getDeclinedTransactions = (customerId: string) =>
     // @ts-ignore
-    api.TransactionAPI.listDeclinedTransactions(cursor)
-      .then((txList: any) => {
-        const { results } = txList;
-        setDeclinedTxs(results);
-      })
-      .catch((error: any) => setErrorMsg(error));
-  };
+    api.TransactionAPI.listDeclinedTransactions({
+      portfolioId: customerId,
+      limit: 5,
+    })
+      .then((response: { results: any }) => response?.results)
+      .catch((error: Error) => {
+        setErrorMsg(error);
+        return [];
+      });
 
   const fixDateTime = (creationTime: string | number | Date | undefined) =>
     `${intl.formatDate(creationTime)}, ${intl.formatTime(creationTime)}`;
 
-  const getRecentActivity = (customerId: any) => {
+  const getRecentActivity = (customerId: string) =>
     // @ts-ignore
     api.CustomerAPI.activity(customerId)
-      .then(({ data }: any) => {
-        const transformed = data.map(
-          (x: {
-            id: any;
-            creationTime: string | number | Date | undefined;
-            type: any;
-          }) => ({
-            id: x.id,
-            title: fixDateTime(x.creationTime),
-            type: x.type,
-            memo: FormatRecentActivity(x.type, intl),
-          })
-        );
-        setRecentActivity(transformed.slice(0, 10));
+      .then((response: { data: any }) => {
+        return response?.data
+          ?.map((item: any) => ({
+            id: item.id,
+            title: fixDateTime(item.creationTime),
+            type: item.type,
+            memo: FormatRecentActivity(item.type, intl),
+          }))
+          ?.slice(0, 10);
       })
-      .catch((error: any) => setErrorMsg(error));
-  };
+      .catch((error: Error) => {
+        setErrorMsg(error);
+        return [];
+      });
 
   const getCustomerOfferings = (customerNumber: any, callback: any) => {
     let hasCustomerOffering = false;
@@ -360,27 +346,52 @@ const CustomerDetail = (props: any) => {
     }
   };
 
+  const getCustomerInfo = useCallback(
+    (customerNumber: any) => {
+      getCustomer(customerNumber).then((customer) => {
+        const person = customer.primaryPerson;
+
+        Promise.all([
+          getCustomerAddresses(person.id),
+          getCustomerEmails(person.id),
+          getCustomerPhones(person.id),
+          getCustomerChildren(),
+          getDeclinedTransactions(customer.id),
+          getRecentActivity(customer.id),
+        ]).then(
+          ([
+            addresses,
+            emails,
+            phones,
+            children,
+            declinedTransactions,
+            activities,
+          ]) => {
+            setPrimaryPerson({
+              ...person,
+              address: addresses,
+              emails: emails,
+              contact: phones,
+            });
+
+            setAddresses(addresses);
+            setEmails(emails);
+            setPhones(phones);
+            setChildren(children);
+            setDeclinedTxs(declinedTransactions);
+            setRecentActivity(activities);
+          }
+        );
+      });
+    },
+    [customerNumber]
+  );
+
   useEffect(() => {
-    getCustomer(customerNumber).then((cust) => {
-      const { id } = cust.primaryPerson;
-      getCustomerAddresses(id);
-      getCustomerEmails(id);
-      getCustomerPhones(id);
-      getCustomerChildren();
-      getDeclinedTransactions(cust.id);
-      getRecentActivity(cust.id);
-    });
+    getCustomerInfo(customerNumber);
 
     emitter.on("customer.details.changed", () =>
-      getCustomer(customerNumber).then((cust) => {
-        const { id } = cust.primaryPerson;
-        getCustomerAddresses(id);
-        getCustomerEmails(id);
-        getCustomerPhones(id);
-        getCustomerChildren();
-        getDeclinedTransactions(cust.id);
-        getRecentActivity(cust.id);
-      })
+      getCustomerInfo(customerNumber)
     );
 
     getFilteredNavs(customerNumber);
