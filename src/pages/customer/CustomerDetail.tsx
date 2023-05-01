@@ -152,7 +152,7 @@ const CustomerDetail = (props: any) => {
 
   const getRecentActivity = (customerId: string) =>
     // @ts-ignore
-    api.CustomerAPI.activity(customer.id)
+    api.CustomerAPI.activity(customerId)
       .then((response: { data: any }) => {
         return response?.data
           ?.map((item: any) => ({
