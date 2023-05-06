@@ -6161,5 +6161,8 @@
   },
   "editAccountHolder": {
     "defaultMessage": "口座名義人を編集"
+  },
+  "productCode": {
+    "defaultMessage": "製品コード"
   }
 }

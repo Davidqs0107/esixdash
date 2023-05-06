@@ -4367,5 +4367,8 @@
   },
   "error.field.number1and28": {
     "defaultMessage": "{fieldName} deve ser um número entre 1 e 28"
+  },
+  "productCode": {
+    "defaultMessage": "Código do produto"
   }
 }

@@ -9073,6 +9073,12 @@
       "value": "プロダクト"
     }
   ],
+  "productCode": [
+    {
+      "type": 0,
+      "value": "製品コード"
+    }
+  ],
   "productName": [
     {
       "type": 0,

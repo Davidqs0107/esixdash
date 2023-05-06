@@ -5515,6 +5515,12 @@
       "value": "Produto"
     }
   ],
+  "productCode": [
+    {
+      "type": 0,
+      "value": "Código do produto"
+    }
+  ],
   "program": [
     {
       "type": 0,

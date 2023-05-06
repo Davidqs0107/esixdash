@@ -55,6 +55,7 @@ interface IAddOrUpdateCardProfile {
   pinLength?: string;
   panLength?: string;
   schemeId?: string;
+  productCode?: string;
   tokenActivationMethods?: [];
 }
 
@@ -75,6 +76,7 @@ interface IGetCardProfile {
   pinLength?: string;
   panLength?: string;
   schemeId?: string;
+  productCode?: string;
   tokenActivationMethods?: TokenActivationMethod[];
 }
 
@@ -154,6 +156,7 @@ const ProgramCardProfileDrawer: React.FC<IDrawerInfo> = (props) => {
           pinLength: profile.pinLength,
           panLength: profile.panLength,
           schemeId: profile.schemeId,
+          productCode: profile.productCode,
           IINs: profile.iin,
           tokenActivationMethods: profile.tokenActivationMethods,
         });
@@ -224,6 +227,7 @@ const ProgramCardProfileDrawer: React.FC<IDrawerInfo> = (props) => {
       pinLength: values.pinLength,
       panLength: values.panLength,
       schemeId: values.schemeId,
+      productCode: values.productCode,
       tokenActivationMethods: values.tokenActivationMethods,
     })
       .then(() => {
@@ -346,6 +350,13 @@ const ProgramCardProfileDrawer: React.FC<IDrawerInfo> = (props) => {
         defaultMessage: "Max length is 10",
       })
     ),
+    productCode: Yup.string().max(
+      64,
+      intl.formatMessage({
+        id: "error.maxLength64",
+        defaultMessage: "Max length is 64",
+      })
+    ),
     tokenActivationMethods: Yup.array().of(
       Yup.object().shape({
         method: Yup.string().required(
@@ -393,6 +404,7 @@ const ProgramCardProfileDrawer: React.FC<IDrawerInfo> = (props) => {
         pinLength: "",
         panLength: "",
         schemeId: undefined,
+        productCode: "",
         tokenActivationMethods: [],
       });
     }
@@ -433,6 +445,7 @@ const ProgramCardProfileDrawer: React.FC<IDrawerInfo> = (props) => {
                 pinLength: true,
                 panLength: true,
                 schemeId: true,
+                productCode: true,
               }
             : {}
         }
@@ -786,6 +799,40 @@ const ProgramCardProfileDrawer: React.FC<IDrawerInfo> = (props) => {
                         placeholder={`${intl.formatMessage({
                           id: "issuerIdentifier",
                           defaultMessage: "Issuer identifier",
+                        })}`}
+                        value=""
+                        disabled={isReadOnly}
+                        {...FormProps}
+                      />
+                    )}
+                  </FormGroup>
+
+                  <FormGroup sx={{ mb: 2 }}>
+                    {isReadOnly ? (
+                      <div>
+                        <Label htmlFor="issuerIdentifier">
+                          <FormattedMessage
+                            id="productCode"
+                            description="Section Label"
+                            defaultMessage="Product Code"
+                          />
+                        </Label>
+                        <Typography>{FormProps.values.productCode}</Typography>
+                      </div>
+                    ) : (
+                      <InputWithPlaceholder
+                        handleBlur={undefined}
+                        handleChange={undefined}
+                        touched={undefined}
+                        errors={undefined}
+                        required={false}
+                        id=""
+                        name="productCode"
+                        autoComplete="off"
+                        type="text"
+                        placeholder={`${intl.formatMessage({
+                          id: "productCode",
+                          defaultMessage: "Product Code",
                         })}`}
                         value=""
                         disabled={isReadOnly}

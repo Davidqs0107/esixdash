@@ -9571,6 +9571,12 @@
       "value": "Product"
     }
   ],
+  "productCode": [
+    {
+      "type": 0,
+      "value": "Product Code"
+    }
+  ],
   "productName": [
     {
       "type": 0,

@@ -6708,5 +6708,8 @@
   },
   "editAccountHolder": {
     "defaultMessage": "Edit Account Holder"
+  },
+  "productCode": {
+    "defaultMessage": "Product Code"
   }
 }

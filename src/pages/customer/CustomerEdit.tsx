@@ -90,7 +90,6 @@ const CustomerEdit: React.FC = () => {
   const classes = useStyles();
   const { setErrorMsg, setSuccessMsg } = useContext(MessageContext);
   const { canSeeCustomerOfficialIds } = useContext(ContentVisibilityContext);
-  const accountHoldersContext = useContext(AccountHoldersContext);
   const {
     accountHoldersList,
     isAccountHolder,
@@ -98,7 +97,7 @@ const CustomerEdit: React.FC = () => {
     secondaryPersonId,
     isSecondary,
     accountHolderContactList,
-  } = accountHoldersContext;
+  } = useContext(AccountHoldersContext);
   const customerNumber = useParams<ICustomerEditParam>().id;
   const { secondaryId } = useParams<ISecondaryIdEditParam>();
   const { readOnly } = useContext(ContentVisibilityContext);
@@ -754,43 +753,25 @@ const CustomerEdit: React.FC = () => {
       history.push(`/customer/${customerNumber}/account_holders`);
     }
 
-    getCustomer().then((result: any) => {
-      const { id } = result.primaryPerson;
-      setPersonId(id);
-      setCustomerId(result.id);
+    setPersonId(primaryPersonState.id);
 
-      const promises = [
-        getCustomerAddresses(id),
-        getCustomerEmails(id),
-        getCustomerPhones(id),
-      ];
+    setAddresses(primaryPersonState.address);
+    setEmails(primaryPersonState.emails);
+    setPhones(primaryPersonState.contact);
 
-      Promise.all(promises).then((results) => {
-        setAddresses(results[0]);
-        setEmails(results[1]);
-        setPhones(results[2]);
-        //setConfigurations(results[3]);
-        //setAvailableConfigurations(results[4]);
-
-        setInitialValues({
-          personId: result.primaryPerson.id,
-          title: result.primaryPerson.title ? result.primaryPerson.title : null,
-          firstName: result.primaryPerson.firstName,
-          middleName: result.primaryPerson.middleName,
-          lastName: result.primaryPerson.lastName,
-          lastName2: result.primaryPerson.lastName2,
-          suffix: result.primaryPerson.suffix
-            ? result.primaryPerson.suffix
-            : null,
-          nickName: result.primaryPerson.nickName,
-          gender: result.primaryPerson.gender
-            ? result.primaryPerson.gender
-            : null,
-          dob: result.primaryPerson.dob,
-          created: result.primaryPerson.creationTime,
-          modified: result.primaryPerson.modifiedTime,
-        });
-      });
+    setInitialValues({
+      personId: primaryPersonState.id,
+      title: primaryPersonState.title,
+      firstName: primaryPersonState.firstName,
+      middleName: primaryPersonState.middleName,
+      lastName: primaryPersonState.lastName,
+      lastName2: primaryPersonState.lastName2,
+      suffix: primaryPersonState.suffix,
+      nickName: primaryPersonState.nickName,
+      gender: primaryPersonState.gender,
+      dob: primaryPersonState.dob,
+      created: primaryPersonState.creationTime,
+      modified: primaryPersonState.modifiedTime,
     });
   };
 
@@ -872,7 +853,7 @@ const CustomerEdit: React.FC = () => {
           })}`}
         </title>
       </Helmet>
-      <Formik initialValues={initialValues} onSubmit={() => {}}>
+      <Formik initialValues={initialValues} onSubmit={() => { }}>
         {(props: any) => (
           <form onSubmit={props.handleSubmit}>
             <Grid container>
@@ -884,12 +865,17 @@ const CustomerEdit: React.FC = () => {
                       defaultMessage: "Customers",
                     })}
                   </Link>
-                  <Link href={`/customer/${customerNumber}/detail`} underline="none">
+                  <Link
+                    href={`/customer/${customerNumber}/detail`}
+                    underline="none"
+                  >
                     {customerNumber}
                   </Link>
                   {isAccountHolder && (
                     <Link
-                      href={`/customer/${customerNumber}/account_holders`} underline="none">
+                      href={`/customer/${customerNumber}/account_holders`}
+                      underline="none"
+                    >
                       {intl.formatMessage({
                         id: "accountHolders",
                         defaultMessage: "Account Holders",
@@ -897,9 +883,11 @@ const CustomerEdit: React.FC = () => {
                     </Link>
                   )}
                   <Label variant="grey" fontWeight={400}>
-                    {isAccountHolder ? 
-                      toCustomerName({ primaryPerson: primaryPersonState } as any) : 
-                      toCustomerName({ primaryPerson: initialValues } as any)}
+                    {isAccountHolder
+                      ? toCustomerName({
+                        primaryPerson: primaryPersonState,
+                      } as any)
+                      : toCustomerName({ primaryPerson: initialValues } as any)}
                   </Label>
                 </BreadcrumbsNav>
               </Grid>
@@ -907,13 +895,17 @@ const CustomerEdit: React.FC = () => {
             <Grid container>
               <Grid item md={12} lg={12} sx={{ marginBottom: "16px" }}>
                 <Header
-                  value={isAccountHolder ? intl.formatMessage({
-                    id: "editAccountHolder",
-                    defaultMessage: "Edit Account Holder",
-                  }) : intl.formatMessage({
-                    id: "customer.edit.header.title",
-                    defaultMessage: "Person Details",
-                  })}
+                   value={
+                    isAccountHolder
+                      ? intl.formatMessage({
+                          id: "editAccountHolder",
+                          defaultMessage: "Edit Account Holder",
+                        })
+                      : intl.formatMessage({
+                          id: "customer.edit.header.title",
+                          defaultMessage: "Person Details",
+                        })
+                  }
                   level={1}
                   bold
                 />
@@ -1163,7 +1155,7 @@ const CustomerEdit: React.FC = () => {
                 tableMetadata={addressMetadata}
                 dataList={addresses}
                 tableRowPrefix="address-table"
-                //noBg
+              //noBg
               />
             </Box>
             <Box sx={{ marginTop: "3rem" }}>
@@ -1241,7 +1233,7 @@ const CustomerEdit: React.FC = () => {
                       tableMetadata={emailsMetadata}
                       dataList={emails}
                       tableRowPrefix="emails-table"
-                      //noBg
+                    //noBg
                     />
                   </Box>
                 </Grid>
@@ -1252,7 +1244,7 @@ const CustomerEdit: React.FC = () => {
                       tableMetadata={phonesMetadata}
                       dataList={phones}
                       tableRowPrefix="phones-table"
-                      //noBg
+                    //noBg
                     />
                   </Box>
                 </Grid>
@@ -1293,7 +1285,7 @@ const CustomerEdit: React.FC = () => {
                     tableMetadata={identificationMetadata}
                     dataList={identifications}
                     tableRowPrefix="identifications-table"
-                    //noBg
+                  //noBg
                   />
                 </Box>
               </>
